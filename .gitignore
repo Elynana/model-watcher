@@ -1,0 +1,30 @@
+# Dependencies and package-manager storage
+node_modules/
+.pnpm-store/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+secrets*
+
+# Build, test, and compiler output
+dist/
+coverage/
+*.tsbuildinfo
+
+# Logs, OS metadata, and editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Linked worktree used by GitHub Actions for durable watcher state
+.state/
+
+# Local watcher state; production force-adds this on model-watcher-state
+data/state/
