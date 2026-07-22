@@ -11,16 +11,22 @@
       "bodybuilder::bodybuilder",
       "claude-3::claude-3-haiku",
       "claude-fable::claude-fable-5",
+      "claude-fable::claude-fable-5-batch",
       "claude-fable::claude-fable-latest",
       "claude-haiku::claude-haiku-4-5",
       "claude-haiku::claude-haiku-latest",
       "claude-opus::claude-opus-4",
       "claude-opus::claude-opus-4-1",
+      "claude-opus::claude-opus-4-1-batch",
       "claude-opus::claude-opus-4-5",
+      "claude-opus::claude-opus-4-5-batch",
       "claude-opus::claude-opus-4-6",
+      "claude-opus::claude-opus-4-6-batch",
       "claude-opus::claude-opus-4-7",
+      "claude-opus::claude-opus-4-7-batch",
       "claude-opus::claude-opus-4-7-fast",
       "claude-opus::claude-opus-4-8",
+      "claude-opus::claude-opus-4-8-batch",
       "claude-opus::claude-opus-4-8-fast",
       "claude-opus::claude-opus-latest",
       "claude-sonnet::claude-sonnet-4",
@@ -97,51 +103,69 @@
       "gpt-3-5::gpt-3-5-turbo",
       "gpt-3-5::gpt-3-5-turbo-0613",
       "gpt-3-5::gpt-3-5-turbo-16k",
+      "gpt-3-5::gpt-3-5-turbo-batch",
       "gpt-3-5::gpt-3-5-turbo-instruct",
+      "gpt-4-1-batch::gpt-4-1-batch",
       "gpt-4-1::gpt-4-1",
       "gpt-4-1::gpt-4-1-mini",
+      "gpt-4-1::gpt-4-1-mini-batch",
       "gpt-4-1::gpt-4-1-nano",
+      "gpt-4-1::gpt-4-1-nano-batch",
       "gpt-4::gpt-4",
       "gpt-4::gpt-4-turbo",
+      "gpt-4::gpt-4-turbo-batch",
       "gpt-4::gpt-4-turbo-preview",
+      "gpt-4o-batch::gpt-4o-batch",
       "gpt-4o::gpt-4o",
       "gpt-4o::gpt-4o-2024-05-13",
       "gpt-4o::gpt-4o-2024-08-06",
       "gpt-4o::gpt-4o-2024-11-20",
       "gpt-4o::gpt-4o-mini",
       "gpt-4o::gpt-4o-mini-2024-07-18",
+      "gpt-4o::gpt-4o-mini-batch",
       "gpt-4o::gpt-4o-mini-search-preview",
       "gpt-4o::gpt-4o-search-preview",
+      "gpt-5-1-batch::gpt-5-1-batch",
       "gpt-5-1::gpt-5-1",
       "gpt-5-1::gpt-5-1-chat",
       "gpt-5-1::gpt-5-1-codex",
       "gpt-5-1::gpt-5-1-codex-max",
       "gpt-5-1::gpt-5-1-codex-mini",
+      "gpt-5-2-batch::gpt-5-2-batch",
       "gpt-5-2::gpt-5-2",
       "gpt-5-2::gpt-5-2-chat",
       "gpt-5-2::gpt-5-2-codex",
       "gpt-5-2::gpt-5-2-pro",
+      "gpt-5-2::gpt-5-2-pro-batch",
       "gpt-5-3::gpt-5-3-chat",
       "gpt-5-3::gpt-5-3-codex",
+      "gpt-5-4-batch::gpt-5-4-batch",
       "gpt-5-4::gpt-5-4",
       "gpt-5-4::gpt-5-4-image-2",
       "gpt-5-4::gpt-5-4-mini",
+      "gpt-5-4::gpt-5-4-mini-batch",
       "gpt-5-4::gpt-5-4-nano",
+      "gpt-5-4::gpt-5-4-nano-batch",
       "gpt-5-4::gpt-5-4-pro",
+      "gpt-5-4::gpt-5-4-pro-batch",
+      "gpt-5-5-batch::gpt-5-5-batch",
       "gpt-5-5::gpt-5-5",
       "gpt-5-5::gpt-5-5-pro",
+      "gpt-5-5::gpt-5-5-pro-batch",
       "gpt-5-6::gpt-5-6-luna",
       "gpt-5-6::gpt-5-6-luna-pro",
       "gpt-5-6::gpt-5-6-sol",
       "gpt-5-6::gpt-5-6-sol-pro",
       "gpt-5-6::gpt-5-6-terra",
       "gpt-5-6::gpt-5-6-terra-pro",
+      "gpt-5-batch::gpt-5-batch",
       "gpt-5::gpt-5",
       "gpt-5::gpt-5-chat",
       "gpt-5::gpt-5-codex",
       "gpt-5::gpt-5-image",
       "gpt-5::gpt-5-image-mini",
       "gpt-5::gpt-5-mini",
+      "gpt-5::gpt-5-mini-batch",
       "gpt-5::gpt-5-nano",
       "gpt-5::gpt-5-nano-batch",
       "gpt-5::gpt-5-pro",
@@ -698,12 +722,36 @@
       "gemini-3-5::gemini-3-5-flash-lite": 0,
       "laguna-s::laguna-s-2-1": 0,
       "laguna-s::laguna-s-2-1-free": 0,
-      "gpt-5::gpt-5-nano-batch": 0
+      "gpt-5::gpt-5-nano-batch": 0,
+      "claude-fable::claude-fable-5-batch": 0,
+      "claude-opus::claude-opus-4-8-batch": 0,
+      "gpt-5-5::gpt-5-5-pro-batch": 0,
+      "gpt-5-5-batch::gpt-5-5-batch": 0,
+      "claude-opus::claude-opus-4-7-batch": 0,
+      "gpt-5-4::gpt-5-4-nano-batch": 0,
+      "gpt-5-4::gpt-5-4-mini-batch": 0,
+      "gpt-5-4::gpt-5-4-pro-batch": 0,
+      "gpt-5-4-batch::gpt-5-4-batch": 0,
+      "claude-opus::claude-opus-4-6-batch": 0,
+      "gpt-5-2::gpt-5-2-pro-batch": 0,
+      "gpt-5-2-batch::gpt-5-2-batch": 0,
+      "claude-opus::claude-opus-4-5-batch": 0,
+      "gpt-5-1-batch::gpt-5-1-batch": 0,
+      "gpt-5-batch::gpt-5-batch": 0,
+      "gpt-5::gpt-5-mini-batch": 0,
+      "claude-opus::claude-opus-4-1-batch": 0,
+      "gpt-4-1-batch::gpt-4-1-batch": 0,
+      "gpt-4-1::gpt-4-1-mini-batch": 0,
+      "gpt-4-1::gpt-4-1-nano-batch": 0,
+      "gpt-4o::gpt-4o-mini-batch": 0,
+      "gpt-4o-batch::gpt-4o-batch": 0,
+      "gpt-4::gpt-4-turbo-batch": 0,
+      "gpt-3-5::gpt-3-5-turbo-batch": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "f484fbb7b6358e9e9e60f0918eb2178f5de38cac6ff49d53d04a4b89475025bf"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "d32ea6531a2b9b80c4875ff6ce6ab7614bb993790d408fd1ee9b9c55ea6f6bc4"
   },
   "benchmark:artificial-analysis-video": {
     "failureCount": 0,
@@ -748,8 +796,8 @@
       "kling::kling-3-0-omni-720p": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"5276ab75f229ed4323a316cef2d41ccf\"",
     "fingerprint": "782bb803af17f75406be730a942ff67e7d97b40287547fb52c66e6d8301a95a8"
   },
@@ -758,8 +806,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "lastModified": "Thu, 18 Jun 2026 14:11:02 GMT",
     "fingerprint": "59a14a35e0ca9305167eb892ccc2cde61234cb61ca76887cbfb37ee4a6c06602"
   },
@@ -774,9 +822,9 @@
       "jamba::jamba2": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "lastModified": "Wed, 22 Jul 2026 19:15:38 GMT",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "lastModified": "Wed, 22 Jul 2026 18:53:11 GMT",
     "fingerprint": "2cd14688c5425aaff645fca426f8965e2c031fd3d0ce722f942d530edbd3f299"
   },
   "official:anthropic-models": {
@@ -788,9 +836,9 @@
       "claude::claude-4-6": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "4404fb11b122ab3b432cf941fb4bf35d3cb86440c0cf164aae738a0ff81e49e0"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "3ce29fbc453adf5175cd99fe6521bf1d3878afbc45cfaedb0e842c0a7a51dfe2"
   },
   "official:api:anthropic": {
     "failureCount": 0,
@@ -843,8 +891,8 @@
       "flux::flux1-1": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "lastModified": "Wed, 22 Jul 2026 19:05:31 GMT",
     "fingerprint": "eb9c515f5217a128f542c5575e56208a16bac44542d10282ebf60b09967442a8"
   },
@@ -887,17 +935,17 @@
       "seed-music::seed-music-seed-music-a": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "5a56ecaffec1ee7e83af1f7376dbd5525b91ebc06b853e2d9e18e0b7e9f85b49"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "f629489bb1c58f0d2f607628e023d4820b392f703c9f0b184e38f14cb6c8bacc"
   },
   "official:cohere-models": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"w8xmwpqbrfg0du\"",
     "fingerprint": "c6e6c6021103c71a843679a51ed92b18fe03aa1836caae552ca3c10052e62a0c"
   },
@@ -906,8 +954,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "\"e2fb44396349e126364403c2db910464\"",
     "lastModified": "Mon, 13 Jul 2026 03:34:36 GMT",
     "fingerprint": "5ed7309f6b8bf5dbae559a012341aa604d02b0cce2e20c48aaa6f0a0bf287f89"
@@ -917,10 +965,10 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"pkqgnf5wfawg48\"",
-    "fingerprint": "75ee81deb05eb8f660c3904eaeb9497753cd468438f293c1c9dd26c8819ed8b2"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"wx8bdmmyzlwg5u\"",
+    "fingerprint": "c7fb67922531fa00afcac0cd7317bb23f41fe28d333ed5009e02e40efc047e24"
   },
   "official:google-models": {
     "failureCount": 0,
@@ -965,10 +1013,10 @@
       "gemini::gemini-3-6-flash": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "lastModified": "Tue, 21 Jul 2026 15:00:30 GMT",
-    "fingerprint": "60dcc889e137aa6bae52950027b222168de85a7977705a2217a4e4b646589013"
+    "fingerprint": "0f7b61cb7d1e80e5d4c988c08c84947f00ad7482ad9271e8ad954bfc0f2237ca"
   },
   "official:hf:bfl": {
     "failureCount": 0,
@@ -1047,10 +1095,10 @@
       "flux-1-schnell::flux-1-schnell": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"adbd-h6B2AQSuBfBMWvaWRPE5B+yavVQ\"",
-    "fingerprint": "926901e3e4c645d492d7bf433d36d87f18b0da69f1fec299b0f5159e4146e8e7"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"adbd-9VNgR1WiSuRDG7/ycxTU3ea4G8k\"",
+    "fingerprint": "f0eb03f4f38a7e87e7a73a9416aa4d9d81acbf07f23d77ea73f66ee568fd41d2"
   },
   "official:hf:bytedance": {
     "failureCount": 0,
@@ -1131,8 +1179,8 @@
       "sd2-1-base::sd2-1-base-zsnr-laionaes6": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"22e1e-vT9RZxMkZ6vZMW7xmhBUxe0us5Y\"",
     "fingerprint": "5d065c68631b2accd943eedb296b7f0a275b81b09feb12476c1229e80f8c9e01"
   },
@@ -1213,10 +1261,10 @@
       "command-nightly::command-nightly": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"13249-1pAygg+7MTh420C7UkkyTrYWWk8\"",
-    "fingerprint": "f1640e19ad7f336232ff991f969623b663a16fdbaa62a4523066e417c756063e"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"13249-2jx60iQ04uKFn0larGKSy++SinQ\"",
+    "fingerprint": "f74978cb321ad4bc773a8b7897d7ca8d3f31d84fde0ca0c9f6fbf76cf90f0a32"
   },
   "official:hf:deepseek-ai": {
     "failureCount": 0,
@@ -1425,8 +1473,8 @@
       "deepseek-coder::deepseek-coder-1-3b-base": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"40ba8-EhQaEcfygrEZjObKyxIU6dzZccI\"",
     "fingerprint": "ffb3654843363c882ea0bb24f6438dfcedab642c974f55e7ea8f42a6a58ff786"
   },
@@ -1591,8 +1639,8 @@
       "t5gemma-l::t5gemma-l-l-prefixlm-it": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"1f87bb-1GbWzbZEHuEX7krn8NpNdxBvwx0\"",
     "fingerprint": "a9c6c50874dad261f6baf4ab6ec7ac738f0141a512bc49d7e8263cf1738e9cfa"
   },
@@ -1653,8 +1701,8 @@
       "hunyuandit::hunyuandit": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"752c-NlR3LyENWdKlcHH7D6tk0+dU+UU\"",
     "fingerprint": "b89ce965ba501209e277301bff52932cdfe869ef0b29a1ba41fe62f13e7a9276"
   },
@@ -1729,10 +1777,10 @@
       "longanimatediff::longanimatediff": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"f96f-K7zUzQVJabkJJWZfqDZ1NN7VS5g\"",
-    "fingerprint": "022064478be43e6e7cdc12cdd9a45f13a64954638f8930d0babc332e83839a02"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"f96f-k7pWZ0tMoNMIzB04Wn+7wXodwfg\"",
+    "fingerprint": "2d35900ff05c6d014ef8e687ff3d2eb76a42de8aa8f1e3cdacc34961437b50ce"
   },
   "official:hf:meta-llama": {
     "failureCount": 0,
@@ -1881,10 +1929,10 @@
       "llama-2::llama-2-7b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"37b23-vo21KNhNoZn7DcYGFYy1bMJYMq8\"",
-    "fingerprint": "f84d6de60ed9016b7178e5c28dd3c29587f5e65b56c1fc5889e92cc1ac075808"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"37b23-s/vDVon7+mi5vGVpP9/U5t8AiV8\"",
+    "fingerprint": "a7d40ca2a029ec7ebcbdd284aa175cf7cc5abe22f70a5444bb8e264ea41eef1f"
   },
   "official:hf:microsoft": {
     "failureCount": 0,
@@ -2054,10 +2102,10 @@
       "fara1-5-9b::fara1-5-9b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"1befa-14woUzm/MjG1jJ+uP39tk/Y04qc\"",
-    "fingerprint": "9e796ec6ccfd9d63f6fdec5bc07378e6a7ad801dc33e72939ac3c50a93ea1b9a"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"1befa-1zANqvSEeaQG6bHDuUi1lOvBzPs\"",
+    "fingerprint": "c961173b77e19664268099de0c0327aabb78f4e5ace76e73f94c11e740bf7a47"
   },
   "official:hf:minimax": {
     "failureCount": 0,
@@ -2104,8 +2152,8 @@
       "minimax-text::minimax-text-01": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"302e4-a2iDWl3FvVKKe7DX39rjU7UKhnA\"",
     "fingerprint": "0ca0e0b8c81fe071744122c51c2976fbf0da17db0484147607854170ccff6cda"
   },
@@ -2264,8 +2312,8 @@
       "mistral-7b::mistral-7b-v0-1": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"2ad83-asIQ3A6eokX4eF2cPAflfJeHtdU\"",
     "fingerprint": "b25f2f7d92b4895e16d8b21b0904fbe70ee29fde04e7c4ed2534249383e21f51"
   },
@@ -2310,10 +2358,10 @@
       "moonlight-16b::moonlight-16b-a3b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"e108-hT6A0H599C+PFKMFlyIHPkyNASI\"",
-    "fingerprint": "ac3e2b4367619723fc60af45ec3b6fcb1c8d1b2fa3aedfd2e67067364531a26a"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"e108-XsgD249Yiq5KnQCNLxNpvwMbeUA\"",
+    "fingerprint": "0b9b68fe3349fb275d1ec5abc0506159c75507b36cda51ba8b249ceb12807e62"
   },
   "official:hf:nvidia": {
     "failureCount": 0,
@@ -2459,10 +2507,10 @@
       "minimax-m3::minimax-m3-dspark": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"105763-lw+5jSaKgRS6Dqk0Zkic7xkKfm8\"",
-    "fingerprint": "55f8339bd3ac1fd8ddf8f4cfbd3b72a2eb09bae7d9847c1b9edd7bb3402435de"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"105763-vDVPthkbBieQlTMJ2HYNUfm+9qI\"",
+    "fingerprint": "237c2cb1e4d5b05d0096ac2de878db579938b7afe336529039814e493ecdfb5c"
   },
   "official:hf:qwen": {
     "failureCount": 0,
@@ -2671,10 +2719,10 @@
       "qwen3-vl::qwen3-vl-235b-a22b-thinking-fp8": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"2ae8f-aglVm12DGa3t+X+8WrZ7nMvYS3k\"",
-    "fingerprint": "3bccbc9a4b417abef00ca60efdfd39864b760889812a100d23fccfaa1d2fceef"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"2ae8f-dVVqd6srUGN93j+vtBsiLTtGKMM\"",
+    "fingerprint": "234d11fe587878a1a3e1a8defb74c9e15c03a122a3b94f10a2803032f25dd188"
   },
   "official:hf:stability": {
     "failureCount": 0,
@@ -2857,8 +2905,8 @@
       "stablebeluga-7b::stablebeluga-7b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"2d3b5-PCKhCxM9U/S207gXn5+Os4Zcayk\"",
     "fingerprint": "8d5f670c2a006322323af043887448fe4938f3872f32a17b4620c542eae10aca"
   },
@@ -2917,8 +2965,8 @@
       "wan2-1-t2v::wan2-1-t2v-14b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"174d4-i7okv0AjZM7XHSoVkmiFdoHmre0\"",
     "fingerprint": "66e99344a58723b3e572d540ff49c6ad900545d655bda18ebbe0517f86f52216"
   },
@@ -3115,10 +3163,10 @@
       "glm-4::glm-4-9b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "etag": "W/\"39926-fYCvuiLFn4Zris7gbWzwrMES9Wo\"",
-    "fingerprint": "16f1355523f76bd533c8d7874c16bd19e330660690a1b9fee92b1006767b2c29"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "etag": "W/\"39926-nwANKGcMCutBV4l/FTSJBSBXOeQ\"",
+    "fingerprint": "ba4fd5343812a443d3ca82c9977737651c48a398dee319301335f9eb9ea1ff8d"
   },
   "official:ideogram-models": {
     "failureCount": 0,
@@ -3131,8 +3179,8 @@
       "ideogram::ideogram-3-0": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"pamwpyf1a7rhmj\"",
     "fingerprint": "cfb5d0380f21a6347260c6fd4af3d7f124f647de5640275fbbf409f52e0796c0"
   },
@@ -3141,8 +3189,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "\"1784300256\"",
     "lastModified": "Fri, 17 Jul 2026 14:57:36 GMT",
     "fingerprint": "3c5572f3e262faa936336ebacde76112d1b60bc2a56c9f8d4ba026a8302ff8e6"
@@ -3164,18 +3212,18 @@
       "ideogram::ideogram-3-0": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "8fbfad5aa9090bab033c6b6c2f5aa8acff7bdf3e651bd95433f4db667f35edb1"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "d2aea5ad2ceb1934a6fa17906eea98ddc93b2a91de90e4827fbe0e6dddd77b2f"
   },
   "official:luma-models": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "419a1872db58f9b44ffc11b4e7a3cc94f5f3b82cddb649007ae24d9d464b2a0f"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "007e5386db4e4701dd3027405b75b1123fb89400b21d6ecd8482c81763005f8b"
   },
   "official:meshy-models": {
     "failureCount": 0,
@@ -3188,8 +3236,8 @@
       "meshy::meshy-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "fingerprint": "bd2b95bc9443713eecbaf2dc676673a23136c5deb6338f20be0a638661f50a93"
   },
   "official:meta-llama": {
@@ -3197,9 +3245,9 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "191d31f2a085864b024b075618d0341bbf9d58497995ce447b2e95c7ec354313"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "354e15ef97b4c1733f8e0fac07c6ae67683b3df18a9879595522e2a0eaa5e04e"
   },
   "official:microsoft-models": {
     "failureCount": 0,
@@ -3224,17 +3272,17 @@
       "phi::phi-1-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "463181ff8159c21575b25bc4a0efde83af3870f33299a63dd27d44f9889a2a63"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "44318c199faacd961e5ad67be359fbfc1d088e6dfead062c11ffb72fd54a49a5"
   },
   "official:midjourney-updates": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"2d44-sWXNXsOQ4pQRwfGV3fkO8q4mLCE\"",
     "fingerprint": "26b3e2ae7c1f662c3c88ab0a22d2dd6464e74c2fad6e7b1739b79a087cfb77e8"
   },
@@ -3247,17 +3295,17 @@
       "hailuo::hailuo-2-3": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "b71fca9a7311b6d5ebbad5b408a771d9a9469a1fcb2bece85f5dcd50092b5209"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "a0189ab7203a73498a47472f4fb4bf59418cbc560e95ba87d168417003186e46"
   },
   "official:mistral-models": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"7aee4c01700f76cc0f344cb9ccb3918e\"",
     "fingerprint": "a00c7d082b3798773aadf28f7bf1ed8d2dc66a6a2c1efe71962538617a6a87c3"
   },
@@ -3274,8 +3322,8 @@
       "gpt-image::gpt-image-2": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "fingerprint": "ec4d869bce0ac62c2bc8ab97397e7392fe53f240ff781ce21a7bf8f4e4b33c71"
   },
   "official:pika-models": {
@@ -3287,17 +3335,17 @@
       "pika::pika-2-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "45da123c9603e5cf32c24e15af94b26d885cdbf2af613aced4a06bfde2cc8416"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "456fd377d826e854a40809fc2bd6707d1ceed109a4855f8562c53e5ecf63a943"
   },
   "official:pixverse-models": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "fingerprint": "989230e65e81029aebbf28d57b5be34c05672a3dba8ce4cf15447ba05b18a529"
   },
   "official:qwen-models": {
@@ -3311,8 +3359,8 @@
       "qwen::qwen2-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"6970c244-439b\"",
     "lastModified": "Wed, 21 Jan 2026 12:10:44 GMT",
     "fingerprint": "f874cc1c99c3454e3ea933dac9790e5cb329e25bf5766b270ab9e38bd780bffe"
@@ -3322,8 +3370,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "fingerprint": "3d70fdf04a67d24612838a3449b8c0d721f064e7f515259e36a4450c2d909090"
   },
   "official:runway-models": {
@@ -3337,8 +3385,8 @@
       "veo::veo3-1": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "\"3f10eb8f68238dfef1d462c8fe5df75a\"",
     "lastModified": "Tue, 21 Jul 2026 17:13:58 GMT",
     "fingerprint": "6e1086b7bb62992ff0c9204082781be83969eec946dc29ad506c8911c018a705"
@@ -3348,17 +3396,17 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
-    "fingerprint": "b2ac1083ed050aa2fb195ff45aaff6e77b6441489763a71a6a6d2dce2e454e90"
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
+    "fingerprint": "e59a3c6bee339158a3d661062f83877154d41460b20ea2989db6b942f26f8fba"
   },
   "official:suno-news": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "fingerprint": "cd522b2282ba4911330f4a8cdf0ac803f3ca7d83f937ca927747e80b2b122b8a"
   },
   "official:tripo-models": {
@@ -3366,8 +3414,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "fingerprint": "a333ef8662118f395135121be036d963e2ccdae82e8ba8e303e2a388425c1b67"
   },
   "official:udio-news": {
@@ -3375,8 +3423,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "fingerprint": "511b35374b61bbd38ebf1c1316fba4ffeb39505c387ac45a4726e642296dd5b0"
   },
   "official:vidu-model-map": {
@@ -3408,8 +3456,8 @@
       "vidu::viduq2-turbo": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "fingerprint": "39be4577cc5bf0dfe7cbb3099b2d08bd8bdc6372234fd76fed26c7c8854972b7"
   },
   "official:worldlabs-news": {
@@ -3417,8 +3465,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-22T21:41:25.650Z",
-    "lastSuccess": "2026-07-22T21:41:25.650Z",
+    "lastChecked": "2026-07-22T22:44:01.948Z",
+    "lastSuccess": "2026-07-22T22:44:01.948Z",
     "etag": "W/\"a03aff836dfb5b399ce59cfaf4ac6628\"",
     "fingerprint": "31bccdaf93a3e55cd948c0a95c7f9c73c9358eaa216a6056fb4c7d41183c65bb"
   }
