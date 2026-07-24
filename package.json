@@ -4,12 +4,13 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.10.0",
-  "description": "Free GitHub Actions watcher for cutting-edge generative AI model releases.",
+  "description": "Definitive generative-AI model release watcher and Discord bot covering every major publisher.",
   "scripts": {
     "watch": "tsx src/index.ts",
     "dry": "tsx src/index.ts --dry-run --force",
     "seed": "tsx src/index.ts --seed --force",
-    "fixtures": "node --import tsx --test test/fixtures.test.ts",
+    "bot": "tsx src/bot/index.ts",
+    "bot:register": "tsx src/bot/index.ts --register-only",
     "test": "node --import tsx --test test/*.test.ts",
     "typecheck": "tsc --noEmit"
   },

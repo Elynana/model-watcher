@@ -1,0 +1,39 @@
+{
+  "sample_spec": { "mode": "chat" },
+  "gemini/veo-3.1-generate-001": {
+    "litellm_provider": "gemini",
+    "mode": "video_generation",
+    "output_cost_per_second": 0.4,
+    "supported_modalities": ["text", "image"],
+    "supported_output_modalities": ["video"],
+    "source": "https://ai.google.dev/gemini-api/docs/video"
+  },
+  "openai/sora-2-pro": {
+    "litellm_provider": "openai",
+    "mode": "video_generation",
+    "output_cost_per_second": 0.5,
+    "supported_output_modalities": ["video"]
+  },
+  "elevenlabs/eleven_v3": {
+    "litellm_provider": "elevenlabs",
+    "mode": "audio_speech",
+    "supported_output_modalities": ["audio"]
+  },
+  "cohere/rerank-v4.0": {
+    "litellm_provider": "cohere",
+    "mode": "rerank"
+  },
+  "1024-x-1024/dall-e-2": {
+    "litellm_provider": "openai",
+    "mode": "image_generation"
+  },
+  "us.anthropic.claude-opus-4-6-v1:0": {
+    "litellm_provider": "bedrock_converse",
+    "mode": "chat",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 64000,
+    "input_cost_per_token": 0.000005,
+    "output_cost_per_token": 0.000025,
+    "supports_reasoning": true
+  }
+}

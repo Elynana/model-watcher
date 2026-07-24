@@ -1,46 +1,60 @@
 import type { SourceAdapter, SourceRunResult, WatcherState } from "../types.ts";
 import { emptySourceState } from "../state.ts";
-import { due, sha256 } from "../util.ts";
+import { due, mapLimit, sha256 } from "../util.ts";
 import { sourceRunFailure } from "../engine.ts";
 
+export interface RunOptions {
+  force?: boolean;
+  /** Parallel source fetches. Per-domain pacing still applies inside fetch. */
+  concurrency?: number;
+  /** Only run sources whose id contains this substring. */
+  only?: string;
+}
+
+/**
+ * Runs every due source. A source can only ever fail in isolation: a parser
+ * error, an empty authoritative response, or an implausible result count is
+ * recorded as a failure and can never delete a model from the catalog.
+ */
 export async function runSources(
   sources: SourceAdapter[],
   state: WatcherState,
-  options: { force?: boolean } = {},
+  options: RunOptions = {},
 ): Promise<SourceRunResult[]> {
-  const results: SourceRunResult[] = [];
-  for (const source of sources) {
+  const selected = options.only ? sources.filter((source) => source.id.includes(options.only!)) : sources;
+
+  return mapLimit(selected, options.concurrency ?? 6, async (source): Promise<SourceRunResult> => {
     const current = state.sources[source.id] ?? emptySourceState();
     const wasBaseline = !current.baselineComplete;
+
     if (!source.enabled()) {
-      results.push({ source, status: "skipped", observations: [], wasBaseline });
-      console.log(`[skip] ${source.id} (optional credentials unavailable)`);
-      continue;
+      return { source, status: "skipped", observations: [], wasBaseline };
     }
     if (!options.force && !due(current.lastChecked, source.intervalMinutes)) {
-      results.push({ source, status: "skipped", observations: [], wasBaseline });
-      continue;
+      return { source, status: "skipped", observations: [], wasBaseline };
     }
     try {
       const document = await source.fetch(current);
       if (document.status === 304) {
-        results.push({ source, status: "not-modified", observations: [], document, wasBaseline });
         console.log(`[304]  ${source.id}`);
-        continue;
+        return { source, status: "not-modified", observations: [], document, wasBaseline };
       }
       const observations = source.parse(document);
-      if (observations.length > 5000) throw new Error(`parser returned an unsafe ${observations.length} observations`);
+      if (observations.length > 20_000) {
+        throw new Error(`parser returned an implausible ${observations.length} observations`);
+      }
       if (source.tracksRemovals && current.modelKeys.length > 0 && observations.length === 0) {
         throw new Error("parser returned zero models for a previously populated authoritative source");
       }
-      current.fingerprint = sha256(document.body);
-      results.push({ source, status: "ok", observations, document, wasBaseline });
       console.log(`[ok]   ${source.id}: ${observations.length} models`);
+      return { source, status: "ok", observations, document, wasBaseline };
     } catch (error) {
       const failure = sourceRunFailure(source, error, wasBaseline);
-      results.push(failure);
       console.error(`[fail] ${source.id}: ${failure.error}`);
+      return failure;
     }
-  }
-  return results;
+  });
 }
+
+/** Content hash of a fetched document, used for change detection in state. */
+export const documentFingerprint = sha256;
