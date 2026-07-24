@@ -240,5 +240,105 @@
     "7904903b0aaa2f1110dfbb1d": "2026-07-24T20:42:35.238Z",
     "9f5f787aae4efb4a780fdaf2": "2026-07-24T20:42:35.782Z"
   },
-  "pendingMajor": []
+  "pendingMajor": [
+    {
+      "id": "d75ecba1d2499de736a827c2",
+      "type": "updated",
+      "importance": "major",
+      "before": {
+        "key": "glm-5-2::glm-5-2",
+        "owner": "Zhipu AI",
+        "family": "GLM 5.2",
+        "modelId": "GLM-5.2",
+        "displayName": "GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "capabilities": {
+          "pipeline": "text-generation"
+        },
+        "limits": {
+          "contextTokens": 1048576
+        },
+        "pricing": {
+          "prompt": "0.0000007756",
+          "completion": "0.0000024376",
+          "input_cache_read": "0.00000014404"
+        },
+        "availability": [
+          "OpenRouter",
+          "open repository"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-16",
+        "confidence": "verified",
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.2",
+            "observedAt": "2026-07-24T20:42:32.781Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/z-ai/glm-5.2",
+            "observedAt": "2026-07-24T20:42:32.781Z"
+          }
+        ],
+        "fingerprint": "10c6dacd0fc6411165927483676c4c9b226765f3fe32c445b953905f5a67ef36",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-07-24T20:42:32.781Z"
+      },
+      "after": {
+        "key": "glm-5-2::glm-5-2",
+        "owner": "Zhipu AI",
+        "family": "GLM 5.2",
+        "modelId": "GLM-5.2",
+        "displayName": "GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "capabilities": {
+          "pipeline": "text-generation"
+        },
+        "limits": {
+          "contextTokens": 1048576
+        },
+        "pricing": {
+          "prompt": "0.0000007714",
+          "completion": "0.0000024244",
+          "input_cache_read": "0.00000014326"
+        },
+        "availability": [
+          "OpenRouter",
+          "open repository"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-16",
+        "confidence": "verified",
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.2",
+            "observedAt": "2026-07-24T21:47:18.388Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/z-ai/glm-5.2",
+            "observedAt": "2026-07-24T21:47:18.388Z"
+          }
+        ],
+        "fingerprint": "49352f87579a86d7f2b2dfb3c253da602a6d26a0a49983c3d26c5801cf993047",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-07-24T21:47:18.388Z"
+      },
+      "changedFields": [
+        "pricing"
+      ],
+      "detectedAt": "2026-07-24T21:47:18.388Z"
+    }
+  ]
 }
