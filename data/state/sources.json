@@ -22,6 +22,8 @@
       "claude-opus::claude-opus-4-7-fast",
       "claude-opus::claude-opus-4-8",
       "claude-opus::claude-opus-4-8-fast",
+      "claude-opus::claude-opus-5",
+      "claude-opus::claude-opus-5-fast",
       "claude-opus::claude-opus-latest",
       "claude-sonnet::claude-sonnet-4",
       "claude-sonnet::claude-sonnet-4-5",
@@ -724,12 +726,14 @@
       "gpt-4::gpt-4-turbo-batch": 3,
       "gpt-3-5::gpt-3-5-turbo-batch": 3,
       "ling-3-0::ling-3-0-flash": 3,
-      "ling-3-0::ling-3-0-flash-free": 0
+      "ling-3-0::ling-3-0-flash-free": 0,
+      "claude-opus::claude-opus-5-fast": 0,
+      "claude-opus::claude-opus-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "750339a44b02fc6a4a056a2419a749d9ff2fe9a2fc167c2a49302b350f4366ba"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "a0ab8fe01f53d6e8cceb10110a81fd4402953da08d2f3287de9e4e89d6fc52af"
   },
   "benchmark:artificial-analysis-video": {
     "failureCount": 0,
@@ -774,18 +778,18 @@
       "kling::kling-3-0-omni-720p": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"64ed9c3441b7c5c7c3d5766e92c91468\"",
-    "fingerprint": "f60f1f03af357865c3c0c977bc9b37e48c63913e6ad7c31320851da86afefad9"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"054dec9fc80bdea3c81700be4511554d\"",
+    "fingerprint": "f817fcf352ddb84d224e602e0d69e2d98fff375c57083306c5795aec2746cc85"
   },
   "official:adobe-firefly": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "lastModified": "Thu, 18 Jun 2026 14:11:02 GMT",
     "fingerprint": "59a14a35e0ca9305167eb892ccc2cde61234cb61ca76887cbfb37ee4a6c06602"
   },
@@ -800,9 +804,9 @@
       "jamba::jamba2": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "lastModified": "Fri, 24 Jul 2026 11:21:08 GMT",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "lastModified": "Thu, 23 Jul 2026 22:59:30 GMT",
     "fingerprint": "10cceb677534b8cb009f809e878f4c7b344d25eacdab89f34b061cd2db43d3fc"
   },
   "official:anthropic-models": {
@@ -814,9 +818,9 @@
       "claude::claude-4-6": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "fce1dd629532a2bc2d5a4366b26a14b1ea552da71d275906d4bea9c62b0b3a75"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "9771b0a5cdcdc6fc7c54bdeddd0fd14494e249cd0b92a8934f5773ca5fc5fc5f"
   },
   "official:api:anthropic": {
     "failureCount": 0,
@@ -869,9 +873,9 @@
       "flux::flux1-1": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "lastModified": "Fri, 24 Jul 2026 01:48:20 GMT",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "lastModified": "Thu, 23 Jul 2026 22:37:25 GMT",
     "fingerprint": "74723404f333a398193c8176f9a11b2dd9977b4a62957a52428bd9c3c5ab6aee"
   },
   "official:bytedance-seed": {
@@ -913,8 +917,8 @@
       "seed-music::seed-music-seed-music-a": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "943760ecbc1756ebf4557ae5b02eda94d5b19602b01b9478c1fb2e0cb1c2f882"
   },
   "official:cohere-models": {
@@ -922,8 +926,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "W/\"12hzzjekqngg0g9\"",
     "fingerprint": "4ad75b58df64587bd785e03f0fead2cd22ffc2fedb9aba66cd0b03bf31adb1a0"
   },
@@ -932,8 +936,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "\"e2fb44396349e126364403c2db910464\"",
     "lastModified": "Mon, 13 Jul 2026 03:34:36 GMT",
     "fingerprint": "5ed7309f6b8bf5dbae559a012341aa604d02b0cce2e20c48aaa6f0a0bf287f89"
@@ -943,8 +947,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "W/\"qx8sesaq0nwgwq\"",
     "fingerprint": "80a2915981128ce152265fe7ddc0626b1a313ffe6b9e46c89a7d4ffb3f62a2d0"
   },
@@ -981,20 +985,20 @@
       "veo::veo-3-1": 0,
       "veo::veo-3-1-lite": 0,
       "imagen::imagen-4": 0,
-      "veo::veo-3-1-preview": 1,
+      "veo::veo-3-1-preview": 0,
       "gemini::gemini-3-1": 3,
       "gemini::gemini-2-5": 3,
       "gemini::gemini-2-0": 3,
       "gemini::gemini-2": 3,
       "o::o-4-0": 3,
       "o::o-2026": 3,
-      "gemini::gemini-3-6-flash": 1
+      "gemini::gemini-3-6-flash": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "lastModified": "Mon, 20 Jul 2026 16:46:48 GMT",
-    "fingerprint": "de73af5825de72c5a7540062b51cae4e16a982edc5f2597ffa56d18d1c703f9f"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "lastModified": "Tue, 21 Jul 2026 15:00:30 GMT",
+    "fingerprint": "be1aedfd1671f6076ab7b4c2957e883db205170a1406856fde5f5c9877a791cb"
   },
   "official:hf:bfl": {
     "failureCount": 0,
@@ -1073,10 +1077,10 @@
       "flux-1-schnell::flux-1-schnell": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"adc0-f2iniLIzSdqfAirUMj3d0Le4Okg\"",
-    "fingerprint": "fb64f6edae9e7fe46993ee498231b14893eb3af8086ef582de41cb0e5621f8cd"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"adc0-/j+HqzN8dahgSvWSV+rNiJo7S4Q\"",
+    "fingerprint": "83061aba5fc236fee38bdfbd2fca458618dbb8466ce218012cbc05bc96486046"
   },
   "official:hf:bytedance": {
     "failureCount": 0,
@@ -1157,8 +1161,8 @@
       "sd2-1-base::sd2-1-base-zsnr-laionaes6": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "W/\"22e1d-sda4UeJ5LvFa9DDDe92RpIc/8kY\"",
     "fingerprint": "4433b3160a4178f9e7e5ddad0c5e0736eebadfca3c174a94952f014d379aa8d7"
   },
@@ -1239,10 +1243,10 @@
       "command-nightly::command-nightly": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"13249-W5kAOUjN1pEwPvHKbA62bJ3qIbQ\"",
-    "fingerprint": "03d965eb549b375d6806af0c9ee5992b49ca97d401708958756a17ce0645872c"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"13249-R0uIQESR6C0cmoGm2PdhVi/SOpg\"",
+    "fingerprint": "b032798fc8600f8ec5338b862badb732ddfb1ce191f095f3ddab5862b941608f"
   },
   "official:hf:deepseek-ai": {
     "failureCount": 0,
@@ -1451,10 +1455,10 @@
       "deepseek-coder::deepseek-coder-1-3b-base": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"40ba8-svrqq3dv4b00FZYZkxD55hfPspc\"",
-    "fingerprint": "57968305c39d4cc0f117f1d4b1604676f5cdee3955c401f6edf3ba612a9b24eb"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"40ba8-iICaHnqMkcZIGOU/I1SlWdbjVlM\"",
+    "fingerprint": "e37541cb2a015b9733dcddd065549098f4a19a495cc36f98ddd1de6686cbf110"
   },
   "official:hf:google": {
     "failureCount": 0,
@@ -1617,10 +1621,10 @@
       "t5gemma-l::t5gemma-l-l-prefixlm-it": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"1f87c0-Ao8jhThQ2feVp73hjnqmizSxAHE\"",
-    "fingerprint": "7d7a7804b4009724c246b5fd73ddeb8646ebe56da495edb9a7e535654307bbf6"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"1f87c0-o/BCETH5mUoeAOVhgAw0vC3L0WI\"",
+    "fingerprint": "552820dc3a99f54b1b458333cf4d83c166e8614a9be69c3b4109511ab7a28880"
   },
   "official:hf:hunyuan": {
     "failureCount": 0,
@@ -1679,8 +1683,8 @@
       "hunyuandit::hunyuandit": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "W/\"752b-b053BEbw3Hxc6eeN7OfVXzTpeKk\"",
     "fingerprint": "236cd3e8bf2a06fa0a5fa15cba753ff664bddde38ccd34f5b33dff7f0e25b869"
   },
@@ -1755,10 +1759,10 @@
       "longanimatediff::longanimatediff": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"f96f-Hb/wFkFU7gI2qzIfhr5nY7rewm8\"",
-    "fingerprint": "80b7df10b5bb6ef0c17d01137ad7f656de51568cc74484584bf9ce24812ced02"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"f96f-22zo2dpSPZ80PtMz6T/CfLuYzlo\"",
+    "fingerprint": "494431e2793c5a78ea2164907d76b77d2a2cb83b0644a497d585290ae7ee9a6b"
   },
   "official:hf:meta-llama": {
     "failureCount": 0,
@@ -1907,10 +1911,10 @@
       "llama-2::llama-2-7b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"37b23-ut66oFnOReKU/0Thlo/2I1U/zGo\"",
-    "fingerprint": "aa8be040cccfd977b305805e38645ba93e636add2e61be34f2c6cb5766629318"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"37b23-b2m2vLMws2nZr5F3Xxe+UJVhvhw\"",
+    "fingerprint": "e580cc05e6a46038c26c6fe505d673b7c1eea2e19526734a10d187f1dc3522b5"
   },
   "official:hf:microsoft": {
     "failureCount": 0,
@@ -2080,10 +2084,10 @@
       "fara1-5-9b::fara1-5-9b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"1bc72-krBqm6sZPfM83PVpDh0XXZjJ+Lw\"",
-    "fingerprint": "7416de2162ecab3d566a12060ed8847357c23da1119e4c4886c50a4750fba76f"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"1bc72-0h48gUiox7P50KFSAsTb5H1CbWQ\"",
+    "fingerprint": "2e57e9c2efa094bc4d85670b150e04700fef41f401e6323879791e8c2d1ea375"
   },
   "official:hf:minimax": {
     "failureCount": 0,
@@ -2130,10 +2134,10 @@
       "minimax-text::minimax-text-01": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"30310-qYZPqU/3tGs4RvcWJXcYVrnhhKw\"",
-    "fingerprint": "888cf19c27fdc679be4fd141505fdf48c0a2b2b0444c5e1fbaf8db8055589602"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"30310-MajC3pONPAJjXx2FOgys6ukz18Q\"",
+    "fingerprint": "ac19f8ff76a02a7cdc02da4ff6e6736c614935bb24c559ee1bcec3c94ba9fdd9"
   },
   "official:hf:mistralai": {
     "failureCount": 0,
@@ -2290,10 +2294,10 @@
       "mistral-7b::mistral-7b-v0-1": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"2ad85-L98pCP4ue3ZkF1P5bw3eg2Mi8Xc\"",
-    "fingerprint": "3b1af4204e64f38de35495ef40ab153a1e9b5ef4c0f6ba3e18939d35138747d0"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"2ad85-HwV/nt21TS5uGFg649fhFl7Qrz8\"",
+    "fingerprint": "179318a4da7f333e73547a5459fe66885fa14a4a711edc07188a65372937d3ed"
   },
   "official:hf:moonshotai": {
     "failureCount": 0,
@@ -2336,10 +2340,10 @@
       "moonlight-16b::moonlight-16b-a3b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"e107-4iewjlcY/MoxkdPjIqDATXe6ZJg\"",
-    "fingerprint": "8ed51df61a3e7bd6e89b94c6443077fde7839ee86a6a06b2fc6e25ae7a59a068"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"e107-c5Y7tfitLCI9gnZvKSkWLtOy30c\"",
+    "fingerprint": "e9dc19331b4c221522c8ba055c2a73d503e316567d77c8ffbd819abefc10684d"
   },
   "official:hf:nvidia": {
     "failureCount": 0,
@@ -2488,10 +2492,10 @@
       "ising-calibration::ising-calibration-1-5-31b-bf16": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"105658-7YShmX/Bz2q6HvpAYs4FP9GRKl4\"",
-    "fingerprint": "c6e893bb9245e9c7a43b2dc0ebdb9ebeeb750b00a7d0d3c7c42dbab6b77a27ad"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"105658-mB9IPHiWGNmM1r9yli8w2+ZEvLM\"",
+    "fingerprint": "c344d4c506fb4be57d60b0fdeefed1d3d3112b7618930e4c8a9f190ccd525aff"
   },
   "official:hf:qwen": {
     "failureCount": 0,
@@ -2700,10 +2704,10 @@
       "qwen3-vl::qwen3-vl-235b-a22b-thinking-fp8": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"2ae95-tuv9UDq/BPdvGynNqa5tEabTq/E\"",
-    "fingerprint": "f1d8f68d00b0a39a85b32915db1a7590fb7b3f7468c7340db69768362468081c"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"2ae95-m0KO7dQBl6FEMo3XTP74SaiI8Lg\"",
+    "fingerprint": "324f83cc7fdff841be56fbc0e45397ad91f1107b020c6266ac82d9735d3af4ed"
   },
   "official:hf:stability": {
     "failureCount": 0,
@@ -2886,10 +2890,10 @@
       "stablebeluga-7b::stablebeluga-7b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"2d3b5-Aw0E3boZ7A61E9XqTfToexF/iCo\"",
-    "fingerprint": "c3e4c00951111b93b55ec66e4a5e041b55bf429716f72578a7de30b81a07353f"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"2d3b5-I66ZweU4xQUShzr4nNoJkVomVcs\"",
+    "fingerprint": "22477a3394bba6e75ab2ee305d0a2e8864a7ca5f3d2772afd24c7f110dd5886a"
   },
   "official:hf:wan": {
     "failureCount": 0,
@@ -2946,10 +2950,10 @@
       "wan2-1-t2v::wan2-1-t2v-14b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"174d4-iscdB/68DOUM/PTsi7gET+eN7gI\"",
-    "fingerprint": "a293734533d59075ba76946ab2feb8884743c40812489dea628f3f5641e7ebcc"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"174d4-kmisK88kmzlmSzhFCJYif/gq93s\"",
+    "fingerprint": "253cfdf5e089d87878fbc85e00985132978f54f9c1e3624f4bca5374999796c5"
   },
   "official:hf:zai-org": {
     "failureCount": 0,
@@ -3144,10 +3148,10 @@
       "glm-4::glm-4-9b": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"3992a-TEwOs5tn6feWyTT61fSAssiRQ/g\"",
-    "fingerprint": "4f282c25c1e25fb55ae92334b4b43e1af6a364fab99580011bc7aa8d1e16ec9e"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"3992a-SCJPfI8/reQ1P628099wLX0jNfA\"",
+    "fingerprint": "b5d2445f4fb216959dd7a3f9f03275748b0ec2d65eae6265565fc61e6afa113c"
   },
   "official:ideogram-models": {
     "failureCount": 0,
@@ -3160,18 +3164,18 @@
       "ideogram::ideogram-3-0": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"9838r8nuybrhmc\"",
-    "fingerprint": "c1a8b5bce47ededc9b05fefc9a91b16100d5f0bbcbea18af7aae4cfb8eab04e6"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"7kowzak2pvrhr4\"",
+    "fingerprint": "8b00cd93d983e957a1f7640f028dcd4a8f461327292cc3d698e15fc9f8ee9cc2"
   },
   "official:kuaishou-kling": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "\"1784300256\"",
     "lastModified": "Fri, 17 Jul 2026 14:57:36 GMT",
     "fingerprint": "3c5572f3e262faa936336ebacde76112d1b60bc2a56c9f8d4ba026a8302ff8e6"
@@ -3193,18 +3197,18 @@
       "ideogram::ideogram-3-0": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "3bb52b753defa82f0e42e95f7a767272553b0ca65c33b236e81d6c012cd82ff0"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "beccb1cff8ff6ab39f5c6b13762871a13cd788bbf0f62209b9d1025553e3b7a9"
   },
   "official:luma-models": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "2596888482967fa97612f4b63a55cdabf25ba29b30adaaa7331a1b2bebd57fc8"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "0159d46718a83ef521ba2ca4eab7d89187c515aad0ce3dddbed21552ccb08c57"
   },
   "official:meshy-models": {
     "failureCount": 0,
@@ -3217,8 +3221,8 @@
       "meshy::meshy-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "abdbf352fe5d080d00812c14ae89eaf1f4000336308a01504350c627547714e7"
   },
   "official:meta-llama": {
@@ -3226,9 +3230,9 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "edb45f1624974ef13d9f3092065cf71f659d48d3e402aafb90465bcb7e15da43"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "78d73d931bf63b5a0b862e7019f80826db1b7ccdd051c378bcee1036a7649726"
   },
   "official:microsoft-models": {
     "failureCount": 0,
@@ -3253,19 +3257,19 @@
       "phi::phi-1-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "77cc1969ce8be544219630dd4b766b510269c1fd550bae75e00f7d1958b8e8fe"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "e43f4822ba9c210ad384116532d5e94dcfd428f52c2f488c2e8fe17554761cce"
   },
   "official:midjourney-updates": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"2d44-TNXywdkw5G4roRpGHPaQuacmbuM\"",
-    "fingerprint": "03a460235291580b64e00cafeb39f46ef73c48d31f7802c957b2db0be0af0299"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"2d7e-0v/sY7cI+I/U+UEWptOLG2okR/8\"",
+    "fingerprint": "4922d07c367559a6ad4c0c8a791a89351641aa8b6fc060a437bf93104ae6871b"
   },
   "official:minimax-models": {
     "failureCount": 0,
@@ -3276,19 +3280,19 @@
       "hailuo::hailuo-2-3": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "85e93b01af12a3ccf0fe76fd7bd3853f30e619d5a4a5af4b2985a72db70a0a3b"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "e232295983e3c6cc8a741394b8c5318a1466e7bd2417019c81b588ef4209fd32"
   },
   "official:mistral-models": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "etag": "W/\"41c2c2486829df3d71daa3e35fc83e11\"",
-    "fingerprint": "e7092f4335658a90692656d6ea7c168983d47a8edf4782752120d8a1a67184c1"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "etag": "W/\"6e91d11c367b263e03df2c0611c44151\"",
+    "fingerprint": "5b9be316c42d94d90dad331b1b94cebb65532601245839ab9965503ad2b0243f"
   },
   "official:openai-models": {
     "failureCount": 0,
@@ -3303,8 +3307,8 @@
       "gpt-image::gpt-image-2": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "0bb94422fc1fbcc4f90380843ad563abf073ced6bf7e6df0e56c490f483e6838"
   },
   "official:pika-models": {
@@ -3316,17 +3320,17 @@
       "pika::pika-2-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "a6ccc3113e544bc2f0dcb44e490167ce036a95e2ea02de95374aa776aa534c84"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "2d5e8e1113c6800036ce40108b0a9cccd0c9b433d0da849909a120611214f6e5"
   },
   "official:pixverse-models": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "5d3f81e5cc4dad86c62b28bdce624f7e90d382e038f4c2e665c0fb7825aae27d"
   },
   "official:qwen-models": {
@@ -3340,8 +3344,8 @@
       "qwen::qwen2-5": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "W/\"6970c244-439b\"",
     "lastModified": "Wed, 21 Jan 2026 12:10:44 GMT",
     "fingerprint": "f874cc1c99c3454e3ea933dac9790e5cb329e25bf5766b270ab9e38bd780bffe"
@@ -3351,8 +3355,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "c8b02ad5160828d0f698fd32ba105f417a4f38e0829b16ddfa5b3081718000b1"
   },
   "official:runway-models": {
@@ -3366,8 +3370,8 @@
       "veo::veo3-1": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "\"3f10eb8f68238dfef1d462c8fe5df75a\"",
     "lastModified": "Tue, 21 Jul 2026 17:13:58 GMT",
     "fingerprint": "6e1086b7bb62992ff0c9204082781be83969eec946dc29ad506c8911c018a705"
@@ -3377,17 +3381,17 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
-    "fingerprint": "22b492d45a4796927a14149d102e174a1033353f8dcbd206e032f9c05466890b"
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
+    "fingerprint": "16cdd567940a5ec8f96ec5af1b25e32310ab172044cf34b182d82f5541ba4306"
   },
   "official:suno-news": {
     "failureCount": 0,
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "cd522b2282ba4911330f4a8cdf0ac803f3ca7d83f937ca927747e80b2b122b8a"
   },
   "official:tripo-models": {
@@ -3395,8 +3399,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "a333ef8662118f395135121be036d963e2ccdae82e8ba8e303e2a388425c1b67"
   },
   "official:udio-news": {
@@ -3404,8 +3408,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "9b6ed6f6675ab8cd11750e64181ca70bde8927e7e63cacf1adefd91852d740fa"
   },
   "official:vidu-model-map": {
@@ -3437,8 +3441,8 @@
       "vidu::viduq2-turbo": 0
     },
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "fingerprint": "6de9107a7522503aff407f61d80904f2290555f937c6434051bb84b3c935c229"
   },
   "official:worldlabs-news": {
@@ -3446,8 +3450,8 @@
     "modelKeys": [],
     "missingCounts": {},
     "baselineComplete": true,
-    "lastChecked": "2026-07-24T14:50:11.012Z",
-    "lastSuccess": "2026-07-24T14:50:11.012Z",
+    "lastChecked": "2026-07-24T17:54:22.158Z",
+    "lastSuccess": "2026-07-24T17:54:22.158Z",
     "etag": "W/\"a03aff836dfb5b399ce59cfaf4ac6628\"",
     "fingerprint": "31bccdaf93a3e55cd948c0a95c7f9c73c9358eaa216a6056fb4c7d41183c65bb"
   }
