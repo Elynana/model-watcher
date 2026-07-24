@@ -128,6 +128,18 @@ test("quantized and community re-uploads never enter the catalog", () => {
   assert.equal(events[0]?.after.slug, "Llama-4-Scout-17B-16E-Instruct");
 });
 
+test("an older version first seen in prose is a back-reference, not a launch", () => {
+  const value = state();
+  const official = source("official:page:google", "official-page", "google");
+  applySourceResults(value, [run(official, ["gemini-3.6-flash"], true)]);
+  // A docs page later mentions Gemini 2 in passing. The name is new to us, but
+  // it sits below the family head, so it must not be announced as a release.
+  const events = applySourceResults(value, [run(official, ["gemini-3.6-flash", "gemini-2.0-pro", "gemini-4.0-pro"])]);
+  const bySlug = new Map(events.map((event) => [event.after.slug, event]));
+  assert.equal(bySlug.get("gemini-2.0-pro")?.importance, "minor", "an older version is digested");
+  assert.equal(bySlug.get("gemini-4.0-pro")?.importance, "major", "a newer version is announced");
+});
+
 test("removal requires three successful absences and failures never count", () => {
   const value = state();
   const official = source("official:page:shengshu", "official-page", "shengshu");

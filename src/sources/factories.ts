@@ -418,9 +418,10 @@ export function huggingFaceOrg(options: { id: string; org: string; owner?: strin
         if (!model.id) return [];
         const name = model.id.split("/").at(-1)!;
         const tagModalities = (model.tags ?? []).filter((tag) => outputModalities([tag]).length);
+        // Popularity counters are deliberately not recorded. They change on
+        // every poll, and a capability change is a major alert, so storing
+        // them would turn every like into a release notification.
         const capabilities: Record<string, string | number | boolean> = { openWeights: true };
-        if (model.likes) capabilities["likes"] = model.likes;
-        if (model.downloads) capabilities["downloads30d"] = model.downloads;
         return record({
           sourceUrl: `https://huggingface.co/${model.id}`,
           slug: model.id,

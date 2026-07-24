@@ -10,7 +10,7 @@ import type {
   WatcherState,
 } from "./types.ts";
 import { emptySourceState } from "./state.ts";
-import { canonicalModalities, isDerivative, parseSlug, resolve } from "./catalog/index.ts";
+import { canonicalModalities, compareVersions, isDerivative, parseSlug, resolve } from "./catalog/index.ts";
 import { canonicalToken, modelKey, sha256, stableJson } from "./util.ts";
 
 const OFFICIAL = new Set(["official-api", "official-page", "official-feed", "official-repo", "official-paper"]);
@@ -155,8 +155,36 @@ function makeEvent(
   return { id: eventId(type, after, fields), type, importance, before, after, changedFields: fields, detectedAt: now };
 }
 
+/**
+ * Highest version already tracked per family, taken before this run's results
+ * are applied. A newly seen name that sits *below* its family's head is a
+ * back-reference in prose ("...unlike Gemini 2..."), not a release.
+ */
+function familyHeads(before: Map<string, ModelSnapshot | undefined>): Map<string, number[]> {
+  const heads = new Map<string, number[]>();
+  for (const snapshot of before.values()) {
+    if (!snapshot?.familyId || !snapshot.version) continue;
+    const parts = parseSlug(snapshot.slug).versionParts;
+    const current = heads.get(snapshot.familyId);
+    if (!current || compareVersions({ versionParts: parts } as never, { versionParts: current } as never) < 0) {
+      heads.set(snapshot.familyId, parts);
+    }
+  }
+  return heads;
+}
+
+function isBackReference(snapshot: ModelSnapshot, heads: Map<string, number[]>): boolean {
+  if (!snapshot.familyId || !snapshot.version) return false;
+  const head = heads.get(snapshot.familyId);
+  if (!head?.length) return false;
+  const parts = parseSlug(snapshot.slug).versionParts;
+  if (!parts.length) return false;
+  return compareVersions({ versionParts: parts } as never, { versionParts: head } as never) > 0;
+}
+
 export function applySourceResults(state: WatcherState, runs: SourceRunResult[], now = new Date().toISOString()): ModelEvent[] {
   const before = new Map(Object.entries(state.models).map(([key, value]) => [key, value.snapshot]));
+  const heads = familyHeads(before);
   const seededKeys = new Set<string>();
 
   for (const run of runs) {
@@ -223,7 +251,13 @@ export function applySourceResults(state: WatcherState, runs: SourceRunResult[],
     model.snapshot = next;
     if (next.confidence === "candidate") continue;
     if (!previous || previous.confidence === "candidate") {
-      if (!seededKeys.has(key)) events.push(makeEvent("added", next, previous, ["model"], now));
+      if (!seededKeys.has(key)) {
+        const event = makeEvent("added", next, previous, ["model"], now);
+        // An older version of an already-tracked family is a first sighting of
+        // a name, not a launch. It is recorded and digested, never announced.
+        if (isBackReference(next, heads)) event.importance = "minor";
+        events.push(event);
+      }
       continue;
     }
     if (previous.lifecycle === "removed") {
