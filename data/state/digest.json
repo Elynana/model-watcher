@@ -5764,6 +5764,197 @@
         "model"
       ],
       "detectedAt": "2026-07-25T22:35:21.939Z"
+    },
+    {
+      "id": "17879828f7429e96d712ea6d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "step::step-3-7-flash",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "Step-3.7-Flash",
+        "slug": "Step-3.7-Flash",
+        "slugAliases": [
+          "Step-3.7-Flash",
+          "step-3.7-flash"
+        ],
+        "displayName": "Step 3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2026-03-01",
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.185,
+          "output $/M": 1.11,
+          "cache_read $/M": 0.037
+        },
+        "availability": [
+          "DeepInfra",
+          "Novita AI",
+          "StepFun (China)",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:stepfun:stepfun-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+            "observedAt": "2026-07-25T22:35:21.939Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.stepfun.com/docs/zh/overview/concept",
+            "observedAt": "2026-07-25T20:43:23.497Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-25T22:35:21.939Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-07-25T22:35:21.939Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-07-25T22:35:21.939Z"
+          }
+        ],
+        "fingerprint": "6d873d948dcf909c478b2b7e70e46c2a4852e59d4f0b84f9e38b02d1b3f45311",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "step::step-3-7-flash",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "Step-3.7-Flash",
+        "slug": "Step-3.7-Flash",
+        "slugAliases": [
+          "Step 3.7 Flash",
+          "Step-3.7-Flash",
+          "step-3.7-flash"
+        ],
+        "displayName": "Step 3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2026-03-01",
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.185,
+          "output $/M": 1.11,
+          "cache_read $/M": 0.037
+        },
+        "availability": [
+          "DeepInfra",
+          "Novita AI",
+          "StepFun (China)",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:stepfun:stepfun-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+            "observedAt": "2026-07-25T23:37:58.549Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.stepfun.com/docs/zh/overview/concept",
+            "observedAt": "2026-07-25T20:43:23.497Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-25T23:37:58.549Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-07-25T23:37:58.549Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-07-25T23:37:58.549Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-25T23:37:58.549Z"
+          }
+        ],
+        "fingerprint": "15a00422a337410ed6f8c8a31479ac75aa89455d07c5116a8dffeeffa012cfe7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T23:37:58.549Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-07-25T23:37:58.549Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
