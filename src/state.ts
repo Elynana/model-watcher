@@ -1,6 +1,6 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import type { DigestState, DeliveryState, ModelState, SourceState, Subscription, WatcherState } from "./types.ts";
+import type { DigestState, DeliveryState, ModelEvent, ModelSnapshot, ModelState, SourceState, Subscription, WatcherState } from "./types.ts";
 import { canonicalToken, env, pruneRecord } from "./util.ts";
 
 const stateDir = () => resolve(env("STATE_DIR") ?? "data/state");
@@ -50,6 +50,34 @@ async function readModels(): Promise<Record<string, ModelState>> {
   return models;
 }
 
+/**
+ * True for a snapshot written before the multi-modal rebuild. The durable
+ * state branch outlives any one schema, so records read back from it can
+ * predate the slug, channel, and attribution fields every renderer now reads.
+ */
+export function isLegacySnapshot(snapshot: ModelSnapshot | undefined): boolean {
+  if (!snapshot) return false;
+  return (
+    typeof snapshot.slug !== "string" ||
+    typeof snapshot.channel !== "string" ||
+    typeof snapshot.slugClass !== "string" ||
+    !Array.isArray(snapshot.slugAliases)
+  );
+}
+
+/**
+ * A queued event describes one moment that has already passed, so a legacy
+ * one cannot be rebuilt from anything still on disk — and rendering it would
+ * abort the run before any other event was delivered. Dropping it is safe:
+ * whatever it reported is re-derived from the current sources on this run.
+ */
+function deliverable(events: ModelEvent[] | undefined, label: string): ModelEvent[] {
+  const kept = (events ?? []).filter((event) => event?.after && !isLegacySnapshot(event.after));
+  const dropped = (events ?? []).length - kept.length;
+  if (dropped) console.log(`[state] dropped ${dropped} ${label} event(s) queued under an older schema`);
+  return kept;
+}
+
 export async function loadState(): Promise<WatcherState> {
   const [models, sources, delivery, digest, subscriptions] = await Promise.all([
     readModels(),
@@ -58,7 +86,8 @@ export async function loadState(): Promise<WatcherState> {
     readJson<DigestState>("digest.json", { pending: [] }),
     readJson<Record<string, Subscription>>("subscriptions.json", {}),
   ]);
-  delivery.pendingMajor ??= [];
+  delivery.pendingMajor = deliverable(delivery.pendingMajor, "immediate");
+  digest.pending = deliverable(digest.pending, "digest");
   return { models, sources, delivery, digest, subscriptions };
 }
 

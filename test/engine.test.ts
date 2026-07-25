@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { applySourceResults, observation } from "../src/engine.ts";
 import { record } from "../src/sources/factories.ts";
-import type { SourceAdapter, SourceRunResult, WatcherState } from "../src/types.ts";
+import type { ModelSnapshot, SourceAdapter, SourceRunResult, WatcherState } from "../src/types.ts";
 
 function state(): WatcherState {
   return { models: {}, sources: {}, delivery: { sent: {}, pendingMajor: [] }, digest: { pending: [] }, subscriptions: {} };
@@ -170,6 +170,25 @@ test("a published-limit change on a tracked model is a major update", () => {
   assert.equal(events[0]?.type, "updated");
   assert.equal(events[0]?.importance, "major");
   assert.ok(events[0]?.changedFields.includes("limits"));
+});
+
+test("a snapshot stored under an older schema is rebuilt, never re-announced", () => {
+  const value = state();
+  const official = source("official:api:openai", "official-api", "openai");
+  applySourceResults(value, [run(official, ["gpt-5.2"], true)]);
+
+  // Exactly what the durable state branch holds from before the rebuild: the
+  // fields the current schema added are simply absent.
+  const model = Object.values(value.models)[0]!;
+  const legacy = { ...model.snapshot! } as Partial<ModelSnapshot>;
+  for (const field of ["slug", "slugAliases", "channel", "slugClass", "vendorId", "familyId", "version", "tier", "attributionVerified"] as const) {
+    delete legacy[field];
+  }
+  model.snapshot = legacy as ModelSnapshot;
+
+  const events = applySourceResults(value, [run(official, ["gpt-5.2"])]);
+  assert.equal(events.length, 0, "a schema change is not a model change");
+  assert.equal(Object.values(value.models)[0]?.snapshot?.slug, "gpt-5.2");
 });
 
 test("the same model seen under different spellings stays one record", () => {

@@ -9,7 +9,7 @@ import type {
   StoredObservation,
   WatcherState,
 } from "./types.ts";
-import { emptySourceState } from "./state.ts";
+import { emptySourceState, isLegacySnapshot } from "./state.ts";
 import { canonicalModalities, compareVersions, isDerivative, parseSlug, resolve } from "./catalog/index.ts";
 import { canonicalToken, modelKey, sha256, stableJson } from "./util.ts";
 
@@ -182,7 +182,28 @@ function isBackReference(snapshot: ModelSnapshot, heads: Map<string, number[]>):
   return compareVersions({ versionParts: parts } as never, { versionParts: head } as never) > 0;
 }
 
+/**
+ * Rebuilds any snapshot written under an older schema from the very
+ * observations that produced it. Comparing this run against an un-migrated
+ * record would report slug, channel, and attribution as fresh changes on
+ * every model at once — thousands of alerts about nothing but the rebuild.
+ */
+function migrateLegacySnapshots(state: WatcherState): number {
+  let migrated = 0;
+  for (const [key, model] of Object.entries(state.models)) {
+    const legacy = model.snapshot;
+    if (!legacy || !isLegacySnapshot(legacy)) continue;
+    const rebuilt = snapshotFrom(key, model, legacy.lastChanged);
+    if (!rebuilt) continue;
+    model.snapshot = rebuilt;
+    migrated += 1;
+  }
+  return migrated;
+}
+
 export function applySourceResults(state: WatcherState, runs: SourceRunResult[], now = new Date().toISOString()): ModelEvent[] {
+  const migrated = migrateLegacySnapshots(state);
+  if (migrated) console.log(`[state] rebuilt ${migrated} snapshot(s) stored under an older schema`);
   const before = new Map(Object.entries(state.models).map(([key, value]) => [key, value.snapshot]));
   const heads = familyHeads(before);
   const seededKeys = new Set<string>();

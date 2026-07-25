@@ -51,9 +51,15 @@ async function deliverMajor(state: WatcherState, args: Args): Promise<void> {
   }
   const remaining: ModelEvent[] = [];
   for (const event of state.delivery.pendingMajor) {
-    const delivered = await sendEvent(event, state, { shadow: args.shadow, image: env("IMAGE_CARDS") !== "0" });
-    if (delivered) state.delivery.sent[event.id] = new Date().toISOString();
-    else remaining.push(event);
+    try {
+      const delivered = await sendEvent(event, state, { shadow: args.shadow, image: env("IMAGE_CARDS") !== "0" });
+      if (delivered) state.delivery.sent[event.id] = new Date().toISOString();
+      else remaining.push(event);
+    } catch (error) {
+      // One unrenderable event must never cost the run its other deliveries or
+      // its state save. It is dropped rather than retried forever.
+      console.error(`[deliver] dropped event ${event.id} for ${event.after?.slug ?? "unknown slug"}: ${(error as Error).message}`);
+    }
   }
   state.delivery.pendingMajor = remaining;
 }
@@ -65,7 +71,10 @@ async function deliverDigest(state: WatcherState, args: Args): Promise<void> {
     console.log(`[dry digest] ${state.digest.pending.length} queued minor events for ${clock.date}`);
     return;
   }
-  const delivered = await sendDigest(state.digest.pending, state, { shadow: args.shadow });
+  const delivered = await sendDigest(state.digest.pending, state, { shadow: args.shadow }).catch((error: unknown) => {
+    console.error(`[digest] not posted: ${(error as Error).message}`);
+    return false;
+  });
   if (!delivered) return;
   for (const event of state.digest.pending) state.delivery.sent[event.id] = new Date().toISOString();
   state.digest.pending = [];
@@ -109,6 +118,7 @@ async function main(): Promise<void> {
 }
 
 main().catch((error: unknown) => {
-  console.error("Fatal:", error instanceof Error ? error.message : String(error));
+  // The stack is what names the failing renderer or source in a CI log.
+  console.error("Fatal:", error instanceof Error ? (error.stack ?? error.message) : String(error));
   process.exitCode = 1;
 });

@@ -1,6 +1,7 @@
 import type { Modality, ModelSnapshot, WatcherState } from "./types.ts";
 import { FAMILY_BY_ID, VENDORS, VENDOR_BY_ID, compareVersions, parseSlug, vendorFromToken } from "./catalog/index.ts";
 import { canonicalToken } from "./util.ts";
+import { isLegacySnapshot } from "./state.ts";
 
 export interface Filter {
   vendorId?: string;
@@ -15,10 +16,18 @@ export interface Filter {
   query?: string;
 }
 
+/**
+ * Every tracked model the bot is allowed to talk about. Records still stored
+ * under an older schema are held back: the watcher rebuilds them on its next
+ * run, and until then they cannot be rendered or filtered truthfully.
+ */
 export function snapshots(state: WatcherState): ModelSnapshot[] {
   return Object.values(state.models)
     .map((model) => model.snapshot)
-    .filter((snapshot): snapshot is ModelSnapshot => Boolean(snapshot) && snapshot!.lifecycle !== "removed");
+    .filter(
+      (snapshot): snapshot is ModelSnapshot =>
+        Boolean(snapshot) && snapshot!.lifecycle !== "removed" && !isLegacySnapshot(snapshot),
+    );
 }
 
 function matchesQuery(snapshot: ModelSnapshot, query: string): boolean {
