@@ -99,7 +99,9 @@ function build(id: string, vendorId: string, name: string, modalities: string, r
   const tiers = [...TIER_TOKENS, ...(spec.tiers ?? [])].join("|");
   const head = `(?:${flexibleSeparators(spec.base)})`;
   // A mention must carry a version number or a tier word, otherwise a bare
-  // brand word in prose would be reported as a model release.
+  // brand word in prose would be reported as a model release. `extractMentions`
+  // narrows this further: a match with no number at all is a line-up, not a
+  // release, unless the family's complete name genuinely has no number.
   const discriminator = spec.bare ? "" : String.raw`(?=[-_. ]?(?:\d|${tiers}\b))`;
   const body = String.raw`(?:[-_. ](?:${tiers}))*(?:[-_. ]?${VERSION_TOKEN})?(?:[-_. ](?:${tiers}))*(?:[-_. ](?:${QUALIFIERS})){0,3}(?:[-_. ](?:\d{8}|\d{4}-\d{2}-\d{2}))?`;
   const mentionSource = String.raw`\b(?<model>${head}${discriminator}${body})`;

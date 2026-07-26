@@ -187,6 +187,11 @@ export function extractMentions(text: string, vendorId?: string, limit = 400): M
     for (const match of text.matchAll(family.mention)) {
       const name = (match.groups?.["model"] ?? match[0] ?? "").replace(/\s+/g, " ").trim().replace(/[-_.]+$/, "");
       if (name.length < 3 || name.length > 80) continue;
+      // A tier word alone names a position in a line-up, not a model: "Imagen
+      // Pro" is the shape of a product page, whereas an actual release always
+      // carries a number. Families whose complete name has no number at all
+      // are the documented exception.
+      if (!family.bare && !/\d/.test(name)) continue;
       // Keyed by name alone: families are visited most-specific first, so the
       // narrower family claims a name the broader one would also match.
       const key = name.toLowerCase();

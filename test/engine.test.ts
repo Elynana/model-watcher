@@ -191,6 +191,57 @@ test("a snapshot stored under an older schema is rebuilt, never re-announced", (
   assert.equal(Object.values(value.models)[0]?.snapshot?.slug, "gpt-5.2");
 });
 
+test("a name only ever seen in prose is recorded but never announced", () => {
+  const value = state();
+  const page = source("official:page:google", "official-page", "google");
+  ready(value, page);
+  // "imagen pro" and "Gemini 2.0" are how a docs page writes about a line-up.
+  // A first-party page saying a name is not a publisher shipping a slug.
+  const events = applySourceResults(value, [run(page, ["Gemini 2.0"])]);
+  assert.equal(events.length, 0, "a prose phrase is not a confirmed new model");
+  assert.equal(Object.values(value.models)[0]?.snapshot?.confidence, "candidate");
+});
+
+test("a prose mention merges into the record that carries the identifier", () => {
+  const value = state();
+  const page = source("official:page:bytedance", "official-page", "bytedance");
+  const catalog = source("catalog:models-dev", "catalog");
+  ready(value, page);
+  ready(value, catalog);
+  applySourceResults(value, [run(page, ["Seedance 2.0"])]);
+  const events = applySourceResults(value, [run(catalog, ["seedance-2.0"])]);
+  assert.equal(Object.keys(value.models).length, 1, "no phantom twin beside the real slug");
+  assert.equal(events.length, 1);
+  assert.equal(events[0]?.after.slug, "seedance-2.0", "the alert names the identifier, not the phrase");
+  assert.equal(events[0]?.after.confidence, "verified", "the page corroborates the catalog");
+  assert.equal(events[0]?.importance, "major");
+});
+
+test("an older generation returning is digested, not announced again", () => {
+  const value = state();
+  const official = source("official:api:google", "official-api", "google");
+  applySourceResults(value, [run(official, ["gemini-3.6-flash", "gemini-2.0-flash"], true)]);
+  for (let index = 0; index < 3; index++) applySourceResults(value, [run(official, ["gemini-3.6-flash"])]);
+  const events = applySourceResults(value, [run(official, ["gemini-3.6-flash", "gemini-2.0-flash"])]);
+  const returned = events.find((event) => event.after.slug === "gemini-2.0-flash");
+  assert.equal(returned?.type, "reintroduced");
+  assert.equal(returned?.importance, "minor", "a back-reference is digested however it arrives");
+});
+
+test("a model whose evidence thins out is not announced as new a second time", () => {
+  const value = state();
+  const benchmark = source("benchmark:arena", "benchmark");
+  ready(value, benchmark);
+  const first = applySourceResults(value, [run(benchmark, ["torenia-3"])]);
+  assert.equal(first[0]?.type, "added");
+
+  // The arena listing lapses to a lone unverifiable sighting and then recovers.
+  const model = Object.values(value.models)[0]!;
+  model.snapshot = { ...model.snapshot!, confidence: "candidate" };
+  const again = applySourceResults(value, [run(benchmark, ["torenia-3"])]);
+  assert.equal(again.some((event) => event.type === "added"), false, "already announced once");
+});
+
 test("the same model seen under different spellings stays one record", () => {
   const value = state();
   const api = source("official:api:anthropic", "official-api", "anthropic");

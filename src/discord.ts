@@ -44,16 +44,26 @@ function targets(state: WatcherState, event?: ModelEvent): Target[] {
   return list;
 }
 
+/**
+ * Discord reads `payload_json` as an ordinary form field. Appending it as a
+ * Blob makes the encoder emit `filename="blob"`, at which point Discord files
+ * the payload as an uploaded attachment instead of reading it: the message
+ * loses its embed and gains a junk "blob" download beside the card.
+ */
+export function cardForm(payload: Record<string, unknown>, image: Buffer): FormData {
+  const form = new FormData();
+  form.append("payload_json", JSON.stringify(payload));
+  form.append("files[0]", new Blob([new Uint8Array(image)], { type: "image/png" }), "model-card.png");
+  return form;
+}
+
 async function post(target: Target, payload: Record<string, unknown>, image?: Buffer): Promise<boolean> {
   for (let attempt = 0; attempt < 4; attempt++) {
     const init: RequestInit = { method: "POST", headers: {} };
     const headers = init.headers as Record<string, string>;
     if (target.auth) headers["authorization"] = target.auth;
     if (image) {
-      const form = new FormData();
-      form.append("payload_json", new Blob([JSON.stringify(payload)], { type: "application/json" }));
-      form.append("files[0]", new Blob([new Uint8Array(image)], { type: "image/png" }), "model-card.png");
-      init.body = form;
+      init.body = cardForm(payload, image);
     } else {
       headers["content-type"] = "application/json";
       init.body = JSON.stringify(payload);

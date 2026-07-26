@@ -36,7 +36,23 @@ function sourceRank(observation: StoredObservation): number {
   return KIND_RANK[observation.sourceKind];
 }
 
+/**
+ * A name read out of prose keeps the spacing of the sentence it came from:
+ * "Gemini 2.0" is a phrase, `gemini-2.0-flash-001` is an identifier. Every
+ * adapter that reads prose routes its match through here unchanged, so the
+ * whitespace is a reliable marker of where the name came from.
+ */
+function isProseName(modelId: string): boolean {
+  return /\s/.test(modelId);
+}
+
 function confidenceOf(observations: StoredObservation[]): Confidence {
+  // Prose proves that a publisher wrote a name down, not that a model ships
+  // under it. Until some source publishes a machine-readable identifier there
+  // is nothing specific to confirm, so the sighting is recorded as a candidate
+  // and never announced. It merges into the real record as soon as an
+  // identifier appears, because both spellings share one model key.
+  if (observations.every((item) => isProseName(item.value.modelId))) return "candidate";
   if (observations.some((item) => OFFICIAL.has(item.sourceKind))) return "verified";
   if (observations.some((item) => item.sourceKind === "catalog" || item.sourceKind === "platform")) return "emerging";
   if (observations.some((item) => item.sourceKind === "benchmark")) return "emerging";
@@ -270,23 +286,39 @@ export function applySourceResults(state: WatcherState, runs: SourceRunResult[],
       continue;
     }
     model.snapshot = next;
-    if (next.confidence === "candidate") continue;
+    const confidence = next.confidence;
+    if (confidence === "candidate") continue;
+
+    // Every structural event claims "here is a specific model you have not
+    // been told about". An older version of an already-tracked family is a
+    // first sighting of a name, not a launch, so it is recorded and digested
+    // rather than announced — and that holds however the sighting arrived,
+    // not only when it arrives as an addition.
+    const structural = (event: ModelEvent): void => {
+      if (isBackReference(next, heads)) event.importance = "minor";
+      model.lastAnnouncedConfidence = confidence;
+      events.push(event);
+    };
+
     if (!previous || previous.confidence === "candidate") {
-      if (!seededKeys.has(key)) {
-        const event = makeEvent("added", next, previous, ["model"], now);
-        // An older version of an already-tracked family is a first sighting of
-        // a name, not a launch. It is recorded and digested, never announced.
-        if (isBackReference(next, heads)) event.importance = "minor";
-        events.push(event);
+      if (seededKeys.has(key)) continue;
+      // A key the reader has already been shown is not a new model, even when
+      // its evidence briefly thinned out to a candidate and recovered. Report
+      // what actually changed instead of announcing it a second time.
+      if (previous && model.lastAnnouncedConfidence) {
+        const fields = changedFields(previous, next);
+        if (fields.length) events.push(makeEvent("updated", next, previous, fields, now));
+        continue;
       }
+      structural(makeEvent("added", next, previous, ["model"], now));
       continue;
     }
     if (previous.lifecycle === "removed") {
-      events.push(makeEvent("reintroduced", next, previous, ["lifecycle"], now));
+      structural(makeEvent("reintroduced", next, previous, ["lifecycle"], now));
       continue;
     }
     if (previous.confidence === "emerging" && next.confidence === "verified") {
-      events.push(makeEvent("verified", next, previous, ["confidence"], now));
+      structural(makeEvent("verified", next, previous, ["confidence"], now));
       continue;
     }
     if (previous.fingerprint !== next.fingerprint) {

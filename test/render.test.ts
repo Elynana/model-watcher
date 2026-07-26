@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import sharp from "sharp";
-import { matchesSubscription } from "../src/discord.ts";
+import { cardForm, matchesSubscription } from "../src/discord.ts";
 import { renderModelCard } from "../src/image-card.ts";
 import { compareEmbed, digestEmbeds, modelEmbed, slugBlock } from "../src/render.ts";
 import type { ModelEvent, ModelSnapshot, Subscription } from "../src/types.ts";
@@ -135,6 +135,17 @@ test("the card is a 1200x675 PNG", async () => {
   assert.equal(metadata.format, "png");
   assert.equal(metadata.width, 1200);
   assert.equal(metadata.height, 675);
+});
+
+test("a card upload carries the payload as a field, never as a file", async () => {
+  const form = cardForm({ embeds: [modelEmbed(event.after, event, true)] }, Buffer.from([0x89, 0x50, 0x4e, 0x47]));
+  const body = await new Request("https://discord.invalid", { method: "POST", body: form }).text();
+  const dispositions = body.split("\r\n").filter((line) => line.startsWith("Content-Disposition"));
+  assert.deepEqual(dispositions, [
+    'Content-Disposition: form-data; name="payload_json"',
+    'Content-Disposition: form-data; name="files[0]"; filename="model-card.png"',
+  ]);
+  assert.equal(body.includes('filename="blob"'), false, "a Blob payload would be posted as a junk attachment");
 });
 
 test("the New York digest clock handles daylight-saving offsets", () => {

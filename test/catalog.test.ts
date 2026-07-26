@@ -108,7 +108,7 @@ test("the more specific family claims a slug", () => {
   assert.equal(resolve({ slug: "hunyuan-video-1.5" }).familyId, "hunyuan-video");
 });
 
-test("prose mentions require a version or tier and accept any separator", () => {
+test("prose mentions require a version and accept any separator", () => {
   const found = extractMentions(
     "We shipped GPT Image 2 and gpt-image-1-mini, plus Nano Banana 2 Pro, HunyuanVideo 1.5, and Kling 2.5 Turbo. Claude alone is not a release.",
   );
@@ -118,6 +118,11 @@ test("prose mentions require a version or tier and accept any separator", () => 
   assert.ok(names.includes("HunyuanVideo 1.5"));
   assert.ok(!names.includes("Claude"), "a bare brand word must not be reported");
   assert.equal(found.find((mention) => mention.name === "GPT Image 2")?.vendorId, "openai");
+});
+
+test("a tier word without a version names a line-up, not a model", () => {
+  const found = extractMentions("Choose between imagen pro and Imagen 4 Ultra.", "google");
+  assert.deepEqual(found.map((mention) => mention.name), ["Imagen 4 Ultra"]);
 });
 
 test("prose matching does not glue table headers onto model names", () => {
