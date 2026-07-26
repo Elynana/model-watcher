@@ -5955,6 +5955,102 @@
         "availability"
       ],
       "detectedAt": "2026-07-25T23:37:58.549Z"
+    },
+    {
+      "id": "bc7892563bf0b2bc36188d7c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mage-vit::mage-vit",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "mage-vit",
+        "modelId": "Mage-ViT",
+        "slug": "Mage-ViT",
+        "slugAliases": [
+          "Mage-ViT"
+        ],
+        "displayName": "Mage-ViT",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/Mage-ViT",
+            "observedAt": "2026-07-26T12:13:04.669Z"
+          }
+        ],
+        "fingerprint": "6f41b7447558b2dcd055d8920420f4bbab089a2a9549b69eebef8c576852661a",
+        "firstSeen": "2026-07-26T12:13:04.669Z",
+        "lastChanged": "2026-07-26T12:13:04.669Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-26T12:13:04.669Z"
+    },
+    {
+      "id": "d014598dae2be95b6faa03fa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mage::mage-vl",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "mage",
+        "modelId": "Mage-VL",
+        "slug": "Mage-VL",
+        "slugAliases": [
+          "Mage-VL"
+        ],
+        "displayName": "Mage-VL",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/Mage-VL",
+            "observedAt": "2026-07-26T12:13:04.669Z"
+          }
+        ],
+        "fingerprint": "1811081ff8c683b688aeeaef2e7f6681ae4f78a0bdca67f25ebe60a619d25771",
+        "firstSeen": "2026-07-26T12:13:04.669Z",
+        "lastChanged": "2026-07-26T12:13:04.669Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-26T12:13:04.669Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
