@@ -46,13 +46,18 @@ function isProseName(modelId: string): boolean {
   return /\s/.test(modelId);
 }
 
+/** True when no source has ever published this record as an identifier. */
+function isProseOnly(observations: StoredObservation[]): boolean {
+  return observations.length > 0 && observations.every((item) => isProseName(item.value.modelId));
+}
+
 function confidenceOf(observations: StoredObservation[]): Confidence {
   // Prose proves that a publisher wrote a name down, not that a model ships
   // under it. Until some source publishes a machine-readable identifier there
-  // is nothing specific to confirm, so the sighting is recorded as a candidate
-  // and never announced. It merges into the real record as soon as an
-  // identifier appears, because both spellings share one model key.
-  if (observations.every((item) => isProseName(item.value.modelId))) return "candidate";
+  // is nothing specific to confirm, so the sighting stays a candidate. It
+  // merges into the real record as soon as an identifier appears, because both
+  // spellings share one model key.
+  if (isProseOnly(observations)) return "candidate";
   if (observations.some((item) => OFFICIAL.has(item.sourceKind))) return "verified";
   if (observations.some((item) => item.sourceKind === "catalog" || item.sourceKind === "platform")) return "emerging";
   if (observations.some((item) => item.sourceKind === "benchmark")) return "emerging";
@@ -163,9 +168,13 @@ function makeEvent(
   const pointer = after.slugClass === "alias" || after.slugClass === "snapshot";
   const repositoryOnly = after.evidence.every((item) => item.sourceKind === "official-repo");
   const structural = type === "added" || type === "verified" || type === "reintroduced";
+  // A candidate names nothing a reader can act on, so however newsworthy it
+  // looks it belongs in the digest rather than in an immediate alert.
+  const unidentified = after.confidence === "candidate";
   const importance =
-    (structural && !pointer && !(type === "added" && repositoryOnly && !after.version)) ||
-    fields.some((field) => MAJOR_FIELDS.has(field))
+    !unidentified &&
+    ((structural && !pointer && !(type === "added" && repositoryOnly && !after.version)) ||
+      fields.some((field) => MAJOR_FIELDS.has(field)))
       ? "major"
       : "minor";
   return { id: eventId(type, after, fields), type, importance, before, after, changedFields: fields, detectedAt: now };
@@ -287,7 +296,17 @@ export function applySourceResults(state: WatcherState, runs: SourceRunResult[],
     }
     model.snapshot = next;
     const confidence = next.confidence;
-    if (confidence === "candidate") continue;
+    if (confidence === "candidate") {
+      // A launch post can land days before the identifier does. The first time
+      // a publisher announces a name we cannot yet resolve to a slug, it goes
+      // out in the daily digest — never as an immediate alert, because there
+      // is nothing specific to act on. Later prose repeats nothing new, and
+      // the real announcement follows once an identifier appears.
+      if (!previous && !seededKeys.has(key) && isProseOnly(Object.values(model.observations))) {
+        events.push(makeEvent("added", next, previous, ["announcement"], now));
+      }
+      continue;
+    }
 
     // Every structural event claims "here is a specific model you have not
     // been told about". An older version of an already-tracked family is a

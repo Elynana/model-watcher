@@ -191,15 +191,26 @@ test("a snapshot stored under an older schema is rebuilt, never re-announced", (
   assert.equal(Object.values(value.models)[0]?.snapshot?.slug, "gpt-5.2");
 });
 
-test("a name only ever seen in prose is recorded but never announced", () => {
+test("a name only ever seen in prose is digested, never announced", () => {
   const value = state();
   const page = source("official:page:google", "official-page", "google");
   ready(value, page);
-  // "imagen pro" and "Gemini 2.0" are how a docs page writes about a line-up.
-  // A first-party page saying a name is not a publisher shipping a slug.
+  // A first-party page saying a name is not a publisher shipping a slug, but
+  // a launch post can precede the API, so the sighting is still worth a line.
   const events = applySourceResults(value, [run(page, ["Gemini 2.0"])]);
-  assert.equal(events.length, 0, "a prose phrase is not a confirmed new model");
+  assert.equal(events.length, 1);
+  assert.equal(events[0]?.importance, "minor", "a prose phrase is not a confirmed new model");
+  assert.deepEqual(events[0]?.changedFields, ["announcement"]);
   assert.equal(Object.values(value.models)[0]?.snapshot?.confidence, "candidate");
+
+  // Repeating the same prose on the next run is not news a second time.
+  assert.equal(applySourceResults(value, [run(page, ["Gemini 2.0"])]).length, 0);
+});
+
+test("a prose sighting during the silent baseline stays out of the digest", () => {
+  const value = state();
+  const page = source("official:page:google", "official-page", "google");
+  assert.equal(applySourceResults(value, [run(page, ["Gemini 2.0"], true)]).length, 0);
 });
 
 test("a prose mention merges into the record that carries the identifier", () => {

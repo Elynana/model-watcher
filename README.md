@@ -61,7 +61,11 @@ Rules that keep output definitive:
   daily digest.
 - **Prose needs a grammar.** Pages and feeds are read only through registered
   family patterns, so a table header or a bare brand word can never be reported
-  as a release.
+  as a release, and a tier without a version ("Imagen Pro") names a line-up
+  rather than a model.
+- **An announcement is not an identifier.** A name that no source has published
+  as a slug goes to the digest, never to an immediate alert. It merges into the
+  real record — and is announced properly — once an identifier appears.
 - **Unknown stays unknown.** An arena codename with no publisher is labelled
   unattributed, and no capability is asserted for it.
 
@@ -95,8 +99,9 @@ Slug, vendor, and family options autocomplete from live state.
 
 - New families, versions, modality and capability changes, availability,
   pricing, limits, and lifecycle changes post immediately.
-- Snapshots, aliases, and documentation-only changes enter a daily digest after
-  09:00 America/New_York.
+- Snapshots, aliases, back-references to older generations, blog-only
+  announcements with no published identifier, and documentation-only changes
+  enter a daily digest after 09:00 America/New_York.
 - First runs seed silently, including the first run of a newly added source.
 - Removal requires three consecutive successful absences from an authoritative
   source. A failed or empty parse can never remove a model.
