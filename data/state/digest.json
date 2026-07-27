@@ -8132,6 +8132,61 @@
         "availability"
       ],
       "detectedAt": "2026-07-27T14:02:12.251Z"
+    },
+    {
+      "id": "ceaaf6390d7f414dc73e46f9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-fast",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-fast",
+        "slug": "kimi-k3-fast",
+        "slugAliases": [
+          "kimi-k3-fast"
+        ],
+        "displayName": "kimi-k3-fast",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          }
+        ],
+        "fingerprint": "96f9908ba8b5f90e72145bb7bc6c315986c206174d1ff4777cf29b0548591f01",
+        "firstSeen": "2026-07-27T16:31:41.680Z",
+        "lastChanged": "2026-07-27T16:31:41.680Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-27T16:31:41.680Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
