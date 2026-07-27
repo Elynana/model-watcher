@@ -7791,6 +7791,113 @@
         "announcement"
       ],
       "detectedAt": "2026-07-27T08:25:43.188Z"
+    },
+    {
+      "id": "e437c1ee40c25fc6d5b8d9ca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "hailuo::hailuo-02-pro-image-to-video",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "Hailuo",
+        "familyId": "hailuo",
+        "modelId": "hailuo-02/pro/image-to-video",
+        "slug": "hailuo-02/pro/image-to-video",
+        "slugAliases": [
+          "hailuo-02/pro/image-to-video"
+        ],
+        "displayName": "MiniMax Hailuo 02 [Pro] (Image to Video)",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "02",
+        "tier": "pro",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "tier": "pro",
+          "version": "02"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.08
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/fal-ai/minimax/hailuo-02/pro/image-to-video",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          }
+        ],
+        "fingerprint": "c96d27509e141a91ca04a795264bb24cb974876f9de312f406b71c816b0f6753",
+        "firstSeen": "2026-07-27T11:49:52.052Z",
+        "lastChanged": "2026-07-27T11:49:52.052Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-27T11:49:52.052Z"
+    },
+    {
+      "id": "e4e8e466f383a39b24fdf6d1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "rakutenai::rakutenai-7b-chat-onnx",
+        "owner": "Rakuten",
+        "vendorId": "rakuten",
+        "family": "RakutenAI",
+        "familyId": "rakutenai",
+        "modelId": "RakutenAI-7B-chat-onnx",
+        "slug": "RakutenAI-7B-chat-onnx",
+        "slugAliases": [
+          "RakutenAI-7B-chat-onnx"
+        ],
+        "displayName": "RakutenAI-7B-chat-onnx",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "7B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:rakuten:rakuten",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Rakuten/RakutenAI-7B-chat-onnx",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          }
+        ],
+        "fingerprint": "29c40911890574b5d8d4a0db4b7c127b0de83cd8f0f8dd5210a2dba198ad0cd8",
+        "firstSeen": "2026-07-27T11:49:52.052Z",
+        "lastChanged": "2026-07-27T11:49:52.052Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-27T11:49:52.052Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
