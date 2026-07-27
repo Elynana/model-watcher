@@ -8187,6 +8187,358 @@
         "model"
       ],
       "detectedAt": "2026-07-27T16:31:41.680Z"
+    },
+    {
+      "id": "d01cbb01efd2b05f5ef75911",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "Kimi-K3",
+        "slug": "Kimi-K3",
+        "slugAliases": [
+          "Kimi K3",
+          "Kimi-K3",
+          "kimi-k3"
+        ],
+        "displayName": "Kimi K3",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 15,
+          "cache_read $/M": 0.3
+        },
+        "availability": [
+          "Moonshot AI",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:moonshot",
+            "sourceKind": "official-page",
+            "url": "https://platform.moonshot.ai/docs/pricing/chat",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          },
+          {
+            "sourceId": "official:hf:moonshot:moonshotai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/moonshotai/Kimi-K3",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/api/chat",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/kimi-k3",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-27T16:31:41.680Z"
+          }
+        ],
+        "fingerprint": "d83831974feffab171839c0fc35f6e2428732300df5c13ef778e5e5a590fad52",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-27T16:31:41.680Z"
+      },
+      "after": {
+        "key": "kimi::kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "Kimi-K3",
+        "slug": "Kimi-K3",
+        "slugAliases": [
+          "Kimi K3",
+          "Kimi-K3",
+          "kimi-k3"
+        ],
+        "displayName": "Kimi K3",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 15,
+          "cache_read $/M": 0.3
+        },
+        "availability": [
+          "DeepInfra",
+          "Moonshot AI",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:moonshot",
+            "sourceKind": "official-page",
+            "url": "https://platform.moonshot.ai/docs/pricing/chat",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "official:hf:moonshot:moonshotai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/moonshotai/Kimi-K3",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/api/chat",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/kimi-k3",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          }
+        ],
+        "fingerprint": "f831c7fb45c3e3222c797292fa7cc3d01ebbc8a748fff1e2be5373ae8d39e7e0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-27T18:10:17.050Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-07-27T18:10:17.050Z"
+    },
+    {
+      "id": "1a869fda689aaa95572bd0f6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-max",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5-max",
+        "slug": "claude-opus-5-max",
+        "slugAliases": [
+          "claude-opus-5-max"
+        ],
+        "displayName": "claude-opus-5-max",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "5"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          }
+        ],
+        "fingerprint": "ef5ff54f607ddaf31090198fa141c5aee46abb792d61a26cd22a0b915e895123",
+        "firstSeen": "2026-07-27T18:10:17.050Z",
+        "lastChanged": "2026-07-27T18:10:17.050Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-27T18:10:17.050Z"
+    },
+    {
+      "id": "ec5dfab47c66c2c106ea22ae",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-9-75",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "Kimi K3 9.75",
+        "slug": "Kimi K3 9.75",
+        "slugAliases": [
+          "Kimi K3 9.75"
+        ],
+        "displayName": "Kimi K3 9.75",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          }
+        ],
+        "fingerprint": "15b241db0764d81f54ab75546031853d91007503ca66c4ce9d8d4b88bd81dc79",
+        "firstSeen": "2026-07-27T18:10:17.050Z",
+        "lastChanged": "2026-07-27T18:10:17.050Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T18:10:17.050Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
