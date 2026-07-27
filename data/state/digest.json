@@ -7898,6 +7898,240 @@
         "model"
       ],
       "detectedAt": "2026-07-27T11:49:52.052Z"
+    },
+    {
+      "id": "31d501cc9d06c6dcbe43a8d7",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-opus-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5",
+        "slug": "claude-opus-5",
+        "slugAliases": [
+          "Claude Opus 5",
+          "claude-opus-5"
+        ],
+        "displayName": "Claude Opus 5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 25,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 6.25
+        },
+        "availability": [
+          "Cloudflare AI Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-25T04:30:52.615Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          }
+        ],
+        "fingerprint": "2372eb177f285566c5c5d16a4e3d8dcf783d150aacee76d2e9a94b7352601b71",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-26T21:32:50.931Z"
+      },
+      "after": {
+        "key": "claude::claude-opus-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5",
+        "slug": "claude-opus-5",
+        "slugAliases": [
+          "Claude Opus 5",
+          "claude-opus-5"
+        ],
+        "displayName": "Claude Opus 5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 25,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 6.25
+        },
+        "availability": [
+          "Cloudflare AI Gateway",
+          "DeepInfra",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-07-27T14:02:12.251Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-25T04:30:52.615Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-27T14:02:12.251Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-07-27T14:02:12.251Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-07-27T14:02:12.251Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-27T11:49:52.052Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T14:02:12.251Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-07-27T14:02:12.251Z"
+          }
+        ],
+        "fingerprint": "c20375cf5cacb72b10e4d90675c7df61fcf9c0d673de5049e8aebdcc42433a67",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-27T14:02:12.251Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-07-27T14:02:12.251Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
