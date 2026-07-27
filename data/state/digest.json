@@ -6249,6 +6249,876 @@
         "availability"
       ],
       "detectedAt": "2026-07-26T17:19:26.795Z"
+    },
+    {
+      "id": "cf9761acd389b9290136f171",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "lfm::lfm2-5-vl",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-VL",
+        "slug": "LFM2.5-VL",
+        "slugAliases": [
+          "LFM2.5-VL"
+        ],
+        "displayName": "LFM2.5-VL",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:liquid",
+            "sourceKind": "official-page",
+            "url": "https://www.liquid.ai/models",
+            "observedAt": "2026-07-27T01:15:41.855Z"
+          }
+        ],
+        "fingerprint": "84e737ba5bee1eef3ad85021f6a2194b372367ee2c57b1f530adac8c0aa3ff8f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "lfm::lfm2-5-vl",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-VL",
+        "slug": "LFM2.5-VL",
+        "slugAliases": [
+          "LFM2.5-VL"
+        ],
+        "displayName": "LFM2.5-VL",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:liquid",
+            "sourceKind": "official-page",
+            "url": "https://www.liquid.ai/models",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "98e02179588c5b5f0059bbf3ea3cd93062196e8aad38830f7289b1c1b3cf115f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "a0820686e0054ba59084c1d9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-75",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash 75",
+        "slug": "deepseek-v4-flash 75",
+        "slugAliases": [
+          "deepseek-v4-flash 75"
+        ],
+        "displayName": "deepseek-v4-flash 75",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "777b59e6aa6e4914d3bb1ad9ae00b6aa73c595b57c38f9b0db04c5af5d4990ea",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "d2da9b0462e71bd03b93186b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-r1-133",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-r1 133",
+        "slug": "deepseek-r1 133",
+        "slugAliases": [
+          "deepseek-r1 133"
+        ],
+        "displayName": "deepseek-r1 133",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "r1",
+        "capabilities": {
+          "tier": "r1",
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "95ab3da8134f4520fbad56c2f9aba372a712cc763d2bff73b95fc8f9bc15d7d5",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "6483b42eab1f742fbff34e96",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v3-175",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v3 175",
+        "slug": "deepseek-v3 175",
+        "slugAliases": [
+          "deepseek-v3 175"
+        ],
+        "displayName": "deepseek-v3 175",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.175",
+        "capabilities": {
+          "version": "3.175"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "a19f33183ff14733801ffa714edd3f6583652f246ca3c279c41fecdeef4f27ec",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "0d556ef0145f914420fada01",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-medium-302",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium 302",
+        "slug": "mistral-medium 302",
+        "slugAliases": [
+          "mistral-medium 302"
+        ],
+        "displayName": "mistral-medium 302",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "302",
+        "tier": "medium",
+        "capabilities": {
+          "tier": "medium",
+          "version": "302"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "22bfb2a5faa878fbd2dbcd05ce33067361c23c3b930c0684fee2e0d5171eca05",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "9c64320d57a419e8117e96b1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::minimax-m3-63",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m3 63",
+        "slug": "minimax-m3 63",
+        "slugAliases": [
+          "minimax-m3 63"
+        ],
+        "displayName": "minimax-m3 63",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "m3",
+        "capabilities": {
+          "tier": "m3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "3fdf0b3ced5109e87d2234c339ed5fd48e04545dd39bd79f7cc6eeacf416f9e3",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "2cf01dc9a9623ecb3a705b4e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::minimax-m1-170",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m1 170",
+        "slug": "minimax-m1 170",
+        "slugAliases": [
+          "minimax-m1 170"
+        ],
+        "displayName": "minimax-m1 170",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "m1",
+        "capabilities": {
+          "tier": "m1",
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "7d4979e2e8db97ed03383c8f3acce5c55b4584f8452082ab463c21ae54127efb",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "79245a2857566f4cea0fd3f6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::minimax-m2-194",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m2 194",
+        "slug": "minimax-m2 194",
+        "slugAliases": [
+          "minimax-m2 194"
+        ],
+        "displayName": "minimax-m2 194",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "c7a027583c6c1348edd225791057a821c1c820a941ce26b7d0044c4f50d0a633",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "1a97e4368c2d9771697acff3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "hunyuan::hunyuan-large-vision-253",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "Hunyuan",
+        "familyId": "hunyuan",
+        "modelId": "hunyuan-large-vision 253",
+        "slug": "hunyuan-large-vision 253",
+        "slugAliases": [
+          "hunyuan-large-vision 253"
+        ],
+        "displayName": "hunyuan-large-vision 253",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "253",
+        "tier": "large",
+        "capabilities": {
+          "tier": "large",
+          "version": "253"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "257ea8c18392e3762807eefda7b7e74aacd4a8942729fb5754df3877680803ce",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "6f7760b0c7b3d0e0ad44cc8f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "command::command-r-plus-279",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Command",
+        "familyId": "command",
+        "modelId": "command-r-plus 279",
+        "slug": "command-r-plus 279",
+        "slugAliases": [
+          "command-r-plus 279"
+        ],
+        "displayName": "command-r-plus 279",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "279",
+        "tier": "plus",
+        "capabilities": {
+          "tier": "plus",
+          "version": "279"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "ce634f38b7627530c0fe4fbfe06c89a1d8d1da86145e8cbb85b6dd12c7d57062",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "bc8dd9ec80e317e7b4dfbde0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mercury::mercury-245",
+        "owner": "Inception Labs",
+        "vendorId": "inception-labs",
+        "family": "Mercury",
+        "familyId": "mercury",
+        "modelId": "mercury 245",
+        "slug": "mercury 245",
+        "slugAliases": [
+          "mercury 245"
+        ],
+        "displayName": "mercury 245",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "245",
+        "capabilities": {
+          "version": "245"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "ae793fe97a2e66c152a98001cb1e4fd029bfd4bfc9630cc9eda7f5e35f2aebb9",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "22d1c277793b6a45ff40dbb5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-pro-301",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-pro 301",
+        "slug": "gemini-pro 301",
+        "slugAliases": [
+          "gemini-pro 301"
+        ],
+        "displayName": "gemini-pro 301",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "301",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "301"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "d3cc90a3ae2354f2917260b6075a27d3eec6629ada295052c1cad484afcdf3c4",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "0be991136a5be45d95dcb607",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::spark-1295",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "spark 1295",
+        "slug": "spark 1295",
+        "slugAliases": [
+          "spark 1295"
+        ],
+        "displayName": "spark 1295",
+        "modalities": [
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1295",
+        "capabilities": {
+          "version": "1295"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "14ece1d330863dbc2a1d1ca7656ef8365ba205691c602bee9ab03db15e6b5a4e",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "dae56b8ecd6559593fdc9d52",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::spark-8",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "spark 8",
+        "slug": "spark 8",
+        "slugAliases": [
+          "spark 8"
+        ],
+        "displayName": "spark 8",
+        "modalities": [
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "8",
+        "capabilities": {
+          "version": "8"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "cb1713b76beb299f5d473d8a4db6dd36033a5c32fefb4ccee26cfee467de2558",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "355cb4c3a1aec05a2fb89e88",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepgram-nova::nova-2-lite-203",
+        "owner": "Deepgram",
+        "vendorId": "deepgram",
+        "family": "Deepgram Nova / Aura",
+        "familyId": "deepgram-nova",
+        "modelId": "nova-2-lite 203",
+        "slug": "nova-2-lite 203",
+        "slugAliases": [
+          "nova-2-lite 203"
+        ],
+        "displayName": "nova-2-lite 203",
+        "modalities": [
+          "audio",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "lite",
+        "capabilities": {
+          "tier": "lite",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "548d9e098f664326c22a6fb834c5a3b0642c063b1ba594c9d44adc0d4ad888a9",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
+    },
+    {
+      "id": "bbbd4a4ed49a10138a692c63",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-11",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3 11",
+        "slug": "kimi-k3 11",
+        "slugAliases": [
+          "kimi-k3 11"
+        ],
+        "displayName": "kimi-k3 11",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-27T04:55:14.651Z"
+          }
+        ],
+        "fingerprint": "f1cc59255183ebd77f49199a8c69f0edf1ebf4994d09187ebb46e88e151d07b8",
+        "firstSeen": "2026-07-27T04:55:14.651Z",
+        "lastChanged": "2026-07-27T04:55:14.651Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-27T04:55:14.651Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
