@@ -11110,6 +11110,52 @@
         "lifecycle"
       ],
       "detectedAt": "2026-07-28T17:06:28.116Z"
+    },
+    {
+      "id": "5fe13ce781d6ae4cfad61a54",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "stormcast-conus::stormcast-conus",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "stormcast-conus",
+        "modelId": "stormcast-conus",
+        "slug": "stormcast-conus",
+        "slugAliases": [
+          "stormcast-conus"
+        ],
+        "displayName": "stormcast-conus",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/stormcast-conus",
+            "observedAt": "2026-07-28T18:40:09.138Z"
+          }
+        ],
+        "fingerprint": "8028eddd3235b2be6c4aadfad38348a2d2fdf737d4a73242c82a728a2bf94113",
+        "firstSeen": "2026-07-28T18:40:09.138Z",
+        "lastChanged": "2026-07-28T18:40:09.138Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T18:40:09.138Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
