@@ -10546,6 +10546,60 @@
         "model"
       ],
       "detectedAt": "2026-07-28T06:38:55.659Z"
+    },
+    {
+      "id": "230936650b0a861cea18144d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-31b-it-ultra",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-31B-it-Ultra",
+        "slug": "gemma-4-31B-it-Ultra",
+        "slugAliases": [
+          "gemma-4-31B-it-Ultra"
+        ],
+        "displayName": "gemma-4-31B-it-Ultra",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "ultra",
+        "capabilities": {
+          "parameters": "31B",
+          "tier": "ultra",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "DeepInfra"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "1970-01-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-07-28T11:34:14.216Z"
+          }
+        ],
+        "fingerprint": "bf64de12c229a6290a5ef78e1a676e14a0b6e9f25c725038f516b1c2938cf000",
+        "firstSeen": "2026-07-28T11:34:14.216Z",
+        "lastChanged": "2026-07-28T11:34:14.216Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T11:34:14.216Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
