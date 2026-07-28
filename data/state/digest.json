@@ -10424,6 +10424,128 @@
         "model"
       ],
       "detectedAt": "2026-07-28T04:09:21.297Z"
+    },
+    {
+      "id": "c2bdd5707a763cf9742bd3fa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-6-max",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.6-max",
+        "slug": "qwen3.6-max",
+        "slugAliases": [
+          "qwen3.6-max"
+        ],
+        "displayName": "Qwen3.6 Max Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "tier": "max",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-04",
+          "accepts": "text",
+          "tier": "max",
+          "version": "3.6"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "Charm Hyper"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-20",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://hyper.charm.land",
+            "observedAt": "2026-07-28T06:38:55.659Z"
+          }
+        ],
+        "fingerprint": "21fade7bbe5dfae39ab6cc8cfd1c185bc2db87b661f56b3e12df89ad9bf26776",
+        "firstSeen": "2026-07-28T06:38:55.659Z",
+        "lastChanged": "2026-07-28T06:38:55.659Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T06:38:55.659Z"
+    },
+    {
+      "id": "6201aa2e15627996d591dd8a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-tee",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "Kimi-K3-TEE",
+        "slug": "Kimi-K3-TEE",
+        "slugAliases": [
+          "Kimi-K3-TEE"
+        ],
+        "displayName": "Kimi-K3-TEE",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576
+        },
+        "availability": [
+          "Chutes"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:chutes",
+            "sourceKind": "platform",
+            "url": "https://llm.chutes.ai/v1/models",
+            "observedAt": "2026-07-28T06:38:55.659Z"
+          }
+        ],
+        "fingerprint": "648230e2f8ad01c1df96fc5f3fdf74dc60bde373e75078389c045ee6cdbe3933",
+        "firstSeen": "2026-07-28T06:38:55.659Z",
+        "lastChanged": "2026-07-28T06:38:55.659Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T06:38:55.659Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
