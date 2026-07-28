@@ -11015,6 +11015,101 @@
         "model"
       ],
       "detectedAt": "2026-07-28T15:37:19.330Z"
+    },
+    {
+      "id": "03a67d85dda81de5330d76ec",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "laguna-m::laguna-m-1-20260312",
+        "owner": "Poolside",
+        "family": "laguna-m",
+        "modelId": "laguna-m.1-20260312",
+        "slug": "laguna-m.1-20260312",
+        "slugAliases": [
+          "laguna-m.1-20260312"
+        ],
+        "displayName": "Poolside: Laguna M.1 (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "1",
+        "capabilities": {
+          "accepts": "text",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-28",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/poolside/laguna-m.1:free",
+            "observedAt": "2026-07-28T11:34:14.216Z"
+          }
+        ],
+        "fingerprint": "e008878891fe8959cffc8ce0da60b2c2922b20082f404f6db1bc6ac0b492e79c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "laguna-m::laguna-m-1-20260312",
+        "owner": "Poolside",
+        "family": "laguna-m",
+        "modelId": "laguna-m.1-20260312",
+        "slug": "laguna-m.1-20260312",
+        "slugAliases": [
+          "laguna-m.1-20260312"
+        ],
+        "displayName": "Poolside: Laguna M.1 (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "1",
+        "capabilities": {
+          "accepts": "text",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-04-28",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/poolside/laguna-m.1:free",
+            "observedAt": "2026-07-28T11:34:14.216Z"
+          }
+        ],
+        "fingerprint": "91850bcfd12a950de7ae4880376424f392768fdebb07ec45d861dd62fb036b38",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-28T17:06:28.116Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-07-28T17:06:28.116Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
