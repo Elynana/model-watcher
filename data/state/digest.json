@@ -10600,6 +10600,421 @@
         "model"
       ],
       "detectedAt": "2026-07-28T11:34:14.216Z"
+    },
+    {
+      "id": "85b51a9359fe2e23e502886e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-7-flash-thinking",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-flash:thinking",
+        "slug": "qwen3.7-flash:thinking",
+        "slugAliases": [
+          "qwen3.7-flash:thinking"
+        ],
+        "displayName": "qwen3.7-flash:thinking",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "capabilities": {
+          "version": "3.7"
+        },
+        "limits": {},
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-25",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          }
+        ],
+        "fingerprint": "7c92323d6923a21149ef8d9f6752ad9df364ae3c6cf5dce4d75d43215d9221ec",
+        "firstSeen": "2026-07-28T15:37:19.330Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T15:37:19.330Z"
+    },
+    {
+      "id": "997d20f9f7cea7dcf21e6718",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-encoder-230m",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-Encoder-230M",
+        "slug": "LFM2.5-Encoder-230M",
+        "slugAliases": [
+          "LFM2.5-Encoder-230M"
+        ],
+        "displayName": "LFM2.5-Encoder-230M",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "230M",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-Encoder-230M",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          }
+        ],
+        "fingerprint": "27972544549b44e081d11c815c6c829c4578aeaef3c0c8095b918b323d8d33b8",
+        "firstSeen": "2026-07-28T15:37:19.330Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T15:37:19.330Z"
+    },
+    {
+      "id": "e3f76baf4705b251e2830947",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-encoder-350m",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-Encoder-350M",
+        "slug": "LFM2.5-Encoder-350M",
+        "slugAliases": [
+          "LFM2.5-Encoder-350M"
+        ],
+        "displayName": "LFM2.5-Encoder-350M",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "350M",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-Encoder-350M",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          }
+        ],
+        "fingerprint": "9dbe87f90a947bbb67e83e806b0ec3fd4667e6b8122d88d1f61400120c5d8673",
+        "firstSeen": "2026-07-28T15:37:19.330Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T15:37:19.330Z"
+    },
+    {
+      "id": "9ac1fa3a30edf1145790aa18",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-encoder-350m-prompt-router",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-Encoder-350M-Prompt-Router",
+        "slug": "LFM2.5-Encoder-350M-Prompt-Router",
+        "slugAliases": [
+          "LFM2.5-Encoder-350M-Prompt-Router"
+        ],
+        "displayName": "LFM2.5-Encoder-350M-Prompt-Router",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "350M",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-Encoder-350M-Prompt-Router",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          }
+        ],
+        "fingerprint": "351e82af5731d33486e1dbacc715673b2adb38457df12170a95a7f7865ad84a7",
+        "firstSeen": "2026-07-28T15:37:19.330Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T15:37:19.330Z"
+    },
+    {
+      "id": "77aadc7aba6738ca55c05fe7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-encoder-350m-policy-linter",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-Encoder-350M-Policy-Linter",
+        "slug": "LFM2.5-Encoder-350M-Policy-Linter",
+        "slugAliases": [
+          "LFM2.5-Encoder-350M-Policy-Linter"
+        ],
+        "displayName": "LFM2.5-Encoder-350M-Policy-Linter",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "350M",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-Encoder-350M-Policy-Linter",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          }
+        ],
+        "fingerprint": "0ff53469553bee6a6d270e4d8dd9b6d18e60d8811c6d15a5136f7a4229d13a6f",
+        "firstSeen": "2026-07-28T15:37:19.330Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T15:37:19.330Z"
+    },
+    {
+      "id": "e045d327fb186b8fa228c4dc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-encoder-350m-diffusion",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-Encoder-350M-Diffusion",
+        "slug": "LFM2.5-Encoder-350M-Diffusion",
+        "slugAliases": [
+          "LFM2.5-Encoder-350M-Diffusion"
+        ],
+        "displayName": "LFM2.5-Encoder-350M-Diffusion",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "350M",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-Encoder-350M-Diffusion",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          }
+        ],
+        "fingerprint": "49949cfed9ffeec820085bddc6885b5d7c9ae5a21c7a3ddacd0f92650e561bb3",
+        "firstSeen": "2026-07-28T15:37:19.330Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T15:37:19.330Z"
+    },
+    {
+      "id": "f74a0375e31a14b239b9596a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-encoder-350m-spellchecker",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-Encoder-350M-Spellchecker",
+        "slug": "LFM2.5-Encoder-350M-Spellchecker",
+        "slugAliases": [
+          "LFM2.5-Encoder-350M-Spellchecker"
+        ],
+        "displayName": "LFM2.5-Encoder-350M-Spellchecker",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "350M",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-Encoder-350M-Spellchecker",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          }
+        ],
+        "fingerprint": "f729dc3017debb2a19ce06e3916afcf5ce4693fa8131fc720835969b3b395620",
+        "firstSeen": "2026-07-28T15:37:19.330Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T15:37:19.330Z"
+    },
+    {
+      "id": "8592c11e89996ebb135452f4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-encoder-350m-pii-detector",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-Encoder-350M-PII-Detector",
+        "slug": "LFM2.5-Encoder-350M-PII-Detector",
+        "slugAliases": [
+          "LFM2.5-Encoder-350M-PII-Detector"
+        ],
+        "displayName": "LFM2.5-Encoder-350M-PII-Detector",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "350M",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-Encoder-350M-PII-Detector",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          }
+        ],
+        "fingerprint": "c4c4d224585ccbd0fa5d4676fb224234e78817ff9b3757f4dded64ec8ee429de",
+        "firstSeen": "2026-07-28T15:37:19.330Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T15:37:19.330Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
