@@ -9692,6 +9692,738 @@
         "lifecycle"
       ],
       "detectedAt": "2026-07-27T23:29:21.953Z"
+    },
+    {
+      "id": "262f26eaa0a5b93d8fdb1e2a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "riva::riva-translate-4b-instruct-v1-1",
+        "owner": "NVIDIA",
+        "family": "riva",
+        "modelId": "riva-translate-4b-instruct-v1_1",
+        "slug": "riva-translate-4b-instruct-v1_1",
+        "slugAliases": [
+          "riva-translate-4b-instruct-v1_1"
+        ],
+        "displayName": "riva-translate-4b-instruct-v1_1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "4B",
+          "version": "1.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-27T22:15:31.099Z"
+          }
+        ],
+        "fingerprint": "bd218bec0c9ffe51dd02b8637ee6cb7b07e3c9e7ac06fb8b0218fbaec91bd939",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "riva::riva-translate-4b-instruct-v1-1",
+        "owner": "NVIDIA",
+        "family": "riva",
+        "modelId": "riva-translate-4b-instruct-v1.1",
+        "slug": "riva-translate-4b-instruct-v1.1",
+        "slugAliases": [
+          "riva-translate-4b-instruct-v1.1"
+        ],
+        "displayName": "riva-translate-4b-instruct-v1_1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "4B",
+          "version": "1.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "9c624018fe9115b8158007219e14bfa95dbc7f6676e110f888b7cb142fdb9687",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-28T04:09:21.297Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-07-28T04:09:21.297Z"
+    },
+    {
+      "id": "826a01af165d476ca2c27ec9",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "solar::solar-10-7b-instruct",
+        "owner": "Upstage",
+        "vendorId": "upstage",
+        "family": "Solar",
+        "familyId": "solar",
+        "modelId": "solar-10_7b-instruct",
+        "slug": "solar-10_7b-instruct",
+        "slugAliases": [
+          "solar-10_7b-instruct"
+        ],
+        "displayName": "solar-10.7b-instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "10",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "7B",
+          "version": "10"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-06-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-27T22:15:31.099Z"
+          }
+        ],
+        "fingerprint": "ef33e71441727ccffd5ad9d471784b24dd5183118a80f717486b1f98e9f76007",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "solar::solar-10-7b-instruct",
+        "owner": "Upstage",
+        "vendorId": "upstage",
+        "family": "Solar",
+        "familyId": "solar",
+        "modelId": "solar-10.7b-instruct",
+        "slug": "solar-10.7b-instruct",
+        "slugAliases": [
+          "solar-10.7b-instruct"
+        ],
+        "displayName": "solar-10.7b-instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "10",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "7B",
+          "version": "10"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-06-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "4813a46e13f6b60f2254448c3d8a349a1472fb9a027821d252d7fa8cf70e3b87",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-28T04:09:21.297Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-07-28T04:09:21.297Z"
+    },
+    {
+      "id": "75c26464bfd42b8c551d2611",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "llama::abacusai-dracarys-llama-3-1-70b-instruct",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "abacusai/dracarys-llama-3_1-70b-instruct",
+        "slug": "abacusai/dracarys-llama-3_1-70b-instruct",
+        "slugAliases": [
+          "abacusai/dracarys-llama-3_1-70b-instruct"
+        ],
+        "displayName": "dracarys-llama-3.1-70b-instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "70B",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-27T22:15:31.099Z"
+          }
+        ],
+        "fingerprint": "83b1737f5ff86c133550eb061ee7bc6fb101f9ce72084362afc57652775f415d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "llama::abacusai-dracarys-llama-3-1-70b-instruct",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "abacusai/dracarys-llama-3.1-70b-instruct",
+        "slug": "abacusai/dracarys-llama-3.1-70b-instruct",
+        "slugAliases": [
+          "abacusai/dracarys-llama-3.1-70b-instruct"
+        ],
+        "displayName": "dracarys-llama-3.1-70b-instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "70B",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "682ddbcc47b5afd066dfb040b3cd08539178d3bad8c60e78004429a9f37fe3be",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-28T04:09:21.297Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-07-28T04:09:21.297Z"
+    },
+    {
+      "id": "d236c997f4571b2693675c35",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::llama-3-1-nemotron-safety-guard-8b-v3",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "llama-3_1-nemotron-safety-guard-8b-v3",
+        "slug": "llama-3_1-nemotron-safety-guard-8b-v3",
+        "slugAliases": [
+          "llama-3_1-nemotron-safety-guard-8b-v3"
+        ],
+        "displayName": "llama-3.1-nemotron-safety-guard-8b-v3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-27T22:15:31.099Z"
+          }
+        ],
+        "fingerprint": "049cf0619bba72de1abeda7ab09fc0f0d54cfbbcf689346600d68054db8c863d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "nemotron::llama-3-1-nemotron-safety-guard-8b-v3",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "llama-3.1-nemotron-safety-guard-8b-v3",
+        "slug": "llama-3.1-nemotron-safety-guard-8b-v3",
+        "slugAliases": [
+          "llama-3.1-nemotron-safety-guard-8b-v3"
+        ],
+        "displayName": "llama-3.1-nemotron-safety-guard-8b-v3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "8e84508f187923927fe0e2cf1a22f684e72dd0a79fc7c85a11a09ebff35d9ec2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-28T04:09:21.297Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-07-28T04:09:21.297Z"
+    },
+    {
+      "id": "9c85d4f72ecfd0f783972b22",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::llama-3-1-nemotron-nano-8b-v1",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "llama-3.1-nemotron-nano-8b-v1",
+        "slug": "llama-3.1-nemotron-nano-8b-v1",
+        "slugAliases": [
+          "llama-3.1-nemotron-nano-8b-v1"
+        ],
+        "displayName": "Llama 3.1 Nemotron Nano 8B v1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "nano",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "8B",
+          "tier": "nano",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "f4dd4a65dc25d6101674a6ee88cc7c284d1d3e3d807bcc784223137756e821c0",
+        "firstSeen": "2026-07-28T04:09:21.297Z",
+        "lastChanged": "2026-07-28T04:09:21.297Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T04:09:21.297Z"
+    },
+    {
+      "id": "ed225593c2f67f9d5e1faf64",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::llama-3-1-nemotron-nano-vl-8b-v1",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "llama-3.1-nemotron-nano-vl-8b-v1",
+        "slug": "llama-3.1-nemotron-nano-vl-8b-v1",
+        "slugAliases": [
+          "llama-3.1-nemotron-nano-vl-8b-v1"
+        ],
+        "displayName": "Llama 3.1 Nemotron Nano VL 8B v1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "nano",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "8B",
+          "tier": "nano",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "c4c760b5eb17c400f3f60fc384f24197319f1c53e1361bc628fc91624a62d82c",
+        "firstSeen": "2026-07-28T04:09:21.297Z",
+        "lastChanged": "2026-07-28T04:09:21.297Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T04:09:21.297Z"
+    },
+    {
+      "id": "1d8a2c3ccb1c5ce81d95493d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::duo-chat-opus-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "duo-chat-opus-5",
+        "slug": "duo-chat-opus-5",
+        "slugAliases": [
+          "duo-chat-opus-5"
+        ],
+        "displayName": "Agentic Chat (Claude Opus 5)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "GitLab Duo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.gitlab.com/user/duo_agent_platform/",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "0cc6e9495588d6c2841f63ea314dd86719f7d9a571dcfd8b9e3a2e7fe21e50f9",
+        "firstSeen": "2026-07-28T04:09:21.297Z",
+        "lastChanged": "2026-07-28T04:09:21.297Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T04:09:21.297Z"
+    },
+    {
+      "id": "73eb1a234edeafabb26659f0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-7-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-flash",
+        "slug": "qwen3.7-flash",
+        "slugAliases": [
+          "qwen3.7-flash"
+        ],
+        "displayName": "Qwen3.7 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "3.7"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.13,
+          "cache_read $/M": 0.006,
+          "cache_write $/M": 0.038
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "d11257b61643783a096d38d9e80ce9b0e161e05053b243418b28494886699004",
+        "firstSeen": "2026-07-28T04:09:21.297Z",
+        "lastChanged": "2026-07-28T04:09:21.297Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-28T04:09:21.297Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
