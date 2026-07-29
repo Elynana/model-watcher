@@ -11358,6 +11358,54 @@
         "availability"
       ],
       "detectedAt": "2026-07-29T04:24:56.929Z"
+    },
+    {
+      "id": "63b72cf5bac005c229a94bcb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "unirg-cxr::unirg-cxr",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "unirg-cxr",
+        "modelId": "UniRG-CXR",
+        "slug": "UniRG-CXR",
+        "slugAliases": [
+          "UniRG-CXR"
+        ],
+        "displayName": "UniRG-CXR",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-19",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/UniRG-CXR",
+            "observedAt": "2026-07-29T07:15:59.709Z"
+          }
+        ],
+        "fingerprint": "a3f70a5f7dab88c3583f6a5ed5dc6b39eedf211d30ae1a1b9ec6b124512fddce",
+        "firstSeen": "2026-07-29T07:15:59.709Z",
+        "lastChanged": "2026-07-29T07:15:59.709Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-29T07:15:59.709Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
