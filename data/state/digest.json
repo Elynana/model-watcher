@@ -11730,6 +11730,57 @@
         "displayName"
       ],
       "detectedAt": "2026-07-29T17:26:20.670Z"
+    },
+    {
+      "id": "373cb435dda31f7170b9b589",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen-vl::sa2va-qwen3-vl-4b-sam3",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Qwen-VL",
+        "familyId": "qwen-vl",
+        "modelId": "Sa2VA-Qwen3-VL-4B-SAM3",
+        "slug": "Sa2VA-Qwen3-VL-4B-SAM3",
+        "slugAliases": [
+          "Sa2VA-Qwen3-VL-4B-SAM3"
+        ],
+        "displayName": "Sa2VA-Qwen3-VL-4B-SAM3",
+        "modalities": [
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:bytedance:bytedance",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ByteDance/Sa2VA-Qwen3-VL-4B-SAM3",
+            "observedAt": "2026-07-29T19:55:45.943Z"
+          }
+        ],
+        "fingerprint": "bb765745f5fd8ab81fa5adb984a62aa84e1c27afa375f257a6e7f00e3e596b8e",
+        "firstSeen": "2026-07-29T19:55:45.943Z",
+        "lastChanged": "2026-07-29T19:55:45.943Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-29T19:55:45.943Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
