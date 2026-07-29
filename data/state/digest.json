@@ -11210,6 +11210,154 @@
         "announcement"
       ],
       "detectedAt": "2026-07-28T22:28:35.970Z"
+    },
+    {
+      "id": "5fe069c3e357641e586e3056",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-7-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-flash",
+        "slug": "qwen3.7-flash",
+        "slugAliases": [
+          "qwen3.7-flash"
+        ],
+        "displayName": "Qwen3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.13,
+          "cache_read $/M": 0.006,
+          "cache_write $/M": 0.038
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-07-28T23:31:35.576Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-07-29T01:04:44.641Z"
+          }
+        ],
+        "fingerprint": "67e4f8ae1bc76dbafad3fef917891ce716135c31cf4fa0cbaf2647575416f841",
+        "firstSeen": "2026-07-28T04:09:21.297Z",
+        "lastChanged": "2026-07-28T15:37:19.330Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-7-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-flash",
+        "slug": "qwen3.7-flash",
+        "slugAliases": [
+          "qwen3.7-flash"
+        ],
+        "displayName": "Qwen3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.13,
+          "cache_read $/M": 0.006,
+          "cache_write $/M": 0.038
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-07-28T23:31:35.576Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-07-29T04:24:56.929Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-29T04:24:56.929Z"
+          }
+        ],
+        "fingerprint": "7a26783e4a0585d4e726f0fba778d7b0e4858ee5e39d2c369b2598a133faf9cf",
+        "firstSeen": "2026-07-28T04:09:21.297Z",
+        "lastChanged": "2026-07-29T04:24:56.929Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-07-29T04:24:56.929Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
