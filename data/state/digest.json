@@ -11620,6 +11620,116 @@
         "announcement"
       ],
       "detectedAt": "2026-07-29T16:03:04.473Z"
+    },
+    {
+      "id": "1fe62a16a78659fbae61142e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "laguna-m-1-free::laguna-m-1-free",
+        "owner": "Poolside",
+        "family": "laguna-m-1-free",
+        "modelId": "laguna-m.1:free",
+        "slug": "laguna-m.1:free",
+        "slugAliases": [
+          "laguna-m.1:free"
+        ],
+        "displayName": "Laguna M.1 (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-28",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-07-29T16:03:04.473Z"
+          }
+        ],
+        "fingerprint": "6ba14ae65130df12a49f768d4b8212ec8b259047be4db2bf4f16a9c238758ef3",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-07-25T09:03:50.818Z"
+      },
+      "after": {
+        "key": "laguna-m-1-free::laguna-m-1-free",
+        "owner": "Poolside",
+        "family": "laguna-m-1-free",
+        "modelId": "laguna-m.1:free",
+        "slug": "laguna-m.1:free",
+        "slugAliases": [
+          "laguna-m.1:free"
+        ],
+        "displayName": "Poolside: Laguna M.1 (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-28",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-07-29T17:26:20.670Z"
+          }
+        ],
+        "fingerprint": "e8339774b18631c288d3e0f5fd5f957de0dc59340462543229011a09272d5077",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-07-29T17:26:20.670Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-07-29T17:26:20.670Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
