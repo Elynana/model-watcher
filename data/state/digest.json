@@ -11835,6 +11835,320 @@
         "model"
       ],
       "detectedAt": "2026-07-30T01:04:25.075Z"
+    },
+    {
+      "id": "e33271ef7fedd19a9c1a9d2e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-reasoning",
+        "slug": "grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-reasoning"
+        ],
+        "displayName": "Grok 4.20 (Reasoning)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 2000000,
+          "maxOutputTokens": 2000000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Merge Gateway",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.merge.dev/merge-gateway",
+            "observedAt": "2026-07-29T17:26:20.670Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-07-28T23:31:35.576Z"
+          }
+        ],
+        "fingerprint": "e8fd17b262cf52e8a11b7afe69acd69da99b5f363da6a3aa4c13c4ca1d177f46",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "grok::grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-reasoning",
+        "slug": "grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-reasoning"
+        ],
+        "displayName": "Grok 4.20",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 2000000,
+          "maxOutputTokens": 2000000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Merge Gateway",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.merge.dev/merge-gateway",
+            "observedAt": "2026-07-30T04:15:24.278Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-07-28T23:31:35.576Z"
+          }
+        ],
+        "fingerprint": "6750315a4de3d018ed4b7b34ace5dec689229eb270c74f865f46391f3e0772b4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-30T04:15:24.278Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-07-30T04:15:24.278Z"
+    },
+    {
+      "id": "9aba4b45d10907b4de8a028c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-5-1-chat-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.1-chat-latest",
+        "slug": "gpt-5.1-chat-latest",
+        "slugAliases": [
+          "gpt-5.1-chat-latest"
+        ],
+        "displayName": "GPT-5.1 Chat",
+        "modalities": [
+          "image",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "5.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-09-30",
+          "accepts": "image, text",
+          "version": "5.1",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 10,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Merge Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.merge.dev/merge-gateway",
+            "observedAt": "2026-07-29T17:26:20.670Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-28T23:31:35.576Z"
+          }
+        ],
+        "fingerprint": "bdf2d69a57a189a26c71bd6c0620b8805b2a4ef249984184089680fc20e92f21",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gpt::gpt-5-1-chat-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.1-chat-latest",
+        "slug": "gpt-5.1-chat-latest",
+        "slugAliases": [
+          "gpt-5.1-chat-latest"
+        ],
+        "displayName": "GPT-5.1 Chat Latest",
+        "modalities": [
+          "image",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "5.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-09-30",
+          "accepts": "image, text",
+          "version": "5.1",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 10,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Merge Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.merge.dev/merge-gateway",
+            "observedAt": "2026-07-30T04:15:24.278Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-28T23:31:35.576Z"
+          }
+        ],
+        "fingerprint": "cb020b026fd2e6e4a6eb32e035df7cf142b7f03521b6205508ba6ff5d837717b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-30T04:15:24.278Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-07-30T04:15:24.278Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
