@@ -12149,6 +12149,321 @@
         "displayName"
       ],
       "detectedAt": "2026-07-30T04:15:24.278Z"
+    },
+    {
+      "id": "7e1bad9ecfcfb18d1cabe174",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-eco",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-eco",
+        "slug": "kimi-k3-eco",
+        "slugAliases": [
+          "kimi-k3-eco"
+        ],
+        "displayName": "Kimi K3 Eco",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 4,
+          "cache_read $/M": 0.1
+        },
+        "availability": [
+          "CrofAI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://crof.ai/docs",
+            "observedAt": "2026-07-30T15:21:14.191Z"
+          }
+        ],
+        "fingerprint": "699f8b98d91f81591c7c58fc0cd4df7041c522249b4b73741c67e5822959828d",
+        "firstSeen": "2026-07-30T15:21:14.191Z",
+        "lastChanged": "2026-07-30T15:21:14.191Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-30T15:21:14.191Z"
+    },
+    {
+      "id": "49a53ba90d335b1e45747213",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-robotics-2",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "Gemini Robotics 2",
+        "slug": "Gemini Robotics 2",
+        "slugAliases": [
+          "Gemini Robotics 2"
+        ],
+        "displayName": "Gemini Robotics 2",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "announced"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-28",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+            "observedAt": "2026-07-30T15:21:14.191Z"
+          }
+        ],
+        "fingerprint": "7a44f80c7c382bc0632d76d19d3110cd169f6774d2ee134bea6bfcf29bfebfd4",
+        "firstSeen": "2026-07-30T15:21:14.191Z",
+        "lastChanged": "2026-07-30T15:21:14.191Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-30T15:21:14.191Z"
+    },
+    {
+      "id": "d68b8511436e270ca2048945",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lightonai-mlateon-unsupervised::lightonai-mlateon-unsupervised",
+        "owner": "LightOn",
+        "vendorId": "lighton",
+        "family": "lightonai-mlateon-unsupervised",
+        "modelId": "lightonai/mLateOn-unsupervised",
+        "slug": "lightonai/mLateOn-unsupervised",
+        "slugAliases": [
+          "lightonai/mLateOn-unsupervised"
+        ],
+        "displayName": "mLateOn-unsupervised",
+        "modalities": [
+          "code",
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:lighton:lightonai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/lightonai/mLateOn-unsupervised",
+            "observedAt": "2026-07-30T15:21:14.191Z"
+          }
+        ],
+        "fingerprint": "e88b24b802dcd868a8ced09fe984a12ab13624f4aa74e4cec2abe7ef72b4f654",
+        "firstSeen": "2026-07-30T15:21:14.191Z",
+        "lastChanged": "2026-07-30T15:21:14.191Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-30T15:21:14.191Z"
+    },
+    {
+      "id": "33ad150a805863e0fd7e105f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lightonai-mdenseon-unsupervised::lightonai-mdenseon-unsupervised",
+        "owner": "LightOn",
+        "vendorId": "lighton",
+        "family": "lightonai-mdenseon-unsupervised",
+        "modelId": "lightonai/mDenseOn-unsupervised",
+        "slug": "lightonai/mDenseOn-unsupervised",
+        "slugAliases": [
+          "lightonai/mDenseOn-unsupervised"
+        ],
+        "displayName": "mDenseOn-unsupervised",
+        "modalities": [
+          "code",
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:lighton:lightonai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/lightonai/mDenseOn-unsupervised",
+            "observedAt": "2026-07-30T15:21:14.191Z"
+          }
+        ],
+        "fingerprint": "9638850c41ae9572db75219aad6511ecc03f25b8025acbee0e337f4029bee8d5",
+        "firstSeen": "2026-07-30T15:21:14.191Z",
+        "lastChanged": "2026-07-30T15:21:14.191Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-30T15:21:14.191Z"
+    },
+    {
+      "id": "869e187f933fd94aa1a5fbb4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lightonai-mlateon::lightonai-mlateon",
+        "owner": "LightOn",
+        "vendorId": "lighton",
+        "family": "lightonai-mlateon",
+        "modelId": "lightonai/mLateOn",
+        "slug": "lightonai/mLateOn",
+        "slugAliases": [
+          "lightonai/mLateOn"
+        ],
+        "displayName": "mLateOn",
+        "modalities": [
+          "code",
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:lighton:lightonai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/lightonai/mLateOn",
+            "observedAt": "2026-07-30T15:21:14.191Z"
+          }
+        ],
+        "fingerprint": "50947d55b1ac89c2c0814335544137662152d42365cd27a8445b088393ac7029",
+        "firstSeen": "2026-07-30T15:21:14.191Z",
+        "lastChanged": "2026-07-30T15:21:14.191Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-30T15:21:14.191Z"
+    },
+    {
+      "id": "50f2ac24cb228828bc816661",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lightonai-mdenseon::lightonai-mdenseon",
+        "owner": "LightOn",
+        "vendorId": "lighton",
+        "family": "lightonai-mdenseon",
+        "modelId": "lightonai/mDenseOn",
+        "slug": "lightonai/mDenseOn",
+        "slugAliases": [
+          "lightonai/mDenseOn"
+        ],
+        "displayName": "mDenseOn",
+        "modalities": [
+          "code",
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:lighton:lightonai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/lightonai/mDenseOn",
+            "observedAt": "2026-07-30T15:21:14.191Z"
+          }
+        ],
+        "fingerprint": "9d182526a8bb9d41d87b107cf88ef18bbede6210a3ae46f3ddd67a7ce4473ac4",
+        "firstSeen": "2026-07-30T15:21:14.191Z",
+        "lastChanged": "2026-07-30T15:21:14.191Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-30T15:21:14.191Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
