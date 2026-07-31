@@ -14180,6 +14180,151 @@
         "announcement"
       ],
       "detectedAt": "2026-07-31T10:07:41.456Z"
+    },
+    {
+      "id": "0f610e5e2c292bb0e85f2a71",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "inkling::inkling-small",
+        "owner": "Thinking Machines Lab",
+        "family": "inkling",
+        "modelId": "inkling-small",
+        "slug": "inkling-small",
+        "slugAliases": [
+          "inkling-small"
+        ],
+        "displayName": "inkling-small",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "small",
+        "capabilities": {
+          "tier": "small"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-31T12:13:25.762Z"
+          }
+        ],
+        "fingerprint": "a0ca14be20a72f23fd0fdfa8f43b0dae51a530a9c667e4551d5d4e5063fd38fc",
+        "firstSeen": "2026-07-30T19:57:07.181Z",
+        "lastChanged": "2026-07-30T19:57:07.181Z"
+      },
+      "after": {
+        "key": "inkling::inkling-small",
+        "owner": "Thinking Machines Lab",
+        "family": "inkling",
+        "modelId": "inkling-small",
+        "slug": "inkling-small",
+        "slugAliases": [
+          "Inkling-Small",
+          "inkling-small"
+        ],
+        "displayName": "inkling-small",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "small",
+        "capabilities": {
+          "tier": "small"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "DeepInfra",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-31T14:39:24.956Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-07-31T14:39:24.956Z"
+          }
+        ],
+        "fingerprint": "02100fa76817d53924e6ce82b9bff365417160319c40589e03e6c574f5e53cfa",
+        "firstSeen": "2026-07-30T19:57:07.181Z",
+        "lastChanged": "2026-07-31T14:39:24.956Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-07-31T14:39:24.956Z"
+    },
+    {
+      "id": "d6803ccc3862d9843c57f361",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lyria::lyria-3-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Lyria",
+        "familyId": "lyria",
+        "modelId": "Lyria 3 Preview",
+        "slug": "Lyria 3 Preview",
+        "slugAliases": [
+          "Lyria 3 Preview"
+        ],
+        "displayName": "Lyria 3 Preview",
+        "modalities": [
+          "audio",
+          "music"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-31T14:39:24.956Z"
+          }
+        ],
+        "fingerprint": "544fdbfe9a71f77c1072787ca58a4b12d8f1a2dd62eeb0b4ffea31361155eaf8",
+        "firstSeen": "2026-07-31T14:39:24.956Z",
+        "lastChanged": "2026-07-31T14:39:24.956Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-07-31T14:39:24.956Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
