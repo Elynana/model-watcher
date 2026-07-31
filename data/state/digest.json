@@ -14325,6 +14325,360 @@
         "announcement"
       ],
       "detectedAt": "2026-07-31T14:39:24.956Z"
+    },
+    {
+      "id": "278b84609d91ff9d63bdc5c8",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-flash-0731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Flash-0731",
+        "slug": "DeepSeek-V4-Flash-0731",
+        "slugAliases": [
+          "DeepSeek V4 Flash 0731",
+          "DeepSeek-V4-Flash-0731",
+          "deepseek-v4-flash-0731"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "OpenRouter",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+            "observedAt": "2026-07-31T18:01:27.190Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-07-31T18:01:27.190Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-31T18:01:27.190Z"
+          }
+        ],
+        "fingerprint": "74ed1ad282cdeb8b7015434f15dca60277d61d4df33a9c2e332b0c05ccccb48a",
+        "firstSeen": "2026-07-31T07:30:04.802Z",
+        "lastChanged": "2026-07-31T18:01:27.190Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Flash-0731",
+        "slug": "DeepSeek-V4-Flash-0731",
+        "slugAliases": [
+          "DeepSeek V4 Flash 0731",
+          "DeepSeek-V4-Flash-0731",
+          "deepseek-v4-flash-0731"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenRouter",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+            "observedAt": "2026-07-31T19:48:16.917Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-07-31T19:48:16.917Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-07-31T19:48:16.917Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-31T19:48:16.917Z"
+          }
+        ],
+        "fingerprint": "07bf9fb91ed293f90e815af820979060a1d94541185d7db220fcf1c190dacb3a",
+        "firstSeen": "2026-07-31T07:30:04.802Z",
+        "lastChanged": "2026-07-31T19:48:16.917Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-07-31T19:48:16.917Z"
+    },
+    {
+      "id": "e7b6484ddc186ac5a6e0803f",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-5-1-chat-20251113",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.1-chat-20251113",
+        "slug": "gpt-5.1-chat-20251113",
+        "slugAliases": [
+          "gpt-5.1-chat-20251113"
+        ],
+        "displayName": "OpenAI: GPT-5.1 Chat",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.1",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "prompt $/M": 1.25,
+          "completion $/M": 10,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.13
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-13",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-5.1-chat",
+            "observedAt": "2026-07-31T14:39:24.956Z"
+          }
+        ],
+        "fingerprint": "2a10d85d1bca010eb65fc92dcd105b851632c5e8d0cb934bca64d4c85abdb140",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-27T18:10:17.050Z"
+      },
+      "after": {
+        "key": "gpt::gpt-5-1-chat-20251113",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.1-chat-20251113",
+        "slug": "gpt-5.1-chat-20251113",
+        "slugAliases": [
+          "gpt-5.1-chat-20251113"
+        ],
+        "displayName": "OpenAI: GPT-5.1 Chat",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.1",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "prompt $/M": 1.25,
+          "completion $/M": 10,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.13
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2025-11-13",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-5.1-chat",
+            "observedAt": "2026-07-31T14:39:24.956Z"
+          }
+        ],
+        "fingerprint": "24886d2ffe0e8ec853bbcedf1b4807d509eab31896459de03924d8195f732f10",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-31T19:48:16.917Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-07-31T19:48:16.917Z"
+    },
+    {
+      "id": "1938fb2a6ea9d87917312af2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-highspeed-1m",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-highspeed[1m]",
+        "slug": "glm-5.2-highspeed[1m]",
+        "slugAliases": [
+          "glm-5.2-highspeed[1m]"
+        ],
+        "displayName": "GLM-5.2 Highspeed",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Z.AI Coding Plan"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-07-31T19:48:16.917Z"
+          }
+        ],
+        "fingerprint": "9c4bc3d096a60d1431da8dad3b4af9aa5e9206a73d0ed53924da36bc9c691b69",
+        "firstSeen": "2026-07-31T19:48:16.917Z",
+        "lastChanged": "2026-07-31T19:48:16.917Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-07-31T19:48:16.917Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
