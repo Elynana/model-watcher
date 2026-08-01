@@ -14975,6 +14975,212 @@
         "availability"
       ],
       "detectedAt": "2026-07-31T23:45:45.856Z"
+    },
+    {
+      "id": "f42bace06d751f357f08eb0e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-flash-0731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Flash-0731",
+        "slug": "DeepSeek-V4-Flash-0731",
+        "slugAliases": [
+          "DeepSeek V4 Flash 0731",
+          "DeepSeek-V4-Flash-0731",
+          "deepseek-v4-flash-0731"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+            "observedAt": "2026-07-31T23:45:45.856Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-07-31T21:49:40.713Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-07-31T23:45:45.856Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-31T23:45:45.856Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-07-31T23:45:45.856Z"
+          }
+        ],
+        "fingerprint": "a09705a6284a129ae943e320164920c26a999fd33588cf9d51fbe475f205f86b",
+        "firstSeen": "2026-07-31T07:30:04.802Z",
+        "lastChanged": "2026-07-31T23:45:45.856Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Flash-0731",
+        "slug": "DeepSeek-V4-Flash-0731",
+        "slugAliases": [
+          "DeepSeek V4 Flash 0731",
+          "DeepSeek-V4-Flash-0731",
+          "deepseek-v4-flash-0731"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "DeepInfra",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+            "observedAt": "2026-08-01T01:18:00.493Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-07-31T21:49:40.713Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-01T01:18:00.493Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-01T01:18:00.493Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-01T01:18:00.493Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-01T01:18:00.493Z"
+          }
+        ],
+        "fingerprint": "5c9ee76a339ea19bf8765bcb7146d33a97a4215cc1396c29c674886b29cd450b",
+        "firstSeen": "2026-07-31T07:30:04.802Z",
+        "lastChanged": "2026-08-01T01:18:00.493Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-01T01:18:00.493Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
