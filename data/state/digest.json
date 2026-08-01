@@ -15181,6 +15181,388 @@
         "availability"
       ],
       "detectedAt": "2026-08-01T01:18:00.493Z"
+    },
+    {
+      "id": "cf516f0dc07999d4786ba01f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-video-v1-5-reference-to-video",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-video/v1.5/reference-to-video",
+        "slug": "grok-imagine-video/v1.5/reference-to-video",
+        "slugAliases": [
+          "grok-imagine-video/v1.5/reference-to-video"
+        ],
+        "displayName": "Grok Imagine Video 1.5 Reference to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.5",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "version": "1.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.08
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/xai/grok-imagine-video/v1.5/reference-to-video",
+            "observedAt": "2026-08-01T09:25:27.389Z"
+          }
+        ],
+        "fingerprint": "105f3d40415c6d12def0e484f4b9176259fa41117e86aa278238c989a7737ba3",
+        "firstSeen": "2026-08-01T09:25:27.389Z",
+        "lastChanged": "2026-08-01T09:25:27.389Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-01T09:25:27.389Z"
+    },
+    {
+      "id": "d689449074be3a93b4827447",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-video-v1-5-text-to-video",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-video/v1.5/text-to-video",
+        "slug": "grok-imagine-video/v1.5/text-to-video",
+        "slugAliases": [
+          "grok-imagine-video/v1.5/text-to-video"
+        ],
+        "displayName": "Grok Imagine Video 1.5 Text to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.5",
+        "capabilities": {
+          "endpoint": "text-to-video",
+          "license": "commercial",
+          "version": "1.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.08
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/xai/grok-imagine-video/v1.5/text-to-video",
+            "observedAt": "2026-08-01T09:25:27.389Z"
+          }
+        ],
+        "fingerprint": "3bf6964aa07ddb4fd303d05e96708a7d69c7602fdfddff6eddbe5fe88b4ba7c5",
+        "firstSeen": "2026-08-01T09:25:27.389Z",
+        "lastChanged": "2026-08-01T09:25:27.389Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-01T09:25:27.389Z"
+    },
+    {
+      "id": "7e29a0437ed7bd9a9dae8177",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ltx::ltx-2-3-quality-clean-plate",
+        "owner": "Lightricks",
+        "vendorId": "lightricks",
+        "family": "LTX-Video",
+        "familyId": "ltx",
+        "modelId": "ltx-2.3-quality/clean-plate",
+        "slug": "ltx-2.3-quality/clean-plate",
+        "slugAliases": [
+          "ltx-2.3-quality/clean-plate"
+        ],
+        "displayName": "Ltx 2.3 Quality",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.3",
+        "capabilities": {
+          "endpoint": "video-to-video",
+          "license": "commercial",
+          "version": "2.3"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.0024075
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/fal-ai/ltx-2.3-quality/clean-plate",
+            "observedAt": "2026-08-01T09:25:27.389Z"
+          }
+        ],
+        "fingerprint": "3570e47a8052dbd9850e05217f850ad03ee6cd9f4b6b74bbce189295e93fd909",
+        "firstSeen": "2026-08-01T09:25:27.389Z",
+        "lastChanged": "2026-08-01T09:25:27.389Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-01T09:25:27.389Z"
+    },
+    {
+      "id": "c2a73192f071ca58a505eb2d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ltx::ltx-2-3-reframe",
+        "owner": "Lightricks",
+        "vendorId": "lightricks",
+        "family": "LTX-Video",
+        "familyId": "ltx",
+        "modelId": "ltx-2.3/reframe",
+        "slug": "ltx-2.3/reframe",
+        "slugAliases": [
+          "ltx-2.3/reframe"
+        ],
+        "displayName": "Ltx 2.3",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.3",
+        "capabilities": {
+          "endpoint": "video-to-video",
+          "license": "commercial",
+          "version": "2.3"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.1
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/fal-ai/ltx-2.3/reframe",
+            "observedAt": "2026-08-01T09:25:27.389Z"
+          }
+        ],
+        "fingerprint": "0f3dea925626b803b13dfca730bfc6c994fd1d02a2e7eba45bfbf513386750f7",
+        "firstSeen": "2026-08-01T09:25:27.389Z",
+        "lastChanged": "2026-08-01T09:25:27.389Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-01T09:25:27.389Z"
+    },
+    {
+      "id": "d680eaf77c9f5e38b6fd98bd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ltx::ltx-2-3-quality-extend-video-lora",
+        "owner": "Lightricks",
+        "vendorId": "lightricks",
+        "family": "LTX-Video",
+        "familyId": "ltx",
+        "modelId": "ltx-2.3-quality/extend-video/lora",
+        "slug": "ltx-2.3-quality/extend-video/lora",
+        "slugAliases": [
+          "ltx-2.3-quality/extend-video/lora"
+        ],
+        "displayName": "Ltx 2.3 Quality",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.3",
+        "capabilities": {
+          "endpoint": "video-to-video",
+          "license": "commercial",
+          "version": "2.3"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.0024075
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/fal-ai/ltx-2.3-quality/extend-video/lora",
+            "observedAt": "2026-08-01T09:25:27.389Z"
+          }
+        ],
+        "fingerprint": "9bc2ef62b625e288b3147cd09155ce3111609db29561dd76c86f18153c9d6438",
+        "firstSeen": "2026-08-01T09:25:27.389Z",
+        "lastChanged": "2026-08-01T09:25:27.389Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-01T09:25:27.389Z"
+    },
+    {
+      "id": "9619d24b92cdb62a00dbac9a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ltx::ltx-2-3-quality-extend-video",
+        "owner": "Lightricks",
+        "vendorId": "lightricks",
+        "family": "LTX-Video",
+        "familyId": "ltx",
+        "modelId": "ltx-2.3-quality/extend-video",
+        "slug": "ltx-2.3-quality/extend-video",
+        "slugAliases": [
+          "ltx-2.3-quality/extend-video"
+        ],
+        "displayName": "Ltx 2.3 Quality",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.3",
+        "capabilities": {
+          "endpoint": "video-to-video",
+          "license": "commercial",
+          "version": "2.3"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.0024075
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/fal-ai/ltx-2.3-quality/extend-video",
+            "observedAt": "2026-08-01T09:25:27.389Z"
+          }
+        ],
+        "fingerprint": "53a2890bd24853c5fbd45c23f04e7c4ca7eb49e1d666e2169da1a6a8491aef69",
+        "firstSeen": "2026-08-01T09:25:27.389Z",
+        "lastChanged": "2026-08-01T09:25:27.389Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-01T09:25:27.389Z"
+    },
+    {
+      "id": "51218c6763a7e432904546e4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-max-1676",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-max 1676",
+        "slug": "kimi-k3-max 1676",
+        "slugAliases": [
+          "kimi-k3-max 1676"
+        ],
+        "displayName": "kimi-k3-max 1676",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-01T09:25:27.389Z"
+          }
+        ],
+        "fingerprint": "09c5939ace7b6e571d82748a9632cddd471072b961f954b5682c7b117413fa68",
+        "firstSeen": "2026-08-01T09:25:27.389Z",
+        "lastChanged": "2026-08-01T09:25:27.389Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-01T09:25:27.389Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
