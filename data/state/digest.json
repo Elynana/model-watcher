@@ -15563,6 +15563,71 @@
         "announcement"
       ],
       "detectedAt": "2026-08-01T09:25:27.389Z"
+    },
+    {
+      "id": "1f2c3b5fd56a33b8d07bef4a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-highspeed",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-highspeed",
+        "slug": "glm-5.2-highspeed",
+        "slugAliases": [
+          "glm-5.2-highspeed"
+        ],
+        "displayName": "GLM-5.2 Highspeed",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Z.AI Coding Plan"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-08-01T17:41:41.186Z"
+          }
+        ],
+        "fingerprint": "9c51ca149b3f4c467108a672fc9ca52b5a8fc937b368f88081da172190b4e429",
+        "firstSeen": "2026-08-01T17:41:41.186Z",
+        "lastChanged": "2026-08-01T17:41:41.186Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-01T17:41:41.186Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
