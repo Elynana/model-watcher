@@ -15755,6 +15755,61 @@
         "model"
       ],
       "detectedAt": "2026-08-02T04:43:15.233Z"
+    },
+    {
+      "id": "11b7de6058e8da080d0803b3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0731-tee",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Flash-0731-TEE",
+        "slug": "DeepSeek-V4-Flash-0731-TEE",
+        "slugAliases": [
+          "DeepSeek-V4-Flash-0731-TEE"
+        ],
+        "displayName": "DeepSeek-V4-Flash-0731-TEE",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576
+        },
+        "availability": [
+          "Chutes"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:chutes",
+            "sourceKind": "platform",
+            "url": "https://llm.chutes.ai/v1/models",
+            "observedAt": "2026-08-02T13:49:03.669Z"
+          }
+        ],
+        "fingerprint": "caee7c75402ea7e131170d0fef08b78f4ce31a28d7c4a45920f6d5cc7445fa9f",
+        "firstSeen": "2026-08-02T13:49:03.669Z",
+        "lastChanged": "2026-08-02T13:49:03.669Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-02T13:49:03.669Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
