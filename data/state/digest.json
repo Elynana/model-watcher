@@ -15810,6 +15810,178 @@
         "model"
       ],
       "detectedAt": "2026-08-02T13:49:03.669Z"
+    },
+    {
+      "id": "ccb454ab8345f1fd91121d27",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-tts-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-mini-tts-latest",
+        "slug": "voxtral-mini-tts-latest",
+        "slugAliases": [
+          "voxtral-mini-tts-latest"
+        ],
+        "displayName": "Voxtral Mini TTS (latest)",
+        "modalities": [
+          "audio"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "tier": "mini"
+        },
+        "limits": {},
+        "availability": [
+          "Mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/getting-started/models/",
+            "observedAt": "2026-08-02T16:56:07.301Z"
+          }
+        ],
+        "fingerprint": "61fa639576b0293802bd3c63663610022a53311a7146b5e340954987ea2ac73f",
+        "firstSeen": "2026-08-02T16:56:07.301Z",
+        "lastChanged": "2026-08-02T16:56:07.301Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-02T16:56:07.301Z"
+    },
+    {
+      "id": "5b339bd0803e1dc7215aa636",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-mini-latest",
+        "slug": "voxtral-mini-latest",
+        "slugAliases": [
+          "voxtral-mini-latest"
+        ],
+        "displayName": "Voxtral Mini (latest)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "audio",
+          "tier": "mini"
+        },
+        "limits": {},
+        "availability": [
+          "Mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/getting-started/models/",
+            "observedAt": "2026-08-02T16:56:07.301Z"
+          }
+        ],
+        "fingerprint": "6d9dcf86d0643e36540d19b7db73304d4e08b833c3b7deaf246c5ade53d89be3",
+        "firstSeen": "2026-08-02T16:56:07.301Z",
+        "lastChanged": "2026-08-02T16:56:07.301Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-02T16:56:07.301Z"
+    },
+    {
+      "id": "e4858644b6f9e09403452cea",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-small-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-small-latest",
+        "slug": "voxtral-small-latest",
+        "slugAliases": [
+          "voxtral-small-latest"
+        ],
+        "displayName": "Voxtral Small (latest)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "small",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "audio, text",
+          "tier": "small"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "Mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-07-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/getting-started/models/",
+            "observedAt": "2026-08-02T16:56:07.301Z"
+          }
+        ],
+        "fingerprint": "ae071f2b27f19529dbcaa58ad190631b28062046f335d86cc51d87a15f8fbf49",
+        "firstSeen": "2026-08-02T16:56:07.301Z",
+        "lastChanged": "2026-08-02T16:56:07.301Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-02T16:56:07.301Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
