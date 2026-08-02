@@ -15628,6 +15628,133 @@
         "model"
       ],
       "detectedAt": "2026-08-01T17:41:41.186Z"
+    },
+    {
+      "id": "3c28252130e157168b216435",
+      "type": "added",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-flash-latest",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-latest",
+        "slug": "deepseek-v4-flash-latest",
+        "slugAliases": [
+          "deepseek-v4-flash-latest"
+        ],
+        "displayName": "DeepSeek V4 Flash Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.09,
+          "completion $/M": 0.18,
+          "input_cache_read $/M": 0.018
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-01",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~deepseek/deepseek-v4-flash-latest",
+            "observedAt": "2026-08-02T01:17:15.283Z"
+          }
+        ],
+        "fingerprint": "4c9816e1253740d2a7c3caa52d447081e8158e6d40ec60392a4eccd31d5d84ed",
+        "firstSeen": "2026-08-01T18:43:16.918Z",
+        "lastChanged": "2026-08-01T18:43:16.918Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-latest",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-latest",
+        "slug": "deepseek-v4-flash-latest",
+        "slugAliases": [
+          "deepseek-v4-flash-latest"
+        ],
+        "displayName": "DeepSeek V4 Flash Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.09,
+          "completion $/M": 0.18,
+          "input_cache_read $/M": 0.018,
+          "input $/M": 0.09,
+          "output $/M": 0.18,
+          "cache_read $/M": 0.018
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-02T04:43:15.233Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~deepseek/deepseek-v4-flash-latest",
+            "observedAt": "2026-08-02T04:43:15.233Z"
+          }
+        ],
+        "fingerprint": "9dfdc796a701bd69dab6be2a132edc91dafed7c4715c64e0668eb513a42c4e57",
+        "firstSeen": "2026-08-01T18:43:16.918Z",
+        "lastChanged": "2026-08-02T04:43:15.233Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-02T04:43:15.233Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
