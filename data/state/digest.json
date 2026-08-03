@@ -17009,6 +17009,863 @@
         "announcement"
       ],
       "detectedAt": "2026-08-03T07:28:35.710Z"
+    },
+    {
+      "id": "1ff26b1ed99f754b7e65c46b",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "phi::phi-4-mini-reasoning",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "Phi",
+        "familyId": "phi",
+        "modelId": "phi-4-mini-reasoning",
+        "slug": "phi-4-mini-reasoning",
+        "slugAliases": [
+          "Phi-4-mini-reasoning",
+          "phi-4-mini-reasoning"
+        ],
+        "displayName": "Phi-4-mini-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "mini",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "mini",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.08,
+          "output $/M": 0.32
+        },
+        "availability": [
+          "GitHub Models",
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.github.com/en/github-models",
+            "observedAt": "2026-08-03T07:28:35.710Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/microsoft/",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/microsoft/phi-4-mini-reasoning",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          }
+        ],
+        "fingerprint": "8f26a41735cc47ee8c76fad559df1bd6b40f833e69ba865d54b2be7040cae499",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "phi::phi-4-mini-reasoning",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "Phi",
+        "familyId": "phi",
+        "modelId": "phi-4-mini-reasoning",
+        "slug": "phi-4-mini-reasoning",
+        "slugAliases": [
+          "Phi-4-mini-reasoning",
+          "phi-4-mini-reasoning"
+        ],
+        "displayName": "Phi-4-mini-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "mini",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "mini",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.08,
+          "output $/M": 0.32
+        },
+        "availability": [
+          "Azure",
+          "GitHub Models",
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-08-03T16:07:14.576Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/microsoft/",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/microsoft/phi-4-mini-reasoning",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          }
+        ],
+        "fingerprint": "c1b3fc27d3761de3f2c024ed80694fc9e7811f1a05691ac4d3e159596ca7484f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-03T16:07:14.576Z"
+    },
+    {
+      "id": "ece5867430f7bd1104599650",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "phi::phi-4-reasoning",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "Phi",
+        "familyId": "phi",
+        "modelId": "phi-4-reasoning",
+        "slug": "phi-4-reasoning",
+        "slugAliases": [
+          "Phi-4-reasoning",
+          "phi-4-reasoning"
+        ],
+        "displayName": "Phi-4-Reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "accepts": "text",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.125,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "GitHub Models",
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.github.com/en/github-models",
+            "observedAt": "2026-08-03T07:28:35.710Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/microsoft/",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/microsoft/phi-4-reasoning",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          }
+        ],
+        "fingerprint": "4d90efbe4fba70c9706f67326fbe4ad649c4f22db91eb88f50c5c7745b467c73",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "phi::phi-4-reasoning",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "Phi",
+        "familyId": "phi",
+        "modelId": "phi-4-reasoning",
+        "slug": "phi-4-reasoning",
+        "slugAliases": [
+          "Phi-4-reasoning",
+          "phi-4-reasoning"
+        ],
+        "displayName": "Phi-4-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "accepts": "text",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.125,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "Azure",
+          "GitHub Models",
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-08-03T16:07:14.576Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/microsoft/",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/microsoft/phi-4-reasoning",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          }
+        ],
+        "fingerprint": "9e98ac3a76570566565a673a606201719a125e4cd36f577a45c362838ef3be4b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-03T16:07:14.576Z"
+    },
+    {
+      "id": "105f66df5658b9f08a7096ae",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "openai::openai-o1",
+        "family": "openai",
+        "modelId": "openai-o1",
+        "slug": "openai-o1",
+        "slugAliases": [
+          "openai-o1"
+        ],
+        "displayName": "o1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "o1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-09",
+          "accepts": "image, text",
+          "tier": "o1",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 15,
+          "output $/M": 60,
+          "cache_read $/M": 7.5
+        },
+        "availability": [
+          "DigitalOcean"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-05",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-08-03T07:28:35.710Z"
+          }
+        ],
+        "fingerprint": "97e05768702ad0b2e03fff5d445364d1e797448abe52d220c4da4c841cb036b9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "openai::openai-o1",
+        "family": "openai",
+        "modelId": "openai-o1",
+        "slug": "openai-o1",
+        "slugAliases": [
+          "openai-o1"
+        ],
+        "displayName": "OpenAI o1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "o1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-09",
+          "accepts": "image, text",
+          "tier": "o1",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 15,
+          "output $/M": 60,
+          "cache_read $/M": 7.5
+        },
+        "availability": [
+          "DigitalOcean"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-05",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-08-03T16:07:14.576Z"
+          }
+        ],
+        "fingerprint": "6ccc3ed1770ac394a83b7696699556f4bae888a0781bef1ccb88793fc95aa062",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-03T16:07:14.576Z"
+    },
+    {
+      "id": "f7cb6232fb43d68f7356fa90",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "openai::openai-o3",
+        "family": "openai",
+        "modelId": "openai-o3",
+        "slug": "openai-o3",
+        "slugAliases": [
+          "openai-o3"
+        ],
+        "displayName": "o3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "o3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-05",
+          "accepts": "image, text",
+          "tier": "o3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 8,
+          "cache_read $/M": 0.5
+        },
+        "availability": [
+          "DigitalOcean"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-16",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-08-03T07:28:35.710Z"
+          }
+        ],
+        "fingerprint": "4d411172f2b184dae1ff58eb50c70896849e647ff635a169fd2ef4af572a1f09",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "openai::openai-o3",
+        "family": "openai",
+        "modelId": "openai-o3",
+        "slug": "openai-o3",
+        "slugAliases": [
+          "openai-o3"
+        ],
+        "displayName": "OpenAI o3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "o3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-05",
+          "accepts": "image, text",
+          "tier": "o3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 8,
+          "cache_read $/M": 0.5
+        },
+        "availability": [
+          "DigitalOcean"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-16",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-08-03T16:07:14.576Z"
+          }
+        ],
+        "fingerprint": "f6677bd9ce7d7e3c809836f4be0b53db7667f6b7f56dccd22a7c0a04106bacf6",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-03T16:07:14.576Z"
+    },
+    {
+      "id": "8686093646d9f1be3255d767",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-3-14b",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-3-14B",
+        "slug": "mistral-3-14B",
+        "slugAliases": [
+          "mistral-3-14B"
+        ],
+        "displayName": "Ministral 3 14B Instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "14B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "DigitalOcean"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-08-03T07:28:35.710Z"
+          }
+        ],
+        "fingerprint": "c992d301e40f02100195e2ad0829f6978d8153270b1411b1ef481f18f83afb62",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "mistral::mistral-3-14b",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-3-14B",
+        "slug": "mistral-3-14B",
+        "slugAliases": [
+          "mistral-3-14B"
+        ],
+        "displayName": "Ministral 3 14B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "14B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "DigitalOcean"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-08-03T16:07:14.576Z"
+          }
+        ],
+        "fingerprint": "c73c2cc26673be87b7612a2afd322dbd17af1f7d2c21480592f14bf50baa1604",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-03T16:07:14.576Z"
+    },
+    {
+      "id": "b96414827a5a501fb2108843",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0731-cheaper",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-0731-cheaper",
+        "slug": "deepseek-v4-flash-0731-cheaper",
+        "slugAliases": [
+          "deepseek-v4-flash-0731-cheaper"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731 Cheaper",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-03T16:07:14.576Z"
+          }
+        ],
+        "fingerprint": "bb5ea36578b0aede378917e31bf9862d96253d690e0cb62c7b8476bcfa3356ba",
+        "firstSeen": "2026-08-03T16:07:14.576Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-03T16:07:14.576Z"
+    },
+    {
+      "id": "ac4b470f2df03d43e2b14446",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-3-8-max",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-3-8-max",
+        "slug": "qwen-3-8-max",
+        "slugAliases": [
+          "qwen-3-8-max"
+        ],
+        "displayName": "Qwen 3.8 Max",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "max",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "max",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 7.5,
+          "cache_read $/M": 0.3125,
+          "cache_write $/M": 3.125
+        },
+        "availability": [
+          "Venice AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-03T16:07:14.576Z"
+          }
+        ],
+        "fingerprint": "0a9e4c705ac96be825ab514faa8d28421aedec78ddbdd6365189de221bd7e7a7",
+        "firstSeen": "2026-08-03T16:07:14.576Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-03T16:07:14.576Z"
+    },
+    {
+      "id": "7e4fd98c78ca22e85dcf6876",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-5-sonnet",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-5-sonnet",
+        "slug": "claude-5-sonnet",
+        "slugAliases": [
+          "claude-5-sonnet"
+        ],
+        "displayName": "Anthropic Claude Sonnet 5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-01-31",
+          "accepts": "text",
+          "tier": "sonnet",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "DigitalOcean"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-08-03T16:07:14.576Z"
+          }
+        ],
+        "fingerprint": "8472d6f03a574c35bb8f919eb3a36b7d5f87f5dacc70ff232ab3a2de122ce6a0",
+        "firstSeen": "2026-08-03T16:07:14.576Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-03T16:07:14.576Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
