@@ -17932,6 +17932,186 @@
         "model"
       ],
       "detectedAt": "2026-08-03T18:02:24.996Z"
+    },
+    {
+      "id": "e1506afe79d1b2bc62aa012f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::umans-deepseek-v4-flash-0731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "umans-deepseek-v4-flash-0731",
+        "slug": "umans-deepseek-v4-flash-0731",
+        "slugAliases": [
+          "umans-deepseek-v4-flash-0731"
+        ],
+        "displayName": "DeepSeek V4 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393215
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.028
+        },
+        "availability": [
+          "Umans AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://app.umans.ai/offers/code/docs/orgs",
+            "observedAt": "2026-08-03T23:18:30.660Z"
+          }
+        ],
+        "fingerprint": "7d5a721cb0e93289d9afdcecfcbc14ff9e2628ef625c6f4a9fab30fe90c74824",
+        "firstSeen": "2026-08-03T23:18:30.660Z",
+        "lastChanged": "2026-08-03T23:18:30.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-03T23:18:30.660Z"
+    },
+    {
+      "id": "870082fc1b59041a2ad78ca2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::umans-kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "umans-kimi-k3",
+        "slug": "umans-kimi-k3",
+        "slugAliases": [
+          "umans-kimi-k3"
+        ],
+        "displayName": "Kimi K3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 15,
+          "cache_read $/M": 0.3
+        },
+        "availability": [
+          "Umans AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://app.umans.ai/offers/code/docs/orgs",
+            "observedAt": "2026-08-03T23:18:30.660Z"
+          }
+        ],
+        "fingerprint": "36745d20ab81e2339107400f165b320f4c3a843e098a9b560673cd1d1de2a8f3",
+        "firstSeen": "2026-08-03T23:18:30.660Z",
+        "lastChanged": "2026-08-03T23:18:30.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-03T23:18:30.660Z"
+    },
+    {
+      "id": "36aafaefae20a428d6eb4243",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nvidia-nemotronlabs-voicechat::nvidia-nemotronlabs-voicechat-11b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "nvidia-nemotronlabs-voicechat",
+        "modelId": "NVIDIA-NemotronLabs-VoiceChat-11B",
+        "slug": "NVIDIA-NemotronLabs-VoiceChat-11B",
+        "slugAliases": [
+          "NVIDIA-NemotronLabs-VoiceChat-11B"
+        ],
+        "displayName": "NVIDIA-NemotronLabs-VoiceChat-11B",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "11B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+            "observedAt": "2026-08-03T23:18:30.660Z"
+          }
+        ],
+        "fingerprint": "f984b625e4ed45a7ddeb58febdff74624bde8592c80ddbd300afeeaa5ee8e5fd",
+        "firstSeen": "2026-08-03T23:18:30.660Z",
+        "lastChanged": "2026-08-03T23:18:30.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-03T23:18:30.660Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
