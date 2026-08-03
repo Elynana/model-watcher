@@ -17866,6 +17866,72 @@
         "model"
       ],
       "detectedAt": "2026-08-03T16:07:14.576Z"
+    },
+    {
+      "id": "dd85d590191dc9b3439159c0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-fast-api",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-fast-api",
+        "slug": "kimi-k3-fast-api",
+        "slugAliases": [
+          "kimi-k3-fast-api"
+        ],
+        "displayName": "Kimi K3 Fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 4.5,
+          "output $/M": 22.5,
+          "cache_read $/M": 0.45
+        },
+        "availability": [
+          "Venice AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-03",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-03T18:02:24.996Z"
+          }
+        ],
+        "fingerprint": "999a1e7b791ce7ce6e3c4284c04cca05e7e9822e18c4a78c4fad120cf7d536d1",
+        "firstSeen": "2026-08-03T18:02:24.996Z",
+        "lastChanged": "2026-08-03T18:02:24.996Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-03T18:02:24.996Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
