@@ -18112,6 +18112,58 @@
         "model"
       ],
       "detectedAt": "2026-08-03T23:18:30.660Z"
+    },
+    {
+      "id": "1366aeeb9245b5be4a5d06b2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-parse-2-0",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-Parse-2.0",
+        "slug": "Nemotron-Parse-2.0",
+        "slugAliases": [
+          "Nemotron-Parse-2.0"
+        ],
+        "displayName": "NVIDIA-Nemotron-Parse-2.0",
+        "modalities": [
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "openWeights": true,
+          "version": "2.0"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-2.0",
+            "observedAt": "2026-08-04T00:17:52.590Z"
+          }
+        ],
+        "fingerprint": "ca50a4113a53b5968855096d5aa3b336c602abd2a747a357cf648c421b4b8fdf",
+        "firstSeen": "2026-08-04T00:17:52.590Z",
+        "lastChanged": "2026-08-04T00:17:52.590Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T00:17:52.590Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
