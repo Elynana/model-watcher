@@ -23323,6 +23323,205 @@
         "model"
       ],
       "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "67f6c3f380399c79ffc38133",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "flux::flux-3",
+        "owner": "Black Forest Labs",
+        "vendorId": "bfl",
+        "family": "FLUX",
+        "familyId": "flux",
+        "modelId": "FLUX 3",
+        "slug": "FLUX 3",
+        "slugAliases": [
+          "FLUX 3"
+        ],
+        "displayName": "FLUX 3",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:bfl",
+            "sourceKind": "official-page",
+            "url": "https://docs.bfl.ai/",
+            "observedAt": "2026-08-04T17:25:24.864Z"
+          }
+        ],
+        "fingerprint": "641b3371d421d0d4fab6c8a9a0468da56a7fb231f795e44a9fee035d7853de0a",
+        "firstSeen": "2026-08-04T17:25:24.864Z",
+        "lastChanged": "2026-08-04T17:25:24.864Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-04T17:25:24.864Z"
+    },
+    {
+      "id": "1099c37b3dd6e5f11d7be895",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "corrdiff-cosmo-era5::corrdiff-cosmo-era5",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "corrdiff-cosmo-era5",
+        "modelId": "corrdiff-cosmo-era5",
+        "slug": "corrdiff-cosmo-era5",
+        "slugAliases": [
+          "corrdiff-cosmo-era5"
+        ],
+        "displayName": "corrdiff-cosmo-era5",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/corrdiff-cosmo-era5",
+            "observedAt": "2026-08-04T17:25:24.864Z"
+          }
+        ],
+        "fingerprint": "faaf6f75729a2d54e1109d10111a2f5332274d4b257aab89dcd9708772609b4b",
+        "firstSeen": "2026-08-04T17:25:24.864Z",
+        "lastChanged": "2026-08-04T17:25:24.864Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T17:25:24.864Z"
+    },
+    {
+      "id": "b4c733ad97878948b01ad8fb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-image-3-0-pro",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-Image",
+        "familyId": "qwen-image",
+        "modelId": "qwen-image-3.0-pro",
+        "slug": "qwen-image-3.0-pro",
+        "slugAliases": [
+          "qwen-image-3.0-pro"
+        ],
+        "displayName": "qwen-image-3.0-pro",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-04T17:25:24.864Z"
+          }
+        ],
+        "fingerprint": "d69f1d9d614fd711b19da4d32f7bf93e5a01ab2f065cada0f3cb797dcfdbcf7c",
+        "firstSeen": "2026-08-04T17:25:24.864Z",
+        "lastChanged": "2026-08-04T17:25:24.864Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T17:25:24.864Z"
+    },
+    {
+      "id": "3a6e2b9cd5d028da19be9765",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-max-1570",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-max 1570",
+        "slug": "kimi-k3-max 1570",
+        "slugAliases": [
+          "kimi-k3-max 1570"
+        ],
+        "displayName": "kimi-k3-max 1570",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-04T17:25:24.864Z"
+          }
+        ],
+        "fingerprint": "248f9f4706da31b1de09c585a3eee47e9c4f09ae8bded090a79375ba6a10a388",
+        "firstSeen": "2026-08-04T17:25:24.864Z",
+        "lastChanged": "2026-08-04T17:25:24.864Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-04T17:25:24.864Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
