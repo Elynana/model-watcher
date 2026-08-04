@@ -23522,6 +23522,68 @@
         "announcement"
       ],
       "detectedAt": "2026-08-04T17:25:24.864Z"
+    },
+    {
+      "id": "56fbd42242b0ccb4a5a9e1f5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-robotics-er-2-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-robotics-er-2-preview",
+        "slug": "gemini-robotics-er-2-preview",
+        "slugAliases": [
+          "gemini-robotics-er-2-preview"
+        ],
+        "displayName": "gemini-robotics-er-2-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "audio, image, text, video",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10
+        },
+        "availability": [
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-robotics-er-2",
+            "observedAt": "2026-08-04T22:57:47.345Z"
+          }
+        ],
+        "fingerprint": "20f6d92d4adcdcd36197e8be82c321f92f58d5ce8297b44847c624db6762ae5d",
+        "firstSeen": "2026-08-04T22:57:47.345Z",
+        "lastChanged": "2026-08-04T22:57:47.345Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T22:57:47.345Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
