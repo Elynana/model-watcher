@@ -18468,6 +18468,2012 @@
         "announcement"
       ],
       "detectedAt": "2026-08-04T03:43:36.844Z"
+    },
+    {
+      "id": "99b9d883be7c9dbdbf14243e",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-2-5-flash-preview-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash-preview-tts",
+        "slug": "gemini-2.5-flash-preview-tts",
+        "slugAliases": [
+          "gemini-2.5-flash-preview-tts"
+        ],
+        "displayName": "Gemini 2.5 Flash Preview TTS",
+        "modalities": [
+          "audio",
+          "speech"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "2.5",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "Google",
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-05-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/pricing",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          }
+        ],
+        "fingerprint": "902d4a9cd684c642085d988b49bd428596a18f03d021a99accca34b4d1b63f47",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gemini::gemini-2-5-flash-preview-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash-preview-tts",
+        "slug": "gemini-2.5-flash-preview-tts",
+        "slugAliases": [
+          "gemini-2.5-flash-preview-tts"
+        ],
+        "displayName": "Gemini 2.5 Flash Preview TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "2.5",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "Google",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-05-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/pricing",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          }
+        ],
+        "fingerprint": "3118b79cabb26b9e7d533b92481e80fef0885e3584ffc394a5c9ae408e0f9eee",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "46cb00a422e8211fe54c090a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-2-5-pro",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2-5-pro",
+        "slug": "gemini-2-5-pro",
+        "slugAliases": [
+          "Gemini 2.5 Pro",
+          "gemini-2-5-pro",
+          "gemini-2.5-pro"
+        ],
+        "displayName": "Gemini 2.5 Pro",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "audio, image, text, video",
+          "tier": "pro",
+          "version": "2.5",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 1.25,
+          "completion $/M": 10,
+          "image $/M": 1.25,
+          "audio $/M": 1.25,
+          "input_audio_cache $/M": 0.125,
+          "web_search $/M": 14000,
+          "internal_reasoning $/M": 10,
+          "input_cache_read $/M": 0.125,
+          "input_cache_write $/M": 0.375,
+          "input $/M": 1.25,
+          "output $/M": 10,
+          "cache_read $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 15,
+              "cache_read": 0.25,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 15,
+            "cache_read": 0.25
+          }
+        },
+        "availability": [
+          "Databricks",
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:google-models",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/google/gemini-2.5-pro",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          }
+        ],
+        "fingerprint": "bcd9db7c12ce6e811e4d9ced8fefbd2621765ceafaa259280da93713c5b43b8a",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-07-31T18:01:27.190Z"
+      },
+      "after": {
+        "key": "gemini::gemini-2-5-pro",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-pro",
+        "slug": "gemini-2.5-pro",
+        "slugAliases": [
+          "Gemini 2.5 Pro",
+          "gemini-2-5-pro",
+          "gemini-2.5-pro"
+        ],
+        "displayName": "Gemini 2.5 Pro",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "audio, image, text, video",
+          "tier": "pro",
+          "version": "2.5",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 1.25,
+          "completion $/M": 10,
+          "image $/M": 1.25,
+          "audio $/M": 1.25,
+          "input_audio_cache $/M": 0.125,
+          "web_search $/M": 14000,
+          "internal_reasoning $/M": 10,
+          "input_cache_read $/M": 0.125,
+          "input_cache_write $/M": 0.375,
+          "input $/M": 1.25,
+          "output $/M": 10,
+          "cache_read $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 15,
+              "cache_read": 0.25,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 15,
+            "cache_read": 0.25
+          }
+        },
+        "availability": [
+          "Databricks",
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:google-models",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/google/gemini-2.5-pro",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "8f8f75010124639ccc38b5cb66e46b1bb86124938ccc5fc0d0c300b88cfa3ffe",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "b70598dcb5734a1a50bd5efa",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-2-5-pro-preview-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-pro-preview-tts",
+        "slug": "gemini-2.5-pro-preview-tts",
+        "slugAliases": [
+          "gemini-2.5-pro-preview-tts"
+        ],
+        "displayName": "Gemini 2.5 Pro Preview TTS",
+        "modalities": [
+          "audio"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "text",
+          "tier": "pro",
+          "version": "2.5",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 10
+        },
+        "availability": [
+          "Google",
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-05-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          }
+        ],
+        "fingerprint": "c0522eef850295596412e81333b6f7c4f52f5a7d4a485cd31bf5d577c88eba05",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gemini::gemini-2-5-pro-preview-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-pro-preview-tts",
+        "slug": "gemini-2.5-pro-preview-tts",
+        "slugAliases": [
+          "gemini-2.5-pro-preview-tts"
+        ],
+        "displayName": "Gemini 2.5 Pro Preview TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "text",
+          "tier": "pro",
+          "version": "2.5",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 10
+        },
+        "availability": [
+          "Google",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-05-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          }
+        ],
+        "fingerprint": "1504ffb263840cd7872fcd6d6785bcb45cd7dffe3ea86c8cfb2df9372786355f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "6b994825a0f3ee85fb5f2310",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-1-pro-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-pro-preview",
+        "slug": "gemini-3.1-pro-preview",
+        "slugAliases": [
+          "gemini-3.1-pro-preview"
+        ],
+        "displayName": "Gemini 3.1 Pro Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 18,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 18,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "NanoGPT",
+          "Perplexity Agent",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-02-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/agent-api/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/google/gemini-3.1-pro-preview",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          }
+        ],
+        "fingerprint": "90758fb8fe450b74d5c5d3d7c1273161f7612578284c990bb99935555c6ade39",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-1-pro-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-pro-preview",
+        "slug": "gemini-3.1-pro-preview",
+        "slugAliases": [
+          "gemini-3.1-pro-preview"
+        ],
+        "displayName": "Gemini 3.1 Pro Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 18,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 18,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "NanoGPT",
+          "Perplexity Agent",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-02-19",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/agent-api/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/google/gemini-3.1-pro-preview",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "59599c520affc203cd6330e20b82d5cfd92832cfc53d3914d892b0df6554e42c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "792813980cca4134fd1c662b",
+      "type": "added",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-5-live",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "Gemini 3.5 Live",
+        "slug": "Gemini 3.5 Live",
+        "slugAliases": [
+          "Gemini 3.5 Live"
+        ],
+        "displayName": "Gemini 3.5 Live",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-09",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          }
+        ],
+        "fingerprint": "e389cb8e3860e2f83c8b85f4737b269e5bec78bcaa3201f99ef1727c1c3f0d02",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-26T04:45:09.972Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-5-live",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-live",
+        "slug": "gemini-3.5-live",
+        "slugAliases": [
+          "Gemini 3.5 Live",
+          "gemini-3.5-live"
+        ],
+        "displayName": "gemini-3.5-live",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "c52e1e3b887be549f4583b3b9fad452e5a22190d850bf3f5b705ded4b3c10338",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "8e6cecd422a3fc2bf2d4e986",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-flash-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3-flash-preview",
+        "slug": "gemini-3-flash-preview",
+        "slugAliases": [
+          "gemini-3-flash-preview"
+        ],
+        "displayName": "Gemini 3 Flash Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 3,
+          "cache_read $/M": 0.05,
+          "tiers $/M": [
+            {
+              "input": 0.5,
+              "output": 3,
+              "cache_read": 0.05,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.5,
+            "output": 3,
+            "cache_read": 0.05
+          }
+        },
+        "availability": [
+          "NanoGPT",
+          "Perplexity Agent",
+          "perplexity"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-12-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/agent-api/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          }
+        ],
+        "fingerprint": "1a2bbd84ab4c1b785bde8fb0e8f420878431e40ccfb4cd794b91f1d852675cc4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-flash-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3-flash-preview",
+        "slug": "gemini-3-flash-preview",
+        "slugAliases": [
+          "gemini-3-flash-preview"
+        ],
+        "displayName": "Gemini 3 Flash Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 3,
+          "cache_read $/M": 0.05,
+          "tiers $/M": [
+            {
+              "input": 0.5,
+              "output": 3,
+              "cache_read": 0.05,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.5,
+            "output": 3,
+            "cache_read": 0.05
+          }
+        },
+        "availability": [
+          "NanoGPT",
+          "Perplexity Agent",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-12-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/agent-api/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "463ad6ec7bd3bf664134522ad29fc911d8765d043ecb1c1fe372ef8f7e8549c7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "d898644b4d3e8306994aa25b",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-pro-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3-pro-preview",
+        "slug": "gemini-3-pro-preview",
+        "slugAliases": [
+          "Gemini 3 Pro Preview",
+          "gemini-3-pro-preview"
+        ],
+        "displayName": "Gemini 3 Pro Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1.8,
+          "output $/M": 10.8
+        },
+        "availability": [
+          "Jiekou.AI",
+          "Vercel AI Gateway",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T09:12:43.810Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "93c6d048e6f53db82f4674a5ea14ff40b6b9f407df1573b2e76ee95aaf6653e4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T06:59:44.128Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-pro-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3-pro-preview",
+        "slug": "gemini-3-pro-preview",
+        "slugAliases": [
+          "gemini-3-pro-preview"
+        ],
+        "displayName": "gemini-3-pro-preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1.8,
+          "output $/M": 10.8
+        },
+        "availability": [
+          "Jiekou.AI",
+          "Vercel AI Gateway",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-07-28T04:09:21.297Z"
+          }
+        ],
+        "fingerprint": "8da0f771e28af4c925749930194bb243fc35800d9f87eac1aa4c2815023e643a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "1c75e5b4b77c9559b5a9d81b",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-embedding-001",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini Embedding",
+        "familyId": "gemini-embedding",
+        "modelId": "gemini-embedding-001",
+        "slug": "gemini-embedding-001",
+        "slugAliases": [
+          "gemini-embedding-001"
+        ],
+        "displayName": "Gemini Embedding 001",
+        "modalities": [
+          "audio",
+          "code",
+          "embedding",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "001",
+        "capabilities": {
+          "version": "001",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "mode": "embedding"
+        },
+        "limits": {
+          "contextTokens": 2048,
+          "maxOutputTokens": 2048
+        },
+        "pricing": {
+          "input $/M": 0.15
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-20",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/embeddings#model-versions",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          }
+        ],
+        "fingerprint": "3b7b163643f8a48bd4a0489ad73bcdfdf2181427e4c2d5560b2c50f797932910",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gemini::gemini-embedding-001",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-embedding-001",
+        "slug": "gemini-embedding-001",
+        "slugAliases": [
+          "gemini-embedding-001"
+        ],
+        "displayName": "Gemini Embedding 001",
+        "modalities": [
+          "audio",
+          "code",
+          "embedding",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "001",
+        "capabilities": {
+          "version": "001",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "mode": "embedding"
+        },
+        "limits": {
+          "contextTokens": 2048,
+          "maxOutputTokens": 2048
+        },
+        "pricing": {
+          "input $/M": 0.15
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/embeddings#model-versions",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "357aad0a433ea00433f850dd1f7a9270218aaefd7e72e3ea89cb8fa95d7a5b59",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "995b83948ee4fe3479325ea3",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-embedding-2-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini Embedding",
+        "familyId": "gemini-embedding",
+        "modelId": "gemini-embedding-2-preview",
+        "slug": "gemini-embedding-2-preview",
+        "slugAliases": [
+          "gemini-embedding-2-preview"
+        ],
+        "displayName": "gemini-embedding-2-preview",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "embedding",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.2
+        },
+        "availability": [
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          }
+        ],
+        "fingerprint": "62bd1bc581af1eb7faa13fb8ce3314415f59af8b2c9ce9d46557ac3280686c2c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gemini::gemini-embedding-2-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-embedding-2-preview",
+        "slug": "gemini-embedding-2-preview",
+        "slugAliases": [
+          "gemini-embedding-2-preview"
+        ],
+        "displayName": "gemini-embedding-2-preview",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "embedding",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.2
+        },
+        "availability": [
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-07-31T07:30:04.802Z"
+          }
+        ],
+        "fingerprint": "f1e49a3f5fe821e1948b2ca7105d18ff4d3bd28172251b4dc9130f7274c5ff2e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "e66ec7fed8551fbb7a9374d1",
+      "type": "added",
+      "importance": "minor",
+      "before": {
+        "key": "lyria::lyria-3",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Lyria",
+        "familyId": "lyria",
+        "modelId": "Lyria 3",
+        "slug": "Lyria 3",
+        "slugAliases": [
+          "Lyria 3"
+        ],
+        "displayName": "Lyria 3",
+        "modalities": [
+          "audio",
+          "music"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-18",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "official:page:google-veo",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/video",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+            "observedAt": "2026-08-04T11:35:35.149Z"
+          }
+        ],
+        "fingerprint": "b002a90edd9d2488affad917d5befbfd3b267a13cd05a01c506836f7a1f7b388",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-26T04:45:09.972Z"
+      },
+      "after": {
+        "key": "lyria::lyria-3",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Lyria",
+        "familyId": "lyria",
+        "modelId": "lyria-3",
+        "slug": "lyria-3",
+        "slugAliases": [
+          "Lyria 3",
+          "lyria-3"
+        ],
+        "displayName": "lyria-3",
+        "modalities": [
+          "audio",
+          "music"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-18",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "official:page:google-veo",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/video",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "95516ee708eeb19e61e7518d13463d43cf0b0670518ee21107dba50bf17edac4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "ba4a4a5f8502855d091fc263",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite-nano",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite Nano",
+        "slug": "gemini-3.1-flash-lite Nano",
+        "slugAliases": [
+          "gemini-3.1-flash-lite Nano"
+        ],
+        "displayName": "gemini-3.1-flash-lite Nano",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "d2c1ce1bd0221b381d94dff4e5794cf4b8123752c41b3d5fa038cfd980cdf529",
+        "firstSeen": "2026-08-04T13:20:33.674Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "90d2c1c9e9e0b1bedec49bcd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-flash-nano",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash Nano",
+        "slug": "gemini-2.5-flash Nano",
+        "slugAliases": [
+          "gemini-2.5-flash Nano"
+        ],
+        "displayName": "gemini-2.5-flash Nano",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "350a4418f9553273fa540741968d9e390502e68a18682ef1ef237aa93e9d2cab",
+        "firstSeen": "2026-08-04T13:20:33.674Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "a36f2bc0f2d2cabe5777ca1b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-flash-native-audio-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash-native-audio-preview",
+        "slug": "gemini-2.5-flash-native-audio-preview",
+        "slugAliases": [
+          "gemini-2.5-flash-native-audio-preview"
+        ],
+        "displayName": "gemini-2.5-flash-native-audio-preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "1a2ff562187933d21a39cc5cc05d067aeb9c5cd5d9dfc30fe9a4140beabc9b70",
+        "firstSeen": "2026-08-04T13:20:33.674Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "ea5b083ebb5d634b89bcf189",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-pro-preview-tts-audio",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-pro-preview-tts Audio",
+        "slug": "gemini-2.5-pro-preview-tts Audio",
+        "slugAliases": [
+          "gemini-2.5-pro-preview-tts Audio"
+        ],
+        "displayName": "gemini-2.5-pro-preview-tts Audio",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "281ef40333f00b27679ffada45667beba778f9905a7e61a7f6784e17ff4a40ab",
+        "firstSeen": "2026-08-04T13:20:33.674Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "0226c6446462ec2be7ea2a3e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-computer-use-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-computer-use-preview",
+        "slug": "gemini-2.5-computer-use-preview",
+        "slugAliases": [
+          "gemini-2.5-computer-use-preview"
+        ],
+        "displayName": "gemini-2.5-computer-use-preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "60a92da85adb541b739705d27da53a2bfc477d70386d3c676d5cf34154e2f5b2",
+        "firstSeen": "2026-08-04T13:20:33.674Z",
+        "lastChanged": "2026-08-04T13:20:33.674Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T13:20:33.674Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
