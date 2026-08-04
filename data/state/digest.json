@@ -20474,6 +20474,2855 @@
         "model"
       ],
       "detectedAt": "2026-08-04T13:20:33.674Z"
+    },
+    {
+      "id": "ffaba4f19554c11c55a08fe5",
+      "type": "added",
+      "importance": "minor",
+      "before": {
+        "key": "cosmos::cosmos-3",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Cosmos",
+        "familyId": "cosmos",
+        "modelId": "Cosmos 3",
+        "slug": "Cosmos 3",
+        "slugAliases": [
+          "Cosmos 3"
+        ],
+        "displayName": "Cosmos 3",
+        "modalities": [
+          "video",
+          "world"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "announced"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-15",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+            "observedAt": "2026-08-04T13:20:33.674Z"
+          }
+        ],
+        "fingerprint": "627c0f34c149624c3d1582c5bf0f0632750f7ed567d5e1521f0f7f63acff2387",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-26T04:45:09.972Z"
+      },
+      "after": {
+        "key": "cosmos::cosmos-3",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Cosmos",
+        "familyId": "cosmos",
+        "modelId": "cosmos-3",
+        "slug": "cosmos-3",
+        "slugAliases": [
+          "cosmos-3"
+        ],
+        "displayName": "cosmos-3",
+        "modalities": [
+          "video",
+          "world"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "announced"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "d46f41c453990757320488e841a5a0a87615a49f308484db8aa81677c2f1431a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "071fbb8f00c000665b2342af",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-ponytail",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-ponytail",
+        "slug": "glm-5.2-ponytail",
+        "slugAliases": [
+          "glm-5.2-ponytail"
+        ],
+        "displayName": "GLM-5.2 Ponytail",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "289fcd69f1b593bd925bb485f9cfc26d4aac4370818cc48595b0f283f3b36dc0",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "fc1da34f1d1739e253512081",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-caveman",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-caveman",
+        "slug": "glm-5.2-caveman",
+        "slugAliases": [
+          "glm-5.2-caveman"
+        ],
+        "displayName": "GLM-5.2 Caveman",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "25cdbe4e0c00e8ae11ed866c56ac14b610a4aaffee4a26183f2b92c06ca26c6a",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "e235d8fc702e5361a92ef9a3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-ponytail-ultra",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-ponytail-ultra",
+        "slug": "glm-5.2-ponytail-ultra",
+        "slugAliases": [
+          "glm-5.2-ponytail-ultra"
+        ],
+        "displayName": "GLM-5.2 Ponytail Ultra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "ultra",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "ultra",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "af18df0778e71eaeabada336673619bc6e8f1203634a92fa06f26b86e42043b5",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "f760dfde5fc52060f049e261",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-caveman-ultra",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-caveman-ultra",
+        "slug": "glm-5.2-caveman-ultra",
+        "slugAliases": [
+          "glm-5.2-caveman-ultra"
+        ],
+        "displayName": "GLM-5.2 Caveman Ultra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "ultra",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "ultra",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "945814df826162a984ba9305eff7227cf4953d7b67c88da73f7b13d2b039ffd2",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "602c2d2aaef8e8b372434e58",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-ponytail-lite",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-ponytail-lite",
+        "slug": "glm-5.2-ponytail-lite",
+        "slugAliases": [
+          "glm-5.2-ponytail-lite"
+        ],
+        "displayName": "GLM-5.2 Ponytail Lite",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "lite",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "lite",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "01e78a75ae7e02848e6f98dd91f859a5783f67a186e125e4d5b5f3e313b8c5fd",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "ac029bd7520def48c1227495",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-honey-ultra",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-honey-ultra",
+        "slug": "glm-5.2-honey-ultra",
+        "slugAliases": [
+          "glm-5.2-honey-ultra"
+        ],
+        "displayName": "GLM-5.2 Honey Ultra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "ultra",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "ultra",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "55ca0d8955b31e669cff96d166a071d00fea2c8da6f9d8e255681fec11d6de11",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "ddf296e4a116c370ccd52add",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-honey",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-honey",
+        "slug": "glm-5.2-honey",
+        "slugAliases": [
+          "glm-5.2-honey"
+        ],
+        "displayName": "GLM-5.2 Honey",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "e4d75579559aafd20556c42a67250109e28d5b320667e3ae870c9dddcc9b9d5f",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "f944a2ab83f107d26a2a51d7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-honey-lite",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-honey-lite",
+        "slug": "glm-5.2-honey-lite",
+        "slugAliases": [
+          "glm-5.2-honey-lite"
+        ],
+        "displayName": "GLM-5.2 Honey Lite",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "lite",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "lite",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "5d9d06cc95d205b1631eb67fa6cbab8d5145f61a7eb0efb719907944e3b8faee",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "09898c29556cd598caf16ff8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-caveman-lite",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-caveman-lite",
+        "slug": "glm-5.2-caveman-lite",
+        "slugAliases": [
+          "glm-5.2-caveman-lite"
+        ],
+        "displayName": "GLM-5.2 Caveman Lite",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "lite",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "lite",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.254,
+          "output $/M": 5.016,
+          "cache_read $/M": 0.3135
+        },
+        "availability": [
+          "GreenPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.greenpt.ai",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "9e3ce2f3c465e4bee00cab16d1026b5e6712d2a28994e6ce7487423b77430456",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "ef1a6834c42ac78b15c5d39a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5@eu",
+        "slug": "claude-opus-5@eu",
+        "slugAliases": [
+          "claude-opus-5@eu"
+        ],
+        "displayName": "Claude Opus 5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 27.5,
+          "cache_read $/M": 0.55,
+          "cache_write $/M": 6.875
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "00cd679800ba77483cdc8c965899433c067a96be51f520dad80e9bda0e1cd24b",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "999e9c570cb7b1e8c745f9a6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0731-eu",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-0731@eu",
+        "slug": "deepseek-v4-flash-0731@eu",
+        "slugAliases": [
+          "deepseek-v4-flash-0731@eu"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.07
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "267a0c740b6a12ea3886c20cb47d163fa151da0fe23c50c80a68147535b97a72",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "a79ff2b10647765bbe97a7d3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-flash-eu",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash@eu",
+        "slug": "gemini-3.5-flash@eu",
+        "slugAliases": [
+          "gemini-3.5-flash@eu"
+        ],
+        "displayName": "Gemini 3.5 Flash (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 9,
+          "cache_read $/M": 0.15,
+          "cache_write $/M": 1.583
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "452e455fa3288c5a881010611be0a911382f3cf9a8dd96fd6817104153bbe37d",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "2e1ea95b4447675173b70b9c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-4-6-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-4-6@eu",
+        "slug": "claude-sonnet-4-6@eu",
+        "slugAliases": [
+          "claude-sonnet-4-6@eu"
+        ],
+        "displayName": "Claude Sonnet 4.6 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "4.6"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 3.3,
+          "output $/M": 16.5,
+          "cache_read $/M": 0.3,
+          "cache_write $/M": 4.125
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "574771961f9ee4da116d6c12c70ccadab18a8e4a1152286161b8372d52679066",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "135f8c882a08f50d7f1f2a36",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-4-1-mini-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1-mini@eu",
+        "slug": "gpt-4.1-mini@eu",
+        "slugAliases": [
+          "gpt-4.1-mini@eu"
+        ],
+        "displayName": "GPT-4.1 mini (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "accepts": "image, text",
+          "tier": "mini",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 1.76,
+          "cache_read $/M": 0.11
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "5f463b0689756b57908128eb0e4ed8a909b2405b8361d518c82feaac37079824",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "066c8c2996f390a65c039046",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-7-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4-7@eu",
+        "slug": "claude-opus-4-7@eu",
+        "slugAliases": [
+          "claude-opus-4-7@eu"
+        ],
+        "displayName": "Claude Opus 4.7 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-01-31",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "4.7"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 27.5,
+          "cache_read $/M": 0.55,
+          "cache_write $/M": 6.875
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "9407e39a6bd4eb7de092ea62a0272a3993bb45f4851342239ea8a99f4493b437",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "8e2a7ca278d9b4d380add16c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-4-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-4-5@eu",
+        "slug": "claude-sonnet-4-5@eu",
+        "slugAliases": [
+          "claude-sonnet-4-5@eu"
+        ],
+        "displayName": "Claude Sonnet 4.5 (latest) (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-07-31",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "4.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 3.3,
+          "output $/M": 16.5,
+          "cache_read $/M": 0.3,
+          "cache_write $/M": 4.125,
+          "tiers $/M": [
+            {
+              "input": 6.6,
+              "output": 24.75,
+              "cache_read": 0.6,
+              "cache_write": 8.25,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 6.6,
+            "output": 24.75,
+            "cache_read": 0.6,
+            "cache_write": 8.25
+          }
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "2b2817aa101b203e2a677eeabc0095f030f6f89df6197030cdeca9d1c5967ecd",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "8839505ea0301e9aa710c847",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-eu",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3@eu",
+        "slug": "kimi-k3@eu",
+        "slugAliases": [
+          "kimi-k3@eu"
+        ],
+        "displayName": "Kimi K3 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 2.25,
+          "output $/M": 11.25,
+          "cache_read $/M": 0.225
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "132569d06f1cf2a08e029767656b431cf2e6fcc5674acca26559007955a89319",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "ae4d0f3067a7b9efac2722b8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-eu",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2@eu",
+        "slug": "glm-5.2@eu",
+        "slugAliases": [
+          "glm-5.2@eu"
+        ],
+        "displayName": "GLM-5.2 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.2,
+          "output $/M": 4.2,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "43c601eef6fb27c179aa0e0030a2faecbb924759658b757e94ca5f2127e05aa2",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "d3adc96c9699467fd08a1edd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-4-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-4@eu",
+        "slug": "claude-sonnet-4@eu",
+        "slugAliases": [
+          "claude-sonnet-4@eu"
+        ],
+        "displayName": "Claude Sonnet 4 (latest) (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-03-31",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 15,
+          "cache_read $/M": 0.3,
+          "cache_write $/M": 3.75,
+          "tiers $/M": [
+            {
+              "input": 6,
+              "output": 22.5,
+              "cache_read": 0.6,
+              "cache_write": 7.5,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 6,
+            "output": 22.5,
+            "cache_read": 0.6,
+            "cache_write": 7.5
+          }
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "db92c953324068fed33a7c4b6d8175cbe80b6501a4c975dea33e3e149eb62af3",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "cc032b8d6f1e0ded032e2edc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-6-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4-6@eu",
+        "slug": "claude-opus-4-6@eu",
+        "slugAliases": [
+          "claude-opus-4-6@eu"
+        ],
+        "displayName": "Claude Opus 4.6 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-05-31",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "4.6"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 27.5,
+          "cache_read $/M": 0.55,
+          "cache_write $/M": 6.88
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "54f75c7209a78ede1b5ce2d777e87b41f297d77117357a16f75acd9d1fcd5937",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "ef42e33e4f0a29860b518098",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-5-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.5@eu",
+        "slug": "gpt-5.5@eu",
+        "slugAliases": [
+          "gpt-5.5@eu"
+        ],
+        "displayName": "GPT-5.5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-12-01",
+          "accepts": "image, text",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 30,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 10,
+              "output": 45,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 10,
+            "output": 45,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "2d49d71bbf887e0704f716758ae12317a8bc7909f32f7bdf9011d858e79b05a6",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "89d471dc0b3d9da9c3e7ade0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-sol-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-sol@eu",
+        "slug": "gpt-5.6-sol@eu",
+        "slugAliases": [
+          "gpt-5.6-sol@eu"
+        ],
+        "displayName": "GPT-5.6 Sol (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 33,
+          "cache_read $/M": 0.55
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "5e66dd4a87fabd74e701c628855ef1ac17285898567e8ad9fca5a4d8e5e0e38d",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "d87a5de25162ecbb9e3c2cd3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-1-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.1@eu",
+        "slug": "gpt-5.1@eu",
+        "slugAliases": [
+          "gpt-5.1@eu"
+        ],
+        "displayName": "GPT-5.1 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-09-30",
+          "accepts": "image, text",
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.375,
+          "output $/M": 11,
+          "cache_read $/M": 0.1375
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "22bd4b99096f0e4bafa960250c1cd27ba10b0cb756468fbd2c35f1b59e9a9190",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "15d67020bcf38e4436faa911",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5@eu",
+        "slug": "gpt-5@eu",
+        "slugAliases": [
+          "gpt-5@eu"
+        ],
+        "displayName": "GPT-5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-09-30",
+          "accepts": "image, text",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.375,
+          "output $/M": 11,
+          "cache_read $/M": 0.1375
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "4df72081f33647183a1a673b0fd2c8e4cc8be765b2268115988e793ef0ff2539",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "895e35895e2d18a3ce3455a2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-4-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.4@eu",
+        "slug": "gpt-5.4@eu",
+        "slugAliases": [
+          "gpt-5.4@eu"
+        ],
+        "displayName": "GPT-5.4 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "version": "5.4"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 15,
+          "cache_read $/M": 0.25,
+          "tiers $/M": [
+            {
+              "input": 5,
+              "output": 22.5,
+              "cache_read": 0.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 5,
+            "output": 22.5,
+            "cache_read": 0.5
+          }
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "c14822219999774cd81b21f3f1fc2ae9d47fd45dcbdb735f2967921488d6175c",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "df7986e394f0147b74d23db6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-nano-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5-nano@eu",
+        "slug": "gpt-5-nano@eu",
+        "slugAliases": [
+          "gpt-5-nano@eu"
+        ],
+        "displayName": "GPT-5 Nano (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "nano",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-05-30",
+          "accepts": "image, text",
+          "tier": "nano",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 0.055,
+          "output $/M": 0.44,
+          "cache_read $/M": 0.0055
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "46916893d500b3a829887c3731e81e8c8fc12cd95ada76f2dc59d5371ca1e8c7",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "c2bbd7815fcfe4c9f721c312",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-4-1-nano-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1-nano@eu",
+        "slug": "gpt-4.1-nano@eu",
+        "slugAliases": [
+          "gpt-4.1-nano@eu"
+        ],
+        "displayName": "GPT-4.1 nano (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "nano",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "accepts": "image, text",
+          "tier": "nano",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.11,
+          "output $/M": 0.44,
+          "cache_read $/M": 0.0275
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "584a4805403fb8bff17b0587878f21d65ca21139811a2625f1da6955eb843900",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "4a6eaf39ec7cef7e30d7f4af",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-flash-eu",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash@eu",
+        "slug": "gemini-2.5-flash@eu",
+        "slugAliases": [
+          "gemini-2.5-flash@eu"
+        ],
+        "displayName": "Gemini 2.5 Flash (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.075,
+          "cache_write $/M": 0.55
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "2068af0bc500c4caf921b7b4010ed0d7ea68384e6fd2ceff4bf2018efd33631c",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "9e34086063224982f2c64245",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-mini-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5-mini@eu",
+        "slug": "gpt-5-mini@eu",
+        "slugAliases": [
+          "gpt-5-mini@eu"
+        ],
+        "displayName": "GPT-5 Mini (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-05-30",
+          "accepts": "image, text",
+          "tier": "mini",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 0.275,
+          "output $/M": 2.2,
+          "cache_read $/M": 0.0275
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "922608cc43454a1404a578c3fa3d3db3b1829551ad4ee0cf97b878fe6b7cd0d6",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "0f8da6073b4ec7c0b67cafa8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-8-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4-8@eu",
+        "slug": "claude-opus-4-8@eu",
+        "slugAliases": [
+          "claude-opus-4-8@eu"
+        ],
+        "displayName": "Claude Opus 4.8 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.8",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-01",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "4.8"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 27.5,
+          "cache_read $/M": 0.55,
+          "cache_write $/M": 6.875
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "0875c569a83236ea3f80f3ec77acf77a43ddbedd38314f1b8e060426e55ed09b",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "d34f23b7f9651c59e71b0835",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-luna-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-luna@eu",
+        "slug": "gpt-5.6-luna@eu",
+        "slugAliases": [
+          "gpt-5.6-luna@eu"
+        ],
+        "displayName": "GPT-5.6 Luna (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.1,
+          "output $/M": 6.6,
+          "cache_read $/M": 0.11
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "6995cfde81ec50ffbbb28034e4e4680008dab365f71e8ac4a307e12b20ec1678",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "6fd9a37c03cb381bad669d76",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5@eu",
+        "slug": "claude-sonnet-5@eu",
+        "slugAliases": [
+          "claude-sonnet-5@eu"
+        ],
+        "displayName": "Claude Sonnet 5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-01-31",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11,
+          "cache_read $/M": 0.22,
+          "cache_write $/M": 2.75
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "facffca8e3dca8c39c36101273c879b5c4a8a5e4b50f92091a6d4e8680a02c51",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "bdfb0c68e7691ff7e8e82607",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4-5@eu",
+        "slug": "claude-opus-4-5@eu",
+        "slugAliases": [
+          "claude-opus-4-5@eu"
+        ],
+        "displayName": "Claude Opus 4.5 (latest) (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "4.5"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 27.5,
+          "cache_read $/M": 0.55,
+          "cache_write $/M": 6.875
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "991f4782c6706842d47884ac7d1df48a0afa96a92e617eb1574cbc04f4e8fbb6",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "bd5b9c080777b8b8cc36c142",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite-eu",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite@eu",
+        "slug": "gemini-3.1-flash-lite@eu",
+        "slugAliases": [
+          "gemini-3.1-flash-lite@eu"
+        ],
+        "displayName": "Gemini 3.1 Flash Lite (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.025,
+          "cache_write $/M": 0.08333,
+          "tiers $/M": [
+            {
+              "input": 0.5,
+              "output": 2.25,
+              "cache_read": 0.025,
+              "cache_write": 0.08333,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.5,
+            "output": 2.25,
+            "cache_read": 0.025,
+            "cache_write": 0.08333
+          }
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "e9fc09c0a4219c7671ea25ecf5afcc39550205f823451bccd3de257bb238befa",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "4957c1d71590f291c28c7b3f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-haiku-4-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-4-5@eu",
+        "slug": "claude-haiku-4-5@eu",
+        "slugAliases": [
+          "claude-haiku-4-5@eu"
+        ],
+        "displayName": "Claude Haiku 4.5 (latest) (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "tier": "haiku",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-02-28",
+          "accepts": "image, text",
+          "tier": "haiku",
+          "version": "4.5"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1.1,
+          "output $/M": 5.5,
+          "cache_read $/M": 0.11,
+          "cache_write $/M": 1.375
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "b4db9b8f9444ec6ac5c20f4966a5a2cf65c75315dc4cba202cb8162ad4c256db",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "f2dfbe2342f39aa1c13c731b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-4-1-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1@eu",
+        "slug": "gpt-4.1@eu",
+        "slugAliases": [
+          "gpt-4.1@eu"
+        ],
+        "displayName": "GPT-4.1 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "accepts": "image, text",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 8.8,
+          "cache_read $/M": 0.55
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "4f11ce3f91ea1b0cbd4e1f3213ec213da29bb8465a15aef484f0e688344a0e20",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "3443e713a8357ca572f029e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-terra-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-terra@eu",
+        "slug": "gpt-5.6-terra@eu",
+        "slugAliases": [
+          "gpt-5.6-terra@eu"
+        ],
+        "displayName": "GPT-5.6 Terra (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.75,
+          "output $/M": 16.5,
+          "cache_read $/M": 0.275
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "fb373c1b245e0c9a093695670ea985a441c3e0324b12da335086587f6b026a0e",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "02739cf827519254621e8b1e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-2-6",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-2.6",
+        "slug": "LFM2.5-2.6",
+        "slugAliases": [
+          "LFM2.5-2.6"
+        ],
+        "displayName": "LFM2.5-2.6",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5.2.6",
+        "capabilities": {
+          "version": "2.5.2.6"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:liquid",
+            "sourceKind": "official-page",
+            "url": "https://www.liquid.ai/models",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          },
+          {
+            "sourceId": "official:feed:huggingface-blog",
+            "sourceKind": "official-feed",
+            "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "6417a96b25273bbde1e1c1d52c930699dd030b77c939b4a7771601061373fc92",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "8a7dd787598dcb46e9f595ac",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-2-6b-onnx",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-2.6B-ONNX",
+        "slug": "LFM2.5-2.6B-ONNX",
+        "slugAliases": [
+          "LFM2.5-2.6B-ONNX"
+        ],
+        "displayName": "LFM2.5-2.6B-ONNX",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5.2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "6B",
+          "version": "2.5.2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-ONNX",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "4e93f1cc589107acecc8c8cef53a0cb4e99ee96f699d28082aef616558225612",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "3e9611e696a18b76da4a5564",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-2-6b-base",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-2.6B-Base",
+        "slug": "LFM2.5-2.6B-Base",
+        "slugAliases": [
+          "LFM2.5-2.6B-Base"
+        ],
+        "displayName": "LFM2.5-2.6B-Base",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5.2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "6B",
+          "version": "2.5.2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-Base",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "32dc4965fce4d52da9463860b6bbf16835b5c0955ee665b6c3ea4e15aa2229dc",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
+    },
+    {
+      "id": "64d004ca18111570348c7688",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-2-6b",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-2.6B",
+        "slug": "LFM2.5-2.6B",
+        "slugAliases": [
+          "LFM2.5-2.6B"
+        ],
+        "displayName": "LFM2.5-2.6B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5.2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "6B",
+          "version": "2.5.2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+            "observedAt": "2026-08-04T15:41:04.514Z"
+          }
+        ],
+        "fingerprint": "000e2b4641149b4a582904a44c50181c908fd0768c4acedcc34a8a696ca09918",
+        "firstSeen": "2026-08-04T15:41:04.514Z",
+        "lastChanged": "2026-08-04T15:41:04.514Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-04T15:41:04.514Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
