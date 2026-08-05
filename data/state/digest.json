@@ -24537,6 +24537,336 @@
         "model"
       ],
       "detectedAt": "2026-08-05T15:25:03.751Z"
+    },
+    {
+      "id": "0f4211ebdc0720f88c7fdf5b",
+      "type": "added",
+      "importance": "minor",
+      "before": {
+        "key": "command::command-r7",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Command",
+        "familyId": "command",
+        "modelId": "Command R7",
+        "slug": "Command R7",
+        "slugAliases": [
+          "Command R7"
+        ],
+        "displayName": "Command R7",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "7",
+        "tier": "r7",
+        "capabilities": {
+          "tier": "r7",
+          "version": "7"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:cohere",
+            "sourceKind": "official-page",
+            "url": "https://docs.cohere.com/docs/models",
+            "observedAt": "2026-08-05T20:07:07.289Z"
+          }
+        ],
+        "fingerprint": "3999f88092b963336491397d9ce76b7ca6479764750839560e7e79f122635863",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-05T20:07:07.289Z"
+      },
+      "after": {
+        "key": "command::command-r7",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Command",
+        "familyId": "command",
+        "modelId": "command-r7",
+        "slug": "command-r7",
+        "slugAliases": [
+          "command-r7"
+        ],
+        "displayName": "command-r7",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "7",
+        "tier": "r7",
+        "capabilities": {
+          "tier": "r7",
+          "version": "7"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:cohere",
+            "sourceKind": "official-page",
+            "url": "https://docs.cohere.com/docs/models",
+            "observedAt": "2026-08-05T21:22:59.274Z"
+          }
+        ],
+        "fingerprint": "c57d1b3509130cf2a9b7f49e9c2a91d72992700ad690a236092465b761b2d4e7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-05T21:22:59.274Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-05T21:22:59.274Z"
+    },
+    {
+      "id": "26b14b2ee6c97fb655bcc592",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen2-5-coder-0-5b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen2.5-Coder-0.5B",
+        "slug": "Qwen2.5-Coder-0.5B",
+        "slugAliases": [
+          "Qwen2.5-Coder-0.5B"
+        ],
+        "displayName": "Qwen2.5-Coder-0.5B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "5B",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.1,
+          "cache_write $/M": 0.1
+        },
+        "availability": [
+          "Pioneer"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://agent.pioneer.ai/llms.txt",
+            "observedAt": "2026-08-05T21:22:59.274Z"
+          }
+        ],
+        "fingerprint": "faf2ffdbcb00abb5ec6559b7d3f345c883db6fc26bd7db3114464321f403af0d",
+        "firstSeen": "2026-08-05T21:22:59.274Z",
+        "lastChanged": "2026-08-05T21:22:59.274Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-05T21:22:59.274Z"
+    },
+    {
+      "id": "d8fb75812dac35ba90e86ec0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::muse-spark-1-2",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.2",
+        "slug": "muse-spark-1.2",
+        "slugAliases": [
+          "muse-spark-1.2"
+        ],
+        "displayName": "Muse Spark 1.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-05T21:22:59.274Z"
+          }
+        ],
+        "fingerprint": "952dfdac998861d6b431bb1c07012e161fd20f25aa7c7232d12ef2a295f54859",
+        "firstSeen": "2026-08-05T21:22:59.274Z",
+        "lastChanged": "2026-08-05T21:22:59.274Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-05T21:22:59.274Z"
+    },
+    {
+      "id": "76c01187a25ebc75f26ef963",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "muse-spark::muse-spark-1-2",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.2",
+        "slug": "muse-spark-1.2",
+        "slugAliases": [
+          "muse-spark-1.2"
+        ],
+        "displayName": "muse-spark-1.2",
+        "modalities": [
+          "text",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "version": "1.2"
+        },
+        "limits": {
+          "contextTokens": 1048576
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-05T21:22:59.274Z"
+          }
+        ],
+        "fingerprint": "90f9bdd808eb6384e765c3df76f9d6c0f118299e203c2cfcb2d6b1e0290182e9",
+        "firstSeen": "2026-08-05T21:22:59.274Z",
+        "lastChanged": "2026-08-05T21:22:59.274Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-05T21:22:59.274Z"
+    },
+    {
+      "id": "a67201e3a77337e828bc139c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "muse-spark::muse-spark-1-2-contributor",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.2-contributor",
+        "slug": "muse-spark-1.2-contributor",
+        "slugAliases": [
+          "muse-spark-1.2-contributor"
+        ],
+        "displayName": "muse-spark-1.2-contributor",
+        "modalities": [
+          "text",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "version": "1.2"
+        },
+        "limits": {
+          "contextTokens": 1048576
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-05T21:22:59.274Z"
+          }
+        ],
+        "fingerprint": "2b0ae1e510c0ed02ca7b4141c6e6efd904516d0e97a27a4196262cbca371314b",
+        "firstSeen": "2026-08-05T21:22:59.274Z",
+        "lastChanged": "2026-08-05T21:22:59.274Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-05T21:22:59.274Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
