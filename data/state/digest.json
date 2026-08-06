@@ -24920,6 +24920,69 @@
         "announcement"
       ],
       "detectedAt": "2026-08-05T22:33:58.707Z"
+    },
+    {
+      "id": "a781e7cf428030ed79e19cd4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::muse-spark-1-2-contributor",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.2-contributor",
+        "slug": "muse-spark-1.2-contributor",
+        "slugAliases": [
+          "muse-spark-1.2-contributor"
+        ],
+        "displayName": "Muse Spark 1.2 Contributor",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "1.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.2,
+          "cache_read $/M": 0.002
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-06T04:19:26.542Z"
+          }
+        ],
+        "fingerprint": "0e3a5eebc56ab4153f769a730695303cacd232c10c4c2b123e43cb46ea8ef542",
+        "firstSeen": "2026-08-06T04:19:26.542Z",
+        "lastChanged": "2026-08-06T04:19:26.542Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-06T04:19:26.542Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
