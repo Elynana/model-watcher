@@ -62076,6 +62076,528 @@
         "model"
       ],
       "detectedAt": "2026-08-07T14:42:08.951Z"
+    },
+    {
+      "id": "09020ead818e39420e7ac1f9",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-2-5-pro",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-pro",
+        "slug": "gemini-2.5-pro",
+        "slugAliases": [
+          "Gemini 2.5 Pro",
+          "gemini-2-5-pro",
+          "gemini-2.5-pro"
+        ],
+        "displayName": "Gemini 2.5 Pro",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "audio, image, text, video",
+          "tier": "pro",
+          "version": "2.5",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.625,
+          "completion $/M": 5,
+          "image $/M": 0.625,
+          "audio $/M": 0.625,
+          "input_audio_cache $/M": 0.125,
+          "web_search $/M": 14000,
+          "internal_reasoning $/M": 5,
+          "input_cache_read $/M": 0.125,
+          "input $/M": 1.25,
+          "output $/M": 10,
+          "cache_read $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 15,
+              "cache_read": 0.25,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 15,
+            "cache_read": 0.25
+          }
+        },
+        "availability": [
+          "Databricks",
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:google-models",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-07T03:13:36.400Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/google/gemini-2.5-pro:batch",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          }
+        ],
+        "fingerprint": "7724179b0b992faf3ad1ed6ee87dc265e177a0cca62bc597ea38f69dcf14ab31",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-08-07T14:42:08.951Z"
+      },
+      "after": {
+        "key": "gemini::gemini-2-5-pro",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2-5-pro",
+        "slug": "gemini-2-5-pro",
+        "slugAliases": [
+          "Gemini 2.5 Pro",
+          "gemini-2-5-pro",
+          "gemini-2.5-pro"
+        ],
+        "displayName": "Gemini 2.5 Pro",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "audio, image, text, video",
+          "tier": "pro",
+          "version": "2.5",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.625,
+          "completion $/M": 5,
+          "image $/M": 0.625,
+          "audio $/M": 0.625,
+          "input_audio_cache $/M": 0.125,
+          "web_search $/M": 14000,
+          "internal_reasoning $/M": 5,
+          "input_cache_read $/M": 0.125,
+          "input $/M": 1.25,
+          "output $/M": 10,
+          "cache_read $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 15,
+              "cache_read": 0.25,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 15,
+            "cache_read": 0.25
+          }
+        },
+        "availability": [
+          "Databricks",
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:google-models",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-07T03:13:36.400Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-07T14:42:08.951Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/google/gemini-2.5-pro:batch",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          }
+        ],
+        "fingerprint": "43323d9b46f9819ed84573d5927ff75e6841f12c25d1d8d030b5d5956c780a37",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-08-07T15:39:02.656Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-08-07T15:39:02.656Z"
+    },
+    {
+      "id": "2e3b893e7199ab392506295f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-flash-live-preview-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-live-preview TTS",
+        "slug": "gemini-3.1-flash-live-preview TTS",
+        "slugAliases": [
+          "gemini-3.1-flash-live-preview TTS"
+        ],
+        "displayName": "gemini-3.1-flash-live-preview TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          }
+        ],
+        "fingerprint": "ac679c0d1f1ed264f98dce42e406107d73846914224f38b57fcd46584128e42a",
+        "firstSeen": "2026-08-07T15:39:02.656Z",
+        "lastChanged": "2026-08-07T15:39:02.656Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-07T15:39:02.656Z"
+    },
+    {
+      "id": "b7b569025e49aa30d1347668",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-flash-preview-tts-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash-preview-tts TTS",
+        "slug": "gemini-2.5-flash-preview-tts TTS",
+        "slugAliases": [
+          "gemini-2.5-flash-preview-tts TTS"
+        ],
+        "displayName": "gemini-2.5-flash-preview-tts TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          }
+        ],
+        "fingerprint": "08906ce6d4865350223516248e26173475736bf12ba78635d380e4a055c7175f",
+        "firstSeen": "2026-08-07T15:39:02.656Z",
+        "lastChanged": "2026-08-07T15:39:02.656Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-07T15:39:02.656Z"
+    },
+    {
+      "id": "bafd7c000e1df21fcfb58dbd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "vidu::vidu-q3",
+        "owner": "ShengShu Technology",
+        "vendorId": "shengshu",
+        "family": "Vidu",
+        "familyId": "vidu",
+        "modelId": "Vidu Q3",
+        "slug": "Vidu Q3",
+        "slugAliases": [
+          "Vidu Q3"
+        ],
+        "displayName": "Vidu Q3",
+        "modalities": [
+          "audio",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "q3",
+        "capabilities": {
+          "tier": "q3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:shengshu",
+            "sourceKind": "official-page",
+            "url": "https://platform.vidu.com/docs/model-map",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          }
+        ],
+        "fingerprint": "dad7ceb30675b95bb7bc15ebdfff307e02ccb862156a206a3ef5ae7eb5d98683",
+        "firstSeen": "2026-08-07T15:39:02.656Z",
+        "lastChanged": "2026-08-07T15:39:02.656Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-07T15:39:02.656Z"
+    },
+    {
+      "id": "e8a44354e84290034c0a4e6f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "vidu::vidu-q1",
+        "owner": "ShengShu Technology",
+        "vendorId": "shengshu",
+        "family": "Vidu",
+        "familyId": "vidu",
+        "modelId": "Vidu Q1",
+        "slug": "Vidu Q1",
+        "slugAliases": [
+          "Vidu Q1"
+        ],
+        "displayName": "Vidu Q1",
+        "modalities": [
+          "audio",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "q1",
+        "capabilities": {
+          "tier": "q1",
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:shengshu",
+            "sourceKind": "official-page",
+            "url": "https://platform.vidu.com/docs/model-map",
+            "observedAt": "2026-08-07T15:39:02.656Z"
+          }
+        ],
+        "fingerprint": "0ccb172c255b36e14874e67c7ead14029e575a7421e37b3701bacbb619317700",
+        "firstSeen": "2026-08-07T15:39:02.656Z",
+        "lastChanged": "2026-08-07T15:39:02.656Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-07T15:39:02.656Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
