@@ -59470,6 +59470,127 @@
         "announcement"
       ],
       "detectedAt": "2026-08-07T03:13:36.400Z"
+    },
+    {
+      "id": "dd2c56062f027738d2a6cd38",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-max-thinking",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-max:thinking",
+        "slug": "qwen3.8-max:thinking",
+        "slugAliases": [
+          "qwen3.8-max:thinking"
+        ],
+        "displayName": "Qwen3.8 Max Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 991000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-03",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-07T05:04:52.876Z"
+          }
+        ],
+        "fingerprint": "f1dcaa75e979a3fd515b26e7bae59468af772524c241c02c6bae18fadbfa7d7c",
+        "firstSeen": "2026-08-07T05:04:52.876Z",
+        "lastChanged": "2026-08-07T05:04:52.876Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-07T05:04:52.876Z"
+    },
+    {
+      "id": "b53a490ec56bace0cf82b7d8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::spark-1-2",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "spark-1.2",
+        "slug": "spark-1.2",
+        "slugAliases": [
+          "spark-1.2"
+        ],
+        "displayName": "spark-1.2",
+        "modalities": [
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "version": "1.2"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-07T05:04:52.876Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-07T05:04:52.876Z"
+          }
+        ],
+        "fingerprint": "18361c21c8f4e0e53459b6a228c0a105929572a49148fc020a3e1819a8b1a93a",
+        "firstSeen": "2026-08-07T05:04:52.876Z",
+        "lastChanged": "2026-08-07T05:04:52.876Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-07T05:04:52.876Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
