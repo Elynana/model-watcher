@@ -61284,6 +61284,587 @@
         "slug"
       ],
       "detectedAt": "2026-08-07T07:44:32.729Z"
+    },
+    {
+      "id": "cab73a6b2e50bab19358ec49",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-3-0-tiny-free",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-3.0-tiny:free",
+        "slug": "ling-3.0-tiny:free",
+        "slugAliases": [
+          "ling-3.0-tiny-free",
+          "ling-3.0-tiny:free"
+        ],
+        "displayName": "inclusionAI: Ling 3.0 Tiny (free)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "tier": "tiny",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          }
+        ],
+        "fingerprint": "2be11fafeb2fd252e2eeef4b788b80d0923135f72b2126b3cd3a7db91ebbe2c1",
+        "firstSeen": "2026-08-07T00:03:31.110Z",
+        "lastChanged": "2026-08-07T07:44:32.729Z"
+      },
+      "after": {
+        "key": "ling::ling-3-0-tiny-free",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-3.0-tiny:free",
+        "slug": "ling-3.0-tiny:free",
+        "slugAliases": [
+          "ling-3.0-tiny-free",
+          "ling-3.0-tiny:free"
+        ],
+        "displayName": "Ling 3.0 Tiny (free)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "tier": "tiny",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-07T08:40:50.413Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-07T08:40:50.413Z"
+          }
+        ],
+        "fingerprint": "dc7c6b726d0fca07a96102609be92a492af5ed127f5cad76a379732140929f80",
+        "firstSeen": "2026-08-07T00:03:31.110Z",
+        "lastChanged": "2026-08-07T08:40:50.413Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-07T08:40:50.413Z"
+    },
+    {
+      "id": "7080406e793cd2eaad10025e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "spark::muse-spark-1-2",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.2",
+        "slug": "muse-spark-1.2",
+        "slugAliases": [
+          "muse-spark-1.2"
+        ],
+        "displayName": "Muse Spark 1.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          }
+        ],
+        "fingerprint": "4f0ea6054bbc25f51ec188184450b584d6f32a9b00bfcc30900e7d3b5ca26efa",
+        "firstSeen": "2026-08-05T21:22:59.274Z",
+        "lastChanged": "2026-08-07T07:44:32.729Z"
+      },
+      "after": {
+        "key": "spark::muse-spark-1-2",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.2",
+        "slug": "muse-spark-1.2",
+        "slugAliases": [
+          "muse-spark-1.2"
+        ],
+        "displayName": "Muse Spark 1.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-07T08:40:50.413Z"
+          }
+        ],
+        "fingerprint": "952dfdac998861d6b431bb1c07012e161fd20f25aa7c7232d12ef2a295f54859",
+        "firstSeen": "2026-08-05T21:22:59.274Z",
+        "lastChanged": "2026-08-07T08:40:50.413Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-07T08:40:50.413Z"
+    },
+    {
+      "id": "073d2ddf4d02e0d485c3dc3a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::kimi-k2-7-code-highspeed",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k2.7-code-highspeed",
+        "slug": "kimi-k2.7-code-highspeed",
+        "slugAliases": [
+          "kimi-k2.7-code-highspeed"
+        ],
+        "displayName": "Kimi K2.7 Code Highspeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "tier": "k2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.9,
+          "output $/M": 8,
+          "cache_read $/M": 0.38
+        },
+        "availability": [
+          "NanoGPT",
+          "Ofox",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ofox.ai/docs",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          }
+        ],
+        "fingerprint": "c2c9b1bf44634a8729de715cb696903a7de9a87e9110f2b91b355c78c9989a69",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-07T07:44:32.729Z"
+      },
+      "after": {
+        "key": "kimi::kimi-k2-7-code-highspeed",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k2.7-code-highspeed",
+        "slug": "kimi-k2.7-code-highspeed",
+        "slugAliases": [
+          "kimi-k2.7-code-highspeed"
+        ],
+        "displayName": "Kimi K2.7 Code HighSpeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "tier": "k2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.9,
+          "output $/M": 8,
+          "cache_read $/M": 0.38
+        },
+        "availability": [
+          "Moonshot AI",
+          "NanoGPT",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/api/chat",
+            "observedAt": "2026-08-07T08:40:50.413Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-07T08:40:50.413Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          }
+        ],
+        "fingerprint": "2763db90d942c4c1b59afd96196f18572219eaaa12e36fbca0fd28c780e09a29",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-07T08:40:50.413Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-07T08:40:50.413Z"
+    },
+    {
+      "id": "8ee8e65e91d70b595b4783dd",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::kimi-latest",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-latest",
+        "slug": "kimi-latest",
+        "slugAliases": [
+          "kimi-latest"
+        ],
+        "displayName": "MoonshotAI Kimi Latest",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 14,
+          "input_cache_read $/M": 0.29,
+          "input $/M": 2,
+          "output $/M": 5,
+          "cache_read $/M": 0.29
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "OpenRouter",
+          "moonshot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/pricing",
+            "observedAt": "2026-08-07T03:13:36.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~moonshotai/kimi-latest",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          }
+        ],
+        "fingerprint": "3230b21cc50c86ac56fec8ce5ca83ef755af6bc8b614fd090528e38864782433",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-07T07:44:32.729Z"
+      },
+      "after": {
+        "key": "kimi::kimi-latest",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-latest",
+        "slug": "kimi-latest",
+        "slugAliases": [
+          "kimi-latest"
+        ],
+        "displayName": "MoonshotAI Kimi Latest",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 14,
+          "input_cache_read $/M": 0.29,
+          "input $/M": 2,
+          "output $/M": 5,
+          "cache_read $/M": 0.29
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "moonshot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-07T08:40:50.413Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/pricing",
+            "observedAt": "2026-08-07T03:13:36.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-07T07:44:32.729Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~moonshotai/kimi-latest",
+            "observedAt": "2026-08-07T08:40:50.413Z"
+          }
+        ],
+        "fingerprint": "59dad007f173cd3cc937e55f7af798ef655b95df4df6f8e86fad68d9f9f644c0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-07T08:40:50.413Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-07T08:40:50.413Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
