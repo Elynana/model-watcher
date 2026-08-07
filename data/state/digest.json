@@ -61865,6 +61865,58 @@
         "availability"
       ],
       "detectedAt": "2026-08-07T08:40:50.413Z"
+    },
+    {
+      "id": "3356dc02bd1d81e4bbe02fa9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-image-3-text-to-image",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-Image",
+        "familyId": "qwen-image",
+        "modelId": "qwen-image-3/text-to-image",
+        "slug": "qwen-image-3/text-to-image",
+        "slugAliases": [
+          "qwen-image-3/text-to-image"
+        ],
+        "displayName": "Qwen Image 3 Text to Image",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/alibaba/qwen-image-3/text-to-image",
+            "observedAt": "2026-08-07T10:37:56.672Z"
+          }
+        ],
+        "fingerprint": "afee401a8d33da698a2e9a95be9182dfb47cf30d8ab9cc965162096312726a25",
+        "firstSeen": "2026-08-07T10:37:56.672Z",
+        "lastChanged": "2026-08-07T10:37:56.672Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-07T10:37:56.672Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
