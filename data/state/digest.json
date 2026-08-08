@@ -63958,6 +63958,179 @@
         "availability"
       ],
       "detectedAt": "2026-08-08T11:12:44.735Z"
+    },
+    {
+      "id": "917f920a15115c247da1df78",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-2-0-flash-lite-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.0-flash-lite-preview",
+        "slug": "gemini-2.0-flash-lite-preview",
+        "slugAliases": [
+          "gemini-2.0-flash-lite-preview"
+        ],
+        "displayName": "gemini-2.0-flash-lite-preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.0",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-08T17:48:53.641Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-08T17:48:53.641Z"
+          }
+        ],
+        "fingerprint": "6bf4ce89be1bfcd7d9fe0ed8f60cd24e489d159cd99477e368be9a402ddea270",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gemini::gemini-2-0-flash-lite-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.0-flash-lite-preview",
+        "slug": "gemini-2.0-flash-lite-preview",
+        "slugAliases": [
+          "gemini-2.0-flash-lite Preview",
+          "gemini-2.0-flash-lite-preview"
+        ],
+        "displayName": "gemini-2.0-flash-lite Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.0",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-08T19:01:57.311Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-08T19:01:57.311Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-08T19:01:57.311Z"
+          }
+        ],
+        "fingerprint": "38d1dd0a683e351060386a0965df4714e85e570d56ce106555da17aa095d9317",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-08T19:01:57.311Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-08T19:01:57.311Z"
+    },
+    {
+      "id": "2b812ad2e82352e8b22a6d5c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite-preview-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite-preview Preview",
+        "slug": "gemini-3.1-flash-lite-preview Preview",
+        "slugAliases": [
+          "gemini-3.1-flash-lite-preview Preview"
+        ],
+        "displayName": "gemini-3.1-flash-lite-preview Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-08T19:01:57.311Z"
+          }
+        ],
+        "fingerprint": "491cd47587e73f20c45273a36919d45b8ef03324cf958285f117ffc2c246ea6a",
+        "firstSeen": "2026-08-08T19:01:57.311Z",
+        "lastChanged": "2026-08-08T19:01:57.311Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-08T19:01:57.311Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
