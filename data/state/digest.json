@@ -62958,6 +62958,69 @@
         "announcement"
       ],
       "detectedAt": "2026-08-07T23:28:44.253Z"
+    },
+    {
+      "id": "73cd618f5c45186afc563faf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm5-2",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm5.2",
+        "slug": "glm5.2",
+        "slugAliases": [
+          "glm5.2"
+        ],
+        "displayName": "GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 96000,
+          "maxOutputTokens": 96000
+        },
+        "pricing": {
+          "input $/M": 2.31,
+          "output $/M": 6
+        },
+        "availability": [
+          "Regolo AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.regolo.ai/",
+            "observedAt": "2026-08-08T03:38:57.097Z"
+          }
+        ],
+        "fingerprint": "50e261518f56f687b7c94b01a369853609503dc83e5cbda64edd9fc248af0d1f",
+        "firstSeen": "2026-08-08T03:38:57.097Z",
+        "lastChanged": "2026-08-08T03:38:57.097Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-08T03:38:57.097Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
