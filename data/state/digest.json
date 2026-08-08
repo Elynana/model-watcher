@@ -64131,6 +64131,58 @@
         "announcement"
       ],
       "detectedAt": "2026-08-08T19:01:57.311Z"
+    },
+    {
+      "id": "58f388a057ef0b9c391a1ff1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-image-2-0-preview",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-image-2.0-preview",
+        "slug": "grok-imagine-image-2.0-preview",
+        "slugAliases": [
+          "grok-imagine-image-2.0-preview"
+        ],
+        "displayName": "grok-imagine-image-2.0-preview",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "version": "2.0"
+        },
+        "limits": {},
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-08T20:01:00.155Z"
+          }
+        ],
+        "fingerprint": "6c2905670d92de1ea69b6fd6621744003cb33e975a6e4b9e9f31ed536173d62a",
+        "firstSeen": "2026-08-08T20:01:00.155Z",
+        "lastChanged": "2026-08-08T20:01:00.155Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-08T20:01:00.155Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
