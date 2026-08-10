@@ -64689,6 +64689,117 @@
         "model"
       ],
       "detectedAt": "2026-08-10T05:07:53.209Z"
+    },
+    {
+      "id": "e7d081cd3ebb80d3f210e2d1",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-5-3-chat-20260303",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.3-chat-20260303",
+        "slug": "gpt-5.3-chat-20260303",
+        "slugAliases": [
+          "gpt-5.3-chat-20260303"
+        ],
+        "displayName": "OpenAI: GPT-5.3 Chat",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.3",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 1.75,
+          "completion $/M": 14,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.175
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-03",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-5.3-chat",
+            "observedAt": "2026-08-10T12:59:24.189Z"
+          }
+        ],
+        "fingerprint": "6ee22527881b9ec35c27278205a33d2d19412e53b42f158ce6a29172557ec1c9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gpt::gpt-5-3-chat-20260303",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.3-chat-20260303",
+        "slug": "gpt-5.3-chat-20260303",
+        "slugAliases": [
+          "gpt-5.3-chat-20260303"
+        ],
+        "displayName": "OpenAI: GPT-5.3 Chat",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.3",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 1.75,
+          "completion $/M": 14,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.175
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-03-03",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-5.3-chat",
+            "observedAt": "2026-08-10T12:59:24.189Z"
+          }
+        ],
+        "fingerprint": "23471f91a8c6d3e7c8373eb55aecdb7c4d761a9833c212a0e2fdbe57288c6964",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-10T16:26:04.524Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-08-10T16:26:04.524Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
