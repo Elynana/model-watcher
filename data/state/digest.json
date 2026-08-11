@@ -66509,6 +66509,137 @@
         "model"
       ],
       "detectedAt": "2026-08-11T14:41:21.338Z"
+    },
+    {
+      "id": "ffe4c6a4fb156a83d0f40fe3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-lighting-free",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-lighting-free",
+        "slug": "nemotron-3.5-lighting-free",
+        "slugAliases": [
+          "nemotron-3.5-lighting-free"
+        ],
+        "displayName": "Nemotron 3.5 Lightning Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "OpenCode Zen"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-08-11T15:42:56.964Z"
+          }
+        ],
+        "fingerprint": "e469c3e9d783235a3b0476175981395dbd0da3701801da59e7e43eda4bfe08b8",
+        "firstSeen": "2026-08-11T15:42:56.964Z",
+        "lastChanged": "2026-08-11T15:42:56.964Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T15:42:56.964Z"
+    },
+    {
+      "id": "90538b8115b902a51512b3f7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0731-fast",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-0731-fast",
+        "slug": "deepseek-v4-flash-0731-fast",
+        "slugAliases": [
+          "deepseek-v4-flash-0731-fast"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731 Fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.35,
+          "output $/M": 0.7,
+          "cache_read $/M": 0.0875
+        },
+        "availability": [
+          "Venice AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-11T15:42:56.964Z"
+          }
+        ],
+        "fingerprint": "82730b9c1399bec94c10fcdfddc7f58e88b63ed2276478d8af5a61400349f472",
+        "firstSeen": "2026-08-11T15:42:56.964Z",
+        "lastChanged": "2026-08-11T15:42:56.964Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T15:42:56.964Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
