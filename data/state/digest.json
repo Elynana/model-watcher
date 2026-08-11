@@ -85241,6 +85241,706 @@
         "model"
       ],
       "detectedAt": "2026-08-11T21:14:55.726Z"
+    },
+    {
+      "id": "8b2a0c71f3669177830c8df0",
+      "type": "added",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-5",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron 3.5",
+        "slug": "Nemotron 3.5",
+        "slugAliases": [
+          "Nemotron 3.5"
+        ],
+        "displayName": "Nemotron 3.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "announced"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-04",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:huggingface-blog",
+            "sourceKind": "official-feed",
+            "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+            "observedAt": "2026-08-11T21:14:55.726Z"
+          },
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+            "observedAt": "2026-08-11T19:41:56.008Z"
+          }
+        ],
+        "fingerprint": "a402a4cb947ace5a1e94aa0ac9b12bd41f68f33b6b0c469545eb25e9fbf59263",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-26T04:45:09.972Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-5",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5",
+        "slug": "nemotron-3.5",
+        "slugAliases": [
+          "Nemotron 3.5",
+          "nemotron-3.5"
+        ],
+        "displayName": "Nemotron 3.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:huggingface-blog",
+            "sourceKind": "official-feed",
+            "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          },
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "9ab3510c8282d8baef34ce23037646f6888e225d8d3c9ad94599f2d310289471",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "5001886d7ef93704fe48b177",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm-2-5-2-6b-free",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "lfm-2.5-2.6b:free",
+        "slug": "lfm-2.5-2.6b:free",
+        "slugAliases": [
+          "lfm-2.5-2.6b:free"
+        ],
+        "displayName": "LFM2.5-2.6B (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "2.5.2"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "73e3c3b44f291ed6ece27f37c7a261e554bfd03d6b59f7b1d91cb953b0e2d7fb",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "e102b439797356ec7a204985",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-50",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro 50",
+        "slug": "deepseek-v4-pro 50",
+        "slugAliases": [
+          "deepseek-v4-pro 50"
+        ],
+        "displayName": "deepseek-v4-pro 50",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "dca79150fc05c41885190a9b7ceb25085c073bf40aa20012d2a68b22ac0aa612",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "6d342b30f018f8cd8efcb209",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-82",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash 82",
+        "slug": "deepseek-v4-flash 82",
+        "slugAliases": [
+          "deepseek-v4-flash 82"
+        ],
+        "displayName": "deepseek-v4-flash 82",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "a7fb20d2de05ef17c7fcc0cdf47ada7a5468386d14231d5a8d5dbb366cdfd7d1",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "dc00592174f540ab1887c96f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-medium-310",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium 310",
+        "slug": "mistral-medium 310",
+        "slugAliases": [
+          "mistral-medium 310"
+        ],
+        "displayName": "mistral-medium 310",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "310",
+        "tier": "medium",
+        "capabilities": {
+          "tier": "medium",
+          "version": "310"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "2ae7f1e6ec8fe4f65740da4032a99bff2c7c2a458eff9132f243ec643b15b9da",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "245046badab5fcf4747099a9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::minimax-m2-202",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m2 202",
+        "slug": "minimax-m2 202",
+        "slugAliases": [
+          "minimax-m2 202"
+        ],
+        "displayName": "minimax-m2 202",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "577a4e90a47abab908a21f298acaa0648021ae9e8aa30783e2fe1b779bcd366d",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "1d973b87a570ac33f697c6cd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "hunyuan::hunyuan-large-vision-261",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "Hunyuan",
+        "familyId": "hunyuan",
+        "modelId": "hunyuan-large-vision 261",
+        "slug": "hunyuan-large-vision 261",
+        "slugAliases": [
+          "hunyuan-large-vision 261"
+        ],
+        "displayName": "hunyuan-large-vision 261",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "261",
+        "tier": "large",
+        "capabilities": {
+          "tier": "large",
+          "version": "261"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "84d0cde2cf66376d9e456c10626bcc4c8d0018d72c8b6d24b4321734a30b0ad8",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "cd30997306fa95336f28f784",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "command::command-r-plus-287",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Command",
+        "familyId": "command",
+        "modelId": "command-r-plus 287",
+        "slug": "command-r-plus 287",
+        "slugAliases": [
+          "command-r-plus 287"
+        ],
+        "displayName": "command-r-plus 287",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "287",
+        "tier": "plus",
+        "capabilities": {
+          "tier": "plus",
+          "version": "287"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "66c71c33adaf25c6a74ca13d43b067737b3bb7762393b25f8ef139e259c900ec",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "2d0daf426a12325286e0535d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "command::command-r-305",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Command",
+        "familyId": "command",
+        "modelId": "command-r 305",
+        "slug": "command-r 305",
+        "slugAliases": [
+          "command-r 305"
+        ],
+        "displayName": "command-r 305",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "305",
+        "capabilities": {
+          "version": "305"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "6f84b6441561bcb01ea318520dec7f3b2510de3ec084599ab1b89def85ded4c5",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "b44dd31e4513ff6189c32c21",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mercury::mercury-252",
+        "owner": "Inception Labs",
+        "vendorId": "inception-labs",
+        "family": "Mercury",
+        "familyId": "mercury",
+        "modelId": "mercury 252",
+        "slug": "mercury 252",
+        "slugAliases": [
+          "mercury 252"
+        ],
+        "displayName": "mercury 252",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "252",
+        "capabilities": {
+          "version": "252"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "156f45251c477ebdf9225ff6e28378a60756e8eb379dc2b62447166ba110e09f",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "bb4b9d2eae3bda5383d937ec",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-pro-309",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-pro 309",
+        "slug": "gemini-pro 309",
+        "slugAliases": [
+          "gemini-pro 309"
+        ],
+        "displayName": "gemini-pro 309",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "309",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "309"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "8b49b0a7dd781103ef40d1b2f58f714f8b5ff4b9f56147ed33b3d265280b3c00",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "46a9c79bcbba955cf76fa4c6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepgram-nova::nova-2-lite-211",
+        "owner": "Deepgram",
+        "vendorId": "deepgram",
+        "family": "Deepgram Nova / Aura",
+        "familyId": "deepgram-nova",
+        "modelId": "nova-2-lite 211",
+        "slug": "nova-2-lite 211",
+        "slugAliases": [
+          "nova-2-lite 211"
+        ],
+        "displayName": "nova-2-lite 211",
+        "modalities": [
+          "audio",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "lite",
+        "capabilities": {
+          "tier": "lite",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T22:08:00.400Z"
+          }
+        ],
+        "fingerprint": "5534c3ecf2d49e68be795681413728112c1435b3a5e2543cd3e02546b650623b",
+        "firstSeen": "2026-08-11T22:08:00.400Z",
+        "lastChanged": "2026-08-11T22:08:00.400Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T22:08:00.400Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
