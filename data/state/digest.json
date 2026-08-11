@@ -66760,6 +66760,69 @@
         "announcement"
       ],
       "detectedAt": "2026-08-11T16:39:50.134Z"
+    },
+    {
+      "id": "fee16066df118150faf06919",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-image-2-0",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-image-2.0",
+        "slug": "grok-imagine-image-2.0",
+        "slugAliases": [
+          "grok-imagine-image-2.0"
+        ],
+        "displayName": "Grok Imagine Image 2.0",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "version": "2.0",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {},
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-11T17:38:31.455Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-11T17:38:31.455Z"
+          }
+        ],
+        "fingerprint": "a62f5845c4a0f30f237b94a37831ea4850c4a69f3f6074cdec3da6e5bcc18107",
+        "firstSeen": "2026-08-11T17:38:31.455Z",
+        "lastChanged": "2026-08-11T17:38:31.455Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T17:38:31.455Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
