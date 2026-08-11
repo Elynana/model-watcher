@@ -66143,6 +66143,309 @@
         "announcement"
       ],
       "detectedAt": "2026-08-10T23:42:18.676Z"
+    },
+    {
+      "id": "de95fb3c5a7bc7734e26090a",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-nano",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3-nano",
+        "slug": "nemotron-3-nano",
+        "slugAliases": [
+          "Nemotron 3 Nano",
+          "nemotron-3-nano"
+        ],
+        "displayName": "nemotron-3-nano",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "3",
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "Ollama",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/nemotron-3-nano",
+            "observedAt": "2026-08-11T11:23:29.444Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T12:07:49.169Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-11T12:07:49.169Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-11T11:23:29.444Z"
+          }
+        ],
+        "fingerprint": "6fb74b65f03b6924d207dcff8315eed6691b2241070b40404000d050cacb6ace",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-26T19:37:51.474Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-nano",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3-nano",
+        "slug": "nemotron-3-nano",
+        "slugAliases": [
+          "Nemotron 3 Nano",
+          "nemotron-3-nano"
+        ],
+        "displayName": "Nemotron 3 Nano",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "3",
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "Ollama",
+          "announced",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+            "observedAt": "2026-08-11T13:37:49.671Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/nemotron-3-nano",
+            "observedAt": "2026-08-11T13:37:49.671Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T13:37:49.671Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-11T13:37:49.671Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-11T13:37:49.671Z"
+          }
+        ],
+        "fingerprint": "828409271ce56d8905c7b430a99742ee412ad72d14b96e47e72de6c1ac6d562b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-11T13:37:49.671Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-11T13:37:49.671Z"
+    },
+    {
+      "id": "8dcdab6eb9fe816a1a114258",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-lightning",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Lightning",
+        "slug": "Nemotron-3.5-Lightning",
+        "slugAliases": [
+          "Nemotron-3.5-Lightning"
+        ],
+        "displayName": "Nemotron-3.5-Lightning",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "DeepInfra"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "1970-01-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-11T13:37:49.671Z"
+          }
+        ],
+        "fingerprint": "932b5cbb19d62a4d8d497e66c7c0a0c050829dbd51b9fa230a5fa1e88a860fae",
+        "firstSeen": "2026-08-11T13:37:49.671Z",
+        "lastChanged": "2026-08-11T13:37:49.671Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T13:37:49.671Z"
+    },
+    {
+      "id": "d38130aa4d94abc06fb65577",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-lightning-30b-a3b-base-bf16",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
+        "slug": "Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
+        "slugAliases": [
+          "Nemotron-3.5-Lightning-30B-A3B-Base-BF16"
+        ],
+        "displayName": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
+            "observedAt": "2026-08-11T13:37:49.671Z"
+          }
+        ],
+        "fingerprint": "d7c4e23b53f7fbc33231001ef674da3e151aaab1ea3ad17667d19250522a6ee5",
+        "firstSeen": "2026-08-11T13:37:49.671Z",
+        "lastChanged": "2026-08-11T13:37:49.671Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T13:37:49.671Z"
+    },
+    {
+      "id": "055ec89d74e76121383622c3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-lightning-30b-a3b-bf16",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Lightning-30B-A3B-BF16",
+        "slug": "Nemotron-3.5-Lightning-30B-A3B-BF16",
+        "slugAliases": [
+          "Nemotron-3.5-Lightning-30B-A3B-BF16"
+        ],
+        "displayName": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+            "observedAt": "2026-08-11T13:37:49.671Z"
+          }
+        ],
+        "fingerprint": "b7b8c1cd40ecfea1caaaa45adccf31c7cf59f14ef0892c592e444ba9d396f2ce",
+        "firstSeen": "2026-08-11T13:37:49.671Z",
+        "lastChanged": "2026-08-11T13:37:49.671Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T13:37:49.671Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
