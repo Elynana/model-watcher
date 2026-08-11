@@ -66446,6 +66446,69 @@
         "model"
       ],
       "detectedAt": "2026-08-11T13:37:49.671Z"
+    },
+    {
+      "id": "0e6b688584f25eca88ee046a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-lightning-free",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-lightning:free",
+        "slug": "nemotron-3.5-lightning:free",
+        "slugAliases": [
+          "nemotron-3.5-lightning:free"
+        ],
+        "displayName": "Nemotron 3.5 Lightning (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-11T14:41:21.338Z"
+          }
+        ],
+        "fingerprint": "4e4b5eff86f004c77bb8f204d02db9d89f1b6ed24acd6f2ae178af4797f2e39f",
+        "firstSeen": "2026-08-11T14:41:21.338Z",
+        "lastChanged": "2026-08-11T14:41:21.338Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T14:41:21.338Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
