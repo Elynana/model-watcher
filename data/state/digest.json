@@ -66640,6 +66640,126 @@
         "model"
       ],
       "detectedAt": "2026-08-11T15:42:56.964Z"
+    },
+    {
+      "id": "536b6c18e067ed7cabdefc1d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-mythos-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-mythos-5",
+        "slug": "claude-mythos-5",
+        "slugAliases": [
+          "claude-mythos-5"
+        ],
+        "displayName": "Claude Mythos 5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-01-31",
+          "accepts": "image, text",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5
+        },
+        "availability": [
+          "Azure"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-08-11T16:39:50.134Z"
+          }
+        ],
+        "fingerprint": "f9f1280344a37c90fa421b607b61782b187f62348a0b39f5eed9ce64d89d7137",
+        "firstSeen": "2026-08-11T16:39:50.134Z",
+        "lastChanged": "2026-08-11T16:39:50.134Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-11T16:39:50.134Z"
+    },
+    {
+      "id": "0edbc800673829b0c9edc011",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-omni-flash-1512",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-omni-flash 1512",
+        "slug": "gemini-omni-flash 1512",
+        "slugAliases": [
+          "gemini-omni-flash 1512"
+        ],
+        "displayName": "gemini-omni-flash 1512",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1512",
+        "tier": "omni",
+        "capabilities": {
+          "tier": "omni",
+          "version": "1512"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-11T16:39:50.134Z"
+          }
+        ],
+        "fingerprint": "7e64afe64c0241510a028758d46d531f5dadce633b18899f8932e1e494bee319",
+        "firstSeen": "2026-08-11T16:39:50.134Z",
+        "lastChanged": "2026-08-11T16:39:50.134Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-11T16:39:50.134Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
