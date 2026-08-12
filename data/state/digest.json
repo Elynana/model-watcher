@@ -86210,6 +86210,59 @@
         "model"
       ],
       "detectedAt": "2026-08-12T03:13:31.289Z"
+    },
+    {
+      "id": "32c4d96d48cc55876c3bdad7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-super-120b-a12b-bf16-mtpv2",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3-Super-120B-A12B-BF16-MTPv2",
+        "slug": "Nemotron-3-Super-120B-A12B-BF16-MTPv2",
+        "slugAliases": [
+          "Nemotron-3-Super-120B-A12B-BF16-MTPv2"
+        ],
+        "displayName": "Nemotron-3-Super-120B-A12B-BF16-MTPv2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "120B",
+          "activeParameters": "12B active",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3-Super-120B-A12B-BF16-MTPv2",
+            "observedAt": "2026-08-12T06:24:55.582Z"
+          }
+        ],
+        "fingerprint": "2b2e20693cebb2a7ffd9a5078d21665ba462d042152a17ef387305a589cdd102",
+        "firstSeen": "2026-08-12T06:24:55.582Z",
+        "lastChanged": "2026-08-12T06:24:55.582Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-12T06:24:55.582Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
