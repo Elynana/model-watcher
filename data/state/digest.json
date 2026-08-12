@@ -89960,6 +89960,399 @@
         "model"
       ],
       "detectedAt": "2026-08-12T20:25:41.892Z"
+    },
+    {
+      "id": "e51b27aa748943b58019c7d6",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "bytedance-seed-seed::bytedance-seed-seed-2-1-turbo",
+        "family": "bytedance-seed-seed",
+        "modelId": "bytedance-seed/seed-2-1-turbo",
+        "slug": "bytedance-seed/seed-2-1-turbo",
+        "slugAliases": [
+          "bytedance-seed/seed-2-1-turbo"
+        ],
+        "displayName": "ByteDance Seed: Seed 2.1 Turbo",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "turbo",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "turbo",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-12T20:25:41.892Z"
+          }
+        ],
+        "fingerprint": "4fb26eb820c5e8a42970cf5df0f1cd424e3cb875f9522cb97293250a2bb2f51c",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-12T20:25:41.892Z"
+      },
+      "after": {
+        "key": "bytedance-seed-seed::bytedance-seed-seed-2-1-turbo",
+        "family": "bytedance-seed-seed",
+        "modelId": "bytedance-seed/seed-2-1-turbo",
+        "slug": "bytedance-seed/seed-2-1-turbo",
+        "slugAliases": [
+          "bytedance-seed/seed-2-1-turbo"
+        ],
+        "displayName": "Seed 2.1 Turbo",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "turbo",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "turbo",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-12T21:12:44.939Z"
+          }
+        ],
+        "fingerprint": "dfb56bfd50833a48c013aa43c86ee115a89af6fc6ce7aeb0f02e833d06bbc6f6",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-12T21:12:44.939Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-12T21:12:44.939Z"
+    },
+    {
+      "id": "735942d5728055c04c9b4f64",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-12T20:25:41.892Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-12T20:25:41.892Z"
+          }
+        ],
+        "fingerprint": "1c1069179298622862b4c0e85fa8992aaf8c7ed9d4693c4e13a5f3a938b7fc94",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-12T20:25:41.892Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-12T21:12:44.939Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-12T21:12:44.939Z"
+          }
+        ],
+        "fingerprint": "96dedae9a1aeb209b4b4d8b575c791100ad9333a20cf7ce3e18e2ae9eb198486",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-12T21:12:44.939Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-12T21:12:44.939Z"
+    },
+    {
+      "id": "d8df129a9a05402d3d92d94e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen: Qwen3.8 2.4T A95B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "activeParameters": "95B active",
+          "version": "3.8.2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 52429
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-08-12T19:44:40.522Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-12T20:25:41.892Z"
+          }
+        ],
+        "fingerprint": "697db35d67b91dcc733ef053d0527f3473d767be8c33e717c0daf0db0595d4e0",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-08-12T20:25:41.892Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "activeParameters": "95B active",
+          "version": "3.8.2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 52429
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "OpenRouter",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-08-12T21:12:44.939Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-12T21:12:44.939Z"
+          }
+        ],
+        "fingerprint": "2d2ed8664d57e0fe1477e63066f0ca394dc9bcea4ba7fb82ae66f3dd4ab8a44a",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-08-12T21:12:44.939Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-12T21:12:44.939Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
