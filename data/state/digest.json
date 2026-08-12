@@ -85941,6 +85941,275 @@
         "announcement"
       ],
       "detectedAt": "2026-08-11T22:08:00.400Z"
+    },
+    {
+      "id": "9607a4233d4b079ae912ffc5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-robotics-er-2-streaming-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-robotics-er-2-streaming-preview",
+        "slug": "gemini-robotics-er-2-streaming-preview",
+        "slugAliases": [
+          "gemini-robotics-er-2-streaming-preview"
+        ],
+        "displayName": "gemini-robotics-er-2-streaming-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "accepts": "audio, image, text, video",
+          "version": "2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10
+        },
+        "availability": [
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-08-12T03:13:31.289Z"
+          }
+        ],
+        "fingerprint": "a84a6769e7aa6306de787516d69e35bae6e8b53b8e9f4575bfd3add8d19f3fb6",
+        "firstSeen": "2026-08-12T03:13:31.289Z",
+        "lastChanged": "2026-08-12T03:13:31.289Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-12T03:13:31.289Z"
+    },
+    {
+      "id": "0eddcf07312fcd77b3793b9e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-moderation-2603",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-moderation-2603",
+        "slug": "mistral-moderation-2603",
+        "slugAliases": [
+          "mistral-moderation-2603"
+        ],
+        "displayName": "mistral-moderation-2603",
+        "modalities": [
+          "moderation"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2603",
+        "capabilities": {
+          "mode": "moderation",
+          "version": "2603"
+        },
+        "limits": {
+          "contextTokens": 131072
+        },
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/mistral-moderation-26-03",
+            "observedAt": "2026-08-12T03:13:31.289Z"
+          }
+        ],
+        "fingerprint": "0a52a09ae400ceae61b48008dc498c331c1f9232768b754e709031ea2e6900f4",
+        "firstSeen": "2026-08-12T03:13:31.289Z",
+        "lastChanged": "2026-08-12T03:13:31.289Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-12T03:13:31.289Z"
+    },
+    {
+      "id": "5cc840e074503920766be270",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-2602",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-mini-2602",
+        "slug": "voxtral-mini-2602",
+        "slugAliases": [
+          "voxtral-mini-2602"
+        ],
+        "displayName": "voxtral-mini-2602",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2602",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "audio_transcription",
+          "accepts": "audio",
+          "tier": "mini",
+          "version": "2602"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-26-02",
+            "observedAt": "2026-08-12T03:13:31.289Z"
+          }
+        ],
+        "fingerprint": "32e1b24a0b27eb2092e94ad7d3a634135e9c074f4e86d78abef51cb7a68bc104",
+        "firstSeen": "2026-08-12T03:13:31.289Z",
+        "lastChanged": "2026-08-12T03:13:31.289Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-12T03:13:31.289Z"
+    },
+    {
+      "id": "742deadebeb5dd3177b3d80b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-transcribe-realtime-2602",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-mini-transcribe-realtime-2602",
+        "slug": "voxtral-mini-transcribe-realtime-2602",
+        "slugAliases": [
+          "voxtral-mini-transcribe-realtime-2602"
+        ],
+        "displayName": "voxtral-mini-transcribe-realtime-2602",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2602",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "audio_transcription",
+          "accepts": "audio",
+          "tier": "mini",
+          "version": "2602"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-realtime-26-02",
+            "observedAt": "2026-08-12T03:13:31.289Z"
+          }
+        ],
+        "fingerprint": "6e2de4c9526f97f6caf2c28e0dde24b1e3fcf572b7085060efa3ba3f2006775b",
+        "firstSeen": "2026-08-12T03:13:31.289Z",
+        "lastChanged": "2026-08-12T03:13:31.289Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-12T03:13:31.289Z"
+    },
+    {
+      "id": "cd316e083249d3157137dd5b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-tts-2603",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-mini-tts-2603",
+        "slug": "voxtral-mini-tts-2603",
+        "slugAliases": [
+          "voxtral-mini-tts-2603"
+        ],
+        "displayName": "voxtral-mini-tts-2603",
+        "modalities": [
+          "audio"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2603",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "audio_speech",
+          "accepts": "text",
+          "tier": "mini",
+          "version": "2603"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/voxtral-tts-26-03",
+            "observedAt": "2026-08-12T03:13:31.289Z"
+          }
+        ],
+        "fingerprint": "8f3c58bb9ae4d0d20957183454c873d0071c911a26250a83e33866b1c319b140",
+        "firstSeen": "2026-08-12T03:13:31.289Z",
+        "lastChanged": "2026-08-12T03:13:31.289Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-12T03:13:31.289Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
