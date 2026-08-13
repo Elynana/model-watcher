@@ -92549,6 +92549,1080 @@
         "model"
       ],
       "detectedAt": "2026-08-13T10:35:42.876Z"
+    },
+    {
+      "id": "d5042b71370668f3ad7e2bf3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-5-lightning",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-lightning",
+        "slug": "nemotron-3.5-lightning",
+        "slugAliases": [
+          "Nemotron-3.5-Lightning",
+          "nemotron-3.5-lightning"
+        ],
+        "displayName": "Nemotron 3.5 Lightning 30B A3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.25,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          }
+        ],
+        "fingerprint": "5cf42959ec83823ee827df0eaf978872fc271403a82652d21585431257b5e80c",
+        "firstSeen": "2026-08-11T13:37:49.671Z",
+        "lastChanged": "2026-08-13T11:25:40.084Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-5-lightning",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-lightning",
+        "slug": "nemotron-3.5-lightning",
+        "slugAliases": [
+          "Nemotron-3.5-Lightning",
+          "nemotron-3.5-lightning"
+        ],
+        "displayName": "Nemotron 3.5 Lightning 30B A3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.25,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          }
+        ],
+        "fingerprint": "206ff2d8e43e0bdc136f5a2b444a5832cc921e067e3f38b143eaf99be194f1c5",
+        "firstSeen": "2026-08-11T13:37:49.671Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T12:07:37.400Z"
+    },
+    {
+      "id": "1985f2e11889f3d2d150ceb6",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "bytedance-seed-seed::bytedance-seed-seed-2-0-code",
+        "family": "bytedance-seed-seed",
+        "modelId": "bytedance-seed/seed-2.0-code",
+        "slug": "bytedance-seed/seed-2.0-code",
+        "slugAliases": [
+          "bytedance-seed/seed-2.0-code"
+        ],
+        "displayName": "Seed 2.0 Code",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "version": "2.0"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 3,
+          "tiers $/M": [
+            {
+              "input": 1,
+              "output": 6,
+              "tier": {
+                "type": "context",
+                "size": 128000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-14",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          }
+        ],
+        "fingerprint": "2fea004b0daeb120bbab58ea380c3759a695c8eab1ceb4cb8f85d9f2950b8603",
+        "firstSeen": "2026-08-11T19:41:56.008Z",
+        "lastChanged": "2026-08-13T11:25:40.084Z"
+      },
+      "after": {
+        "key": "bytedance-seed-seed::bytedance-seed-seed-2-0-code",
+        "family": "bytedance-seed-seed",
+        "modelId": "bytedance-seed/seed-2.0-code",
+        "slug": "bytedance-seed/seed-2.0-code",
+        "slugAliases": [
+          "bytedance-seed/seed-2.0-code"
+        ],
+        "displayName": "Seed 2.0 Code",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "version": "2.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 3,
+          "tiers $/M": [
+            {
+              "input": 1,
+              "output": 6,
+              "tier": {
+                "type": "context",
+                "size": 128000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-14",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          }
+        ],
+        "fingerprint": "6b2477b0303d12a500b4a5aa953a9c7458171868fe0b50e27ac8b3298d8f83cd",
+        "firstSeen": "2026-08-11T19:41:56.008Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T12:07:37.400Z"
+    },
+    {
+      "id": "dd72a01ec4762083921d427c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "bytedance-seed-seed::bytedance-seed-seed-2-1-turbo",
+        "family": "bytedance-seed-seed",
+        "modelId": "bytedance-seed/seed-2-1-turbo",
+        "slug": "bytedance-seed/seed-2-1-turbo",
+        "slugAliases": [
+          "bytedance-seed/seed-2-1-turbo"
+        ],
+        "displayName": "Seed 2.1 Turbo",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "turbo",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "turbo",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          }
+        ],
+        "fingerprint": "dfb56bfd50833a48c013aa43c86ee115a89af6fc6ce7aeb0f02e833d06bbc6f6",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T11:25:40.084Z"
+      },
+      "after": {
+        "key": "bytedance-seed-seed::bytedance-seed-seed-2-1-turbo",
+        "family": "bytedance-seed-seed",
+        "modelId": "bytedance-seed/seed-2-1-turbo",
+        "slug": "bytedance-seed/seed-2-1-turbo",
+        "slugAliases": [
+          "bytedance-seed/seed-2-1-turbo"
+        ],
+        "displayName": "Seed 2.1 Turbo",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "turbo",
+        "capabilities": {
+          "tier": "turbo",
+          "version": "2.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          }
+        ],
+        "fingerprint": "d089b33b2fd928f4a2c701fbb7db254ccc3f95db4ee93cb53bc7e24d2be38083",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T12:07:37.400Z"
+    },
+    {
+      "id": "010ff62088c1ebbbf6665535",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "muse-glimmer::muse-glimmer-30b",
+        "owner": "Meta AI",
+        "family": "muse-glimmer",
+        "modelId": "muse-glimmer-30b",
+        "slug": "muse-glimmer-30b",
+        "slugAliases": [
+          "muse-glimmer-30b"
+        ],
+        "displayName": "Muse Glimmer 30B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "parameters": "30B",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2026-01-04",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.35,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-10",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          }
+        ],
+        "fingerprint": "cdb88000c5f4aa8efa4e2f1e7b37b183bc26a26de6d4de59928722c1a7ccbbc3",
+        "firstSeen": "2026-08-10T23:00:39.037Z",
+        "lastChanged": "2026-08-13T11:25:40.084Z"
+      },
+      "after": {
+        "key": "muse-glimmer::muse-glimmer-30b",
+        "owner": "Meta AI",
+        "family": "muse-glimmer",
+        "modelId": "muse-glimmer-30b",
+        "slug": "muse-glimmer-30b",
+        "slugAliases": [
+          "muse-glimmer-30b"
+        ],
+        "displayName": "Muse Glimmer 30B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "parameters": "30B",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2026-01-04",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.35,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-10",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          }
+        ],
+        "fingerprint": "9d92bbe232324dd91dc9968f8151501e1e58ecff67d11cab273a2c53cef9815a",
+        "firstSeen": "2026-08-10T23:00:39.037Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T12:07:37.400Z"
+    },
+    {
+      "id": "43840b50081f6cbe8eb86fca",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "solar::solar-pro4",
+        "owner": "Upstage",
+        "vendorId": "upstage",
+        "family": "Solar",
+        "familyId": "solar",
+        "modelId": "solar-pro4",
+        "slug": "solar-pro4",
+        "slugAliases": [
+          "solar-pro4"
+        ],
+        "displayName": "Solar Pro 4",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 524288,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.12,
+          "cache_read $/M": 0.006
+        },
+        "availability": [
+          "OpenRouter",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          }
+        ],
+        "fingerprint": "b551e51819c754e614c7423170cf4cbbbd30eefec3c0fad825ab7667dcda4b4f",
+        "firstSeen": "2026-08-07T00:03:31.110Z",
+        "lastChanged": "2026-08-13T11:25:40.084Z"
+      },
+      "after": {
+        "key": "solar::solar-pro4",
+        "owner": "Upstage",
+        "vendorId": "upstage",
+        "family": "Solar",
+        "familyId": "solar",
+        "modelId": "solar-pro4",
+        "slug": "solar-pro4",
+        "slugAliases": [
+          "solar-pro4"
+        ],
+        "displayName": "Solar Pro 4",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 524288,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.12,
+          "cache_read $/M": 0.006
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          }
+        ],
+        "fingerprint": "9f1aa902e8d14786eb8bb47d78e7913b36208710c01e5ff007bdcb8c394f4fa9",
+        "firstSeen": "2026-08-07T00:03:31.110Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T12:07:37.400Z"
+    },
+    {
+      "id": "6ef829da6cf3b5dc02baa3ee",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-6",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.6",
+        "slug": "grok-4.6",
+        "slugAliases": [
+          "Grok 4.6",
+          "grok-4.6"
+        ],
+        "displayName": "Grok 4.6",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "capabilities": {
+          "version": "4.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-01",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          }
+        ],
+        "fingerprint": "456b25f7791886ec50b34ee45d9d89fab3171a6ec6ed5389c9ff7480342cbd3f",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-08-13T11:25:40.084Z"
+      },
+      "after": {
+        "key": "grok::grok-4-6",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.6",
+        "slug": "grok-4.6",
+        "slugAliases": [
+          "Grok 4.6",
+          "grok-4.6"
+        ],
+        "displayName": "Grok 4.6",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "capabilities": {
+          "version": "4.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-01",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          }
+        ],
+        "fingerprint": "34cd2cf6a0f249499e3c4cff130a9ac5dac8bdcc713dfc3101f50051f56b3a8d",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T12:07:37.400Z"
+    },
+    {
+      "id": "9e8f5a45316f820c0be955a0",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T11:25:40.084Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T10:35:42.876Z"
+          }
+        ],
+        "fingerprint": "a6d8c7821ff2148ad52cde3c7c52c5d464a5bd0c71edaf5b6caa349f08739e09",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T11:25:40.084Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T12:07:37.400Z"
+          }
+        ],
+        "fingerprint": "079c0ab058660978dc86c09b20b755559d86e08ad5d093ae3f9722495e375927",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T12:07:37.400Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
