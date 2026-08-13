@@ -93623,6 +93623,459 @@
         "availability"
       ],
       "detectedAt": "2026-08-13T12:07:37.400Z"
+    },
+    {
+      "id": "0ea091ae798c84f76f550e8c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "bytedance-seed-seed::bytedance-seed-seed-2-1-turbo",
+        "family": "bytedance-seed-seed",
+        "modelId": "bytedance-seed/seed-2-1-turbo",
+        "slug": "bytedance-seed/seed-2-1-turbo",
+        "slugAliases": [
+          "bytedance-seed/seed-2-1-turbo"
+        ],
+        "displayName": "Seed 2.1 Turbo",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "turbo",
+        "capabilities": {
+          "tier": "turbo",
+          "version": "2.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          }
+        ],
+        "fingerprint": "d089b33b2fd928f4a2c701fbb7db254ccc3f95db4ee93cb53bc7e24d2be38083",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "after": {
+        "key": "bytedance-seed-seed::bytedance-seed-seed-2-1-turbo",
+        "family": "bytedance-seed-seed",
+        "modelId": "bytedance-seed/seed-2-1-turbo",
+        "slug": "bytedance-seed/seed-2-1-turbo",
+        "slugAliases": [
+          "bytedance-seed/seed-2-1-turbo"
+        ],
+        "displayName": "ByteDance Seed: Seed 2.1 Turbo",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "turbo",
+        "capabilities": {
+          "tier": "turbo",
+          "version": "2.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          }
+        ],
+        "fingerprint": "2729a34c0fe23670d55573bd8077aa3f4783a0aac7363e8733a2b68561253963",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T14:43:26.716Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-13T14:43:26.716Z"
+    },
+    {
+      "id": "18d5e3eb3296677657d86040",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          }
+        ],
+        "fingerprint": "079c0ab058660978dc86c09b20b755559d86e08ad5d093ae3f9722495e375927",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T12:07:37.400Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          }
+        ],
+        "fingerprint": "495772a055c8866e9b30a4528f22de84eb322f7a3ef6a947834025656ab9d413",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T14:43:26.716Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T14:43:26.716Z"
+    },
+    {
+      "id": "4e58c4b56d4f4853cd80c31f",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "activeParameters": "95B active",
+          "version": "3.8.2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenRouter",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-13T13:40:52.729Z"
+          }
+        ],
+        "fingerprint": "b5f0899852123c0cab34e8f9c07aa463f09f8f69438a5e545d9c1bba8e14e083",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-08-13T13:40:52.729Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen: Qwen3.8 2.4T A95B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "activeParameters": "95B active",
+          "version": "3.8.2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          }
+        ],
+        "fingerprint": "037c73ef9b9cf4349d9b237ff11bd8483eb99e091bae629d59a11d89706652cd",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-08-13T14:43:26.716Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-13T14:43:26.716Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
