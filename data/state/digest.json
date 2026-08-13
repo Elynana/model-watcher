@@ -92103,6 +92103,452 @@
         "model"
       ],
       "detectedAt": "2026-08-13T09:22:42.063Z"
+    },
+    {
+      "id": "62f2147db3b45240db65923d",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-3-0-tiny-20260806",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-3.0-tiny-20260806",
+        "slug": "ling-3.0-tiny-20260806",
+        "slugAliases": [
+          "ling-3.0-tiny-20260806"
+        ],
+        "displayName": "inclusionAI: Ling 3.0 Tiny (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3.0",
+        "tier": "tiny",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "tiny",
+          "version": "3.0"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-06",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inclusionai/ling-3.0-tiny:free",
+            "observedAt": "2026-08-13T06:44:42.448Z"
+          }
+        ],
+        "fingerprint": "8f474c5dabc91c3c385d89cb610bf72749efbddfc763cb81a40c23f41873ebf8",
+        "firstSeen": "2026-08-07T00:03:31.110Z",
+        "lastChanged": "2026-08-07T00:03:31.110Z"
+      },
+      "after": {
+        "key": "ling::ling-3-0-tiny-20260806",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-3.0-tiny-20260806",
+        "slug": "ling-3.0-tiny-20260806",
+        "slugAliases": [
+          "ling-3.0-tiny-20260806"
+        ],
+        "displayName": "inclusionAI: Ling 3.0 Tiny (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3.0",
+        "tier": "tiny",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "tiny",
+          "version": "3.0"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-08-06",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inclusionai/ling-3.0-tiny:free",
+            "observedAt": "2026-08-13T06:44:42.448Z"
+          }
+        ],
+        "fingerprint": "9447ea5bf14c62d19330fda708f9aa9f81c49604e1b51cd3829b279f707ad692",
+        "firstSeen": "2026-08-07T00:03:31.110Z",
+        "lastChanged": "2026-08-13T10:35:42.876Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-08-13T10:35:42.876Z"
+    },
+    {
+      "id": "d54d4ea7bae01a811057fbf3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::discounted",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash:discounted",
+        "slug": "discounted",
+        "slugAliases": [
+          "deepseek-v4-flash:discounted"
+        ],
+        "displayName": "DeepSeek: DeepSeek V4 Flash (lowest price)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "reasoning $/M": 0,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-13T08:07:24.927Z"
+          }
+        ],
+        "fingerprint": "18b231b3b4a1c84646a1030092cf3d6fd91aadf900d6cb9cab838fb27c1e75cb",
+        "firstSeen": "2026-08-03T03:58:13.752Z",
+        "lastChanged": "2026-08-03T03:58:13.752Z"
+      },
+      "after": {
+        "key": "deepseek::discounted",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash:discounted",
+        "slug": "discounted",
+        "slugAliases": [
+          "deepseek-v4-flash:discounted"
+        ],
+        "displayName": "DeepSeek: DeepSeek V4 Flash 0731 (lowest price)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "reasoning $/M": 0,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-13T10:35:42.876Z"
+          }
+        ],
+        "fingerprint": "c60dec19e8b6eb94e40b9b9062151d8d9a808affefbaad305da29cde60b63758",
+        "firstSeen": "2026-08-03T03:58:13.752Z",
+        "lastChanged": "2026-08-13T10:35:42.876Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-13T10:35:42.876Z"
+    },
+    {
+      "id": "5918d1cb8e3de8c0c3f8723a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-image-v2-0-edit",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-image/v2.0/edit",
+        "slug": "grok-imagine-image/v2.0/edit",
+        "slugAliases": [
+          "grok-imagine-image/v2.0/edit"
+        ],
+        "displayName": "Grok Imagine Image 2.0",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "endpoint": "image-to-image",
+          "license": "commercial",
+          "version": "2.0"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.04
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/xai/grok-imagine-image/v2.0/edit",
+            "observedAt": "2026-08-13T10:35:42.876Z"
+          }
+        ],
+        "fingerprint": "07b8a80253129e7f179c0c97d244826720e66cc8e92efa0a6f92216a2bc5aab2",
+        "firstSeen": "2026-08-13T10:35:42.876Z",
+        "lastChanged": "2026-08-13T10:35:42.876Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T10:35:42.876Z"
+    },
+    {
+      "id": "54a99813118fd724b320679c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-image-v2-0-text-to-image",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-image/v2.0/text-to-image",
+        "slug": "grok-imagine-image/v2.0/text-to-image",
+        "slugAliases": [
+          "grok-imagine-image/v2.0/text-to-image"
+        ],
+        "displayName": "Grok Imagine Image 2.0",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "version": "2.0"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.04
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/xai/grok-imagine-image/v2.0/text-to-image",
+            "observedAt": "2026-08-13T10:35:42.876Z"
+          }
+        ],
+        "fingerprint": "f7f2604cf011bc154b155323cfdc484479781057bb55fc4b12b38b4beb53dc35",
+        "firstSeen": "2026-08-13T10:35:42.876Z",
+        "lastChanged": "2026-08-13T10:35:42.876Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T10:35:42.876Z"
+    },
+    {
+      "id": "f00b45ce68da0a2f7fc97bcf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ltx::ltx-2-5-image-to-video-pro",
+        "owner": "Lightricks",
+        "vendorId": "lightricks",
+        "family": "LTX-Video",
+        "familyId": "ltx",
+        "modelId": "ltx-2.5/image-to-video/pro",
+        "slug": "ltx-2.5/image-to-video/pro",
+        "slugAliases": [
+          "ltx-2.5/image-to-video/pro"
+        ],
+        "displayName": "LTX 2.5 Image to Video Pro",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "tier": "pro",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.12
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/lightricks/ltx-2.5/image-to-video/pro",
+            "observedAt": "2026-08-13T10:35:42.876Z"
+          }
+        ],
+        "fingerprint": "fabfb72791584b49e21ec363eeedef95b88bb7c39d75e7e853969698c7bdae88",
+        "firstSeen": "2026-08-13T10:35:42.876Z",
+        "lastChanged": "2026-08-13T10:35:42.876Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T10:35:42.876Z"
+    },
+    {
+      "id": "db7df9eccf9b15b27c20e318",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ltx::ltx-2-5-image-to-video-fast",
+        "owner": "Lightricks",
+        "vendorId": "lightricks",
+        "family": "LTX-Video",
+        "familyId": "ltx",
+        "modelId": "ltx-2.5/image-to-video/fast",
+        "slug": "ltx-2.5/image-to-video/fast",
+        "slugAliases": [
+          "ltx-2.5/image-to-video/fast"
+        ],
+        "displayName": "LTX 2.5 Image to Video Fast",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "fast",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "tier": "fast",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.09
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/lightricks/ltx-2.5/image-to-video/fast",
+            "observedAt": "2026-08-13T10:35:42.876Z"
+          }
+        ],
+        "fingerprint": "c7a782ac320297caa82e76aa560585a63cba93b8ff7a20378f68995c7e349a75",
+        "firstSeen": "2026-08-13T10:35:42.876Z",
+        "lastChanged": "2026-08-13T10:35:42.876Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T10:35:42.876Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
