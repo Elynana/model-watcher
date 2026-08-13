@@ -94424,6 +94424,279 @@
         "model"
       ],
       "detectedAt": "2026-08-13T15:42:17.114Z"
+    },
+    {
+      "id": "0eba35b625fe26030769e690",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T15:42:17.114Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T15:42:17.114Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T14:43:26.716Z"
+          }
+        ],
+        "fingerprint": "079c0ab058660978dc86c09b20b755559d86e08ad5d093ae3f9722495e375927",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T15:42:17.114Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Pro-0813",
+        "slug": "DeepSeek-V4-Pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "DeepSeek-V4-Pro-0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+            "observedAt": "2026-08-13T16:38:54.521Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T16:38:54.521Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T16:38:54.521Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T16:38:54.521Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T16:38:54.521Z"
+          }
+        ],
+        "fingerprint": "25ecea247be80421353ed760ba610f0cbabdae35aad3e22d9a8c756887fb4ebc",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T16:38:54.521Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-13T16:38:54.521Z"
+    },
+    {
+      "id": "f2b31f6e5927ea8083280677",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::minimax-music3",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-Music3",
+        "slug": "MiniMax-Music3",
+        "slugAliases": [
+          "MiniMax-Music3"
+        ],
+        "displayName": "MiniMax-Music3",
+        "modalities": [
+          "audio",
+          "music"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:minimax:minimaxai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+            "observedAt": "2026-08-13T16:38:54.521Z"
+          }
+        ],
+        "fingerprint": "5e68e320cf57182d3b217426a32115d40a938c6618a6a302660e93cc9e333569",
+        "firstSeen": "2026-08-13T16:38:54.521Z",
+        "lastChanged": "2026-08-13T16:38:54.521Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T16:38:54.521Z"
+    },
+    {
+      "id": "750ababa90aee630a3dd5a41",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "stormscope-nsrdb::stormscope-nsrdb",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "stormscope-nsrdb",
+        "modelId": "StormScope-NSRDB",
+        "slug": "StormScope-NSRDB",
+        "slugAliases": [
+          "StormScope-NSRDB"
+        ],
+        "displayName": "StormScope-NSRDB",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/StormScope-NSRDB",
+            "observedAt": "2026-08-13T16:38:54.521Z"
+          }
+        ],
+        "fingerprint": "aa44e1ac5bf83e5d8b6547315455e802d790e9e12073829d2cebbbd46cc357b9",
+        "firstSeen": "2026-08-13T16:38:54.521Z",
+        "lastChanged": "2026-08-13T16:38:54.521Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T16:38:54.521Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
