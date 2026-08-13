@@ -90500,6 +90500,469 @@
         "availability"
       ],
       "detectedAt": "2026-08-13T03:17:01.721Z"
+    },
+    {
+      "id": "6c54f396039267d28dd30ce2",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T00:42:41.882Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T03:17:01.721Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T03:17:01.721Z"
+          }
+        ],
+        "fingerprint": "a6d8c7821ff2148ad52cde3c7c52c5d464a5bd0c71edaf5b6caa349f08739e09",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T03:17:01.721Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          }
+        ],
+        "fingerprint": "258a6430962b4e1ebad5bc683a9b0fc9437e74f42cd930caa64790d3ffe16a56",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T05:11:04.266Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T05:11:04.266Z"
+    },
+    {
+      "id": "9ff8510eef04319363054d47",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "activeParameters": "95B active",
+          "version": "3.8.2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 52429
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenRouter",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-08-13T03:17:01.721Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T00:42:41.882Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-13T03:17:01.721Z"
+          }
+        ],
+        "fingerprint": "657d45b76c5cf4586672a4c06806b23cd34dc068f42050c1fe3a4875347fbe72",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-08-13T00:42:41.882Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen: Qwen3.8 2.4T A95B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "activeParameters": "95B active",
+          "version": "3.8.2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 52429
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          }
+        ],
+        "fingerprint": "e655e8428b106edb050c4910fcb8214a1dd9010c2273384480573688441f8937",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-08-13T05:11:04.266Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-13T05:11:04.266Z"
+    },
+    {
+      "id": "73b1ad1a68146ef98c0e14c8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mercury::mercury-253",
+        "owner": "Inception Labs",
+        "vendorId": "inception-labs",
+        "family": "Mercury",
+        "familyId": "mercury",
+        "modelId": "mercury 253",
+        "slug": "mercury 253",
+        "slugAliases": [
+          "mercury 253"
+        ],
+        "displayName": "mercury 253",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "253",
+        "capabilities": {
+          "version": "253"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          }
+        ],
+        "fingerprint": "f0c326dff6b42ca9963fb23ea819711353e0cb8396d40e65b11b1027df660243",
+        "firstSeen": "2026-08-13T05:11:04.266Z",
+        "lastChanged": "2026-08-13T05:11:04.266Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-13T05:11:04.266Z"
+    },
+    {
+      "id": "6d8d2c6a63dc80fd37e1c8bf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepgram-nova::nova-2-lite-213",
+        "owner": "Deepgram",
+        "vendorId": "deepgram",
+        "family": "Deepgram Nova / Aura",
+        "familyId": "deepgram-nova",
+        "modelId": "nova-2-lite 213",
+        "slug": "nova-2-lite 213",
+        "slugAliases": [
+          "nova-2-lite 213"
+        ],
+        "displayName": "nova-2-lite 213",
+        "modalities": [
+          "audio",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "lite",
+        "capabilities": {
+          "tier": "lite",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          }
+        ],
+        "fingerprint": "c0a9765a4ca09caea745f89bb8a91add6756d5ff6fd55b0131a85258438e891b",
+        "firstSeen": "2026-08-13T05:11:04.266Z",
+        "lastChanged": "2026-08-13T05:11:04.266Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-13T05:11:04.266Z"
+    },
+    {
+      "id": "665674c4e0a1a7f482ca58e6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-max-20260813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-max-20260813",
+        "slug": "deepseek-v4-pro-max-20260813",
+        "slugAliases": [
+          "deepseek-v4-pro-max-20260813"
+        ],
+        "displayName": "deepseek-v4-pro-max-20260813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-13T05:11:04.266Z"
+          }
+        ],
+        "fingerprint": "843ac502f8c010ada21884c212e748b639e846910515802cec0fbcee75a36aa9",
+        "firstSeen": "2026-08-13T05:11:04.266Z",
+        "lastChanged": "2026-08-13T05:11:04.266Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T05:11:04.266Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
