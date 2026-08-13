@@ -95185,6 +95185,204 @@
         "availability"
       ],
       "detectedAt": "2026-08-13T18:34:47.112Z"
+    },
+    {
+      "id": "a48409ef940ea882f7bf7a0f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-lightning-3p5-30b-a3b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-lightning-3p5-30b-a3b",
+        "slug": "nemotron-lightning-3p5-30b-a3b",
+        "slugAliases": [
+          "nemotron-lightning-3p5-30b-a3b"
+        ],
+        "displayName": "Nemotron 3.5 Lightning 30B A3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.2,
+          "cache_read $/M": 0.01
+        },
+        "availability": [
+          "Fireworks AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/docs/",
+            "observedAt": "2026-08-13T19:40:23.137Z"
+          }
+        ],
+        "fingerprint": "b460cda69985e032b1b8b505089f3c32093678900b2b0048f2ef8966319609ab",
+        "firstSeen": "2026-08-13T19:40:23.137Z",
+        "lastChanged": "2026-08-13T19:40:23.137Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T19:40:23.137Z"
+    },
+    {
+      "id": "76a476a336d1780c8ba88d3d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3p8-max",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3p8-max",
+        "slug": "qwen3p8-max",
+        "slugAliases": [
+          "qwen3p8-max"
+        ],
+        "displayName": "Qwen3.8 Max",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "max",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "tier": "max",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "Fireworks AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-03",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/docs/",
+            "observedAt": "2026-08-13T19:40:23.137Z"
+          }
+        ],
+        "fingerprint": "c9b1a364267a1fc0a589ed50f836412f5304e0afe05475a17d9e904b190a2df7",
+        "firstSeen": "2026-08-13T19:40:23.137Z",
+        "lastChanged": "2026-08-13T19:40:23.137Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T19:40:23.137Z"
+    },
+    {
+      "id": "cda2e23a7cf988314a574910",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-7-flash-eu",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.7-flash@eu",
+        "slug": "gemini-3.7-flash@eu",
+        "slugAliases": [
+          "gemini-3.7-flash@eu"
+        ],
+        "displayName": "Gemini 3.7 Flash (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.7"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-13T19:40:23.137Z"
+          }
+        ],
+        "fingerprint": "8f622386b3d20f6c63aebd4354584966ec98d9c1cce6eb0a5b6e34662527067b",
+        "firstSeen": "2026-08-13T19:40:23.137Z",
+        "lastChanged": "2026-08-13T19:40:23.137Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T19:40:23.137Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
