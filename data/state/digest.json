@@ -90353,6 +90353,153 @@
         "displayName"
       ],
       "detectedAt": "2026-08-12T21:12:44.939Z"
+    },
+    {
+      "id": "69e13191b2acbce79335e610",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T00:42:41.882Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T00:42:41.882Z"
+          }
+        ],
+        "fingerprint": "96dedae9a1aeb209b4b4d8b575c791100ad9333a20cf7ce3e18e2ae9eb198486",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-12T21:12:44.939Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813",
+        "slug": "deepseek-v4-pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T00:42:41.882Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T03:17:01.721Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T03:17:01.721Z"
+          }
+        ],
+        "fingerprint": "a6d8c7821ff2148ad52cde3c7c52c5d464a5bd0c71edaf5b6caa349f08739e09",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-13T03:17:01.721Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-13T03:17:01.721Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
