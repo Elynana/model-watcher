@@ -94697,6 +94697,116 @@
         "model"
       ],
       "detectedAt": "2026-08-13T16:38:54.521Z"
+    },
+    {
+      "id": "75ca67cfec93a3cf1b605b31",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-7-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.7-flash",
+        "slug": "gemini-3.7-flash",
+        "slugAliases": [
+          "Gemini 3.7 Flash",
+          "gemini-3.7-flash"
+        ],
+        "displayName": "Gemini 3.7 Flash",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "reasoning $/M": 1.875,
+          "cache_read $/M": 0.0375,
+          "cache_write $/M": 0.041667
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "vertex_ai-language-models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/pricing/gemini-3",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "c46d28cb3db154ef46bacc73c4fd85f77323b78653f150ee8e930cce0184ae8d",
+        "firstSeen": "2026-08-13T17:38:47.270Z",
+        "lastChanged": "2026-08-13T17:38:47.270Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T17:38:47.270Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
