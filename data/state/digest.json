@@ -90963,6 +90963,156 @@
         "model"
       ],
       "detectedAt": "2026-08-13T05:11:04.266Z"
+    },
+    {
+      "id": "db125c408f07819785a313d5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "briaai-trustmark-weights::briaai-trustmark-weights",
+        "owner": "Bria AI",
+        "vendorId": "bria",
+        "family": "briaai-trustmark-weights",
+        "modelId": "briaai/trustmark-weights",
+        "slug": "briaai/trustmark-weights",
+        "slugAliases": [
+          "briaai/trustmark-weights"
+        ],
+        "displayName": "trustmark-weights",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:bria:briaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/briaai/trustmark-weights",
+            "observedAt": "2026-08-13T06:44:42.448Z"
+          }
+        ],
+        "fingerprint": "28eb78c12bd69b598b20b9295ec22b331b0c8e9569a538cce46ea28cbe4f7903",
+        "firstSeen": "2026-08-13T06:44:42.448Z",
+        "lastChanged": "2026-08-13T06:44:42.448Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-13T06:44:42.448Z"
+    },
+    {
+      "id": "38b740fd5578c6c2241f7344",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-omni-flash-1358",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-omni-flash 1358",
+        "slug": "gemini-omni-flash 1358",
+        "slugAliases": [
+          "gemini-omni-flash 1358"
+        ],
+        "displayName": "gemini-omni-flash 1358",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1358",
+        "tier": "omni",
+        "capabilities": {
+          "tier": "omni",
+          "version": "1358"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T06:44:42.448Z"
+          }
+        ],
+        "fingerprint": "befa2630ec82ae210fbfec18b5dd4c4d82e44125a5361dc603345c08e19acc06",
+        "firstSeen": "2026-08-13T06:44:42.448Z",
+        "lastChanged": "2026-08-13T06:44:42.448Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-13T06:44:42.448Z"
+    },
+    {
+      "id": "0d7baa906870eb2a336cd4b5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::gen4-aleph-1183",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "gen4-aleph 1183",
+        "slug": "gen4-aleph 1183",
+        "slugAliases": [
+          "gen4-aleph 1183"
+        ],
+        "displayName": "gen4-aleph 1183",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-13T06:44:42.448Z"
+          }
+        ],
+        "fingerprint": "5a1229413c7f3928f73e8e037a22d014b7be8e72c5a401637f79ffabecc976c8",
+        "firstSeen": "2026-08-13T06:44:42.448Z",
+        "lastChanged": "2026-08-13T06:44:42.448Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-13T06:44:42.448Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
