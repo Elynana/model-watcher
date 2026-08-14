@@ -99206,6 +99206,136 @@
         "lifecycle"
       ],
       "detectedAt": "2026-08-14T09:46:50.013Z"
+    },
+    {
+      "id": "f194d5fc745f1aae331d4d5f",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3",
+        "slug": "glm-5.3",
+        "slugAliases": [
+          "glm-5.3"
+        ],
+        "displayName": "GLM-5.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Z.AI Coding Plan"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-08-14T09:46:50.013Z"
+          }
+        ],
+        "fingerprint": "3a86109fc6f49fd02bf5c939320a6b90c7c0d31313aebdb834c2f50494d2905b",
+        "firstSeen": "2026-08-14T07:39:03.537Z",
+        "lastChanged": "2026-08-14T07:39:03.537Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3",
+        "slug": "GLM-5.3",
+        "slugAliases": [
+          "GLM-5.3",
+          "glm-5.3"
+        ],
+        "displayName": "GLM-5.3",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Z.AI Coding Plan",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-14T10:43:01.957Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-08-14T10:43:01.957Z"
+          }
+        ],
+        "fingerprint": "5be2594afaf4998e99ce677fb40e011f6f95ab214868295bb9c7a71d2aef4240",
+        "firstSeen": "2026-08-14T07:39:03.537Z",
+        "lastChanged": "2026-08-14T10:43:01.957Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-14T10:43:01.957Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
