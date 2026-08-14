@@ -97651,6 +97651,686 @@
         "availability"
       ],
       "detectedAt": "2026-08-14T00:07:47.509Z"
+    },
+    {
+      "id": "5580ba28dea864507270e0d7",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "arcee::trinity-large-thinking",
+        "owner": "Arcee AI",
+        "vendorId": "arcee",
+        "family": "Arcee AFM / Trinity",
+        "familyId": "arcee",
+        "modelId": "Trinity-Large-Thinking",
+        "slug": "Trinity-Large-Thinking",
+        "slugAliases": [
+          "Trinity Large Thinking",
+          "Trinity-Large-Thinking",
+          "trinity-large-thinking"
+        ],
+        "displayName": "Trinity Large Thinking",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "large",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "large",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "prompt $/M": 0.22,
+          "completion $/M": 0.85,
+          "input_cache_read $/M": 0.06,
+          "input $/M": 0.22,
+          "output $/M": 0.85,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:arcee",
+            "sourceKind": "official-page",
+            "url": "https://www.arcee.ai/",
+            "observedAt": "2026-07-26T01:12:14.497Z"
+          },
+          {
+            "sourceId": "official:hf:arcee:arcee-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-26T01:12:14.497Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-07-26T01:12:14.497Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/arcee-ai/trinity-large-thinking",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          }
+        ],
+        "fingerprint": "3a3354d0b8b44cf9dd89acbb0df684d249efec8d37b2d82c08b5fe7aa0ff686b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T02:41:40.720Z"
+      },
+      "after": {
+        "key": "arcee::trinity-large-thinking",
+        "owner": "Arcee AI",
+        "vendorId": "arcee",
+        "family": "Arcee AFM / Trinity",
+        "familyId": "arcee",
+        "modelId": "Trinity-Large-Thinking",
+        "slug": "Trinity-Large-Thinking",
+        "slugAliases": [
+          "Trinity Large Thinking",
+          "Trinity-Large-Thinking",
+          "trinity-large-thinking"
+        ],
+        "displayName": "Trinity Large Thinking",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "large",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "large",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "prompt $/M": 0.22,
+          "completion $/M": 0.85,
+          "input_cache_read $/M": 0.06,
+          "input $/M": 0.22,
+          "output $/M": 0.85,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:arcee",
+            "sourceKind": "official-page",
+            "url": "https://www.arcee.ai/",
+            "observedAt": "2026-07-26T01:12:14.497Z"
+          },
+          {
+            "sourceId": "official:hf:arcee:arcee-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-07-26T01:12:14.497Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-07-26T01:12:14.497Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/arcee-ai/trinity-large-thinking",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          }
+        ],
+        "fingerprint": "0e80db3acec3e52b6476487b22422657198b9a55b96c1020e9e1a3174088a8ae",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T05:59:48.236Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-14T05:59:48.236Z"
+    },
+    {
+      "id": "3232f87478b85d7e87fe411b",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "dots-studio-dots::dots-studio-dots-3-note-preview-free",
+        "family": "dots-studio-dots",
+        "modelId": "dots-studio/dots-3-note-preview:free",
+        "slug": "dots-studio/dots-3-note-preview:free",
+        "slugAliases": [
+          "dots-studio/dots-3-note-preview:free"
+        ],
+        "displayName": "Dots3-Note Preview (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 512000,
+          "maxOutputTokens": 512000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          }
+        ],
+        "fingerprint": "7ab095cc9aebe082e220a3a4ec859e2cfea3327c1cd29799a79c896a7ee1e2fe",
+        "firstSeen": "2026-08-14T04:30:52.103Z",
+        "lastChanged": "2026-08-14T04:30:52.103Z"
+      },
+      "after": {
+        "key": "dots-studio-dots::dots-studio-dots-3-note-preview-free",
+        "family": "dots-studio-dots",
+        "modelId": "dots-studio/dots-3-note-preview:free",
+        "slug": "dots-studio/dots-3-note-preview:free",
+        "slugAliases": [
+          "dots-studio/dots-3-note-preview:free"
+        ],
+        "displayName": "Dots Studio: Dots3-Note Preview (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 512000,
+          "maxOutputTokens": 512000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          }
+        ],
+        "fingerprint": "0ccb995a8546c00d6b20afd9928df51b8f0e8ff35509f7750833f33b9451cc6a",
+        "firstSeen": "2026-08-14T04:30:52.103Z",
+        "lastChanged": "2026-08-14T05:59:48.236Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-14T05:59:48.236Z"
+    },
+    {
+      "id": "1dfeea5c12b597710aa6df29",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Pro-0813",
+        "slug": "DeepSeek-V4-Pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "DeepSeek-V4-Pro-0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          }
+        ],
+        "fingerprint": "f9a50e48db80fc9c1a274457fcb96f70705002b2e475746ca832465b1feeed40",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-14T02:41:40.720Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Pro-0813",
+        "slug": "DeepSeek-V4-Pro-0813",
+        "slugAliases": [
+          "DeepSeek V4 Pro 0813",
+          "DeepSeek-V4-Pro-0813",
+          "deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          }
+        ],
+        "fingerprint": "6bbad2d1d63af63df8027e3b7772d20276f1ac69d68bf123b681e0b1b9f9f839",
+        "firstSeen": "2026-08-12T16:39:41.479Z",
+        "lastChanged": "2026-08-14T05:59:48.236Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-14T05:59:48.236Z"
+    },
+    {
+      "id": "73af856b5583d53e77d07d52",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-1-flash-lite-image",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite-image",
+        "slug": "gemini-3.1-flash-lite-image",
+        "slugAliases": [
+          "gemini-3.1-flash-lite-image"
+        ],
+        "displayName": "Nano Banana 2 Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 66000
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-14T04:30:52.103Z"
+          }
+        ],
+        "fingerprint": "3aefe91e2956266d05bf6bf6e2db630acdf5fe502f1c25f082c4d75487360fde",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T02:41:40.720Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite-image",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite-image",
+        "slug": "gemini-3.1-flash-lite-image",
+        "slugAliases": [
+          "gemini-3.1-flash-lite-image"
+        ],
+        "displayName": "Nano Banana 2 Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 66000
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-14T05:59:48.236Z"
+          }
+        ],
+        "fingerprint": "4473baf4bcb60fc0355c825dcac72553d143facc198813d4e18e7360e3711423",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T05:59:48.236Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-14T05:59:48.236Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
