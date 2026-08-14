@@ -100484,6 +100484,145 @@
         "model"
       ],
       "detectedAt": "2026-08-14T18:27:41.253Z"
+    },
+    {
+      "id": "e5653da58d13d043c3b104d1",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "minimax::minimax-m2-her",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m2-her",
+        "slug": "minimax-m2-her",
+        "slugAliases": [
+          "minimax-m2-her"
+        ],
+        "displayName": "MiniMax: MiniMax M2-her",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 2048
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 1.2,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-14T18:27:41.253Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T17:30:36.728Z"
+          }
+        ],
+        "fingerprint": "3a23c786e1ab92e7f8c669f3189255e09ce1ab5cddfbbd1f69b869a0c3e6b78f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "minimax::minimax-m2-her",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m2-her",
+        "slug": "minimax-m2-her",
+        "slugAliases": [
+          "minimax-m2-her"
+        ],
+        "displayName": "MiniMax-M2 Her",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 2048
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 1.2,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-14T19:29:27.044Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T19:29:27.044Z"
+          }
+        ],
+        "fingerprint": "6563ecfcd96696b506f339d6969486ab4ef03d4e661d5992dd0115ec2b6fc771",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T19:29:27.044Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-14T19:29:27.044Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
