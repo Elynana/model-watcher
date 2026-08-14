@@ -97483,6 +97483,174 @@
         "model"
       ],
       "detectedAt": "2026-08-13T23:27:00.291Z"
+    },
+    {
+      "id": "447ba82182b44aab8b904144",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::kimi-latest",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-latest",
+        "slug": "kimi-latest",
+        "slugAliases": [
+          "kimi-latest"
+        ],
+        "displayName": "MoonshotAI Kimi Latest",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2.8,
+          "completion $/M": 14,
+          "input_cache_read $/M": 0.29,
+          "input $/M": 2,
+          "output $/M": 5,
+          "cache_read $/M": 0.24
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "moonshot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-13T23:27:00.291Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/pricing",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-13T22:48:49.991Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~moonshotai/kimi-latest",
+            "observedAt": "2026-08-13T23:27:00.291Z"
+          }
+        ],
+        "fingerprint": "3baaf29d5fb01d418f7b36539cc46a4a314f054526b174fe902b2dc9558caf01",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-13T23:27:00.291Z"
+      },
+      "after": {
+        "key": "kimi::kimi-latest",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-latest",
+        "slug": "kimi-latest",
+        "slugAliases": [
+          "kimi-latest"
+        ],
+        "displayName": "MoonshotAI Kimi Latest",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2.8,
+          "completion $/M": 14,
+          "input_cache_read $/M": 0.29,
+          "input $/M": 2,
+          "output $/M": 5,
+          "cache_read $/M": 0.24
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "OpenRouter",
+          "moonshot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-14T00:07:47.509Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/pricing",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T00:07:47.509Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~moonshotai/kimi-latest",
+            "observedAt": "2026-08-14T00:07:47.509Z"
+          }
+        ],
+        "fingerprint": "5acd86179d6866f85002c92b5fcf17fb9dd2816bb2533304c26ea49e0ff0b406",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T00:07:47.509Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-14T00:07:47.509Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
