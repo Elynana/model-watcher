@@ -100868,6 +100868,1856 @@
         "model"
       ],
       "detectedAt": "2026-08-14T21:36:51.306Z"
+    },
+    {
+      "id": "bd66b72c9bafcf8e5b71497b",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "command::command-a-03-2025",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Command",
+        "familyId": "command",
+        "modelId": "command-a-03-2025",
+        "slug": "command-a-03-2025",
+        "slugAliases": [
+          "command-a-03-2025"
+        ],
+        "displayName": "Command A 03-2025",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "03",
+        "capabilities": {
+          "accepts": "text",
+          "version": "03",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-06-01",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 8000
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 10,
+          "input $/M": 2.5,
+          "output $/M": 10
+        },
+        "availability": [
+          "Merge Gateway",
+          "OpenRouter",
+          "benchmark listing",
+          "cohere_chat",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:cohere",
+            "sourceKind": "official-page",
+            "url": "https://docs.cohere.com/docs/models",
+            "observedAt": "2026-08-14T14:46:31.737Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.merge.dev/merge-gateway",
+            "observedAt": "2026-08-14T22:44:09.526Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-14T23:02:32.105Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-14T23:02:32.105Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/cohere/command-a",
+            "observedAt": "2026-08-14T23:02:32.105Z"
+          }
+        ],
+        "fingerprint": "07cb4ca28019431869fc6b46a0bd12a60da1e436678b711ac6374719253d8236",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-07T14:42:08.951Z"
+      },
+      "after": {
+        "key": "command::command-a-03-2025",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Command",
+        "familyId": "command",
+        "modelId": "command-a-03-2025",
+        "slug": "command-a-03-2025",
+        "slugAliases": [
+          "command-a-03-2025"
+        ],
+        "displayName": "Command A",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "03",
+        "capabilities": {
+          "accepts": "text",
+          "version": "03",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-06-01",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 8000
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 10,
+          "input $/M": 2.5,
+          "output $/M": 10
+        },
+        "availability": [
+          "Eden AI",
+          "OpenRouter",
+          "benchmark listing",
+          "cohere_chat",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:cohere",
+            "sourceKind": "official-page",
+            "url": "https://docs.cohere.com/docs/models",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/cohere/command-a",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "9a28fc9b110b4da9f2d680a22cd50df50f99d6e8b9cb751cd748f5aa35cdf613",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "3b493bc86bbb7c3db8e85468",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-reasoning",
+        "slug": "grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-reasoning"
+        ],
+        "displayName": "Grok 4.20",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Merge Gateway",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.merge.dev/merge-gateway",
+            "observedAt": "2026-08-14T22:44:09.526Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "4d25f1a2cb7dc3d2da9c8f9e143646d6bbd35974a78b8bf7cb4a834632ac3300",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T17:30:36.728Z"
+      },
+      "after": {
+        "key": "grok::grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-reasoning",
+        "slug": "grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-reasoning"
+        ],
+        "displayName": "Grok 4.20 (Reasoning)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "0fb50d9fd8f0cb2933099da3a0c347467f6d7ab3d59eeea89d3aa0793f032e4d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "c73caae0e948955ad2f6921f",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-medium-2604",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-2604",
+        "slug": "mistral-medium-2604",
+        "slugAliases": [
+          "mistral-medium-2604"
+        ],
+        "displayName": "Mistral Medium 3.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2604",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "medium",
+          "version": "2604",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "Mistral",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/getting-started/models/",
+            "observedAt": "2026-08-14T22:44:09.526Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "a2466e5d39ba26de09da041580b0845a3466ec4331d740ffdc40e0cffa4baba2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "mistral::mistral-medium-2604",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-2604",
+        "slug": "mistral-medium-2604",
+        "slugAliases": [
+          "mistral-medium-2604"
+        ],
+        "displayName": "Mistral Medium 3.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2604",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "medium",
+          "version": "2604",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "Eden AI",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "a9bf00f66c67042ea25cb13ff7ff50c1f495e75898ab2e44627aacecf11fd887",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "696e6da26b06a750ff110f58",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-medium-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-latest",
+        "slug": "mistral-medium-latest",
+        "slugAliases": [
+          "mistral-medium-latest"
+        ],
+        "displayName": "Mistral Medium (latest)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "medium",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "Mistral",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/getting-started/models/",
+            "observedAt": "2026-08-14T22:44:09.526Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "ac8d5e4c1ab7e494f93107cca105b397c4fdafafaba57a87a7a88a8ead2ddc33",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "mistral::mistral-medium-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-latest",
+        "slug": "mistral-medium-latest",
+        "slugAliases": [
+          "mistral-medium-latest"
+        ],
+        "displayName": "Mistral Medium (latest)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "medium",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "Eden AI",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "e7bcd712923fe74516cf37b0bd2807b7e8643c0ffe7d3b249908b01b86126a35",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "6386a5c1625c2f0c17c7f791",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "llama::llama-guard-3-8b",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-Guard-3-8B",
+        "slug": "Llama-Guard-3-8B",
+        "slugAliases": [
+          "@cf/meta/llama-guard-3-8b",
+          "Llama-Guard-3-8B"
+        ],
+        "displayName": "Llama Guard 3 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12",
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 16384,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "Cloudflare AI Gateway",
+          "open weights",
+          "sambanova"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:meta:meta-llama",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/meta-llama/Llama-Guard-3-8B",
+            "observedAt": "2026-08-14T22:44:09.526Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-08-14T22:44:09.526Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.sambanova.ai/plans/pricing",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "b6566994e50b2a35251c4a7c3aa2f468f52ad341077523d0b2d7ea9e464fa4f1",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T05:59:48.236Z"
+      },
+      "after": {
+        "key": "llama::llama-guard-3-8b",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-Guard-3-8B",
+        "slug": "Llama-Guard-3-8B",
+        "slugAliases": [
+          "@cf/meta/llama-guard-3-8b",
+          "Llama-Guard-3-8B"
+        ],
+        "displayName": "Llama-Guard-3-8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12",
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 16384,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "Eden AI",
+          "open weights",
+          "sambanova"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:meta:meta-llama",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/meta-llama/Llama-Guard-3-8B",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.sambanova.ai/plans/pricing",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "6169400ce56099a616dab601b5c54c1a64eb3269ae51ce6eca47011456afe90d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "fc7fa47852747d9662ee39eb",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen2-5-coder-32b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen/qwen2.5-coder-32b-instruct",
+        "slug": "qwen2.5-coder-32b-instruct",
+        "slugAliases": [
+          "Qwen2.5-Coder-32B-Instruct",
+          "qwen/qwen2.5-coder-32b-instruct"
+        ],
+        "displayName": "Qwen2.5 Coder 32B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "parameters": "32B",
+          "version": "2.5",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.87,
+          "output $/M": 0.87
+        },
+        "availability": [
+          "Cloudflare AI Gateway",
+          "NanoGPT",
+          "ovhcloud"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-08-14T22:44:09.526Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://endpoints.ai.cloud.ovh.net/models/qwen2-5-coder-32b-instruct",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T23:02:32.105Z"
+          }
+        ],
+        "fingerprint": "ad6ebf0d8b69da33ae0ec82feceef592e2f010ac762716e8c8d305ae9435b74a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T05:59:48.236Z"
+      },
+      "after": {
+        "key": "qwen::qwen2-5-coder-32b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen/qwen2.5-coder-32b-instruct",
+        "slug": "qwen2.5-coder-32b-instruct",
+        "slugAliases": [
+          "Qwen2.5-Coder-32B-Instruct",
+          "qwen/qwen2.5-coder-32b-instruct"
+        ],
+        "displayName": "Qwen2.5-Coder-32B-Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "parameters": "32B",
+          "version": "2.5",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.87,
+          "output $/M": 0.87
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "ovhcloud"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://endpoints.ai.cloud.ovh.net/models/qwen2-5-coder-32b-instruct",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T23:02:32.105Z"
+          }
+        ],
+        "fingerprint": "0f79c13b6a6322310bd04efb5d48ac9c32ce3e05ae7ae9fd0e7bbbb10231d095",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "81c2b72fc31500a8960db7b3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "cf-aisingapore-gemma-sea-lion::gemma-sea-lion-v4-27b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
+        "slug": "gemma-sea-lion-v4-27b-it",
+        "slugAliases": [
+          "@cf/aisingapore/gemma-sea-lion-v4-27b-it"
+        ],
+        "displayName": "Gemma Sea Lion V4 27B It",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "27B",
+          "version": "4",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.351,
+          "output $/M": 0.555
+        },
+        "availability": [
+          "Cloudflare AI Gateway",
+          "cloudflare"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-08-14T22:44:09.526Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "852fb0d1674b18646b331786eb21811b092d922fe152c098bb115bbb4bfa4080",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T05:59:48.236Z"
+      },
+      "after": {
+        "key": "cf-aisingapore-gemma-sea-lion::gemma-sea-lion-v4-27b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
+        "slug": "gemma-sea-lion-v4-27b-it",
+        "slugAliases": [
+          "@cf/aisingapore/gemma-sea-lion-v4-27b-it"
+        ],
+        "displayName": "Gemma-SEA-LION-v4-27B-IT",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "27B",
+          "version": "4",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.351,
+          "output $/M": 0.555
+        },
+        "availability": [
+          "Eden AI",
+          "cloudflare"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "54f096ad9341df2bbe91b01a773ac3a0f56012b682de39f9960e2c3fe43ab6a1",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "bd8833dbe1ea77d81855542a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::together-ai-nvidia-nemotron-3-ultra-550b-a55b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "together_ai/nvidia/nemotron-3-ultra-550b-a55b",
+        "slug": "together_ai/nvidia/nemotron-3-ultra-550b-a55b",
+        "slugAliases": [
+          "together_ai/nvidia/nemotron-3-ultra-550b-a55b"
+        ],
+        "displayName": "Nemotron 3 Ultra 550B A55B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "ultra",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "550B",
+          "activeParameters": "55B active",
+          "tier": "ultra",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 512288,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 3.6,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "7ce7997d42c63361c0ec6e864519320e046de6fe216b25d591856b87ca3ac98f",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "e4d2b9575c1dc6ef70857871",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-pro-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-pro-latest",
+        "slug": "gpt-pro-latest",
+        "slugAliases": [
+          "gpt-pro-latest"
+        ],
+        "displayName": "GPT-5.5 Pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-12-01",
+          "accepts": "image, text",
+          "tier": "pro"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 30,
+          "output $/M": 180,
+          "cache_read $/M": 3,
+          "tiers $/M": [
+            {
+              "input": 60,
+              "output": 270,
+              "cache_read": 6,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 60,
+            "output": 270,
+            "cache_read": 6
+          }
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "046ff656aa8b8805373c808546bc663bf4fe230a161665713d615ce59843b762",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "137083f87bed4bb581e99d4e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-7-flash-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.7-flash@us",
+        "slug": "gemini-3.7-flash@us",
+        "slugAliases": [
+          "gemini-3.7-flash@us"
+        ],
+        "displayName": "Gemini 3.7 Flash (US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.7"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "reasoning $/M": 3.75,
+          "cache_read $/M": 0.075,
+          "cache_write $/M": 0.041667,
+          "input_audio $/M": 0.75
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "76b488166cb98020cfa628a52b3a2a602b5acc028b194a773ed66a12ba4c67dc",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "d10a97c57cfb153aa92f0397",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-flash-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash@us",
+        "slug": "gemini-3.5-flash@us",
+        "slugAliases": [
+          "gemini-3.5-flash@us"
+        ],
+        "displayName": "Gemini 3.5 Flash (US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 9,
+          "reasoning $/M": 9,
+          "cache_read $/M": 0.15,
+          "cache_write $/M": 0.083333,
+          "input_audio $/M": 3
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "fb6e040f967b929b5113720bd64ae98a1e7dafa3dbca7cf32ad0da252bb3f524",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "bc610c9df4e3ce6654b72e98",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-flash-lite-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash-lite@us",
+        "slug": "gemini-3.5-flash-lite@us",
+        "slugAliases": [
+          "gemini-3.5-flash-lite@us"
+        ],
+        "displayName": "Gemini 3.5 Flash Lite (US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "reasoning $/M": 2.5,
+          "cache_read $/M": 0.03,
+          "cache_write $/M": 0.083333,
+          "input_audio $/M": 0.3
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "182b5aed88ab696ae78cf3613aed0cac6b7b09dd5930744b10168bb66f9fc377",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "5c19dec38f95bf383cb3777d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-6-flash-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.6-flash@us",
+        "slug": "gemini-3.6-flash@us",
+        "slugAliases": [
+          "gemini-3.6-flash@us"
+        ],
+        "displayName": "Gemini 3.6 Flash (US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.6"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "reasoning $/M": 3.75,
+          "cache_read $/M": 0.075,
+          "cache_write $/M": 0.041667,
+          "input_audio $/M": 0.75
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "bfd763a3c3140271bfe19f5b08468466e56c3ade0669d287076776ece6773f1c",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "a0d6eb61b7e8c62cf88f682b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-flash-lite-eu",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash-lite@eu",
+        "slug": "gemini-3.5-flash-lite@eu",
+        "slugAliases": [
+          "gemini-3.5-flash-lite@eu"
+        ],
+        "displayName": "Gemini 3.5 Flash Lite (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "reasoning $/M": 2.5,
+          "cache_read $/M": 0.03,
+          "cache_write $/M": 0.083333,
+          "input_audio $/M": 0.3
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "21e8f5cc6a04e8201f7b7b2c1876e36f8569365ad20cd2d8e52a578f5830b849",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "240330dc7dfc551c54949498",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-4-7-flash-us",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "zai.glm-4.7-flash@us",
+        "slug": "glm-4.7-flash@us",
+        "slugAliases": [
+          "zai.glm-4.7-flash@us"
+        ],
+        "displayName": "GLM-4.7-Flash (US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-04",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4.7"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.07,
+          "output $/M": 0.4
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "6e2d662a09e3cb016046b5a4505efa2319dfaf0394e371e4381b57dee0af9503",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "3e296befd48a9b4d6d89dc11",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-nano-9b-v2-us",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nvidia.nemotron-nano-9b-v2@us",
+        "slug": "nemotron-nano-9b-v2@us",
+        "slugAliases": [
+          "nvidia.nemotron-nano-9b-v2@us"
+        ],
+        "displayName": "Nemotron Nano 9B v2 (US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "nano",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "9B",
+          "tier": "nano",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.23
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "6a9a290c1dcc2c49d2e08c841aa856a75b7997f1079dba0d18162f8adc8f4ec1",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "93ac5fb8c21b0052b997c36b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::fireworks-ai-accounts-fireworks-models-deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813",
+        "slug": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 1.32,
+          "output $/M": 3.96,
+          "cache_read $/M": 0.044
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "4128c1b96c5fe696af8257388d32e1d09917667fb4e3c2862749836e18b28277",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
+    },
+    {
+      "id": "9e8f131f65d84c6b2a84b6c1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::fireworks-ai-accounts-fireworks-models-deepseek-v4-flash-0731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731",
+        "slug": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.028
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-14T23:33:30.887Z"
+          }
+        ],
+        "fingerprint": "ee9f8003a857bd77318cb084e7bbeb70b6e5bbdf149ba93c9c812e75a9cd9e9d",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T23:33:30.887Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
