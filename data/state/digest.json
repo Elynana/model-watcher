@@ -100359,6 +100359,131 @@
         "availability"
       ],
       "detectedAt": "2026-08-14T17:30:36.728Z"
+    },
+    {
+      "id": "6cdcda39297bc45e5b2c05cb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "doubao::doubao-seed-1-6-vision",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Doubao",
+        "familyId": "doubao",
+        "modelId": "doubao-seed-1-6-vision",
+        "slug": "doubao-seed-1-6-vision",
+        "slugAliases": [
+          "doubao-seed-1-6-vision"
+        ],
+        "displayName": "Seed 1.6 Vision",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.6",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "1.6"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.12,
+          "output $/M": 1.15,
+          "cache_read $/M": 0.023
+        },
+        "availability": [
+          "Ofox"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ofox.ai/docs",
+            "observedAt": "2026-08-14T18:27:41.253Z"
+          }
+        ],
+        "fingerprint": "d81914b159b6006d46c628a2cb1c14eb1d6f1460611b7c8daa189fb4fc417a19",
+        "firstSeen": "2026-08-14T18:27:41.253Z",
+        "lastChanged": "2026-08-14T18:27:41.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T18:27:41.253Z"
+    },
+    {
+      "id": "7395a80d9b7e3dae7ee80b03",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::m2-her",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "m2-her",
+        "slug": "m2-her",
+        "slugAliases": [
+          "m2-her"
+        ],
+        "displayName": "MiniMax-M2 Her",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 131000
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 1.2
+        },
+        "availability": [
+          "Ofox"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ofox.ai/docs",
+            "observedAt": "2026-08-14T18:27:41.253Z"
+          }
+        ],
+        "fingerprint": "6d61b26a7f087b166d5e97b26794b293558a8169172e11e07cb96ace8512682a",
+        "firstSeen": "2026-08-14T18:27:41.253Z",
+        "lastChanged": "2026-08-14T18:27:41.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-14T18:27:41.253Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
