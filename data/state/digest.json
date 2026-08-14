@@ -100024,6 +100024,341 @@
         "displayName"
       ],
       "detectedAt": "2026-08-14T16:29:26.485Z"
+    },
+    {
+      "id": "8c1d6d7e7c2a4d1218abf211",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-reasoning",
+        "slug": "grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-reasoning"
+        ],
+        "displayName": "Grok 4.20 (Reasoning)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Cloudflare AI Gateway",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-08-14T15:37:14.733Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "80a5e036910a162d81ebcaa5eefacf75c7ce155cb598074206fcf75bc4efab5a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T15:37:14.733Z"
+      },
+      "after": {
+        "key": "grok::grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-reasoning",
+        "slug": "grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-reasoning"
+        ],
+        "displayName": "Grok 4.20",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Merge Gateway",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.merge.dev/merge-gateway",
+            "observedAt": "2026-08-14T17:30:36.728Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          }
+        ],
+        "fingerprint": "4d25f1a2cb7dc3d2da9c8f9e143646d6bbd35974a78b8bf7cb4a834632ac3300",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T17:30:36.728Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-14T17:30:36.728Z"
+    },
+    {
+      "id": "02727fab3506cfb979240068",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-flash-lite-latest",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-flash-lite-latest",
+        "slug": "gemini-flash-lite-latest",
+        "slugAliases": [
+          "gemini-flash-lite-latest"
+        ],
+        "displayName": "Gemini Flash-Lite Latest",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.4,
+          "cache_read $/M": 0.025,
+          "input_audio $/M": 0.5
+        },
+        "availability": [
+          "Cloudflare AI Gateway",
+          "NanoGPT",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-08-14T15:37:14.733Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T15:37:14.733Z"
+          }
+        ],
+        "fingerprint": "5d3febe183ae62c2b440f97997c54181edb011831706488f7bdc5c96b09829f4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T15:37:14.733Z"
+      },
+      "after": {
+        "key": "gemini::gemini-flash-lite-latest",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-flash-lite-latest",
+        "slug": "gemini-flash-lite-latest",
+        "slugAliases": [
+          "gemini-flash-lite-latest"
+        ],
+        "displayName": "Gemini Flash-Lite Latest",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.4,
+          "cache_read $/M": 0.025,
+          "input_audio $/M": 0.5
+        },
+        "availability": [
+          "Merge Gateway",
+          "NanoGPT",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.merge.dev/merge-gateway",
+            "observedAt": "2026-08-14T17:30:36.728Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-14T17:30:36.728Z"
+          }
+        ],
+        "fingerprint": "d6991e76445f254dfd595f0b04778ef834f40c2d26e66ab1852fc8771edc85c4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T17:30:36.728Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-14T17:30:36.728Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
