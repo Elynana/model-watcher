@@ -103002,6 +103002,248 @@
         "model"
       ],
       "detectedAt": "2026-08-15T15:32:46.650Z"
+    },
+    {
+      "id": "e33f768158282500b47fd2d3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-7-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.7-flash",
+        "slug": "gemini-3.7-flash",
+        "slugAliases": [
+          "Gemini 3.7 Flash",
+          "gemini-3.7-flash"
+        ],
+        "displayName": "Gemini 3.7 Flash",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-language-models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-15T18:52:06.487Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+            "observedAt": "2026-08-15T19:18:47.297Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-15T18:52:06.487Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/pricing/gemini-3",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-15T19:18:47.297Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-15T18:52:06.487Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-15T18:52:06.487Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-15T18:52:06.487Z"
+          }
+        ],
+        "fingerprint": "e395511d51915397228c0cabffe032c5840eb6e7d65e0d4a7fe86c5e5776f23d",
+        "firstSeen": "2026-08-13T17:38:47.270Z",
+        "lastChanged": "2026-08-14T15:37:14.733Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-7-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.7-flash",
+        "slug": "gemini-3.7-flash",
+        "slugAliases": [
+          "Gemini 3.7 Flash",
+          "gemini-3.7-flash"
+        ],
+        "displayName": "Gemini 3.7 Flash",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-language-models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-15T18:52:06.487Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+            "observedAt": "2026-08-15T19:40:20.496Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-15T19:40:20.496Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/pricing/gemini-3",
+            "observedAt": "2026-08-13T17:38:47.270Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-15T19:40:20.496Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-15T19:40:20.496Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-15T19:40:20.496Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-15T19:40:20.496Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-15T19:40:20.496Z"
+          }
+        ],
+        "fingerprint": "c560548f434c1fdca52c030f90021b118f6e5f97a77dcc268255e447a0c21997",
+        "firstSeen": "2026-08-13T17:38:47.270Z",
+        "lastChanged": "2026-08-15T19:40:20.496Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-15T19:40:20.496Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
