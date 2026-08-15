@@ -102938,6 +102938,70 @@
         "availability"
       ],
       "detectedAt": "2026-08-15T00:56:01.321Z"
+    },
+    {
+      "id": "b382970e28aadfd38bf6b29f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-thinking",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3:thinking",
+        "slug": "glm-5.3:thinking",
+        "slugAliases": [
+          "glm-5.3:thinking"
+        ],
+        "displayName": "GLM 5.3 Preview Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-15T15:32:46.650Z"
+          }
+        ],
+        "fingerprint": "558dd29c6f5397f21c27306a83807364e196fdd2efa28c050635b0d9f7b9b139",
+        "firstSeen": "2026-08-15T15:32:46.650Z",
+        "lastChanged": "2026-08-15T15:32:46.650Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-15T15:32:46.650Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
