@@ -104346,6 +104346,69 @@
         "model"
       ],
       "detectedAt": "2026-08-16T11:31:37.386Z"
+    },
+    {
+      "id": "e3128efdf3ecbde6adc99182",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v25",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v25",
+        "slug": "mimo-v25",
+        "slugAliases": [
+          "mimo-v25"
+        ],
+        "displayName": "mimo-v25",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "25",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-12",
+          "accepts": "audio, image, text, video",
+          "version": "25"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "InferX"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://model.inferx.net/endpoints",
+            "observedAt": "2026-08-16T20:24:07.523Z"
+          }
+        ],
+        "fingerprint": "a5f3bae795499cd36beb0c6c4fbdbe4a83ccd7d2f354385370204dbf93742613",
+        "firstSeen": "2026-08-16T20:24:07.523Z",
+        "lastChanged": "2026-08-16T20:24:07.523Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T20:24:07.523Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
