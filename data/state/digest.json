@@ -104044,6 +104044,141 @@
         "model"
       ],
       "detectedAt": "2026-08-16T03:35:25.895Z"
+    },
+    {
+      "id": "71b284861d518dd917e4e8ef",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-27B",
+        "slug": "Qwen3.8-27B",
+        "slugAliases": [
+          "Qwen3.8-27B",
+          "qwen3.8-27b"
+        ],
+        "displayName": "Qwen: Qwen3.8 27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.45,
+          "output $/M": 3.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+            "observedAt": "2026-08-16T03:35:25.895Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-16T03:35:25.895Z"
+          }
+        ],
+        "fingerprint": "ececd19044aa26deec76d7238a5409fd22d9f323238e1b70475a0200b86d2330",
+        "firstSeen": "2026-08-14T15:37:14.733Z",
+        "lastChanged": "2026-08-15T09:44:20.790Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-27B",
+        "slug": "Qwen3.8-27B",
+        "slugAliases": [
+          "Qwen3.8-27B",
+          "qwen3.8-27b"
+        ],
+        "displayName": "Qwen3.8 27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.45,
+          "output $/M": 3.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+            "observedAt": "2026-08-16T03:35:25.895Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-16T04:19:05.252Z"
+          }
+        ],
+        "fingerprint": "1505b04940f78b524ee2c549ead2742b57c32942a88860a4cdba15007c78975f",
+        "firstSeen": "2026-08-14T15:37:14.733Z",
+        "lastChanged": "2026-08-16T04:19:05.252Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-16T04:19:05.252Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
