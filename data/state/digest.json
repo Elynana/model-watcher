@@ -104282,6 +104282,70 @@
         "model"
       ],
       "detectedAt": "2026-08-16T10:22:42.965Z"
+    },
+    {
+      "id": "b2eca0921f806198e27dd30c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-thinking",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b:thinking",
+        "slug": "qwen3.8-27b:thinking",
+        "slugAliases": [
+          "qwen3.8-27b:thinking"
+        ],
+        "displayName": "Qwen3.8 27B Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 3,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-16T11:31:37.386Z"
+          }
+        ],
+        "fingerprint": "32aa28dd39a4f10b8b7afa2731e025047aca249be2152297d25449f3c7e9cc79",
+        "firstSeen": "2026-08-16T11:31:37.386Z",
+        "lastChanged": "2026-08-16T11:31:37.386Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T11:31:37.386Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
