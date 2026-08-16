@@ -104578,6 +104578,180 @@
         "displayName"
       ],
       "detectedAt": "2026-08-16T20:47:07.742Z"
+    },
+    {
+      "id": "9594ebbedb443d8eb6293f28",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-5-lightning",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-lightning",
+        "slug": "nemotron-3.5-lightning",
+        "slugAliases": [
+          "Nemotron-3.5-Lightning",
+          "nemotron-3.5-lightning"
+        ],
+        "displayName": "Nemotron 3.5 Lightning 30B A3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.2,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "NanoGPT",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-16T22:15:36.318Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-16T22:15:36.318Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-16T21:32:16.297Z"
+          }
+        ],
+        "fingerprint": "c1759d850822cf022817453e663038b20c8ce25cda12e17d949c555dea5427f1",
+        "firstSeen": "2026-08-11T13:37:49.671Z",
+        "lastChanged": "2026-08-16T16:46:04.192Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-5-lightning",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-lightning",
+        "slug": "nemotron-3.5-lightning",
+        "slugAliases": [
+          "Nemotron-3.5-Lightning",
+          "nemotron-3.5-lightning"
+        ],
+        "displayName": "Nemotron 3.5 Lightning 30B A3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.2,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-16T22:41:10.131Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-16T22:15:36.318Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-16T22:41:10.131Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-16T22:41:10.131Z"
+          }
+        ],
+        "fingerprint": "28857684e3aeda9c407182043507fc349d617dff02fedb6b3a01a045db1fa910",
+        "firstSeen": "2026-08-11T13:37:49.671Z",
+        "lastChanged": "2026-08-16T22:41:10.131Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-16T22:41:10.131Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
