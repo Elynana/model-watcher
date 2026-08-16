@@ -103978,6 +103978,72 @@
         "model"
       ],
       "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "fa3edcafb1990887685b91e6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::umans-deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "umans-deepseek-v4-pro-0813",
+        "slug": "umans-deepseek-v4-pro-0813",
+        "slugAliases": [
+          "umans-deepseek-v4-pro-0813"
+        ],
+        "displayName": "DeepSeek V4 Pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393215
+        },
+        "pricing": {
+          "input $/M": 1.32,
+          "output $/M": 3.96,
+          "cache_read $/M": 0.044
+        },
+        "availability": [
+          "Umans AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://app.umans.ai/offers/code/docs/orgs",
+            "observedAt": "2026-08-16T03:35:25.895Z"
+          }
+        ],
+        "fingerprint": "9cad5e6119b7fff6d69e730f5fa420911910a269c3af8b15ef4233286f9fc971",
+        "firstSeen": "2026-08-16T03:35:25.895Z",
+        "lastChanged": "2026-08-16T03:35:25.895Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T03:35:25.895Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
