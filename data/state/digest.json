@@ -103244,6 +103244,740 @@
         "availability"
       ],
       "detectedAt": "2026-08-15T19:40:20.496Z"
+    },
+    {
+      "id": "f1b1c8d7355814943af38050",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-deepseek::fw-deepseek-v3-2",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "FW-DeepSeek-V3.2",
+        "slug": "FW-DeepSeek-V3.2",
+        "slugAliases": [
+          "FW-DeepSeek-V3.2"
+        ],
+        "displayName": "FW-DeepSeek-V3.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.2",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "3.2"
+        },
+        "limits": {
+          "contextTokens": 163840,
+          "maxOutputTokens": 163840
+        },
+        "pricing": {
+          "input $/M": 0.62,
+          "output $/M": 1.85
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "c50287508c8cce0c175a9fd74b479f1c4acaa15cbb1a0a6de5a3f09eedea1209",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "c6e9b0e318eaa1a81e545082",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-deepseek::fw-deepseek-v4-pro",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "FW-DeepSeek-V4-Pro",
+        "slug": "FW-DeepSeek-V4-Pro",
+        "slugAliases": [
+          "FW-DeepSeek-V4-Pro"
+        ],
+        "displayName": "FW-DeepSeek-V4-Pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 3.828
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "e2f842b1b397864171fa274783c9951a4e42da59ab87d3a9d49fb0ea0e8b5eed",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "93c0998cae8fff65e49d09b9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-glm::fw-glm-5",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "FW-GLM-5",
+        "slug": "FW-GLM-5",
+        "slugAliases": [
+          "FW-GLM-5"
+        ],
+        "displayName": "FW-GLM-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.1,
+          "output $/M": 3.52
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "c955e1b2649f3db38fd210c857e258c8c1271a51778113ca68285fcbbc013fdd",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "1fb96daebfc386a2b68e973a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-glm::fw-glm-5-1",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "FW-GLM-5.1",
+        "slug": "FW-GLM-5.1",
+        "slugAliases": [
+          "FW-GLM-5.1"
+        ],
+        "displayName": "FW-GLM-5.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 202800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.54,
+          "output $/M": 4.84
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "694bb040fec0f0ec8ec18b77dfed3a1df781d13878ec81d838fc6dca7060b99c",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "d7be7f9c3e20e5179d8892a7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-glm::fw-glm-5-2",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "FW-GLM-5.2",
+        "slug": "FW-GLM-5.2",
+        "slugAliases": [
+          "FW-GLM-5.2"
+        ],
+        "displayName": "FW-GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.54,
+          "output $/M": 4.84
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "cb0e7aac245425aa25e6fb2ced7668e528804c91e63a7a5cfd289a6c8274bc49",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "b80daac5cabc2125890e87ee",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-glm::fw-glm-5-2-fast",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "FW-GLM-5.2-Fast",
+        "slug": "FW-GLM-5.2-Fast",
+        "slugAliases": [
+          "FW-GLM-5.2-Fast"
+        ],
+        "displayName": "FW-GLM-5.2-Fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "fast",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2.1,
+          "output $/M": 6.6
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "ce50e8e5e1954d490224349c6ea5562bc9538b395ff192e8b7e25822d103fd4c",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "88b111ce0eea7846af78405d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-kimi::fw-kimi-k2-5",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "FW-Kimi-K2.5",
+        "slug": "FW-Kimi-K2.5",
+        "slugAliases": [
+          "FW-Kimi-K2.5"
+        ],
+        "displayName": "FW-Kimi-K2.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.66,
+          "output $/M": 3.3
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "5bce30de9ac173057efa2ce454992a062bd56addaf3ab520799978a7e1b3cbdb",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "af0fc1966c571b741b4b4f2a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-kimi::fw-kimi-k2-6",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "FW-Kimi-K2.6",
+        "slug": "FW-Kimi-K2.6",
+        "slugAliases": [
+          "FW-Kimi-K2.6"
+        ],
+        "displayName": "FW-Kimi-K2.6",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.045,
+          "output $/M": 4.4
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "c38888f20348c179b6e3055f2ebd9ef3e8880274e78bbdd8f0ae34514e1e0e3b",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "937bdabb55697283c7128030",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-kimi::fw-kimi-k2-7-code",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "FW-Kimi-K2.7-Code",
+        "slug": "FW-Kimi-K2.7-Code",
+        "slugAliases": [
+          "FW-Kimi-K2.7-Code"
+        ],
+        "displayName": "FW-Kimi-K2.7-Code",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.05,
+          "output $/M": 4.4
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "970677f0018ba906e8dcce869b333498181a23e0f2e748b1878244119ef802ea",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "dac340b03e04527ca95bec20",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-kimi::fw-kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "FW-Kimi-K3",
+        "slug": "FW-Kimi-K3",
+        "slugAliases": [
+          "FW-Kimi-K3"
+        ],
+        "displayName": "FW-Kimi-K3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 3.3,
+          "output $/M": 16.5
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-kimi-k3-through-fireworks-ai-on-microsoft-foundry/4540187",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "f6fce87a05e07459ee4ad5fcb971bbe5426d16567beb32b4b86525ba950d737c",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "348e8b3a76c362a66416b84c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-minimax::fw-minimax-m2-5",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "FW-MiniMax-M2.5",
+        "slug": "FW-MiniMax-M2.5",
+        "slugAliases": [
+          "FW-MiniMax-M2.5"
+        ],
+        "displayName": "FW-MiniMax-M2.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "m2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 0.33,
+          "output $/M": 1.32
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "139dc361ff4b2213a6a2cfff8ee9259fb039d4b6438db28f423bab054e116128",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
+    },
+    {
+      "id": "8a2c6202250c49f13182dc6e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fw-minimax::fw-minimax-m3",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "FW-MiniMax-M3",
+        "slug": "FW-MiniMax-M3",
+        "slugAliases": [
+          "FW-MiniMax-M3"
+        ],
+        "displayName": "FW-MiniMax-M3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "m3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "tier": "m3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 512000,
+          "maxOutputTokens": 512000
+        },
+        "pricing": {
+          "input $/M": 0.33,
+          "output $/M": 1.32
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/",
+            "observedAt": "2026-08-16T01:37:41.367Z"
+          }
+        ],
+        "fingerprint": "a9a95c2e1e4c11e01b0fbec8e4746ec5779470eb38a341c4dea7d5b110efa87a",
+        "firstSeen": "2026-08-16T01:37:41.367Z",
+        "lastChanged": "2026-08-16T01:37:41.367Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-16T01:37:41.367Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
