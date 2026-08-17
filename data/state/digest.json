@@ -106255,6 +106255,73 @@
         "model"
       ],
       "detectedAt": "2026-08-17T20:43:11.293Z"
+    },
+    {
+      "id": "135304aa6b869ba8f94b2afe",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::tensorx-moonshotai-kimi-k2-5",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "tensorx/moonshotai/kimi-k2.5",
+        "slug": "tensorx/moonshotai/kimi-k2.5",
+        "slugAliases": [
+          "tensorx/moonshotai/kimi-k2.5"
+        ],
+        "displayName": "Kimi K2.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2.8,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-17T22:46:06.985Z"
+          }
+        ],
+        "fingerprint": "b3ca4357ee654f2207cc8078d39a089ea1d1ad2f07f91d7328b96136def5570f",
+        "firstSeen": "2026-08-17T22:46:06.985Z",
+        "lastChanged": "2026-08-17T22:46:06.985Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-17T22:46:06.985Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
