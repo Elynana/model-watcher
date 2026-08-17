@@ -104801,6 +104801,312 @@
         "model"
       ],
       "detectedAt": "2026-08-17T06:03:45.161Z"
+    },
+    {
+      "id": "550d1da684c7713042ba09b4",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3",
+        "slug": "GLM-5.3",
+        "slugAliases": [
+          "GLM-5.3",
+          "glm-5.3"
+        ],
+        "displayName": "GLM-5.3",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Z.AI Coding Plan",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-17T08:03:48.472Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-08-17T08:03:48.472Z"
+          }
+        ],
+        "fingerprint": "5be2594afaf4998e99ce677fb40e011f6f95ab214868295bb9c7a71d2aef4240",
+        "firstSeen": "2026-08-14T07:39:03.537Z",
+        "lastChanged": "2026-08-14T10:43:01.957Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3",
+        "slug": "GLM-5.3",
+        "slugAliases": [
+          "GLM-5.3",
+          "glm-5.3"
+        ],
+        "displayName": "GLM-5.3",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "version": "5.3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "NanoGPT",
+          "Z.AI Coding Plan",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-17T08:57:58.232Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-08-17T08:03:48.472Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-17T08:57:58.232Z"
+          }
+        ],
+        "fingerprint": "9f0ab2ee6ce0ea2b0ed95bbfe28cb6c5c461499e45e090fcc350acadae1c96b7",
+        "firstSeen": "2026-08-14T07:39:03.537Z",
+        "lastChanged": "2026-08-17T08:57:58.232Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-17T08:57:58.232Z"
+    },
+    {
+      "id": "524192e833d13c27c2eb8f6d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-27B",
+        "slug": "Qwen3.8-27B",
+        "slugAliases": [
+          "Qwen3.8-27B",
+          "qwen3.8-27b"
+        ],
+        "displayName": "Qwen3.8 27B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "parameters": "27B",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.45,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+            "observedAt": "2026-08-17T08:03:48.472Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-17T08:03:48.472Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-17T08:03:48.472Z"
+          }
+        ],
+        "fingerprint": "d5bcae40536424517a8d3d520a3cedd39b9decfd6c0e12b80324e6f8d8e2bcdf",
+        "firstSeen": "2026-08-14T15:37:14.733Z",
+        "lastChanged": "2026-08-16T22:41:10.131Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-27B",
+        "slug": "Qwen3.8-27B",
+        "slugAliases": [
+          "Qwen3.8-27B",
+          "qwen3.8-27b"
+        ],
+        "displayName": "Qwen3.8 27B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "parameters": "27B",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.45,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+            "observedAt": "2026-08-17T08:57:58.232Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-17T08:03:48.472Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-17T08:57:58.232Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-17T08:57:58.232Z"
+          }
+        ],
+        "fingerprint": "a7816721b20801d87e7b3621024fc3e19a4cc5e7860a35244caef40bfee94409",
+        "firstSeen": "2026-08-14T15:37:14.733Z",
+        "lastChanged": "2026-08-17T08:57:58.232Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-17T08:57:58.232Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
