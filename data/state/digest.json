@@ -104752,6 +104752,55 @@
         "availability"
       ],
       "detectedAt": "2026-08-16T22:41:10.131Z"
+    },
+    {
+      "id": "fcaa3eb2e5c2d588bca960b3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mathform::mathform-8b",
+        "owner": "OpenBMB / ModelBest",
+        "vendorId": "openbmb",
+        "family": "mathform",
+        "modelId": "MathForm-8B",
+        "slug": "MathForm-8B",
+        "slugAliases": [
+          "MathForm-8B"
+        ],
+        "displayName": "MathForm-8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:openbmb:openbmb",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/openbmb/MathForm-8B",
+            "observedAt": "2026-08-17T06:03:45.161Z"
+          }
+        ],
+        "fingerprint": "47b4078a24a57245d507f9cb5fbb34daa26902516a255d6030105858f6dad78b",
+        "firstSeen": "2026-08-17T06:03:45.161Z",
+        "lastChanged": "2026-08-17T06:03:45.161Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-17T06:03:45.161Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
