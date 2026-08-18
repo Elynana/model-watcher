@@ -106855,6 +106855,107 @@
         "lifecycle"
       ],
       "detectedAt": "2026-08-18T04:44:03.159Z"
+    },
+    {
+      "id": "bdad5bc7afb526291f9be8c0",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "lfm::lfm-2-5-2-6b-20260811",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "lfm-2.5-2.6b-20260811",
+        "slug": "lfm-2.5-2.6b-20260811",
+        "slugAliases": [
+          "lfm-2.5-2.6b-20260811"
+        ],
+        "displayName": "LiquidAI: LFM2.5-2.6B (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.5.2",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "6B",
+          "version": "2.5.2"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-11",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+            "observedAt": "2026-08-18T08:58:53.311Z"
+          }
+        ],
+        "fingerprint": "d3841a8abc93a7d6782e1ce3eecc06d85efa2d67a643e6b47b43d2a327e9cc93",
+        "firstSeen": "2026-08-11T21:14:55.726Z",
+        "lastChanged": "2026-08-18T07:09:33.271Z"
+      },
+      "after": {
+        "key": "lfm::lfm-2-5-2-6b-20260811",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "lfm-2.5-2.6b-20260811",
+        "slug": "lfm-2.5-2.6b-20260811",
+        "slugAliases": [
+          "lfm-2.5-2.6b-20260811"
+        ],
+        "displayName": "LiquidAI: LFM2.5-2.6B (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.5.2",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "6B",
+          "version": "2.5.2"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-08-11",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+            "observedAt": "2026-08-18T08:58:53.311Z"
+          }
+        ],
+        "fingerprint": "88d0b75ffa2b8e99e3c3fb3aea8fb4955d7ff98bcb3a0ad336a223ca4a8cb3f6",
+        "firstSeen": "2026-08-11T21:14:55.726Z",
+        "lastChanged": "2026-08-18T10:43:25.462Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-08-18T10:43:25.462Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
