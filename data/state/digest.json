@@ -106592,6 +106592,168 @@
         "availability"
       ],
       "detectedAt": "2026-08-18T00:55:25.790Z"
+    },
+    {
+      "id": "c1a57110b17dcbbcb39d0ddb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-3-8-27b",
+        "slug": "qwen-3-8-27b",
+        "slugAliases": [
+          "qwen-3-8-27b"
+        ],
+        "displayName": "Qwen 3.8 27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.45,
+          "output $/M": 3.2
+        },
+        "availability": [
+          "Venice AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-18T03:12:10.319Z"
+          }
+        ],
+        "fingerprint": "30666c2d5540b894694910f11304ee4f10216e6e5281ef1c0de475f7bc59d730",
+        "firstSeen": "2026-08-18T03:12:10.319Z",
+        "lastChanged": "2026-08-18T03:12:10.319Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-18T03:12:10.319Z"
+    },
+    {
+      "id": "02eb2063f965f4f6b52b2c5d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ui-mate::ui-mate-9b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "ui-mate",
+        "modelId": "UI-Mate-9B",
+        "slug": "UI-Mate-9B",
+        "slugAliases": [
+          "UI-Mate-9B"
+        ],
+        "displayName": "UI-Mate-9B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/UI-Mate-9B",
+            "observedAt": "2026-08-18T03:12:10.319Z"
+          }
+        ],
+        "fingerprint": "f464d6f6714a86bf98c9a7ed81b6c9e1588edc7dd820e6298a030695e38f4de3",
+        "firstSeen": "2026-08-18T03:12:10.319Z",
+        "lastChanged": "2026-08-18T03:12:10.319Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-18T03:12:10.319Z"
+    },
+    {
+      "id": "fe61a67cfe1243bb79900328",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ui-mate::ui-mate-27b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "ui-mate",
+        "modelId": "UI-Mate-27B",
+        "slug": "UI-Mate-27B",
+        "slugAliases": [
+          "UI-Mate-27B"
+        ],
+        "displayName": "UI-Mate-27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/UI-Mate-27B",
+            "observedAt": "2026-08-18T03:12:10.319Z"
+          }
+        ],
+        "fingerprint": "8304038eb519458a572574233afe27e7f8d768e73014dc2c39fc1013bda12af8",
+        "firstSeen": "2026-08-18T03:12:10.319Z",
+        "lastChanged": "2026-08-18T03:12:10.319Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-18T03:12:10.319Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
