@@ -107005,6 +107005,55 @@
         "model"
       ],
       "detectedAt": "2026-08-18T12:41:54.513Z"
+    },
+    {
+      "id": "f87c2a1843bb49b6ce4106db",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cmd::cmd",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "cmd",
+        "modelId": "cmd",
+        "slug": "cmd",
+        "slugAliases": [
+          "cmd"
+        ],
+        "displayName": "cmd",
+        "modalities": [
+          "video",
+          "world"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/cmd",
+            "observedAt": "2026-08-18T17:22:57.208Z"
+          }
+        ],
+        "fingerprint": "0f5ab027af198f29ff89bb4b8beb9ce64f27b9af6e37e14a1e306dac48a3e65f",
+        "firstSeen": "2026-08-18T17:22:57.208Z",
+        "lastChanged": "2026-08-18T17:22:57.208Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-18T17:22:57.208Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
