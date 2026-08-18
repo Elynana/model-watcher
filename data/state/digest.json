@@ -107054,6 +107054,166 @@
         "model"
       ],
       "detectedAt": "2026-08-18T17:22:57.208Z"
+    },
+    {
+      "id": "71406bbe41b104b8015021f8",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3",
+        "slug": "GLM-5.3",
+        "slugAliases": [
+          "GLM-5.3",
+          "glm-5.3"
+        ],
+        "displayName": "GLM-5.3",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "version": "5.3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "NanoGPT",
+          "Z.AI Coding Plan",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-18T17:54:28.343Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-08-18T17:54:28.343Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-18T17:54:28.343Z"
+          }
+        ],
+        "fingerprint": "9f0ab2ee6ce0ea2b0ed95bbfe28cb6c5c461499e45e090fcc350acadae1c96b7",
+        "firstSeen": "2026-08-14T07:39:03.537Z",
+        "lastChanged": "2026-08-17T08:57:58.232Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3",
+        "slug": "GLM-5.3",
+        "slugAliases": [
+          "GLM-5.3",
+          "glm-5.3"
+        ],
+        "displayName": "GLM-5.3",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "version": "5.3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "Z.AI Coding Plan",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-18T18:30:43.691Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-08-18T18:30:43.691Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-18T17:54:28.343Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-18T18:30:43.691Z"
+          }
+        ],
+        "fingerprint": "4bbb3f3463197950329e36115c3bcf229e911b4ff97a4f659e252df4e3c7271e",
+        "firstSeen": "2026-08-14T07:39:03.537Z",
+        "lastChanged": "2026-08-18T18:30:43.691Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-18T18:30:43.691Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
