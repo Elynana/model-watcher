@@ -106322,6 +106322,276 @@
         "model"
       ],
       "detectedAt": "2026-08-17T22:46:06.985Z"
+    },
+    {
+      "id": "8a1f57d7a305603745ac89ff",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "lfm::lfm2-5-8",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-8",
+        "slug": "LFM2.5-8",
+        "slugAliases": [
+          "LFM2.5-8"
+        ],
+        "displayName": "LFM2.5-8",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5.8",
+        "capabilities": {
+          "version": "2.5.8"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:liquid",
+            "sourceKind": "official-page",
+            "url": "https://www.liquid.ai/models",
+            "observedAt": "2026-08-17T23:03:06.442Z"
+          }
+        ],
+        "fingerprint": "51c5fb0378cce1b3ab9f33136b58aa84d6fdde6536024a57d3d3b1db1898b16f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "lfm::lfm2-5-8",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-8",
+        "slug": "LFM2.5-8",
+        "slugAliases": [
+          "LFM2.5-8"
+        ],
+        "displayName": "LFM2.5-8",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5.8",
+        "capabilities": {
+          "version": "2.5.8"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:liquid",
+            "sourceKind": "official-page",
+            "url": "https://www.liquid.ai/models",
+            "observedAt": "2026-08-18T00:55:25.790Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-18T00:55:25.790Z"
+          }
+        ],
+        "fingerprint": "2692060bb662625d04c1b79831482fd1d5512c84b8c9679bb2ef52e39d01ec4d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-18T00:55:25.790Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-18T00:55:25.790Z"
+    },
+    {
+      "id": "712e776e4d53b0ee3899b84c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-27B",
+        "slug": "Qwen3.8-27B",
+        "slugAliases": [
+          "Qwen3.8-27B",
+          "qwen3.8-27b"
+        ],
+        "displayName": "Qwen3.8 27B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "parameters": "27B",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.45,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+            "observedAt": "2026-08-17T23:34:27.845Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-17T23:34:27.845Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-17T23:55:22.815Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-17T23:03:06.442Z"
+          }
+        ],
+        "fingerprint": "a7816721b20801d87e7b3621024fc3e19a4cc5e7860a35244caef40bfee94409",
+        "firstSeen": "2026-08-14T15:37:14.733Z",
+        "lastChanged": "2026-08-17T08:57:58.232Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-27B",
+        "slug": "Qwen3.8-27B",
+        "slugAliases": [
+          "Qwen3.8-27B",
+          "qwen3.8-27b"
+        ],
+        "displayName": "Qwen3.8 27B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "parameters": "27B",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.45,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+            "observedAt": "2026-08-18T00:55:25.790Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-18T00:55:25.790Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-18T00:55:25.790Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-18T00:55:25.790Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-18T00:55:25.790Z"
+          }
+        ],
+        "fingerprint": "174d981452b9abee73adebe6662ddb9124899a64db47a582b305ccc67ee76262",
+        "firstSeen": "2026-08-14T15:37:14.733Z",
+        "lastChanged": "2026-08-18T00:55:25.790Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-18T00:55:25.790Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
