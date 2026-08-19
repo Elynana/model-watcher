@@ -108991,6 +108991,118 @@
         "displayName"
       ],
       "detectedAt": "2026-08-19T13:35:10.530Z"
+    },
+    {
+      "id": "15b423ed4d28e04fd88fa18b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-sol-discounted",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-sol-discounted",
+        "slug": "gpt-5.6-sol-discounted",
+        "slugAliases": [
+          "gpt-5.6-sol-discounted"
+        ],
+        "displayName": "OpenAI: GPT-5.6 Sol (50% off)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 15,
+          "reasoning $/M": 0,
+          "cache_read $/M": 0.25,
+          "cache_write $/M": 3.125
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-19T14:56:40.676Z"
+          }
+        ],
+        "fingerprint": "da43e5101daa320106da04e4a76fa8059580bb005e1c335e80d609207eac2112",
+        "firstSeen": "2026-08-19T14:56:40.676Z",
+        "lastChanged": "2026-08-19T14:56:40.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T14:56:40.676Z"
+    },
+    {
+      "id": "58e40d9a01646d52177c26b2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "briaai-videoseal::briaai-videoseal",
+        "owner": "Bria AI",
+        "vendorId": "bria",
+        "family": "briaai-videoseal",
+        "modelId": "briaai/videoseal",
+        "slug": "briaai/videoseal",
+        "slugAliases": [
+          "briaai/videoseal"
+        ],
+        "displayName": "videoseal",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-19",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:bria:briaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/briaai/videoseal",
+            "observedAt": "2026-08-19T14:56:40.676Z"
+          }
+        ],
+        "fingerprint": "ac33884b6f5a57b4fb1170befabbc8ee7a71f3fd7cd11e4d6602dd4a15d08631",
+        "firstSeen": "2026-08-19T14:56:40.676Z",
+        "lastChanged": "2026-08-19T14:56:40.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T14:56:40.676Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
