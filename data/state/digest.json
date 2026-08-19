@@ -108492,6 +108492,505 @@
         "lifecycle"
       ],
       "detectedAt": "2026-08-19T04:03:10.798Z"
+    },
+    {
+      "id": "ba43aafe93f54ae5c7f4a68c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-2-6-1t",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-2.6-1T",
+        "slug": "Ling-2.6-1T",
+        "slugAliases": [
+          "Ling-2.6-1T",
+          "ling-2.6-1t"
+        ],
+        "displayName": "inclusionAI: Ling-2.6-1T",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "capabilities": {
+          "version": "2.6",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-2.6-1T",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          }
+        ],
+        "fingerprint": "f3d22db3f12b56d208e6d9430103103a824b67909e1c353a5e496b0e8bfffb59",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "ling::ling-2-6-1t",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-2.6-1T",
+        "slug": "Ling-2.6-1T",
+        "slugAliases": [
+          "Ling-2.6-1T",
+          "ling-2.6-1t"
+        ],
+        "displayName": "inclusionAI: Ling-2.6-1T (retires Aug 24)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "capabilities": {
+          "version": "2.6",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-2.6-1T",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          }
+        ],
+        "fingerprint": "63d3b89fba08d87361b4701f120d369b4a06e1d3e0aa56439d1921234927b7aa",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-19T13:35:10.530Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-19T13:35:10.530Z"
+    },
+    {
+      "id": "b8805db0352e4371d9d8b376",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-2-6-flash",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-2.6-flash",
+        "slug": "Ling-2.6-flash",
+        "slugAliases": [
+          "Ling-2.6-flash",
+          "ling-2.6-flash"
+        ],
+        "displayName": "inclusionAI: Ling-2.6-flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.6",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.3,
+          "cache_read $/M": 0.02
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-2.6-flash",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          }
+        ],
+        "fingerprint": "1277d3af8e3b4caeadd949b8bce1605f2a2cf117d7b1c2701f3ac9eb210bc9dc",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "ling::ling-2-6-flash",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-2.6-flash",
+        "slug": "Ling-2.6-flash",
+        "slugAliases": [
+          "Ling-2.6-flash",
+          "ling-2.6-flash"
+        ],
+        "displayName": "inclusionAI: Ling-2.6-flash (retires Aug 24)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.6",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.3,
+          "cache_read $/M": 0.02
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-2.6-flash",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          }
+        ],
+        "fingerprint": "9a14c14269db7125a0e726755fe1156dce0c07fd668c868c8ed73f3612e9943b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-19T13:35:10.530Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-19T13:35:10.530Z"
+    },
+    {
+      "id": "9253754a851af39e114ff500",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ring-2-6-1t",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ring-2.6-1T",
+        "slug": "Ring-2.6-1T",
+        "slugAliases": [
+          "Ring-2.6-1T",
+          "ring-2.6-1t"
+        ],
+        "displayName": "inclusionAI: Ring-2.6-1T",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "capabilities": {
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ring-2.6-1T",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          }
+        ],
+        "fingerprint": "adba03a3f61416cdbcc79b2c37d3bcd13e9bbfc63511997f605cc64cbc244bec",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "ling::ring-2-6-1t",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ring-2.6-1T",
+        "slug": "Ring-2.6-1T",
+        "slugAliases": [
+          "Ring-2.6-1T",
+          "ring-2.6-1t"
+        ],
+        "displayName": "inclusionAI: Ring-2.6-1T (retires Aug 24)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "capabilities": {
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ring-2.6-1T",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-19T13:35:10.530Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-19T12:48:20.169Z"
+          }
+        ],
+        "fingerprint": "59313e300fec96ce233ddcbddf47c9cdbbced5132f37072639f4e6eadadd0be4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-19T13:35:10.530Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-19T13:35:10.530Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
