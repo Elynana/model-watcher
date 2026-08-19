@@ -107214,6 +107214,1183 @@
         "availability"
       ],
       "detectedAt": "2026-08-18T18:30:43.691Z"
+    },
+    {
+      "id": "7de1bc970e2b3ee73dcd3b15",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3",
+        "slug": "GLM-5.3",
+        "slugAliases": [
+          "GLM-5.3",
+          "glm-5-3",
+          "glm-5.3"
+        ],
+        "displayName": "GLM 5.3",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "version": "5.3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.75,
+          "output $/M": 5.5,
+          "cache_read $/M": 0.325
+        },
+        "availability": [
+          "NanoGPT",
+          "Venice AI",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-18",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-19T00:55:46.711Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-19T00:55:46.711Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-18T23:55:41.343Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-19T00:55:46.711Z"
+          }
+        ],
+        "fingerprint": "dbef5f8c01e64cdc7fc3d4fc1342c2392dc573e4c4be2994e0282d24c5356970",
+        "firstSeen": "2026-08-14T07:39:03.537Z",
+        "lastChanged": "2026-08-18T22:45:46.583Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3",
+        "slug": "GLM-5.3",
+        "slugAliases": [
+          "GLM-5.3",
+          "glm-5-3",
+          "glm-5.3"
+        ],
+        "displayName": "GLM 5.3",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "version": "5.3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.75,
+          "output $/M": 5.5,
+          "cache_read $/M": 0.325
+        },
+        "availability": [
+          "NanoGPT",
+          "Novita AI",
+          "Venice AI",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-18",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "f06dbf386c50889ac9541bc1d42fd486233939e4f4be61e6329aa0adf9736050",
+        "firstSeen": "2026-08-14T07:39:03.537Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "5f9d4bc22933b779d69cde69",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::thinkingcap-qwen3-6-27b-eu",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "thinkingcap-qwen3.6-27b@eu",
+        "slug": "thinkingcap-qwen3.6-27b@eu",
+        "slugAliases": [
+          "thinkingcap-qwen3.6-27b@eu"
+        ],
+        "displayName": "thinkingcap-qwen3.6-27b@eu",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "parameters": "27B",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 3,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "d47cf86090778af017b663d9d59169ae0ec77d35ceff20300ba0762f738c8c61",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "770d32ed175dfac13246b9a0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-medium-latest-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-latest@eu",
+        "slug": "mistral-medium-latest@eu",
+        "slugAliases": [
+          "mistral-medium-latest@eu"
+        ],
+        "displayName": "Mistral Medium (latest) (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "medium"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 2.2,
+          "cache_read $/M": 0.44
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "57a177371d2f245728229b1eff525e1b3e5d6355120dc24d43877fd8999d9444",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "247cbe80fe0437a1c795c93c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-eu",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro@eu",
+        "slug": "deepseek-v4-pro@eu",
+        "slugAliases": [
+          "deepseek-v4-pro@eu"
+        ],
+        "displayName": "DeepSeek V4 Pro (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 1.75,
+          "output $/M": 3.5,
+          "cache_read $/M": 0.44
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "b6019018caea297242259f4fbd7e9e6a9f58b15eec7e5fa21d9d3e4962e8d4fc",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "95fbcdb9bc3834095d717ebc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k2-6-eu",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k2.6@eu",
+        "slug": "kimi-k2.6@eu",
+        "slugAliases": [
+          "kimi-k2.6@eu"
+        ],
+        "displayName": "Kimi K2.6 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.95,
+          "output $/M": 4,
+          "cache_read $/M": 0.95
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "afc2e7319466f2b7175e819592c57e09eff53628568e7eedf3149c9e590c8d8b",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "8ab1df79d4ce2bdf3e0aa14f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-lightning-3-5-30b-a3b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-lightning-3.5-30b-a3b",
+        "slug": "nemotron-lightning-3.5-30b-a3b",
+        "slugAliases": [
+          "nemotron-lightning-3.5-30b-a3b"
+        ],
+        "displayName": "nemotron-lightning-3.5-30b-a3b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.2,
+          "cache_read $/M": 0.01
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "fd74ce6863a32b1c3208f6aa23c3a1bbdeeadbfaabe40634e4f93e8fa665505a",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "6adccabe9ebe8d61fa161213",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k2-7-code-eu",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k2.7-code@eu",
+        "slug": "kimi-k2.7-code@eu",
+        "slugAliases": [
+          "kimi-k2.7-code@eu"
+        ],
+        "displayName": "Kimi K2.7 Code (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.5,
+          "cache_read $/M": 0.31
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "f9401e7f6f46deca1b3bc87e2626a2f74e1e1cd0696b31eb0f03574f572edbc0",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "827489c879be1b5d0eb40f3c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-2-beta",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.2-beta",
+        "slug": "grok-4.2-beta",
+        "slugAliases": [
+          "grok-4.2-beta"
+        ],
+        "displayName": "grok-4.2-beta",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.2"
+        },
+        "limits": {
+          "contextTokens": 2000000,
+          "maxOutputTokens": 2000000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 0.4,
+              "cache_write": 4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 0.4,
+            "cache_write": 4
+          }
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-03-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "39b67850be8433db374a2e6435d28a2a8e82c4554e3ea2c5db3f624b891880b8",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "f12ae6e518537f86dd9d94b5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-small-2603-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-small-2603@eu",
+        "slug": "mistral-small-2603@eu",
+        "slugAliases": [
+          "mistral-small-2603@eu"
+        ],
+        "displayName": "Mistral Small 4 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2603",
+        "tier": "small",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-06",
+          "accepts": "image, text",
+          "tier": "small",
+          "version": "2603"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.165,
+          "output $/M": 0.66,
+          "cache_read $/M": 0.165
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "7811f6df5d10b2942b48f0a224a136da3425ffc9bf20b9395144c08d22533d90",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "b5f4d914de9c5b79458d551d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-fable-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5@eu",
+        "slug": "claude-fable-5@eu",
+        "slugAliases": [
+          "claude-fable-5@eu"
+        ],
+        "displayName": "Claude Fable 5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "fable",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-01-31",
+          "accepts": "image, text",
+          "tier": "fable",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 11,
+          "output $/M": 55,
+          "cache_read $/M": 1.1,
+          "cache_write $/M": 13.75
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "2972e1d82d4b5c2a4b3ca5a14f96403c53999201bb33ac08a82b4ebeaf1b9bf2",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "7f5c66f1760597085a76fb94",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::minimax-m3-eu",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m3@eu",
+        "slug": "minimax-m3@eu",
+        "slugAliases": [
+          "minimax-m3@eu"
+        ],
+        "displayName": "MiniMax-M3 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "m3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "m3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 2,
+          "cache_read $/M": 0.1
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "72913f4146ca30508d93cf4f6f418a494827aeebdf22aa8fcc89f447f6ae1d7f",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "0997c376020a0e40c6a6cb34",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-nano-omni-eu",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3-nano-omni@eu",
+        "slug": "nemotron-3-nano-omni@eu",
+        "slugAliases": [
+          "nemotron-3-nano-omni@eu"
+        ],
+        "displayName": "nemotron-3-nano-omni@eu",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "nano",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "tier": "nano",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 300000,
+          "maxOutputTokens": 300000
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.24,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-20",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "e1c2fa4df822f0a3ca403fc02e92dfc1bf3553924b0c95d0f1c1366b8b14d702",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "9c302079725a4f5b7fd3bffa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::devstral-latest-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "devstral-latest@eu",
+        "slug": "devstral-latest@eu",
+        "slugAliases": [
+          "devstral-latest@eu"
+        ],
+        "displayName": "devstral-latest@eu",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 2.2,
+          "cache_read $/M": 0.44
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "4349425ac7d1e83b6d65c111a9164ea82a67cf569e5adafee78651538c204ff0",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "04f0298d488f78ba109d99e7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::thinkingcap-qwen3-6-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "thinkingcap-qwen3.6-27b",
+        "slug": "thinkingcap-qwen3.6-27b",
+        "slugAliases": [
+          "thinkingcap-qwen3.6-27b"
+        ],
+        "displayName": "thinkingcap-qwen3.6-27b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "parameters": "27B",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 3,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "48322f8a3fedfbc1e8ca7a0a68075ad95e472e2f546de083e3a82cdd58b1a427",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "8e8696f3b18d363adfd035aa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-1-eu",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.1@eu",
+        "slug": "glm-5.1@eu",
+        "slugAliases": [
+          "glm-5.1@eu"
+        ],
+        "displayName": "GLM-5.1 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 200000
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4,
+          "cache_read $/M": 1.4
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "a3fff85ce6aa31d9f6a4a6d84aeaf1e33ce6716749f5b388d61cf0561db927d8",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
+    },
+    {
+      "id": "098c25a81684da58094ca969",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-medium-3-5-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-3-5@eu",
+        "slug": "mistral-medium-3-5@eu",
+        "slugAliases": [
+          "mistral-medium-3-5@eu"
+        ],
+        "displayName": "mistral-medium-3-5@eu",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "medium",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.65,
+          "output $/M": 8.25,
+          "cache_read $/M": 1.65
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-19T02:17:02.030Z"
+          }
+        ],
+        "fingerprint": "d8b4fff5f76a86b44d421bb74b9ea123ca4808c138962f186bca5fc7fd499176",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-19T02:17:02.030Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
