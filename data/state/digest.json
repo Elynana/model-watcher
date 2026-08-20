@@ -110084,6 +110084,70 @@
         "announcement"
       ],
       "detectedAt": "2026-08-19T21:37:32.766Z"
+    },
+    {
+      "id": "7ccf73a5dfc267eaecad5af4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::muse-spark-1-2-contributor-free",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.2-contributor-free",
+        "slug": "muse-spark-1.2-contributor-free",
+        "slugAliases": [
+          "muse-spark-1.2-contributor-free"
+        ],
+        "displayName": "Muse Spark 1.2 Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "OpenCode Zen"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-08-20T05:18:16.248Z"
+          }
+        ],
+        "fingerprint": "77d4746d89d4e2a40e6c04ccf7972189dfeea42fd620e316c17d9f2f4afe5156",
+        "firstSeen": "2026-08-20T05:18:16.248Z",
+        "lastChanged": "2026-08-20T05:18:16.248Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-20T05:18:16.248Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
