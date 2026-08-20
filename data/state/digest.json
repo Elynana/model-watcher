@@ -117062,6 +117062,697 @@
         "availability"
       ],
       "detectedAt": "2026-08-20T19:12:58.409Z"
+    },
+    {
+      "id": "eae1769945e0adedb347c5d0",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen-audio-3-0-tts",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-Audio / Qwen-Omni",
+        "familyId": "qwen-audio",
+        "modelId": "Qwen-Audio-3.0-TTS",
+        "slug": "Qwen-Audio-3.0-TTS",
+        "slugAliases": [
+          "Qwen-Audio-3.0-TTS"
+        ],
+        "displayName": "Qwen-Audio-3.0-TTS",
+        "modalities": [
+          "audio",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-08-20T20:11:46.397Z"
+          }
+        ],
+        "fingerprint": "e2a40c050edf17e56d464ee57986e9110d62000210ccb8159998f5728ee3fa68",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "qwen::qwen-audio-3-0-tts",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-audio-3.0-tts",
+        "slug": "qwen-audio-3.0-tts",
+        "slugAliases": [
+          "Qwen-Audio-3.0-TTS",
+          "qwen-audio-3.0-tts"
+        ],
+        "displayName": "qwen-audio-3.0-tts",
+        "modalities": [
+          "audio",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          }
+        ],
+        "fingerprint": "0b0f1dd9d967f91e0b951539aa0a6fd31e9cd5f15702301bd4e4ede6be038615",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-20T22:40:09.776Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-20T22:40:09.776Z"
+    },
+    {
+      "id": "0eeb697f57ae4227a8c24cae",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen-image-3-0-pro",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-Image",
+        "familyId": "qwen-image",
+        "modelId": "qwen-image-3.0-pro",
+        "slug": "qwen-image-3.0-pro",
+        "slugAliases": [
+          "qwen-image-3.0-pro"
+        ],
+        "displayName": "qwen-image-3.0-pro",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          }
+        ],
+        "fingerprint": "d69f1d9d614fd711b19da4d32f7bf93e5a01ab2f065cada0f3cb797dcfdbcf7c",
+        "firstSeen": "2026-08-04T17:25:24.864Z",
+        "lastChanged": "2026-08-04T17:25:24.864Z"
+      },
+      "after": {
+        "key": "qwen::qwen-image-3-0-pro",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-image-3.0-pro",
+        "slug": "qwen-image-3.0-pro",
+        "slugAliases": [
+          "qwen-image-3.0-pro"
+        ],
+        "displayName": "qwen-image-3.0-pro",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          }
+        ],
+        "fingerprint": "bb2bc1d8e4c16be5bac9881671e3e0b6c2d4967d61bdb8f16317e4d1da3b9589",
+        "firstSeen": "2026-08-04T17:25:24.864Z",
+        "lastChanged": "2026-08-20T22:40:09.776Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-20T22:40:09.776Z"
+    },
+    {
+      "id": "00e68deb3202dfda0e3dc038",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-7-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-flash",
+        "slug": "qwen3.7-flash",
+        "slugAliases": [
+          "qwen3.7-flash"
+        ],
+        "displayName": "Qwen3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.13,
+          "cache_read $/M": 0.006,
+          "cache_write $/M": 0.038
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-20T22:03:43.137Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          }
+        ],
+        "fingerprint": "cc0e3076d3dd4009fe645d90303439a0b69973ea68f93dc344443f2bee2b7f06",
+        "firstSeen": "2026-07-28T04:09:21.297Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-7-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-flash",
+        "slug": "qwen3.7-flash",
+        "slugAliases": [
+          "qwen3.7-flash"
+        ],
+        "displayName": "Qwen3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.13,
+          "cache_read $/M": 0.006,
+          "cache_write $/M": 0.038
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-20T22:03:43.137Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          }
+        ],
+        "fingerprint": "d3801aa450f1fda66c74f765712082f25345948b2fc22836b71a297cc7f7f6a7",
+        "firstSeen": "2026-07-28T04:09:21.297Z",
+        "lastChanged": "2026-08-20T22:40:09.776Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-20T22:40:09.776Z"
+    },
+    {
+      "id": "400b8c4a9f373f12fb906ca2",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-max",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-max",
+        "slug": "qwen3.8-max",
+        "slugAliases": [
+          "Qwen3.8-Max",
+          "qwen3.8-max"
+        ],
+        "displayName": "Qwen3.8 Max",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "max",
+        "capabilities": {
+          "tier": "max",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 991808,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "dashscope"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-03",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-19T04:03:10.798Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-20T22:03:43.137Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          }
+        ],
+        "fingerprint": "7d52a310954ca694684f76ad462f92761f587d48a4f2a6898d93f31008043a77",
+        "firstSeen": "2026-08-03T03:58:13.752Z",
+        "lastChanged": "2026-08-14T15:37:14.733Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-max",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-max",
+        "slug": "qwen3.8-max",
+        "slugAliases": [
+          "Qwen3.8-Max",
+          "qwen3.8-max"
+        ],
+        "displayName": "Qwen3.8 Max",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "max",
+        "capabilities": {
+          "tier": "max",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 991808,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "dashscope",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-19T04:03:10.798Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-20T22:03:43.137Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          }
+        ],
+        "fingerprint": "a032c84d644d6dc5929edf31635f7374e1903eb4030382c1578be7429cca8255",
+        "firstSeen": "2026-08-03T03:58:13.752Z",
+        "lastChanged": "2026-08-20T22:40:09.776Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-20T22:40:09.776Z"
+    },
+    {
+      "id": "b64035b4f0dc64ce44e43427",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-audio-3-0",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-audio-3.0",
+        "slug": "qwen-audio-3.0",
+        "slugAliases": [
+          "qwen-audio-3.0"
+        ],
+        "displayName": "qwen-audio-3.0",
+        "modalities": [
+          "audio",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          }
+        ],
+        "fingerprint": "a610399735e5a0e298395bb8db5fd45b449bf2d293a2cdbaa00771687ab36a49",
+        "firstSeen": "2026-08-20T22:40:09.776Z",
+        "lastChanged": "2026-08-20T22:40:09.776Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-20T22:40:09.776Z"
+    },
+    {
+      "id": "3748b2c2de69d6b15ffb2272",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-audio-3-0-realtime",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-audio-3.0-realtime",
+        "slug": "qwen-audio-3.0-realtime",
+        "slugAliases": [
+          "qwen-audio-3.0-realtime"
+        ],
+        "displayName": "qwen-audio-3.0-realtime",
+        "modalities": [
+          "audio",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-20T22:40:09.776Z"
+          }
+        ],
+        "fingerprint": "55ddf378acfc076ff109c6de4c605030879f286ea0d1ed8acda22bfbb1fed934",
+        "firstSeen": "2026-08-20T22:40:09.776Z",
+        "lastChanged": "2026-08-20T22:40:09.776Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-20T22:40:09.776Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
