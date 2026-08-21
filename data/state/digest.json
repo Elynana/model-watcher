@@ -117753,6 +117753,72 @@
         "model"
       ],
       "detectedAt": "2026-08-20T22:40:09.776Z"
+    },
+    {
+      "id": "360e74056e3c84ff3f4c811e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vl-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-VL",
+        "familyId": "qwen-vl",
+        "modelId": "qwen3-vl-flash",
+        "slug": "qwen3-vl-flash",
+        "slugAliases": [
+          "qwen3-vl-flash"
+        ],
+        "displayName": "Qwen3 VL Flash (Alibaba Cloud)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.4,
+          "cache_read $/M": 0.01
+        },
+        "availability": [
+          "LLM Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-08-21T00:59:43.185Z"
+          }
+        ],
+        "fingerprint": "595136a7e42dbc6c60ca70b37a9ede0f55fa5e8d9007885865b41e05143765cf",
+        "firstSeen": "2026-08-21T00:59:43.185Z",
+        "lastChanged": "2026-08-21T00:59:43.185Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T00:59:43.185Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
