@@ -118817,6 +118817,110 @@
         "displayName"
       ],
       "detectedAt": "2026-08-21T09:02:45.604Z"
+    },
+    {
+      "id": "2209703da312b82b7d17e608",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-vision-exp",
+        "slug": "deepseek-v4-flash-vision-exp",
+        "slugAliases": [
+          "deepseek-v4-flash-vision-exp"
+        ],
+        "displayName": "deepseek-v4-flash-vision-exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-08-21T09:49:31.119Z"
+          }
+        ],
+        "fingerprint": "5d6e4f4c1392fb5407ee520880919d5b071857b96bb34cc5cf3d81a6364efce9",
+        "firstSeen": "2026-08-21T09:49:31.119Z",
+        "lastChanged": "2026-08-21T09:49:31.119Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T09:49:31.119Z"
+    },
+    {
+      "id": "3b440968c1efea6db0164d07",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp-thinking",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Flash-Vision-Exp THINKING",
+        "slug": "DeepSeek-V4-Flash-Vision-Exp THINKING",
+        "slugAliases": [
+          "DeepSeek-V4-Flash-Vision-Exp THINKING"
+        ],
+        "displayName": "DeepSeek-V4-Flash-Vision-Exp THINKING",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-08-21T09:49:31.119Z"
+          }
+        ],
+        "fingerprint": "96c9005c1c2fa61c844dd0fa03a172d86a9b27566d5cd177c5366ad1d80e7778",
+        "firstSeen": "2026-08-21T09:49:31.119Z",
+        "lastChanged": "2026-08-21T09:49:31.119Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-21T09:49:31.119Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
