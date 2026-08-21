@@ -117819,6 +117819,844 @@
         "model"
       ],
       "detectedAt": "2026-08-21T00:59:43.185Z"
+    },
+    {
+      "id": "76ecec6b63bbd981e6260f53",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-cyber",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-cyber",
+        "slug": "gpt-5.6-cyber",
+        "slugAliases": [
+          "gpt-5.6-cyber"
+        ],
+        "displayName": "gpt-5.6-cyber",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 12.5,
+          "output $/M": 75
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models/gpt-5.6-cyber",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "a70bf59a2859f02bbc919b22c87e8609cb292b620da862f1a2e3a249307f540c",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "ed8428bea98bf8025b3a8323",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "daybreak-red::daybreak-red-latest",
+        "family": "daybreak-red",
+        "modelId": "daybreak-red-latest",
+        "slug": "daybreak-red-latest",
+        "slugAliases": [
+          "daybreak-red-latest"
+        ],
+        "displayName": "daybreak-red-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 12.5,
+          "output $/M": 75
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models/daybreak-red-latest",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "1153c4b1761a136ae1655dabf3dce96ccac43849d42d5c2f33cd14228c35b62a",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "bd945e76450241172d272718",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "daybreak-blue::daybreak-blue-latest",
+        "family": "daybreak-blue",
+        "modelId": "daybreak-blue-latest",
+        "slug": "daybreak-blue-latest",
+        "slugAliases": [
+          "daybreak-blue-latest"
+        ],
+        "displayName": "daybreak-blue-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 30
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models/daybreak-blue-latest",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "64e19fa48f813b6b2b02d85a52b51c9d6f1093daece042008bb56476ad2bf317",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "b76f7a0419bd445617a79473",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "chat::chat-latest",
+        "family": "chat",
+        "modelId": "chat-latest",
+        "slug": "chat-latest",
+        "slugAliases": [
+          "chat-latest"
+        ],
+        "displayName": "chat-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 30
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models/chat-latest",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "3a0c0868dbf36a3b332eb533f82f3a023c048a10eed1cee3d3f7f32e20fb64e9",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "e86ab43a74a000ed4ae8bd86",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-ocr-4-1",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-ocr-4-1",
+        "slug": "mistral-ocr-4-1",
+        "slugAliases": [
+          "mistral-ocr-4-1"
+        ],
+        "displayName": "mistral-ocr-4-1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "mode": "ocr",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/ocr-4-1",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "41b07f2acdad84a8af743e0d7ff0eb5e157d9d94fd9382a4491759a75dfaacdf",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "af5e502bfb4f0ddcbec3447a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-xai-grok::bedrock-mantle-xai-grok-4-6",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "bedrock_mantle/xai.grok-4.6",
+        "slug": "bedrock_mantle/xai.grok-4.6",
+        "slugAliases": [
+          "bedrock_mantle/xai.grok-4.6"
+        ],
+        "displayName": "bedrock_mantle/xai.grok-4.6",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "4.6"
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 6.6
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "1ebb00bc07c12a71bb94bb2c97bc4e2dcb0a96cd2d8e99622913ca6aedc03106",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "d8f16c2e713ede5384c01c41",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-models-deepseek::fireworks-ai-accounts-fireworks-models-deepseek-v4-flash-0731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731",
+        "slug": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "5f622d02834fa2152a2c8eb35eaa463951cab34ae4bb049bec0350aa60fec168",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "76d03a0b89cbaffee68b5ac2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-models-kimi::fireworks-ai-accounts-fireworks-models-kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "fireworks_ai/accounts/fireworks/models/kimi-k3",
+        "slug": "fireworks_ai/accounts/fireworks/models/kimi-k3",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/kimi-k3"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/models/kimi-k3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 15
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "42fe9c1e520e48bb84ef28be79de0ecbf581850ddeb10aa48278b62708320712",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "c3a647a77459194bbbca39f0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5p2-fast-us",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5p2-fast-us",
+        "slug": "glm-5p2-fast-us",
+        "slugAliases": [
+          "glm-5p2-fast-us"
+        ],
+        "displayName": "glm-5p2-fast-us",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "fast",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2.1,
+          "output $/M": 6.6
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "cdc241773da7536b77ea2b3daa2c99e59e5aa3a2ad95190d71260b5047b88ec3",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "cfc9917f6450699562ae1060",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-us",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-us",
+        "slug": "kimi-k3-us",
+        "slugAliases": [
+          "kimi-k3-us"
+        ],
+        "displayName": "kimi-k3-us",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 3.3,
+          "output $/M": 16.5
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "fd2a067eb573f3213d88c099325274ffcca41d5b32b0131a88d7931162ed3bf1",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "0852b150579672c5541f51f8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-routers-glm::fireworks-ai-accounts-fireworks-routers-glm-5p2-fast",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast",
+        "slug": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "fast",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2.1,
+          "output $/M": 6.6
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "9f8c5373ed81490c93203e98d2cd0ae5ae0d97430c4082296a5c9a0523f563d4",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "96b44ba1b9421246f8ec3afb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-routers-glm::fireworks-ai-accounts-fireworks-routers-glm-5p2-fast-us",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast-us",
+        "slug": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast-us",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast-us"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast-us",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "fast",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2.1,
+          "output $/M": 6.6
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "d9006438350930f7feb01ca28d40a2466d9eceb74e54fb66de5e45f2df3b9788",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "5eb30e9bd5a7b1de65e9f133",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-routers-kimi::fireworks-ai-accounts-fireworks-routers-kimi-k3-fast",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "fireworks_ai/accounts/fireworks/routers/kimi-k3-fast",
+        "slug": "fireworks_ai/accounts/fireworks/routers/kimi-k3-fast",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/routers/kimi-k3-fast"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/routers/kimi-k3-fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 4.5,
+          "output $/M": 22.5
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "1dd3e19f94cc4c0c3fef6b93f63c94122807b674ec59b156144c3a1bded37abb",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
+    },
+    {
+      "id": "7c4150be1c05ae551d95d3ad",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-routers-kimi::fireworks-ai-accounts-fireworks-routers-kimi-k3-us",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "fireworks_ai/accounts/fireworks/routers/kimi-k3-us",
+        "slug": "fireworks_ai/accounts/fireworks/routers/kimi-k3-us",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/routers/kimi-k3-us"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/routers/kimi-k3-us",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 3.3,
+          "output $/M": 16.5
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          }
+        ],
+        "fingerprint": "5d075ca18620bc62619bd55cde2f6450598d5d2e1d5d538e95515c7547ebce97",
+        "firstSeen": "2026-08-21T03:29:38.676Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T03:29:38.676Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
