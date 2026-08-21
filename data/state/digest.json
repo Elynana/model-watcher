@@ -118708,6 +118708,115 @@
         "model"
       ],
       "detectedAt": "2026-08-21T05:59:31.287Z"
+    },
+    {
+      "id": "657bed2db9dc499600efa0f8",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "x::x-preview-f-free",
+        "family": "x",
+        "modelId": "x-preview-f-free",
+        "slug": "x-preview-f-free",
+        "slugAliases": [
+          "x-preview-f-free"
+        ],
+        "displayName": "Ox Alpha Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "OpenCode Zen"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-21",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-08-21T07:38:14.697Z"
+          }
+        ],
+        "fingerprint": "4c0913680c0071289de803dff9361974aa3371245cab0ed28270c70538b47e39",
+        "firstSeen": "2026-08-20T18:30:39.608Z",
+        "lastChanged": "2026-08-20T18:30:39.608Z"
+      },
+      "after": {
+        "key": "x::x-preview-f-free",
+        "family": "x",
+        "modelId": "x-preview-f-free",
+        "slug": "x-preview-f-free",
+        "slugAliases": [
+          "x-preview-f-free"
+        ],
+        "displayName": "Ox Alpha Free (Unlimited)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "OpenCode Zen"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-21",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-08-21T09:02:45.604Z"
+          }
+        ],
+        "fingerprint": "fe7cc8cc6f1b7c6a96d29a3265d1a4c0c34181e615e44c63f8b4b024e82204ab",
+        "firstSeen": "2026-08-20T18:30:39.608Z",
+        "lastChanged": "2026-08-21T09:02:45.604Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-21T09:02:45.604Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
