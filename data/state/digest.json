@@ -119333,6 +119333,113 @@
         "slug"
       ],
       "detectedAt": "2026-08-21T18:51:00.746Z"
+    },
+    {
+      "id": "d3d7d45c76f42845058bf33a",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "cogito::cogito-v2-1-671b-20251118",
+        "owner": "Deep Cogito",
+        "vendorId": "deep-cogito",
+        "family": "Cogito",
+        "familyId": "cogito",
+        "modelId": "cogito-v2.1-671b-20251118",
+        "slug": "cogito-v2.1-671b-20251118",
+        "slugAliases": [
+          "cogito-v2.1-671b-20251118"
+        ],
+        "displayName": "Deep Cogito: Cogito v2.1 671B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.1",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "671B",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 1.25,
+          "completion $/M": 1.25
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-13",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/deepcogito/cogito-v2.1-671b",
+            "observedAt": "2026-08-21T21:56:17.286Z"
+          }
+        ],
+        "fingerprint": "96fdbf3a86420ae304f6a0e518a3ce6ccb380fbd548f281332683ed6c312ffe3",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "cogito::cogito-v2-1-671b-20251118",
+        "owner": "Deep Cogito",
+        "vendorId": "deep-cogito",
+        "family": "Cogito",
+        "familyId": "cogito",
+        "modelId": "cogito-v2.1-671b-20251118",
+        "slug": "cogito-v2.1-671b-20251118",
+        "slugAliases": [
+          "cogito-v2.1-671b-20251118"
+        ],
+        "displayName": "Deep Cogito: Cogito v2.1 671B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.1",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "671B",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 1.25,
+          "completion $/M": 1.25
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2025-11-13",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/deepcogito/cogito-v2.1-671b",
+            "observedAt": "2026-08-21T21:56:17.286Z"
+          }
+        ],
+        "fingerprint": "d5d386e23d1d1dfe0acf548b7b457f1f7d072d3f399a56da39012d73e9dcc8aa",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-21T23:02:49.620Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-08-21T23:02:49.620Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
