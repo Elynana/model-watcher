@@ -119135,6 +119135,204 @@
         "model"
       ],
       "detectedAt": "2026-08-21T16:25:57.218Z"
+    },
+    {
+      "id": "623472070c6678e7e5b547ad",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-image-2",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-image-2",
+        "slug": "gpt-image-2",
+        "slugAliases": [
+          "GPT Image 2",
+          "gpt-image-2"
+        ],
+        "displayName": "GPT Image 2",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "version": "2",
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "image_generation",
+          "vision": true
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5,
+          "input $/M": 5,
+          "output $/M": 30,
+          "cache_read $/M": 1.25,
+          "$/image": 0.145
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "fal.ai",
+          "fal_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-21T17:36:04.711Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-21T17:36:04.711Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://fal.ai/models/openai/gpt-image-2",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          },
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2",
+            "observedAt": "2026-08-21T18:00:31.093Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-21T18:00:31.093Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-21T17:36:04.711Z"
+          }
+        ],
+        "fingerprint": "937a145c90c991d711da9201ac170c079ce30e42fae799357ba6dfcee3398ae3",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-21T03:29:38.676Z"
+      },
+      "after": {
+        "key": "gpt::gpt-image-2",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-Image-2",
+        "slug": "GPT-Image-2",
+        "slugAliases": [
+          "GPT-Image-2",
+          "gpt-image-2"
+        ],
+        "displayName": "GPT Image 2",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "version": "2",
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "image_generation",
+          "vision": true
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5,
+          "input $/M": 5,
+          "output $/M": 30,
+          "cache_read $/M": 1.25,
+          "$/image": 0.145
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "fal.ai",
+          "fal_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-21T18:51:00.746Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-21T18:51:00.746Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://fal.ai/models/openai/gpt-image-2",
+            "observedAt": "2026-08-21T03:29:38.676Z"
+          },
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2",
+            "observedAt": "2026-08-21T18:51:00.746Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-21T18:51:00.746Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-21T18:51:00.746Z"
+          }
+        ],
+        "fingerprint": "690817319014ed0c4cf872979d13feb0139432a77a48d31b04da058170ed6ecd",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-21T18:51:00.746Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-08-21T18:51:00.746Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
