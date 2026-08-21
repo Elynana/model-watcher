@@ -119068,6 +119068,73 @@
         "displayName"
       ],
       "detectedAt": "2026-08-21T14:00:56.848Z"
+    },
+    {
+      "id": "6b4a237b18d498e371c59197",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0423",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0423",
+        "slug": "deepseek-v4-pro-0423",
+        "slugAliases": [
+          "deepseek-v4-pro-0423"
+        ],
+        "displayName": "DeepSeek V4 Pro 0423",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 1.32,
+          "output $/M": 3.96,
+          "cache_read $/M": 0.044
+        },
+        "availability": [
+          "Ofox"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ofox.ai/docs",
+            "observedAt": "2026-08-21T16:25:57.218Z"
+          }
+        ],
+        "fingerprint": "3528e25d3e7174e7279aa5568699bb31a8f3626ad87e30e6f511b1b6f469b2ce",
+        "firstSeen": "2026-08-21T16:25:57.218Z",
+        "lastChanged": "2026-08-21T16:25:57.218Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-21T16:25:57.218Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
