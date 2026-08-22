@@ -120214,6 +120214,58 @@
         "announcement"
       ],
       "detectedAt": "2026-08-22T02:13:46.614Z"
+    },
+    {
+      "id": "0fc21e62dd4857541481f504",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-asr-1-7b-hf-beam4",
+        "owner": "Boson AI",
+        "vendorId": "boson",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3-ASR-1.7B-hf-beam4",
+        "slug": "Qwen3-ASR-1.7B-hf-beam4",
+        "slugAliases": [
+          "Qwen3-ASR-1.7B-hf-beam4"
+        ],
+        "displayName": "Qwen3-ASR-1.7B-hf-beam4",
+        "modalities": [
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "7B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:boson:bosonai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/bosonai/Qwen3-ASR-1.7B-hf-beam4",
+            "observedAt": "2026-08-22T06:39:47.688Z"
+          }
+        ],
+        "fingerprint": "7a591b71a5517e05f1eabe5194f2c81d333ecc25009ccb71b8d829a22fadd839",
+        "firstSeen": "2026-08-22T06:39:47.688Z",
+        "lastChanged": "2026-08-22T06:39:47.688Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-22T06:39:47.688Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
