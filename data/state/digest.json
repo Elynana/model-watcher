@@ -121909,6 +121909,153 @@
         "model"
       ],
       "detectedAt": "2026-08-23T13:11:02.915Z"
+    },
+    {
+      "id": "b1a7b81084a46f54ab7bf844",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::m3",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "m3",
+        "slug": "m3",
+        "slugAliases": [
+          "m3"
+        ],
+        "displayName": "MiniMax-M3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4,
+          "cache_read $/M": 0.12,
+          "tiers $/M": [
+            {
+              "input": 1.2,
+              "output": 4.8,
+              "cache_read": 0.24,
+              "tier": {
+                "type": "context",
+                "size": 524288
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 1.2,
+            "output": 4.8,
+            "cache_read": 0.24
+          }
+        },
+        "availability": [
+          "Opper"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opper.ai/models",
+            "observedAt": "2026-08-23T16:38:45.235Z"
+          }
+        ],
+        "fingerprint": "4d4e0b8c7d4e23bbc6fa93dabf482248f6e78460adb0b49e7acb5e41042fb769",
+        "firstSeen": "2026-08-23T16:38:45.235Z",
+        "lastChanged": "2026-08-23T16:38:45.235Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-23T16:38:45.235Z"
+    },
+    {
+      "id": "a5c5e50201752cb2650a1153",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0731-284b",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-0731-284b",
+        "slug": "deepseek-v4-flash-0731-284b",
+        "slugAliases": [
+          "deepseek-v4-flash-0731-284b"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "parameters": "284B",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 81920
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.1
+        },
+        "availability": [
+          "AKI.IO"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://aki.io/docs/",
+            "observedAt": "2026-08-23T16:38:45.235Z"
+          }
+        ],
+        "fingerprint": "7c6753a1848bec533a2cc44a3c0ebc539b96de2670f906d8844e2f65206d71e6",
+        "firstSeen": "2026-08-23T16:38:45.235Z",
+        "lastChanged": "2026-08-23T16:38:45.235Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-23T16:38:45.235Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
