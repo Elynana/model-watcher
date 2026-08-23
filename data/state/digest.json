@@ -121844,6 +121844,71 @@
         "model"
       ],
       "detectedAt": "2026-08-23T00:58:28.891Z"
+    },
+    {
+      "id": "1a92328922150ba7e248da07",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-31b-meromero-v2",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "Gemma-4-31B-MeroMero-v2",
+        "slug": "Gemma-4-31B-MeroMero-v2",
+        "slugAliases": [
+          "Gemma-4-31B-MeroMero-v2"
+        ],
+        "displayName": "Gemma 4 31B MeroMero v2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.08,
+          "output $/M": 0.33,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-23T13:11:02.915Z"
+          }
+        ],
+        "fingerprint": "748bedca971b9a52ddd7a595ad7d5d17ee5117d032e064b6885a902fddbf7bf6",
+        "firstSeen": "2026-08-23T13:11:02.915Z",
+        "lastChanged": "2026-08-23T13:11:02.915Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-23T13:11:02.915Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
