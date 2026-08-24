@@ -122552,6 +122552,337 @@
         "displayName"
       ],
       "detectedAt": "2026-08-24T10:09:52.683Z"
+    },
+    {
+      "id": "d4ed8957446fb77f81cf4dcc",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-2-6-1t-20260423",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-2.6-1t-20260423",
+        "slug": "ling-2.6-1t-20260423",
+        "slugAliases": [
+          "ling-2.6-1t-20260423"
+        ],
+        "displayName": "inclusionAI: Ling-2.6-1T",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.6",
+        "capabilities": {
+          "accepts": "text",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.625,
+          "input_cache_read $/M": 0.015
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-23",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inclusionai/ling-2.6-1t",
+            "observedAt": "2026-08-24T08:29:47.820Z"
+          }
+        ],
+        "fingerprint": "1272d7024b9274dbdce2da5a84c7b53230d90f72abcc88ae8ea55a2c084efeba",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "ling::ling-2-6-1t-20260423",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-2.6-1t-20260423",
+        "slug": "ling-2.6-1t-20260423",
+        "slugAliases": [
+          "ling-2.6-1t-20260423"
+        ],
+        "displayName": "inclusionAI: Ling-2.6-1T",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.6",
+        "capabilities": {
+          "accepts": "text",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.625,
+          "input_cache_read $/M": 0.015
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-04-23",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inclusionai/ling-2.6-1t",
+            "observedAt": "2026-08-24T08:29:47.820Z"
+          }
+        ],
+        "fingerprint": "e2409feeeb7773321554e376d6ece914e113ee1b04da20f2537afc645ebfb757",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-24T10:52:13.360Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-08-24T10:52:13.360Z"
+    },
+    {
+      "id": "cb9f955556aec1dfede8b9c8",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-2-6-flash-20260421",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-2.6-flash-20260421",
+        "slug": "ling-2.6-flash-20260421",
+        "slugAliases": [
+          "ling-2.6-flash-20260421"
+        ],
+        "displayName": "inclusionAI: Ling-2.6-flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "flash",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.01,
+          "completion $/M": 0.03,
+          "input_cache_read $/M": 0.002
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-21",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inclusionai/ling-2.6-flash",
+            "observedAt": "2026-08-24T08:29:47.820Z"
+          }
+        ],
+        "fingerprint": "18eff6c634336d07cbf6316a815bd745d28bc1fe608987f1f1dc30143dc37578",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "ling::ling-2-6-flash-20260421",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-2.6-flash-20260421",
+        "slug": "ling-2.6-flash-20260421",
+        "slugAliases": [
+          "ling-2.6-flash-20260421"
+        ],
+        "displayName": "inclusionAI: Ling-2.6-flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "flash",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.01,
+          "completion $/M": 0.03,
+          "input_cache_read $/M": 0.002
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-04-21",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inclusionai/ling-2.6-flash",
+            "observedAt": "2026-08-24T08:29:47.820Z"
+          }
+        ],
+        "fingerprint": "213a59de53dc5b5bd3bd8d7ad15c3b1f0eb9fa80f5968ccb1e4a239c0b4ccc58",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-24T10:52:13.360Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-08-24T10:52:13.360Z"
+    },
+    {
+      "id": "a06d37fe83d3b3c8d1d43413",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ring-2-6-1t-20260508",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ring-2.6-1t-20260508",
+        "slug": "ring-2.6-1t-20260508",
+        "slugAliases": [
+          "ring-2.6-1t-20260508"
+        ],
+        "displayName": "inclusionAI: Ring-2.6-1T",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.6",
+        "capabilities": {
+          "accepts": "text",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.625,
+          "input_cache_read $/M": 0.015
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-08",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inclusionai/ring-2.6-1t",
+            "observedAt": "2026-08-24T08:29:47.820Z"
+          }
+        ],
+        "fingerprint": "f4ca2417a881a0e35d272e520d94a3ba17001961402a80349ae2494de130df12",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "ling::ring-2-6-1t-20260508",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ring-2.6-1t-20260508",
+        "slug": "ring-2.6-1t-20260508",
+        "slugAliases": [
+          "ring-2.6-1t-20260508"
+        ],
+        "displayName": "inclusionAI: Ring-2.6-1T",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.6",
+        "capabilities": {
+          "accepts": "text",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.625,
+          "input_cache_read $/M": 0.015
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-05-08",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inclusionai/ring-2.6-1t",
+            "observedAt": "2026-08-24T08:29:47.820Z"
+          }
+        ],
+        "fingerprint": "6b2624c8de77938c285cd188e7dc32380b028b39eb711cf09a35fa3dbab7480b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-24T10:52:13.360Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-08-24T10:52:13.360Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
