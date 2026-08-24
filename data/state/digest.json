@@ -122056,6 +122056,166 @@
         "model"
       ],
       "detectedAt": "2026-08-23T16:38:45.235Z"
+    },
+    {
+      "id": "8cff279a96070599bd1432e3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-vision-exp",
+        "slug": "deepseek-v4-flash-vision-exp",
+        "slugAliases": [
+          "deepseek-v4-flash-vision-exp"
+        ],
+        "displayName": "DeepSeek V4 Flash Vision Exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.22,
+          "output $/M": 0.66,
+          "cache_read $/M": 0.007
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-08-23T02:24:13.108Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-24T05:52:20.447Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-24T05:52:20.447Z"
+          }
+        ],
+        "fingerprint": "5238596595cbe88fc6301374baa2581c0631624883236e1febdb60c2c206d904",
+        "firstSeen": "2026-08-21T09:49:31.119Z",
+        "lastChanged": "2026-08-22T10:36:00.069Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-vision-exp",
+        "slug": "deepseek-v4-flash-vision-exp",
+        "slugAliases": [
+          "deepseek-v4-flash-vision-exp"
+        ],
+        "displayName": "DeepSeek V4 Flash Vision Exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.22,
+          "output $/M": 0.66,
+          "cache_read $/M": 0.007
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-08-23T02:24:13.108Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-24T06:44:17.956Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-24T06:44:17.956Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-24T06:44:17.956Z"
+          }
+        ],
+        "fingerprint": "f903f3d28ed8cb042036313ac4b4b6f0d1f2d5c1cfdad722ddca2caf5c4bdbb0",
+        "firstSeen": "2026-08-21T09:49:31.119Z",
+        "lastChanged": "2026-08-24T06:44:17.956Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-24T06:44:17.956Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
