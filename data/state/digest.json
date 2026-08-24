@@ -123438,6 +123438,387 @@
         "model"
       ],
       "detectedAt": "2026-08-24T19:02:44.500Z"
+    },
+    {
+      "id": "1db4bc4120bd5a6ced899ade",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-realtime-2-1-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-realtime-2.1-mini",
+        "slug": "gpt-realtime-2.1-mini",
+        "slugAliases": [
+          "GPT-Realtime-2.1 mini",
+          "gpt-realtime-2.1-mini"
+        ],
+        "displayName": "GPT-Realtime-2.1 mini",
+        "modalities": [
+          "audio",
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "realtime",
+          "toolCalling": true,
+          "accepts": "audio, image, text",
+          "tier": "mini",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4
+        },
+        "availability": [
+          "documented",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-24T21:43:33.379Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-22T22:41:58.384Z"
+          }
+        ],
+        "fingerprint": "4da759aba2b0e3ca6af3ba8f5c7119fe459306da80ea9b1642ae4d0ccf965034",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "gpt::gpt-realtime-2-1-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-realtime-2.1-mini",
+        "slug": "gpt-realtime-2.1-mini",
+        "slugAliases": [
+          "GPT-Realtime-2.1 Mini",
+          "gpt-realtime-2.1-mini"
+        ],
+        "displayName": "GPT-Realtime-2.1 Mini",
+        "modalities": [
+          "audio",
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "realtime",
+          "toolCalling": true,
+          "accepts": "audio, image, text",
+          "tier": "mini",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4
+        },
+        "availability": [
+          "documented",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-24T22:33:05.972Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-22T22:41:58.384Z"
+          }
+        ],
+        "fingerprint": "f55301b1c743717039300471b0ed78f8b0f4f03ba9f8c215e1239b9b3c2722b0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-24T22:33:05.972Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-24T22:33:05.972Z"
+    },
+    {
+      "id": "13caf5d7a9ab50b1fe058dfa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-obliterated",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-obliterated",
+        "slug": "qwen3.8-27b-obliterated",
+        "slugAliases": [
+          "qwen3.8-27b-obliterated"
+        ],
+        "displayName": "Qwen 3.8 27B Obliterated",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.18,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-24T22:33:05.972Z"
+          }
+        ],
+        "fingerprint": "87264364dfc889b6dc895525f67bcbbe9b44a071df0261ab1e82ce1a799787ef",
+        "firstSeen": "2026-08-24T22:33:05.972Z",
+        "lastChanged": "2026-08-24T22:33:05.972Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-24T22:33:05.972Z"
+    },
+    {
+      "id": "33e328f6eaddd081a912b51d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-6-35b-a3b-uncensored-thinking",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.6-35b-a3b-uncensored:thinking",
+        "slug": "qwen3.6-35b-a3b-uncensored:thinking",
+        "slugAliases": [
+          "qwen3.6-35b-a3b-uncensored:thinking"
+        ],
+        "displayName": "Qwen 3.6 35B A3B Uncensored Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "35B",
+          "activeParameters": "3B active",
+          "version": "3.6"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-24T22:33:05.972Z"
+          }
+        ],
+        "fingerprint": "fb37fd6c074e9a14b725e10abf622c1bc11ebfbe9618612a7d386fc5c93bfa22",
+        "firstSeen": "2026-08-24T22:33:05.972Z",
+        "lastChanged": "2026-08-24T22:33:05.972Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-24T22:33:05.972Z"
+    },
+    {
+      "id": "71a9a1c02720bde1b0cb08cd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-obliterated-thinking",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-obliterated:thinking",
+        "slug": "qwen3.8-27b-obliterated:thinking",
+        "slugAliases": [
+          "qwen3.8-27b-obliterated:thinking"
+        ],
+        "displayName": "Qwen 3.8 27B Obliterated Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.18,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-24T22:33:05.972Z"
+          }
+        ],
+        "fingerprint": "a1c3e24c73739867bd791b729bed318e5a20150bbb4d69f5242406e309713bf8",
+        "firstSeen": "2026-08-24T22:33:05.972Z",
+        "lastChanged": "2026-08-24T22:33:05.972Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-24T22:33:05.972Z"
+    },
+    {
+      "id": "4166764d7a0ea9d80c40a67b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-max-1574",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-max 1574",
+        "slug": "kimi-k3-max 1574",
+        "slugAliases": [
+          "kimi-k3-max 1574"
+        ],
+        "displayName": "kimi-k3-max 1574",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-24T22:33:05.972Z"
+          }
+        ],
+        "fingerprint": "8604d233b8895126647b8d294fbcf7492f56ee65011bf7f11123f8f6e2122d8f",
+        "firstSeen": "2026-08-24T22:33:05.972Z",
+        "lastChanged": "2026-08-24T22:33:05.972Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-24T22:33:05.972Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
