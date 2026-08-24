@@ -122883,6 +122883,312 @@
         "lifecycle"
       ],
       "detectedAt": "2026-08-24T10:52:13.360Z"
+    },
+    {
+      "id": "6079fe47937649c898ce82c7",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-nano-12b-v2-vl",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-nano-12b-v2-vl",
+        "slug": "nemotron-nano-12b-v2-vl",
+        "slugAliases": [
+          "nemotron-nano-12b-v2-vl"
+        ],
+        "displayName": "Nvidia Nemotron Nano 12B V2 VL",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "nano",
+        "capabilities": {
+          "accepts": "image, text",
+          "parameters": "12B",
+          "tier": "nano",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-24T12:37:31.351Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-24T14:22:23.799Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
+            "observedAt": "2026-08-24T12:37:31.351Z"
+          }
+        ],
+        "fingerprint": "d0088cb62a4481fd147a41f8fe3f14f646e14ae22d97ef6936810850fc5005f9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-18T04:02:04.665Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-nano-12b-v2-vl",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-nano-12b-v2-vl",
+        "slug": "nemotron-nano-12b-v2-vl",
+        "slugAliases": [
+          "nemotron-nano-12b-v2-vl"
+        ],
+        "displayName": "Nvidia Nemotron Nano 12B V2 VL",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "nano",
+        "capabilities": {
+          "parameters": "12B",
+          "tier": "nano",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-24T15:13:58.062Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-24T15:13:58.062Z"
+          }
+        ],
+        "fingerprint": "ec8387bc84a50d904c6438a53ea6ad397cc717ec9c548e41559ab53d8da5952d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-24T15:13:58.062Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-24T15:13:58.062Z"
+    },
+    {
+      "id": "94924be1ab96a3bf4a978455",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-nano-9b-v2",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nvidia.nemotron-nano-9b-v2",
+        "slug": "nemotron-nano-9b-v2",
+        "slugAliases": [
+          "nemotron-nano-9b-v2",
+          "nvidia.nemotron-nano-9b-v2"
+        ],
+        "displayName": "Nemotron Nano 9B v2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "nano",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "9B",
+          "tier": "nano",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.23
+        },
+        "availability": [
+          "Eden AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "bedrock_converse"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-24T12:37:31.351Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-22T22:41:58.384Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-24T14:22:23.799Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
+            "observedAt": "2026-08-24T12:37:31.351Z"
+          }
+        ],
+        "fingerprint": "357843351dd1758a6e4ac27c9b21d6c8f5e26841902b50807428238bd83f5399",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-nano-9b-v2",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nvidia.nemotron-nano-9b-v2",
+        "slug": "nemotron-nano-9b-v2",
+        "slugAliases": [
+          "nemotron-nano-9b-v2",
+          "nvidia.nemotron-nano-9b-v2"
+        ],
+        "displayName": "Nemotron Nano 9B v2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "nano",
+        "capabilities": {
+          "parameters": "9B",
+          "tier": "nano",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.23
+        },
+        "availability": [
+          "Eden AI",
+          "Vercel AI Gateway",
+          "bedrock_converse"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-24T15:13:58.062Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-22T22:41:58.384Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-24T15:13:58.062Z"
+          }
+        ],
+        "fingerprint": "15049161fe0b19529dfc43cc687cc5a0b815d3922224711f7dadcec18756dddb",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-24T15:13:58.062Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-24T15:13:58.062Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
