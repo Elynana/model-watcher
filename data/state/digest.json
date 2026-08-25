@@ -124462,6 +124462,68 @@
         "model"
       ],
       "detectedAt": "2026-08-25T04:20:40.951Z"
+    },
+    {
+      "id": "1204e3f28f2b16d08060950b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wan::wan-v3-0-video",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Wan",
+        "familyId": "wan",
+        "modelId": "wan-v3.0-video",
+        "slug": "wan-v3.0-video",
+        "slugAliases": [
+          "wan-v3.0-video"
+        ],
+        "displayName": "Wan v3.0 Video",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "version": "3.0",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {},
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-08-25T05:35:09.755Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-25T05:35:09.755Z"
+          }
+        ],
+        "fingerprint": "13df6bcfa8cd8043348a5ded7e37719d8e7bafdf7fb43e246676d6569460b8a3",
+        "firstSeen": "2026-08-25T05:35:09.755Z",
+        "lastChanged": "2026-08-25T05:35:09.755Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T05:35:09.755Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
