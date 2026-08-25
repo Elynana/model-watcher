@@ -126156,6 +126156,138 @@
         "announcement"
       ],
       "detectedAt": "2026-08-25T17:27:03.726Z"
+    },
+    {
+      "id": "8a5eea86d1d343f19d710dd0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-coder-next-eu",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-coder-next@eu",
+        "slug": "qwen3-coder-next@eu",
+        "slugAliases": [
+          "qwen3-coder-next@eu"
+        ],
+        "displayName": "Qwen3 Coder Next (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-09",
+          "accepts": "text",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 1.5
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-03",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-25T18:32:05.625Z"
+          }
+        ],
+        "fingerprint": "3baaa5c58b65aa5b6431769c64a2c44ac14d95e335fee57b8e7a9255126f11d2",
+        "firstSeen": "2026-08-25T18:32:05.625Z",
+        "lastChanged": "2026-08-25T18:32:05.625Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T18:32:05.625Z"
+    },
+    {
+      "id": "50293a951aeafb868e04ca51",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-max-eu",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-max@eu",
+        "slug": "qwen3-max@eu",
+        "slugAliases": [
+          "qwen3-max@eu"
+        ],
+        "displayName": "Qwen3 Max (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "max",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-04",
+          "accepts": "text",
+          "tier": "max",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1.2,
+          "output $/M": 6,
+          "cache_read $/M": 0.24,
+          "cache_write $/M": 1.5
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-25T18:32:05.625Z"
+          }
+        ],
+        "fingerprint": "78372b9c09c999e9a143c73785d8b61e9d4b34a4d7143939efdd3121db4b43ba",
+        "firstSeen": "2026-08-25T18:32:05.625Z",
+        "lastChanged": "2026-08-25T18:32:05.625Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T18:32:05.625Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
