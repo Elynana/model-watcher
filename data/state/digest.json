@@ -124524,6 +124524,173 @@
         "model"
       ],
       "detectedAt": "2026-08-25T05:35:09.755Z"
+    },
+    {
+      "id": "6530378e6c5f343956c302fc",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "minimax::free",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m3:free",
+        "slug": "free",
+        "slugAliases": [
+          "minimax-m3:free"
+        ],
+        "displayName": "MiniMax M3 (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-08-25T04:59:22.785Z"
+          }
+        ],
+        "fingerprint": "36975b25ed7badcc0034d8cdbae79d388cfc6490b8677e8779e628b428aa51e3",
+        "firstSeen": "2026-08-25T04:59:22.785Z",
+        "lastChanged": "2026-08-25T04:59:22.785Z"
+      },
+      "after": {
+        "key": "minimax::free",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "minimax-m3:free",
+        "slug": "free",
+        "slugAliases": [
+          "minimax-m3:free"
+        ],
+        "displayName": "MiniMax: MiniMax M3 (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-25T07:54:34.946Z"
+          }
+        ],
+        "fingerprint": "2b684f2db368ab065754efd27969b3f2c4750c30d0216f25a9f72955871a9e9d",
+        "firstSeen": "2026-08-25T04:59:22.785Z",
+        "lastChanged": "2026-08-25T07:54:34.946Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-25T07:54:34.946Z"
+    },
+    {
+      "id": "a78957f1486d03c98ce6059f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::perplexity-ai-pplx-computer-qwen-3-8-27b-dflash2-20260824",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "perplexity-ai/pplx-computer-qwen-3-8-27b-dflash2-20260824",
+        "slug": "perplexity-ai/pplx-computer-qwen-3-8-27b-dflash2-20260824",
+        "slugAliases": [
+          "perplexity-ai/pplx-computer-qwen-3-8-27b-dflash2-20260824"
+        ],
+        "displayName": "pplx-computer-qwen-3-8-27b-dflash2-20260824",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3.8",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pplx-computer-qwen-3-8-27b-dflash2-20260824",
+            "observedAt": "2026-08-25T07:54:34.946Z"
+          }
+        ],
+        "fingerprint": "9639b0c3b0cc2588bb8878da9d19d7ee09ecf53d95b51b55999f487dff207e8b",
+        "firstSeen": "2026-08-25T07:54:34.946Z",
+        "lastChanged": "2026-08-25T07:54:34.946Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T07:54:34.946Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
