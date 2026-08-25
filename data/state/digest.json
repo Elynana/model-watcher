@@ -126288,6 +126288,71 @@
         "model"
       ],
       "detectedAt": "2026-08-25T18:32:05.625Z"
+    },
+    {
+      "id": "127d38554ebeab028e67e218",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-uncensored-thinking",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-uncensored:thinking",
+        "slug": "qwen3.8-27b-uncensored:thinking",
+        "slugAliases": [
+          "qwen3.8-27b-uncensored:thinking"
+        ],
+        "displayName": "Qwen 3.8 27B Uncensored Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.18,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-25T20:49:24.227Z"
+          }
+        ],
+        "fingerprint": "07daf702369fcad2458749a8f2f63d20423469c4718722a04f7a653d2e6c9ec9",
+        "firstSeen": "2026-08-25T20:49:24.227Z",
+        "lastChanged": "2026-08-25T20:49:24.227Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T20:49:24.227Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
