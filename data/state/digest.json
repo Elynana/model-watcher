@@ -124397,6 +124397,71 @@
         "model"
       ],
       "detectedAt": "2026-08-25T02:46:37.529Z"
+    },
+    {
+      "id": "47f1ad8ceb9ec5db8b0fe73c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-4-2-8b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.2-8b",
+        "slug": "granite-4.2-8b",
+        "slugAliases": [
+          "granite-4.2-8b"
+        ],
+        "displayName": "Granite 4.2 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "4.2"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.15,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Weights & Biases"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-08-25T04:20:40.951Z"
+          }
+        ],
+        "fingerprint": "9d5cc658dd30828a0611f6e93088ece1a86fbef44673692e7c41490326f0d2b2",
+        "firstSeen": "2026-08-25T04:20:40.951Z",
+        "lastChanged": "2026-08-25T04:20:40.951Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T04:20:40.951Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
