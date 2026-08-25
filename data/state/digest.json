@@ -125564,6 +125564,546 @@
         "model"
       ],
       "detectedAt": "2026-08-25T09:55:31.995Z"
+    },
+    {
+      "id": "9c9846aad1c8839541edf21e",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "granite::granite-4-2-8b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.2-8b",
+        "slug": "granite-4.2-8b",
+        "slugAliases": [
+          "granite-4.2-8b"
+        ],
+        "displayName": "Granite 4.2 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "4.2"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.15,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Weights & Biases"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-08-25T14:25:52.941Z"
+          }
+        ],
+        "fingerprint": "9d5cc658dd30828a0611f6e93088ece1a86fbef44673692e7c41490326f0d2b2",
+        "firstSeen": "2026-08-25T04:20:40.951Z",
+        "lastChanged": "2026-08-25T04:20:40.951Z"
+      },
+      "after": {
+        "key": "granite::granite-4-2-8b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.2-8b",
+        "slug": "granite-4.2-8b",
+        "slugAliases": [
+          "granite-4.2-8b"
+        ],
+        "displayName": "Granite 4.2 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "4.2"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.15,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Weights & Biases",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-4.2-8b",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "b2aea146af7aed4b0fd4115ad44d976ebfa5055f459a3b8f9f6d0961308dccfe",
+        "firstSeen": "2026-08-25T04:20:40.951Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
+    },
+    {
+      "id": "84bb86c9634b201a1117a1aa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-4-2",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "Granite 4.2",
+        "slug": "Granite 4.2",
+        "slugAliases": [
+          "Granite 4.2"
+        ],
+        "displayName": "Granite 4.2",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2",
+        "capabilities": {
+          "version": "4.2"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:ibm",
+            "sourceKind": "official-page",
+            "url": "https://www.ibm.com/granite",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "bd233673e842ec5c342ce721e52ecccdc9f4d70ea06fbdd0d5c1bac0c21b62c5",
+        "firstSeen": "2026-08-25T15:14:00.470Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
+    },
+    {
+      "id": "63929fbb5a232688e7d702cf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-4-2-3",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.2-3",
+        "slug": "granite-4.2-3",
+        "slugAliases": [
+          "granite-4.2-3"
+        ],
+        "displayName": "granite-4.2-3",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2.3",
+        "capabilities": {
+          "version": "4.2.3"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:ibm",
+            "sourceKind": "official-page",
+            "url": "https://www.ibm.com/granite",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "b85ba1e50e3ac2b8c1a3f59daebbce159f6fb224b735ebb73fb10b7ba73a3e5b",
+        "firstSeen": "2026-08-25T15:14:00.470Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
+    },
+    {
+      "id": "5c1b7e219aa196be5881cd1c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-4-2-8",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.2-8",
+        "slug": "granite-4.2-8",
+        "slugAliases": [
+          "granite-4.2-8"
+        ],
+        "displayName": "granite-4.2-8",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2.8",
+        "capabilities": {
+          "version": "4.2.8"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:ibm",
+            "sourceKind": "official-page",
+            "url": "https://www.ibm.com/granite",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "02c20dcba3c0005e353166421413311dfc39c92a2e4b9b544c00509df760bd38",
+        "firstSeen": "2026-08-25T15:14:00.470Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
+    },
+    {
+      "id": "b81113e6fdf10d986e986c5b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-4-2-30",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.2-30",
+        "slug": "granite-4.2-30",
+        "slugAliases": [
+          "granite-4.2-30"
+        ],
+        "displayName": "granite-4.2-30",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2.30",
+        "capabilities": {
+          "version": "4.2.30"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:ibm",
+            "sourceKind": "official-page",
+            "url": "https://www.ibm.com/granite",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "1aba02a37ddb90f1d9aceac7f275e71e04c7b994c614918e89de320cd3ba4809",
+        "firstSeen": "2026-08-25T15:14:00.470Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
+    },
+    {
+      "id": "92a87670c35d58e92711eee2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-speech-5-0-470m-turboctc-nc",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-speech-5.0-470m-turboctc-nc",
+        "slug": "granite-speech-5.0-470m-turboctc-nc",
+        "slugAliases": [
+          "granite-speech-5.0-470m-turboctc-nc"
+        ],
+        "displayName": "granite-speech-5.0-470m-turboctc-nc",
+        "modalities": [
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.0",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "470M",
+          "version": "5.0"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc-nc",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "cf061ea41f2946c6c098adeaf6718dc5de65563d2e1e91f0ebc1ed33b2234bf4",
+        "firstSeen": "2026-08-25T15:14:00.470Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
+    },
+    {
+      "id": "104a063c45a2c6aec2b6e6f2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-4-2-30b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.2-30b",
+        "slug": "granite-4.2-30b",
+        "slugAliases": [
+          "granite-4.2-30b"
+        ],
+        "displayName": "granite-4.2-30b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "30B",
+          "version": "4.2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-4.2-30b",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "01ede18e0460dd5b7b4c38f51b004fa332f406ece7f2117a137200106ecdf5ed",
+        "firstSeen": "2026-08-25T15:14:00.470Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
+    },
+    {
+      "id": "c7ad78d7f19f0090b73e316f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-4-2-3b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.2-3b",
+        "slug": "granite-4.2-3b",
+        "slugAliases": [
+          "granite-4.2-3b"
+        ],
+        "displayName": "granite-4.2-3b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "3B",
+          "version": "4.2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-4.2-3b",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "7cdd441cc38efdf789a526cd3e6e9e7ce4395af5f3d44f135234baa15db40d1d",
+        "firstSeen": "2026-08-25T15:14:00.470Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
+    },
+    {
+      "id": "f2d2a57f404ba8507695b1e7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-speech-5-0-470m-turboctc",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-speech-5.0-470m-turboctc",
+        "slug": "granite-speech-5.0-470m-turboctc",
+        "slugAliases": [
+          "granite-speech-5.0-470m-turboctc"
+        ],
+        "displayName": "granite-speech-5.0-470m-turboctc",
+        "modalities": [
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.0",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "470M",
+          "version": "5.0"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
+            "observedAt": "2026-08-25T15:14:00.470Z"
+          }
+        ],
+        "fingerprint": "fc62a9066edc7695500aae2561ae83247accb2f6e942d009a7e1afe266d9d7c5",
+        "firstSeen": "2026-08-25T15:14:00.470Z",
+        "lastChanged": "2026-08-25T15:14:00.470Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T15:14:00.470Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
