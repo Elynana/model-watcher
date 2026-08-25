@@ -123968,6 +123968,435 @@
         "model"
       ],
       "detectedAt": "2026-08-25T01:48:43.081Z"
+    },
+    {
+      "id": "a67bdc3e1cc29eb6d5280582",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-120b-a12b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "@cf/nvidia/nemotron-3-120b-a12b",
+        "slug": "nemotron-3-120b-a12b",
+        "slugAliases": [
+          "@cf/nvidia/nemotron-3-120b-a12b"
+        ],
+        "displayName": "Nemotron 3 Super 120B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "120B",
+          "activeParameters": "12B active",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 1.5
+        },
+        "availability": [
+          "Cloudflare AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          }
+        ],
+        "fingerprint": "cabb8c2105de8082b62fff0d2fb9630e911db50942e3ac388b6622551cd3c70d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T05:59:48.236Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-120b-a12b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3-120b-a12b",
+        "slug": "nemotron-3-120b-a12b",
+        "slugAliases": [
+          "nemotron-3-120b-a12b"
+        ],
+        "displayName": "Nemotron 3 Super 120B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "120B",
+          "activeParameters": "12B active",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 1.5
+        },
+        "availability": [
+          "Cloudflare Workers AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-08-25T02:46:37.529Z"
+          }
+        ],
+        "fingerprint": "87327c1da59b593b7f5d1f45472a577e7ac2328df40850c3f95b13478385219e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-25T02:46:37.529Z"
+      },
+      "changedFields": [
+        "availability",
+        "modelId"
+      ],
+      "detectedAt": "2026-08-25T02:46:37.529Z"
+    },
+    {
+      "id": "97c3786ba5f784b773108d73",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-5-6",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6",
+        "slug": "gpt-5.6",
+        "slugAliases": [
+          "GPT-5.6",
+          "gpt-5.6"
+        ],
+        "displayName": "GPT-5.6",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "version": "5.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 6.25,
+          "tiers $/M": [
+            {
+              "input": 10,
+              "output": 45,
+              "cache_read": 1,
+              "cache_write": 12.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 10,
+            "output": 45,
+            "cache_read": 1,
+            "cache_write": 12.5
+          }
+        },
+        "availability": [
+          "Cloudflare AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:openai-models",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/ai-gateway/",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-22T22:41:58.384Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          }
+        ],
+        "fingerprint": "73deb9b89a553998999f48eb9a85441462bb9f86edbdda23106f047af152242a",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-08-22T22:41:58.384Z"
+      },
+      "after": {
+        "key": "gpt::gpt-5-6",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6",
+        "slug": "gpt-5.6",
+        "slugAliases": [
+          "GPT-5.6",
+          "gpt-5.6"
+        ],
+        "displayName": "GPT-5.6",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "version": "5.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 6.25,
+          "tiers $/M": [
+            {
+              "input": 10,
+              "output": 45,
+              "cache_read": 1,
+              "cache_write": 12.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 10,
+            "output": 45,
+            "cache_read": 1,
+            "cache_write": 12.5
+          }
+        },
+        "availability": [
+          "OpenAI",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:openai-models",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-25T02:46:37.529Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+            "observedAt": "2026-08-25T02:46:37.529Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-25T02:46:37.529Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-22T22:41:58.384Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-25T02:46:37.529Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-25T02:46:37.529Z"
+          }
+        ],
+        "fingerprint": "75784a1cf19147bc4dd550735c06e83662baa53ab9589815832f854f81dc5837",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-08-25T02:46:37.529Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-25T02:46:37.529Z"
+    },
+    {
+      "id": "5dcc02200382b53abfcef880",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "perplexity-ai-pplx-pii-masking-vllm::perplexity-ai-pplx-pii-masking-vllm",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "perplexity-ai-pplx-pii-masking-vllm",
+        "modelId": "perplexity-ai/pplx-pii-masking-vllm",
+        "slug": "perplexity-ai/pplx-pii-masking-vllm",
+        "slugAliases": [
+          "perplexity-ai/pplx-pii-masking-vllm"
+        ],
+        "displayName": "pplx-pii-masking-vllm",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pplx-pii-masking-vllm",
+            "observedAt": "2026-08-25T02:46:37.529Z"
+          }
+        ],
+        "fingerprint": "8684a1ec9a899c1f624bb8265748c4a97941e610975c9f88f4a7d58257a3ada4",
+        "firstSeen": "2026-08-25T02:46:37.529Z",
+        "lastChanged": "2026-08-25T02:46:37.529Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T02:46:37.529Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
