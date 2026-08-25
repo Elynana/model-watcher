@@ -123819,6 +123819,155 @@
         "announcement"
       ],
       "detectedAt": "2026-08-24T22:33:05.972Z"
+    },
+    {
+      "id": "2ac3cd12073328e32df6d91e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "perplexity-ai-pplx-computer-vllm-dflash2::perplexity-ai-pplx-computer-vllm-dflash2",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "perplexity-ai-pplx-computer-vllm-dflash2",
+        "modelId": "perplexity-ai/pplx-computer-vllm-dflash2",
+        "slug": "perplexity-ai/pplx-computer-vllm-dflash2",
+        "slugAliases": [
+          "perplexity-ai/pplx-computer-vllm-dflash2"
+        ],
+        "displayName": "pplx-computer-vllm-dflash2",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pplx-computer-vllm-dflash2",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          }
+        ],
+        "fingerprint": "11ca7e35ab158f4886e4431eb7179cb08a731794bf8dc00e13671fecd540ebcd",
+        "firstSeen": "2026-08-25T01:48:43.081Z",
+        "lastChanged": "2026-08-25T01:48:43.081Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T01:48:43.081Z"
+    },
+    {
+      "id": "e118464e1972040fa1b19777",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::perplexity-ai-pplx-qwen-3-8-27b-dflash2-20260819",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "perplexity-ai/pplx-qwen-3-8-27b-dflash2-20260819",
+        "slug": "perplexity-ai/pplx-qwen-3-8-27b-dflash2-20260819",
+        "slugAliases": [
+          "perplexity-ai/pplx-qwen-3-8-27b-dflash2-20260819"
+        ],
+        "displayName": "pplx-qwen-3-8-27b-dflash2-20260819",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3.8",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-19",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pplx-qwen-3-8-27b-dflash2-20260819",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          }
+        ],
+        "fingerprint": "82b6f234e6fe0646da3c2626e7628de9dd7a870a6d5454017d8e8dcdc97b1f01",
+        "firstSeen": "2026-08-25T01:48:43.081Z",
+        "lastChanged": "2026-08-25T01:48:43.081Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T01:48:43.081Z"
+    },
+    {
+      "id": "a685830eadfcd696161cc9f1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::llama-cpp-linux-binaries",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "llama-cpp-linux-binaries",
+        "slug": "llama-cpp-linux-binaries",
+        "slugAliases": [
+          "llama-cpp-linux-binaries"
+        ],
+        "displayName": "llama-cpp-linux-binaries",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/llama-cpp-linux-binaries",
+            "observedAt": "2026-08-25T01:48:43.081Z"
+          }
+        ],
+        "fingerprint": "f00467ab2b40dfef22bd80431745b9ace70e6d0256083393783618e58bdae12b",
+        "firstSeen": "2026-08-25T01:48:43.081Z",
+        "lastChanged": "2026-08-25T01:48:43.081Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-25T01:48:43.081Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
