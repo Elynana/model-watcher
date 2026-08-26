@@ -127105,6 +127105,72 @@
         "announcement"
       ],
       "detectedAt": "2026-08-26T06:20:28.944Z"
+    },
+    {
+      "id": "ad7a37ef21f59e259cbb0d7d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-26b-a4b-meromero",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "Gemma-4-26B-A4B-MeroMero",
+        "slug": "Gemma-4-26B-A4B-MeroMero",
+        "slugAliases": [
+          "Gemma-4-26B-A4B-MeroMero"
+        ],
+        "displayName": "Gemma 4 26B A4B MeroMero",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "26B",
+          "activeParameters": "4B active",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.08,
+          "output $/M": 0.33,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-26T10:55:18.823Z"
+          }
+        ],
+        "fingerprint": "64f8981a3340f8a1c80de0c042723e697c08a017fb78ba4b5937b1212e8d9624",
+        "firstSeen": "2026-08-26T10:55:18.823Z",
+        "lastChanged": "2026-08-26T10:55:18.823Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T10:55:18.823Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
