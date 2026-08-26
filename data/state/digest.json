@@ -128621,6 +128621,423 @@
         "model"
       ],
       "detectedAt": "2026-08-26T18:32:48.123Z"
+    },
+    {
+      "id": "dcde526543be7de6e9b7e9f5",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM-5.3-Flash",
+          "glm-5-3-flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM 5.3 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "5.3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.09375,
+          "output $/M": 0.3125,
+          "cache_read $/M": 0.01875
+        },
+        "availability": [
+          "DeepInfra",
+          "Novita AI",
+          "Venice AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          }
+        ],
+        "fingerprint": "dd27f3e1c107fbca06f7d247b98f7028640272d8a973b5a7d0b5a2703685fd2d",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T18:32:48.123Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM-5.3-Flash",
+          "glm-5-3-flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM 5.3 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "5.3",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.09375,
+          "output $/M": 0.3125,
+          "cache_read $/M": 0.01875
+        },
+        "availability": [
+          "DeepInfra",
+          "Novita AI",
+          "Ollama",
+          "Venice AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.3-flash",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          }
+        ],
+        "fingerprint": "326f16dbc5076917686417291d03617b544933ab85bfc719f5416603fca2f1b0",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T20:41:36.217Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-26T20:41:36.217Z"
+    },
+    {
+      "id": "e18ae08f3e03e3ae727a5a5f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-ga-260813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-ga-260813",
+        "slug": "deepseek-v4-pro-ga-260813",
+        "slugAliases": [
+          "deepseek-v4-pro-ga-260813"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 1.3359,
+          "output $/M": 4.00771,
+          "cache_read $/M": 0.04453
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          }
+        ],
+        "fingerprint": "e715f6a9d26c82e22464530185c0cbc2b9b6030d08fce845941f473481e7d7ad",
+        "firstSeen": "2026-08-26T20:41:36.217Z",
+        "lastChanged": "2026-08-26T20:41:36.217Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T20:41:36.217Z"
+    },
+    {
+      "id": "b72854dfbe232e44bd1f1665",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-ga-260731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-ga-260731",
+        "slug": "deepseek-v4-flash-ga-260731",
+        "slugAliases": [
+          "deepseek-v4-flash-ga-260731"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.4453,
+          "output $/M": 1.3359,
+          "cache_read $/M": 0.01484
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          }
+        ],
+        "fingerprint": "a409794df5bb566faf216a5c695a55431c6185a55ed6fd42ff4d85799b0d9bfb",
+        "firstSeen": "2026-08-26T20:41:36.217Z",
+        "lastChanged": "2026-08-26T20:41:36.217Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T20:41:36.217Z"
+    },
+    {
+      "id": "a3b6d10e9a8572ffc9ece624",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-260617",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5-2-260617",
+        "slug": "glm-5-2-260617",
+        "slugAliases": [
+          "glm-5-2-260617"
+        ],
+        "displayName": "GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.18747,
+          "output $/M": 4.15615,
+          "cache_read $/M": 0.29687
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-08-26T20:41:36.217Z"
+          }
+        ],
+        "fingerprint": "9fc27715b6e2ea8d4c625ca8a358870b24e99958d8bd6d23376a71a6fbf5bce0",
+        "firstSeen": "2026-08-26T20:41:36.217Z",
+        "lastChanged": "2026-08-26T20:41:36.217Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T20:41:36.217Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
