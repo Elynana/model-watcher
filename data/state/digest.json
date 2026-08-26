@@ -126353,6 +126353,709 @@
         "model"
       ],
       "detectedAt": "2026-08-25T20:49:24.227Z"
+    },
+    {
+      "id": "4826fec2a49af18c318623cb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-minimaxai-minimax::together-ai-minimaxai-minimax-m3",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "together_ai/MiniMaxAI/MiniMax-M3",
+        "slug": "together_ai/MiniMaxAI/MiniMax-M3",
+        "slugAliases": [
+          "together_ai/MiniMaxAI/MiniMax-M3"
+        ],
+        "displayName": "together_ai/MiniMaxAI/MiniMax-M3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "m3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "m3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 524288,
+          "maxOutputTokens": 524288
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 1.2
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "df412fa558bbc2fd067e624e482642408477b8c9b31e005d577bcd8e85a559ca",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "423b710d48faa7d4544bd75c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-arize-ai-qwen::together-ai-arize-ai-qwen-2-1-5b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "together_ai/arize-ai/qwen-2-1.5b-instruct",
+        "slug": "together_ai/arize-ai/qwen-2-1.5b-instruct",
+        "slugAliases": [
+          "together_ai/arize-ai/qwen-2-1.5b-instruct"
+        ],
+        "displayName": "together_ai/arize-ai/qwen-2-1.5b-instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "5B",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.1
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "d7a6e3425f9221b2c14001c0dc28e1a588cc93f70e60a69093263556dcf06554",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "ea040f0f9370ff22168c6ab3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-google-gemma::together-ai-google-gemma-4-31b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "together_ai/google/gemma-4-31B-it",
+        "slug": "together_ai/google/gemma-4-31B-it",
+        "slugAliases": [
+          "together_ai/google/gemma-4-31B-it"
+        ],
+        "displayName": "together_ai/google/gemma-4-31B-it",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.39,
+          "output $/M": 0.97
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "3bca9c84b2f61cdd20a78d99b5b823839737b3abc7c2d6b0b88e27453eb9f436",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "40cfa89430f93249849ad06f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-moonshotai-kimi::together-ai-moonshotai-kimi-k2-7-code",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "together_ai/moonshotai/Kimi-K2.7-Code",
+        "slug": "together_ai/moonshotai/Kimi-K2.7-Code",
+        "slugAliases": [
+          "together_ai/moonshotai/Kimi-K2.7-Code"
+        ],
+        "displayName": "together_ai/moonshotai/Kimi-K2.7-Code",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.95,
+          "output $/M": 4
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "a50f75a88b5dc1f02b5f3aadf6262010a1c368c6b6846146f1f7858ca0760d07",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "eb7e28df0bc641117e76a306",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-moonshotai-kimi::together-ai-moonshotai-kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "together_ai/moonshotai/Kimi-K3",
+        "slug": "together_ai/moonshotai/Kimi-K3",
+        "slugAliases": [
+          "together_ai/moonshotai/Kimi-K3"
+        ],
+        "displayName": "together_ai/moonshotai/Kimi-K3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 15
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "18981f276c708f5a48550622aa52d8ebcc2e92ad6b99ec4ca60e215c6260a80a",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "0d9cb56dbb1b31bac5fbcbde",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-nvidia-nemotron::together-ai-nvidia-nemotron-3-ultra-550b-a55b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "together_ai/nvidia/nemotron-3-ultra-550b-a55b",
+        "slug": "together_ai/nvidia/nemotron-3-ultra-550b-a55b",
+        "slugAliases": [
+          "together_ai/nvidia/nemotron-3-ultra-550b-a55b"
+        ],
+        "displayName": "together_ai/nvidia/nemotron-3-ultra-550b-a55b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "ultra",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "550B",
+          "activeParameters": "55B active",
+          "tier": "ultra",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 512288,
+          "maxOutputTokens": 512288
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 3.6
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "aae92f0e879cdda3d9f562141188f44ad4d2b4d2655bb73453586bb2bf7d1604",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "1d978f53a6f593d32d9b9c3a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-pearl-ai-gemma::together-ai-pearl-ai-gemma-4-31b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "together_ai/pearl-ai/gemma-4-31b-it",
+        "slug": "together_ai/pearl-ai/gemma-4-31b-it",
+        "slugAliases": [
+          "together_ai/pearl-ai/gemma-4-31b-it"
+        ],
+        "displayName": "together_ai/pearl-ai/gemma-4-31b-it",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.28,
+          "output $/M": 0.86
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "22283f41c365ee75deed8dbc47da3bdab9610a4f28ea94e8affa87024411a168",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "d3cb92130d2a2dbace8fae73",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-zai-org-glm::together-ai-zai-org-glm-5-2",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "together_ai/zai-org/GLM-5.2",
+        "slug": "together_ai/zai-org/GLM-5.2",
+        "slugAliases": [
+          "together_ai/zai-org/GLM-5.2"
+        ],
+        "displayName": "together_ai/zai-org/GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1048575,
+          "maxOutputTokens": 1048575
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "d33fcdaffaaf6c60c480fd4339467d366bb8c38301ce4205139993ee81f0873c",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "251c4528a129923a4562a7c1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance2",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance2",
+        "slug": "seedance2",
+        "slugAliases": [
+          "seedance2"
+        ],
+        "displayName": "seedance2",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "image, text, video",
+          "version": "2"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.36
+        },
+        "availability": [
+          "runwayml"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.dev.runwayml.com/guides/pricing/",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "05b6e35be38450872e876eec30803c9a4536969eb47f96ac73a4057677ca54a4",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "120443af3d374789ccd92f2a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance2-fast",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance2_fast",
+        "slug": "seedance2_fast",
+        "slugAliases": [
+          "seedance2_fast"
+        ],
+        "displayName": "seedance2_fast",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "image, text, video",
+          "tier": "fast",
+          "version": "2"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.29
+        },
+        "availability": [
+          "runwayml"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.dev.runwayml.com/guides/pricing/",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "7ce59321a2bb1ff6ed37a253514dd2e6d02904974c836ac67c638139b98e8463",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "7db610823793ac2c1c7d9d0d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance2-mini",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance2_mini",
+        "slug": "seedance2_mini",
+        "slugAliases": [
+          "seedance2_mini"
+        ],
+        "displayName": "seedance2_mini",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "image, text, video",
+          "tier": "mini",
+          "version": "2"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.16
+        },
+        "availability": [
+          "runwayml"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.dev.runwayml.com/guides/pricing/",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "5f3ff913bd5f7a73faecc202e27a77eadf388bc40b47d1aaea46e3dd33ac3b29",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
+    },
+    {
+      "id": "f97814c0a12aaa1d5f05a8c1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance2-5",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance2_5",
+        "slug": "seedance2_5",
+        "slugAliases": [
+          "seedance2_5"
+        ],
+        "displayName": "seedance2_5",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "image, text, video",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.3
+        },
+        "availability": [
+          "runwayml"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.dev.runwayml.com/guides/pricing/",
+            "observedAt": "2026-08-26T05:04:24.626Z"
+          }
+        ],
+        "fingerprint": "8951be3e8291a580c91223eff90ecc7630d2e2d71c8630bfaefd8935e62e7a0a",
+        "firstSeen": "2026-08-26T05:04:24.626Z",
+        "lastChanged": "2026-08-26T05:04:24.626Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T05:04:24.626Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
