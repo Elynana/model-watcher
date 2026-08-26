@@ -127999,6 +127999,313 @@
         "availability"
       ],
       "detectedAt": "2026-08-26T15:58:50.586Z"
+    },
+    {
+      "id": "49c83f4d02481db76fbe5a50",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "stealth-ox::stealth-ox-alpha",
+        "family": "stealth-ox",
+        "modelId": "stealth-ox-alpha",
+        "slug": "stealth-ox-alpha",
+        "slugAliases": [
+          "stealth-ox-alpha",
+          "stealth/ox-alpha"
+        ],
+        "displayName": "Ox Alpha",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "OpenRouter",
+          "Venice AI"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-21",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-26T15:58:50.586Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/stealth/ox-alpha",
+            "observedAt": "2026-08-26T13:40:18.601Z"
+          }
+        ],
+        "fingerprint": "ced652a6cb8a972713e4e1029edf2734d6f385de9009fd9cc7e46051719d4dc4",
+        "firstSeen": "2026-08-20T21:13:43.200Z",
+        "lastChanged": "2026-08-21T17:00:33.927Z"
+      },
+      "after": {
+        "key": "stealth-ox::stealth-ox-alpha",
+        "family": "stealth-ox",
+        "modelId": "stealth-ox-alpha",
+        "slug": "stealth-ox-alpha",
+        "slugAliases": [
+          "stealth-ox-alpha"
+        ],
+        "displayName": "Ox Alpha",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "Venice AI"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-21",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-08-26T16:54:58.253Z"
+          }
+        ],
+        "fingerprint": "06ca09f269c8f5947333666c0285278122e348c7f81d834150a469ea4aa40c9c",
+        "firstSeen": "2026-08-20T21:13:43.200Z",
+        "lastChanged": "2026-08-26T16:54:58.253Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-26T16:54:58.253Z"
+    },
+    {
+      "id": "d2ff6aeadd6a2bbe78b6b0aa",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM-5.3-Flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM-5.3-Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "5.3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.075,
+          "output $/M": 0.25,
+          "cache_read $/M": 0.015
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-26T15:58:50.586Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-08-26T15:58:50.586Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-26T15:58:50.586Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-26T15:58:50.586Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-26T15:58:50.586Z"
+          }
+        ],
+        "fingerprint": "6c0e4fbcfcd4a825dafadb9ade5bac3f3e335995a854753bfc60d0dc75e213ea",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T15:58:50.586Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM-5.3-Flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM-5.3-Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "5.3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.075,
+          "output $/M": 0.25,
+          "cache_read $/M": 0.015
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-26T16:54:58.253Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-08-26T16:54:58.253Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-26T16:54:58.253Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-26T16:54:58.253Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-26T16:54:58.253Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-26T16:54:58.253Z"
+          }
+        ],
+        "fingerprint": "f334e51fed8d0e1992f5ec6a5a014e87c8933d46399b95ebcc21fc9817c96a0d",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T16:54:58.253Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-26T16:54:58.253Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
