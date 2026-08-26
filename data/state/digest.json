@@ -128306,6 +128306,321 @@
         "availability"
       ],
       "detectedAt": "2026-08-26T16:54:58.253Z"
+    },
+    {
+      "id": "dcb58e29274006a4f4626cfa",
+      "type": "added",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-5",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "Gemini 3.5",
+        "slug": "Gemini 3.5",
+        "slugAliases": [
+          "Gemini 3.5"
+        ],
+        "displayName": "Gemini 3.5",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-29",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:google-models",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-23T21:16:12.719Z"
+          },
+          {
+            "sourceId": "official:feed:google-ai",
+            "sourceKind": "official-feed",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+            "observedAt": "2026-08-26T16:54:58.253Z"
+          }
+        ],
+        "fingerprint": "28615ae8e28b73fc77616f5a0660b40ee1b229d398900955a4e1505d1ae31620",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-07-26T04:45:09.972Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-5",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5",
+        "slug": "gemini-3.5",
+        "slugAliases": [
+          "Gemini 3.5",
+          "gemini-3.5"
+        ],
+        "displayName": "Gemini 3.5",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:google-models",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          },
+          {
+            "sourceId": "official:feed:google-ai",
+            "sourceKind": "official-feed",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+            "observedAt": "2026-07-28T15:37:19.330Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          }
+        ],
+        "fingerprint": "a07a2097a03a3275845173bf76a3fbf03d198f0e956333999fde7f4a06fef6ee",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-08-26T18:32:48.123Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T18:32:48.123Z"
+    },
+    {
+      "id": "f54a4fa34de984601b821ecc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8-Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.16,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016
+        },
+        "availability": [
+          "Charm Hyper",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://hyper.charm.land",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          }
+        ],
+        "fingerprint": "bddde24086417bd0093d4210c87ce104e69c0673e185614e89400ccfc6d42912",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-08-26T18:32:48.123Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T18:32:48.123Z"
+    },
+    {
+      "id": "3de2d26365559c4067728385",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-transcribe",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-transcribe",
+        "slug": "gemini-3.5-transcribe",
+        "slugAliases": [
+          "gemini-3.5-transcribe"
+        ],
+        "displayName": "gemini-3.5-transcribe",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          }
+        ],
+        "fingerprint": "dbbcc9b6d8eaa4605a586819aa565c71eb25d5528ff54f1d7aefb2498dc522f9",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-08-26T18:32:48.123Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T18:32:48.123Z"
+    },
+    {
+      "id": "15812336de29f80fdd6b2b52",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-transcribe-live",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-transcribe-live",
+        "slug": "gemini-3.5-transcribe-live",
+        "slugAliases": [
+          "gemini-3.5-transcribe-live"
+        ],
+        "displayName": "gemini-3.5-transcribe-live",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-26T18:32:48.123Z"
+          }
+        ],
+        "fingerprint": "86b649ab421584c8ea67d4770ec6f0d41b27da0af2cb1df054f95eecb144bb21",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-08-26T18:32:48.123Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T18:32:48.123Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
