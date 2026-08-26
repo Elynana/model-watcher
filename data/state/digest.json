@@ -127224,6 +127224,587 @@
         "model"
       ],
       "detectedAt": "2026-08-26T12:40:23.077Z"
+    },
+    {
+      "id": "918b245281abc9f11b864125",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM-5.3-Flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM-5.3-Flash (2x usage)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.075,
+          "output $/M": 0.25,
+          "cache_read $/M": 0.015
+        },
+        "availability": [
+          "OpenCode Go",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          }
+        ],
+        "fingerprint": "cfaa6cce4f1367a63be09a113f70b6b041b86077bbaa9ddf72e671e35afc978e",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T14:25:48.029Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T14:25:48.029Z"
+    },
+    {
+      "id": "e5b5059a463cf4d51486de4d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-highspeed",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-highspeed",
+        "slug": "glm-5.3-highspeed",
+        "slugAliases": [
+          "glm-5.3-highspeed"
+        ],
+        "displayName": "GLM-5.3 Highspeed",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Z.AI Coding Plan"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/devpack/overview",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          }
+        ],
+        "fingerprint": "aa883e1eaee70d395e3b9738fe2213f739c0d2b39054a47efd30c4420896b6f9",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T14:25:48.029Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T14:25:48.029Z"
+    },
+    {
+      "id": "055e389fa349e509485ba00a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "doubao::doubao-seed-1-6-251015",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Doubao",
+        "familyId": "doubao",
+        "modelId": "doubao-seed-1-6-251015",
+        "slug": "doubao-seed-1-6-251015",
+        "slugAliases": [
+          "doubao-seed-1-6-251015"
+        ],
+        "displayName": "Seed 1.6",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "1.6"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.11875,
+          "output $/M": 1.18747,
+          "cache_read $/M": 0.02375,
+          "tiers $/M": [
+            {
+              "input": 0.17812,
+              "output": 2.37494,
+              "cache_read": 0.02375,
+              "tier": {
+                "type": "context",
+                "size": 32000
+              }
+            },
+            {
+              "input": 0.35624,
+              "output": 3.56241,
+              "cache_read": 0.02375,
+              "tier": {
+                "type": "context",
+                "size": 128000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          }
+        ],
+        "fingerprint": "12f6fe1753994494e28f91ba600377d93ef58fd984a9609715156c84324dd174",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T14:25:48.029Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T14:25:48.029Z"
+    },
+    {
+      "id": "15612589d2c26e3e6f6d0c2c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "doubao::doubao-seed-2-1-pro-260628",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Doubao",
+        "familyId": "doubao",
+        "modelId": "doubao-seed-2-1-pro-260628",
+        "slug": "doubao-seed-2-1-pro-260628",
+        "slugAliases": [
+          "doubao-seed-2-1-pro-260628"
+        ],
+        "displayName": "Seed 2.1 Pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "pro",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.8906,
+          "output $/M": 4.45301,
+          "cache_read $/M": 0.17812
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          }
+        ],
+        "fingerprint": "17dad2d3dd03c00f46481bdf6f517a20d65bd1c9896c7d4ef637f31d928f4305",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T14:25:48.029Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T14:25:48.029Z"
+    },
+    {
+      "id": "2f16c9c136a17a655410a67a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "doubao::doubao-seed-1-6-flash-250828",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Doubao",
+        "familyId": "doubao",
+        "modelId": "doubao-seed-1-6-flash-250828",
+        "slug": "doubao-seed-1-6-flash-250828",
+        "slugAliases": [
+          "doubao-seed-1-6-flash-250828"
+        ],
+        "displayName": "Seed 1.6 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.6",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "tier": "flash",
+          "version": "1.6"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.02227,
+          "output $/M": 0.22265,
+          "cache_read $/M": 0.00445,
+          "tiers $/M": [
+            {
+              "input": 0.04453,
+              "output": 0.4453,
+              "cache_read": 0.00445,
+              "tier": {
+                "type": "context",
+                "size": 32000
+              }
+            },
+            {
+              "input": 0.08906,
+              "output": 0.8906,
+              "cache_read": 0.00445,
+              "tier": {
+                "type": "context",
+                "size": 128000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          }
+        ],
+        "fingerprint": "d8901bb71f1ffa591534cc716970f8db762d8e0e52ea8d093851f097f6080a85",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T14:25:48.029Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T14:25:48.029Z"
+    },
+    {
+      "id": "3983e3276ddc3aa8220d3229",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "doubao::doubao-seed-2-1-turbo-260628",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Doubao",
+        "familyId": "doubao",
+        "modelId": "doubao-seed-2-1-turbo-260628",
+        "slug": "doubao-seed-2-1-turbo-260628",
+        "slugAliases": [
+          "doubao-seed-2-1-turbo-260628"
+        ],
+        "displayName": "Seed 2.1 Turbo",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "turbo",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "turbo",
+          "version": "2.1"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.4453,
+          "output $/M": 2.22651,
+          "cache_read $/M": 0.08906
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          }
+        ],
+        "fingerprint": "5dd658a2ba543f930eb4cb82ac6a50ae1e9e7d4e101c404448bcd2e4e98ae9bd",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T14:25:48.029Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T14:25:48.029Z"
+    },
+    {
+      "id": "05fcd70bc67433744b6cbe28",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "doubao::doubao-seed-1-8-251228",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Doubao",
+        "familyId": "doubao",
+        "modelId": "doubao-seed-1-8-251228",
+        "slug": "doubao-seed-1-8-251228",
+        "slugAliases": [
+          "doubao-seed-1-8-251228"
+        ],
+        "displayName": "Seed 1.8",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "1.8"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.11875,
+          "output $/M": 1.18747,
+          "cache_read $/M": 0.02375,
+          "tiers $/M": [
+            {
+              "input": 0.17812,
+              "output": 2.37494,
+              "cache_read": 0.02375,
+              "tier": {
+                "type": "context",
+                "size": 32000
+              }
+            },
+            {
+              "input": 0.35624,
+              "output": 3.56241,
+              "cache_read": 0.02375,
+              "tier": {
+                "type": "context",
+                "size": 128000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          }
+        ],
+        "fingerprint": "1e72f50d3de429ef4a2eadf2e01ec309e4e37025d1f4d492b00eac4db38ae493",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T14:25:48.029Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T14:25:48.029Z"
+    },
+    {
+      "id": "fdd01a2ce9a92ffe3f3b4101",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flash-bf16",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash-BF16",
+        "slug": "GLM-5.3-Flash-BF16",
+        "slugAliases": [
+          "GLM-5.3-Flash-BF16"
+        ],
+        "displayName": "GLM-5.3-Flash-BF16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash-BF16",
+            "observedAt": "2026-08-26T14:25:48.029Z"
+          }
+        ],
+        "fingerprint": "3488f2e355546ae9da8d9886838e94c10f583528aa024236fd49cbf612777534",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-08-26T14:25:48.029Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-26T14:25:48.029Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
