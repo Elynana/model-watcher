@@ -129038,6 +129038,269 @@
         "model"
       ],
       "detectedAt": "2026-08-26T20:41:36.217Z"
+    },
+    {
+      "id": "102a7132f56412e4034ca1f5",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.16,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016,
+          "cache_write $/M": 0.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-27T00:03:39.001Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-27T00:03:39.001Z"
+          }
+        ],
+        "fingerprint": "30de38f572b40c713881251a2b73d459006f8fbe288388af5fb8b46c9c413601",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-08-27T00:03:39.001Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.16,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016,
+          "cache_write $/M": 0.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-27T09:34:24.178Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-27T09:34:24.178Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-27T09:34:24.178Z"
+          }
+        ],
+        "fingerprint": "352bbe6aa424a838190f4781f6f0f96821d4f7850d789066e393e08b70195f00",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-08-27T09:34:24.178Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-08-27T09:34:24.178Z"
+    },
+    {
+      "id": "ee709006e4bc21ff2e1b763a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-flex",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-flex",
+        "slug": "deepseek-v4-flash-flex",
+        "slugAliases": [
+          "deepseek-v4-flash-flex"
+        ],
+        "displayName": "DeepSeek V4 Flash Flex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048560,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.091,
+          "output $/M": 0.182,
+          "cache_read $/M": 0.0182
+        },
+        "availability": [
+          "Neuralwatt"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://portal.neuralwatt.com/docs",
+            "observedAt": "2026-08-27T09:34:24.178Z"
+          }
+        ],
+        "fingerprint": "627764a9f1d822927412bb791b95ffaeebb04fe5a8657feb94336f7c6a96166c",
+        "firstSeen": "2026-08-27T09:34:24.178Z",
+        "lastChanged": "2026-08-27T09:34:24.178Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-27T09:34:24.178Z"
+    },
+    {
+      "id": "bb8b99eb40548ba83b7e89e0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "squadgen::squadgen",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "squadgen",
+        "modelId": "SQuadGen",
+        "slug": "SQuadGen",
+        "slugAliases": [
+          "SQuadGen"
+        ],
+        "displayName": "SQuadGen",
+        "modalities": [
+          "3d"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/SQuadGen",
+            "observedAt": "2026-08-27T09:34:24.178Z"
+          }
+        ],
+        "fingerprint": "be0f3f42d028889e882800b11af9f07534e6572b21cf6f1318dff7d2215870e2",
+        "firstSeen": "2026-08-27T09:34:24.178Z",
+        "lastChanged": "2026-08-27T09:34:24.178Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-27T09:34:24.178Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
