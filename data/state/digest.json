@@ -130586,6 +130586,544 @@
         "announcement"
       ],
       "detectedAt": "2026-08-27T19:58:57.854Z"
+    },
+    {
+      "id": "8928659a45b8c5d2235fe98b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k2-7-code-fast",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k2.7-code-fast",
+        "slug": "kimi-k2.7-code-fast",
+        "slugAliases": [
+          "kimi-k2.7-code-fast"
+        ],
+        "displayName": "Kimi K2.7 Code Fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262128,
+          "maxOutputTokens": 262128
+        },
+        "pricing": {
+          "input $/M": 0.95,
+          "output $/M": 4,
+          "cache_read $/M": 0.095
+        },
+        "availability": [
+          "Neuralwatt"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://portal.neuralwatt.com/docs",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "f5097c096d7dabb56ef62cb4c1e76a8cd00a3c3a22746f12b5891b6921139283",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "3426d26330af3eb51c436554",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-flex",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-flex",
+        "slug": "kimi-k3-flex",
+        "slugAliases": [
+          "kimi-k3-flex"
+        ],
+        "displayName": "Kimi K3 Flex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048560,
+          "maxOutputTokens": 1048560
+        },
+        "pricing": {
+          "input $/M": 1.95,
+          "output $/M": 9.75,
+          "cache_read $/M": 0.195
+        },
+        "availability": [
+          "Neuralwatt"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://portal.neuralwatt.com/docs",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "89161daa30a3bccc482381d8f2ce2b92e6eb8c6ca5f86b61a853b16dc777f7dc",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "d5ad5af4a3e2c0f823cea27b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-free",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-free",
+        "slug": "qwen3.8-27b-free",
+        "slugAliases": [
+          "qwen3.8-27b-free"
+        ],
+        "displayName": "Qwen3.8 27B (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "OrcaRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.orcarouter.ai",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "9c2153128c003d9d75cadf145df9a090b67e8ef3eeb52d2baa4a2f8d343786b8",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "b8132b49efdeb22a52bbc159",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flash-eu",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-flash@eu",
+        "slug": "glm-5.3-flash@eu",
+        "slugAliases": [
+          "glm-5.3-flash@eu"
+        ],
+        "displayName": "GLM-5.3-Flash (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.07
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "ab1fef90fe2c31d12d3067eb0c009106433a652d7c7327078adac5c845c8d70c",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "cb9829653e1a2967b8530eae",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite@us",
+        "slug": "gemini-3.1-flash-lite@us",
+        "slugAliases": [
+          "gemini-3.1-flash-lite@us"
+        ],
+        "displayName": "Gemini 3.1 Flash Lite (US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5,
+          "reasoning $/M": 1.5,
+          "cache_read $/M": 0.025,
+          "cache_write $/M": 0.083333,
+          "input_audio $/M": 0.5
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "41496c83a7a2d1bf7e59122b33274c89208cf1d39d30d425f27128ba17d103eb",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "77d8e021fbd413927a710b52",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-diarization-preview",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3-Diarization-preview",
+        "slug": "Nemotron-3-Diarization-preview",
+        "slugAliases": [
+          "Nemotron-3-Diarization-preview"
+        ],
+        "displayName": "Nemotron-3-Diarization-preview",
+        "modalities": [
+          "audio"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "87f0675e2283353c918163102ec364632263e293071672cbb346e405c8275760",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "0218e8ccdf34f42639c79620",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-omni-flash-1367",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-omni-flash 1367",
+        "slug": "gemini-omni-flash 1367",
+        "slugAliases": [
+          "gemini-omni-flash 1367"
+        ],
+        "displayName": "gemini-omni-flash 1367",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1367",
+        "tier": "omni",
+        "capabilities": {
+          "tier": "omni",
+          "version": "1367"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "9c953cf34094db473fd3c71650874978744636df0daf46e6a9cc1b69c568750f",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "4f5173c308c566c80b4b99cd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::gen4-aleph-1182",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "gen4-aleph 1182",
+        "slug": "gen4-aleph 1182",
+        "slugAliases": [
+          "gen4-aleph 1182"
+        ],
+        "displayName": "gen4-aleph 1182",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "27e928bc2a405323aecda92b2118c00e7b35e323ea7d0f586aa53fdb9996baed",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "5151d8c631fd00b1c1cf09a2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wan::wan3-0",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Wan",
+        "familyId": "wan",
+        "modelId": "wan3.0",
+        "slug": "wan3.0",
+        "slugAliases": [
+          "wan3.0"
+        ],
+        "displayName": "wan3.0",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "16c944a7e7224b0947ec7cfd3a8bf0467337f93b5826aa233e1a5e5641911587",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T04:06:10.660Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
