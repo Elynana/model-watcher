@@ -131124,6 +131124,1480 @@
         "model"
       ],
       "detectedAt": "2026-08-28T04:06:10.660Z"
+    },
+    {
+      "id": "75bcdcb83fef6d99ce75f4b9",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016,
+          "cache_write $/M": 0.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "dc8e6b65fcbb732ed099656c9840d15f3df02bd3ec183b76d23064bdaa16b1f4",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-08-27T19:58:57.854Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016,
+          "cache_write $/M": 0.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "917cfdcfe21abf0a5b1753e4d6bf99412447824b2906570bd9bc81a3eeb5b694",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "4c9000558afadf40042795c5",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "wan::wan3-0",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Wan",
+        "familyId": "wan",
+        "modelId": "wan3.0",
+        "slug": "wan3.0",
+        "slugAliases": [
+          "wan3.0"
+        ],
+        "displayName": "wan3.0",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-28T04:06:10.660Z"
+          }
+        ],
+        "fingerprint": "16c944a7e7224b0947ec7cfd3a8bf0467337f93b5826aa233e1a5e5641911587",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "after": {
+        "key": "wan::wan3-0",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Wan",
+        "familyId": "wan",
+        "modelId": "wan3.0",
+        "slug": "wan3.0",
+        "slugAliases": [
+          "wan3.0"
+        ],
+        "displayName": "wan3.0",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "1b59e7d48fa02cb7c3ac62ccbb1773ca16e774da057a992d7c6bc27fb31b7226",
+        "firstSeen": "2026-08-28T04:06:10.660Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "dd9908a318d2211c67306ef4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-image-3-0",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-Image",
+        "familyId": "qwen-image",
+        "modelId": "qwen-image-3.0",
+        "slug": "qwen-image-3.0",
+        "slugAliases": [
+          "qwen-image-3.0"
+        ],
+        "displayName": "qwen-image-3.0",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "mode": "image_generation",
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "dashscope"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "4cc9934f3c365ce2c5c6f65e41a42afef1bc11798e07c92039c5919dc518ac79",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "54d12e5f2005be09597021ca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-models-deepseek::fireworks-ai-accounts-fireworks-models-deepseek-v4-pro-0813",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813",
+        "slug": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.32,
+          "output $/M": 3.96
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "54f752290d372b48ee154cf27fef9ec187f4b0bb437e940b15e823279611ea98",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "bc01f7243151fe38b7ee4252",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-live-2-5-flash-native-audio",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-live-2.5-flash-native-audio",
+        "slug": "gemini-live-2.5-flash-native-audio",
+        "slugAliases": [
+          "gemini-live-2.5-flash-native-audio"
+        ],
+        "displayName": "gemini-live-2.5-flash-native-audio",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "realtime",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2
+        },
+        "availability": [
+          "vertex_ai-language-models"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "d97264205874d6e9d05f5b200d4239154432e5b5542abe752ecdb825a307251c",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "1b760e2a9f7e62695a2dd399",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::ministral-14b-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "ministral-14b-latest",
+        "slug": "ministral-14b-latest",
+        "slugAliases": [
+          "ministral-14b-latest"
+        ],
+        "displayName": "ministral-14b-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "parameters": "14B"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "b5e4a32e2ed440c8d5dfffe5a870085edc0d8a8d69429068391fd5ab9ef2e3e8",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "9f7414e2516e20bf3425166e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-embed-2312",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-embed-2312",
+        "slug": "mistral-embed-2312",
+        "slugAliases": [
+          "mistral-embed-2312"
+        ],
+        "displayName": "mistral-embed-2312",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2312",
+        "capabilities": {
+          "mode": "embedding",
+          "version": "2312"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.1
+        },
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/mistral-embed-23-12",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "6ee582b87e378d09b5c02adfa90be0067fd8ec2ed4a9fa78a93ac28a1bf69e23",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "6eb6a73c44e0287575e4e34f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-transcribe-realtime-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-mini-transcribe-realtime-latest",
+        "slug": "voxtral-mini-transcribe-realtime-latest",
+        "slugAliases": [
+          "voxtral-mini-transcribe-realtime-latest"
+        ],
+        "displayName": "voxtral-mini-transcribe-realtime-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "audio_transcription",
+          "accepts": "audio",
+          "tier": "mini"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-realtime-26-02",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "25258c9a3e6aeaa63eb08abb2ee4398fd4e367fc42c12b17658f3b54db20620c",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "7aca45c2db653e285031739b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-zai-org-glm::together-ai-zai-org-glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "together_ai/zai-org/GLM-5.3-Flash",
+        "slug": "together_ai/zai-org/GLM-5.3-Flash",
+        "slugAliases": [
+          "together_ai/zai-org/GLM-5.3-Flash"
+        ],
+        "displayName": "together_ai/zai-org/GLM-5.3-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048575,
+          "maxOutputTokens": 1048575
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "f50bbd2b6f9dd7d6272149b90a87cc58adceea8e1db7e149bf3b18f1905593c4",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "4c06f5f42555041cbd9922db",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-openai-gpt::bedrock-mantle-openai-gpt-5-6-cyber",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/openai.gpt-5.6-cyber",
+        "slug": "bedrock_mantle/openai.gpt-5.6-cyber",
+        "slugAliases": [
+          "bedrock_mantle/openai.gpt-5.6-cyber"
+        ],
+        "displayName": "bedrock_mantle/openai.gpt-5.6-cyber",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 272000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 13.75,
+          "output $/M": 82.5
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "7791e3d7a7a94c2c76de8ae136f1a1f84aa4b80e920eb7592fd4d0895a9a87d6",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "6377a4b94128ace0f0209879",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-google-gemma::wandb-google-gemma-4-31b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "wandb/google/gemma-4-31B-it",
+        "slug": "wandb/google/gemma-4-31B-it",
+        "slugAliases": [
+          "wandb/google/gemma-4-31B-it"
+        ],
+        "displayName": "wandb/google/gemma-4-31B-it",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.34
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "62cd2b8c7121bc7a26693c676da5b429d0c5356f9dc1d7f270734b4d20453971",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "689227cc9f996aad722de75d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-ibm-granite-granite::wandb-ibm-granite-granite-4-1-8b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "wandb/ibm-granite/granite-4.1-8b",
+        "slug": "wandb/ibm-granite/granite-4.1-8b",
+        "slugAliases": [
+          "wandb/ibm-granite/granite-4.1-8b"
+        ],
+        "displayName": "wandb/ibm-granite/granite-4.1-8b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "parameters": "8B",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.1
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "ef4ccb43e8abee82938b308b28230ff77fc173d63f0e50d3943487e99ed9cb4a",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "03b52b277846d4d7c9e5c0d6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-minimaxai-minimax::wandb-minimaxai-minimax-m3",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "wandb/MiniMaxAI/MiniMax-M3",
+        "slug": "wandb/MiniMaxAI/MiniMax-M3",
+        "slugAliases": [
+          "wandb/MiniMaxAI/MiniMax-M3"
+        ],
+        "displayName": "wandb/MiniMaxAI/MiniMax-M3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "m3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "tier": "m3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.23,
+          "output $/M": 0.96
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "22ba1bf0537a20142bdb39ca37948061ffc2915dfeb8da13792c4afefa17b154",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "fd40de3486fcb5cf49c3ec79",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-moonshotai-kimi::wandb-moonshotai-kimi-k2-7-code",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "wandb/moonshotai/Kimi-K2.7-Code",
+        "slug": "wandb/moonshotai/Kimi-K2.7-Code",
+        "slugAliases": [
+          "wandb/moonshotai/Kimi-K2.7-Code"
+        ],
+        "displayName": "wandb/moonshotai/Kimi-K2.7-Code",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.71,
+          "output $/M": 3.5
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "fd0ca7297658ca4ee63a06781029635a8421e7e0845d7138c9f542418d304eaa",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "de25c5c6332b3f1a12a9b7eb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-moonshotai-kimi::wandb-moonshotai-kimi-k2-6",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "wandb/moonshotai/Kimi-K2.6",
+        "slug": "wandb/moonshotai/Kimi-K2.6",
+        "slugAliases": [
+          "wandb/moonshotai/Kimi-K2.6"
+        ],
+        "displayName": "wandb/moonshotai/Kimi-K2.6",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.65,
+          "output $/M": 3.41
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "b464a713201d9be4a286323628f10e9210d56af26d65e77ba228782b81fd8f7e",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "5b38576abb6ee62d6c368998",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-nvidia-nvidia-nemotron::wandb-nvidia-nvidia-nemotron-3-5-lightning-30b-a3b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B",
+        "slug": "wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B",
+        "slugAliases": [
+          "wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
+        ],
+        "displayName": "wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "0271a58580f427684cede3d4c6ca130ef907220be4b2a273ab1f38f1376306ec",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "fb421fd12db63b1fcfdf56e7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-nvidia-nvidia-nemotron::wandb-nvidia-nvidia-nemotron-3-ultra-550b-a55b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "wandb/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+        "slug": "wandb/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+        "slugAliases": [
+          "wandb/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"
+        ],
+        "displayName": "wandb/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "ultra",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "parameters": "550B",
+          "activeParameters": "55B active",
+          "tier": "ultra",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 2.75
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "efd76c6dfdfad6cfd8e529597b4dc15d2cc3ab9500b64945d8dcf4ec2390730d",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "de25096006b0accad57e3a56",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-zai-org-glm::wandb-zai-org-glm-5-2",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "wandb/zai-org/GLM-5.2",
+        "slug": "wandb/zai-org/GLM-5.2",
+        "slugAliases": [
+          "wandb/zai-org/GLM-5.2"
+        ],
+        "displayName": "wandb/zai-org/GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.76,
+          "output $/M": 2.42
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "6075565792ddd72a85d956f6e4426ba616f6a7badbe35df111c62a2504cca336",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "5b029b6089f81acb5a9be5db",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-omni-flash-v1-1-image-to-video",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-omni-flash/v1.1/image-to-video",
+        "slug": "gemini-omni-flash/v1.1/image-to-video",
+        "slugAliases": [
+          "gemini-omni-flash/v1.1/image-to-video"
+        ],
+        "displayName": "Gemini Omni Flash 1.1 Image to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.1",
+        "tier": "omni",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "tier": "omni",
+          "version": "1.1"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.03
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/google/gemini-omni-flash/v1.1/image-to-video",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "b653b6e1a54c0461a63f4e3723c1c4476ca0904dd37c013caab6a4d7a9e0e151",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "2251e703f83f77512fa34f6b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-omni-flash-v1-1-reference-to-video",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-omni-flash/v1.1/reference-to-video",
+        "slug": "gemini-omni-flash/v1.1/reference-to-video",
+        "slugAliases": [
+          "gemini-omni-flash/v1.1/reference-to-video"
+        ],
+        "displayName": "Gemini Omni Flash 1.1 Reference to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.1",
+        "tier": "omni",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "tier": "omni",
+          "version": "1.1"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.03
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/google/gemini-omni-flash/v1.1/reference-to-video",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "3b8d911250f83540ce499cf6fb552565d2b00ece614e62aeaeb139d2a4e7b6cf",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "b579cbe5f7c5b4b9bac122dd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-omni-flash-v1-1-text-to-video",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-omni-flash/v1.1/text-to-video",
+        "slug": "gemini-omni-flash/v1.1/text-to-video",
+        "slugAliases": [
+          "gemini-omni-flash/v1.1/text-to-video"
+        ],
+        "displayName": "Gemini Omni Flash 1.1 Text to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.1",
+        "tier": "omni",
+        "capabilities": {
+          "endpoint": "text-to-video",
+          "license": "commercial",
+          "tier": "omni",
+          "version": "1.1"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.03
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/google/gemini-omni-flash/v1.1/text-to-video",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "b45085f5ab53a3c83d504b0c5be99947ed6722823e31236edd8a3bc3b5f4cc51",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "6c6908b1d8363fdc11ca8cec",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-7",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7",
+        "slug": "qwen3.7",
+        "slugAliases": [
+          "qwen3.7"
+        ],
+        "displayName": "qwen3.7",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "capabilities": {
+          "version": "3.7"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "ad28dce73b6c0275c436a0ba6956725567a65f32164905877530f6f386b21a8b",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
+    },
+    {
+      "id": "d4db29afeb28e0e2698a4b01",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-bf16",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-BF16",
+        "slug": "GLM-5.3-BF16",
+        "slugAliases": [
+          "GLM-5.3-BF16"
+        ],
+        "displayName": "GLM-5.3-BF16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "openWeights": true,
+          "version": "5.3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-BF16",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "a4b7d54cb4453343ce2b5be94878279369f7d1993aa33530f264e070b9bb2c89",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-28T16:34:42.377Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
