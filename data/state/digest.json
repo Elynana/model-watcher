@@ -134255,6 +134255,237 @@
         "model"
       ],
       "detectedAt": "2026-08-29T00:40:55.354Z"
+    },
+    {
+      "id": "aaaef0cb3a1e31521c4d7554",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "olmo::olmo-3-32b-think-20251121",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "OLMo / Molmo / Tülu",
+        "familyId": "olmo",
+        "modelId": "olmo-3-32b-think-20251121",
+        "slug": "olmo-3-32b-think-20251121",
+        "slugAliases": [
+          "olmo-3-32b-think-20251121"
+        ],
+        "displayName": "AllenAI: Olmo 3 32B Think",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "32B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 58982
+        },
+        "pricing": {
+          "prompt $/M": 0.15,
+          "completion $/M": 0.5
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-21",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/allenai/olmo-3-32b-think",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "4549bd433b2715b8b81328682184f54ba122539ae6480bb50192c2f837bf36a9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-25T14:25:52.941Z"
+      },
+      "after": {
+        "key": "olmo::olmo-3-32b-think-20251121",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "OLMo / Molmo / Tülu",
+        "familyId": "olmo",
+        "modelId": "olmo-3-32b-think-20251121",
+        "slug": "olmo-3-32b-think-20251121",
+        "slugAliases": [
+          "olmo-3-32b-think-20251121"
+        ],
+        "displayName": "AllenAI: Olmo 3 32B Think",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "32B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 58982
+        },
+        "pricing": {
+          "prompt $/M": 0.15,
+          "completion $/M": 0.5
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2025-11-21",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/allenai/olmo-3-32b-think",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          }
+        ],
+        "fingerprint": "bcda471899c7c0b9b5e0004923c28e4c347f63be132db479b9f4816213c36658",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-29T13:16:54.717Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-08-29T13:16:54.717Z"
+    },
+    {
+      "id": "bc75ad85cbb1a42ea9a2559a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-31b-it-gemsicle",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-31b-it-gemsicle",
+        "slug": "gemma-4-31b-it-gemsicle",
+        "slugAliases": [
+          "gemma-4-31b-it-gemsicle"
+        ],
+        "displayName": "Gemsicle",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.08,
+          "output $/M": 0.33,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-29T13:16:54.717Z"
+          }
+        ],
+        "fingerprint": "76f16b8f5ae895123f69773ac46e7d5f0ca8f67e53a4e58891e37bb04a90e935",
+        "firstSeen": "2026-08-29T13:16:54.717Z",
+        "lastChanged": "2026-08-29T13:16:54.717Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-29T13:16:54.717Z"
+    },
+    {
+      "id": "e78ffa177081e861a12515e5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-omni-flash-v1-1-edit",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-omni-flash/v1.1/edit",
+        "slug": "gemini-omni-flash/v1.1/edit",
+        "slugAliases": [
+          "gemini-omni-flash/v1.1/edit"
+        ],
+        "displayName": "Gemini Omni Flash 1.1 Edit",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.1",
+        "tier": "omni",
+        "capabilities": {
+          "endpoint": "video-to-video",
+          "license": "commercial",
+          "tier": "omni",
+          "version": "1.1"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.03
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/google/gemini-omni-flash/v1.1/edit",
+            "observedAt": "2026-08-29T13:16:54.717Z"
+          }
+        ],
+        "fingerprint": "dfc30e420ed81e8ea9b174cbde545f4304d90e8c354c4e95f75802ba6f14f0fd",
+        "firstSeen": "2026-08-29T13:16:54.717Z",
+        "lastChanged": "2026-08-29T13:16:54.717Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-29T13:16:54.717Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
