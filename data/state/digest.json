@@ -134486,6 +134486,1504 @@
         "model"
       ],
       "detectedAt": "2026-08-29T13:16:54.717Z"
+    },
+    {
+      "id": "572ba8bd2daad9e24df81158",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3-thinking",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3:thinking",
+        "slug": "glm-5.3:thinking",
+        "slugAliases": [
+          "glm-5.3:thinking"
+        ],
+        "displayName": "GLM 5.3 Preview Thinking",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-30T00:04:30.310Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-30T00:04:30.310Z"
+          }
+        ],
+        "fingerprint": "6b155a065adb1067cf3bed00565ce91df8d381500487eef9ea018364d5047e8a",
+        "firstSeen": "2026-08-15T15:32:46.650Z",
+        "lastChanged": "2026-08-29T00:40:55.354Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3-thinking",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3:thinking",
+        "slug": "glm-5.3:thinking",
+        "slugAliases": [
+          "glm-5.3:thinking"
+        ],
+        "displayName": "GLM 5.3 Thinking",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "783dcd1b05fe0fcd0ad0a0e59fc3a3cc5c3ad3ce25eb1bb48c2f01d5682b3e98",
+        "firstSeen": "2026-08-15T15:32:46.650Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "1eff047438af95bb39ff04e5",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemma::free",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "free",
+        "slug": "free",
+        "slugAliases": [
+          "free"
+        ],
+        "displayName": "Gemma 4 31B IT",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "UnoRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://unorouter.com/models",
+            "observedAt": "2026-08-30T00:04:30.310Z"
+          }
+        ],
+        "fingerprint": "bc5938c9a786edc79862a7ffcaa5d9f21e035c2e6046f6354ed406b852092b71",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "gemma::free",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "free",
+        "slug": "free",
+        "slugAliases": [
+          "free"
+        ],
+        "displayName": "Gemma 4 31B IT (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Bothub"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://bothub.ru/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "2eaf9d1e9d48045d286084337869f24fe40b2f65af57e7d99d008d38b7219cb2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "f7d9996e3c27e3a0dcb78d32",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-free",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-free",
+        "slug": "glm-5.3-free",
+        "slugAliases": [
+          "glm-5.3-free"
+        ],
+        "displayName": "GLM-5.3 (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "TokenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.tokenrouter.com/docs/tokenrouter-feature-guide/",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "3ac0dde68149b1d22d73917cb87b21f7843cef657c6d5482f82b3090d116941a",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "29028b3633a93c87025961ca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5p3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5p3-flash",
+        "slug": "glm-5p3-flash",
+        "slugAliases": [
+          "glm-5p3-flash"
+        ],
+        "displayName": "GLM 5.3 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.029
+        },
+        "availability": [
+          "Fireworks AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/docs/",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "aa78b3c565a7a55f74f25a3c807ad8d69519a27eba9cad0d7354468119f4ab0f",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "1edc87c577c97612022859b8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-zai-org-glm::together-ai-zai-org-glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "together_ai/zai-org/GLM-5.3",
+        "slug": "together_ai/zai-org/GLM-5.3",
+        "slugAliases": [
+          "together_ai/zai-org/GLM-5.3"
+        ],
+        "displayName": "together_ai/zai-org/GLM-5.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048575,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "8b484560c95d18d65ea48ef471d8df899e3bf8e45d725e63db738e1db38f84dd",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "9b515539feac149fd81a2f00",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-transcribe-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-transcribe-preview",
+        "slug": "gemini-3.5-transcribe-preview",
+        "slugAliases": [
+          "gemini-3.5-transcribe-preview"
+        ],
+        "displayName": "gemini-3.5-transcribe-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "mode": "audio_transcription",
+          "accepts": "audio, text",
+          "version": "3.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 12
+        },
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "cce7c427b6144e37f9d2ba78b3048ec4da625faead05a5bc54c78b6021d36c51",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "1927e73755851e9bb13b556e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-transcribe-live-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-transcribe-live-preview",
+        "slug": "gemini-3.5-transcribe-live-preview",
+        "slugAliases": [
+          "gemini-3.5-transcribe-live-preview"
+        ],
+        "displayName": "gemini-3.5-transcribe-live-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "mode": "audio_transcription",
+          "accepts": "audio",
+          "version": "3.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 3.5,
+          "output $/M": 21
+        },
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "5ad49b795ea58e4e3d2b303dd0a9570f79e3c6a206e626f22f7a718159de801a",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "3dd0f6c16fad38cce3c954c7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-reasoning-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-reasoning-latest",
+        "slug": "grok-4.20-reasoning-latest",
+        "slugAliases": [
+          "grok-4.20-reasoning-latest"
+        ],
+        "displayName": "grok-4.20-reasoning-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "af6162bc7243d111d6ab5dbed4a1c442430de615d66b4487f2f8489dfa5c4d4c",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "4a726246205913b1d28d57f1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-image-2026-03-02",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-image-2026-03-02",
+        "slug": "grok-imagine-image-2026-03-02",
+        "slugAliases": [
+          "grok-imagine-image-2026-03-02"
+        ],
+        "displayName": "grok-imagine-image-2026-03-02",
+        "modalities": [
+          "image"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "capabilities": {
+          "mode": "image_generation",
+          "accepts": "image, text"
+        },
+        "limits": {},
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "d19a87cfcaa9aea2128e93846bd15f5d0098d3c70ac14018394d788a5d2b2900",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "21c693b1fa49ba5bb51aa59a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-image-quality-20260403",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-image-quality-20260403",
+        "slug": "grok-imagine-image-quality-20260403",
+        "slugAliases": [
+          "grok-imagine-image-quality-20260403"
+        ],
+        "displayName": "grok-imagine-image-quality-20260403",
+        "modalities": [
+          "image"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "capabilities": {
+          "mode": "image_generation",
+          "accepts": "image, text"
+        },
+        "limits": {},
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "3aa9464adecf1bc246a2720208c83e316abeed30c0ba76781d30555f425f4cfa",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "84ab69360b5a43e4530c8f40",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-image-quality-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-image-quality-latest",
+        "slug": "grok-imagine-image-quality-latest",
+        "slugAliases": [
+          "grok-imagine-image-quality-latest"
+        ],
+        "displayName": "grok-imagine-image-quality-latest",
+        "modalities": [
+          "image"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "image_generation",
+          "accepts": "image, text"
+        },
+        "limits": {},
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "405f8ca04d49d597e056bd7473f349a52458906febe6016fef76491fd16c3ea6",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "c64faafe743d1ae45975307b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-non-reasoning-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-non-reasoning-latest",
+        "slug": "grok-4.20-non-reasoning-latest",
+        "slugAliases": [
+          "grok-4.20-non-reasoning-latest"
+        ],
+        "displayName": "grok-4.20-non-reasoning-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "71de64c982743ed3f3b73fa7a92e6ee9eed8de777c8e275d2d4c22b754d6886b",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "caf5bb0b6d211856b99a5bf4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-multi-agent-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-multi-agent-latest",
+        "slug": "grok-4.20-multi-agent-latest",
+        "slugAliases": [
+          "grok-4.20-multi-agent-latest"
+        ],
+        "displayName": "grok-4.20-multi-agent-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": false,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "ce0165029e51892396e886752463c2e86a21e860bada24124812e52bac0f54d9",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "887ef5b67da21a75728f24e9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-vibe-cli-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-vibe-cli-latest",
+        "slug": "mistral-vibe-cli-latest",
+        "slugAliases": [
+          "mistral-vibe-cli-latest"
+        ],
+        "displayName": "mistral-vibe-cli-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "18ccaa680b8c6b48621184a77df5dd09650fb1f08d7f097a5accda105e566b1f",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "eb3f59de2780192e48a54964",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-code-fim-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-code-fim-latest",
+        "slug": "mistral-code-fim-latest",
+        "slugAliases": [
+          "mistral-code-fim-latest"
+        ],
+        "displayName": "mistral-code-fim-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 0.9
+        },
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/codestral-25-08",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "95e08544ea0d7521d58ce64590fc4f2820a9ce3a24c278f607e6aaae41aac721",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "efdf4696befe1352a1233b93",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-ocr-3",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-ocr-3",
+        "slug": "mistral-ocr-3",
+        "slugAliases": [
+          "mistral-ocr-3"
+        ],
+        "displayName": "mistral-ocr-3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "mode": "ocr",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://mistral.ai/pricing#api-pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "0ff07a4fe744f526688890e84fd8aaf84bd2b87ab41de2f3032da858b8ec3085",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "d1277db834dfc5aa84b1b377",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-ocr-3-0",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-ocr-3-0",
+        "slug": "mistral-ocr-3-0",
+        "slugAliases": [
+          "mistral-ocr-3-0"
+        ],
+        "displayName": "mistral-ocr-3-0",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "mode": "ocr",
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://mistral.ai/pricing#api-pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "f0262879913712a16d425994d0d5eac9ae34daa797559da8ae0279cd7f3ee14d",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "e27e5227d74114f908783c1f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-ocr-4",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-ocr-4",
+        "slug": "mistral-ocr-4",
+        "slugAliases": [
+          "mistral-ocr-4"
+        ],
+        "displayName": "mistral-ocr-4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "ocr",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/ocr-4-1",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "102d1c96ea5f2a0e82395aa6b54b86d241b9d6c9a9a82967467ae2a91a3edc92",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "6fdfc8350d48a29dfb09f069",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-realtime-2602",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-mini-realtime-2602",
+        "slug": "voxtral-mini-realtime-2602",
+        "slugAliases": [
+          "voxtral-mini-realtime-2602"
+        ],
+        "displayName": "voxtral-mini-realtime-2602",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2602",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "audio_transcription",
+          "accepts": "audio",
+          "tier": "mini",
+          "version": "2602"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-realtime-26-02",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "f43c573bef5d0a34f63fd52f05f0320c604957afad8686f37873eddea80b0b07",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "ff2a4bfeeff50e2977ff66c7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-realtime-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-mini-realtime-latest",
+        "slug": "voxtral-mini-realtime-latest",
+        "slugAliases": [
+          "voxtral-mini-realtime-latest"
+        ],
+        "displayName": "voxtral-mini-realtime-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "audio_transcription",
+          "accepts": "audio",
+          "tier": "mini"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-realtime-26-02",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "3a61263b7e89f40b2164b6c544e4a2a747d862e2f5b52d33aa63630564166109",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "60951c81abadfd9dd1abb6e9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-models-glm::fireworks-ai-accounts-fireworks-models-glm-5p3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "fireworks_ai/accounts/fireworks/models/glm-5p3",
+        "slug": "fireworks_ai/accounts/fireworks/models/glm-5p3",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/glm-5p3"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/models/glm-5p3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "3582fa7eec34b346a114f9243c3f04a4c17189b27724f9d5d719ba93d2bf2805",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "304cb8f49b9380d2a15ec6f3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mobilemoe-s-qat::mobilemoe-s-qat",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "mobilemoe-s-qat",
+        "modelId": "MobileMoE-S-QAT",
+        "slug": "MobileMoE-S-QAT",
+        "slugAliases": [
+          "MobileMoE-S-QAT"
+        ],
+        "displayName": "MobileMoE-S-QAT",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:meta:facebook",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/facebook/MobileMoE-S-QAT",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "956cceedd15a34c97ade1523d231c9678f0c6a72c20cea2f619b916a43e60126",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "1d118baa7f845f48b00bc172",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mobilemoe-m-qat::mobilemoe-m-qat",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "mobilemoe-m-qat",
+        "modelId": "MobileMoE-M-QAT",
+        "slug": "MobileMoE-M-QAT",
+        "slugAliases": [
+          "MobileMoE-M-QAT"
+        ],
+        "displayName": "MobileMoE-M-QAT",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:meta:facebook",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/facebook/MobileMoE-M-QAT",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "344c3c222f76cabdcfa4be50de70a45200896305522641bce3f8c5aee640c22a",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "a7cb0258d1d8acab78cc07cf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mobilemoe-l-qat::mobilemoe-l-qat",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "mobilemoe-l-qat",
+        "modelId": "MobileMoE-L-QAT",
+        "slug": "MobileMoE-L-QAT",
+        "slugAliases": [
+          "MobileMoE-L-QAT"
+        ],
+        "displayName": "MobileMoE-L-QAT",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:meta:facebook",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/facebook/MobileMoE-L-QAT",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "bfeec3061dd5568907ae6eee52ed09c32d5bf7be8fdfc34850a2e0d862f0c3d4",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
+    },
+    {
+      "id": "74b1e589e65837eb1adcc089",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::bergson-wikitext-2-gpt2",
+        "owner": "EleutherAI",
+        "vendorId": "eleuther",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bergson-wikitext-2-gpt2",
+        "slug": "bergson-wikitext-2-gpt2",
+        "slugAliases": [
+          "bergson-wikitext-2-gpt2"
+        ],
+        "displayName": "bergson-wikitext-2-gpt2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "openWeights": true,
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:eleuther:eleutherai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/EleutherAI/bergson-wikitext-2-gpt2",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          }
+        ],
+        "fingerprint": "fd19422b71b2f728c4fe7afdf18256b3648c76e1f6fab3a0f4097a5d2b61626e",
+        "firstSeen": "2026-08-30T05:18:03.375Z",
+        "lastChanged": "2026-08-30T05:18:03.375Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-30T05:18:03.375Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
