@@ -136183,6 +136183,2656 @@
         "model"
       ],
       "detectedAt": "2026-08-31T01:38:55.172Z"
+    },
+    {
+      "id": "b5ed741be6e09d9362e71675",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::elephant",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "elephant",
+        "slug": "elephant",
+        "slugAliases": [
+          "elephant"
+        ],
+        "displayName": "Ling-2.6-flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {},
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "81be9b5f3d16ecc3b20d56510dd409acc43dfe74765a039f4a34a1b97da89c31",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "ling::elephant",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "elephant",
+        "slug": "elephant",
+        "slugAliases": [
+          "elephant"
+        ],
+        "displayName": "Ling 2.6 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {},
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "5dacb00ffb04be5f79c8239ed256efa5cd402854dc1899665412a88b72ed89dd",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "3340104d7ab4bc1e6e3584f2",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "baichuan::baichuan-m2-32b",
+        "owner": "Baichuan AI",
+        "vendorId": "baichuan",
+        "family": "Baichuan",
+        "familyId": "baichuan",
+        "modelId": "Baichuan-M2-32B",
+        "slug": "Baichuan-M2-32B",
+        "slugAliases": [
+          "Baichuan-M2-32B",
+          "baichuan-m2-32b"
+        ],
+        "displayName": "BaiChuan M2 32B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "parameters": "32B",
+          "tier": "m2",
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-12",
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.07,
+          "output $/M": 0.07
+        },
+        "availability": [
+          "Novita AI",
+          "NovitaAI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:baichuan:baichuan-inc",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/baichuan-inc/Baichuan-M2-32B",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/docs/guides/introduction",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "9f88456a2bf56e7aee788398b75000af15d0bc6eae71da8b2b6a41ae1542029a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "baichuan::baichuan-m2-32b",
+        "owner": "Baichuan AI",
+        "vendorId": "baichuan",
+        "family": "Baichuan",
+        "familyId": "baichuan",
+        "modelId": "Baichuan-M2-32B",
+        "slug": "Baichuan-M2-32B",
+        "slugAliases": [
+          "Baichuan-M2-32B",
+          "baichuan-m2-32b"
+        ],
+        "displayName": "Baichuan M2 32B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "parameters": "32B",
+          "tier": "m2",
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-12",
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.07,
+          "output $/M": 0.07
+        },
+        "availability": [
+          "Novita AI",
+          "NovitaAI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:baichuan:baichuan-inc",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/baichuan-inc/Baichuan-M2-32B",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/docs/guides/introduction",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "bfed537dfccca09373cf09f4ad2520f6df2566610a08c64bf217f4955604f2c4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "def22ded27db6f6767bf8a0a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "minimax::minimax-m2",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2",
+        "slug": "MiniMax-M2",
+        "slugAliases": [
+          "MiniMax-M2",
+          "minimax-m2"
+        ],
+        "displayName": "MiniMax-M2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.255,
+          "completion $/M": 1.02,
+          "input $/M": 0.3,
+          "output $/M": 1.2
+        },
+        "availability": [
+          "MiniMax (minimax.io)",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:minimax",
+            "sourceKind": "official-page",
+            "url": "https://platform.minimax.io/docs/guides/text-generation",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "official:hf:minimax:minimaxai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimax.io/docs/guides/quickstart",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/minimax/minimax-m2",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "55b0ba446998cd84a47aabbaeb0e1434d9fa40d67ea95c99ad23c325b8c7435e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "minimax::minimax-m2",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2",
+        "slug": "MiniMax-M2",
+        "slugAliases": [
+          "MiniMax-M2",
+          "minimax-m2"
+        ],
+        "displayName": "MiniMax M2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.255,
+          "completion $/M": 1.02,
+          "input $/M": 0.3,
+          "output $/M": 1.2
+        },
+        "availability": [
+          "MiniMax (minimax.io)",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:minimax",
+            "sourceKind": "official-page",
+            "url": "https://platform.minimax.io/docs/guides/text-generation",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "official:hf:minimax:minimaxai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimax.io/docs/guides/quickstart",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/minimax/minimax-m2",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "801cfeda93954df1122a92feeb92dc38c683c58d72f72a6f54feb8e13a83df78",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "e7f44a22276fff5f4fc0bf0e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "minimax::minimax-m2-1",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.1",
+        "slug": "MiniMax-M2.1",
+        "slugAliases": [
+          "MiniMax-M2.1",
+          "minimax-m2.1"
+        ],
+        "displayName": "Minimax M2.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.3,
+          "completion $/M": 1.2,
+          "input_cache_read $/M": 0.03,
+          "input $/M": 0.3,
+          "output $/M": 1.2,
+          "cache_read $/M": 0.03,
+          "cache_write $/M": 0.375
+        },
+        "availability": [
+          "MiniMax (minimax.io)",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "documented",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:minimax",
+            "sourceKind": "official-page",
+            "url": "https://platform.minimax.io/docs/guides/text-generation",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "official:hf:minimax:minimaxai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.1",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimax.io/docs/guides/quickstart",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/minimax/minimax-m2.1",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "1ead8956b1556fead1ce9c4a967a72b8d949ce4471048c0d71e76889c2285cf9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T09:46:50.013Z"
+      },
+      "after": {
+        "key": "minimax::minimax-m2-1",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.1",
+        "slug": "MiniMax-M2.1",
+        "slugAliases": [
+          "MiniMax-M2.1",
+          "minimax-m2.1"
+        ],
+        "displayName": "MiniMax M2.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.3,
+          "completion $/M": 1.2,
+          "input_cache_read $/M": 0.03,
+          "input $/M": 0.3,
+          "output $/M": 1.2,
+          "cache_read $/M": 0.03,
+          "cache_write $/M": 0.375
+        },
+        "availability": [
+          "MiniMax (minimax.io)",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "documented",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:minimax",
+            "sourceKind": "official-page",
+            "url": "https://platform.minimax.io/docs/guides/text-generation",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "official:hf:minimax:minimaxai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.1",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimax.io/docs/guides/quickstart",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/minimax/minimax-m2.1",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "6565439a0e5e4c3cba38dd5243bde7f48c9720a82f32163104e5a59843078bc8",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "95b7d4555c7d603065037c33",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "minimax::minimax-m2-5-highspeed",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.5-highspeed",
+        "slug": "MiniMax-M2.5-highspeed",
+        "slugAliases": [
+          "MiniMax-M2.5-highspeed",
+          "minimax-m2.5-highspeed"
+        ],
+        "displayName": "MiniMax M2.5-highspeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131100
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4,
+          "cache_read $/M": 0.06,
+          "cache_write $/M": 0.375
+        },
+        "availability": [
+          "MiniMax (minimax.io)",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "novita"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimax.io/docs/guides/quickstart",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "772b0276ba877bbaae81935a5ab73bbaae54fd99b48de2e78163c0d1f7f5aa3b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "after": {
+        "key": "minimax::minimax-m2-5-highspeed",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.5-highspeed",
+        "slug": "MiniMax-M2.5-highspeed",
+        "slugAliases": [
+          "MiniMax-M2.5-highspeed",
+          "minimax-m2.5-highspeed"
+        ],
+        "displayName": "MiniMax M2.5 Highspeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131100
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4,
+          "cache_read $/M": 0.06,
+          "cache_write $/M": 0.375
+        },
+        "availability": [
+          "MiniMax (minimax.io)",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "novita"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimax.io/docs/guides/quickstart",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "b3729638bce96543a7fc68d69c294e020e46445888f661938635a73cff43efe0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "45b39d8240e7db54cee92b9a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mimo::mimo-v2-5-pro",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "MiMo-V2.5-Pro",
+        "slug": "MiMo-V2.5-Pro",
+        "slugAliases": [
+          "MiMo-V2.5-Pro",
+          "mimo-v2.5-pro"
+        ],
+        "displayName": "XiaomiMiMo/MiMo-V2.5-Pro",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-12",
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 3
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "Vultr",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:xiaomi:xiaomimimo",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://api.vultrinference.com/",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "895b32f547799deba1a559b4dea4c3e18744be3ae65545b9d1f5b57d05325cef",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "after": {
+        "key": "mimo::mimo-v2-5-pro",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "MiMo-V2.5-Pro",
+        "slug": "MiMo-V2.5-Pro",
+        "slugAliases": [
+          "MiMo-V2.5-Pro",
+          "mimo-v2.5-pro"
+        ],
+        "displayName": "Xiaomi MiMo V2.5 Pro",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-12",
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 3
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "Vultr",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:xiaomi:xiaomimimo",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://api.vultrinference.com/",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "db91d6d33e589d3744c7f9a5573ac061e9ce51791fa74c24b20ccc051a3f0dcd",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "d2554794ecec73b8704c21b1",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-4-7",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-4.7",
+        "slug": "GLM-4.7",
+        "slugAliases": [
+          "GLM-4.7",
+          "glm-4.7"
+        ],
+        "displayName": "GLM-4.7",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "version": "4.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-04",
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 202752,
+          "maxOutputTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 1.75
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-4.7",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "7076ec4ffdef92b41ba84dd2aaf5270b0b3435fed7d41878199913ba258c2bf6",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "after": {
+        "key": "glm::glm-4-7",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-4.7",
+        "slug": "GLM-4.7",
+        "slugAliases": [
+          "GLM-4.7",
+          "glm-4.7"
+        ],
+        "displayName": "GLM 4.7",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "version": "4.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-04",
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 202752,
+          "maxOutputTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 1.75
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-4.7",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "0a5822bae39f416855e18b74ccaeefdaafb3da49bff11ab38248f7ff2c195126",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "ce0ca6558a1a3858852e5f71",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-4-7-h",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-4.7-h",
+        "slug": "glm-4.7-h",
+        "slugAliases": [
+          "glm-4.7-h"
+        ],
+        "displayName": "GLM-4.7",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "version": "4.7",
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.2
+        },
+        "availability": [
+          "Novita AI",
+          "novita"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "c27ed4739afd990493a1d9be31c83d3ec8eb705178855bcf036abf9344e9a7da",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "after": {
+        "key": "glm::glm-4-7-h",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-4.7-h",
+        "slug": "glm-4.7-h",
+        "slugAliases": [
+          "glm-4.7-h"
+        ],
+        "displayName": "GLM 4.7",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "version": "4.7",
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.2
+        },
+        "availability": [
+          "Novita AI",
+          "novita"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "a38c86dee557676227dc5766b20a6d6c476f799d2f7e9bf9fbc4eaa4c3ee1f93",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "269f020edeed4a1c094b81c3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5",
+        "slug": "GLM-5",
+        "slugAliases": [
+          "GLM-5",
+          "glm-5"
+        ],
+        "displayName": "GLM-5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 202752,
+          "maxOutputTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.08
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "454d070b829f4dc8b9d1dc57b709d6581162dacfb62c6ba6c95cb435ac5a08d2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "after": {
+        "key": "glm::glm-5",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5",
+        "slug": "GLM-5",
+        "slugAliases": [
+          "GLM-5",
+          "glm-5"
+        ],
+        "displayName": "GLM 5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 202752,
+          "maxOutputTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.08
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "2224741dad2d60da3b3f7686ff56151d8262cf77cbc7f2db08da0c87bf723131",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "32b3b491b9601e3333b76491",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-1",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.1",
+        "slug": "GLM-5.1",
+        "slugAliases": [
+          "GLM-5.1",
+          "glm-5.1"
+        ],
+        "displayName": "GLM-5.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "version": "5.1",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 202752,
+          "maxOutputTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 1.05,
+          "output $/M": 3.5,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.1",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.1",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "ad86d82c521e9cea73b2f47d2acdc2fd74bda62c11ef8e1aecfb07d47153878b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "after": {
+        "key": "glm::glm-5-1",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.1",
+        "slug": "GLM-5.1",
+        "slugAliases": [
+          "GLM-5.1",
+          "glm-5.1"
+        ],
+        "displayName": "GLM 5.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "version": "5.1",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 202752,
+          "maxOutputTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 1.05,
+          "output $/M": 3.5,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.1",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.1",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "4c4eb86708960bba7fbb159ecc7ff1bbd82952b7b75416bb0e2e6fc090ac217c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "ac9d33a19a5eb95fa800f0e5",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-oss-20b",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-oss-20b",
+        "slug": "gpt-oss-20b",
+        "slugAliases": [
+          "gpt-oss-20b"
+        ],
+        "displayName": "OpenAI: GPT OSS 20B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "20B",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.05,
+          "completion $/M": 0.2,
+          "input $/M": 0.0145,
+          "output $/M": 0.07,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "Weights & Biases",
+          "darkbloom",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:openai:openai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/openai/gpt-oss-20b",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.darkbloom.dev/",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-oss-20b:batch",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "a2900f3b732d27a9d439e46aac5173f925b769f92868b8cd112e437fa3f16c10",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-29T00:40:55.354Z"
+      },
+      "after": {
+        "key": "gpt::gpt-oss-20b",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-oss-20b",
+        "slug": "gpt-oss-20b",
+        "slugAliases": [
+          "gpt-oss-20b"
+        ],
+        "displayName": "OpenAI GPT OSS 20B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "20B",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.05,
+          "completion $/M": 0.2,
+          "input $/M": 0.0145,
+          "output $/M": 0.07,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "Weights & Biases",
+          "darkbloom",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:openai:openai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/openai/gpt-oss-20b",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.darkbloom.dev/",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-oss-20b:batch",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "593d160f49613c683c1badc2d1bc11bea4a312680962d21fb167af9c09e4e8ef",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "fb46dbf4c0266cd4bc7c5af3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-5-35b-a3b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-35B-A3B",
+        "slug": "Qwen3.5-35B-A3B",
+        "slugAliases": [
+          "Qwen3.5-35B-A3B",
+          "qwen3.5-35b-a3b"
+        ],
+        "displayName": "Qwen3.5-35B-A3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "parameters": "35B",
+          "activeParameters": "3B active",
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 1,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Weights & Biases",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "ab620881ce1d4ea25d778ec5af4bd4652bd8012c71b0d3917bdcaf576d2e5752",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-5-35b-a3b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-35B-A3B",
+        "slug": "Qwen3.5-35B-A3B",
+        "slugAliases": [
+          "Qwen3.5-35B-A3B",
+          "qwen3.5-35b-a3b"
+        ],
+        "displayName": "Qwen3.5 35B A3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "parameters": "35B",
+          "activeParameters": "3B active",
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 1,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Weights & Biases",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-08-30T05:18:03.375Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "c742f0a73291252700448dda6373431668135bc554bf82bbda243f4a648aedee",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "8848f4dfa4a2a6575eac9b10",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::sao10k-l3-70b-euryale-v2-1",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "sao10k/l3-70b-euryale-v2.1",
+        "slug": "sao10k/l3-70b-euryale-v2.1",
+        "slugAliases": [
+          "sao10k/l3-70b-euryale-v2.1"
+        ],
+        "displayName": "Llama 3 70B Euryale V2.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "l3",
+        "capabilities": {
+          "parameters": "70B",
+          "tier": "l3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-06-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "69c75bfd51d5facde6f3b08a39cbbb658ad495c2f530acc95edf25aca73e057e",
+        "firstSeen": "2026-08-31T15:25:46.486Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "5db68685ebc5daf109d73f70",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::sao10k-l3-8b-lunaris",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "sao10k/l3-8b-lunaris",
+        "slug": "sao10k/l3-8b-lunaris",
+        "slugAliases": [
+          "sao10k/l3-8b-lunaris"
+        ],
+        "displayName": "Llama 3 8B Lunaris",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "l3",
+        "capabilities": {
+          "parameters": "8B",
+          "tier": "l3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "63019d4bc435305de25a7b48d46e04dae3eb6d259789a8e84a9c58d17042ab55",
+        "firstSeen": "2026-08-31T15:25:46.486Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "0e04e89027036d7ffca31bc3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::sao10k-l3-8b-stheno-v3-2",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Sao10K/L3-8B-Stheno-v3.2",
+        "slug": "Sao10K/L3-8B-Stheno-v3.2",
+        "slugAliases": [
+          "Sao10K/L3-8B-Stheno-v3.2"
+        ],
+        "displayName": "Llama 3 8B Stheno V3.2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "l3",
+        "capabilities": {
+          "parameters": "8B",
+          "tier": "l3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "67ec4cede48edf45b9b2ee0dd31e004ec09048245bb3b24990c2dc78848bbc22",
+        "firstSeen": "2026-08-31T15:25:46.486Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "c4bfa2bb6c36abbf644b2be2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::sao10k-l31-70b-euryale-v2-2",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "sao10k/l31-70b-euryale-v2.2",
+        "slug": "sao10k/l31-70b-euryale-v2.2",
+        "slugAliases": [
+          "sao10k/l31-70b-euryale-v2.2"
+        ],
+        "displayName": "Llama 3.1 70B Euryale V2.2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "31",
+        "tier": "l31",
+        "capabilities": {
+          "parameters": "70B",
+          "tier": "l31",
+          "version": "31"
+        },
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-09-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-08-31T15:25:46.486Z"
+          }
+        ],
+        "fingerprint": "9aa2ce45c04ab7efee9c03985d5b80b3b8bdb080f1d407dcf1dbbfe977a63a24",
+        "firstSeen": "2026-08-31T15:25:46.486Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-08-31T15:25:46.486Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
