@@ -138833,6 +138833,113 @@
         "model"
       ],
       "detectedAt": "2026-08-31T15:25:46.486Z"
+    },
+    {
+      "id": "76003a1c1548c9503a66f7c9",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "kwaipilot-kat::kwaipilot-kat-coder-air-v2-5-20260710",
+        "family": "kwaipilot-kat",
+        "modelId": "kwaipilot/kat-coder-air-v2.5-20260710",
+        "slug": "kwaipilot/kat-coder-air-v2.5-20260710",
+        "slugAliases": [
+          "kwaipilot/kat-coder-air-v2.5-20260710"
+        ],
+        "displayName": "Kwaipilot: KAT-Coder-Air V2.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.5",
+        "tier": "air",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "air",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 80000
+        },
+        "pricing": {
+          "prompt $/M": 0.15,
+          "completion $/M": 0.6,
+          "input_cache_read $/M": 0.03
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-10",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/kwaipilot/kat-coder-air-v2.5",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "b2c3318e5319ae84ede5967da731399de1c494db02cb034e138b9525679d9812",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "kwaipilot-kat::kwaipilot-kat-coder-air-v2-5-20260710",
+        "family": "kwaipilot-kat",
+        "modelId": "kwaipilot/kat-coder-air-v2.5-20260710",
+        "slug": "kwaipilot/kat-coder-air-v2.5-20260710",
+        "slugAliases": [
+          "kwaipilot/kat-coder-air-v2.5-20260710"
+        ],
+        "displayName": "Kwaipilot: KAT-Coder-Air V2.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.5",
+        "tier": "air",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "air",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 80000
+        },
+        "pricing": {
+          "prompt $/M": 0.15,
+          "completion $/M": 0.6,
+          "input_cache_read $/M": 0.03
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-07-10",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/kwaipilot/kat-coder-air-v2.5",
+            "observedAt": "2026-08-31T07:37:54.338Z"
+          }
+        ],
+        "fingerprint": "bc58ff92a6b0e36273969e6c809739de4f4e3e96b6b9ea041df4d93163931d11",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-01T00:22:08.961Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-09-01T00:22:08.961Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
