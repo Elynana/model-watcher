@@ -139256,6 +139256,322 @@
         "displayName"
       ],
       "detectedAt": "2026-09-01T05:25:05.316Z"
+    },
+    {
+      "id": "6a8a354f477516005a1f48a0",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-mini",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2-mini",
+        "slug": "nex-agi/nex-n2-mini",
+        "slugAliases": [
+          "nex-agi/nex-n2-mini"
+        ],
+        "displayName": "Nex AGI: Nex-N2-Mini (retires Sep 4)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "prompt $/M": 0.025,
+          "completion $/M": 0.1,
+          "input_cache_read $/M": 0.0025,
+          "input $/M": 0.025,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.0025
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-24",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-01T05:25:05.316Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-01T05:25:05.316Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2-mini",
+            "observedAt": "2026-09-01T05:25:05.316Z"
+          }
+        ],
+        "fingerprint": "9edf00c3a4b4d016ae049abc3172f21d4772edd2b54243bef6e83297e5eb0282",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-01T05:25:05.316Z"
+      },
+      "after": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-mini",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2-mini",
+        "slug": "nex-agi/nex-n2-mini",
+        "slugAliases": [
+          "nex-agi/nex-n2-mini"
+        ],
+        "displayName": "Nex AGI: Nex-N2-Mini (retires Sep 8)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "prompt $/M": 0.025,
+          "completion $/M": 0.1,
+          "input_cache_read $/M": 0.0025,
+          "input $/M": 0.025,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.0025
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-24",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-01T10:18:24.037Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-01T10:18:24.037Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2-mini",
+            "observedAt": "2026-09-01T10:18:24.037Z"
+          }
+        ],
+        "fingerprint": "cf3df0040ba9ac469c530e5d74ad5b083358a774c665046b4fca4aebe9faf009",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-01T10:18:24.037Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-01T10:18:24.037Z"
+    },
+    {
+      "id": "410aafa87d376011a6bdae70",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-pro",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2-pro",
+        "slug": "nex-agi/nex-n2-pro",
+        "slugAliases": [
+          "nex-agi/nex-n2-pro"
+        ],
+        "displayName": "Nex AGI: Nex-N2-Pro (retires Sep 4)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "prompt $/M": 0.25,
+          "completion $/M": 1,
+          "input_cache_read $/M": 0.025,
+          "input $/M": 0.25,
+          "output $/M": 1,
+          "cache_read $/M": 0.025
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-08",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-01T05:25:05.316Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-01T05:25:05.316Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-01T05:25:05.316Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2-pro",
+            "observedAt": "2026-09-01T05:25:05.316Z"
+          }
+        ],
+        "fingerprint": "ae27511034ca3f75261cfb4297708085545fedf911f9f0c1ec0835033097757b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-01T05:25:05.316Z"
+      },
+      "after": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-pro",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2-pro",
+        "slug": "nex-agi/nex-n2-pro",
+        "slugAliases": [
+          "nex-agi/nex-n2-pro"
+        ],
+        "displayName": "Nex AGI: Nex-N2-Pro (retires Sep 8)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "prompt $/M": 0.25,
+          "completion $/M": 1,
+          "input_cache_read $/M": 0.025,
+          "input $/M": 0.25,
+          "output $/M": 1,
+          "cache_read $/M": 0.025
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-08",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-01T10:18:24.037Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-01T10:18:24.037Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-01T10:18:24.037Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2-pro",
+            "observedAt": "2026-09-01T10:18:24.037Z"
+          }
+        ],
+        "fingerprint": "a877aca63b3e7b2d8849e05b399f940802b373c44fa20589071c56522fb8444d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-01T10:18:24.037Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-01T10:18:24.037Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
