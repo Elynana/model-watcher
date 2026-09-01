@@ -139572,6 +139572,116 @@
         "displayName"
       ],
       "detectedAt": "2026-09-01T10:18:24.037Z"
+    },
+    {
+      "id": "00a47c866869d0606b4df90c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mercury::mercury-2-5-preview",
+        "owner": "Inception Labs",
+        "vendorId": "inception-labs",
+        "family": "Mercury",
+        "familyId": "mercury",
+        "modelId": "mercury-2.5-preview",
+        "slug": "mercury-2.5-preview",
+        "slugAliases": [
+          "mercury-2.5-preview"
+        ],
+        "displayName": "Mercury 2.5 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 260000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0.15,
+          "cache_read $/M": 0.004
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-31",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-01T14:58:24.031Z"
+          }
+        ],
+        "fingerprint": "fa29e08d4da814e92f95ac888c39d214dea8d69f38257c7bd369fb61fc8de53e",
+        "firstSeen": "2026-09-01T14:58:24.031Z",
+        "lastChanged": "2026-09-01T14:58:24.031Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-01T14:58:24.031Z"
+    },
+    {
+      "id": "a52452623820d02d7f454f64",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "perplexity-ai-pplx-pii-masking::perplexity-ai-pplx-pii-masking",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "perplexity-ai-pplx-pii-masking",
+        "modelId": "perplexity-ai/pplx-pii-masking",
+        "slug": "perplexity-ai/pplx-pii-masking",
+        "slugAliases": [
+          "perplexity-ai/pplx-pii-masking"
+        ],
+        "displayName": "pplx-pii-masking",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pplx-pii-masking",
+            "observedAt": "2026-09-01T14:58:24.031Z"
+          }
+        ],
+        "fingerprint": "bbe855fbb153463a02dc2832c4c1a4f299203f023669fbb8131714b073e88431",
+        "firstSeen": "2026-09-01T14:58:24.031Z",
+        "lastChanged": "2026-09-01T14:58:24.031Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-01T14:58:24.031Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
