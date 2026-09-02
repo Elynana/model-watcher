@@ -144662,6 +144662,73 @@
         "model"
       ],
       "detectedAt": "2026-09-02T05:44:10.814Z"
+    },
+    {
+      "id": "7a7a52b311dd1a2fa6458e47",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-8-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash",
+        "slug": "gemini-3.8-flash",
+        "slugAliases": [
+          "gemini-3.8-flash"
+        ],
+        "displayName": "Gemini 3.8 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text",
+          "tier": "flash",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "cache_read $/M": 0.075,
+          "cache_write $/M": 0.08333
+        },
+        "availability": [
+          "DevPass (LLM Gateway)"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-09-02T09:57:45.272Z"
+          }
+        ],
+        "fingerprint": "c19c6d55c9b882aabde014f2e01efb250158edae0d80d04471a5b7a1c640215e",
+        "firstSeen": "2026-09-02T09:57:45.272Z",
+        "lastChanged": "2026-09-02T09:57:45.272Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T09:57:45.272Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
