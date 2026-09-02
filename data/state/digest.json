@@ -145394,6 +145394,468 @@
         "model"
       ],
       "detectedAt": "2026-09-02T20:24:53.885Z"
+    },
+    {
+      "id": "c16f5b57fd7672317e9fc298",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "Meta: Muse Spark 1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-02T22:45:44.570Z"
+          }
+        ],
+        "fingerprint": "e6c98f3693a4cb2a25942386f75ab8f9f90e403c39e3cd1233476d122349185f",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-02T22:45:44.570Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T22:45:44.570Z"
+    },
+    {
+      "id": "20473d2814373bb29f8e5f84",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-fable-5-1-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5.1@eu",
+        "slug": "claude-fable-5.1@eu",
+        "slugAliases": [
+          "claude-fable-5.1@eu"
+        ],
+        "displayName": "Claude Fable 5.1 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "tier": "fable",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "fable",
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 11,
+          "output $/M": 55,
+          "cache_read $/M": 0.275,
+          "cache_write $/M": 13.75
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-02T22:45:44.570Z"
+          }
+        ],
+        "fingerprint": "f6c2c45c9290c255b3a8803d9a14117cd3cd8fcc21184872ae041f0bb3fa861d",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-02T22:45:44.570Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T22:45:44.570Z"
+    },
+    {
+      "id": "8bc0ea9159efb7cd62505ef2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-flash-next-eu",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash-next@eu",
+        "slug": "qwen3.8-flash-next@eu",
+        "slugAliases": [
+          "qwen3.8-flash-next@eu"
+        ],
+        "displayName": "Qwen3.8 Flash Next (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-02T22:45:44.570Z"
+          }
+        ],
+        "fingerprint": "63587b3271e55bce8f52ff8719c9d64f2ff175c0909e693393412e30b95fbfc4",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-02T22:45:44.570Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T22:45:44.570Z"
+    },
+    {
+      "id": "0658c3ed7723aa0e0580a448",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-pro-0813-eu",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-pro-0813@eu",
+        "slug": "deepseek-v4-pro-0813@eu",
+        "slugAliases": [
+          "deepseek-v4-pro-0813@eu"
+        ],
+        "displayName": "DeepSeek V4 Pro 0813 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 1.75,
+          "output $/M": 3.5,
+          "cache_read $/M": 0.44
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-02T22:45:44.570Z"
+          }
+        ],
+        "fingerprint": "d2693683e1e3674e80184ca4abcf6bb96dce142818754a54929721b15980a89b",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-02T22:45:44.570Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T22:45:44.570Z"
+    },
+    {
+      "id": "fef517706eb3b3777c5d6b04",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-2-4t-a95b-eu",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-2.4T-A95B@eu",
+        "slug": "qwen3.8-2.4T-A95B@eu",
+        "slugAliases": [
+          "qwen3.8-2.4T-A95B@eu"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "activeParameters": "95B active",
+          "version": "3.8.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.63
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-02T22:45:44.570Z"
+          }
+        ],
+        "fingerprint": "ee0d6e16cad29af722142affae80c293eab0df2024b7dee4aaee9daa7501c2a8",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-02T22:45:44.570Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T22:45:44.570Z"
+    },
+    {
+      "id": "c89657b8ac02798de205d6e1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-8-flash-eu",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash@eu",
+        "slug": "gemini-3.8-flash@eu",
+        "slugAliases": [
+          "gemini-3.8-flash@eu"
+        ],
+        "displayName": "Gemini 3.8 Flash (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.825,
+          "output $/M": 4.125,
+          "cache_read $/M": 0.0825
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-02T22:45:44.570Z"
+          }
+        ],
+        "fingerprint": "541efe059aaf8b8ece9f152443be957c65b6d7e954b2e0fad5448638f6237715",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-02T22:45:44.570Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T22:45:44.570Z"
+    },
+    {
+      "id": "c32db975ef46fd928fb54190",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::duo-chat-fable-5-1",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "duo-chat-fable-5-1",
+        "slug": "duo-chat-fable-5-1",
+        "slugAliases": [
+          "duo-chat-fable-5-1"
+        ],
+        "displayName": "Agentic Chat (Claude Fable 5.1)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "tier": "fable",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "fable",
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "GitLab Duo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.gitlab.com/user/duo_agent_platform/",
+            "observedAt": "2026-09-02T22:45:44.570Z"
+          }
+        ],
+        "fingerprint": "522972787f6a457fa16ec3f21e05be09eb716ed534654a179eb97424d04593ef",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-02T22:45:44.570Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T22:45:44.570Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
