@@ -144487,6 +144487,181 @@
         "announcement"
       ],
       "detectedAt": "2026-09-01T23:16:30.410Z"
+    },
+    {
+      "id": "31cbb1d230f70999ad351ee0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-flash-latest",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-flash-latest",
+        "slug": "glm-flash-latest",
+        "slugAliases": [
+          "glm-flash-latest"
+        ],
+        "displayName": "Z.ai: GLM Flash Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.25,
+          "input_cache_read $/M": 0.015,
+          "input $/M": 0.075,
+          "output $/M": 0.25,
+          "cache_read $/M": 0.015
+        },
+        "availability": [
+          "Kilo Gateway",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-02T05:44:10.814Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~z-ai/glm-flash-latest",
+            "observedAt": "2026-09-02T05:44:10.814Z"
+          }
+        ],
+        "fingerprint": "534549a2bcd52068732024747d26da2a7ab6767b6af461b4d04d6ee75d5b96a3",
+        "firstSeen": "2026-09-02T05:44:10.814Z",
+        "lastChanged": "2026-09-02T05:44:10.814Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T05:44:10.814Z"
+    },
+    {
+      "id": "0c8f983550f1c5715f75cc52",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-max-0902",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-max-0902",
+        "slug": "qwen3.8-max-0902",
+        "slugAliases": [
+          "qwen3.8-max-0902"
+        ],
+        "displayName": "qwen3.8-max-0902",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "max",
+        "capabilities": {
+          "tier": "max",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 991000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-02T05:44:10.814Z"
+          }
+        ],
+        "fingerprint": "e1829dae1357177be96c321cb502d30fde947eb5d2e2e07a1d08e8a094273f8f",
+        "firstSeen": "2026-09-02T05:44:10.814Z",
+        "lastChanged": "2026-09-02T05:44:10.814Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T05:44:10.814Z"
+    },
+    {
+      "id": "1c3252659fc8591b21d33876",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kakaocorp-lmspt::kakaocorp-lmspt",
+        "owner": "Kakao",
+        "vendorId": "kakao",
+        "family": "kakaocorp-lmspt",
+        "modelId": "kakaocorp/lmspt",
+        "slug": "kakaocorp/lmspt",
+        "slugAliases": [
+          "kakaocorp/lmspt"
+        ],
+        "displayName": "lmspt",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kakao:kakaocorp",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kakaocorp/lmspt",
+            "observedAt": "2026-09-02T05:44:10.814Z"
+          }
+        ],
+        "fingerprint": "7ae56b4d8c1c4f0e61dc63cb7a11b71f2564b0e66607c377562a79d89497bd8c",
+        "firstSeen": "2026-09-02T05:44:10.814Z",
+        "lastChanged": "2026-09-02T05:44:10.814Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-02T05:44:10.814Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
