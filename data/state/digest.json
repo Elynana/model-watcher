@@ -169500,6 +169500,446 @@
         "model"
       ],
       "detectedAt": "2026-09-03T09:46:31.082Z"
+    },
+    {
+      "id": "e4bc95b1d0f795d270efb8f0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bge::bge-m3-multi-8k",
+        "owner": "BAAI",
+        "vendorId": "baai",
+        "family": "BGE / Emu / Aquila",
+        "familyId": "bge",
+        "modelId": "bge-m3-multi-8k",
+        "slug": "bge-m3-multi-8k",
+        "slugAliases": [
+          "bge-m3-multi-8k"
+        ],
+        "displayName": "bge-m3-multi-8k",
+        "modalities": [
+          "embedding",
+          "image",
+          "rerank",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "m3",
+        "capabilities": {
+          "parameters": "8K",
+          "tier": "m3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "DeepInfra"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "1970-01-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "dcacc8549cc04ef10be84f173b386f09a142af270d7ab53d580068676fb5377c",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "4db26d61533bbf35199c0b70",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "neomme::neomme-800m-retriever-st-late",
+        "owner": "H Company",
+        "vendorId": "h-company",
+        "family": "neomme",
+        "modelId": "NeoMME-800M-Retriever-ST-late",
+        "slug": "NeoMME-800M-Retriever-ST-late",
+        "slugAliases": [
+          "NeoMME-800M-Retriever-ST-late"
+        ],
+        "displayName": "NeoMME-800M-Retriever-ST-late",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "800M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:h-company:hcompany",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Hcompany/NeoMME-800M-Retriever-ST-late",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "e01c31c4eff8d921f9b9fce26d3d2279598bbca7058d8b9911f6107dd1cbc3a4",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "e6fef5f79d17fe25a5e2bfdb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "neomme::neomme-260m-retriever-st-late",
+        "owner": "H Company",
+        "vendorId": "h-company",
+        "family": "neomme",
+        "modelId": "NeoMME-260M-Retriever-ST-late",
+        "slug": "NeoMME-260M-Retriever-ST-late",
+        "slugAliases": [
+          "NeoMME-260M-Retriever-ST-late"
+        ],
+        "displayName": "NeoMME-260M-Retriever-ST-late",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "260M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:h-company:hcompany",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Hcompany/NeoMME-260M-Retriever-ST-late",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "bd74077a2ca90de1a8b4f49f6a1aa7aa920b7608e19b8177664f5efd95590920",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "40fcc0dd04644bb3bf9c96e9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "neomme::neomme-800m-retriever-st-dense",
+        "owner": "H Company",
+        "vendorId": "h-company",
+        "family": "neomme",
+        "modelId": "NeoMME-800M-Retriever-ST-dense",
+        "slug": "NeoMME-800M-Retriever-ST-dense",
+        "slugAliases": [
+          "NeoMME-800M-Retriever-ST-dense"
+        ],
+        "displayName": "NeoMME-800M-Retriever-ST-dense",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "800M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:h-company:hcompany",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Hcompany/NeoMME-800M-Retriever-ST-dense",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "ef6410beab08a1a2a1e671df082f1a45435c03a006ddad41e5679b3dca49d041",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "fe81c3101f1695126b3c322a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "neomme::neomme-260m-retriever-st-dense",
+        "owner": "H Company",
+        "vendorId": "h-company",
+        "family": "neomme",
+        "modelId": "NeoMME-260M-Retriever-ST-dense",
+        "slug": "NeoMME-260M-Retriever-ST-dense",
+        "slugAliases": [
+          "NeoMME-260M-Retriever-ST-dense"
+        ],
+        "displayName": "NeoMME-260M-Retriever-ST-dense",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "260M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:h-company:hcompany",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Hcompany/NeoMME-260M-Retriever-ST-dense",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "bea9201ea08bfc709aee8a5367de3708d2e00c76e01d2c1b09461150b24762ad",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "c9902106c3c6ce87b07b6312",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "neomme::neomme-800m-retriever",
+        "owner": "H Company",
+        "vendorId": "h-company",
+        "family": "neomme",
+        "modelId": "NeoMME-800M-Retriever",
+        "slug": "NeoMME-800M-Retriever",
+        "slugAliases": [
+          "NeoMME-800M-Retriever"
+        ],
+        "displayName": "NeoMME-800M-Retriever",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "800M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:h-company:hcompany",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Hcompany/NeoMME-800M-Retriever",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "c68f10fa2799752be4b507d64fd61967e61273c2b8ea2e2351d52e9aeed5b912",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "4a1167070a3ed6480db5e05d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "neomme::neomme-800m",
+        "owner": "H Company",
+        "vendorId": "h-company",
+        "family": "neomme",
+        "modelId": "NeoMME-800M",
+        "slug": "NeoMME-800M",
+        "slugAliases": [
+          "NeoMME-800M"
+        ],
+        "displayName": "NeoMME-800M",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "800M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:h-company:hcompany",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Hcompany/NeoMME-800M",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "c1297336c5a89038560dfcddfcb28c6e16fcf345a322c115ea20e57ac5804b88",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "16ac081647df5101cc1abb34",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "neomme::neomme-260m-retriever",
+        "owner": "H Company",
+        "vendorId": "h-company",
+        "family": "neomme",
+        "modelId": "NeoMME-260M-Retriever",
+        "slug": "NeoMME-260M-Retriever",
+        "slugAliases": [
+          "NeoMME-260M-Retriever"
+        ],
+        "displayName": "NeoMME-260M-Retriever",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "260M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:h-company:hcompany",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Hcompany/NeoMME-260M-Retriever",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "5a68f4919218ec63308450ace24fef8422e86261143e72293bc3bb54851e5059",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "10d0e78b307078b7633151c1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "neomme::neomme-260m",
+        "owner": "H Company",
+        "vendorId": "h-company",
+        "family": "neomme",
+        "modelId": "NeoMME-260M",
+        "slug": "NeoMME-260M",
+        "slugAliases": [
+          "NeoMME-260M"
+        ],
+        "displayName": "NeoMME-260M",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "260M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:h-company:hcompany",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Hcompany/NeoMME-260M",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "6cdb7f8243cd827b531df687166a10b692f591046f5e06428abfc6fc8eb57a20",
+        "firstSeen": "2026-09-03T13:55:09.419Z",
+        "lastChanged": "2026-09-03T13:55:09.419Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T13:55:09.419Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
