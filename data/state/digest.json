@@ -169940,6 +169940,374 @@
         "model"
       ],
       "detectedAt": "2026-09-03T13:55:09.419Z"
+    },
+    {
+      "id": "16b73fee25be2e42c105edc4",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "Meta: Muse Spark 1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          }
+        ],
+        "fingerprint": "e6c98f3693a4cb2a25942386f75ab8f9f90e403c39e3cd1233476d122349185f",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-03T09:46:31.082Z"
+      },
+      "after": {
+        "key": "spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "Muse Spark 1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          }
+        ],
+        "fingerprint": "63db6e7b39269a6412fe3cfb4dcd84fa36ef192a6cb427823ba05fec496ed2ee",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-03T17:27:50.509Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-03T17:27:50.509Z"
+    },
+    {
+      "id": "d6fb8bffbffa1ab3d6d56558",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm5.3-flash",
+        "slug": "glm5.3-flash",
+        "slugAliases": [
+          "glm5.3-flash"
+        ],
+        "displayName": "GLM-5.3-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "NaN"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://nan.builders/docs/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          }
+        ],
+        "fingerprint": "a0dcd99db3263161c78d4369b0a843eb1ea176b9bfb745d234a543d0be3214e2",
+        "firstSeen": "2026-09-03T17:27:50.509Z",
+        "lastChanged": "2026-09-03T17:27:50.509Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T17:27:50.509Z"
+    },
+    {
+      "id": "3cf24521b5bf8b21fdcc4187",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-6",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.6",
+        "slug": "qwen3.6",
+        "slugAliases": [
+          "qwen3.6"
+        ],
+        "displayName": "Qwen3.6 35B-A3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "version": "3.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "NaN"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://nan.builders/docs/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          }
+        ],
+        "fingerprint": "a8c4973b981b94eee088d551f2791b8cd91ba0b96c1dae3676b604d5d98b75b0",
+        "firstSeen": "2026-09-03T17:27:50.509Z",
+        "lastChanged": "2026-09-03T17:27:50.509Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T17:27:50.509Z"
+    },
+    {
+      "id": "ca9b9f04fae1a6210a6afdb3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-8-flash-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash@us",
+        "slug": "gemini-3.8-flash@us",
+        "slugAliases": [
+          "gemini-3.8-flash@us"
+        ],
+        "displayName": "Gemini 3.8 Flash (US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5,
+          "reasoning $/M": 7.5,
+          "cache_read $/M": 0.15,
+          "cache_write $/M": 0.083333,
+          "input_audio $/M": 1.5
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          }
+        ],
+        "fingerprint": "9021c0002639e087efc3912a864db5fc18c994e20d35f9050e9744d2a12210b0",
+        "firstSeen": "2026-09-03T17:27:50.509Z",
+        "lastChanged": "2026-09-03T17:27:50.509Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T17:27:50.509Z"
+    },
+    {
+      "id": "ad40c58d34e87bd48049ac5c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lyria::lyria-3-5-pro",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Lyria",
+        "familyId": "lyria",
+        "modelId": "Lyria 3.5 Pro",
+        "slug": "Lyria 3.5 Pro",
+        "slugAliases": [
+          "Lyria 3.5 Pro"
+        ],
+        "displayName": "Lyria 3.5 Pro",
+        "modalities": [
+          "audio",
+          "music"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          }
+        ],
+        "fingerprint": "fc26b79a86dcd13984311f9faecba94c48aea211fb3a5a1ea0e2f01b8a7a7614",
+        "firstSeen": "2026-09-03T17:27:50.509Z",
+        "lastChanged": "2026-09-03T17:27:50.509Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-03T17:27:50.509Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
