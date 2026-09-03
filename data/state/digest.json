@@ -170308,6 +170308,673 @@
         "announcement"
       ],
       "detectedAt": "2026-09-03T17:27:50.509Z"
+    },
+    {
+      "id": "a6228870fe5233226a4ed250",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "Muse Spark 1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          }
+        ],
+        "fingerprint": "63db6e7b39269a6412fe3cfb4dcd84fa36ef192a6cb427823ba05fec496ed2ee",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-03T17:27:50.509Z"
+      },
+      "after": {
+        "key": "spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "Muse Spark 1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          }
+        ],
+        "fingerprint": "31b313aceee73588f56f584bc5fd1b15089c6b3bb92925d71b23d004636ace75",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-03T20:02:11.941Z"
+    },
+    {
+      "id": "0c4cd158c3bcf151448136c9",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "step::step-3-7-flash",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "Step-3.7-Flash",
+        "slug": "Step-3.7-Flash",
+        "slugAliases": [
+          "Step 3.7 Flash",
+          "Step-3.7-Flash",
+          "step-3.7-flash"
+        ],
+        "displayName": "Step 3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2026-03-01",
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1.15,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:stepfun:stepfun-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-01T21:05:42.279Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-15T03:51:15.970Z"
+          }
+        ],
+        "fingerprint": "f62217bc48ba86ecbdd80473462ad830e3000d196b684184dec41d0ef5ec75f7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-03T09:46:31.082Z"
+      },
+      "after": {
+        "key": "step::step-3-7-flash",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "Step-3.7-Flash",
+        "slug": "Step-3.7-Flash",
+        "slugAliases": [
+          "Step 3.7 Flash",
+          "Step-3.7-Flash",
+          "step-3.7-flash"
+        ],
+        "displayName": "Step 3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2026-03-01",
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1.15,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:stepfun:stepfun-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-01T21:05:42.279Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-15T03:51:15.970Z"
+          }
+        ],
+        "fingerprint": "acaf313696bbdae2e4b904d32b3342a872734f97dbe9e2cb78b837311a6de182",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-03T20:02:11.941Z"
+    },
+    {
+      "id": "e3845a5eb49e5e1bf510c794",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-vision-exp",
+        "slug": "deepseek-v4-flash-vision-exp",
+        "slugAliases": [
+          "DeepSeek-V4-Flash-Vision-Exp",
+          "deepseek-v4-flash-vision-exp"
+        ],
+        "displayName": "DeepSeek V4 Flash Vision Exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 1.32,
+          "cache_read $/M": 0.007
+        },
+        "availability": [
+          "DeepInfra",
+          "Fireworks AI",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/docs/",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-01T21:05:42.279Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T17:27:50.509Z"
+          }
+        ],
+        "fingerprint": "5ca8bf764dee82902e5ed49ea8bb9a669c60d883366a0e5b8a47512f4f5c4ed0",
+        "firstSeen": "2026-08-21T09:49:31.119Z",
+        "lastChanged": "2026-09-03T09:46:31.082Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-vision-exp",
+        "slug": "deepseek-v4-flash-vision-exp",
+        "slugAliases": [
+          "DeepSeek-V4-Flash-Vision-Exp",
+          "deepseek-v4-flash-vision-exp"
+        ],
+        "displayName": "DeepSeek V4 Flash Vision Exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 1.32,
+          "cache_read $/M": 0.007
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-01T21:05:42.279Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          }
+        ],
+        "fingerprint": "00ad156560b00d61d2c432b65ae3dc791a1429696f8b6682ae7b1c6876fcfd4a",
+        "firstSeen": "2026-08-21T09:49:31.119Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-03T20:02:11.941Z"
+    },
+    {
+      "id": "1349fda2acec95b71fc24f00",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::meta-contributor-muse-spark-1-3-contributor",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "meta-contributor/muse-spark-1.3-contributor",
+        "slug": "meta-contributor/muse-spark-1.3-contributor",
+        "slugAliases": [
+          "meta-contributor/muse-spark-1.3-contributor"
+        ],
+        "displayName": "Muse Spark 1.3 Contributor (Meta Contributor)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "1.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.2,
+          "cache_read $/M": 0.002
+        },
+        "availability": [
+          "LLM Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          }
+        ],
+        "fingerprint": "7a583086fbe0b51b55402b86b6f3f75c5de733d860217d99ba7d6a56b9d79bb8",
+        "firstSeen": "2026-09-03T20:02:11.941Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T20:02:11.941Z"
+    },
+    {
+      "id": "a790aa5b2994ab82dfed2888",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-6",
+        "slug": "GPT-6",
+        "slugAliases": [
+          "GPT-6"
+        ],
+        "displayName": "GPT-6",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          }
+        ],
+        "fingerprint": "d5cc2051782d2ee2b66501305f4141076de5fd8e0175ca64a0e033aba3ed36a9",
+        "firstSeen": "2026-09-03T20:02:11.941Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T20:02:11.941Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
