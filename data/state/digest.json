@@ -170975,6 +170975,2215 @@
         "model"
       ],
       "detectedAt": "2026-09-03T20:02:11.941Z"
+    },
+    {
+      "id": "79aa4c23451f1a00395b4669",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-3-0-flash-fin",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-3.0-flash-Fin",
+        "slug": "Ling-3.0-flash-Fin",
+        "slugAliases": [
+          "Ling-3.0-flash-Fin",
+          "ling-3.0-flash-fin"
+        ],
+        "displayName": "Ling 3.0 Flash Fin",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.18,
+          "cache_read $/M": 0.012
+        },
+        "availability": [
+          "DeepInfra",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          }
+        ],
+        "fingerprint": "ed6270f861e048342f8399f1f677ed8c4bf050f211ab00734c53530f4e06cab6",
+        "firstSeen": "2026-08-26T07:14:20.210Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "after": {
+        "key": "ling::ling-3-0-flash-fin",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-3.0-flash-Fin",
+        "slug": "Ling-3.0-flash-Fin",
+        "slugAliases": [
+          "Ling-3.0-flash-Fin",
+          "ling-3.0-flash-fin"
+        ],
+        "displayName": "Ling 3.0 Flash Fin",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.18,
+          "cache_read $/M": 0.012
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "1523f4238dda807a88337bdc0cb8a7419e4256dd13a68f0643e9a7b36583819f",
+        "firstSeen": "2026-08-26T07:14:20.210Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "b576459dae71b819774b7cab",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "Muse Spark 1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          }
+        ],
+        "fingerprint": "31b313aceee73588f56f584bc5fd1b15089c6b3bb92925d71b23d004636ace75",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "after": {
+        "key": "spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "Muse Spark 1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "version": "1.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25,
+          "cache_read $/M": 0.15
+        },
+        "availability": [
+          "Kilo Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "63db6e7b39269a6412fe3cfb4dcd84fa36ef192a6cb427823ba05fec496ed2ee",
+        "firstSeen": "2026-09-02T22:45:44.570Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "a684bee089a3b0393b6a9299",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::kimi-latest",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-latest",
+        "slug": "kimi-latest",
+        "slugAliases": [
+          "kimi-latest"
+        ],
+        "displayName": "MoonshotAI Kimi Latest",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 14,
+          "input_cache_read $/M": 0.29,
+          "input $/M": 2,
+          "output $/M": 5,
+          "cache_read $/M": 0.29
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "moonshot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/pricing",
+            "observedAt": "2026-09-01T21:05:42.279Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~moonshotai/kimi-latest",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          }
+        ],
+        "fingerprint": "72e61114214db273866a6bceda61df3d4f85ce248839692d32519ededc515720",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "after": {
+        "key": "kimi::kimi-latest",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-latest",
+        "slug": "kimi-latest",
+        "slugAliases": [
+          "kimi-latest"
+        ],
+        "displayName": "MoonshotAI Kimi Latest",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 14,
+          "input_cache_read $/M": 0.29,
+          "input $/M": 2,
+          "output $/M": 5,
+          "cache_read $/M": 0.29
+        },
+        "availability": [
+          "Kilo Gateway",
+          "NanoGPT",
+          "OpenRouter",
+          "moonshot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.moonshot.ai/docs/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~moonshotai/kimi-latest",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "edc2ec99ca74b32e14fa899334ede361a93caeba7e2e81eda12f1e81f005e44c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "73f932f09f8efb53d9a2ae78",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "step::step-3-7-flash",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "Step-3.7-Flash",
+        "slug": "Step-3.7-Flash",
+        "slugAliases": [
+          "Step 3.7 Flash",
+          "Step-3.7-Flash",
+          "step-3.7-flash"
+        ],
+        "displayName": "Step 3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2026-03-01",
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1.15,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:stepfun:stepfun-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-01T21:05:42.279Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-15T03:51:15.970Z"
+          }
+        ],
+        "fingerprint": "acaf313696bbdae2e4b904d32b3342a872734f97dbe9e2cb78b837311a6de182",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-03T20:02:11.941Z"
+      },
+      "after": {
+        "key": "step::step-3-7-flash",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "Step-3.7-Flash",
+        "slug": "Step-3.7-Flash",
+        "slugAliases": [
+          "Step 3.7 Flash",
+          "Step-3.7-Flash",
+          "step-3.7-flash"
+        ],
+        "displayName": "Step 3.7 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2026-03-01",
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1.15,
+          "cache_read $/M": 0.04
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:stepfun:stepfun-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-15T03:51:15.970Z"
+          }
+        ],
+        "fingerprint": "f62217bc48ba86ecbdd80473462ad830e3000d196b684184dec41d0ef5ec75f7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "a1956905f5eea79251b9036d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra",
+        "slug": "gpt-6-astra",
+        "slugAliases": [
+          "gpt-6-astra"
+        ],
+        "displayName": "gpt-6-astra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "6d7ef013af7e5b35f8fa75ea96d394dda9a70953dda2207f96ac78c244db7e42",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "d8361e42947b238263437621",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-anthropic-claude::us-gov-anthropic-claude-sonnet-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov.anthropic.claude-sonnet-5",
+        "slug": "us-gov.anthropic.claude-sonnet-5",
+        "slugAliases": [
+          "us-gov.anthropic.claude-sonnet-5"
+        ],
+        "displayName": "us-gov.anthropic.claude-sonnet-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "sonnet",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "bedrock_converse"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "8adfcbd55e14713878b817342634ab2b60094690d01549356a9551193098cf57",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "a8b2e4d3d6cfba15cf612d05",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-anthropic-claude::us-gov-anthropic-claude-opus-4-8",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov.anthropic.claude-opus-4-8",
+        "slug": "us-gov.anthropic.claude-opus-4-8",
+        "slugAliases": [
+          "us-gov.anthropic.claude-opus-4-8"
+        ],
+        "displayName": "us-gov.anthropic.claude-opus-4-8",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.8",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "opus",
+          "version": "4.8"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 6,
+          "output $/M": 30
+        },
+        "availability": [
+          "bedrock_converse"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "679530f04b1f51c0296166d712294ff8e76f8c8616b14a6184590ad52cb0b8fd",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "0dae0f662c522790c62c02e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-build-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-build-latest",
+        "slug": "grok-build-latest",
+        "slugAliases": [
+          "grok-build-latest"
+        ],
+        "displayName": "grok-build-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/developers/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "2b5774f33b4a6dc1d92dc4410fa70b88d8fae5ed1311afd587082c9b619e3e0d",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "3464a95b2bc54384a53e7358",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-models-glm::fireworks-ai-accounts-fireworks-models-glm-5p3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "fireworks_ai/accounts/fireworks/models/glm-5p3-flash",
+        "slug": "fireworks_ai/accounts/fireworks/models/glm-5p3-flash",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/glm-5p3-flash"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/models/glm-5p3-flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "73ac60874b28144d6665a6db5ba0433abfd98a7d91e97d93580d1a0600432d87",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "4f8737d8d9b9be012b6b0fbe",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-west::us-gov-west-1-nvidia-nemotron-nano-3-30b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "us-gov-west-1/nvidia.nemotron-nano-3-30b",
+        "slug": "us-gov-west-1/nvidia.nemotron-nano-3-30b",
+        "slugAliases": [
+          "us-gov-west-1/nvidia.nemotron-nano-3-30b"
+        ],
+        "displayName": "us-gov-west-1/nvidia.nemotron-nano-3-30b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "parameters": "30B",
+          "tier": "nano",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.072,
+          "output $/M": 0.288
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aws.amazon.com/bedrock/pricing/",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "49c1ed9beff39c16b0b8da3509cba53d3ed1531a0c56921fc05806ee493d075a",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "ea3f31a3aa763dc480ed8e90",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-west::us-gov-west-1-nvidia-nemotron-nano-12b-v2",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "us-gov-west-1/nvidia.nemotron-nano-12b-v2",
+        "slug": "us-gov-west-1/nvidia.nemotron-nano-12b-v2",
+        "slugAliases": [
+          "us-gov-west-1/nvidia.nemotron-nano-12b-v2"
+        ],
+        "displayName": "us-gov-west-1/nvidia.nemotron-nano-12b-v2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "parameters": "12B",
+          "tier": "nano",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.24,
+          "output $/M": 0.72
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "a8909a315434670b776878071f65dcfc08b44be6f9c17b9f913b73077a78b5df",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "6292e7f690c4ad653159cf2a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-west::us-gov-west-1-openai-gpt-oss-20b-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "us-gov-west-1/openai.gpt-oss-20b-1",
+        "slug": "us-gov-west-1/openai.gpt-oss-20b-1",
+        "slugAliases": [
+          "us-gov-west-1/openai.gpt-oss-20b-1"
+        ],
+        "displayName": "us-gov-west-1/openai.gpt-oss-20b-1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "20B",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.084,
+          "output $/M": 0.36
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "3f39f97a438611f8bf46d549a42b3dac0c4231816e5f79e4259d6e75594227c2",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "aa68f237213a76721d46dab6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-west::us-gov-west-1-openai-gpt-oss-120b-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "us-gov-west-1/openai.gpt-oss-120b-1",
+        "slug": "us-gov-west-1/openai.gpt-oss-120b-1",
+        "slugAliases": [
+          "us-gov-west-1/openai.gpt-oss-120b-1"
+        ],
+        "displayName": "us-gov-west-1/openai.gpt-oss-120b-1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "120B",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.18,
+          "output $/M": 0.72
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "8b96f8acb7cea5a82469b74ae3004571ca1f55f5d86da0f34a6cd48553f2846c",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "335c347da7399cd251f07ec2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-west::us-gov-west-1-anthropic-claude-sonnet-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov-west-1/anthropic.claude-sonnet-5",
+        "slug": "us-gov-west-1/anthropic.claude-sonnet-5",
+        "slugAliases": [
+          "us-gov-west-1/anthropic.claude-sonnet-5"
+        ],
+        "displayName": "us-gov-west-1/anthropic.claude-sonnet-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "sonnet",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "47cbddaae0ec764fd8797c537ebd7209ae915136163a978006420eca6f9a2c51",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "8ae97b558af8a74bfb45d91a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-west::us-gov-west-1-anthropic-claude-opus-4-8",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov-west-1/anthropic.claude-opus-4-8",
+        "slug": "us-gov-west-1/anthropic.claude-opus-4-8",
+        "slugAliases": [
+          "us-gov-west-1/anthropic.claude-opus-4-8"
+        ],
+        "displayName": "us-gov-west-1/anthropic.claude-opus-4-8",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "opus",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 6,
+          "output $/M": 30
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "50bdc8e7e6cd3998e8ca659b6ec6a2fb7101fb212b1b6ebbae83dfdff94b38f9",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "1900fd4460f14fd9e01526e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-east::us-gov-east-1-nvidia-nemotron-nano-3-30b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "us-gov-east-1/nvidia.nemotron-nano-3-30b",
+        "slug": "us-gov-east-1/nvidia.nemotron-nano-3-30b",
+        "slugAliases": [
+          "us-gov-east-1/nvidia.nemotron-nano-3-30b"
+        ],
+        "displayName": "us-gov-east-1/nvidia.nemotron-nano-3-30b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "parameters": "30B",
+          "tier": "nano",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.072,
+          "output $/M": 0.288
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aws.amazon.com/bedrock/pricing/",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "972ff3cfb47ff94e34b5051fff46624477886e0ea38bedcd6751af28d75af43c",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "71c0673ce590f29c1915d370",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-east::us-gov-east-1-nvidia-nemotron-nano-12b-v2",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "us-gov-east-1/nvidia.nemotron-nano-12b-v2",
+        "slug": "us-gov-east-1/nvidia.nemotron-nano-12b-v2",
+        "slugAliases": [
+          "us-gov-east-1/nvidia.nemotron-nano-12b-v2"
+        ],
+        "displayName": "us-gov-east-1/nvidia.nemotron-nano-12b-v2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "parameters": "12B",
+          "tier": "nano",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.24,
+          "output $/M": 0.72
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "d1b47c3d4ffbdbd4d5f82830953c351791926d9bcb1ea7394d823c92201e7801",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "bc4f2b2b09e36e4454de5bac",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-east::us-gov-east-1-openai-gpt-oss-20b-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "us-gov-east-1/openai.gpt-oss-20b-1",
+        "slug": "us-gov-east-1/openai.gpt-oss-20b-1",
+        "slugAliases": [
+          "us-gov-east-1/openai.gpt-oss-20b-1"
+        ],
+        "displayName": "us-gov-east-1/openai.gpt-oss-20b-1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "20B",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.084,
+          "output $/M": 0.36
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "5d9039158e75d6127ea05a6ef98155825d83c6324bffa3edfde7ec344ee70993",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "1d8a71fde0c203a5377693f1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-east::us-gov-east-1-openai-gpt-oss-120b-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "us-gov-east-1/openai.gpt-oss-120b-1",
+        "slug": "us-gov-east-1/openai.gpt-oss-120b-1",
+        "slugAliases": [
+          "us-gov-east-1/openai.gpt-oss-120b-1"
+        ],
+        "displayName": "us-gov-east-1/openai.gpt-oss-120b-1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "120B",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.18,
+          "output $/M": 0.72
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "1865942fc711f00dcf096cd500982417760b52f8d6a2e0702eef3350612a22f7",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "cba5a89df591c0d07646b42f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-east::us-gov-east-1-anthropic-claude-sonnet-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov-east-1/anthropic.claude-sonnet-5",
+        "slug": "us-gov-east-1/anthropic.claude-sonnet-5",
+        "slugAliases": [
+          "us-gov-east-1/anthropic.claude-sonnet-5"
+        ],
+        "displayName": "us-gov-east-1/anthropic.claude-sonnet-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "sonnet",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "ea060b1a4c482c98693e9d18b074926496107828e9151db77f032dab48116d34",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "7043151aa233f9c7f20d1876",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-east::us-gov-east-1-anthropic-claude-opus-4-8",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov-east-1/anthropic.claude-opus-4-8",
+        "slug": "us-gov-east-1/anthropic.claude-opus-4-8",
+        "slugAliases": [
+          "us-gov-east-1/anthropic.claude-opus-4-8"
+        ],
+        "displayName": "us-gov-east-1/anthropic.claude-opus-4-8",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "opus",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 6,
+          "output $/M": 30
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "ab03a254eb4fbbca90fcc1ae25304633eedea0c6ea098bbad93085f8b11fdde1",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "c86738cbf15175030500900b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-us-gov-west::bedrock-mantle-us-gov-west-1-openai-gpt-5-6-terra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra",
+        "slug": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra",
+        "slugAliases": [
+          "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra"
+        ],
+        "displayName": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.64,
+          "output $/M": 15.84
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "0e34001bf3b6f25f36c205aa8ef687b266dd4dcafb90398ed3dc3395885711db",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "8dabec4d4d74d5ccdf490062",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-us-gov-west::bedrock-mantle-us-gov-west-1-openai-gpt-5-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna",
+        "slug": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna",
+        "slugAliases": [
+          "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna"
+        ],
+        "displayName": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.264,
+          "output $/M": 1.584
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "20d5a093b5f945693dead7b02d9f0d9873d0bab936e7248c15206ec3c8833b4f",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "6f33f85f7547a8127cf84bfc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-us-gov-west::bedrock-mantle-us-gov-west-1-openai-gpt-5-4",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/us-gov-west-1/openai.gpt-5.4",
+        "slug": "bedrock_mantle/us-gov-west-1/openai.gpt-5.4",
+        "slugAliases": [
+          "bedrock_mantle/us-gov-west-1/openai.gpt-5.4"
+        ],
+        "displayName": "bedrock_mantle/us-gov-west-1/openai.gpt-5.4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 3.3,
+          "output $/M": 19.8
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "8c6ec75e320a2f93caa9f3c54f01bf3a766e686a48bfbdd1b282459ee9c4bea3",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "e595a823f59588e20ce9a103",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-us-gov-west::bedrock-mantle-us-gov-west-1-xai-grok-4-3",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "bedrock_mantle/us-gov-west-1/xai.grok-4.3",
+        "slug": "bedrock_mantle/us-gov-west-1/xai.grok-4.3",
+        "slugAliases": [
+          "bedrock_mantle/us-gov-west-1/xai.grok-4.3"
+        ],
+        "displayName": "bedrock_mantle/us-gov-west-1/xai.grok-4.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 3
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aws.amazon.com/bedrock/pricing/",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "7059a868c5d86c5bd3f83932cea25fab2a0cad44490238454891be9b60dc1328",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "1c486fb52821f7cde280e4ae",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-us-gov-east::bedrock-mantle-us-gov-east-1-openai-gpt-5-4",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/us-gov-east-1/openai.gpt-5.4",
+        "slug": "bedrock_mantle/us-gov-east-1/openai.gpt-5.4",
+        "slugAliases": [
+          "bedrock_mantle/us-gov-east-1/openai.gpt-5.4"
+        ],
+        "displayName": "bedrock_mantle/us-gov-east-1/openai.gpt-5.4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 3.3,
+          "output $/M": 19.8
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "075ac4dee7ee480b18e906daed7ca2433d290b37b84f69bc10a64a951d803e8c",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "412c3cf1c4f62b36b22d7dfa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gov-gpt::azure-us-gov-gpt-5-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us-gov/gpt-5.1",
+        "slug": "azure/us-gov/gpt-5.1",
+        "slugAliases": [
+          "azure/us-gov/gpt-5.1"
+        ],
+        "displayName": "azure/us-gov/gpt-5.1",
+        "modalities": [
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 272000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.7188,
+          "output $/M": 13.75
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "827bdba480a5c2bd5db87b0284114136fc99b0cc3202da72a690878bedbcaa5a",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "7573b1c0802aa2215c6eb528",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gov-text-embedding::azure-us-gov-text-embedding-3-large",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "OpenAI Embeddings",
+        "familyId": "text-embedding",
+        "modelId": "azure/us-gov/text-embedding-3-large",
+        "slug": "azure/us-gov/text-embedding-3-large",
+        "slugAliases": [
+          "azure/us-gov/text-embedding-3-large"
+        ],
+        "displayName": "azure/us-gov/text-embedding-3-large",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "large",
+        "capabilities": {
+          "mode": "embedding",
+          "tier": "large",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 8191,
+          "maxOutputTokens": 8191
+        },
+        "pricing": {
+          "input $/M": 0.163
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "c9e9d9b4a2f5cba6ed260462e3e81e2d4517dce52ab885333e68904bb3bbfb63",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
+    },
+    {
+      "id": "9fb106f53b0973c3e5efdd53",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gov-text-embedding::azure-us-gov-text-embedding-3-small",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "OpenAI Embeddings",
+        "familyId": "text-embedding",
+        "modelId": "azure/us-gov/text-embedding-3-small",
+        "slug": "azure/us-gov/text-embedding-3-small",
+        "slugAliases": [
+          "azure/us-gov/text-embedding-3-small"
+        ],
+        "displayName": "azure/us-gov/text-embedding-3-small",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "small",
+        "capabilities": {
+          "mode": "embedding",
+          "tier": "small",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 8191,
+          "maxOutputTokens": 8191
+        },
+        "pricing": {
+          "input $/M": 0.025
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "4c563a766cfcf0cb5fc42a06ad22d9d3d184470584259d9fec55390e667a14df",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-03T22:31:17.171Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
