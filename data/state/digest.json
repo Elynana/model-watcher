@@ -175330,6 +175330,1762 @@
         "displayName"
       ],
       "detectedAt": "2026-09-04T09:17:36.069Z"
+    },
+    {
+      "id": "f6435ffc8ceafeaad130df32",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "muse-spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "muse-spark-1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "version": "1.3",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "meta"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "272f8f23e6b369dd9e963191661d5a4851860024e94942445aad77ffe4d4b8ec",
+        "firstSeen": "2026-09-02T20:24:53.885Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "after": {
+        "key": "muse-spark::muse-spark-1-3",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3",
+        "slug": "muse-spark-1.3",
+        "slugAliases": [
+          "muse-spark-1.3"
+        ],
+        "displayName": "muse-spark-1.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "version": "1.3",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25
+        },
+        "availability": [
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "meta"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "f3103d7612277339e1a1bd25c917cbf854bda96195dba6a710c0c97376103caa",
+        "firstSeen": "2026-09-02T20:24:53.885Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "4c604b913bb53ffe185d9a6e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "muse-spark::muse-spark-1-3-contributor",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3-contributor",
+        "slug": "muse-spark-1.3-contributor",
+        "slugAliases": [
+          "muse-spark-1.3-contributor"
+        ],
+        "displayName": "muse-spark-1.3-contributor",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "version": "1.3",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "meta"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "8f64620994262e8b7ab42484158bc34bac0a6c389f4eaa040dbf0c1fdb1422a0",
+        "firstSeen": "2026-09-02T20:24:53.885Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "after": {
+        "key": "muse-spark::muse-spark-1-3-contributor",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "muse-spark-1.3-contributor",
+        "slug": "muse-spark-1.3-contributor",
+        "slugAliases": [
+          "muse-spark-1.3-contributor"
+        ],
+        "displayName": "muse-spark-1.3-contributor",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "capabilities": {
+          "version": "1.3",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "meta"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "72aa6de9ebaba0f216483fcb73bd3219449b7fe0aabbb00acd552f57df18c2ea",
+        "firstSeen": "2026-09-02T20:24:53.885Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "baabf6d380d2e43fccbe7f44",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-5-content-safety",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Content-Safety",
+        "slug": "Nemotron-3.5-Content-Safety",
+        "slugAliases": [
+          "Nemotron-3.5-Content-Safety",
+          "nemotron-3.5-content-safety"
+        ],
+        "displayName": "Nemotron 3.5 Content Safety",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 117964
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Content-Safety",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "accb088c99c8b7271d78aa1cf305e45e897d56043f2a0c6da6ea309fb798d48b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-5-content-safety",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Content-Safety",
+        "slug": "Nemotron-3.5-Content-Safety",
+        "slugAliases": [
+          "Nemotron-3.5-Content-Safety",
+          "nemotron-3.5-content-safety"
+        ],
+        "displayName": "Nemotron 3.5 Content Safety",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 117964
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "OpenRouter",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Content-Safety",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "c9487c841f32232a91885811989fa77618993df7c5fbf3630418c66c38b5236d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "a71e8e8013db07b13e0a9ed6",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hy::hy3",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy",
+        "modelId": "Hy3",
+        "slug": "Hy3",
+        "slugAliases": [
+          "Hy3",
+          "hy3"
+        ],
+        "displayName": "Hy3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.58,
+          "cache_read $/M": 0.035
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy3",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "b24fd806d16dd88ce4819dd52d176518dc15eb6c9617f65d73e63b5420977aa1",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "after": {
+        "key": "hy::hy3",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy",
+        "modelId": "Hy3",
+        "slug": "Hy3",
+        "slugAliases": [
+          "Hy3",
+          "hy3"
+        ],
+        "displayName": "Hy3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.58,
+          "cache_read $/M": 0.035
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy3",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "05ceb166843d0e5325c8a3a53feacdb712de1230fec2088dc4b799459a642b57",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "3dffdc2cd94dd6bac974407e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ornith-ai-ornith::ornith-ai-ornith-1-5-35b-a3b",
+        "family": "ornith-ai-ornith",
+        "modelId": "ornith-ai/Ornith-1.5-35B-A3B",
+        "slug": "ornith-ai/Ornith-1.5-35B-A3B",
+        "slugAliases": [
+          "ornith-ai/Ornith-1.5-35B-A3B"
+        ],
+        "displayName": "Ornith 1.5 35B A3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "35B",
+          "activeParameters": "3B active",
+          "version": "1.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.4,
+          "cache_read $/M": 0.01
+        },
+        "availability": [
+          "RunInfra"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-18",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://runinfra.ai/docs",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "203d6cf523815da7db160d5e50ff5836b9b14b359d05dc8cbedcaa9dca70fc28",
+        "firstSeen": "2026-08-20T10:00:42.441Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "after": {
+        "key": "ornith-ai-ornith::ornith-ai-ornith-1-5-35b-a3b",
+        "family": "ornith-ai-ornith",
+        "modelId": "ornith-ai/Ornith-1.5-35B-A3B",
+        "slug": "ornith-ai/Ornith-1.5-35B-A3B",
+        "slugAliases": [
+          "ornith-ai/Ornith-1.5-35B-A3B",
+          "ornith-ai/ornith-1.5-35b-a3b"
+        ],
+        "displayName": "Ornith 1.5 35B A3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.5",
+        "capabilities": {
+          "parameters": "35B",
+          "activeParameters": "3B active",
+          "version": "1.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.4,
+          "cache_read $/M": 0.01
+        },
+        "availability": [
+          "NanoGPT",
+          "RunInfra"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-18",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://runinfra.ai/docs",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "110557364d7c1c9bd717c32d47e7730ce360b2aef6bcefe17f210c477129f826",
+        "firstSeen": "2026-08-20T10:00:42.441Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "1bf3d1e5bda44ebba58e09dc",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-vision-exp",
+        "slug": "deepseek-v4-flash-vision-exp",
+        "slugAliases": [
+          "DeepSeek-V4-Flash-Vision-Exp",
+          "deepseek-v4-flash-vision-exp"
+        ],
+        "displayName": "DeepSeek V4 Flash Vision Exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 1.32,
+          "cache_read $/M": 0.007
+        },
+        "availability": [
+          "DeepInfra",
+          "Fireworks AI",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-09-03T20:02:11.941Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/docs/",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "5ca8bf764dee82902e5ed49ea8bb9a669c60d883366a0e5b8a47512f4f5c4ed0",
+        "firstSeen": "2026-08-21T09:49:31.119Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-vision-exp",
+        "slug": "deepseek-v4-flash-vision-exp",
+        "slugAliases": [
+          "DeepSeek-V4-Flash-Vision-Exp",
+          "deepseek-v4-flash-vision-exp"
+        ],
+        "displayName": "DeepSeek V4 Flash Vision Exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 1.32,
+          "cache_read $/M": 0.007
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "8452627155228cd3938513d8daa6fe3f83f70890c2d8cdb59df6219d28b51529",
+        "firstSeen": "2026-08-21T09:49:31.119Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "be62ccae5034f2674c6d20d4",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM-5.3-Flash",
+          "glm-5-3-flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM 5.3 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "5.3",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "DeepInfra",
+          "Novita AI",
+          "Ollama",
+          "Venice AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights",
+          "zai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.3-flash",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "377b13e59692e7bd28486481945cd14004da51cc0c34439aacf4d4c6bea68f7a",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM-5.3-Flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM-5.3-Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "5.3",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "open weights",
+          "zai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.3-flash",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-28T16:34:42.377Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "adb9d60ef30df2db1d82b47324563e98e519cee385209c1a01c61092ab53755f",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "99b954088b60a01f3b68c2ee",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "activeParameters": "95B active",
+          "version": "3.8.2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "DeepInfra",
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "8b521929103dd33680b5ebd30c5cdf65dea828bf8e3def8499662d76983adc7c",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "activeParameters": "95B active",
+          "version": "3.8.2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "b940c8647df58dc3ad7b0f45f294c3ad65a2cea5f3e3bd2ed18f11896932f206",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "0d48c5269761b9ccfee18c81",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "Qwen/Qwen3.8-Flash",
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016,
+          "cache_write $/M": 0.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "eb3e1142fd883ebc3c75123b72d05e84d63b113efdd2f224ab5998fb85e91227",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "Qwen/Qwen3.8-Flash",
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016,
+          "cache_write $/M": 0.2
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "5c27a117a4a3b6270aacb7b6d83f78b6ca2c40e7e60c17be52c9db053fd86977",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "efd5ce1d981d7e2a769c1f89",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::meta-contributor-muse-spark-1-2-contributor",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "meta-contributor/muse-spark-1.2-contributor",
+        "slug": "meta-contributor/muse-spark-1.2-contributor",
+        "slugAliases": [
+          "meta-contributor/muse-spark-1.2-contributor"
+        ],
+        "displayName": "Muse Spark 1.2 Contributor (Meta Contributor)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "1.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.2,
+          "cache_read $/M": 0.002
+        },
+        "availability": [
+          "LLM Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "75f706ae284062fd714f3df424d07dc32a56a89b65d0b834c58c81a5569c5641",
+        "firstSeen": "2026-09-04T13:35:05.546Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "1d347f180008cc64f159aead",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gaussianmind::gaussianmind",
+        "owner": "BAAI",
+        "vendorId": "baai",
+        "family": "gaussianmind",
+        "modelId": "GaussianMind",
+        "slug": "GaussianMind",
+        "slugAliases": [
+          "GaussianMind"
+        ],
+        "displayName": "GaussianMind",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:baai:baai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/BAAI/GaussianMind",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "8360a1122f8a00baadbba31874186cc50022660661c1a6458312eb10be36fb8b",
+        "firstSeen": "2026-09-04T13:35:05.546Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T13:35:05.546Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
