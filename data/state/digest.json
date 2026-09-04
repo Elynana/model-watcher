@@ -174190,6 +174190,468 @@
         "displayName"
       ],
       "detectedAt": "2026-09-04T00:21:25.836Z"
+    },
+    {
+      "id": "7062c6c4d97235ad886e5603",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-2-0-flash-lite",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.0-flash-lite",
+        "slug": "gemini-2.0-flash-lite",
+        "slugAliases": [
+          "Gemini 2.0 Flash-Lite",
+          "gemini-2.0-flash-lite"
+        ],
+        "displayName": "Gemini 2.0 Flash-Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-11",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "2.0",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.075,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "302.AI",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-04T00:21:25.836Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://doc.302.ai",
+            "observedAt": "2026-09-04T00:21:25.836Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash-lite",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "0cf3f83d16abee06e120fe99d17f1dd3fce399dc4995190c83615c125752fc40",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T00:21:25.836Z"
+      },
+      "after": {
+        "key": "gemini::gemini-2-0-flash-lite",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.0-flash-lite",
+        "slug": "gemini-2.0-flash-lite",
+        "slugAliases": [
+          "gemini-2.0-flash-lite"
+        ],
+        "displayName": "gemini-2.0-flash-lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-11",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "2.0",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.075,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "302.AI",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://doc.302.ai",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash-lite",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "92c73998c7a7228e1f896274bd2015b683d7b36633c59c9887b34402d18cc192",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T04:55:21.921Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-04T04:55:21.921Z"
+    },
+    {
+      "id": "4ae1dbc6d6840342e74c55d9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "alibaba-nlp-core-emb::alibaba-nlp-core-emb-8b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "alibaba-nlp-core-emb",
+        "modelId": "Alibaba-NLP/core-emb-8b",
+        "slug": "Alibaba-NLP/core-emb-8b",
+        "slugAliases": [
+          "Alibaba-NLP/core-emb-8b"
+        ],
+        "displayName": "core-emb-8b",
+        "modalities": [
+          "embedding",
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:alibaba-nlp",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Alibaba-NLP/core-emb-8b",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          }
+        ],
+        "fingerprint": "7d650162f88c79601a241055a91a288618b57036306890024c34fb865a0f9a42",
+        "firstSeen": "2026-09-04T04:55:21.921Z",
+        "lastChanged": "2026-09-04T04:55:21.921Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T04:55:21.921Z"
+    },
+    {
+      "id": "d2391f9557406ee8c0ebadee",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "alibaba-nlp-core-reranker::alibaba-nlp-core-reranker-8b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "alibaba-nlp-core-reranker",
+        "modelId": "Alibaba-NLP/core-reranker-8b",
+        "slug": "Alibaba-NLP/core-reranker-8b",
+        "slugAliases": [
+          "Alibaba-NLP/core-reranker-8b"
+        ],
+        "displayName": "core-reranker-8b",
+        "modalities": [
+          "embedding",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:alibaba-nlp",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Alibaba-NLP/core-reranker-8b",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          }
+        ],
+        "fingerprint": "c9c599ceedd5d61910de3e07ceba8866c56727a6476aefe25be8cbb18dc5f5de",
+        "firstSeen": "2026-09-04T04:55:21.921Z",
+        "lastChanged": "2026-09-04T04:55:21.921Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T04:55:21.921Z"
+    },
+    {
+      "id": "997e0afb0020621cd10600b6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "alibaba-nlp-core-emb::alibaba-nlp-core-emb-2b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "alibaba-nlp-core-emb",
+        "modelId": "Alibaba-NLP/core-emb-2b",
+        "slug": "Alibaba-NLP/core-emb-2b",
+        "slugAliases": [
+          "Alibaba-NLP/core-emb-2b"
+        ],
+        "displayName": "core-emb-2b",
+        "modalities": [
+          "embedding",
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:alibaba-nlp",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Alibaba-NLP/core-emb-2b",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          }
+        ],
+        "fingerprint": "66eed21c45fbfbb936908660f41a329e00ba806476d861336e79e54296e3654b",
+        "firstSeen": "2026-09-04T04:55:21.921Z",
+        "lastChanged": "2026-09-04T04:55:21.921Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T04:55:21.921Z"
+    },
+    {
+      "id": "f7e9b2fe209bb0a40174b29f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "alibaba-nlp-core-reranker::alibaba-nlp-core-reranker-2b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "alibaba-nlp-core-reranker",
+        "modelId": "Alibaba-NLP/core-reranker-2b",
+        "slug": "Alibaba-NLP/core-reranker-2b",
+        "slugAliases": [
+          "Alibaba-NLP/core-reranker-2b"
+        ],
+        "displayName": "core-reranker-2b",
+        "modalities": [
+          "embedding",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:alibaba-nlp",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Alibaba-NLP/core-reranker-2b",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          }
+        ],
+        "fingerprint": "6be3d1403c53ec78a3b09a970e8334d4946925993f47280d0943ee60ad71a029",
+        "firstSeen": "2026-09-04T04:55:21.921Z",
+        "lastChanged": "2026-09-04T04:55:21.921Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T04:55:21.921Z"
+    },
+    {
+      "id": "ed38cefbadc6128f2b56f9ea",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llada-image::llada-image-turbo",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "llada-image",
+        "modelId": "LLaDA-Image-Turbo",
+        "slug": "LLaDA-Image-Turbo",
+        "slugAliases": [
+          "LLaDA-Image-Turbo"
+        ],
+        "displayName": "LLaDA-Image-Turbo",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "turbo",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "turbo"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/LLaDA-Image-Turbo",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          }
+        ],
+        "fingerprint": "4caedf8e9d7b57d0705ba586906f2df903f503df042821d4502f3a71c00cea3c",
+        "firstSeen": "2026-09-04T04:55:21.921Z",
+        "lastChanged": "2026-09-04T04:55:21.921Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T04:55:21.921Z"
+    },
+    {
+      "id": "699e31b6de42083ccaad4d2b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llada-image::llada-image",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "llada-image",
+        "modelId": "LLaDA-Image",
+        "slug": "LLaDA-Image",
+        "slugAliases": [
+          "LLaDA-Image"
+        ],
+        "displayName": "LLaDA-Image",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/LLaDA-Image",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          }
+        ],
+        "fingerprint": "9a6c7e504b588187594ed6a64dd4e2e6cc2d5487dca6cc02ebedb891ad0c3bcb",
+        "firstSeen": "2026-09-04T04:55:21.921Z",
+        "lastChanged": "2026-09-04T04:55:21.921Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T04:55:21.921Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
