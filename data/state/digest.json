@@ -174652,6 +174652,684 @@
         "model"
       ],
       "detectedAt": "2026-09-04T04:55:21.921Z"
+    },
+    {
+      "id": "2397cdc94ff7717e88aef5a2",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::kimi-k2-7-code",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "Kimi-K2.7-Code",
+        "slug": "Kimi-K2.7-Code",
+        "slugAliases": [
+          "Kimi K2.7 Code",
+          "Kimi-K2.7-Code",
+          "kimi-k2.7-code"
+        ],
+        "displayName": "Kimi K2.7 Code",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "k2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.95,
+          "output $/M": 4,
+          "cache_read $/M": 0.19
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "azure_ai",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:moonshot",
+            "sourceKind": "official-page",
+            "url": "https://platform.moonshot.ai/docs/pricing/chat",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "official:hf:moonshot:moonshotai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/kimi/",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/kimi-k2.7-code",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          }
+        ],
+        "fingerprint": "bc6bc72bb02ecc818096b703267762511726847dd0e363fdae168f19d1c42392",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T00:21:25.836Z"
+      },
+      "after": {
+        "key": "kimi::kimi-k2-7-code",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "Kimi-K2.7-Code",
+        "slug": "Kimi-K2.7-Code",
+        "slugAliases": [
+          "Kimi K2.7 Code",
+          "Kimi-K2.7-Code",
+          "kimi-k2.7-code"
+        ],
+        "displayName": "Kimi K2.7 Code",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "k2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.95,
+          "output $/M": 4,
+          "cache_read $/M": 0.19
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "azure_ai",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:moonshot",
+            "sourceKind": "official-page",
+            "url": "https://platform.moonshot.ai/docs/pricing/chat",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "official:hf:moonshot:moonshotai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/kimi/",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/kimi-k2.7-code",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "b033cdb9a94d389cdf1dba8766cd4392507891e5cc0795393ff63ae744f569bf",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T09:17:36.069Z"
+    },
+    {
+      "id": "bcd168573ed743f66bcd8585",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-5-content-safety",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Content-Safety",
+        "slug": "Nemotron-3.5-Content-Safety",
+        "slugAliases": [
+          "Nemotron-3.5-Content-Safety",
+          "nemotron-3.5-content-safety"
+        ],
+        "displayName": "Nemotron 3.5 Content Safety",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 117964
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "OpenRouter",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Content-Safety",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          }
+        ],
+        "fingerprint": "c9487c841f32232a91885811989fa77618993df7c5fbf3630418c66c38b5236d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T04:55:21.921Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-5-content-safety",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Content-Safety",
+        "slug": "Nemotron-3.5-Content-Safety",
+        "slugAliases": [
+          "Nemotron-3.5-Content-Safety",
+          "nemotron-3.5-content-safety"
+        ],
+        "displayName": "Nemotron 3.5 Content Safety",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 117964
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "Kilo Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Content-Safety",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://kilo.ai",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          }
+        ],
+        "fingerprint": "accb088c99c8b7271d78aa1cf305e45e897d56043f2a0c6da6ea309fb798d48b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T09:17:36.069Z"
+    },
+    {
+      "id": "8c18d260a28b01191dd08ed8",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-2",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.2",
+        "slug": "GLM-5.2",
+        "slugAliases": [
+          "GLM 5.2",
+          "GLM-5.2",
+          "glm-5.2"
+        ],
+        "displayName": "GLM-5.2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "version": "5.2",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 1.8,
+          "output $/M": 5.5,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "open weights",
+          "scaleway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "official:feed:huggingface-blog",
+            "sourceKind": "official-feed",
+            "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+            "observedAt": "2026-09-03T09:46:31.082Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.2",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.scaleway.com/en/pricing/model-as-a-service/",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.2",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T19:40:23.137Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-04T04:55:21.921Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          }
+        ],
+        "fingerprint": "51b43f9305f88889fcc71bf1e3241f2ace7c9ebfa62708c64d31d84ecde087a4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T00:21:25.836Z"
+      },
+      "after": {
+        "key": "glm::glm-5-2",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.2",
+        "slug": "GLM-5.2",
+        "slugAliases": [
+          "GLM 5.2",
+          "GLM-5.2",
+          "glm-5.2"
+        ],
+        "displayName": "GLM 5.2",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "version": "5.2",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 1.8,
+          "output $/M": 5.5,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "Abacus",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "open weights",
+          "scaleway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "official:feed:huggingface-blog",
+            "sourceKind": "official-feed",
+            "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+            "observedAt": "2026-09-03T09:46:31.082Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.2",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.scaleway.com/en/pricing/model-as-a-service/",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.2",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-13T19:40:23.137Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-07-27T18:10:17.050Z"
+          }
+        ],
+        "fingerprint": "cfe4388d490e68d296a65c3c1290d054a09e15403ad2913ea03dd63707571b15",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T09:17:36.069Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-09-04T09:17:36.069Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
