@@ -177511,6 +177511,117 @@
         "announcement"
       ],
       "detectedAt": "2026-09-04T19:29:52.649Z"
+    },
+    {
+      "id": "a8d60f9e15dab884af217368",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "granite::granite-4-1-8b-20260429",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.1-8b-20260429",
+        "slug": "granite-4.1-8b-20260429",
+        "slugAliases": [
+          "granite-4.1-8b-20260429"
+        ],
+        "displayName": "IBM: Granite 4.1 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4.1",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 117964
+        },
+        "pricing": {
+          "prompt $/M": 0.05,
+          "completion $/M": 0.1,
+          "input_cache_read $/M": 0.05
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-30",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/ibm-granite/granite-4.1-8b",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "b7ce53b10f7b1c9ad96452571a8400983b5febe6cdb5b25728f586e53850f794",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-25T14:25:52.941Z"
+      },
+      "after": {
+        "key": "granite::granite-4-1-8b-20260429",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.1-8b-20260429",
+        "slug": "granite-4.1-8b-20260429",
+        "slugAliases": [
+          "granite-4.1-8b-20260429"
+        ],
+        "displayName": "IBM: Granite 4.1 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4.1",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 117964
+        },
+        "pricing": {
+          "prompt $/M": 0.05,
+          "completion $/M": 0.1,
+          "input_cache_read $/M": 0.05
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-04-30",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/ibm-granite/granite-4.1-8b",
+            "observedAt": "2026-09-04T13:35:05.546Z"
+          }
+        ],
+        "fingerprint": "267428caa31ccd1404aae13e05c9840a63c81b93c337931f9b1ab269ffefb73b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T21:42:44.957Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-09-04T21:42:44.957Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
