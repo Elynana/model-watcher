@@ -177622,6 +177622,313 @@
         "lifecycle"
       ],
       "detectedAt": "2026-09-04T21:42:44.957Z"
+    },
+    {
+      "id": "953c0257958a8a75ddf60df0",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-6",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-6",
+        "slug": "GPT-6",
+        "slugAliases": [
+          "GPT-6"
+        ],
+        "displayName": "GPT-6",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-04T21:42:44.957Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+            "observedAt": "2026-09-04T21:42:44.957Z"
+          }
+        ],
+        "fingerprint": "81d66721549ba97504e411a60a079cbc9c70bf9e19fff5b486979a9eba8a901a",
+        "firstSeen": "2026-09-03T20:02:11.941Z",
+        "lastChanged": "2026-09-03T22:31:17.171Z"
+      },
+      "after": {
+        "key": "gpt::gpt-6",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-6",
+        "slug": "GPT-6",
+        "slugAliases": [
+          "GPT-6"
+        ],
+        "displayName": "GPT-6",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-04T23:23:10.949Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+            "observedAt": "2026-09-04T23:23:10.949Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-04T23:23:10.949Z"
+          }
+        ],
+        "fingerprint": "258ccad2cdf6288820a1e8bdbce5963da291bf2ed2c692f681148c3a59cc8954",
+        "firstSeen": "2026-09-03T20:02:11.941Z",
+        "lastChanged": "2026-09-04T23:23:10.949Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T23:23:10.949Z"
+    },
+    {
+      "id": "9bbfe8e8b009a3e6b6e7e8ba",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra",
+        "slug": "gpt-6-astra",
+        "slugAliases": [
+          "gpt-6-astra"
+        ],
+        "displayName": "GPT-6 Astra",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-04T21:42:44.957Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T21:42:44.957Z"
+          }
+        ],
+        "fingerprint": "579b8905e84f0e83579585bb8f1c054f098a4a5033fd5a3eb03e3d6c935c02fb",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-04T19:29:52.649Z"
+      },
+      "after": {
+        "key": "gpt::gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra",
+        "slug": "gpt-6-astra",
+        "slugAliases": [
+          "gpt-6-astra"
+        ],
+        "displayName": "GPT-6 Astra",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "OpenAI",
+          "Vercel AI Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-04T23:23:10.949Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T23:23:10.949Z"
+          }
+        ],
+        "fingerprint": "f9dafa50d38da60e8af0e39c587de2c96737e02d2e5e9c85351d2175b2c3c35c",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-04T23:23:10.949Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-04T23:23:10.949Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
