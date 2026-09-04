@@ -177086,6 +177086,431 @@
         "model"
       ],
       "detectedAt": "2026-09-04T13:35:05.546Z"
+    },
+    {
+      "id": "d96e75205056c1c92509b7ed",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-3-0-flash",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-3.0-flash",
+        "slug": "Ling-3.0-flash",
+        "slugAliases": [
+          "Ling 3.0 Flash",
+          "Ling-3.0-flash",
+          "ling-3.0-flash"
+        ],
+        "displayName": "Ling-3.0-flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.18,
+          "cache_read $/M": 0.0042
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+            "observedAt": "2026-09-04T17:03:32.999Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-04T17:03:32.999Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T17:03:32.999Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T17:03:32.999Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T17:03:32.999Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T17:03:32.999Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-02T20:24:53.885Z"
+          }
+        ],
+        "fingerprint": "c1bac93e04f1496b4557b243ae17f1a9e29b1819fa7962ebd072406b9b599ecd",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "ling::ling-3-0-flash",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-3.0-flash",
+        "slug": "Ling-3.0-flash",
+        "slugAliases": [
+          "Ling 3.0 Flash",
+          "Ling-3.0-flash",
+          "ling-3.0-flash"
+        ],
+        "displayName": "Ling 3.0 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.18,
+          "cache_read $/M": 0.0042
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-02T20:24:53.885Z"
+          }
+        ],
+        "fingerprint": "8203b6cc726a28ac6256c05d63c6bde828af2fe2d6e7a468e958fb0c49bd752e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T19:29:52.649Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-04T19:29:52.649Z"
+    },
+    {
+      "id": "53af3ea51a4ec443e07db8d1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-astra-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra-pro",
+        "slug": "gpt-6-astra-pro",
+        "slugAliases": [
+          "gpt-6-astra-pro"
+        ],
+        "displayName": "GPT-6 Astra Pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "pro",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          }
+        ],
+        "fingerprint": "148a35b65ae7172fc3c206cd4bd5c65dc98b1fd444327efe586169c131fd1622",
+        "firstSeen": "2026-09-04T19:29:52.649Z",
+        "lastChanged": "2026-09-04T19:29:52.649Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T19:29:52.649Z"
+    },
+    {
+      "id": "e190bd52403e396621720923",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-astra-fast",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra-fast",
+        "slug": "gpt-6-astra-fast",
+        "slugAliases": [
+          "gpt-6-astra-fast"
+        ],
+        "displayName": "gpt-6-astra-fast",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "tier": "fast",
+        "capabilities": {
+          "tier": "fast",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          }
+        ],
+        "fingerprint": "d4ab44f0cfdf17a08d4edf331d5836afbf265ced01b2757e3cbf7c9e633756a6",
+        "firstSeen": "2026-09-04T19:29:52.649Z",
+        "lastChanged": "2026-09-04T19:29:52.649Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-04T19:29:52.649Z"
+    },
+    {
+      "id": "e8ec1ca9a5e5246fb13994b2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-omni-flash-1511",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-omni-flash 1511",
+        "slug": "gemini-omni-flash 1511",
+        "slugAliases": [
+          "gemini-omni-flash 1511"
+        ],
+        "displayName": "gemini-omni-flash 1511",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1511",
+        "tier": "omni",
+        "capabilities": {
+          "tier": "omni",
+          "version": "1511"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-04T19:29:52.649Z"
+          }
+        ],
+        "fingerprint": "8771572ef0276b6c44aa5e70eea9b2c1478f89497327c3d46836c638a875bc49",
+        "firstSeen": "2026-09-04T19:29:52.649Z",
+        "lastChanged": "2026-09-04T19:29:52.649Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-04T19:29:52.649Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
