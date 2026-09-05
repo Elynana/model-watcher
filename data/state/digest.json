@@ -177994,6 +177994,168 @@
         "model"
       ],
       "detectedAt": "2026-09-05T01:12:48.239Z"
+    },
+    {
+      "id": "44f662ff7805727a93e3c9dd",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-2-0-flash-lite",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.0-flash-lite",
+        "slug": "gemini-2.0-flash-lite",
+        "slugAliases": [
+          "gemini-2.0-flash-lite"
+        ],
+        "displayName": "gemini-2.0-flash-lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-11",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "2.0",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.075,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "302.AI",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-05T05:48:36.095Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://doc.302.ai",
+            "observedAt": "2026-09-05T05:48:36.095Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash-lite",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "92c73998c7a7228e1f896274bd2015b683d7b36633c59c9887b34402d18cc192",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "gemini::gemini-2-0-flash-lite",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.0-flash-lite",
+        "slug": "gemini-2.0-flash-lite",
+        "slugAliases": [
+          "Gemini 2.0 Flash-Lite",
+          "gemini-2.0-flash-lite"
+        ],
+        "displayName": "Gemini 2.0 Flash-Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-11",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "2.0",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.075,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "302.AI",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-05T09:28:24.165Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://doc.302.ai",
+            "observedAt": "2026-09-05T09:28:24.165Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash-lite",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          }
+        ],
+        "fingerprint": "0cf3f83d16abee06e120fe99d17f1dd3fce399dc4995190c83615c125752fc40",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-05T09:28:24.165Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-05T09:28:24.165Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
