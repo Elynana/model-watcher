@@ -178156,6 +178156,314 @@
         "displayName"
       ],
       "detectedAt": "2026-09-05T09:28:24.165Z"
+    },
+    {
+      "id": "422d7534a68df11ce96ef270",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra",
+        "slug": "gpt-6-astra",
+        "slugAliases": [
+          "gpt-6-astra"
+        ],
+        "displayName": "GPT-6 Astra",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "OpenAI",
+          "Vercel AI Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-05T09:28:24.165Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T09:28:24.165Z"
+          }
+        ],
+        "fingerprint": "f9dafa50d38da60e8af0e39c587de2c96737e02d2e5e9c85351d2175b2c3c35c",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-04T23:23:10.949Z"
+      },
+      "after": {
+        "key": "gpt::gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra",
+        "slug": "gpt-6-astra",
+        "slugAliases": [
+          "gpt-6-astra"
+        ],
+        "displayName": "GPT-6 Astra",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "Vercel AI Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-05T12:56:18.841Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T12:56:18.841Z"
+          }
+        ],
+        "fingerprint": "93ce8c511eb9f907df78b27fe56a3cd3de9f46e52caaaa5e2994e1f0dbe9920d",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-05T12:56:18.841Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-05T12:56:18.841Z"
+    },
+    {
+      "id": "8c832c0de2c96e5d7ca8944b",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-max-20260803",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-max-20260803",
+        "slug": "qwen3.8-max-20260803",
+        "slugAliases": [
+          "qwen3.8-max-20260803"
+        ],
+        "displayName": "Qwen: Qwen3.8 Max",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3.8",
+        "tier": "max",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "tier": "max",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 6,
+          "input_cache_read $/M": 0.25,
+          "input_cache_write $/M": 2.5
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-03",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3.8-max",
+            "observedAt": "2026-09-05T01:12:48.239Z"
+          }
+        ],
+        "fingerprint": "dea6ac0cabf9eca64947eab3c7036bfc6c5f576031aee41df1c8226046ecd7ae",
+        "firstSeen": "2026-08-03T16:07:14.576Z",
+        "lastChanged": "2026-08-03T16:07:14.576Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-max-20260803",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-max-20260803",
+        "slug": "qwen3.8-max-20260803",
+        "slugAliases": [
+          "qwen3.8-max-20260803"
+        ],
+        "displayName": "Qwen: Qwen3.8 Max",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3.8",
+        "tier": "max",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "tier": "max",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 6,
+          "input_cache_read $/M": 0.25,
+          "input_cache_write $/M": 2.5
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-08-03",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3.8-max",
+            "observedAt": "2026-09-05T01:12:48.239Z"
+          }
+        ],
+        "fingerprint": "2091e4b66b0920e63b01691b187b2117dcf87d6f6764aead42f0a1bb72b9f5bd",
+        "firstSeen": "2026-08-03T16:07:14.576Z",
+        "lastChanged": "2026-09-05T12:56:18.841Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-09-05T12:56:18.841Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
