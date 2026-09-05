@@ -177929,6 +177929,71 @@
         "availability"
       ],
       "detectedAt": "2026-09-04T23:23:10.949Z"
+    },
+    {
+      "id": "626dabad19dea6371d5491b8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3p8-2p4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3p8-2p4t-a95b",
+        "slug": "qwen3p8-2p4t-a95b",
+        "slugAliases": [
+          "qwen3p8-2p4t-a95b"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "activeParameters": "95B active",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "Fireworks AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/docs/",
+            "observedAt": "2026-09-05T01:12:48.239Z"
+          }
+        ],
+        "fingerprint": "b975070f920ddd006be75151223a0796f7c5daeb09aa7f98e45a84ab33421cf2",
+        "firstSeen": "2026-09-05T01:12:48.239Z",
+        "lastChanged": "2026-09-05T01:12:48.239Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-05T01:12:48.239Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
