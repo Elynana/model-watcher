@@ -178570,6 +178570,2417 @@
         "displayName"
       ],
       "detectedAt": "2026-09-05T15:45:45.016Z"
+    },
+    {
+      "id": "044d51c4183f846b6c941560",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-6",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.6",
+        "slug": "grok-4.6",
+        "slugAliases": [
+          "Grok 4.6",
+          "grok-4.6"
+        ],
+        "displayName": "Grok 4.6",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "capabilities": {
+          "version": "4.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-01",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "bedrock_converse",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "1075a632eea007dcaba162e698e7ca2af68c4387a149f77ad05ad02013bd411a",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "grok::grok-4-6",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.6",
+        "slug": "grok-4.6",
+        "slugAliases": [
+          "Grok 4.6",
+          "grok-4.6"
+        ],
+        "displayName": "Grok 4.6",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "capabilities": {
+          "version": "4.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-01",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/x-ai/grok-4.6",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "494fe88841ade6255bb4d23419042fbc652c0f414a45cead87bc3bcac6b6a68b",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "148e5f0d9c16122ba0178d72",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-build-0-1",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-build-0.1",
+        "slug": "grok-build-0.1",
+        "slugAliases": [
+          "grok-build-0.1"
+        ],
+        "displayName": "Grok Build 0.1",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "0.1",
+        "capabilities": {
+          "version": "0.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 2,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2,
+              "output": 4,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2,
+            "output": 4,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "56aa59edd7f7c9f62034449f87a3a969efb44c0fe5b6a4deaf1746fd37efb1d6",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "grok::grok-build-0-1",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-build-0.1",
+        "slug": "grok-build-0.1",
+        "slugAliases": [
+          "grok-build-0.1"
+        ],
+        "displayName": "Grok Build 0.1",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "0.1",
+        "capabilities": {
+          "version": "0.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 2,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2,
+              "output": 4,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2,
+            "output": 4,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/x-ai/grok-build-0.1",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "4c2bead1a33b5ab984724ba37f5875345d0de9d5244a51c82535587e30fc247a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "db5b43ddde9136b23652fdd1",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-fable-5-1",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5-1",
+        "slug": "claude-fable-5-1",
+        "slugAliases": [
+          "Claude Fable 5.1",
+          "claude-fable-5-1",
+          "claude-fable-5.1"
+        ],
+        "displayName": "Claude Fable 5.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "tier": "fable",
+        "capabilities": {
+          "tier": "fable",
+          "version": "5.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 0.25,
+          "cache_write $/M": 12.5
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-05T21:40:14.110Z"
+          }
+        ],
+        "fingerprint": "a6415903a72a4bc60c34db95e844f5166adbb853701f4c86ad573e29d7ac41ff",
+        "firstSeen": "2026-09-01T18:12:45.729Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "claude::claude-fable-5-1",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5-1",
+        "slug": "claude-fable-5-1",
+        "slugAliases": [
+          "Claude Fable 5.1",
+          "claude-fable-5-1",
+          "claude-fable-5.1"
+        ],
+        "displayName": "Claude Fable 5.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "tier": "fable",
+        "capabilities": {
+          "tier": "fable",
+          "version": "5.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 0.25,
+          "cache_write $/M": 12.5
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/anthropic/claude-fable-5.1",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-05T21:40:14.110Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "85e3de470983284d2f228e051cd628c664ec04bc4851806aabf1d62ba83cae6d",
+        "firstSeen": "2026-09-01T18:12:45.729Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "ea2600dd8914c2af7730c332",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-4-5v",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-4.5V",
+        "slug": "GLM-4.5V",
+        "slugAliases": [
+          "GLM-4.5V",
+          "glm-4.5v"
+        ],
+        "displayName": "GLM-4.5V",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-04",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 0.6,
+          "completion $/M": 1.8,
+          "input_cache_read $/M": 0.11,
+          "input $/M": 0.6,
+          "output $/M": 1.8
+        },
+        "availability": [
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "Z.AI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-4.5V",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/z-ai/glm-4.5v",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "0de2f7be2bcc8d00cb187d9efd3d87df3977db4d7a45500b4c762115009898de",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "glm::glm-4-5v",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-4.5V",
+        "slug": "GLM-4.5V",
+        "slugAliases": [
+          "GLM-4.5V",
+          "glm-4.5v"
+        ],
+        "displayName": "GLM-4.5V",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-04",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 0.6,
+          "completion $/M": 1.8,
+          "input_cache_read $/M": 0.11,
+          "input $/M": 0.6,
+          "output $/M": 1.8
+        },
+        "availability": [
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "Z.AI",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-4.5V",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/z-ai/glm-4.5v",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/z-ai/glm-4.5v",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "0292a4c3545116d8520eee71818f0c647994a61baf6a6367ccac5d6d95c8fb38",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "037af1aaeaec9dd8d1077b7a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-4-6v",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-4.6V",
+        "slug": "GLM-4.6V",
+        "slugAliases": [
+          "GLM-4.6V",
+          "glm-4.6v"
+        ],
+        "displayName": "GLM-4.6V",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-04",
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 0.9,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-4.6V",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-19T19:49:49.234Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "a9452c1c5d6347d3438658de4551c7ce45259065ad44419058b8b43dc76503ae",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "glm::glm-4-6v",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-4.6V",
+        "slug": "GLM-4.6V",
+        "slugAliases": [
+          "GLM-4.6V",
+          "glm-4.6v"
+        ],
+        "displayName": "GLM-4.6V",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-04",
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 0.9,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-4.6V",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/z-ai/glm-4.6v",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-08-19T19:49:49.234Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "23e356589a11825c98d9cf92646254fa762a2d49268258c395059a1689ab4dd3",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "1089b5ad7d8dc5257e969555",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-4-turbo",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4-turbo",
+        "slug": "gpt-4-turbo",
+        "slugAliases": [
+          "gpt-4-turbo"
+        ],
+        "displayName": "GPT-4 Turbo",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "turbo",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "turbo",
+          "version": "4",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-12",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "prompt $/M": 5,
+          "completion $/M": 15,
+          "web_search $/M": 10000,
+          "input $/M": 10,
+          "output $/M": 30
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2023-11-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-4-turbo:batch",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "68525f9e35341fbd32ea2b6e7151a22e101f55cca59d507f2cf3e2081c1c75bb",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "gpt::gpt-4-turbo",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4-turbo",
+        "slug": "gpt-4-turbo",
+        "slugAliases": [
+          "gpt-4-turbo"
+        ],
+        "displayName": "GPT-4 Turbo",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "turbo",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "turbo",
+          "version": "4",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-12",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "prompt $/M": 5,
+          "completion $/M": 15,
+          "web_search $/M": 10000,
+          "input $/M": 10,
+          "output $/M": 30
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2023-11-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-4-turbo",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-4-turbo:batch",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "1e2e477602dac116409916a406b4bce435ac0d4bd19765298a75413df07f4c18",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "618cdaf507891a3fe6596a96",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-4o-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4o-mini",
+        "slug": "gpt-4o-mini",
+        "slugAliases": [
+          "gpt-4o-mini"
+        ],
+        "displayName": "GPT-4o mini",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "mini",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "mini",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-09",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.3,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.0375,
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "Eden AI",
+          "GitHub Models",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "replicate"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/openai/gpt-4o-mini",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-4o-mini:batch",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "de56be393b7e16d9c3f63c5b11559d29cdb49b5d244e8a307b06964fdca57fa4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "gpt::gpt-4o-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4o-mini",
+        "slug": "gpt-4o-mini",
+        "slugAliases": [
+          "gpt-4o-mini"
+        ],
+        "displayName": "GPT-4o mini",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "mini",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "mini",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-09",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.3,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.0375,
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "Eden AI",
+          "GitHub Models",
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-4o-mini",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/openai/gpt-4o-mini",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-4o-mini:batch",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "c78bd951454065e9a260ff61c679a094debb1c2588c46015340bb84f912046ff",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "78ab9278edc3957175b8a9de",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-5-4",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-5.4",
+        "slug": "GPT-5.4",
+        "slugAliases": [
+          "GPT-5.4",
+          "gpt-5.4"
+        ],
+        "displayName": "GPT-5.4",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "capabilities": {
+          "version": "5.4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 15,
+          "cache_read $/M": 0.25,
+          "tiers $/M": [
+            {
+              "input": 5,
+              "output": 22.5,
+              "cache_read": 0.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 5,
+            "output": 22.5,
+            "cache_read": 0.5
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:openai-models",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-19T16:56:50.886Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/ai-chemist-improves-reaction",
+            "observedAt": "2026-07-31T14:39:24.956Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "bf646244d22b2cf1274a66b742701471650dc7f0250038a413abf60a86200960",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "gpt::gpt-5-4",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-5.4",
+        "slug": "GPT-5.4",
+        "slugAliases": [
+          "GPT-5.4",
+          "gpt-5.4"
+        ],
+        "displayName": "GPT-5.4",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "capabilities": {
+          "version": "5.4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 15,
+          "cache_read $/M": 0.25,
+          "tiers $/M": [
+            {
+              "input": 5,
+              "output": 22.5,
+              "cache_read": 0.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 5,
+            "output": 22.5,
+            "cache_read": 0.5
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:openai-models",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-08-19T16:56:50.886Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/ai-chemist-improves-reaction",
+            "observedAt": "2026-07-31T14:39:24.956Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-5.4",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "12c3bc2e930d764ab4c6b3251e4719b203cfc8178bced2b2749d06f802129c37",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "eeaa4e1ccc8c4ddfb664ab98",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-audio",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-audio",
+        "slug": "gpt-audio",
+        "slugAliases": [
+          "gpt-audio"
+        ],
+        "displayName": "GPT Audio",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "audio, text",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 10,
+          "audio $/M": 32,
+          "audio_output $/M": 64,
+          "input $/M": 2.5,
+          "output $/M": 10
+        },
+        "availability": [
+          "OpenRouter",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-audio",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "e1e54197b5b00392f94fc51e364359403434861a845e48d2afb17a10fa24a5ad",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "gpt::gpt-audio",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-audio",
+        "slug": "gpt-audio",
+        "slugAliases": [
+          "gpt-audio"
+        ],
+        "displayName": "GPT Audio",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "audio, text",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 10,
+          "audio $/M": 32,
+          "audio_output $/M": 64,
+          "input $/M": 2.5,
+          "output $/M": 10
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-audio",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-audio",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "f61180e0c674bb857467775d89f05cc92f7ac9f4b5ddc2dbeadffb577a12900f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "df9f027ed6359d684576036d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-audio-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-audio-mini",
+        "slug": "gpt-audio-mini",
+        "slugAliases": [
+          "gpt-audio-mini"
+        ],
+        "displayName": "GPT Audio Mini",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "mini",
+        "capabilities": {
+          "accepts": "audio, text",
+          "tier": "mini",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 0.6,
+          "completion $/M": 2.4,
+          "audio $/M": 0.6,
+          "audio_output $/M": 2.4,
+          "input $/M": 0.6,
+          "output $/M": 2.4
+        },
+        "availability": [
+          "OpenRouter",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-03T22:31:17.171Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-audio-mini",
+            "observedAt": "2026-09-05T23:17:37.768Z"
+          }
+        ],
+        "fingerprint": "feca223bb6e0b13adb086279730508f600cdcaca82db72806d1375d25fd0ca07",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "gpt::gpt-audio-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-audio-mini",
+        "slug": "gpt-audio-mini",
+        "slugAliases": [
+          "gpt-audio-mini"
+        ],
+        "displayName": "GPT Audio Mini",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "mini",
+        "capabilities": {
+          "accepts": "audio, text",
+          "tier": "mini",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 0.6,
+          "completion $/M": 2.4,
+          "audio $/M": 0.6,
+          "audio_output $/M": 2.4,
+          "input $/M": 0.6,
+          "output $/M": 2.4
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-audio-mini",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-audio-mini",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "248fd6a2793093a5744cfd8a04e28cf02c47c28f0426320ab45e501317c40436",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "cffae635fe12b49ec50f070b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-6-astra",
+        "slug": "azure/us/gpt-6-astra",
+        "slugAliases": [
+          "azure/us/gpt-6-astra"
+        ],
+        "displayName": "azure/us/gpt-6-astra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 11,
+          "output $/M": 55
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "8f393a43d937289ab88c3be72bab9d293362899bb7dcce9e4cc5dfe74ff68096",
+        "firstSeen": "2026-09-06T01:03:49.820Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "5f5a7a8382bac00e7e33e125",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mai::mai-thinking-1",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "MAI",
+        "familyId": "mai",
+        "modelId": "MAI-Thinking-1",
+        "slug": "MAI-Thinking-1",
+        "slugAliases": [
+          "MAI-Thinking-1"
+        ],
+        "displayName": "MAI-Thinking-1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "text",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 8
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "f9e1cbbe7ccb07be9d926585d6bd4a8759a04e2766dfb3ac12a5e0005c7c034b",
+        "firstSeen": "2026-09-06T01:03:49.820Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "0d01e3e19758921eea692d8f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-daybreak-red-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-daybreak-red-latest",
+        "slug": "gpt-daybreak-red-latest",
+        "slugAliases": [
+          "gpt-daybreak-red-latest"
+        ],
+        "displayName": "gpt-daybreak-red-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 12.5,
+          "output $/M": 75
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/models/gpt-daybreak-red-latest",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "1aa7a9e4c492a2cddc64a2272df707cbb8c9989598a0a39d56c8b26aa21228ba",
+        "firstSeen": "2026-09-06T01:03:49.820Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "7f70d0696b39a706069977ca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-daybreak-blue-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-daybreak-blue-latest",
+        "slug": "gpt-daybreak-blue-latest",
+        "slugAliases": [
+          "gpt-daybreak-blue-latest"
+        ],
+        "displayName": "gpt-daybreak-blue-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/models/gpt-daybreak-blue-latest",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "732ad9c24a4e8f2740d785c088a12f0b4eea08650adc16c1c464221e6ad0688d",
+        "firstSeen": "2026-09-06T01:03:49.820Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "6f56947cd3560a67fce9f27d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-mythos-5-1",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-mythos-5-1",
+        "slug": "claude-mythos-5-1",
+        "slugAliases": [
+          "claude-mythos-5-1"
+        ],
+        "displayName": "claude-mythos-5-1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50
+        },
+        "availability": [
+          "anthropic"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "35a7faf9dcc51717c544d0753e4aeee32bef2e24ed5193fc1b72eb8e2a376700",
+        "firstSeen": "2026-09-06T01:03:49.820Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
+    },
+    {
+      "id": "63241095582ac9c51dc28f65",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-models-deepseek::fireworks-ai-accounts-fireworks-models-deepseek-v4-flash-vision-exp",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+        "slug": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-vision-exp"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.22,
+          "output $/M": 0.66
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.fireworks.ai/serverless/pricing",
+            "observedAt": "2026-09-06T01:03:49.820Z"
+          }
+        ],
+        "fingerprint": "28905a1bf592bd13d53d0c96eb839573884520ae338935ad76967371e9cc5ca5",
+        "firstSeen": "2026-09-06T01:03:49.820Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-06T01:03:49.820Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
