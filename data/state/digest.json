@@ -194930,6 +194930,110 @@
         "displayName"
       ],
       "detectedAt": "2026-09-06T18:30:15.011Z"
+    },
+    {
+      "id": "0e504c146c24b7f842901c14",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "moshi::casa-helium1-vl-2b-shared",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "Moshi / Helium / Hibiki",
+        "familyId": "moshi",
+        "modelId": "CASA-Helium1-VL-2B-Shared",
+        "slug": "CASA-Helium1-VL-2B-Shared",
+        "slugAliases": [
+          "CASA-Helium1-VL-2B-Shared"
+        ],
+        "displayName": "CASA-Helium1-VL-2B-Shared",
+        "modalities": [
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/CASA-Helium1-VL-2B-Shared",
+            "observedAt": "2026-09-06T22:24:03.948Z"
+          }
+        ],
+        "fingerprint": "469d268822cd223aaa6b1b0f1258f48e9b7d4cdbac24955049633ed104cd1902",
+        "firstSeen": "2026-09-06T22:24:03.948Z",
+        "lastChanged": "2026-09-06T22:24:03.948Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-06T22:24:03.948Z"
+    },
+    {
+      "id": "442111c61866ab2b9c838d82",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::casa-qwen2-5-vl-3b-shared",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "CASA-Qwen2_5-VL-3B-Shared",
+        "slug": "CASA-Qwen2_5-VL-3B-Shared",
+        "slugAliases": [
+          "CASA-Qwen2_5-VL-3B-Shared"
+        ],
+        "displayName": "CASA-Qwen2_5-VL-3B-Shared",
+        "modalities": [
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "3B",
+          "version": "5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/CASA-Qwen2_5-VL-3B-Shared",
+            "observedAt": "2026-09-06T22:24:03.948Z"
+          }
+        ],
+        "fingerprint": "be542047aa158b245dc39d31dd43abf9d3fb73d46f569c157f8a910ee3fb8628",
+        "firstSeen": "2026-09-06T22:24:03.948Z",
+        "lastChanged": "2026-09-06T22:24:03.948Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-06T22:24:03.948Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
