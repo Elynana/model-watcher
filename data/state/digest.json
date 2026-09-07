@@ -195195,6 +195195,72 @@
         "model"
       ],
       "detectedAt": "2026-09-07T19:13:02.058Z"
+    },
+    {
+      "id": "faf0d6c7e2bb1cb0e9489909",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5p3-fast",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5p3-fast",
+        "slug": "glm-5p3-fast",
+        "slugAliases": [
+          "glm-5p3-fast"
+        ],
+        "displayName": "GLM 5.3 Fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "fast",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "fast",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048572,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 2.1,
+          "output $/M": 6.6,
+          "cache_read $/M": 0.39
+        },
+        "availability": [
+          "Fireworks AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/docs/",
+            "observedAt": "2026-09-07T22:04:10.451Z"
+          }
+        ],
+        "fingerprint": "cddb4d37c70814e9c696358f379de4d6e3675eb4927d27b5dea4c446262c41b2",
+        "firstSeen": "2026-09-07T22:04:10.451Z",
+        "lastChanged": "2026-09-07T22:04:10.451Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-07T22:04:10.451Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
