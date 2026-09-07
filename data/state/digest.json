@@ -195034,6 +195034,53 @@
         "model"
       ],
       "detectedAt": "2026-09-06T22:24:03.948Z"
+    },
+    {
+      "id": "6c3fc1824f858b51f9eeb298",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "evie::evie-8b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "evie",
+        "modelId": "EVIE-8B",
+        "slug": "EVIE-8B",
+        "slugAliases": [
+          "EVIE-8B"
+        ],
+        "displayName": "EVIE-8B",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/EVIE-8B",
+            "observedAt": "2026-09-07T09:40:46.916Z"
+          }
+        ],
+        "fingerprint": "00a2d566d28e1cc9b398dce2734e4419653658d256ee1141e29c9c77f6082b3c",
+        "firstSeen": "2026-09-07T09:40:46.916Z",
+        "lastChanged": "2026-09-07T09:40:46.916Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-07T09:40:46.916Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
