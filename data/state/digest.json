@@ -195129,6 +195129,72 @@
         "model"
       ],
       "detectedAt": "2026-09-07T15:15:04.716Z"
+    },
+    {
+      "id": "a2fe9be9d05bf99f4ac23f0e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::duo-chat-gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "duo-chat-gpt-6-astra",
+        "slug": "duo-chat-gpt-6-astra",
+        "slugAliases": [
+          "duo-chat-gpt-6-astra"
+        ],
+        "displayName": "Agentic Chat (GPT-6 Astra)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "GitLab Duo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.gitlab.com/user/duo_agent_platform/",
+            "observedAt": "2026-09-07T19:13:02.058Z"
+          }
+        ],
+        "fingerprint": "d118115b66789d8007b2648380b50e571e71c34b24dd1a2e27e77af853356bee",
+        "firstSeen": "2026-09-07T19:13:02.058Z",
+        "lastChanged": "2026-09-07T19:13:02.058Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-07T19:13:02.058Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
