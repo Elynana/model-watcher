@@ -195536,6 +195536,255 @@
         "model"
       ],
       "detectedAt": "2026-09-08T13:35:09.742Z"
+    },
+    {
+      "id": "462ba464cf4788c17b7351f0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flash-free",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-flash-free",
+        "slug": "glm-5.3-flash-free",
+        "slugAliases": [
+          "glm-5.3-flash-free"
+        ],
+        "displayName": "GLM-5.3-Flash (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "OrcaRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.orcarouter.ai",
+            "observedAt": "2026-09-08T17:27:41.546Z"
+          }
+        ],
+        "fingerprint": "d998b1e0d2c542c2f955a88039f404a8544499f2236ea76da67c442604696cda",
+        "firstSeen": "2026-09-08T17:27:41.546Z",
+        "lastChanged": "2026-09-08T17:27:41.546Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-08T17:27:41.546Z"
+    },
+    {
+      "id": "763540f5e48c7ad4912daf88",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-7-max-2026-06-08",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-max-2026-06-08",
+        "slug": "qwen3.7-max-2026-06-08",
+        "slugAliases": [
+          "qwen3.7-max-2026-06-08"
+        ],
+        "displayName": "qwen3.7-max-2026-06-08",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3.7",
+        "tier": "max",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "tier": "max",
+          "version": "3.7"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1.8,
+          "output $/M": 5.3
+        },
+        "availability": [
+          "302.AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://doc.302.ai",
+            "observedAt": "2026-09-08T17:27:41.546Z"
+          }
+        ],
+        "fingerprint": "45df73c54068a4220143b7b03717a120617fccb9918c77042420ca7b366b4c8b",
+        "firstSeen": "2026-09-08T17:27:41.546Z",
+        "lastChanged": "2026-09-08T17:27:41.546Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-08T17:27:41.546Z"
+    },
+    {
+      "id": "a8b4b819765c41571a7e376e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-thinking",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5-thinking",
+        "slug": "claude-opus-5-thinking",
+        "slugAliases": [
+          "claude-opus-5-thinking"
+        ],
+        "displayName": "claude-opus-5-thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 25
+        },
+        "availability": [
+          "302.AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://doc.302.ai",
+            "observedAt": "2026-09-08T17:27:41.546Z"
+          }
+        ],
+        "fingerprint": "d24621c5c0b9b12d3d2340715205272e47b6250d8f95de2ea46698646722ec70",
+        "firstSeen": "2026-09-08T17:27:41.546Z",
+        "lastChanged": "2026-09-08T17:27:41.546Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-08T17:27:41.546Z"
+    },
+    {
+      "id": "f48450da2efa3dfed35255ca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-beta",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-beta",
+        "slug": "deepseek-v4.1-flash-beta",
+        "slugAliases": [
+          "deepseek-v4.1-flash-beta"
+        ],
+        "displayName": "deepseek-v4.1-flash-beta",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-08T17:27:41.546Z"
+          }
+        ],
+        "fingerprint": "36b1a52262f7438bf95d989443dd4d8f2655541a9c351b2beefee7affe857cc6",
+        "firstSeen": "2026-09-08T17:27:41.546Z",
+        "lastChanged": "2026-09-08T17:27:41.546Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-08T17:27:41.546Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
