@@ -195313,6 +195313,229 @@
         "model"
       ],
       "detectedAt": "2026-09-08T04:45:55.928Z"
+    },
+    {
+      "id": "712d4435171e79c209a046f7",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-mini",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2-mini",
+        "slug": "nex-agi/nex-n2-mini",
+        "slugAliases": [
+          "nex-agi/nex-n2-mini"
+        ],
+        "displayName": "Nex-N2-Mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "prompt $/M": 0.025,
+          "completion $/M": 0.1,
+          "input_cache_read $/M": 0.0025,
+          "input $/M": 0.025,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.0025
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-24",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-08T09:09:00.205Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-08T09:09:00.205Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2-mini",
+            "observedAt": "2026-09-08T09:09:00.205Z"
+          }
+        ],
+        "fingerprint": "b68b2aa92760640de46da95245946f7c13799dce843ebf1a1da189cae6a0de4a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-mini",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2-mini",
+        "slug": "nex-agi/nex-n2-mini",
+        "slugAliases": [
+          "nex-agi/nex-n2-mini"
+        ],
+        "displayName": "Nex N2 Mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "prompt $/M": 0.025,
+          "completion $/M": 0.1,
+          "input_cache_read $/M": 0.0025,
+          "input $/M": 0.025,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.0025
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-24",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-08T13:35:09.742Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-08T13:35:09.742Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2-mini",
+            "observedAt": "2026-09-08T09:09:00.205Z"
+          }
+        ],
+        "fingerprint": "c88fdef32c2b812ab4f45c08627a1066dbe79f7b3b9311d1bcc55d7daf2735f5",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-08T13:35:09.742Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-08T13:35:09.742Z"
+    },
+    {
+      "id": "506de67e8ffe4cfe9bf0828a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash",
+        "slug": "deepseek-v4.1-flash",
+        "slugAliases": [
+          "deepseek-v4.1-flash"
+        ],
+        "displayName": "DeepSeek V4.1 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.1562,
+          "output $/M": 0.3124,
+          "cache_read $/M": 0.03124
+        },
+        "availability": [
+          "NanoGPT",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-08T13:35:09.742Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-08T13:35:09.742Z"
+          }
+        ],
+        "fingerprint": "6f3d3a40f4710ba464958ffe8f45d7f80b4b88f7ebeeb931a190023123525a6d",
+        "firstSeen": "2026-09-08T13:35:09.742Z",
+        "lastChanged": "2026-09-08T13:35:09.742Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-08T13:35:09.742Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
