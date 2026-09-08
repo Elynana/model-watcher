@@ -195785,6 +195785,135 @@
         "model"
       ],
       "detectedAt": "2026-09-08T17:27:41.546Z"
+    },
+    {
+      "id": "196489308c3a5193874d0be0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mercury::mercury-2-5",
+        "owner": "Inception Labs",
+        "vendorId": "inception-labs",
+        "family": "Mercury",
+        "familyId": "mercury",
+        "modelId": "mercury-2.5",
+        "slug": "mercury-2.5",
+        "slugAliases": [
+          "mercury-2.5"
+        ],
+        "displayName": "Mercury 2.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "version": "2.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 260000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0.15,
+          "cache_read $/M": 0.004
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-08T20:05:36.008Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-08T20:05:36.008Z"
+          }
+        ],
+        "fingerprint": "fdb9b53627d1e3c8e7c07b4570ee96139dc24519be121386755c5e92f9fdc09a",
+        "firstSeen": "2026-09-08T20:05:36.008Z",
+        "lastChanged": "2026-09-08T20:05:36.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-08T20:05:36.008Z"
+    },
+    {
+      "id": "e93ee69698b5884bf7bf6fa4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-image-2-5",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-Image-2.5",
+        "slug": "GPT-Image-2.5",
+        "slugAliases": [
+          "GPT-Image-2.5",
+          "gpt-image-2.5"
+        ],
+        "displayName": "GPT-Image-2.5",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-08T20:05:36.008Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-08T20:05:36.008Z"
+          }
+        ],
+        "fingerprint": "699a9b383b9fff789ff0d832b528bd16877dc1a3bf745e8b9ae237e29886f8f5",
+        "firstSeen": "2026-09-08T20:05:36.008Z",
+        "lastChanged": "2026-09-08T20:05:36.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-08T20:05:36.008Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
