@@ -198865,6 +198865,70 @@
         "model"
       ],
       "detectedAt": "2026-09-09T13:57:45.955Z"
+    },
+    {
+      "id": "8d46401b201910256a270710",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-thinking",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash:thinking",
+        "slug": "deepseek-v4.1-flash:thinking",
+        "slugAliases": [
+          "deepseek-v4.1-flash:thinking"
+        ],
+        "displayName": "DeepSeek V4.1 Flash Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.1562,
+          "output $/M": 0.3124,
+          "cache_read $/M": 0.03124
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-09T17:35:39.069Z"
+          }
+        ],
+        "fingerprint": "f0f5b84ff6133ab994147ab343d8bf9a2f5ba9e91b52a4c54cb0f062c2f2bed9",
+        "firstSeen": "2026-09-09T17:35:39.069Z",
+        "lastChanged": "2026-09-09T17:35:39.069Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T17:35:39.069Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
