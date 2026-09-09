@@ -196242,6 +196242,167 @@
         "model"
       ],
       "detectedAt": "2026-09-08T22:35:49.751Z"
+    },
+    {
+      "id": "3c1d3c3a210a7b64770c12bd",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "mercury::mercury-2-5-preview-20260831",
+        "owner": "Inception Labs",
+        "vendorId": "inception-labs",
+        "family": "Mercury",
+        "familyId": "mercury",
+        "modelId": "mercury-2.5-preview-20260831",
+        "slug": "mercury-2.5-preview-20260831",
+        "slugAliases": [
+          "mercury-2.5-preview-20260831"
+        ],
+        "displayName": "Inception: Mercury 2.5 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "snapshot",
+        "version": "2.5",
+        "capabilities": {
+          "accepts": "text",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 260000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.04,
+          "completion $/M": 0.15,
+          "input_cache_read $/M": 0.004
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-31",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inception/mercury-2.5-preview",
+            "observedAt": "2026-09-08T17:27:41.546Z"
+          }
+        ],
+        "fingerprint": "540659d07063bc2f758263c8aec360587dcac332556df64ed971cb74acd6ef6d",
+        "firstSeen": "2026-09-01T14:58:24.031Z",
+        "lastChanged": "2026-09-01T14:58:24.031Z"
+      },
+      "after": {
+        "key": "mercury::mercury-2-5-preview-20260831",
+        "owner": "Inception Labs",
+        "vendorId": "inception-labs",
+        "family": "Mercury",
+        "familyId": "mercury",
+        "modelId": "mercury-2.5-preview-20260831",
+        "slug": "mercury-2.5-preview-20260831",
+        "slugAliases": [
+          "mercury-2.5-preview-20260831"
+        ],
+        "displayName": "Inception: Mercury 2.5 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "snapshot",
+        "version": "2.5",
+        "capabilities": {
+          "accepts": "text",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 260000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.04,
+          "completion $/M": 0.15,
+          "input_cache_read $/M": 0.004
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-08-31",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/inception/mercury-2.5-preview",
+            "observedAt": "2026-09-08T17:27:41.546Z"
+          }
+        ],
+        "fingerprint": "04c3b000f66a0c2e0d17b4191ee6e53aa6465e72b3eb42aa08522acce955caca",
+        "firstSeen": "2026-09-01T14:58:24.031Z",
+        "lastChanged": "2026-09-09T00:33:18.746Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-09-09T00:33:18.746Z"
+    },
+    {
+      "id": "087b9c3e9614af0ce2fa9807",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "spark::spark-1-3-max",
+        "owner": "iFlytek",
+        "vendorId": "iflytek",
+        "family": "iFlytek Spark",
+        "familyId": "spark",
+        "modelId": "spark-1.3-max",
+        "slug": "spark-1.3-max",
+        "slugAliases": [
+          "spark-1.3-max"
+        ],
+        "displayName": "spark-1.3-max",
+        "modalities": [
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.3",
+        "tier": "max",
+        "capabilities": {
+          "tier": "max",
+          "version": "1.3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-09T00:33:18.746Z"
+          }
+        ],
+        "fingerprint": "6f478c0fde619951db54fe735e7ddd44833cb3e5fc1199a7e10a27b1a848e634",
+        "firstSeen": "2026-09-09T00:33:18.746Z",
+        "lastChanged": "2026-09-09T00:33:18.746Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T00:33:18.746Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
