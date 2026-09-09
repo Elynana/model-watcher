@@ -198450,6 +198450,421 @@
         "model"
       ],
       "detectedAt": "2026-09-09T09:42:28.413Z"
+    },
+    {
+      "id": "e3ccbbf289994cf8fb776db6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-12b-it-semancer",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-12b-it-semancer",
+        "slug": "gemma-4-12b-it-semancer",
+        "slugAliases": [
+          "gemma-4-12b-it-semancer"
+        ],
+        "displayName": "Gemma 4 12B Semancer",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "12B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.25,
+          "cache_read $/M": 0.025
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-09T13:57:45.955Z"
+          }
+        ],
+        "fingerprint": "cbbb933c73c69f7fc5aeac19b20f4ce39bcea11e77c1eb6fa7841e80eee20a58",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T13:57:45.955Z"
+    },
+    {
+      "id": "d61b4973f27ca246a2f8eff4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-12b-it-station-keeper",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-12b-it-station-keeper",
+        "slug": "gemma-4-12b-it-station-keeper",
+        "slugAliases": [
+          "gemma-4-12b-it-station-keeper"
+        ],
+        "displayName": "Gemma 4 12B StationKeeper",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "12B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.25,
+          "cache_read $/M": 0.025
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-09T13:57:45.955Z"
+          }
+        ],
+        "fingerprint": "4542781771630a84120f6f77fd8b6ad371c33d54e328b94952ccb3d2ff012b78",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T13:57:45.955Z"
+    },
+    {
+      "id": "27b7f66e4352d108cf8d1150",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-queen",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-queen",
+        "slug": "qwen3.8-27b-queen",
+        "slugAliases": [
+          "qwen3.8-27b-queen"
+        ],
+        "displayName": "Qwen 3.8 27B Queen",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-09T13:57:45.955Z"
+          }
+        ],
+        "fingerprint": "f4558fdd193e3e54150d973c10d55032d6734cf3e1b4fd78618020c79a8ca129",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T13:57:45.955Z"
+    },
+    {
+      "id": "a4046f61eb095f0235e3e843",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-image-2-5-sunburst-edit",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/sunburst/edit",
+        "slug": "gpt-image-2.5/sunburst/edit",
+        "slugAliases": [
+          "gpt-image-2.5/sunburst/edit"
+        ],
+        "displayName": "Gpt Image 2.5 Sunburst Edit",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "image-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/sunburst/edit",
+            "observedAt": "2026-09-09T13:57:45.955Z"
+          }
+        ],
+        "fingerprint": "4d981b796a7a2bb2ef46640ea094af29fd01feaf6d64caa027686e58b65bab15",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T13:57:45.955Z"
+    },
+    {
+      "id": "721ec34bc06d9228eae456eb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-image-2-5-flare-edit",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/flare/edit",
+        "slug": "gpt-image-2.5/flare/edit",
+        "slugAliases": [
+          "gpt-image-2.5/flare/edit"
+        ],
+        "displayName": "Gpt Image 2.5 Flare Edit",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "image-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/flare/edit",
+            "observedAt": "2026-09-09T13:57:45.955Z"
+          }
+        ],
+        "fingerprint": "8bf574f49c590abbdfc837e0465786f4925346cbd1f112988257239e4455ec60",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T13:57:45.955Z"
+    },
+    {
+      "id": "33de840c58b71ed2861e3db1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-image-2-5-sunburst-text-to-image",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/sunburst/text-to-image",
+        "slug": "gpt-image-2.5/sunburst/text-to-image",
+        "slugAliases": [
+          "gpt-image-2.5/sunburst/text-to-image"
+        ],
+        "displayName": "Gpt Image 2.5 Sunburst Text to Image",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/sunburst/text-to-image",
+            "observedAt": "2026-09-09T13:57:45.955Z"
+          }
+        ],
+        "fingerprint": "da29fe0ec3836f9427927a964dfe3fa333868bac3d090fdeb252ebcb64e3e819",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T13:57:45.955Z"
+    },
+    {
+      "id": "fce2cca6327e185c3b9594f6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-image-2-5-flare-text-to-image",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/flare/text-to-image",
+        "slug": "gpt-image-2.5/flare/text-to-image",
+        "slugAliases": [
+          "gpt-image-2.5/flare/text-to-image"
+        ],
+        "displayName": "Gpt Image 2.5 Flare Text to Image",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/flare/text-to-image",
+            "observedAt": "2026-09-09T13:57:45.955Z"
+          }
+        ],
+        "fingerprint": "0c2ddc53e6d72654c6f968d1c8d1f9fe0b8adcf12f654df23edc22509e517e8e",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-09T13:57:45.955Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
