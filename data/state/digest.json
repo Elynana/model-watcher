@@ -199223,6 +199223,870 @@
         "model"
       ],
       "detectedAt": "2026-09-10T00:24:30.889Z"
+    },
+    {
+      "id": "e0b3f4715130b9fa2bc3dd36",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "cohere-embed::rerank-v4-0-fast",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Cohere Embed / Rerank",
+        "familyId": "cohere-embed",
+        "modelId": "rerank-v4.0-fast",
+        "slug": "rerank-v4.0-fast",
+        "slugAliases": [
+          "rerank-v4.0-fast"
+        ],
+        "displayName": "rerank-v4.0-fast",
+        "modalities": [
+          "embedding",
+          "rerank"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.0",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "rerank",
+          "tier": "fast",
+          "version": "4.0"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "availability": [
+          "azure_ai",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:cohere",
+            "sourceKind": "official-page",
+            "url": "https://docs.cohere.com/docs/models",
+            "observedAt": "2026-09-10T00:24:30.889Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-cohere-rerank-4-0-in-microsoft-foundry/4477076",
+            "observedAt": "2026-09-09T05:10:26.768Z"
+          }
+        ],
+        "fingerprint": "a10eb02d50c340947fa01849cd342070ba44a3671ea5dbb4d79c8d9270279093",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "cohere-embed::rerank-v4-0-fast",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Cohere Embed / Rerank",
+        "familyId": "cohere-embed",
+        "modelId": "rerank-v4.0-fast",
+        "slug": "rerank-v4.0-fast",
+        "slugAliases": [
+          "rerank-v4.0-fast"
+        ],
+        "displayName": "rerank-v4.0-fast",
+        "modalities": [
+          "embedding",
+          "rerank"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.0",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "rerank",
+          "tier": "fast",
+          "version": "4.0"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "availability": [
+          "cohere",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:cohere",
+            "sourceKind": "official-page",
+            "url": "https://docs.cohere.com/docs/models",
+            "observedAt": "2026-09-10T00:24:30.889Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cohere.com/pricing",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "a943463d6c80844deffeccc1a0145c09fdbd773b361cbbb6077edb99f9f3cb91",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "8f73e7a20949a6e0874298be",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "cohere-embed::rerank-v4-0-pro",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Cohere Embed / Rerank",
+        "familyId": "cohere-embed",
+        "modelId": "rerank-v4.0-pro",
+        "slug": "rerank-v4.0-pro",
+        "slugAliases": [
+          "rerank-v4.0-pro"
+        ],
+        "displayName": "rerank-v4.0-pro",
+        "modalities": [
+          "embedding",
+          "rerank"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.0",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "rerank",
+          "tier": "pro",
+          "version": "4.0"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "availability": [
+          "azure_ai",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:cohere",
+            "sourceKind": "official-page",
+            "url": "https://docs.cohere.com/docs/models",
+            "observedAt": "2026-09-10T00:24:30.889Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-cohere-rerank-4-0-in-microsoft-foundry/4477076",
+            "observedAt": "2026-09-09T05:10:26.768Z"
+          }
+        ],
+        "fingerprint": "1c92f5b339342a92bc0079b930596ccbbfc31e3e0f2718ae5b9f23feb58e5dd4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "cohere-embed::rerank-v4-0-pro",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Cohere Embed / Rerank",
+        "familyId": "cohere-embed",
+        "modelId": "rerank-v4.0-pro",
+        "slug": "rerank-v4.0-pro",
+        "slugAliases": [
+          "rerank-v4.0-pro"
+        ],
+        "displayName": "rerank-v4.0-pro",
+        "modalities": [
+          "embedding",
+          "rerank"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.0",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "rerank",
+          "tier": "pro",
+          "version": "4.0"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "availability": [
+          "cohere",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:cohere",
+            "sourceKind": "official-page",
+            "url": "https://docs.cohere.com/docs/models",
+            "observedAt": "2026-09-10T00:24:30.889Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cohere.com/pricing",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "52a8be1f9e990bba20d5e37faf02f29ea7b3b3f8b75216b2b214c240085321ff",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "0a545cc7bc5ae1902d346979",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "codex::codex-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "Codex",
+        "familyId": "codex",
+        "modelId": "codex-mini",
+        "slug": "codex-mini",
+        "slugAliases": [
+          "codex-mini"
+        ],
+        "displayName": "Codex Mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "accepts": "image, text",
+          "tier": "mini",
+          "mode": "responses",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.375
+        },
+        "availability": [
+          "Azure",
+          "azure"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-09-10T00:24:30.889Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-09T05:10:26.768Z"
+          }
+        ],
+        "fingerprint": "29700d21169d3e064f6331454fe0b5f880c877aa1a6c7b9a98abba63324f37b4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-07T14:42:08.951Z"
+      },
+      "after": {
+        "key": "codex::codex-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "Codex",
+        "familyId": "codex",
+        "modelId": "codex-mini",
+        "slug": "codex-mini",
+        "slugAliases": [
+          "codex-mini"
+        ],
+        "displayName": "Codex Mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "accepts": "image, text",
+          "tier": "mini",
+          "mode": "responses",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.375
+        },
+        "availability": [
+          "Azure",
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "da55b30a8bfbdec737960ba15394655d79b4bb1ec3f7b38288eb0f5d19b4cfe7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "1a778ba9fc3ce8c002b1513e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-3-8-flash",
+        "slug": "qwen-3-8-flash",
+        "slugAliases": [
+          "qwen-3-8-flash"
+        ],
+        "displayName": "Qwen 3.8 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.49,
+          "cache_read $/M": 0.014
+        },
+        "availability": [
+          "Venice AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "72c25c73a2d123644280120738ac22ed5490e5b942329061c1258988a675e1e9",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "23b5a5c76ff58619566dfbd4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt-image::gpt-image-2-5-flare",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5-flare",
+        "slug": "gpt-image-2.5-flare",
+        "slugAliases": [
+          "gpt-image-2.5-flare"
+        ],
+        "displayName": "gpt-image-2.5-flare",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "image_generation",
+          "vision": true,
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 5
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "9b317e9cdef6d4ef7904c864df2e6b0b12478935d3e15750594c44aefe931b9d",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "bb4f44bc8602cac92eaa1f1f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt-image::gpt-image-2-5-flare-2026-09-08",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5-flare-2026-09-08",
+        "slug": "gpt-image-2.5-flare-2026-09-08",
+        "slugAliases": [
+          "gpt-image-2.5-flare-2026-09-08"
+        ],
+        "displayName": "gpt-image-2.5-flare-2026-09-08",
+        "modalities": [
+          "image"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "image_generation",
+          "vision": true,
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 5
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "ee4add583fe98a0c207f390da7e07604449ff13703b5d0bd4dd2ee9b90ffec74",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "3be10509420261dfc620eae4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt-image::gpt-image-2-5-sunburst",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5-sunburst",
+        "slug": "gpt-image-2.5-sunburst",
+        "slugAliases": [
+          "gpt-image-2.5-sunburst"
+        ],
+        "displayName": "gpt-image-2.5-sunburst",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "image_generation",
+          "vision": true,
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 5
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "b21487550a2eba99d505f965af095cd70477391c99705cee96419d16952828c2",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "5652ea4fd51c2185061c1348",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt-image::gpt-image-2-5-sunburst-2026-09-08",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5-sunburst-2026-09-08",
+        "slug": "gpt-image-2.5-sunburst-2026-09-08",
+        "slugAliases": [
+          "gpt-image-2.5-sunburst-2026-09-08"
+        ],
+        "displayName": "gpt-image-2.5-sunburst-2026-09-08",
+        "modalities": [
+          "image"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "image_generation",
+          "vision": true,
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 5
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "e51dcc54e9c7124f96e90749605ec44483fc4fb5facd4afc4698fddbb9404ca1",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "fc0de0f91323aa17a9e27c1b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-openai-gpt::bedrock-mantle-openai-gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/openai.gpt-6-astra",
+        "slug": "bedrock_mantle/openai.gpt-6-astra",
+        "slugAliases": [
+          "bedrock_mantle/openai.gpt-6-astra"
+        ],
+        "displayName": "bedrock_mantle/openai.gpt-6-astra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 11,
+          "output $/M": 55
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-astra.html",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "d8390fda0a9c535a57602887cb3471f02b873b227973d79742674da8fcadf58d",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "080ffe25d199dd9ab2b01351",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-video-1-5-2026-05-30",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-video-1.5-2026-05-30",
+        "slug": "grok-imagine-video-1.5-2026-05-30",
+        "slugAliases": [
+          "grok-imagine-video-1.5-2026-05-30"
+        ],
+        "displayName": "grok-imagine-video-1.5-2026-05-30",
+        "modalities": [
+          "video"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "1.5",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "audio, image, text",
+          "version": "1.5"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.08
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/docs/models/grok-imagine-video-1.5",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "d6fb48483b8875ba81042316c5d6e6c06e19a8bc8d02980e21a37d8123ae9813",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "52a7f483652377a8a4ce593c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "hikari::hikari-medium",
+        "owner": "SB Intuitions (SoftBank)",
+        "vendorId": "sbintuitions",
+        "family": "hikari",
+        "modelId": "hikari-medium",
+        "slug": "hikari-medium",
+        "slugAliases": [
+          "hikari-medium"
+        ],
+        "displayName": "hikari-medium",
+        "modalities": [
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "medium",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "medium"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:sbintuitions:sbintuitions",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/sbintuitions/hikari-medium",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "d466d657e52d1d45c7b2b21e04bc1227ec9074a0dc7555cf4a88122f3f738fdd",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
+    },
+    {
+      "id": "910b15091fcb1ad45afa482a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "aidd::aidd",
+        "owner": "BAAI",
+        "vendorId": "baai",
+        "family": "aidd",
+        "modelId": "AIDD",
+        "slug": "AIDD",
+        "slugAliases": [
+          "AIDD"
+        ],
+        "displayName": "AIDD",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:baai:baai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/BAAI/AIDD",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          }
+        ],
+        "fingerprint": "11f7e655c2abf1ed68dbb18e6466faa2cd7a68854ecfecce8b1f307eab9c81dc",
+        "firstSeen": "2026-09-10T05:00:54.446Z",
+        "lastChanged": "2026-09-10T05:00:54.446Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T05:00:54.446Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
