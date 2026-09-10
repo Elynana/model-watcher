@@ -200861,6 +200861,58 @@
         "displayName"
       ],
       "detectedAt": "2026-09-10T13:47:34.622Z"
+    },
+    {
+      "id": "1b45db47e9de7a6f3900fbc6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "aya::coherelabs-tiny-aya-base-32k",
+        "owner": "Cohere",
+        "vendorId": "cohere",
+        "family": "Aya",
+        "familyId": "aya",
+        "modelId": "CohereLabs/tiny-aya-base-32K",
+        "slug": "CohereLabs/tiny-aya-base-32K",
+        "slugAliases": [
+          "CohereLabs/tiny-aya-base-32K"
+        ],
+        "displayName": "tiny-aya-base-32K",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "tiny",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "32K",
+          "tier": "tiny"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:cohere:coherelabs",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/CohereLabs/tiny-aya-base-32K",
+            "observedAt": "2026-09-10T17:17:26.114Z"
+          }
+        ],
+        "fingerprint": "f8f2768580362da22104c25c68a459a08e1d4ff375cdc2186ccb26f51d9f0267",
+        "firstSeen": "2026-09-10T17:17:26.114Z",
+        "lastChanged": "2026-09-10T17:17:26.114Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T17:17:26.114Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
