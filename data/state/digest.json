@@ -200913,6 +200913,1353 @@
         "model"
       ],
       "detectedAt": "2026-09-10T17:17:26.114Z"
+    },
+    {
+      "id": "6c507394cf5cc06ebebfec14",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4p1-flash",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4p1-flash",
+        "slug": "deepseek-v4p1-flash",
+        "slugAliases": [
+          "deepseek-v4p1-flash"
+        ],
+        "displayName": "DeepSeek V4.1 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.22,
+          "output $/M": 0.66,
+          "cache_read $/M": 0.007
+        },
+        "availability": [
+          "Fireworks AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/docs/",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "4587fa9ce378ba6b1404f79a79266c0d63295cd7c17ef577d44902a9a83e3c19",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "6eec21ae77a5452d3dd61500",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-enc-qwen3-vl-235b-a22b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m_enc.qwen3_vl_235b_a22b",
+        "slug": "qwen3_vit_416m_enc.qwen3_vl_235b_a22b",
+        "slugAliases": [
+          "qwen3_vit_416m_enc.qwen3_vl_235b_a22b"
+        ],
+        "displayName": "qwen3_vit_416m_enc.qwen3_vl_235b_a22b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "235B",
+          "activeParameters": "22B active",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m_enc.qwen3_vl_235b_a22b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "e6e69599013c8b8f031282f4b6b7256d7ca8ff26dd7f2e12afddd1d53a1bb5a1",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "484916638b89b4531c6d1778",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-enc-qwen3-vl-32b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m_enc.qwen3_vl_32b",
+        "slug": "qwen3_vit_416m_enc.qwen3_vl_32b",
+        "slugAliases": [
+          "qwen3_vit_416m_enc.qwen3_vl_32b"
+        ],
+        "displayName": "qwen3_vit_416m_enc.qwen3_vl_32b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "32B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m_enc.qwen3_vl_32b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "32def6257b516ee49c60319b0e817f29642b94cd2a0793d32f846589abd83d2c",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "e116a185bddc8add419e4e36",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-enc-qwen3-vl-30b-a3b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m_enc.qwen3_vl_30b_a3b",
+        "slug": "qwen3_vit_416m_enc.qwen3_vl_30b_a3b",
+        "slugAliases": [
+          "qwen3_vit_416m_enc.qwen3_vl_30b_a3b"
+        ],
+        "displayName": "qwen3_vit_416m_enc.qwen3_vl_30b_a3b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m_enc.qwen3_vl_30b_a3b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "e5e26d78c994bcd782d3da5ca6ebd737fca64fe9f194c8d0216cceb0a761956e",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "535743f46c0e11710c5ea73a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-enc-qwen3-vl-8b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m_enc.qwen3_vl_8b",
+        "slug": "qwen3_vit_416m_enc.qwen3_vl_8b",
+        "slugAliases": [
+          "qwen3_vit_416m_enc.qwen3_vl_8b"
+        ],
+        "displayName": "qwen3_vit_416m_enc.qwen3_vl_8b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m_enc.qwen3_vl_8b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "bce2889deea8a7500a9c789518a31cd378bf5d3e6e308e0b433ea607caad53cd",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "4efbed04b33e2ba7dd17e6cd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-enc-qwen3-8-flash-next",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m_enc.qwen3_8_flash_next",
+        "slug": "qwen3_vit_416m_enc.qwen3_8_flash_next",
+        "slugAliases": [
+          "qwen3_vit_416m_enc.qwen3_8_flash_next"
+        ],
+        "displayName": "qwen3_vit_416m_enc.qwen3_8_flash_next",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "416M",
+          "tier": "flash",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m_enc.qwen3_8_flash_next",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "4f41745b3aae325b5423ecc3dc1e4ddd5bc3f4876a95a2d68ebd87eb8b7e3d1e",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "4c7b5eca2ff616d26b4a995e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-enc-qwen3-8-27b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m_enc.qwen3_8_27b",
+        "slug": "qwen3_vit_416m_enc.qwen3_8_27b",
+        "slugAliases": [
+          "qwen3_vit_416m_enc.qwen3_8_27b"
+        ],
+        "displayName": "qwen3_vit_416m_enc.qwen3_8_27b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m_enc.qwen3_8_27b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "852ef8c3561b2b329307b43358d679f5f16184846951ef589d288403ee75a25d",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "b9a2a3d071b28b8356ed489a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-enc-qwen3-5-27b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m_enc.qwen3_5_27b",
+        "slug": "qwen3_vit_416m_enc.qwen3_5_27b",
+        "slugAliases": [
+          "qwen3_vit_416m_enc.qwen3_5_27b"
+        ],
+        "displayName": "qwen3_vit_416m_enc.qwen3_5_27b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m_enc.qwen3_5_27b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "975c93239f19273d7b861596a7df802240353d6a84aea55c6a5e823e874851b5",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "a92f743388ca098ff1c7541b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-enc-qwen3-5-9b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m_enc.qwen3_5_9b",
+        "slug": "qwen3_vit_416m_enc.qwen3_5_9b",
+        "slugAliases": [
+          "qwen3_vit_416m_enc.qwen3_5_9b"
+        ],
+        "displayName": "qwen3_vit_416m_enc.qwen3_5_9b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m_enc.qwen3_5_9b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "8b9b91c352d98fb1dee93fb67c694ac8afbd30e1680a15bee3e13b1990fb3403",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "008b2dc612f049648af2e217",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-qwen3-vl-235b-a22b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m.qwen3_vl_235b_a22b",
+        "slug": "qwen3_vit_416m.qwen3_vl_235b_a22b",
+        "slugAliases": [
+          "qwen3_vit_416m.qwen3_vl_235b_a22b"
+        ],
+        "displayName": "qwen3_vit_416m.qwen3_vl_235b_a22b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "235B",
+          "activeParameters": "22B active",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m.qwen3_vl_235b_a22b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "bb6adbc6b123f84be14db78a99b594f7912d6e05a6ea203624c4cf73a48cc834",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "7ccbc9e1e7ca3d448f230cb1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-qwen3-vl-32b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m.qwen3_vl_32b",
+        "slug": "qwen3_vit_416m.qwen3_vl_32b",
+        "slugAliases": [
+          "qwen3_vit_416m.qwen3_vl_32b"
+        ],
+        "displayName": "qwen3_vit_416m.qwen3_vl_32b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "32B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m.qwen3_vl_32b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "c3435c5d6eb674c95341ed381bfdf0e3cd187d8a045fe84d6a75bde3b20c8e24",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "1a166c2cc70b065ea76e6272",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-qwen3-vl-30b-a3b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m.qwen3_vl_30b_a3b",
+        "slug": "qwen3_vit_416m.qwen3_vl_30b_a3b",
+        "slugAliases": [
+          "qwen3_vit_416m.qwen3_vl_30b_a3b"
+        ],
+        "displayName": "qwen3_vit_416m.qwen3_vl_30b_a3b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m.qwen3_vl_30b_a3b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "072a10dbdcb001c75ca1c0b46bdd1204e8b1997ff50808c6daefad88e77c06a4",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "eb25b340ec121f0df87cda10",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-qwen3-vl-8b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m.qwen3_vl_8b",
+        "slug": "qwen3_vit_416m.qwen3_vl_8b",
+        "slugAliases": [
+          "qwen3_vit_416m.qwen3_vl_8b"
+        ],
+        "displayName": "qwen3_vit_416m.qwen3_vl_8b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m.qwen3_vl_8b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "8f305787c93f01e59a405a7a5914d519eeded8d1d819ed4b791471b6fb0ea160",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "f85d39ba3fae0f4b0888960e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-qwen3-8-flash-next",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m.qwen3_8_flash_next",
+        "slug": "qwen3_vit_416m.qwen3_8_flash_next",
+        "slugAliases": [
+          "qwen3_vit_416m.qwen3_8_flash_next"
+        ],
+        "displayName": "qwen3_vit_416m.qwen3_8_flash_next",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "416M",
+          "tier": "flash",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m.qwen3_8_flash_next",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "8038d209f8b4f8a1ed0b5a843d3c1256f79793fe5d8f65169c316bd3d5a03792",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "996abbcb781a6eda0924b3c6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-qwen3-8-27b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m.qwen3_8_27b",
+        "slug": "qwen3_vit_416m.qwen3_8_27b",
+        "slugAliases": [
+          "qwen3_vit_416m.qwen3_8_27b"
+        ],
+        "displayName": "qwen3_vit_416m.qwen3_8_27b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m.qwen3_8_27b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "f2020ec615ad4650ce69f252a4647b7d90189fe0da58c9414ac2941a6af4539e",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "b58c97f38be2e82f430b5aab",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-qwen3-5-27b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m.qwen3_5_27b",
+        "slug": "qwen3_vit_416m.qwen3_5_27b",
+        "slugAliases": [
+          "qwen3_vit_416m.qwen3_5_27b"
+        ],
+        "displayName": "qwen3_vit_416m.qwen3_5_27b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m.qwen3_5_27b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "b604be25345f48f56769b3c43a2b3a84f10e555ce98d96ccac821eaee71b0bf3",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "a9dd16fa6cd418089bdfb70c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-416m-qwen3-5-9b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_416m.qwen3_5_9b",
+        "slug": "qwen3_vit_416m.qwen3_5_9b",
+        "slugAliases": [
+          "qwen3_vit_416m.qwen3_5_9b"
+        ],
+        "displayName": "qwen3_vit_416m.qwen3_5_9b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_416m.qwen3_5_9b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "c9ff8396e714fa13896bfcc155a3c09c7b574bf77453bafd3cb24779ec0ca807",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "11b9a2032996ebb8047a03f4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-306m-enc-qwen3-vl-4b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_306m_enc.qwen3_vl_4b",
+        "slug": "qwen3_vit_306m_enc.qwen3_vl_4b",
+        "slugAliases": [
+          "qwen3_vit_306m_enc.qwen3_vl_4b"
+        ],
+        "displayName": "qwen3_vit_306m_enc.qwen3_vl_4b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_306m_enc.qwen3_vl_4b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "0df4439b67ccfe8d3c42c9471543724aea9aac3c56ad595d81e505ba3c71509b",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "cc930d749a8f271bf5b6a4a4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-306m-enc-qwen3-5-4b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_306m_enc.qwen3_5_4b",
+        "slug": "qwen3_vit_306m_enc.qwen3_5_4b",
+        "slugAliases": [
+          "qwen3_vit_306m_enc.qwen3_5_4b"
+        ],
+        "displayName": "qwen3_vit_306m_enc.qwen3_5_4b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_306m_enc.qwen3_5_4b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "98edf55f25ae125049e192aa66f47b0527c2ee1cba4f3c440465f03babb0bcd6",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "d351d8ff1c5bf3e35c9c7013",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-306m-enc-qwen3-5-2b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_306m_enc.qwen3_5_2b",
+        "slug": "qwen3_vit_306m_enc.qwen3_5_2b",
+        "slugAliases": [
+          "qwen3_vit_306m_enc.qwen3_5_2b"
+        ],
+        "displayName": "qwen3_vit_306m_enc.qwen3_5_2b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_306m_enc.qwen3_5_2b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "5f3f80b664e51b4388c724ceed55c8f60b1e7d1f901b184671e0b62625f0d657",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "8e189504f3e8bb665f271cb8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-306m-qwen3-vl-4b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_306m.qwen3_vl_4b",
+        "slug": "qwen3_vit_306m.qwen3_vl_4b",
+        "slugAliases": [
+          "qwen3_vit_306m.qwen3_vl_4b"
+        ],
+        "displayName": "qwen3_vit_306m.qwen3_vl_4b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_306m.qwen3_vl_4b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "d2b5a4d2017e11910624e054d3fff51cbd9e633c64d8b4b80d4b28e5aa43f8b9",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "60a44635214151ed659b15d1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-306m-qwen3-5-4b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_306m.qwen3_5_4b",
+        "slug": "qwen3_vit_306m.qwen3_5_4b",
+        "slugAliases": [
+          "qwen3_vit_306m.qwen3_5_4b"
+        ],
+        "displayName": "qwen3_vit_306m.qwen3_5_4b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_306m.qwen3_5_4b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "a22684efa72c81e644f9227cba545b6f1306ffd532c412a8941f12778a911714",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "8fe6b8ff7e1d22d1c4e2d484",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-306m-qwen3-5-2b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_306m.qwen3_5_2b",
+        "slug": "qwen3_vit_306m.qwen3_5_2b",
+        "slugAliases": [
+          "qwen3_vit_306m.qwen3_5_2b"
+        ],
+        "displayName": "qwen3_vit_306m.qwen3_5_2b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_306m.qwen3_5_2b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "20d71ba6dafb8360f04b7841330edf4a7938b520b8cc6acaa84906ef5f4454b0",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "74d4eccbb6a970dfdbb1baca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-88m-enc-qwen3-5-0-8b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_88m_enc.qwen3_5_0_8b",
+        "slug": "qwen3_vit_88m_enc.qwen3_5_0_8b",
+        "slugAliases": [
+          "qwen3_vit_88m_enc.qwen3_5_0_8b"
+        ],
+        "displayName": "qwen3_vit_88m_enc.qwen3_5_0_8b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_88m_enc.qwen3_5_0_8b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "9b37953183891c7382ae781d70ee8a02532193458e7d7c8bb591593021e3e960",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
+    },
+    {
+      "id": "7a74614816d3597ad9c532b2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-vit-88m-qwen3-5-0-8b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3_vit_88m.qwen3_5_0_8b",
+        "slug": "qwen3_vit_88m.qwen3_5_0_8b",
+        "slugAliases": [
+          "qwen3_vit_88m.qwen3_5_0_8b"
+        ],
+        "displayName": "qwen3_vit_88m.qwen3_5_0_8b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/qwen3_vit_88m.qwen3_5_0_8b",
+            "observedAt": "2026-09-10T19:46:48.449Z"
+          }
+        ],
+        "fingerprint": "47730e34f95455510593f3afdd07dba63425a7d9b9e0e272be56ec3f06127f14",
+        "firstSeen": "2026-09-10T19:46:48.449Z",
+        "lastChanged": "2026-09-10T19:46:48.449Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-10T19:46:48.449Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
