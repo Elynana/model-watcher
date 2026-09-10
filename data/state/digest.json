@@ -200257,6 +200257,610 @@
         "confidence"
       ],
       "detectedAt": "2026-09-10T09:33:01.296Z"
+    },
+    {
+      "id": "b1a97d55ca667487901036fd",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra",
+        "slug": "gpt-6-astra",
+        "slugAliases": [
+          "gpt-6-astra"
+        ],
+        "displayName": "GPT-6 Astra",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-6-astra",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-10T09:33:01.296Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-10T09:33:01.296Z"
+          }
+        ],
+        "fingerprint": "6325dbf6648debd32668b6e37fd7af8b6595a3ed33caf9aa41257e74216a085e",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-06T18:30:15.011Z"
+      },
+      "after": {
+        "key": "gpt::gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra",
+        "slug": "gpt-6-astra",
+        "slugAliases": [
+          "gpt-6-astra"
+        ],
+        "displayName": "GPT-6 Astra",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6",
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-6-astra",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-10T13:47:34.622Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-10T13:47:34.622Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-10T13:47:34.622Z"
+          }
+        ],
+        "fingerprint": "8e10fedeb75e75f0320743bd29f6aacd595b4a6b6e05afa465ed86ef7e06e2b5",
+        "firstSeen": "2026-09-03T22:31:17.171Z",
+        "lastChanged": "2026-09-10T13:47:34.622Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-10T13:47:34.622Z"
+    },
+    {
+      "id": "2e0906eeb1a8b2972767a4ef",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-image-2-5-flare-edit",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/flare/edit",
+        "slug": "gpt-image-2.5/flare/edit",
+        "slugAliases": [
+          "gpt-image-2.5/flare/edit"
+        ],
+        "displayName": "Gpt Image 2.5 Flare Edit",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "image-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/flare/edit",
+            "observedAt": "2026-09-10T09:33:01.296Z"
+          }
+        ],
+        "fingerprint": "8bf574f49c590abbdfc837e0465786f4925346cbd1f112988257239e4455ec60",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "after": {
+        "key": "gpt::gpt-image-2-5-flare-edit",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/flare/edit",
+        "slug": "gpt-image-2.5/flare/edit",
+        "slugAliases": [
+          "gpt-image-2.5/flare/edit"
+        ],
+        "displayName": "GPT Image 2.5 Flare Edit",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "image-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/flare/edit",
+            "observedAt": "2026-09-10T13:47:34.622Z"
+          }
+        ],
+        "fingerprint": "038f9a5fef39f93cb01d03e141cf93d45086705d068729bfcf938b7c1096da81",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-10T13:47:34.622Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-10T13:47:34.622Z"
+    },
+    {
+      "id": "47689c460858d68d16c5a6b9",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-image-2-5-flare-text-to-image",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/flare/text-to-image",
+        "slug": "gpt-image-2.5/flare/text-to-image",
+        "slugAliases": [
+          "gpt-image-2.5/flare/text-to-image"
+        ],
+        "displayName": "Gpt Image 2.5 Flare Text to Image",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/flare/text-to-image",
+            "observedAt": "2026-09-10T09:33:01.296Z"
+          }
+        ],
+        "fingerprint": "0c2ddc53e6d72654c6f968d1c8d1f9fe0b8adcf12f654df23edc22509e517e8e",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "after": {
+        "key": "gpt::gpt-image-2-5-flare-text-to-image",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/flare/text-to-image",
+        "slug": "gpt-image-2.5/flare/text-to-image",
+        "slugAliases": [
+          "gpt-image-2.5/flare/text-to-image"
+        ],
+        "displayName": "GPT Image 2.5 Flare Text to Image",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/flare/text-to-image",
+            "observedAt": "2026-09-10T13:47:34.622Z"
+          }
+        ],
+        "fingerprint": "035815e84d53ef18eb9efeb05f51a1c7b393b9a47ac105748571c850dabf6d0e",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-10T13:47:34.622Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-10T13:47:34.622Z"
+    },
+    {
+      "id": "bf2254087d772832b9c59947",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-image-2-5-sunburst-edit",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/sunburst/edit",
+        "slug": "gpt-image-2.5/sunburst/edit",
+        "slugAliases": [
+          "gpt-image-2.5/sunburst/edit"
+        ],
+        "displayName": "Gpt Image 2.5 Sunburst Edit",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "image-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/sunburst/edit",
+            "observedAt": "2026-09-10T09:33:01.296Z"
+          }
+        ],
+        "fingerprint": "4d981b796a7a2bb2ef46640ea094af29fd01feaf6d64caa027686e58b65bab15",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "after": {
+        "key": "gpt::gpt-image-2-5-sunburst-edit",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/sunburst/edit",
+        "slug": "gpt-image-2.5/sunburst/edit",
+        "slugAliases": [
+          "gpt-image-2.5/sunburst/edit"
+        ],
+        "displayName": "GPT Image 2.5 Sunburst Edit",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "image-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/sunburst/edit",
+            "observedAt": "2026-09-10T13:47:34.622Z"
+          }
+        ],
+        "fingerprint": "e10c11e372125b23692b8fe2d26b15deff8577c7374781ff0622fd33b10cde45",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-10T13:47:34.622Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-10T13:47:34.622Z"
+    },
+    {
+      "id": "dddaed3526ddbf244142e2b6",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-image-2-5-sunburst-text-to-image",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/sunburst/text-to-image",
+        "slug": "gpt-image-2.5/sunburst/text-to-image",
+        "slugAliases": [
+          "gpt-image-2.5/sunburst/text-to-image"
+        ],
+        "displayName": "Gpt Image 2.5 Sunburst Text to Image",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/sunburst/text-to-image",
+            "observedAt": "2026-09-10T09:33:01.296Z"
+          }
+        ],
+        "fingerprint": "da29fe0ec3836f9427927a964dfe3fa333868bac3d090fdeb252ebcb64e3e819",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-09T13:57:45.955Z"
+      },
+      "after": {
+        "key": "gpt::gpt-image-2-5-sunburst-text-to-image",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT Image",
+        "familyId": "gpt-image",
+        "modelId": "gpt-image-2.5/sunburst/text-to-image",
+        "slug": "gpt-image-2.5/sunburst/text-to-image",
+        "slugAliases": [
+          "gpt-image-2.5/sunburst/text-to-image"
+        ],
+        "displayName": "GPT Image 2.5 Sunburst Text to Image",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "text-to-image",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 5
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/openai/gpt-image-2.5/sunburst/text-to-image",
+            "observedAt": "2026-09-10T13:47:34.622Z"
+          }
+        ],
+        "fingerprint": "57712bc2144812a125b493efe3b14629aa24a99421bf8e2b3438bdfad1cb9eaf",
+        "firstSeen": "2026-09-09T13:57:45.955Z",
+        "lastChanged": "2026-09-10T13:47:34.622Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-10T13:47:34.622Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
