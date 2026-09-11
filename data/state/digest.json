@@ -202528,6 +202528,673 @@
         "model"
       ],
       "detectedAt": "2026-09-10T23:45:14.593Z"
+    },
+    {
+      "id": "9b332c74e35b10b86825116d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-oss-safeguard-20b",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-oss-safeguard-20b",
+        "slug": "gpt-oss-safeguard-20b",
+        "slugAliases": [
+          "gpt-oss-safeguard-20b"
+        ],
+        "displayName": "OpenAI: gpt-oss-safeguard-20b",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "20B",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.3,
+          "input_cache_read $/M": 0.0375,
+          "input $/M": 0.075,
+          "output $/M": 0.3,
+          "cache_read $/M": 0.0375
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09-18",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:openai:openai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-oss-safeguard-20b",
+            "observedAt": "2026-09-10T05:00:54.446Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-oss-safeguard-20b",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          }
+        ],
+        "fingerprint": "a7018aedf93eea105c73181e1937f59fbd9c9104714d1a04d468869c34d07d1d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "after": {
+        "key": "gpt::gpt-oss-safeguard-20b",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-oss-safeguard-20b",
+        "slug": "gpt-oss-safeguard-20b",
+        "slugAliases": [
+          "gpt-oss-safeguard-20b"
+        ],
+        "displayName": "GPT OSS Safeguard 20B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "20B",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.075,
+          "completion $/M": 0.3,
+          "input_cache_read $/M": 0.0375,
+          "input $/M": 0.075,
+          "output $/M": 0.3,
+          "cache_read $/M": 0.0375
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09-18",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:openai:openai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/openai/gpt-oss-safeguard-20b",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-oss-safeguard-20b",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "ad74a34bc6e306c29f2da4630d27c2345c02cb07454d7c68268b2b0caf3ebc15",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-11T06:34:45.554Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-11T06:34:45.554Z"
+    },
+    {
+      "id": "acbb58a0ba2e435bf18627e8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::us-gov-openai-gpt-oss-20b-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "us-gov.openai.gpt-oss-20b-1",
+        "slug": "us-gov.openai.gpt-oss-20b-1",
+        "slugAliases": [
+          "us-gov.openai.gpt-oss-20b-1"
+        ],
+        "displayName": "gpt-oss-20b (GovCloud)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "20B",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.084,
+          "output $/M": 0.36
+        },
+        "availability": [
+          "Amazon Bedrock"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "31b68fed60d1d2925be10a8ba663c40338c6c78e30455f3d8ec73b253ec64b31",
+        "firstSeen": "2026-09-11T06:34:45.554Z",
+        "lastChanged": "2026-09-11T06:34:45.554Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T06:34:45.554Z"
+    },
+    {
+      "id": "986f55ff4bd31cc0f264f436",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::us-gov-openai-gpt-oss-120b-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "us-gov.openai.gpt-oss-120b-1",
+        "slug": "us-gov.openai.gpt-oss-120b-1",
+        "slugAliases": [
+          "us-gov.openai.gpt-oss-120b-1"
+        ],
+        "displayName": "gpt-oss-120b (GovCloud)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "120B",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.18,
+          "output $/M": 0.72
+        },
+        "availability": [
+          "Amazon Bedrock"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "9067098f509b0c58887934cdb362ceccc82cee0a501a45092b9b2077501d5e8c",
+        "firstSeen": "2026-09-11T06:34:45.554Z",
+        "lastChanged": "2026-09-11T06:34:45.554Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T06:34:45.554Z"
+    },
+    {
+      "id": "56e49f5c40bfb626e6207248",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::in-openai-gpt-5-6-terra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "in.openai.gpt-5.6-terra",
+        "slug": "in.openai.gpt-5.6-terra",
+        "slugAliases": [
+          "in.openai.gpt-5.6-terra"
+        ],
+        "displayName": "GPT-5.6 Terra (India)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 13.2,
+          "cache_read $/M": 0.22,
+          "cache_write $/M": 2.75,
+          "tiers $/M": [
+            {
+              "input": 4.4,
+              "output": 19.8,
+              "cache_read": 0.44,
+              "cache_write": 5.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4.4,
+            "output": 19.8,
+            "cache_read": 0.44,
+            "cache_write": 5.5
+          }
+        },
+        "availability": [
+          "Amazon Bedrock"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "610bde4ae8a41d2d6b8328a13eef732d30e8a77a05fd145a5e2067d0e768e6c4",
+        "firstSeen": "2026-09-11T06:34:45.554Z",
+        "lastChanged": "2026-09-11T06:34:45.554Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T06:34:45.554Z"
+    },
+    {
+      "id": "1f13900ee56885f17a9e5922",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::in-openai-gpt-5-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "in.openai.gpt-5.6-luna",
+        "slug": "in.openai.gpt-5.6-luna",
+        "slugAliases": [
+          "in.openai.gpt-5.6-luna"
+        ],
+        "displayName": "GPT-5.6 Luna (India)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.22,
+          "output $/M": 1.32,
+          "cache_read $/M": 0.022,
+          "cache_write $/M": 0.275,
+          "tiers $/M": [
+            {
+              "input": 0.44,
+              "output": 1.98,
+              "cache_read": 0.044,
+              "cache_write": 0.55,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.44,
+            "output": 1.98,
+            "cache_read": 0.044,
+            "cache_write": 0.55
+          }
+        },
+        "availability": [
+          "Amazon Bedrock"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "4301695600991e1b884b29120f1e31af5356a8680a3b945fdcd60c69b16257fe",
+        "firstSeen": "2026-09-11T06:34:45.554Z",
+        "lastChanged": "2026-09-11T06:34:45.554Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T06:34:45.554Z"
+    },
+    {
+      "id": "c5d1f40df0b9f3477be3f228",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0423",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-0423",
+        "slug": "deepseek-v4-flash-0423",
+        "slugAliases": [
+          "deepseek-v4-flash-0423"
+        ],
+        "displayName": "DeepSeek V4 Flash 0423",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 1.32,
+          "cache_read $/M": 0.014
+        },
+        "availability": [
+          "Ofox"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ofox.ai/docs",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "8e1bd50e92e57ef662bab0b6000461a189ce3407d5213be31f0d170e46f40ac5",
+        "firstSeen": "2026-09-11T06:34:45.554Z",
+        "lastChanged": "2026-09-11T06:34:45.554Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T06:34:45.554Z"
+    },
+    {
+      "id": "9ad8f214ac2f20ab1781e9ca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-ibm-granite-granite::wandb-ibm-granite-granite-4-2-8b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "wandb/ibm-granite/granite-4.2-8b",
+        "slug": "wandb/ibm-granite/granite-4.2-8b",
+        "slugAliases": [
+          "wandb/ibm-granite/granite-4.2-8b"
+        ],
+        "displayName": "wandb/ibm-granite/granite-4.2-8b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.2",
+        "capabilities": {
+          "mode": "chat",
+          "reasoning": true,
+          "parameters": "8B",
+          "version": "4.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.15
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "025a74b92502da46780eebc4da4fe0fa7da7632526be260bf8c0ed1305a46715",
+        "firstSeen": "2026-09-11T06:34:45.554Z",
+        "lastChanged": "2026-09-11T06:34:45.554Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T06:34:45.554Z"
+    },
+    {
+      "id": "f698edd7bce54f910e8408c3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-p",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-p",
+        "slug": "glm-5.3-p",
+        "slugAliases": [
+          "glm-5.3-p"
+        ],
+        "displayName": "zai-org/glm-5.3-p",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "version": "5.3"
+        },
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "ffe5806e2d3c8031d77125dee3880869e7ac0c5302c5cb59f1d8064073786187",
+        "firstSeen": "2026-09-11T06:34:45.554Z",
+        "lastChanged": "2026-09-11T06:34:45.554Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T06:34:45.554Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
