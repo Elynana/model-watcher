@@ -203481,6 +203481,981 @@
         "slug"
       ],
       "detectedAt": "2026-09-11T11:46:24.299Z"
+    },
+    {
+      "id": "1a84c3c7c3db72afbeb9f8e2",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "fugu::fugu-max",
+        "owner": "Sakana AI",
+        "family": "fugu",
+        "modelId": "fugu-max",
+        "slug": "fugu-max",
+        "slugAliases": [
+          "fugu-max"
+        ],
+        "displayName": "Fugu Max",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "max",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "max"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T11:46:24.299Z"
+          }
+        ],
+        "fingerprint": "b3172e05ae1e552d933e30c105e8dfa21b31c9fa4c2eff6da5a846d2714866ef",
+        "firstSeen": "2026-09-11T11:46:24.299Z",
+        "lastChanged": "2026-09-11T11:46:24.299Z"
+      },
+      "after": {
+        "key": "fugu::fugu-max",
+        "owner": "Sakana AI",
+        "family": "fugu",
+        "modelId": "fugu-max",
+        "slug": "fugu-max",
+        "slugAliases": [
+          "fugu-max"
+        ],
+        "displayName": "Fugu Max",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "max",
+        "capabilities": {
+          "tier": "max",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "f5723048d430c50af13a17cb5abb3f2a390324b6fd3f88eec88f6585427ccafd",
+        "firstSeen": "2026-09-11T11:46:24.299Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "638417d9dce9b9e1578d38ee",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "fugu::fugu-ultra-v2",
+        "owner": "Sakana AI",
+        "family": "fugu",
+        "modelId": "fugu-ultra-v2",
+        "slug": "fugu-ultra-v2",
+        "slugAliases": [
+          "fugu-ultra-v2"
+        ],
+        "displayName": "Fugu Ultra v2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "ultra",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-08-28",
+          "accepts": "image, text",
+          "tier": "ultra",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 30,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 10,
+              "output": 45,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 10,
+            "output": 45,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T11:46:24.299Z"
+          }
+        ],
+        "fingerprint": "dc7ed94600fd3a0283b5dba6b9db5d65ee40b77862391369a7d3923f2d5bc139",
+        "firstSeen": "2026-09-11T11:46:24.299Z",
+        "lastChanged": "2026-09-11T11:46:24.299Z"
+      },
+      "after": {
+        "key": "fugu::fugu-ultra-v2",
+        "owner": "Sakana AI",
+        "family": "fugu",
+        "modelId": "fugu-ultra-v2",
+        "slug": "fugu-ultra-v2",
+        "slugAliases": [
+          "fugu-ultra-v2"
+        ],
+        "displayName": "Fugu Ultra v2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "ultra",
+        "capabilities": {
+          "tier": "ultra",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-08-28",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 30,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 10,
+              "output": 45,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 10,
+            "output": 45,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "a8e54880486a5cc9c972376bf4f7ea1f0c34c3b27bf806dedeeb2968ff0b7850",
+        "firstSeen": "2026-09-11T11:46:24.299Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "05dfc07b90ce1f2d4aa1f6a1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-terra-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-terra-latest",
+        "slug": "gpt-terra-latest",
+        "slugAliases": [
+          "gpt-terra-latest"
+        ],
+        "displayName": "OpenAI GPT Terra Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 12,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.2,
+          "input_cache_write $/M": 2.5,
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 18,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 18,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-terra-latest",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "a47584f26e4fd387a2d507c3bacbdeaeacbeff1df5a27b77ec40c50bc0594b41",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "f26be57817530a975bc3d3ea",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-sol-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-sol-latest",
+        "slug": "gpt-sol-latest",
+        "slugAliases": [
+          "gpt-sol-latest"
+        ],
+        "displayName": "OpenAI GPT Sol Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 10,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.2,
+          "input_cache_write $/M": 2.5,
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-sol-latest",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "1dfde75930eff093a3fcf26f83d4042257afddbbd4a15d69fbf1a232366c682a",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "2ae8937b583d844a4d7208c3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-luna-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-luna-latest",
+        "slug": "gpt-luna-latest",
+        "slugAliases": [
+          "gpt-luna-latest"
+        ],
+        "displayName": "OpenAI GPT Luna Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 0.2,
+          "completion $/M": 1.2,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.02,
+          "input_cache_write $/M": 0.25,
+          "input $/M": 0.2,
+          "output $/M": 1.2,
+          "cache_read $/M": 0.02,
+          "cache_write $/M": 0.25,
+          "tiers $/M": [
+            {
+              "input": 0.4,
+              "output": 1.8,
+              "cache_read": 0.04,
+              "cache_write": 0.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.4,
+            "output": 1.8,
+            "cache_read": 0.04,
+            "cache_write": 0.5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-luna-latest",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "92686ca79f19b49e1ddca0169218c7a1e74725bfb011a469a50964b21b3022e2",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "f1ceea810bde57f259b560f9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-astra-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-astra-latest",
+        "slug": "gpt-astra-latest",
+        "slugAliases": [
+          "gpt-astra-latest"
+        ],
+        "displayName": "OpenAI GPT Astra Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 10,
+          "completion $/M": 50,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 1,
+          "input_cache_write $/M": 12.5,
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-astra-latest",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "7cbfbc538479e9f3fd35951fd96f4dd4564ac1955851c55f8d41c05d6d2de248",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "77b49fda6c3d5421221f814d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timm-iformer-t-in1k::timm-iformer-t-in1k",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "timm-iformer-t-in1k",
+        "modelId": "timm/iformer_t.in1k",
+        "slug": "timm/iformer_t.in1k",
+        "slugAliases": [
+          "timm/iformer_t.in1k"
+        ],
+        "displayName": "iformer_t.in1k",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/iformer_t.in1k",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "bc8a18adb9d12cd3298a214c36d17c00594848bbc0d0d7ef82d60d82db4a8e87",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "e2be012cace646e770f9feca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timm-iformer-s-in1k::timm-iformer-s-in1k",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "timm-iformer-s-in1k",
+        "modelId": "timm/iformer_s.in1k",
+        "slug": "timm/iformer_s.in1k",
+        "slugAliases": [
+          "timm/iformer_s.in1k"
+        ],
+        "displayName": "iformer_s.in1k",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/iformer_s.in1k",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "28dcfcf735798f9fe1c54a34856e0aed75bf7884f0d7e5d6fbb13abf717bf131",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "de8b31bf7019e183938bd6a1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timm-iformer-m-distilled-in1k::timm-iformer-m-distilled-in1k",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "timm-iformer-m-distilled-in1k",
+        "modelId": "timm/iformer_m_distilled.in1k",
+        "slug": "timm/iformer_m_distilled.in1k",
+        "slugAliases": [
+          "timm/iformer_m_distilled.in1k"
+        ],
+        "displayName": "iformer_m_distilled.in1k",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/iformer_m_distilled.in1k",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "46b494717e0f2a5c05fdef870f51a950a98f2ff1aa7ad966d6834c48bea46830",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "03f4b04920b4e1c9bd4395a6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timm-iformer-m-in1k::timm-iformer-m-in1k",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "timm-iformer-m-in1k",
+        "modelId": "timm/iformer_m.in1k",
+        "slug": "timm/iformer_m.in1k",
+        "slugAliases": [
+          "timm/iformer_m.in1k"
+        ],
+        "displayName": "iformer_m.in1k",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/iformer_m.in1k",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "8711f23c370f32630af4c53c482f5d02fc4fe509c17a52ed4465be54142acd0f",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "235a4d2a5ce50b34df6f9363",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timm-iformer-l-distilled-in1k::timm-iformer-l-distilled-in1k",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "timm-iformer-l-distilled-in1k",
+        "modelId": "timm/iformer_l_distilled.in1k",
+        "slug": "timm/iformer_l_distilled.in1k",
+        "slugAliases": [
+          "timm/iformer_l_distilled.in1k"
+        ],
+        "displayName": "iformer_l_distilled.in1k",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/iformer_l_distilled.in1k",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "a285d232727442b559ff66466dfeda673fad81a2c7889f61bef874fefb935b33",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "45e78c7252cfb813feff0c4d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timm-iformer-l-in1k::timm-iformer-l-in1k",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "timm-iformer-l-in1k",
+        "modelId": "timm/iformer_l.in1k",
+        "slug": "timm/iformer_l.in1k",
+        "slugAliases": [
+          "timm/iformer_l.in1k"
+        ],
+        "displayName": "iformer_l.in1k",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/iformer_l.in1k",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "effb8e53b59efd8a9e8d08ea7372b6446828e64a3255b67fecf11f4991ff8781",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "f915b570acc15456c33a5360",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timm-iformer-h-in1k::timm-iformer-h-in1k",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "timm-iformer-h-in1k",
+        "modelId": "timm/iformer_h.in1k",
+        "slug": "timm/iformer_h.in1k",
+        "slugAliases": [
+          "timm/iformer_h.in1k"
+        ],
+        "displayName": "iformer_h.in1k",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/iformer_h.in1k",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "8192d6641220019332a198cbbdbf118f8ab77f0ccc7da5a31832cc2c69deb55b",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T15:15:28.519Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
