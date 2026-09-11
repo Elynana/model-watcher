@@ -205171,6 +205171,69 @@
         "model"
       ],
       "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "a876051156d8177fbae7630b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm5.3",
+        "slug": "glm5.3",
+        "slugAliases": [
+          "glm5.3"
+        ],
+        "displayName": "GLM-5.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "NaN"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://nan.builders/docs/models",
+            "observedAt": "2026-09-11T21:16:27.928Z"
+          }
+        ],
+        "fingerprint": "09ab750c947ab9558d1fa99e3d3964dbe428c8094042bc6d40b5b1d55af86680",
+        "firstSeen": "2026-09-11T21:16:27.928Z",
+        "lastChanged": "2026-09-11T21:16:27.928Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T21:16:27.928Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
