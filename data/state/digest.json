@@ -204456,6 +204456,721 @@
         "model"
       ],
       "detectedAt": "2026-09-11T15:15:28.519Z"
+    },
+    {
+      "id": "cb7a9ad4d08eab0578db64c2",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-3-0-flash-vl",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-3.0-flash-VL",
+        "slug": "Ling-3.0-flash-VL",
+        "slugAliases": [
+          "Ling-3.0-flash-VL",
+          "ling-3.0-flash-vl"
+        ],
+        "displayName": "Ling 3.0 Flash VL",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.18,
+          "cache_read $/M": 0.012
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-11T15:15:28.519Z"
+          }
+        ],
+        "fingerprint": "5bfdc583831e3037e939d9dc985e13eeb9a905e78acfb4f3d308ea60585b83cb",
+        "firstSeen": "2026-09-03T09:46:31.082Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "after": {
+        "key": "ling::ling-3-0-flash-vl",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-3.0-flash-VL",
+        "slug": "Ling-3.0-flash-VL",
+        "slugAliases": [
+          "Ling-3.0-flash-VL",
+          "ling-3.0-flash-vl"
+        ],
+        "displayName": "Ling 3.0 Flash VL",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.18,
+          "cache_read $/M": 0.012
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "019d04b17ed7bc39bed2e35a427b030b9fa773852c7a5a39a5d1a770d0a1c523",
+        "firstSeen": "2026-09-03T09:46:31.082Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "a04a3b123fa6b1362bfea940",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-3-12b-it-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "google.gemma-3-12b-it@us",
+        "slug": "gemma-3-12b-it@us",
+        "slugAliases": [
+          "google.gemma-3-12b-it@us"
+        ],
+        "displayName": "Gemma 3 12B IT (Amazon Bedrock, US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-08",
+          "accepts": "image, text",
+          "parameters": "12B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.09,
+          "output $/M": 0.29
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "08f3710426a942d7bdc70e3052b7fb22b4eb3d1fcf2022b794da26941ae4dbfe",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "9d257107ceeaae58b4f3b11a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-3-27b-it-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "google.gemma-3-27b-it@us",
+        "slug": "gemma-3-27b-it@us",
+        "slugAliases": [
+          "google.gemma-3-27b-it@us"
+        ],
+        "displayName": "Gemma 3 27B IT (Amazon Bedrock, US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-08",
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.23,
+          "output $/M": 0.38
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "7478da8b8fa2f6f0dc299cb283fa13e0b79e0add534fcdad541140d3ac6b6fa6",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "c853853a6977d87f92081dfd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-3-4b-it-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "google.gemma-3-4b-it@us",
+        "slug": "gemma-3-4b-it@us",
+        "slugAliases": [
+          "google.gemma-3-4b-it@us"
+        ],
+        "displayName": "Gemma 3 4B IT (Amazon Bedrock, US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-08",
+          "accepts": "image, text",
+          "parameters": "4B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0.08
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "a71fa7d7f60be3b808b078a7d0e9748acae36142f227f27bae0044cb3745ddd8",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "e53b8bf71e649695cdea571d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-vit-412m-enc-deepseek-v4-flash-vision-exp",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek_vit_412m_enc.deepseek_v4_flash_vision_exp",
+        "slug": "deepseek_vit_412m_enc.deepseek_v4_flash_vision_exp",
+        "slugAliases": [
+          "deepseek_vit_412m_enc.deepseek_v4_flash_vision_exp"
+        ],
+        "displayName": "deepseek_vit_412m_enc.deepseek_v4_flash_vision_exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "412M",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/deepseek_vit_412m_enc.deepseek_v4_flash_vision_exp",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "9c95812bc0ff1d73e75922aafc94b8b53fae0218db5929a311e1079b23143646",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "48e6f731eeea20e49e04c2fe",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-vit-412m-enc-deepseek-v4-1-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek_vit_412m_enc.deepseek_v4_1_flash",
+        "slug": "deepseek_vit_412m_enc.deepseek_v4_1_flash",
+        "slugAliases": [
+          "deepseek_vit_412m_enc.deepseek_v4_1_flash"
+        ],
+        "displayName": "deepseek_vit_412m_enc.deepseek_v4_1_flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "412M",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/deepseek_vit_412m_enc.deepseek_v4_1_flash",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "79bad0845b28abc6e97a6f9ba2b0fc54630d4813dd51f37014465f3a3698ad23",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "dd253f371e09e3c288b76310",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-vit-412m-align-deepseek-v4-flash-vision-exp",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek_vit_412m_align.deepseek_v4_flash_vision_exp",
+        "slug": "deepseek_vit_412m_align.deepseek_v4_flash_vision_exp",
+        "slugAliases": [
+          "deepseek_vit_412m_align.deepseek_v4_flash_vision_exp"
+        ],
+        "displayName": "deepseek_vit_412m_align.deepseek_v4_flash_vision_exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "412M",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/deepseek_vit_412m_align.deepseek_v4_flash_vision_exp",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "532852fc4a1cf51b8b900d8016432594c1080f8a7c75214b6a3fe8a02ae462e9",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "9be4b590c42d6e836c28827f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-vit-412m-align-deepseek-v4-1-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek_vit_412m_align.deepseek_v4_1_flash",
+        "slug": "deepseek_vit_412m_align.deepseek_v4_1_flash",
+        "slugAliases": [
+          "deepseek_vit_412m_align.deepseek_v4_1_flash"
+        ],
+        "displayName": "deepseek_vit_412m_align.deepseek_v4_1_flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "412M",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/deepseek_vit_412m_align.deepseek_v4_1_flash",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "f6a718ad36011f706f5278173fa2a0f353405827babcbd40a66f179337612eca",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "71c439a880b49585961b4618",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-vit-412m-deepseek-v4-flash-vision-exp",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek_vit_412m.deepseek_v4_flash_vision_exp",
+        "slug": "deepseek_vit_412m.deepseek_v4_flash_vision_exp",
+        "slugAliases": [
+          "deepseek_vit_412m.deepseek_v4_flash_vision_exp"
+        ],
+        "displayName": "deepseek_vit_412m.deepseek_v4_flash_vision_exp",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "412M",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/deepseek_vit_412m.deepseek_v4_flash_vision_exp",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "927d75ab401594353d58c9123b71dfd14ee44557c4768a5677e0292facbcd8d8",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
+    },
+    {
+      "id": "0757f2d846b03c8229acef27",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-vit-412m-deepseek-v4-1-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek_vit_412m.deepseek_v4_1_flash",
+        "slug": "deepseek_vit_412m.deepseek_v4_1_flash",
+        "slugAliases": [
+          "deepseek_vit_412m.deepseek_v4_1_flash"
+        ],
+        "displayName": "deepseek_vit_412m.deepseek_v4_1_flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "412M",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:timm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/timm/deepseek_vit_412m.deepseek_v4_1_flash",
+            "observedAt": "2026-09-11T18:37:21.494Z"
+          }
+        ],
+        "fingerprint": "2c2afe2c63e70639c89c1bcb2bfa8d62617802ae202c311c670d3dfe4e932179",
+        "firstSeen": "2026-09-11T18:37:21.494Z",
+        "lastChanged": "2026-09-11T18:37:21.494Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-11T18:37:21.494Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
