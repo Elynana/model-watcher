@@ -206206,6 +206206,873 @@
         "model"
       ],
       "detectedAt": "2026-09-12T05:52:33.391Z"
+    },
+    {
+      "id": "5e1c11952c334cae85aea82d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-haiku-latest",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-latest",
+        "slug": "claude-haiku-latest",
+        "slugAliases": [
+          "claude-haiku-latest"
+        ],
+        "displayName": "Anthropic Claude Haiku Latest",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "haiku",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "haiku",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "prompt $/M": 1,
+          "completion $/M": 5,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.1,
+          "input_cache_write $/M": 1.25,
+          "input_cache_write_1h $/M": 2,
+          "input $/M": 1,
+          "output $/M": 5,
+          "cache_read $/M": 0.1,
+          "cache_write $/M": 1.25
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~anthropic/claude-haiku-latest",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          }
+        ],
+        "fingerprint": "b88ea7f74395d4aadfa0bc594bd1a31ee73c331a9a885edadeac1f6a42d30c59",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "claude::claude-haiku-latest",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-latest",
+        "slug": "claude-haiku-latest",
+        "slugAliases": [
+          "claude-haiku-latest"
+        ],
+        "displayName": "Claude Haiku Latest",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "haiku",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "haiku",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "prompt $/M": 1,
+          "completion $/M": 5,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.1,
+          "input_cache_write $/M": 1.25,
+          "input_cache_write_1h $/M": 2,
+          "input $/M": 1,
+          "output $/M": 5,
+          "cache_read $/M": 0.1,
+          "cache_write $/M": 1.25
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-27",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~anthropic/claude-haiku-latest",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          }
+        ],
+        "fingerprint": "41d2ad0bedef2646229fedc21c173dce8687a1e768498c23ed353d4518a2c6c5",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-12T09:56:29.489Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-12T09:56:29.489Z"
+    },
+    {
+      "id": "f62eecd1ec3264f256df88d2",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-astra-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-astra-latest",
+        "slug": "gpt-astra-latest",
+        "slugAliases": [
+          "gpt-astra-latest"
+        ],
+        "displayName": "OpenAI GPT Astra Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 10,
+          "completion $/M": 50,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 1,
+          "input_cache_write $/M": 12.5,
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-astra-latest",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          }
+        ],
+        "fingerprint": "7cbfbc538479e9f3fd35951fd96f4dd4564ac1955851c55f8d41c05d6d2de248",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "after": {
+        "key": "gpt::gpt-astra-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-astra-latest",
+        "slug": "gpt-astra-latest",
+        "slugAliases": [
+          "gpt-astra-latest"
+        ],
+        "displayName": "GPT Astra Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 10,
+          "completion $/M": 50,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 1,
+          "input_cache_write $/M": 12.5,
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-astra-latest",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          }
+        ],
+        "fingerprint": "95cf89635fef4a85624b764bcbe6265b74d590b547624ca0a0ab174e96c8d52f",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-12T09:56:29.489Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-12T09:56:29.489Z"
+    },
+    {
+      "id": "5fbcb3df46bf04cfd50bc549",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-luna-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-luna-latest",
+        "slug": "gpt-luna-latest",
+        "slugAliases": [
+          "gpt-luna-latest"
+        ],
+        "displayName": "OpenAI GPT Luna Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 0.2,
+          "completion $/M": 1.2,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.02,
+          "input_cache_write $/M": 0.25,
+          "input $/M": 0.2,
+          "output $/M": 1.2,
+          "cache_read $/M": 0.02,
+          "cache_write $/M": 0.25,
+          "tiers $/M": [
+            {
+              "input": 0.4,
+              "output": 1.8,
+              "cache_read": 0.04,
+              "cache_write": 0.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.4,
+            "output": 1.8,
+            "cache_read": 0.04,
+            "cache_write": 0.5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-luna-latest",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          }
+        ],
+        "fingerprint": "92686ca79f19b49e1ddca0169218c7a1e74725bfb011a469a50964b21b3022e2",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "after": {
+        "key": "gpt::gpt-luna-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-luna-latest",
+        "slug": "gpt-luna-latest",
+        "slugAliases": [
+          "gpt-luna-latest"
+        ],
+        "displayName": "GPT Luna Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 0.2,
+          "completion $/M": 1.2,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.02,
+          "input_cache_write $/M": 0.25,
+          "input $/M": 0.2,
+          "output $/M": 1.2,
+          "cache_read $/M": 0.02,
+          "cache_write $/M": 0.25,
+          "tiers $/M": [
+            {
+              "input": 0.4,
+              "output": 1.8,
+              "cache_read": 0.04,
+              "cache_write": 0.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.4,
+            "output": 1.8,
+            "cache_read": 0.04,
+            "cache_write": 0.5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-luna-latest",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          }
+        ],
+        "fingerprint": "601fcd44fa501761f1683e637a6129be2891350cece0201c9b728db7999d4e74",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-12T09:56:29.489Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-12T09:56:29.489Z"
+    },
+    {
+      "id": "67a5b8e95346fa7f770d56d8",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-sol-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-sol-latest",
+        "slug": "gpt-sol-latest",
+        "slugAliases": [
+          "gpt-sol-latest"
+        ],
+        "displayName": "OpenAI GPT Sol Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 10,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.2,
+          "input_cache_write $/M": 2.5,
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-sol-latest",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          }
+        ],
+        "fingerprint": "1dfde75930eff093a3fcf26f83d4042257afddbbd4a15d69fbf1a232366c682a",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "after": {
+        "key": "gpt::gpt-sol-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-sol-latest",
+        "slug": "gpt-sol-latest",
+        "slugAliases": [
+          "gpt-sol-latest"
+        ],
+        "displayName": "GPT Sol Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 10,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.2,
+          "input_cache_write $/M": 2.5,
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-sol-latest",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          }
+        ],
+        "fingerprint": "44541fd4df60bb20764d21f9aebaf0c0e084c7da19b04d262d1fce8d3134be46",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-12T09:56:29.489Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-12T09:56:29.489Z"
+    },
+    {
+      "id": "a7845a5e03d1875f188dc542",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-terra-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-terra-latest",
+        "slug": "gpt-terra-latest",
+        "slugAliases": [
+          "gpt-terra-latest"
+        ],
+        "displayName": "OpenAI GPT Terra Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 12,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.2,
+          "input_cache_write $/M": 2.5,
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 18,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 18,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-terra-latest",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          }
+        ],
+        "fingerprint": "a47584f26e4fd387a2d507c3bacbdeaeacbeff1df5a27b77ec40c50bc0594b41",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-11T15:15:28.519Z"
+      },
+      "after": {
+        "key": "gpt::gpt-terra-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-terra-latest",
+        "slug": "gpt-terra-latest",
+        "slugAliases": [
+          "gpt-terra-latest"
+        ],
+        "displayName": "GPT Terra Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "accepts": "image, text",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 12,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.2,
+          "input_cache_write $/M": 2.5,
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 18,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 18,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~openai/gpt-terra-latest",
+            "observedAt": "2026-09-12T09:56:29.489Z"
+          }
+        ],
+        "fingerprint": "b4bd72f67a4146955b4258e895a684ef46e84bce7ff53fb2cf9085487f4ce88a",
+        "firstSeen": "2026-09-11T15:15:28.519Z",
+        "lastChanged": "2026-09-12T09:56:29.489Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-12T09:56:29.489Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
