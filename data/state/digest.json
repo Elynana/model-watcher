@@ -206010,6 +206010,202 @@
         "announcement"
       ],
       "detectedAt": "2026-09-11T23:19:22.933Z"
+    },
+    {
+      "id": "e25ca91771c9df332db84ca2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::infomaniak-mistralai-ministral-3-14b-instruct-2512",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "infomaniak/mistralai/Ministral-3-14B-Instruct-2512",
+        "slug": "infomaniak/mistralai/Ministral-3-14B-Instruct-2512",
+        "slugAliases": [
+          "infomaniak/mistralai/Ministral-3-14B-Instruct-2512"
+        ],
+        "displayName": "Ministral 3 14B (Infomaniak)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "14B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 100000,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.34776,
+          "output $/M": 0.46368
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          }
+        ],
+        "fingerprint": "6ce73c6f4a1cc32e4b1b26b09b39306b7ae4155416ac15908fecf117d3fab229",
+        "firstSeen": "2026-09-12T05:52:33.391Z",
+        "lastChanged": "2026-09-12T05:52:33.391Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-12T05:52:33.391Z"
+    },
+    {
+      "id": "c6745ef9d4c2a71d5c20b8c9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-3b-2507-us",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral.voxtral-mini-3b-2507@us",
+        "slug": "voxtral-mini-3b-2507@us",
+        "slugAliases": [
+          "mistral.voxtral-mini-3b-2507@us"
+        ],
+        "displayName": "Voxtral Mini 3B 2507 (Amazon Bedrock, US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2507",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "audio, text",
+          "parameters": "3B",
+          "tier": "mini",
+          "version": "2507"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0.04
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-07-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          }
+        ],
+        "fingerprint": "c49978e02610b1421f8f8af83aed9ca89e3ed09dde86866fc71f7224f37742a0",
+        "firstSeen": "2026-09-12T05:52:33.391Z",
+        "lastChanged": "2026-09-12T05:52:33.391Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-12T05:52:33.391Z"
+    },
+    {
+      "id": "ee71435896c7880753edd851",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-small-24b-2507-us",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral.voxtral-small-24b-2507@us",
+        "slug": "voxtral-small-24b-2507@us",
+        "slugAliases": [
+          "mistral.voxtral-small-24b-2507@us"
+        ],
+        "displayName": "Voxtral Small 24B 2507 (Amazon Bedrock, US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2507",
+        "tier": "small",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "audio, text",
+          "parameters": "24B",
+          "tier": "small",
+          "version": "2507"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-07-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-12T05:52:33.391Z"
+          }
+        ],
+        "fingerprint": "503a0de05d03bf769d43b47d4b30bb83f822cd673cb4d4118e93ca2becc1cf8b",
+        "firstSeen": "2026-09-12T05:52:33.391Z",
+        "lastChanged": "2026-09-12T05:52:33.391Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-12T05:52:33.391Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
