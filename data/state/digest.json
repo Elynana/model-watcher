@@ -208243,6 +208243,305 @@
         "model"
       ],
       "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "8faac9c93d72a1d8820735ce",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v4-1-flash",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4.1-Flash",
+        "slug": "DeepSeek-V4.1-Flash",
+        "slugAliases": [
+          "DeepSeek-V4.1-Flash",
+          "deepseek-v4.1-flash"
+        ],
+        "displayName": "DeepSeek V4.1 Flash (Deep Infra)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.006
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "documented",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-09-11T11:46:24.299Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/deepseek-v4.1-flash",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "d928da395553d95015cffaa4a12ecc937eaccfbf77f7b5143e9b71b8e4f83230",
+        "firstSeen": "2026-09-08T13:35:09.742Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4.1-Flash",
+        "slug": "DeepSeek-V4.1-Flash",
+        "slugAliases": [
+          "DeepSeek-V4.1-Flash",
+          "deepseek-ai/DeepSeek-V4.1-Flash",
+          "deepseek-v4.1-flash"
+        ],
+        "displayName": "DeepSeek V4.1 Flash (Together AI)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.006
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "documented",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:deepseek",
+            "sourceKind": "official-page",
+            "url": "https://api-docs.deepseek.com/quick_start/pricing",
+            "observedAt": "2026-09-11T11:46:24.299Z"
+          },
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+            "observedAt": "2026-09-13T10:14:01.871Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-13T10:14:01.871Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-13T10:14:01.871Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-13T10:14:01.871Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-13T10:14:01.871Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-13T10:14:01.871Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/deepseek-v4.1-flash",
+            "observedAt": "2026-09-13T10:14:01.871Z"
+          }
+        ],
+        "fingerprint": "c66b6ab436894de04569c87e90d541180ea5253c4100c6930716db1e60347770",
+        "firstSeen": "2026-09-08T13:35:09.742Z",
+        "lastChanged": "2026-09-13T10:14:01.871Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-13T10:14:01.871Z"
+    },
+    {
+      "id": "2664c6ef81ca25985c3a297c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "internlm::intern-s2",
+        "owner": "Shanghai AI Laboratory",
+        "vendorId": "shanghai-ai-lab",
+        "family": "InternLM / InternVL",
+        "familyId": "internlm",
+        "modelId": "Intern-S2",
+        "slug": "Intern-S2",
+        "slugAliases": [
+          "Intern-S2"
+        ],
+        "displayName": "Intern-S2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "s2",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "s2",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:shanghai-ai-lab:internlm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/internlm/Intern-S2",
+            "observedAt": "2026-09-13T10:14:01.871Z"
+          }
+        ],
+        "fingerprint": "db422e45eed210975f247d5ee140eb25682fc73dd25cb0464ee2b5c471497f28",
+        "firstSeen": "2026-09-13T10:14:01.871Z",
+        "lastChanged": "2026-09-13T10:14:01.871Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T10:14:01.871Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
