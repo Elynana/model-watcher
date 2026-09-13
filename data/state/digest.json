@@ -208542,6 +208542,60 @@
         "model"
       ],
       "detectedAt": "2026-09-13T10:14:01.871Z"
+    },
+    {
+      "id": "5d6dd2f8e4863fa316dbfbdd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "internlm::intern-s2-397b",
+        "owner": "Shanghai AI Laboratory",
+        "vendorId": "shanghai-ai-lab",
+        "family": "InternLM / InternVL",
+        "familyId": "internlm",
+        "modelId": "Intern-S2-397B",
+        "slug": "Intern-S2-397B",
+        "slugAliases": [
+          "Intern-S2-397B"
+        ],
+        "displayName": "Intern-S2-397B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "s2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "397B",
+          "tier": "s2",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:shanghai-ai-lab:internlm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/internlm/Intern-S2-397B",
+            "observedAt": "2026-09-13T14:27:10.739Z"
+          }
+        ],
+        "fingerprint": "0688c738b9d9589cb0d8c501ae83796231d56443feabf2db30abcffd8181fdbe",
+        "firstSeen": "2026-09-13T14:27:10.739Z",
+        "lastChanged": "2026-09-13T14:27:10.739Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T14:27:10.739Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
