@@ -207252,6 +207252,997 @@
         "availability"
       ],
       "detectedAt": "2026-09-12T20:55:35.312Z"
+    },
+    {
+      "id": "917ccb10634ed7c1ff91ce77",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "computer-use::computer-use-preview",
+        "family": "computer-use",
+        "modelId": "computer-use-preview",
+        "slug": "computer-use-preview",
+        "slugAliases": [
+          "computer-use-preview"
+        ],
+        "displayName": "computer-use-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 1024
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 12
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-11T06:34:45.554Z"
+          }
+        ],
+        "fingerprint": "cd5491f064e1a21cedfd4f9c1866b42a090acf71fb420a1eda2b4563736e0720",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "computer-use::computer-use-preview",
+        "family": "computer-use",
+        "modelId": "computer-use-preview",
+        "slug": "computer-use-preview",
+        "slugAliases": [
+          "computer-use-preview"
+        ],
+        "displayName": "computer-use-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 1024
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 12
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models/computer-use-preview",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "ef54e62a8949e65536dfc3c9daefb6c2b072b6381ed2c90929a6bc01dd1c3067",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "e0a56b9ad3f8181b9cfbec84",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-eu",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash@eu",
+        "slug": "deepseek-v4.1-flash@eu",
+        "slugAliases": [
+          "deepseek-v4.1-flash@eu"
+        ],
+        "displayName": "DeepSeek V4.1 Flash (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "f56c7231a27da163460eb1edfc9a265154648b8b94de9cfee8c844fe95b25abe",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "e8ee562901bfc19bca1d8ea3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "friendliai-google-gemma::friendliai-google-gemma-4-31b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "friendliai/google/gemma-4-31B-it",
+        "slug": "friendliai/google/gemma-4-31B-it",
+        "slugAliases": [
+          "friendliai/google/gemma-4-31B-it"
+        ],
+        "displayName": "friendliai/google/gemma-4-31B-it",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.4
+        },
+        "availability": [
+          "friendliai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.friendli.ai/serverless/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "584537e5c1e34ae3bd5f2737112c76f2c8e134b7a8524ef2fbddb98fa25c2f80",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "4ff780f26174b4fae074af27",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "friendliai-zai-org-glm::friendliai-zai-org-glm-5-2",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "friendliai/zai-org/GLM-5.2",
+        "slug": "friendliai/zai-org/GLM-5.2",
+        "slugAliases": [
+          "friendliai/zai-org/GLM-5.2"
+        ],
+        "displayName": "friendliai/zai-org/GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4
+        },
+        "availability": [
+          "friendliai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.friendli.ai/serverless/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "f2617eeea9f4506ea782ec2c12266d4a87f048d08021f89949fb49d11fb52f6e",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "4550cf36dfb86396eadb4803",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "friendliai-lgai-exaone-k-exaone::friendliai-lgai-exaone-k-exaone-2-0-750b-a37b",
+        "owner": "LG AI Research",
+        "vendorId": "lg",
+        "family": "EXAONE",
+        "familyId": "exaone",
+        "modelId": "friendliai/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+        "slug": "friendliai/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+        "slugAliases": [
+          "friendliai/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B"
+        ],
+        "displayName": "friendliai/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "750B",
+          "activeParameters": "37B active",
+          "version": "2.0"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4
+        },
+        "availability": [
+          "friendliai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.friendli.ai/serverless/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "e5d7b3ee83511178f2479f619d44da6ae876aa8668c4e449e8e183b694b0a970",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "91abb747cbe91cab31a27338",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "friendliai-minimaxai-minimax::friendliai-minimaxai-minimax-m2-5",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "friendliai/MiniMaxAI/MiniMax-M2.5",
+        "slug": "friendliai/MiniMaxAI/MiniMax-M2.5",
+        "slugAliases": [
+          "friendliai/MiniMaxAI/MiniMax-M2.5"
+        ],
+        "displayName": "friendliai/MiniMaxAI/MiniMax-M2.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "m2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 196608,
+          "maxOutputTokens": 196608
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 1.2
+        },
+        "availability": [
+          "friendliai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.friendli.ai/serverless/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "faf46bf1cfe4e8df11ecee9e2c0d7a81764e5c4fbafc37ec0c98aba3700e7a7b",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "f9690ff7b48d9713284e3c87",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "friendliai-zai-org-glm::friendliai-zai-org-glm-5-1",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "friendliai/zai-org/GLM-5.1",
+        "slug": "friendliai/zai-org/GLM-5.1",
+        "slugAliases": [
+          "friendliai/zai-org/GLM-5.1"
+        ],
+        "displayName": "friendliai/zai-org/GLM-5.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 202752,
+          "maxOutputTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4
+        },
+        "availability": [
+          "friendliai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.friendli.ai/serverless/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "b8ac0f305cdc13a876ec5916e4ea79783c77504adb64101c3c43d638f5299dd5",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "55db35f665ac65cbde71c348",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-live-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-live-1",
+        "slug": "gpt-live-1",
+        "slugAliases": [
+          "gpt-live-1"
+        ],
+        "displayName": "gpt-live-1",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "mode": "realtime",
+          "toolCalling": true,
+          "accepts": "audio, text",
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/models/gpt-live-1",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "15752107efb463186a40af439292d7f759bb136e1c98596e026047f4ff3b64ec",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "05625b267f7201fa1d0889df",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-models-deepseek::fireworks-ai-accounts-fireworks-models-deepseek-v4p1-flash",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash",
+        "slug": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.22,
+          "output $/M": 0.66
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://fireworks.ai/models/deepseek-ai/deepseek-v4p1-flash",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "1dfb140f1161f4c62d22df6fa846828ad5a7ee074bc50a9aa564c6d236ecb027",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "0eb5ae7f88dc6fca94857e2d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-moonshotai-kimi::together-ai-moonshotai-kimi-k2-6",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "together_ai/moonshotai/Kimi-K2.6",
+        "slug": "together_ai/moonshotai/Kimi-K2.6",
+        "slugAliases": [
+          "together_ai/moonshotai/Kimi-K2.6"
+        ],
+        "displayName": "together_ai/moonshotai/Kimi-K2.6",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.2,
+          "output $/M": 4.5
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.xyz/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "da934c55110cb63d724212104a432604223a20e8cc1741068ea6aab7cd64ae25",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "0b46eb5a838079e0e6acbed0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-minimaxai-minimax::together-ai-minimaxai-minimax-m2-7",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "together_ai/MiniMaxAI/MiniMax-M2.7",
+        "slug": "together_ai/MiniMaxAI/MiniMax-M2.7",
+        "slugAliases": [
+          "together_ai/MiniMaxAI/MiniMax-M2.7"
+        ],
+        "displayName": "together_ai/MiniMaxAI/MiniMax-M2.7",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "m2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 196608
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 1.2
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.xyz/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "13994d6d43d32a46d9761c358f0ebe54f9d0890329e98858ac3c905c150fcf9e",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "cac3965e9b559de83eb84bbb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-zai-org-glm::together-ai-zai-org-glm-5",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "together_ai/zai-org/GLM-5",
+        "slug": "together_ai/zai-org/GLM-5",
+        "slugAliases": [
+          "together_ai/zai-org/GLM-5"
+        ],
+        "displayName": "together_ai/zai-org/GLM-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 3.2
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.xyz/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "7c4bb1157089556f8c769b7fb86949d8279cb751f5d9ed9b5e4f27419b88dc5a",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "904153a1ee3000cf957df5a9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-zai-org-glm::together-ai-zai-org-glm-5-1",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "together_ai/zai-org/GLM-5.1",
+        "slug": "together_ai/zai-org/GLM-5.1",
+        "slugAliases": [
+          "together_ai/zai-org/GLM-5.1"
+        ],
+        "displayName": "together_ai/zai-org/GLM-5.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.1",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.1"
+        },
+        "limits": {
+          "contextTokens": 202752
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.xyz/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "e224d5e84bdc2ed63160f4f67144759fbf037b897b2595bcdfd39d86d0608aac",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "f4f66a7f9b1a7027bd4909f0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-mistralai-ministral::together-ai-mistralai-ministral-3-14b-instruct-2512",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "together_ai/mistralai/Ministral-3-14B-Instruct-2512",
+        "slug": "together_ai/mistralai/Ministral-3-14B-Instruct-2512",
+        "slugAliases": [
+          "together_ai/mistralai/Ministral-3-14B-Instruct-2512"
+        ],
+        "displayName": "together_ai/mistralai/Ministral-3-14B-Instruct-2512",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "14B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.xyz/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "3899d7dcdc2162b9e8dcf5bc25c6c888a599b74e2a820ccd58e52b6608a97def",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "617807baaade5931c1f930d6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-nvidia-nvidia-nemotron::together-ai-nvidia-nvidia-nemotron-nano-9b-v2",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "together_ai/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "slug": "together_ai/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "slugAliases": [
+          "together_ai/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+        ],
+        "displayName": "together_ai/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "9B",
+          "tier": "nano",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.xyz/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "d8c7ac869a7a22fac3be8da14001502177684430acfc013f37fc448a5dfe057a",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
+    },
+    {
+      "id": "6da86a5629a0c7b956428683",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-mistralai-mistral::together-ai-mistralai-mistral-7b-instruct-v0-3",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "together_ai/mistralai/Mistral-7B-Instruct-v0.3",
+        "slug": "together_ai/mistralai/Mistral-7B-Instruct-v0.3",
+        "slugAliases": [
+          "together_ai/mistralai/Mistral-7B-Instruct-v0.3"
+        ],
+        "displayName": "together_ai/mistralai/Mistral-7B-Instruct-v0.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "0.3",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "7B",
+          "version": "0.3"
+        },
+        "limits": {
+          "contextTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.xyz/v1/models",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          }
+        ],
+        "fingerprint": "9794226b6cb2b44ea09a8c829ccc85b4032f48656b6edd1dd484c6b92851d786",
+        "firstSeen": "2026-09-13T05:09:48.786Z",
+        "lastChanged": "2026-09-13T05:09:48.786Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-13T05:09:48.786Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
