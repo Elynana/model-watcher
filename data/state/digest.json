@@ -211231,6 +211231,1634 @@
         "announcement"
       ],
       "detectedAt": "2026-09-13T23:36:56.197Z"
+    },
+    {
+      "id": "c57c3ea0ea8790fa66859610",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016,
+          "cache_write $/M": 0.2
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-09-14T07:02:58.069Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-14T07:02:58.069Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/qwen/qwen3.8-flash",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-14T07:02:58.069Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-14T07:02:58.069Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-14T07:02:58.069Z"
+          }
+        ],
+        "fingerprint": "0b95a9217036bb423798fbd56ae96d35caed9749440ec546f6099520f61646ce",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-09-06T01:03:49.820Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-flash",
+        "slug": "qwen3.8-flash",
+        "slugAliases": [
+          "Qwen3.8-Flash",
+          "qwen3.8-flash"
+        ],
+        "displayName": "Qwen3.8 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016,
+          "cache_write $/M": 0.2
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/qwen/qwen3.8-flash",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "e8f21cf4644bef77ad7ef7f78cd92520963c46394cd4e72f101367d4685f464f",
+        "firstSeen": "2026-08-26T18:32:48.123Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "a5cb9977896e46c72173a188",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "simple-attention-sparsification::simple-attention-sparsification",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "simple-attention-sparsification",
+        "modelId": "Simple-Attention-Sparsification",
+        "slug": "Simple-Attention-Sparsification",
+        "slugAliases": [
+          "Simple-Attention-Sparsification"
+        ],
+        "displayName": "Simple-Attention-Sparsification",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Simple-Attention-Sparsification",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "22039016214b130cce94f6a9e1598192d2f85eb4c37789756b13497ea3784b7e",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "5f9bdbd4be9b52e812b4430f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-27B-singprobe",
+        "slug": "Qwen3.8-27B-singprobe",
+        "slugAliases": [
+          "Qwen3.8-27B-singprobe"
+        ],
+        "displayName": "Qwen3.8-27B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.8-27B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "95f99fde091e1dc257bfab66f5f16ae6c476828518e5cb7157c8a381bbc20583",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "365f48fb858b3dad144c6b86",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-397b-a17b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-397B-A17B-singprobe",
+        "slug": "Qwen3.5-397B-A17B-singprobe",
+        "slugAliases": [
+          "Qwen3.5-397B-A17B-singprobe"
+        ],
+        "displayName": "Qwen3.5-397B-A17B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "397B",
+          "activeParameters": "17B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.5-397B-A17B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "f5d2380ec17a13b480c9a137f8bccc93bda453219570363497812a3da0c6df95",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "a2733a7460211769e09a1b3c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-oss-120b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-oss-120b-singprobe",
+        "slug": "gpt-oss-120b-singprobe",
+        "slugAliases": [
+          "gpt-oss-120b-singprobe"
+        ],
+        "displayName": "gpt-oss-120b-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "120B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/gpt-oss-120b-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "ce1e01817ce36313a905e42226e643c711a783c1b2820dc80974130746a6926f",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "89cdca15c38fee32e1622c93",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::minimax-m2-7-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.7-singprobe",
+        "slug": "MiniMax-M2.7-singprobe",
+        "slugAliases": [
+          "MiniMax-M2.7-singprobe"
+        ],
+        "displayName": "MiniMax-M2.7-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "m2",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/MiniMax-M2.7-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "86fd09c81b918923d8511dd7ee0d6f5cd568b1b85fbd3072cade596bb46910fe",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "29edc76c73a5e02322fba03a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-singprobe",
+        "slug": "GLM-5.3-singprobe",
+        "slugAliases": [
+          "GLM-5.3-singprobe"
+        ],
+        "displayName": "GLM-5.3-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "openWeights": true,
+          "version": "5.3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/GLM-5.3-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "b313e9597e850f8533d073e0c4a427a4b9478d08aa00da1de8f26b4197352cd3",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "0b142401dcd76131d578b5d0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-6-35b-a3b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.6-35B-A3B-singprobe",
+        "slug": "Qwen3.6-35B-A3B-singprobe",
+        "slugAliases": [
+          "Qwen3.6-35B-A3B-singprobe"
+        ],
+        "displayName": "Qwen3.6-35B-A3B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "35B",
+          "activeParameters": "3B active",
+          "version": "3.6"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.6-35B-A3B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "e79f256ad057649773a5c7156d5f548aa5a1241093bd540723f533bcaed97b16",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "ad4e91de9c9a7f9f6d8c3a06",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-6-27b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.6-27B-singprobe",
+        "slug": "Qwen3.6-27B-singprobe",
+        "slugAliases": [
+          "Qwen3.6-27B-singprobe"
+        ],
+        "displayName": "Qwen3.6-27B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3.6"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.6-27B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "aa9e4b056f2036e8e4e0a089b296e48975b8634ae4231efa5a57f5afacf66d23",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "8bbbc6465152a772e4f43be5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-122b-a10b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-122B-A10B-singprobe",
+        "slug": "Qwen3.5-122B-A10B-singprobe",
+        "slugAliases": [
+          "Qwen3.5-122B-A10B-singprobe"
+        ],
+        "displayName": "Qwen3.5-122B-A10B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "122B",
+          "activeParameters": "10B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.5-122B-A10B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "74f41f6545c48cafde549fac6e536161de2e4599eb5a46432ba1b229af314ef7",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "5e738604d22a4e48a259d08d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-35b-a3b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-35B-A3B-singprobe",
+        "slug": "Qwen3.5-35B-A3B-singprobe",
+        "slugAliases": [
+          "Qwen3.5-35B-A3B-singprobe"
+        ],
+        "displayName": "Qwen3.5-35B-A3B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "35B",
+          "activeParameters": "3B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.5-35B-A3B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "a41fcbe7e844bb7470b95cde01263528e72e7c46df88c270ff4f1337883f0cbf",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "d88addecc5f81e3c32ce3177",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-27b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-27B-singprobe",
+        "slug": "Qwen3.5-27B-singprobe",
+        "slugAliases": [
+          "Qwen3.5-27B-singprobe"
+        ],
+        "displayName": "Qwen3.5-27B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.5-27B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "ef87f507331cd3c319b34299bcd68572c0fa3f4612d350ac828a6aec97270634",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "eac3aecd75da4358f5b38424",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-9b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-9B-singprobe",
+        "slug": "Qwen3.5-9B-singprobe",
+        "slugAliases": [
+          "Qwen3.5-9B-singprobe"
+        ],
+        "displayName": "Qwen3.5-9B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.5-9B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "f5fd8954fbdbe0f552d56d140fa5d76665cf2ac4d9dc723bf394642239a88fd3",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "a30d76d6f7fdccbe248cc4ab",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-4b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-4B-singprobe",
+        "slug": "Qwen3.5-4B-singprobe",
+        "slugAliases": [
+          "Qwen3.5-4B-singprobe"
+        ],
+        "displayName": "Qwen3.5-4B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.5-4B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "0714b936191db603500d51e6d9b2aadb19348cd42e171c78e3d873a38f00a03a",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "e204fa52161d6521f86e7d26",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-2b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-2B-singprobe",
+        "slug": "Qwen3.5-2B-singprobe",
+        "slugAliases": [
+          "Qwen3.5-2B-singprobe"
+        ],
+        "displayName": "Qwen3.5-2B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.5-2B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "1cf3cd6984a277f64151af403beb3ec3249334789089817f5b1405ea469b2d77",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "0b7102adadad6898fe6ee39c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-0-8b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-0.8B-singprobe",
+        "slug": "Qwen3.5-0.8B-singprobe",
+        "slugAliases": [
+          "Qwen3.5-0.8B-singprobe"
+        ],
+        "displayName": "Qwen3.5-0.8B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5.0",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3.5.0"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3.5-0.8B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "ab30b55221641401a5e46aa9d51c73db98c5d89df3c433eed4802132e51010a8",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "91cf67153cabac74b0d5be5d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3-8B-singprobe",
+        "slug": "Qwen3-8B-singprobe",
+        "slugAliases": [
+          "Qwen3-8B-singprobe"
+        ],
+        "displayName": "Qwen3-8B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3-8B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "aedb2d2807ffd23bffc719b0abec23aa82957caff786b563fbe5de08653146e2",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "47b493d6ceb15a5a86e12dde",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-4b-instruct-2507-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3-4B-Instruct-2507-singprobe",
+        "slug": "Qwen3-4B-Instruct-2507-singprobe",
+        "slugAliases": [
+          "Qwen3-4B-Instruct-2507-singprobe"
+        ],
+        "displayName": "Qwen3-4B-Instruct-2507-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3-4B-Instruct-2507-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "ffbadd6f9a3cff1b9846558bfe9cd51412af8c7aacca95970c8d041eb0ea208f",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "d0b97454c81bd22b90ce25ed",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-0-6b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3-0.6B-singprobe",
+        "slug": "Qwen3-0.6B-singprobe",
+        "slugAliases": [
+          "Qwen3-0.6B-singprobe"
+        ],
+        "displayName": "Qwen3-0.6B-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "6B",
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Qwen3-0.6B-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "ebf4c0cfbdecff0f31f012da6c3043c1aad765e7ab5695029f143816aad358f9",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "cc02e11a9822f546f9bb84f8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::llama-3-2-1b-instruct-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-3.2-1B-Instruct-singprobe",
+        "slug": "Llama-3.2-1B-Instruct-singprobe",
+        "slugAliases": [
+          "Llama-3.2-1B-Instruct-singprobe"
+        ],
+        "displayName": "Llama-3.2-1B-Instruct-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "1B",
+          "version": "3.2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Llama-3.2-1B-Instruct-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "789225f4d2c22682a17ddf16721933b8ef3a95e914085ca17990f019aaf3a861",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "b284b12d8b5ab418cf1f1b96",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::llama-3-1-8b-instruct-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-3.1-8B-Instruct-singprobe",
+        "slug": "Llama-3.1-8B-Instruct-singprobe",
+        "slugAliases": [
+          "Llama-3.1-8B-Instruct-singprobe"
+        ],
+        "displayName": "Llama-3.1-8B-Instruct-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3.1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Llama-3.1-8B-Instruct-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "28737eba0d09a905ea8703687a472d926922045c673086ec9464c7babd61a676",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "53fb5257b871dec55b0e0e77",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-oss-20b-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-oss-20b-singprobe",
+        "slug": "gpt-oss-20b-singprobe",
+        "slugAliases": [
+          "gpt-oss-20b-singprobe"
+        ],
+        "displayName": "gpt-oss-20b-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "20B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/gpt-oss-20b-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "763d41030eee4bd5385e3674b97f0771fb83048667511bfba602a01727f6fbc0",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "0ffe4c849caf26e8cbf1152c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.2-singprobe",
+        "slug": "GLM-5.2-singprobe",
+        "slugAliases": [
+          "GLM-5.2-singprobe"
+        ],
+        "displayName": "GLM-5.2-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "openWeights": true,
+          "version": "5.2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/GLM-5.2-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "0c09a225ed9fffc387a91bce4f5e50503c42dffcc9cf606144eb9fe1cf637b4a",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "d7ad393b79b6a69eec9018a7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-e4b-it-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-E4B-it-singprobe",
+        "slug": "gemma-4-E4B-it-singprobe",
+        "slugAliases": [
+          "gemma-4-E4B-it-singprobe"
+        ],
+        "displayName": "gemma-4-E4B-it-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "openWeights": true,
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/gemma-4-E4B-it-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "96135d95ecf1f9ec32a75f9b1f5b048f823c71906ad2b4286a42c14d10946b78",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "b64696fca721e430bcdbc3aa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-31b-it-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-31B-it-singprobe",
+        "slug": "gemma-4-31B-it-singprobe",
+        "slugAliases": [
+          "gemma-4-31B-it-singprobe"
+        ],
+        "displayName": "gemma-4-31B-it-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/gemma-4-31B-it-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "07273a9d60d95d9f9179003458555e8cbf0e6d999ccc551fd35dd13bafd264fb",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "2945e785b0358ade8dcbcd60",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-26b-a4b-it-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-26B-A4B-it-singprobe",
+        "slug": "gemma-4-26B-A4B-it-singprobe",
+        "slugAliases": [
+          "gemma-4-26B-A4B-it-singprobe"
+        ],
+        "displayName": "gemma-4-26B-A4B-it-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "26B",
+          "activeParameters": "4B active",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/gemma-4-26B-A4B-it-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "18fe5619805f6dc550c10a2043091a96b324f95914cfd1d48ffe37e556f4cef0",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "c19fa5b70649eabe8e5a40db",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-0731-singprobe",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4-Flash-0731-singprobe",
+        "slug": "DeepSeek-V4-Flash-0731-singprobe",
+        "slugAliases": [
+          "DeepSeek-V4-Flash-0731-singprobe"
+        ],
+        "displayName": "DeepSeek-V4-Flash-0731-singprobe",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/DeepSeek-V4-Flash-0731-singprobe",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "7b1dc2455b2017d42f7e5418ecdfdb7b853f8a2682fe98162c3c1268899d3aa2",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "d9e05f709a616ee4e7f487a1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "atria-dawn::atria-dawn-preview",
+        "owner": "Shanghai AI Laboratory",
+        "vendorId": "shanghai-ai-lab",
+        "family": "atria-dawn",
+        "modelId": "Atria-Dawn-Preview",
+        "slug": "Atria-Dawn-Preview",
+        "slugAliases": [
+          "Atria-Dawn-Preview"
+        ],
+        "displayName": "Atria-Dawn-Preview",
+        "modalities": [],
+        "channel": "preview",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:shanghai-ai-lab:internlm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/internlm/Atria-Dawn-Preview",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "4a673c8af89a2c8942cc4275741ab93de414327266d2e4cdb1e03276d7cfac2d",
+        "firstSeen": "2026-09-14T13:57:09.646Z",
+        "lastChanged": "2026-09-14T13:57:09.646Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T13:57:09.646Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
