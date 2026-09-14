@@ -212859,6 +212859,559 @@
         "model"
       ],
       "detectedAt": "2026-09-14T13:57:09.646Z"
+    },
+    {
+      "id": "8a9dfaf99981e81d0ac68d1e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-6-35b-a3b-thinking",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.6-35B-A3B:thinking",
+        "slug": "Qwen3.6-35B-A3B:thinking",
+        "slugAliases": [
+          "Qwen3.6-35B-A3B:thinking",
+          "qwen3.6-35b-a3b-thinking",
+          "qwen3.6-35b-a3b:thinking"
+        ],
+        "displayName": "Qwen3.6 35B A3B Thinking",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "capabilities": {
+          "parameters": "35B",
+          "version": "3.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "activeParameters": "3B active"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.056
+        },
+        "availability": [
+          "NanoGPT",
+          "libertai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.libertai.io/apis/text/",
+            "observedAt": "2026-09-13T05:09:48.786Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-14T13:57:09.646Z"
+          }
+        ],
+        "fingerprint": "e1bad7d83abc2998be011d1ac5fbdb2822ec98589140f8449fc7f4866aabb98f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-13T19:44:18.281Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-6-35b-a3b-thinking",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.6-35b-a3b:thinking",
+        "slug": "qwen3.6-35b-a3b:thinking",
+        "slugAliases": [
+          "qwen3.6-35b-a3b-thinking",
+          "qwen3.6-35b-a3b:thinking"
+        ],
+        "displayName": "Qwen3.6 35B A3B Thinking",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "capabilities": {
+          "parameters": "35B",
+          "version": "3.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "activeParameters": "3B active"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.056
+        },
+        "availability": [
+          "NanoGPT",
+          "libertai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.libertai.io/apis/text/",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          }
+        ],
+        "fingerprint": "fcfda423ce77224faa100380517d4374c25480a1cae3deb290adbed493bb9885",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-09-14T19:01:03.261Z"
+    },
+    {
+      "id": "3ccc9df9e8dd4309e4a53bb6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-sol-official",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-sol:official",
+        "slug": "gpt-5.6-sol:official",
+        "slugAliases": [
+          "gpt-5.6-sol:official"
+        ],
+        "displayName": "GPT-5.6 Sol (Official API)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 271999,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 12.5,
+          "cache_read $/M": 0.25,
+          "cache_write $/M": 3.125
+        },
+        "availability": [
+          "Infer by Flow7"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://infer.flow7.org/opencode",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          }
+        ],
+        "fingerprint": "935fdec09688862678879c49493c752dd69d8229a13ddbe117d85b5667a9c1b0",
+        "firstSeen": "2026-09-14T19:01:03.261Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T19:01:03.261Z"
+    },
+    {
+      "id": "5d3e20678547dd0d8f160d78",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm5-3-754b",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm5.3-754b",
+        "slug": "glm5.3-754b",
+        "slugAliases": [
+          "glm5.3-754b"
+        ],
+        "displayName": "GLM-5.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "754B",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 524288,
+          "maxOutputTokens": 81920
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 3.5,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "AKI.IO"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://aki.io/docs/",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          }
+        ],
+        "fingerprint": "2ef10786ad084c2378c965eec70d1c3db76725f8a8b5de5287d40621682d5a32",
+        "firstSeen": "2026-09-14T19:01:03.261Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T19:01:03.261Z"
+    },
+    {
+      "id": "2fb7892cb2ec0f0c75025d20",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-pro-latest",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-pro-latest",
+        "slug": "deepseek-pro-latest",
+        "slugAliases": [
+          "deepseek-pro-latest"
+        ],
+        "displayName": "DeepSeek Pro Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "pro",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "prompt $/M": 0.5795,
+          "completion $/M": 1.7384,
+          "input_cache_read $/M": 0.0184,
+          "input $/M": 0.57948,
+          "output $/M": 1.73844,
+          "cache_read $/M": 0.018438
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~deepseek/deepseek-pro-latest",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          }
+        ],
+        "fingerprint": "88d814a1c5529900371fc3c246dbf814c439f1df70fd495d64c04f781b976a5b",
+        "firstSeen": "2026-09-14T19:01:03.261Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T19:01:03.261Z"
+    },
+    {
+      "id": "958162afa193a0884e551cc5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-flash-latest",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-flash-latest",
+        "slug": "deepseek-flash-latest",
+        "slugAliases": [
+          "deepseek-flash-latest"
+        ],
+        "displayName": "DeepSeek Flash Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "flash",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "prompt $/M": 0.15,
+          "completion $/M": 0.6,
+          "input_cache_read $/M": 0.003,
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.003
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~deepseek/deepseek-flash-latest",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          }
+        ],
+        "fingerprint": "dc1641a7eaf023fc51e11bff051ea3d4adc602136a433bcffecb372b368d005f",
+        "firstSeen": "2026-09-14T19:01:03.261Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T19:01:03.261Z"
+    },
+    {
+      "id": "dd5f1bd16a573f457d2d4efa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure::azure-chat-latest",
+        "family": "azure",
+        "modelId": "azure/chat-latest",
+        "slug": "azure/chat-latest",
+        "slugAliases": [
+          "azure/chat-latest"
+        ],
+        "displayName": "azure/chat-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 272000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 30
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          }
+        ],
+        "fingerprint": "8e2e08cb84fea029da4de92554526371eeaf8163d92ab5b29db5a431971710bd",
+        "firstSeen": "2026-09-14T19:01:03.261Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T19:01:03.261Z"
+    },
+    {
+      "id": "93dc7623a1e27034111eb92c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-chat-latest",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-chat-latest",
+        "slug": "azure/us/gpt-chat-latest",
+        "slugAliases": [
+          "azure/us/gpt-chat-latest"
+        ],
+        "displayName": "azure/us/gpt-chat-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 272000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 33
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          }
+        ],
+        "fingerprint": "423452cb449be3bd80a56449c037f71ed623b85a9bb28d044cabcee753baec7a",
+        "firstSeen": "2026-09-14T19:01:03.261Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-14T19:01:03.261Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
