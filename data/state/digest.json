@@ -213466,6 +213466,923 @@
         "announcement"
       ],
       "detectedAt": "2026-09-14T22:25:12.358Z"
+    },
+    {
+      "id": "28df765127064e562e04a94a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-2-5-flash-preview-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash-preview-tts",
+        "slug": "gemini-2.5-flash-preview-tts",
+        "slugAliases": [
+          "gemini-2.5-flash-preview-tts"
+        ],
+        "displayName": "Gemini 2.5 Flash Preview TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "2.5",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 10
+        },
+        "availability": [
+          "Google",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-05-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-14T22:25:12.358Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-14T22:25:12.358Z"
+          }
+        ],
+        "fingerprint": "38f8d2fac2f7dc25a0a1662ca7d64e0374aa6486e1cc10feaf9c26862bda941f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-28T16:34:42.377Z"
+      },
+      "after": {
+        "key": "gemini::gemini-2-5-flash-preview-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash-preview-tts",
+        "slug": "gemini-2.5-flash-preview-tts",
+        "slugAliases": [
+          "gemini-2.5-flash-preview-tts"
+        ],
+        "displayName": "Gemini 2.5 Flash Preview TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "2.5",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 10
+        },
+        "availability": [
+          "Google",
+          "documented",
+          "vertex_ai"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2025-05-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "ef1ca27b9d904ba56e0319e6fc82c338e153316b0776bd4c36eb844dabde4df1",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "0f79316f1742ae3ad42b8b1a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-1-flash-tts-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-tts-preview",
+        "slug": "gemini-3.1-flash-tts-preview",
+        "slugAliases": [
+          "gemini-3.1-flash-tts-preview"
+        ],
+        "displayName": "Gemini 3.1 Flash TTS Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "3.1",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 20
+        },
+        "availability": [
+          "Google",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-04-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-14T19:01:03.261Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-14T22:25:12.358Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
+            "observedAt": "2026-09-14T22:25:12.358Z"
+          }
+        ],
+        "fingerprint": "71b5e65aca319d92b5a6de07ae83c295ed71189fc816d7d933d0887faf5ab6ea",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-1-flash-tts-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-tts-preview",
+        "slug": "gemini-3.1-flash-tts-preview",
+        "slugAliases": [
+          "gemini-3.1-flash-tts-preview"
+        ],
+        "displayName": "Gemini 3.1 Flash TTS Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "3.1",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 20
+        },
+        "availability": [
+          "Google",
+          "documented",
+          "vertex_ai"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-04-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "decb0e666b3c93bd96c5c069d98f9caa6ff5fdd1986d9b2474988f7b122964d2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "1f28df062232926f7ddc72ab",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-routers-glm::fireworks-ai-accounts-fireworks-routers-glm-5p3-fast",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "fireworks_ai/accounts/fireworks/routers/glm-5p3-fast",
+        "slug": "fireworks_ai/accounts/fireworks/routers/glm-5p3-fast",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/routers/glm-5p3-fast"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/routers/glm-5p3-fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "fast",
+          "version": "5.3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 2.1,
+          "output $/M": 6.6
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.fireworks.ai/v1/serverless/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "9bb725b0d2af1a310b6cba97816b6dc18c9b9d863b5bba6be24195eab54f99d0",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "cfbc956010e8b2182b907912",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-flash-native-audio",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash-native-audio",
+        "slug": "gemini-2.5-flash-native-audio",
+        "slugAliases": [
+          "gemini-2.5-flash-native-audio"
+        ],
+        "displayName": "gemini-2.5-flash-native-audio",
+        "modalities": [
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "realtime",
+          "tier": "flash",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2
+        },
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "1974771045a1240289b06d1a650d70f459bf73a611a9a2ae01047375c2815435",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "936c8bf229ad80c307be9f13",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-robotics-er-2",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-robotics-er-2",
+        "slug": "gemini-robotics-er-2",
+        "slugAliases": [
+          "gemini-robotics-er-2"
+        ],
+        "displayName": "gemini-robotics-er-2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "chat",
+          "version": "2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "5d52e341adda9266368272f5ec3c173c4e542741e78510a4d1c0fe90475e8e00",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "ee8b53d98e99a524a45c1a58",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-google-gemma::together-ai-google-gemma-2-27b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "together_ai/google/gemma-2-27b-it",
+        "slug": "together_ai/google/gemma-2-27b-it",
+        "slugAliases": [
+          "together_ai/google/gemma-2-27b-it"
+        ],
+        "displayName": "together_ai/google/gemma-2-27b-it",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "27B",
+          "version": "2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.8,
+          "output $/M": 0.8
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "de50a5fc168a088a9bdcc692532b00f4489b391353dde105a26c74209ecebc7d",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "3ff6cbf837e76d777c600cb7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-5-cyber",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.5-cyber",
+        "slug": "gpt-5.5-cyber",
+        "slugAliases": [
+          "gpt-5.5-cyber"
+        ],
+        "displayName": "gpt-5.5-cyber",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "capabilities": {
+          "mode": "chat",
+          "reasoning": true,
+          "version": "5.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 12.5,
+          "output $/M": 75
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "78bf6563ac6b56a24a341d3b10a6776f07ace963dab62cdca713f4da8d8554bb",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "bda2a78423a7aa12952b3cd4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::llama-3-8b-chat-hf",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "llama/Llama-3-8b-chat-hf",
+        "slug": "Llama-3-8b-chat-hf",
+        "slugAliases": [
+          "llama/Llama-3-8b-chat-hf"
+        ],
+        "displayName": "llama/Llama-3-8b-chat-hf",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "84f08e24b3e1ff3b8aa0a084c71e7da4904168e5f405ed0fe79b6f81022902c2",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "f6bdbb1c7b32a9f4ca830ac2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::llama-3-70b-instruct-turbo",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "llama/Meta-Llama-3-70B-Instruct-Turbo",
+        "slug": "Llama-3-70B-Instruct-Turbo",
+        "slugAliases": [
+          "llama/Meta-Llama-3-70B-Instruct-Turbo"
+        ],
+        "displayName": "llama/Meta-Llama-3-70B-Instruct-Turbo",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "turbo",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "70B",
+          "tier": "turbo",
+          "version": "3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.88,
+          "output $/M": 0.88
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "b2c724210080983a0aaa6dc6c0eb71e58ae1d9a4c6dbe55cf1d04c66b441dcba",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "36895f296bb102a0338386e8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-nvidia-llama::together-ai-nvidia-llama-3-1-nemotron-70b-instruct-hf",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+        "slug": "together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+        "slugAliases": [
+          "together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF"
+        ],
+        "displayName": "together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "70B",
+          "version": "3.1"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.88,
+          "output $/M": 0.88
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "69737c8621b3bab49124dc8042336e8a95e0adad0a5117ebb33a0eacf5a4962f",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "5b5f05945e7ce1f1ffa6862c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen2-1-5b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen/Qwen2-1.5B-Instruct",
+        "slug": "Qwen2-1.5B-Instruct",
+        "slugAliases": [
+          "Qwen/Qwen2-1.5B-Instruct"
+        ],
+        "displayName": "Qwen/Qwen2-1.5B-Instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "5B",
+          "version": "1"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.02,
+          "output $/M": 0.02
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "d66107a24df0c9048cab910dd22c3e3123c8a6a96eba1200765a5e22f23e7923",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "797f0c5f58b265bdb87b2114",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen2-72b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen/Qwen2-72B-Instruct",
+        "slug": "Qwen2-72B-Instruct",
+        "slugAliases": [
+          "Qwen/Qwen2-72B-Instruct"
+        ],
+        "displayName": "Qwen/Qwen2-72B-Instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "chat",
+          "parameters": "72B"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.9,
+          "output $/M": 0.9
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "b73c238213ef1af366f8dc9448f3e4fbc70a9df6845ebbbcdd0e9ed910583336",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "112e42f95c02b14fb2c87af6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "perplexity-ai-pii-masking-vllm::perplexity-ai-pii-masking-vllm",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "perplexity-ai-pii-masking-vllm",
+        "modelId": "perplexity-ai/pii-masking-vllm",
+        "slug": "perplexity-ai/pii-masking-vllm",
+        "slugAliases": [
+          "perplexity-ai/pii-masking-vllm"
+        ],
+        "displayName": "pii-masking-vllm",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pii-masking-vllm",
+            "observedAt": "2026-09-15T00:46:32.008Z"
+          }
+        ],
+        "fingerprint": "60dcd5164cbd69747eefb11a6d61d71706e5a0f6fed381282348cc89d07462ee",
+        "firstSeen": "2026-09-15T00:46:32.008Z",
+        "lastChanged": "2026-09-15T00:46:32.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T00:46:32.008Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
