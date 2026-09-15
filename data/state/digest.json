@@ -214383,6 +214383,109 @@
         "model"
       ],
       "detectedAt": "2026-09-15T00:46:32.008Z"
+    },
+    {
+      "id": "7f1b0338937ced084883eaaf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-z",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-z",
+        "slug": "deepseek-v4.1-flash-z",
+        "slugAliases": [
+          "deepseek-v4.1-flash-z"
+        ],
+        "displayName": "DS F41 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-15T10:18:48.933Z"
+          }
+        ],
+        "fingerprint": "19fc8ddd5c18e3f04c2a1ca645c6e1ff77e1c4358f77945b06718bd96557dcd8",
+        "firstSeen": "2026-09-15T10:18:48.933Z",
+        "lastChanged": "2026-09-15T10:18:48.933Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T10:18:48.933Z"
+    },
+    {
+      "id": "e0499fdf826d4c1f6d70918c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::bergson-wikitext-gpt2-leaderboard",
+        "owner": "EleutherAI",
+        "vendorId": "eleuther",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bergson-wikitext-gpt2-leaderboard",
+        "slug": "bergson-wikitext-gpt2-leaderboard",
+        "slugAliases": [
+          "bergson-wikitext-gpt2-leaderboard"
+        ],
+        "displayName": "bergson-wikitext-gpt2-leaderboard",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:eleuther:eleutherai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/EleutherAI/bergson-wikitext-gpt2-leaderboard",
+            "observedAt": "2026-09-15T10:18:48.933Z"
+          }
+        ],
+        "fingerprint": "690d6a381c870a388d22f0f7a921b6f5202f37bcea71e6f40d47a4878e2c79a6",
+        "firstSeen": "2026-09-15T10:18:48.933Z",
+        "lastChanged": "2026-09-15T10:18:48.933Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-15T10:18:48.933Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
