@@ -216785,6 +216785,2362 @@
         "model"
       ],
       "detectedAt": "2026-09-16T13:33:12.925Z"
+    },
+    {
+      "id": "ed300c42e0bd8b9e9cc2b341",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-4-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-4.1",
+        "slug": "azure/eu/gpt-4.1",
+        "slugAliases": [
+          "azure/eu/gpt-4.1"
+        ],
+        "displayName": "azure/eu/gpt-4.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "mode": "chat",
+          "version": "4.1"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 8.8
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "f31b34808885cec1e088c347a4dd7470805f52fc5b30d45167782f376b676d76",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "014e96d0e3b8c0a671d1d4a7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-4-1-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-4.1-mini",
+        "slug": "azure/eu/gpt-4.1-mini",
+        "slugAliases": [
+          "azure/eu/gpt-4.1-mini"
+        ],
+        "displayName": "azure/eu/gpt-4.1-mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "mini",
+          "version": "4.1"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 1.76
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "7bbbc62e784c179f93bd81d0442a24d0e405f7a40f84d032c9d95607564155c6",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "175c2a07a6f0941016430e7b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-4-1-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-4.1-nano",
+        "slug": "azure/eu/gpt-4.1-nano",
+        "slugAliases": [
+          "azure/eu/gpt-4.1-nano"
+        ],
+        "displayName": "azure/eu/gpt-4.1-nano",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "nano",
+          "version": "4.1"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.11,
+          "output $/M": 0.44
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "8d91c807139a7cf9c30ca7c2ead1dabeca2ca5a8c11360897ad291619f6aa41c",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "e2ae438742f1dae2c0639df2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt-4o::azure-eu-gpt-4o-2024-05-13",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-4o-2024-05-13",
+        "slug": "azure/eu/gpt-4o-2024-05-13",
+        "slugAliases": [
+          "azure/eu/gpt-4o-2024-05-13"
+        ],
+        "displayName": "azure/eu/gpt-4o-2024-05-13",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "capabilities": {
+          "mode": "chat"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 16.5
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "aab05f49f96fb8339c694a45bac5529d1d7fe4ad9d0105e05b4899282da2e4af",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "fe0e7fa2aeaf2ab0373dca0b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5",
+        "slug": "azure/eu/gpt-5",
+        "slugAliases": [
+          "azure/eu/gpt-5"
+        ],
+        "displayName": "azure/eu/gpt-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.375,
+          "output $/M": 11
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "735ab74c695f974476375c9db7efbf3d7bc88cb407e81be85e0d51aa8a9a6d3c",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "9158bff4451a6949ed6a67b9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-codex",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5-codex",
+        "slug": "azure/eu/gpt-5-codex",
+        "slugAliases": [
+          "azure/eu/gpt-5-codex"
+        ],
+        "displayName": "azure/eu/gpt-5-codex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.375,
+          "output $/M": 11
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "1859a39157f4f486a7a88bf2961f13c92deed6c83a98b2f29d9bf0550bc0453b",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "9ee0ec7f0a7db2f57b1cb2f4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5-mini",
+        "slug": "azure/eu/gpt-5-mini",
+        "slugAliases": [
+          "azure/eu/gpt-5-mini"
+        ],
+        "displayName": "azure/eu/gpt-5-mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "mini",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.275,
+          "output $/M": 2.2
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "46ef586836bfd6cc0860e6f8fbdf429ec5760737b2c3d314f93d7b9fa66fbd17",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "a7044e2cbefc79374697e42e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5-nano",
+        "slug": "azure/eu/gpt-5-nano",
+        "slugAliases": [
+          "azure/eu/gpt-5-nano"
+        ],
+        "displayName": "azure/eu/gpt-5-nano",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "nano",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.055,
+          "output $/M": 0.44
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "9e4f8fe46813617c186c6f142343b12e24de5e38c1bce238d1183980e75c0602",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "92af3152fd224a6f8cd693a4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5-pro",
+        "slug": "azure/eu/gpt-5-pro",
+        "slugAliases": [
+          "azure/eu/gpt-5-pro"
+        ],
+        "displayName": "azure/eu/gpt-5-pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "pro",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 16.5,
+          "output $/M": 132
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "c647a843092125bcfc8de92faa80658a2e29932c95570e91abd3fa6eeb6bb66c",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "b8e45c317a6b130b55fe77a7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-2",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.2",
+        "slug": "azure/eu/gpt-5.2",
+        "slugAliases": [
+          "azure/eu/gpt-5.2"
+        ],
+        "displayName": "azure/eu/gpt-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "2419c99ac4197945ac59d23e16affc51ac0d0b99fcbfc546cca8bcc0c35d5832",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "67d93a1cf6453ac38fd626ef",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-2-chat",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.2-chat",
+        "slug": "azure/eu/gpt-5.2-chat",
+        "slugAliases": [
+          "azure/eu/gpt-5.2-chat"
+        ],
+        "displayName": "azure/eu/gpt-5.2-chat",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "4b4d369dbd46979fd3c977405a3a545f55de9ebaee70bfab15045f81fdb21d92",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "bc6dbf94b8c5d7a8a2725628",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-2-codex",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.2-codex",
+        "slug": "azure/eu/gpt-5.2-codex",
+        "slugAliases": [
+          "azure/eu/gpt-5.2-codex"
+        ],
+        "displayName": "azure/eu/gpt-5.2-codex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "1b1a55f290728964098488950ec63458f01b3c22f98515c8871f5466693579dc",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "4df4b647109940149e5a8d57",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-2-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.2-pro",
+        "slug": "azure/eu/gpt-5.2-pro",
+        "slugAliases": [
+          "azure/eu/gpt-5.2-pro"
+        ],
+        "displayName": "azure/eu/gpt-5.2-pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "pro",
+          "version": "5.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 23.1,
+          "output $/M": 184.8
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "ac14cd0f66c4b688490667e268e59df86f00c50e4a517fecde77c959c4d1be8f",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "d365ca30073ed8a42786ddb3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-3-chat",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.3-chat",
+        "slug": "azure/eu/gpt-5.3-chat",
+        "slugAliases": [
+          "azure/eu/gpt-5.3-chat"
+        ],
+        "displayName": "azure/eu/gpt-5.3-chat",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "afe6f3052cb7342b681116a566bb0c1ffc02858aa85591bf5e69628245352a15",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "294c248497456a1a409b3337",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-3-codex",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.3-codex",
+        "slug": "azure/eu/gpt-5.3-codex",
+        "slugAliases": [
+          "azure/eu/gpt-5.3-codex"
+        ],
+        "displayName": "azure/eu/gpt-5.3-codex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "96f48f40fefcf89eb973f325235bc9d1f7e3acc413f079b658b8db091e6c668a",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "44cc2e65107e8c8bd2bc4924",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-4-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.4-mini",
+        "slug": "azure/eu/gpt-5.4-mini",
+        "slugAliases": [
+          "azure/eu/gpt-5.4-mini"
+        ],
+        "displayName": "azure/eu/gpt-5.4-mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "mini",
+          "version": "5.4"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.825,
+          "output $/M": 4.95
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "f34b2b6a2bd8b2c3ef714ab3639f074f8ca226aa1b4b12ce64b94711da031633",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "8ce08ca9b46a0841e5153b69",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-4-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.4-nano",
+        "slug": "azure/eu/gpt-5.4-nano",
+        "slugAliases": [
+          "azure/eu/gpt-5.4-nano"
+        ],
+        "displayName": "azure/eu/gpt-5.4-nano",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "nano",
+          "version": "5.4"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.22,
+          "output $/M": 1.375
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "c45cd2ae81b827b3ef1746d48bf270a64745d3908bf74cb0b0a63b6d4e3832ca",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "95b57b77144abe3514ae1aab",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-4-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.4-pro",
+        "slug": "azure/eu/gpt-5.4-pro",
+        "slugAliases": [
+          "azure/eu/gpt-5.4-pro"
+        ],
+        "displayName": "azure/eu/gpt-5.4-pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "pro",
+          "version": "5.4"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 33,
+          "output $/M": 198
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "317b8455ba3a040fe8ee92f9474dfff4e72d39b43b4d7af921b9d6365072342b",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "2e9b2eec0fffc4b03ba600b7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-6-astra",
+        "slug": "azure/eu/gpt-6-astra",
+        "slugAliases": [
+          "azure/eu/gpt-6-astra"
+        ],
+        "displayName": "azure/eu/gpt-6-astra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "version": "6"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 11,
+          "output $/M": 55
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "f55d6084764654451b3ff0dbc53f969f317866bf74df55657c3031d9be7a3798",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "4310162bfec5cd05d02fccf9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu::azure-eu-o3-2025-04-16",
+        "family": "azure-eu",
+        "modelId": "azure/eu/o3-2025-04-16",
+        "slug": "azure/eu/o3-2025-04-16",
+        "slugAliases": [
+          "azure/eu/o3-2025-04-16"
+        ],
+        "displayName": "azure/eu/o3-2025-04-16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3",
+        "tier": "o3",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "o3",
+          "version": "3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 8.8
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "db651fc5f7d3678a5a6ee3a9d184e198c5ee0cf73db7ea82f1326226272a250c",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "60b515e4916a24f88a4ee6fd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu::azure-eu-o4-mini-2025-04-16",
+        "family": "azure-eu",
+        "modelId": "azure/eu/o4-mini-2025-04-16",
+        "slug": "azure/eu/o4-mini-2025-04-16",
+        "slugAliases": [
+          "azure/eu/o4-mini-2025-04-16"
+        ],
+        "displayName": "azure/eu/o4-mini-2025-04-16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4",
+        "tier": "o4",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "o4",
+          "version": "4"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.21,
+          "output $/M": 4.84
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "6228e32480294ae2c8ccb94ee863577be29bcc32d41d7557e7e8ba27bde95f79",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "1af3de0bece45538a602a613",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-text-embedding::azure-eu-text-embedding-3-large",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "OpenAI Embeddings",
+        "familyId": "text-embedding",
+        "modelId": "azure/eu/text-embedding-3-large",
+        "slug": "azure/eu/text-embedding-3-large",
+        "slugAliases": [
+          "azure/eu/text-embedding-3-large"
+        ],
+        "displayName": "azure/eu/text-embedding-3-large",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "large",
+        "capabilities": {
+          "mode": "embedding",
+          "tier": "large",
+          "version": "3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.143
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "2eb5fe33c77ccb22a2cd2054a2f086025b9b53e5b6331781befa6e10e4053ebe",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "35e9a5f67bb3dcc6fd7e6ace",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-text-embedding::azure-eu-text-embedding-3-small",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "OpenAI Embeddings",
+        "familyId": "text-embedding",
+        "modelId": "azure/eu/text-embedding-3-small",
+        "slug": "azure/eu/text-embedding-3-small",
+        "slugAliases": [
+          "azure/eu/text-embedding-3-small"
+        ],
+        "displayName": "azure/eu/text-embedding-3-small",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "small",
+        "capabilities": {
+          "mode": "embedding",
+          "tier": "small",
+          "version": "3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.022
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "37a9a0c3fc3b875d46883bb893e512a8921b4e761dbf292515cfc3dd133371c1",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "342d511b824bb1934c44b208",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-4-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-4.1",
+        "slug": "azure/us/gpt-4.1",
+        "slugAliases": [
+          "azure/us/gpt-4.1"
+        ],
+        "displayName": "azure/us/gpt-4.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "mode": "chat",
+          "version": "4.1"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 8.8
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "f2dfb0e50d9340c8734518331b362bb97b7658a6c94c4980003d47934346273c",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "60e6a4c3f8bcebf118ddc079",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-4-1-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-4.1-mini",
+        "slug": "azure/us/gpt-4.1-mini",
+        "slugAliases": [
+          "azure/us/gpt-4.1-mini"
+        ],
+        "displayName": "azure/us/gpt-4.1-mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "mini",
+          "version": "4.1"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.44,
+          "output $/M": 1.76
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "5f7747ad83f9253e5716f98e154ef989e179f0878ee102cd1c9640723b104b0e",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "c584258af376f825ae0be1ee",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-4-1-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-4.1-nano",
+        "slug": "azure/us/gpt-4.1-nano",
+        "slugAliases": [
+          "azure/us/gpt-4.1-nano"
+        ],
+        "displayName": "azure/us/gpt-4.1-nano",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "nano",
+          "version": "4.1"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.11,
+          "output $/M": 0.44
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "63e7f46b548f126637b49de10f5ece9cd32ea72c6bee9c8fe19e79e578c91156",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "150c92d9b2f5e86dd6588e9b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt-4o::azure-us-gpt-4o-2024-05-13",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-4o-2024-05-13",
+        "slug": "azure/us/gpt-4o-2024-05-13",
+        "slugAliases": [
+          "azure/us/gpt-4o-2024-05-13"
+        ],
+        "displayName": "azure/us/gpt-4o-2024-05-13",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "capabilities": {
+          "mode": "chat"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 16.5
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "eb562d513d8396ebe67123fe8edb34788f8c6395abc21383050f39c417ad063a",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "82f6c8ce1ae1a6126990c810",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5",
+        "slug": "azure/us/gpt-5",
+        "slugAliases": [
+          "azure/us/gpt-5"
+        ],
+        "displayName": "azure/us/gpt-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.375,
+          "output $/M": 11
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "47f51d593a3581a2e479bb6ed5c7fdbbbce1a68bd148c1c3a1819f0f91341b83",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "c0c928f82ca8eced119994ea",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-codex",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5-codex",
+        "slug": "azure/us/gpt-5-codex",
+        "slugAliases": [
+          "azure/us/gpt-5-codex"
+        ],
+        "displayName": "azure/us/gpt-5-codex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.375,
+          "output $/M": 11
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "3478d6f7bd4127a7f54183aa63b2a82268d81390973c2eb4c41303dd10f8b10c",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "aa1cdc1b8ed028eef049166d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5-mini",
+        "slug": "azure/us/gpt-5-mini",
+        "slugAliases": [
+          "azure/us/gpt-5-mini"
+        ],
+        "displayName": "azure/us/gpt-5-mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "mini",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.275,
+          "output $/M": 2.2
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "9bc3322da403d4593da718f4562976fa96f955c65eb079ad63a771c9569bf347",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "d96d0ed0e7b1cbe4e5c6985f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5-nano",
+        "slug": "azure/us/gpt-5-nano",
+        "slugAliases": [
+          "azure/us/gpt-5-nano"
+        ],
+        "displayName": "azure/us/gpt-5-nano",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "nano",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.055,
+          "output $/M": 0.44
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "f20b57b85cb02b7c7af6d0d48e51bbe9a220cfa96d24aab25c03edc4295297e0",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "c4fe7523fc362e1344f01da0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5-pro",
+        "slug": "azure/us/gpt-5-pro",
+        "slugAliases": [
+          "azure/us/gpt-5-pro"
+        ],
+        "displayName": "azure/us/gpt-5-pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "pro",
+          "version": "5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 16.5,
+          "output $/M": 132
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "446aa4e5826887b5bdee2262a58d6571944ad1c109ab26fb51a792f56b90b1f7",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "7be952603117345dfa7530da",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-2",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.2",
+        "slug": "azure/us/gpt-5.2",
+        "slugAliases": [
+          "azure/us/gpt-5.2"
+        ],
+        "displayName": "azure/us/gpt-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "b74f21e114c7a29e9e2f60770c0ea238abfbddca11ae457889ec2250b066aa0d",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "8936fc8c9e64f8d8133a53b1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-2-chat",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.2-chat",
+        "slug": "azure/us/gpt-5.2-chat",
+        "slugAliases": [
+          "azure/us/gpt-5.2-chat"
+        ],
+        "displayName": "azure/us/gpt-5.2-chat",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "514b763bd1713866fde4952f3131721852a162cf9051be1882d91a69035eab45",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "6381d9e1da8cc4605dc20eb4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-2-codex",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.2-codex",
+        "slug": "azure/us/gpt-5.2-codex",
+        "slugAliases": [
+          "azure/us/gpt-5.2-codex"
+        ],
+        "displayName": "azure/us/gpt-5.2-codex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "75c8b18c28446d649027a13fff1057f18bbb7322c0e188a09e43bc48016d5969",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "acc3d70a656f871123cad61d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-2-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.2-pro",
+        "slug": "azure/us/gpt-5.2-pro",
+        "slugAliases": [
+          "azure/us/gpt-5.2-pro"
+        ],
+        "displayName": "azure/us/gpt-5.2-pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "pro",
+          "version": "5.2"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 23.1,
+          "output $/M": 184.8
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "78d8d3cab97c15e3ca71c9fe3ca0ff7cb206b3ae2390627c8170d32e3342c2e3",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "cc40c19a8249e28ab2d5bf7e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-3-chat",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.3-chat",
+        "slug": "azure/us/gpt-5.3-chat",
+        "slugAliases": [
+          "azure/us/gpt-5.3-chat"
+        ],
+        "displayName": "azure/us/gpt-5.3-chat",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "4ad3f382b4b32facf532383a78b5f4a7a1cfad3e69eba2dc9e9ff3ac117e17bd",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "36e7c3c787a5bda9eced5b3b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-3-codex",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.3-codex",
+        "slug": "azure/us/gpt-5.3-codex",
+        "slugAliases": [
+          "azure/us/gpt-5.3-codex"
+        ],
+        "displayName": "azure/us/gpt-5.3-codex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "version": "5.3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 1.925,
+          "output $/M": 15.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "c09b302097472538d5778c7cb0b6aea85175681842c019d5a5af24fab072ed4c",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "0886d1cd00a8986c689d445e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-4-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.4-mini",
+        "slug": "azure/us/gpt-5.4-mini",
+        "slugAliases": [
+          "azure/us/gpt-5.4-mini"
+        ],
+        "displayName": "azure/us/gpt-5.4-mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "mini",
+          "version": "5.4"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.825,
+          "output $/M": 4.95
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "e7851721f8eed38a6b435f947b89b42d8eeb147a0cc3229d95d80d742ba19139",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "49c3e5922e167c0f5185364f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-4-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.4-nano",
+        "slug": "azure/us/gpt-5.4-nano",
+        "slugAliases": [
+          "azure/us/gpt-5.4-nano"
+        ],
+        "displayName": "azure/us/gpt-5.4-nano",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "nano",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "nano",
+          "version": "5.4"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.22,
+          "output $/M": 1.375
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "8a48f94a390e44c9237009e0c6c9ba1296f21773771930eb44ed3dded78e4e8a",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "0b5257e597b090ffb87a7af1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-4-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.4-pro",
+        "slug": "azure/us/gpt-5.4-pro",
+        "slugAliases": [
+          "azure/us/gpt-5.4-pro"
+        ],
+        "displayName": "azure/us/gpt-5.4-pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "pro",
+          "version": "5.4"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 33,
+          "output $/M": 198
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "175330dacff5d85a0369f7099e1adb36afe03b6cc3e58f985dfcc9d5f6d52372",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "a12428c61a858672dd41a477",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-text-embedding::azure-us-text-embedding-3-large",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "OpenAI Embeddings",
+        "familyId": "text-embedding",
+        "modelId": "azure/us/text-embedding-3-large",
+        "slug": "azure/us/text-embedding-3-large",
+        "slugAliases": [
+          "azure/us/text-embedding-3-large"
+        ],
+        "displayName": "azure/us/text-embedding-3-large",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "large",
+        "capabilities": {
+          "mode": "embedding",
+          "tier": "large",
+          "version": "3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.143
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "50d6851bed24d16e438967d91dc02eb961bb54b594d34e8db98d54a1e485f818",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "660e7d9122beade41b819104",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-text-embedding::azure-us-text-embedding-3-small",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "OpenAI Embeddings",
+        "familyId": "text-embedding",
+        "modelId": "azure/us/text-embedding-3-small",
+        "slug": "azure/us/text-embedding-3-small",
+        "slugAliases": [
+          "azure/us/text-embedding-3-small"
+        ],
+        "displayName": "azure/us/text-embedding-3-small",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "small",
+        "capabilities": {
+          "mode": "embedding",
+          "tier": "small",
+          "version": "3"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.022
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-09-16T17:44:06.143Z"
+          }
+        ],
+        "fingerprint": "baf08b4c9c49a94d1bd57ba1e3016423f6405feb5630f0827bec2485f8b5d2fe",
+        "firstSeen": "2026-09-16T17:44:06.143Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T17:44:06.143Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
