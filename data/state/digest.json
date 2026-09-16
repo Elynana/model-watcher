@@ -216684,6 +216684,107 @@
         "displayName"
       ],
       "detectedAt": "2026-09-16T02:54:06.275Z"
+    },
+    {
+      "id": "a898dfc743bcf7b63e54ea92",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "eleven::music-v2-5",
+        "owner": "ElevenLabs",
+        "vendorId": "elevenlabs",
+        "family": "ElevenLabs",
+        "familyId": "eleven",
+        "modelId": "music/v2.5",
+        "slug": "music/v2.5",
+        "slugAliases": [
+          "music/v2.5"
+        ],
+        "displayName": "Elevenlabs Music v2.5",
+        "modalities": [
+          "audio"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "text-to-audio",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.6
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/elevenlabs/music/v2.5",
+            "observedAt": "2026-09-16T13:33:12.925Z"
+          }
+        ],
+        "fingerprint": "8ea54df849ee133acf95d97c7a35ff4564f8653ddcd6344c205fa29a55ceb693",
+        "firstSeen": "2026-09-16T13:33:12.925Z",
+        "lastChanged": "2026-09-16T13:33:12.925Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T13:33:12.925Z"
+    },
+    {
+      "id": "0d334f45b998c55cf29190c0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "brainmu-spike::brainmu-spike",
+        "owner": "BAAI",
+        "vendorId": "baai",
+        "family": "brainmu-spike",
+        "modelId": "Brainmu-Spike",
+        "slug": "Brainmu-Spike",
+        "slugAliases": [
+          "Brainmu-Spike"
+        ],
+        "displayName": "Brainmu-Spike",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:baai:baai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/BAAI/Brainmu-Spike",
+            "observedAt": "2026-09-16T13:33:12.925Z"
+          }
+        ],
+        "fingerprint": "c0b907d2986739657c2d83715c748cadb860f8a5a315e7b2618bb2a455739d46",
+        "firstSeen": "2026-09-16T13:33:12.925Z",
+        "lastChanged": "2026-09-16T13:33:12.925Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T13:33:12.925Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
