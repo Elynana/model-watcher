@@ -219141,6 +219141,440 @@
         "model"
       ],
       "detectedAt": "2026-09-16T17:44:06.143Z"
+    },
+    {
+      "id": "6f20c94aad327d0cf33b4678",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-5-2026-04-24",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.5-2026-04-24",
+        "slug": "gpt-5.5-2026-04-24",
+        "slugAliases": [
+          "gpt-5.5-2026-04-24"
+        ],
+        "displayName": "gpt-5.5-2026-04-24",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 30
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "52dc6eb521c47facafdd6ec97ebc79fa75fddf3496bf615a00147ad53ba64af8",
+        "firstSeen": "2026-09-16T23:09:08.111Z",
+        "lastChanged": "2026-09-16T23:09:08.111Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T23:09:08.111Z"
+    },
+    {
+      "id": "ad6590008034e868bfba414b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-sol-2026-07-09",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-sol-2026-07-09",
+        "slug": "gpt-5.6-sol-2026-07-09",
+        "slugAliases": [
+          "gpt-5.6-sol-2026-07-09"
+        ],
+        "displayName": "gpt-5.6-sol-2026-07-09",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "0d53bc5d4a52becc7554099c8ece9b84db7308c444088814b519fe54f8cad9e3",
+        "firstSeen": "2026-09-16T23:09:08.111Z",
+        "lastChanged": "2026-09-16T23:09:08.111Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T23:09:08.111Z"
+    },
+    {
+      "id": "3c4ae740a5cde801a84075d7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-terra-2026-07-09",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-terra-2026-07-09",
+        "slug": "gpt-5.6-terra-2026-07-09",
+        "slugAliases": [
+          "gpt-5.6-terra-2026-07-09"
+        ],
+        "displayName": "gpt-5.6-terra-2026-07-09",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 12
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "d216e4ce51ca0ab019da9807cc302541219531aa701b6b430cef17ff083af80e",
+        "firstSeen": "2026-09-16T23:09:08.111Z",
+        "lastChanged": "2026-09-16T23:09:08.111Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T23:09:08.111Z"
+    },
+    {
+      "id": "0da75c46f3374546485d46a5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-luna-2026-07-09",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-luna-2026-07-09",
+        "slug": "gpt-5.6-luna-2026-07-09",
+        "slugAliases": [
+          "gpt-5.6-luna-2026-07-09"
+        ],
+        "displayName": "gpt-5.6-luna-2026-07-09",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1.2
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "ec363b258729f7cf24314ed17fe34db521ab11df843e03d0977aa2b46c674ea6",
+        "firstSeen": "2026-09-16T23:09:08.111Z",
+        "lastChanged": "2026-09-16T23:09:08.111Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T23:09:08.111Z"
+    },
+    {
+      "id": "672a6d7a88e1909b6a9e53fb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-astra-2026-09-03",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra-2026-09-03",
+        "slug": "gpt-6-astra-2026-09-03",
+        "slugAliases": [
+          "gpt-6-astra-2026-09-03"
+        ],
+        "displayName": "gpt-6-astra-2026-09-03",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "0c7226894efb85650de63cbf91452e14c616570533b75a4b1b133f204d3aaa3b",
+        "firstSeen": "2026-09-16T23:09:08.111Z",
+        "lastChanged": "2026-09-16T23:09:08.111Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T23:09:08.111Z"
+    },
+    {
+      "id": "89748b6e2e02109accc3609f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-5-5-2026-04-24",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-5.5-2026-04-24",
+        "slug": "azure/us/gpt-5.5-2026-04-24",
+        "slugAliases": [
+          "azure/us/gpt-5.5-2026-04-24"
+        ],
+        "displayName": "azure/us/gpt-5.5-2026-04-24",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 33
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "fc832d0548aea43340d5361bd45733eed5b77a63465689fa00911412ca675279",
+        "firstSeen": "2026-09-16T23:09:08.111Z",
+        "lastChanged": "2026-09-16T23:09:08.111Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T23:09:08.111Z"
+    },
+    {
+      "id": "c3c3ab893bf3e75420b76dbc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-5-5-2026-04-24",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-5.5-2026-04-24",
+        "slug": "azure/eu/gpt-5.5-2026-04-24",
+        "slugAliases": [
+          "azure/eu/gpt-5.5-2026-04-24"
+        ],
+        "displayName": "azure/eu/gpt-5.5-2026-04-24",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "5.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 33
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "37783c3adf610671ffa2338216d005f70d90bbad95ceb010d9b7e7d2647818e7",
+        "firstSeen": "2026-09-16T23:09:08.111Z",
+        "lastChanged": "2026-09-16T23:09:08.111Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-16T23:09:08.111Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
