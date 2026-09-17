@@ -220098,6 +220098,297 @@
         "model"
       ],
       "detectedAt": "2026-09-17T01:22:31.403Z"
+    },
+    {
+      "id": "6fcab2c2ea86b6f88722e38f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::umans-glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "umans-glm-5.3-flash",
+        "slug": "umans-glm-5.3-flash",
+        "slugAliases": [
+          "umans-glm-5.3-flash"
+        ],
+        "displayName": "GLM 5.3 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131071
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "Umans AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://app.umans.ai/offers/code/docs/orgs",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          }
+        ],
+        "fingerprint": "5d4b8bad614ca5a1a7bbc31d91e1f8ee5d157d4a96ba662d141de016ed23e672",
+        "firstSeen": "2026-09-17T06:22:22.984Z",
+        "lastChanged": "2026-09-17T06:22:22.984Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T06:22:22.984Z"
+    },
+    {
+      "id": "6743ebfc59bd31674f0ad077",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-fast",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash:fast",
+        "slug": "deepseek-v4.1-flash:fast",
+        "slugAliases": [
+          "deepseek-v4.1-flash:fast"
+        ],
+        "displayName": "DeepSeek V4.1 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4
+        },
+        "availability": [
+          "Inco"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.inco.ai/docs",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          }
+        ],
+        "fingerprint": "4f019fc0fc975839757d56c0406ccbe3eff64e79b89d1186ecaf781c402d2e84",
+        "firstSeen": "2026-09-17T06:22:22.984Z",
+        "lastChanged": "2026-09-17T06:22:22.984Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T06:22:22.984Z"
+    },
+    {
+      "id": "29f5b7cc50f215067010802c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flash-fast",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-flash:fast",
+        "slug": "glm-5.3-flash:fast",
+        "slugAliases": [
+          "glm-5.3-flash:fast"
+        ],
+        "displayName": "GLM-5.3-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "Inco"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.inco.ai/docs",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          }
+        ],
+        "fingerprint": "a60bd74093020ac42bca445c2f87fd5323ef3bcd61afe2091fae969b525b0df1",
+        "firstSeen": "2026-09-17T06:22:22.984Z",
+        "lastChanged": "2026-09-17T06:22:22.984Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T06:22:22.984Z"
+    },
+    {
+      "id": "c7bbbb402e0ab9b87d963bd7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "jina::jina-ocr-v1",
+        "owner": "Jina AI",
+        "vendorId": "jina",
+        "family": "Jina",
+        "familyId": "jina",
+        "modelId": "jina-ocr-v1",
+        "slug": "jina-ocr-v1",
+        "slugAliases": [
+          "jina-ocr-v1"
+        ],
+        "displayName": "jina-ocr-v1",
+        "modalities": [
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "openWeights": true,
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:jina:jinaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/jinaai/jina-ocr-v1",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          }
+        ],
+        "fingerprint": "bb8ae1e55856716774fbbb8fd1e4ad6c15c4fdaa8cfece0433c226e17c9c4042",
+        "firstSeen": "2026-09-17T06:22:22.984Z",
+        "lastChanged": "2026-09-17T06:22:22.984Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T06:22:22.984Z"
+    },
+    {
+      "id": "78d752f155d5ec77b4a36626",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "brainmu-spikecamera::brainmu-spikecamera",
+        "owner": "BAAI",
+        "vendorId": "baai",
+        "family": "brainmu-spikecamera",
+        "modelId": "Brainmu-SpikeCamera",
+        "slug": "Brainmu-SpikeCamera",
+        "slugAliases": [
+          "Brainmu-SpikeCamera"
+        ],
+        "displayName": "Brainmu-SpikeCamera",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-31",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:baai:baai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/BAAI/Brainmu-SpikeCamera",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          }
+        ],
+        "fingerprint": "8f1047389055cab25b0bfd1f0b5d5eaf5d41a98ffbe3ebeb5b2de2088b548905",
+        "firstSeen": "2026-09-17T06:22:22.984Z",
+        "lastChanged": "2026-09-17T06:22:22.984Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T06:22:22.984Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
