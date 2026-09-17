@@ -219575,6 +219575,529 @@
         "model"
       ],
       "detectedAt": "2026-09-16T23:09:08.111Z"
+    },
+    {
+      "id": "b86481013c43167ef4c14bc3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "granite::granite-4-1-8b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.1-8b",
+        "slug": "granite-4.1-8b",
+        "slugAliases": [
+          "granite-4.1-8b"
+        ],
+        "displayName": "Granite 4.1 8B",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "parameters": "8B",
+          "version": "4.1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT",
+          "Weights & Biases",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-10T09:33:01.296Z"
+          }
+        ],
+        "fingerprint": "2f610cf06ee11702fccebd6bd2df0da93a9ed7468c58f797c2330b2f4c080e21",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T17:03:32.999Z"
+      },
+      "after": {
+        "key": "granite::granite-4-1-8b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-4.1-8b",
+        "slug": "granite-4.1-8b",
+        "slugAliases": [
+          "granite-4.1-8b"
+        ],
+        "displayName": "Granite 4.1 8B",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "parameters": "8B",
+          "version": "4.1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "CoreWeave",
+          "NanoGPT",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+            "observedAt": "2026-09-17T01:22:31.403Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/inference",
+            "observedAt": "2026-09-17T01:22:31.403Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-10T09:33:01.296Z"
+          }
+        ],
+        "fingerprint": "ab1d6f9a6a0aacc6c350afcae6c9dbe3890e260eba39d6c1a3a332e20398c3f2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-17T01:22:31.403Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-17T01:22:31.403Z"
+    },
+    {
+      "id": "4fa5c0b3508eec474444b321",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "jetbrains-mellum2::jetbrains-mellum2-12b-a2-5b-instruct",
+        "family": "jetbrains-mellum2",
+        "modelId": "JetBrains/Mellum2-12B-A2.5B-Instruct",
+        "slug": "JetBrains/Mellum2-12B-A2.5B-Instruct",
+        "slugAliases": [
+          "JetBrains/Mellum2-12B-A2.5B-Instruct"
+        ],
+        "displayName": "Mellum2 12B A2.5B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "a2",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "5B",
+          "tier": "a2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Weights & Biases"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-01",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "fc1d9db503799048323f34a54dc632d72abaf6c60350469e436fd27e52688c44",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "jetbrains-mellum2::jetbrains-mellum2-12b-a2-5b-instruct",
+        "family": "jetbrains-mellum2",
+        "modelId": "JetBrains/Mellum2-12B-A2.5B-Instruct",
+        "slug": "JetBrains/Mellum2-12B-A2.5B-Instruct",
+        "slugAliases": [
+          "JetBrains/Mellum2-12B-A2.5B-Instruct"
+        ],
+        "displayName": "Mellum2 12B A2.5B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "a2",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "5B",
+          "tier": "a2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.1,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "CoreWeave"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-01",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/inference",
+            "observedAt": "2026-09-17T01:22:31.403Z"
+          }
+        ],
+        "fingerprint": "99be76e47aaf108e6549631bebd0e55ae5a2130dac7e37c0cf8af869006a416b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-17T01:22:31.403Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-17T01:22:31.403Z"
+    },
+    {
+      "id": "cad82949c2b7881fa87489ad",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-14b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3-14B-Instruct",
+        "slug": "Qwen3-14B-Instruct",
+        "slugAliases": [
+          "Qwen3-14B-Instruct"
+        ],
+        "displayName": "Qwen3 14B Instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "14B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.22,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Weights & Biases"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/guides/integrations/inference/",
+            "observedAt": "2026-09-16T23:09:08.111Z"
+          }
+        ],
+        "fingerprint": "3aa72a8f271f25ed6079a0019a189cea3ae1e3169a993a2e537039502a97b799",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-14b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3-14B-Instruct",
+        "slug": "Qwen3-14B-Instruct",
+        "slugAliases": [
+          "Qwen3-14B-Instruct"
+        ],
+        "displayName": "Qwen3 14B Instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "14B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.22,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "CoreWeave"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.wandb.ai/inference",
+            "observedAt": "2026-09-17T01:22:31.403Z"
+          }
+        ],
+        "fingerprint": "59eaf00b8dcda5662de6bffefebbd8aae5c15b62b9e46f9aeeb9a052af1d7382",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-17T01:22:31.403Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-17T01:22:31.403Z"
+    },
+    {
+      "id": "b03041b1f3a86223cd150eba",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flash-260828",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5-3-flash-260828",
+        "slug": "glm-5-3-flash-260828",
+        "slugAliases": [
+          "glm-5-3-flash-260828"
+        ],
+        "displayName": "GLM-5.3-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.11875,
+          "output $/M": 0.41563,
+          "cache_read $/M": 0.03414
+        },
+        "availability": [
+          "Volcengine Ark"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1330310",
+            "observedAt": "2026-09-17T01:22:31.403Z"
+          }
+        ],
+        "fingerprint": "58532f1395d2adb44caa9536bdb6dc561e845cd6da0a1265ad2310774f72bbac",
+        "firstSeen": "2026-09-17T01:22:31.403Z",
+        "lastChanged": "2026-09-17T01:22:31.403Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T01:22:31.403Z"
+    },
+    {
+      "id": "858236cbb852d5282d950577",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-maas",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2-maas",
+        "slug": "glm-5.2-maas",
+        "slugAliases": [
+          "glm-5.2-maas"
+        ],
+        "displayName": "GLM-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4,
+          "cache_read $/M": 0.14
+        },
+        "availability": [
+          "Vertex"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+            "observedAt": "2026-09-17T01:22:31.403Z"
+          }
+        ],
+        "fingerprint": "82f131d78e173c649f0b6253e57880085e3a25df12cb7d8428c920eac536b9e4",
+        "firstSeen": "2026-09-17T01:22:31.403Z",
+        "lastChanged": "2026-09-17T01:22:31.403Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T01:22:31.403Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
