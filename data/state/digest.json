@@ -220389,6 +220389,384 @@
         "model"
       ],
       "detectedAt": "2026-09-17T06:22:22.984Z"
+    },
+    {
+      "id": "f39326491d6b5dae601a804c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hy::hy4-preview",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy",
+        "modelId": "Hy4-preview",
+        "slug": "Hy4-preview",
+        "slugAliases": [
+          "Hy4-preview",
+          "hy4-preview"
+        ],
+        "displayName": "Hy4 preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1024000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.834,
+          "output $/M": 2.501,
+          "cache_read $/M": 0.042
+        },
+        "availability": [
+          "NanoGPT",
+          "Tencent Token Plan",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy4-preview",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.tencent.com/document/product/1823/130060",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-17T06:22:22.984Z"
+          }
+        ],
+        "fingerprint": "3f2f85e55e45aafa91399d85cd95e730839985bf7ae9bc1e2a88fd53fe1c8e86",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "hy::hy4-preview",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy",
+        "modelId": "Hy4-preview",
+        "slug": "Hy4-preview",
+        "slugAliases": [
+          "Hy4-preview",
+          "hy4-preview"
+        ],
+        "displayName": "Hy4 preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 1024000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.834,
+          "output $/M": 2.501,
+          "cache_read $/M": 0.042
+        },
+        "availability": [
+          "NanoGPT",
+          "Novita AI",
+          "Tencent Token Plan",
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy4-preview",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.tencent.com/document/product/1823/130060",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          }
+        ],
+        "fingerprint": "cdad28a661a0fec61ddccf5823db4df82745059969ba120970a40bb5b39b999c",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-09-17T11:56:53.358Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-17T11:56:53.358Z"
+    },
+    {
+      "id": "8c7a0c9a174f24b6625d9f1a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance-2-0-us-reference-to-video",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance-2.0/us/reference-to-video",
+        "slug": "seedance-2.0/us/reference-to-video",
+        "slugAliases": [
+          "seedance-2.0/us/reference-to-video"
+        ],
+        "displayName": "Seedance 2.0 US Reference to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "version": "2.0"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.37
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/bytedance/seedance-2.0/us/reference-to-video",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          }
+        ],
+        "fingerprint": "eae49f9e25bcea5443672adb3e8267a364290341cea51d6f2a3c173266e820f3",
+        "firstSeen": "2026-09-17T11:56:53.358Z",
+        "lastChanged": "2026-09-17T11:56:53.358Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T11:56:53.358Z"
+    },
+    {
+      "id": "d8318ac7039972344f801647",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance-2-0-us-image-to-video",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance-2.0/us/image-to-video",
+        "slug": "seedance-2.0/us/image-to-video",
+        "slugAliases": [
+          "seedance-2.0/us/image-to-video"
+        ],
+        "displayName": "Seedance 2.0 US Image to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "version": "2.0"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.37
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/bytedance/seedance-2.0/us/image-to-video",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          }
+        ],
+        "fingerprint": "eb7377a26081f686d9f3f072f07230a04c7a1a6fb5b4c838103670606ee88eed",
+        "firstSeen": "2026-09-17T11:56:53.358Z",
+        "lastChanged": "2026-09-17T11:56:53.358Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T11:56:53.358Z"
+    },
+    {
+      "id": "41e76789a7b7e7cb7adf7b50",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-8-live-standard",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "Gemini 3.8 Live Standard",
+        "slug": "Gemini 3.8 Live Standard",
+        "slugAliases": [
+          "Gemini 3.8 Live Standard"
+        ],
+        "displayName": "Gemini 3.8 Live Standard",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "standard",
+        "capabilities": {
+          "tier": "standard",
+          "version": "3.8"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          }
+        ],
+        "fingerprint": "3969a3ff6f8228133ce433983d199bb4770d29d4e1cc2a04b8ff0854d181c8d5",
+        "firstSeen": "2026-09-17T11:56:53.358Z",
+        "lastChanged": "2026-09-17T11:56:53.358Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-17T11:56:53.358Z"
+    },
+    {
+      "id": "7d2ec143a55c02a84689fbec",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ai-forever-smith::ai-forever-smith-exp",
+        "owner": "Sber",
+        "vendorId": "sber",
+        "family": "ai-forever-smith",
+        "modelId": "ai-forever/SMITH-Exp",
+        "slug": "ai-forever/SMITH-Exp",
+        "slugAliases": [
+          "ai-forever/SMITH-Exp"
+        ],
+        "displayName": "SMITH-Exp",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:sber:ai-forever",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ai-forever/SMITH-Exp",
+            "observedAt": "2026-09-17T11:56:53.358Z"
+          }
+        ],
+        "fingerprint": "f27cec925cc555000ad8ddfee4d52388459bd2c43d43e1a9d222e2da66eddfaa",
+        "firstSeen": "2026-09-17T11:56:53.358Z",
+        "lastChanged": "2026-09-17T11:56:53.358Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T11:56:53.358Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
