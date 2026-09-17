@@ -221019,6 +221019,131 @@
         "model"
       ],
       "detectedAt": "2026-09-17T19:45:28.821Z"
+    },
+    {
+      "id": "2d2680e7d4b407ce2724864c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma4-31b-splituntied",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma4-31b-splituntied",
+        "slug": "gemma4-31b-splituntied",
+        "slugAliases": [
+          "gemma4-31b-splituntied"
+        ],
+        "displayName": "Gemma 4 31B Split-Untied",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.3,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-17T22:27:28.145Z"
+          }
+        ],
+        "fingerprint": "96b301569eeab3190e88b5d152a6fb62e6be2957022429b76eb2658234f4b59d",
+        "firstSeen": "2026-09-17T22:27:28.145Z",
+        "lastChanged": "2026-09-17T22:27:28.145Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T22:27:28.145Z"
+    },
+    {
+      "id": "8bef7676ba2da61cf5f89ad4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-zai-org-glm::wandb-zai-org-glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "wandb/zai-org/GLM-5.3-Flash",
+        "slug": "wandb/zai-org/GLM-5.3-Flash",
+        "slugAliases": [
+          "wandb/zai-org/GLM-5.3-Flash"
+        ],
+        "displayName": "wandb/zai-org/GLM-5.3-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1049000
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://wandb.ai/site/pricing/tokens/",
+            "observedAt": "2026-09-17T22:27:28.145Z"
+          }
+        ],
+        "fingerprint": "49bf40015fa030f58ba61916db63c678dc9962469eb6c70e02f3c4c1089bd629",
+        "firstSeen": "2026-09-17T22:27:28.145Z",
+        "lastChanged": "2026-09-17T22:27:28.145Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-17T22:27:28.145Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
