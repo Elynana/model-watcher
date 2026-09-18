@@ -221346,6 +221346,2829 @@
         "model"
       ],
       "detectedAt": "2026-09-18T05:09:39.049Z"
+    },
+    {
+      "id": "1d3f17070846ef043c188293",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-fable-5-1-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5.1:batch",
+        "slug": "claude-fable-5.1:batch",
+        "slugAliases": [
+          "claude-fable-5.1:batch"
+        ],
+        "displayName": "claude-fable-5.1:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "fable",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "fable",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 25
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "f94603d45a86447fce3bc9b8a0e572b1a1404af656e8223c4e0606207152565b",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "5b2ca84714c51a79d249ab61",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-haiku-4-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-4.5:batch",
+        "slug": "claude-haiku-4.5:batch",
+        "slugAliases": [
+          "claude-haiku-4.5:batch"
+        ],
+        "displayName": "claude-haiku-4.5:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "haiku",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "07c038e8702a9aa62a63b6d19f5edad9297108a1ebb98ac125cb99ce533e2599",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "2e432fb8434cf31fd477c1ba",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-1-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4.1:batch",
+        "slug": "claude-opus-4.1:batch",
+        "slugAliases": [
+          "claude-opus-4.1:batch"
+        ],
+        "displayName": "claude-opus-4.1:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "opus",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 7.5,
+          "output $/M": 37.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "3e930d283159921d07b5972bb7e24df008b5c16cb47299b2ea03f93b38fde57c",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "e4c3025c06eeadfe756b1cec",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4.5:batch",
+        "slug": "claude-opus-4.5:batch",
+        "slugAliases": [
+          "claude-opus-4.5:batch"
+        ],
+        "displayName": "claude-opus-4.5:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "opus",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 12.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "d678020e956d5b95348b8341b89b4846632b9c3650d2239861af190ebf9cfdc6",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "ce78a82f278cb551d9119f7e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-6-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4.6:batch",
+        "slug": "claude-opus-4.6:batch",
+        "slugAliases": [
+          "claude-opus-4.6:batch"
+        ],
+        "displayName": "claude-opus-4.6:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "opus",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 12.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "829942c476c1e5f550909b6653fc6603cfa3f296a4b458acb7357371854f8b16",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "aecfa0da151f4ac16e5fab35",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-7-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4.7:batch",
+        "slug": "claude-opus-4.7:batch",
+        "slugAliases": [
+          "claude-opus-4.7:batch"
+        ],
+        "displayName": "claude-opus-4.7:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "opus",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 12.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "6e5527b20111454fb886981a5d77ffa7cfc9b97ebdb6021872479c20c45dee3d",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "da749666281aeb77c2ddf93a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-4-8-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4.8:batch",
+        "slug": "claude-opus-4.8:batch",
+        "slugAliases": [
+          "claude-opus-4.8:batch"
+        ],
+        "displayName": "claude-opus-4.8:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "opus",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 12.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "1e7fc9d5a6384db7f7fc6f896fd492586e80c62e588cd94f7a005c106205006c",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "6464d96c5d85a8ee97b5766f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-4-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-4.5:batch",
+        "slug": "claude-sonnet-4.5:batch",
+        "slugAliases": [
+          "claude-sonnet-4.5:batch"
+        ],
+        "displayName": "claude-sonnet-4.5:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "sonnet",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "ecaced294525bc908d9a235c44da3aaa5205b5f9c102def901655461f904cad2",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "0a5826dc51ef52d888cae597",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-4-6-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-4.6:batch",
+        "slug": "claude-sonnet-4.6:batch",
+        "slugAliases": [
+          "claude-sonnet-4.6:batch"
+        ],
+        "displayName": "claude-sonnet-4.6:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "sonnet",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "828ab76bde1be56750bf74b7e2ecfdaebb30977ddfe8a57aaab7b1054ea3b543",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "9498fc0275ebbc6b4abe3bd6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-flash-lite-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash-lite:batch",
+        "slug": "gemini-2.5-flash-lite:batch",
+        "slugAliases": [
+          "gemini-2.5-flash-lite:batch"
+        ],
+        "displayName": "gemini-2.5-flash-lite:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "flash",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "47a02ad3654f1f381b9ed11681c3ff04cd7b7bdaa44d327c9eb2abdcf56c3bb5",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "3ee947a4fd6e9faac83f44ca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-flash-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-flash:batch",
+        "slug": "gemini-2.5-flash:batch",
+        "slugAliases": [
+          "gemini-2.5-flash:batch"
+        ],
+        "displayName": "gemini-2.5-flash:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65535
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 1.25
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "d10242d2a3c5799a2e79cb4358cec10a5f37e0135e08451e5d1f79dffa53f238",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "df6a907a8940ddf025382a47",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-2-5-pro-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-2.5-pro:batch",
+        "slug": "gemini-2.5-pro:batch",
+        "slugAliases": [
+          "gemini-2.5-pro:batch"
+        ],
+        "displayName": "gemini-2.5-pro:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.625,
+          "output $/M": 5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "dcb35ef57b764eaca7ddbe028ebc0360311744e928b43952dbf359677d1eb015",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "71fc21884681958cee083f81",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite:batch",
+        "slug": "gemini-3.1-flash-lite:batch",
+        "slugAliases": [
+          "gemini-3.1-flash-lite:batch"
+        ],
+        "displayName": "gemini-3.1-flash-lite:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "flash",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.125,
+          "output $/M": 0.75
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "8dfdd72ce0a7103809ba8a020813688c7285d6d6dc407f87052638e7194c3753",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "6dab11377cc574c8fcc264da",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-pro-preview-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-pro-preview:batch",
+        "slug": "gemini-3.1-pro-preview:batch",
+        "slugAliases": [
+          "gemini-3.1-pro-preview:batch"
+        ],
+        "displayName": "gemini-3.1-pro-preview:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "pro",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "pro",
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 6
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "5db5b134bc6291821cbd3313cf9156d0888e618824fad8ca9807146b09d304f2",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "210d89d2ad56beab8f0b2b36",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-flash-lite-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash-lite:batch",
+        "slug": "gemini-3.5-flash-lite:batch",
+        "slugAliases": [
+          "gemini-3.5-flash-lite:batch"
+        ],
+        "displayName": "gemini-3.5-flash-lite:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "tier": "flash",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 1.25
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "0199cc1af61e87a95bbd9a4679896451d3cb508f165054d84cd1b91043d5f726",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "a15796be667ef351527c8dd0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-5-flash-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash:batch",
+        "slug": "gemini-3.5-flash:batch",
+        "slugAliases": [
+          "gemini-3.5-flash:batch"
+        ],
+        "displayName": "gemini-3.5-flash:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 4.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "57ba3edb575855894edd2fb2e9700a45d021e8363f071aa8f2f0aaf5cd7cb2ef",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "ff550329bc22d0d704df087f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-6-flash-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.6-flash:batch",
+        "slug": "gemini-3.6-flash:batch",
+        "slugAliases": [
+          "gemini-3.6-flash:batch"
+        ],
+        "displayName": "gemini-3.6-flash:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "3.6"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.375,
+          "output $/M": 1.875
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "0481a6fd1090eb818ac94626b4f55c4135d17621c8a8618e4df604faf10f7007",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "c58c5ec79734459715c9a47a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-7-flash-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.7-flash:batch",
+        "slug": "gemini-3.7-flash:batch",
+        "slugAliases": [
+          "gemini-3.7-flash:batch"
+        ],
+        "displayName": "gemini-3.7-flash:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "3.7"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.375,
+          "output $/M": 1.875
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "4690cd58e5c6d415e6496ac964ad2ee909489e940c2d8e376d1902fa4a70d9b0",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "eea9ace6ded0b29a41d48b4c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-8-flash-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash:batch",
+        "slug": "gemini-3.8-flash:batch",
+        "slugAliases": [
+          "gemini-3.8-flash:batch"
+        ],
+        "displayName": "gemini-3.8-flash:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.375,
+          "output $/M": 1.875
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "3d4d68ea2a855b2ec591c049bbc15a2cc1846dd6a9b6041e6ae39781bd103f50",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "84956b4879bbee96206d43ed",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-medium-3-1-batch",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-3.1:batch",
+        "slug": "mistral-medium-3.1:batch",
+        "slugAliases": [
+          "mistral-medium-3.1:batch"
+        ],
+        "displayName": "mistral-medium-3.1:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "medium",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": false,
+          "webSearch": false,
+          "tier": "medium",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 104857
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "4503961c6e54374f5a8a7aac6712c10f1e47a510aba8295ba87a47a427897ba6",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "2eb14606c620180f60eb056c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-3-5-turbo-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-3.5-turbo:batch",
+        "slug": "gpt-3.5-turbo:batch",
+        "slugAliases": [
+          "gpt-3.5-turbo:batch"
+        ],
+        "displayName": "gpt-3.5-turbo:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": false,
+          "webSearch": false,
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 16385,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 0.75
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "1db9eef768849f48747fdfb9998135fc44aa73587833848da574a14d8436ec34",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "3cb3b42df67c9f4428461445",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-4-1-mini-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1-mini:batch",
+        "slug": "gpt-4.1-mini:batch",
+        "slugAliases": [
+          "gpt-4.1-mini:batch"
+        ],
+        "displayName": "gpt-4.1-mini:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": false,
+          "webSearch": false,
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.8
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "c023ce5e19682c7a1cbfe507a9e9e5809ebe578e62bcfe72a3d1e6d34911f490",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "e531143f0cf9866d9b0d8f35",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-4-1-nano-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1-nano:batch",
+        "slug": "gpt-4.1-nano:batch",
+        "slugAliases": [
+          "gpt-4.1-nano:batch"
+        ],
+        "displayName": "gpt-4.1-nano:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": false,
+          "webSearch": false,
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "3c0738bd88daf591ef1c46e716789ef76c1b6d723df3a95935cbe83c48522442",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "d770cee356259ca2637e20bc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-4-1-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1:batch",
+        "slug": "gpt-4.1:batch",
+        "slugAliases": [
+          "gpt-4.1:batch"
+        ],
+        "displayName": "gpt-4.1:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": false,
+          "webSearch": false,
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 4
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "371c57a90180aaaefea859f9e48d5e7b3569752e063c30dd108080d7a14d8c5b",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "76b2281f1a0eca3c797c2e7e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-1-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.1:batch",
+        "slug": "gpt-5.1:batch",
+        "slugAliases": [
+          "gpt-5.1:batch"
+        ],
+        "displayName": "gpt-5.1:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.625,
+          "output $/M": 5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "323801c0d3309868ba59be599f7650ba16f374949d90dd647616ea3de7539efd",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "7a4500d9e91e66a7779c7ac3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-2-pro-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.2-pro:batch",
+        "slug": "gpt-5.2-pro:batch",
+        "slugAliases": [
+          "gpt-5.2-pro:batch"
+        ],
+        "displayName": "gpt-5.2-pro:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10.5,
+          "output $/M": 84
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "d133a023feb0ec5569b67c7a45f6b5f4a817b5b1a755cccb468fe4187ceba0e7",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "227f2b9ac1768757cf1915db",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-2-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.2:batch",
+        "slug": "gpt-5.2:batch",
+        "slugAliases": [
+          "gpt-5.2:batch"
+        ],
+        "displayName": "gpt-5.2:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.875,
+          "output $/M": 7
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "95f52b57f7d57b7d279444956c40c0395c0287b3860fcb3cb592c2849b5b1a55",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "dcc68abc69e574392ec9656a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-4-mini-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.4-mini:batch",
+        "slug": "gpt-5.4-mini:batch",
+        "slugAliases": [
+          "gpt-5.4-mini:batch"
+        ],
+        "displayName": "gpt-5.4-mini:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.4"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.375,
+          "output $/M": 2.25
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "93d69d5b5962a532cbcfaf01c382a18c0d23ee2085bbaa26b61a23f1cacd96c8",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "c641d455d6ee6cd6b6182aca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-4-nano-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.4-nano:batch",
+        "slug": "gpt-5.4-nano:batch",
+        "slugAliases": [
+          "gpt-5.4-nano:batch"
+        ],
+        "displayName": "gpt-5.4-nano:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.4"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.625
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "01d60b31873232722349bf799f550dac6008e860dacddfc4763cb2e33043ab23",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "a8f450aa255bfce5b361b829",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-4-pro-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.4-pro:batch",
+        "slug": "gpt-5.4-pro:batch",
+        "slugAliases": [
+          "gpt-5.4-pro:batch"
+        ],
+        "displayName": "gpt-5.4-pro:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.4"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 15,
+          "output $/M": 90
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "f1d11cb859459eb9b0c82695b592f552ce892864a1a509228ec48e2e4704928b",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "ce2eefed4c904482c25cf83e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-4-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.4:batch",
+        "slug": "gpt-5.4:batch",
+        "slugAliases": [
+          "gpt-5.4:batch"
+        ],
+        "displayName": "gpt-5.4:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "9622f8856464b90f6472aecfb3facf630188bf8d820a1ff1f2fb4f135c764341",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "7755888a7e0e72ff30a51ef5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-5-pro-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.5-pro:batch",
+        "slug": "gpt-5.5-pro:batch",
+        "slugAliases": [
+          "gpt-5.5-pro:batch"
+        ],
+        "displayName": "gpt-5.5-pro:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 15,
+          "output $/M": 90
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "2c15ce8558398746745ed2d3b69c00f8c6a9bffa9f2b5fd1da2206bab13b26c6",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "c36ad1a33a33af81c6ff3363",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-5-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.5:batch",
+        "slug": "gpt-5.5:batch",
+        "slugAliases": [
+          "gpt-5.5:batch"
+        ],
+        "displayName": "gpt-5.5:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 15
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "bce26f4a2d013fb7637447562ae48865a16444047f53802c23c04e1e9762ce97",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "86df042c33adcdc04dfe8ac1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-luna-pro-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-luna-pro:batch",
+        "slug": "gpt-5.6-luna-pro:batch",
+        "slugAliases": [
+          "gpt-5.6-luna-pro:batch"
+        ],
+        "displayName": "gpt-5.6-luna-pro:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "acb278a528f35249349507aad2cbe754b6ed2033a28ab3bfd360f049c6ee737a",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "d200410acb364385e2b547e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-luna-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-luna:batch",
+        "slug": "gpt-5.6-luna:batch",
+        "slugAliases": [
+          "gpt-5.6-luna:batch"
+        ],
+        "displayName": "gpt-5.6-luna:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "b02625c119d56fdfa502463063e3161d837b5e928e781ae8f16b69a9b118c41e",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "f7fe01cf68746e51f53f0b1e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-sol-pro-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-sol-pro:batch",
+        "slug": "gpt-5.6-sol-pro:batch",
+        "slugAliases": [
+          "gpt-5.6-sol-pro:batch"
+        ],
+        "displayName": "gpt-5.6-sol-pro:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "86c86e27d868a9a40abc11fb6d7c650045baf66bcb6d8a4eeb023b550ddb8df8",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "6d764e61bf8b601e81cd3ae5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-sol-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-sol:batch",
+        "slug": "gpt-5.6-sol:batch",
+        "slugAliases": [
+          "gpt-5.6-sol:batch"
+        ],
+        "displayName": "gpt-5.6-sol:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "429104b4113f1c7901a568cf03b66b5303b4d2cd4de75ce3b0360038ea89f491",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "639e5600679a3ae72bc5f76e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-terra-pro-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-terra-pro:batch",
+        "slug": "gpt-5.6-terra-pro:batch",
+        "slugAliases": [
+          "gpt-5.6-terra-pro:batch"
+        ],
+        "displayName": "gpt-5.6-terra-pro:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 6
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "2b0e9149675be0801bff78ef9531ef9df08d5934745fab923a9c14b4fdbe77bd",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "85146801bd5d985567aefbcd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-6-terra-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.6-terra:batch",
+        "slug": "gpt-5.6-terra:batch",
+        "slugAliases": [
+          "gpt-5.6-terra:batch"
+        ],
+        "displayName": "gpt-5.6-terra:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 6
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "cd009815ce0f8f95a5e562e641ae7308ea950984ab1c02b72ee9906301a2ffba",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "85efec117da8b57bd3cc6f6f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-9b-batch",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.5-9b:batch",
+        "slug": "qwen3.5-9b:batch",
+        "slugAliases": [
+          "qwen3.5-9b:batch"
+        ],
+        "displayName": "qwen3.5-9b:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "input $/M": 0.17,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "af167263e0396d8e473d522d63688d5cbd16e554a7425b8de95f145864357c8e",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "17006f23e522dca0f20aaa7d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-2-4t-a95b-batch",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-2.4t-a95b:batch",
+        "slug": "qwen3.8-2.4t-a95b:batch",
+        "slugAliases": [
+          "qwen3.8-2.4t-a95b:batch"
+        ],
+        "displayName": "qwen3.8-2.4t-a95b:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "3.8.2"
+        },
+        "limits": {
+          "contextTokens": 1010000,
+          "maxOutputTokens": 909000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "2d9de6eeeee7bb2f5d10d7eac17aed09bbf169e29a0102b8049cdd87560092b3",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "0ed9d055c1335954aab908e5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-3-batch",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.3:batch",
+        "slug": "grok-4.3:batch",
+        "slugAliases": [
+          "grok-4.3:batch"
+        ],
+        "displayName": "grok-4.3:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 900000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 2
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "2f424bff6f0642d1a226a8582d60ecd0ca9e9851809a9046c861e87befc9fc37",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "e12df7b0672481e7991b5b35",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-2-batch",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.2:batch",
+        "slug": "glm-5.2:batch",
+        "slugAliases": [
+          "glm-5.2:batch"
+        ],
+        "displayName": "glm-5.2:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 0.7,
+          "output $/M": 2.2
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "13255027b0659b89756eea2f7cd94600948a8833e15b32517184f4a1f25385c8",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "fc7c24656df0fcb0541eeb01",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flash-batch",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-flash:batch",
+        "slug": "glm-5.3-flash:batch",
+        "slugAliases": [
+          "glm-5.3-flash:batch"
+        ],
+        "displayName": "glm-5.3-flash:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 0.075,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "a81c60145233e006406c597fb6e3f3d3d14765e11859aa8eedd9c18dc1cfb699",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "ad0d6bd432ccb2729fb34815",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-batch",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3:batch",
+        "slug": "glm-5.3:batch",
+        "slugAliases": [
+          "glm-5.3:batch"
+        ],
+        "displayName": "glm-5.3:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 0.7,
+          "output $/M": 2.2
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "30f834a905365c82cf19fa76833440d58bad75061c8c9723347abe4f25f98235",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "c4d4fe9968f30df1dad69eda",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ai-forever-zarya::ai-forever-zarya-4b",
+        "owner": "Sber",
+        "vendorId": "sber",
+        "family": "ai-forever-zarya",
+        "modelId": "ai-forever/Zarya-4B",
+        "slug": "ai-forever/Zarya-4B",
+        "slugAliases": [
+          "ai-forever/Zarya-4B"
+        ],
+        "displayName": "Zarya-4B",
+        "modalities": [
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-18",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:sber:ai-forever",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ai-forever/Zarya-4B",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "d72137ae81bf26d26b4e2975eac72f3946690c23782faeb50b8ee2cd5c3c36b9",
+        "firstSeen": "2026-09-18T09:42:58.747Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T09:42:58.747Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
