@@ -224803,6 +224803,56 @@
         "model"
       ],
       "detectedAt": "2026-09-18T17:25:51.600Z"
+    },
+    {
+      "id": "324cd03cfc951a5c74dd74a1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "aliceai-foundation::aliceai-foundation-80b-a3b-base",
+        "owner": "Yandex",
+        "vendorId": "yandex",
+        "family": "aliceai-foundation",
+        "modelId": "AliceAI-Foundation-80B-A3B-Base",
+        "slug": "AliceAI-Foundation-80B-A3B-Base",
+        "slugAliases": [
+          "AliceAI-Foundation-80B-A3B-Base"
+        ],
+        "displayName": "AliceAI-Foundation-80B-A3B-Base",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "80B",
+          "activeParameters": "3B active"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:yandex:yandex",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base",
+            "observedAt": "2026-09-18T19:50:50.627Z"
+          }
+        ],
+        "fingerprint": "ea3e0b7d269d1fea9e250e4ec432f16fa695259075225b98856065c5065945be",
+        "firstSeen": "2026-09-18T19:50:50.627Z",
+        "lastChanged": "2026-09-18T19:50:50.627Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T19:50:50.627Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
