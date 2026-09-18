@@ -224169,6 +224169,484 @@
         "model"
       ],
       "detectedAt": "2026-09-18T09:42:58.747Z"
+    },
+    {
+      "id": "b48fc22a383e61f9d6a6db68",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "k3",
+        "slug": "k3",
+        "slugAliases": [
+          "k3"
+        ],
+        "displayName": "Kimi K3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Kimi For Coding"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "726d0575514979a7fd1a1de277d7722f1e83a62aa7a80b1c93145c16320c80a2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-05T01:12:48.239Z"
+      },
+      "after": {
+        "key": "kimi::k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "k3",
+        "slug": "k3",
+        "slugAliases": [
+          "k3"
+        ],
+        "displayName": "Kimi K3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Kimi For Coding (kimi.com)"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+            "observedAt": "2026-09-18T13:54:05.593Z"
+          }
+        ],
+        "fingerprint": "6ec4528e5461793571ac9342f3ffb26fc547ab4f6b02a86073b320ba2cc3329e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T13:54:05.593Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-18T13:54:05.593Z"
+    },
+    {
+      "id": "d987f6e56474746ac7304a87",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::k3-256k",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "k3-256k",
+        "slug": "k3-256k",
+        "slugAliases": [
+          "k3-256k"
+        ],
+        "displayName": "Kimi K3-256K",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "256K",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Kimi For Coding"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "d058d3e3382e2b3727d3a6521a1b470d1283590f98dd8ac8fce55e118ff2e7e5",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-05T01:12:48.239Z"
+      },
+      "after": {
+        "key": "kimi::k3-256k",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "k3-256k",
+        "slug": "k3-256k",
+        "slugAliases": [
+          "k3-256k"
+        ],
+        "displayName": "Kimi K3-256K",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "256K",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Kimi For Coding (kimi.com)"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+            "observedAt": "2026-09-18T13:54:05.593Z"
+          }
+        ],
+        "fingerprint": "73cfb3cece3cc9b01bc53abf7bcce25f0bdaa3ac6a262a43f51b76d765de8261",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T13:54:05.593Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-18T13:54:05.593Z"
+    },
+    {
+      "id": "52cadd2a419948f8a3ccfc91",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::kimi-for-coding",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-for-coding",
+        "slug": "kimi-for-coding",
+        "slugAliases": [
+          "kimi-for-coding"
+        ],
+        "displayName": "kimi-for-coding",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Kimi For Coding"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "1e21ecc94ff1c88477f852cc4d950b5bea66aa461dec77e97205fca71cf89722",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-14T19:01:03.261Z"
+      },
+      "after": {
+        "key": "kimi::kimi-for-coding",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-for-coding",
+        "slug": "kimi-for-coding",
+        "slugAliases": [
+          "kimi-for-coding"
+        ],
+        "displayName": "kimi-for-coding",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Kimi For Coding (kimi.com)"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+            "observedAt": "2026-09-18T13:54:05.593Z"
+          }
+        ],
+        "fingerprint": "e37a730d468defe2decf9e7e9a7c0f6c1ff952ddb2462f1f722167f76036cb7e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T13:54:05.593Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-18T13:54:05.593Z"
+    },
+    {
+      "id": "dd3c4b44424cd6418bbf770c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "kimi::kimi-for-coding-highspeed",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-for-coding-highspeed",
+        "slug": "kimi-for-coding-highspeed",
+        "slugAliases": [
+          "kimi-for-coding-highspeed"
+        ],
+        "displayName": "Kimi For Coding HighSpeed",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Kimi For Coding"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+            "observedAt": "2026-09-18T09:42:58.747Z"
+          }
+        ],
+        "fingerprint": "2c370b62691ebf41189f095e3fa9199979f2b2f03f18dcde5e1d9c63d51f0a38",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "kimi::kimi-for-coding-highspeed",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-for-coding-highspeed",
+        "slug": "kimi-for-coding-highspeed",
+        "slugAliases": [
+          "kimi-for-coding-highspeed"
+        ],
+        "displayName": "Kimi For Coding HighSpeed",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "Kimi For Coding (kimi.com)"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+            "observedAt": "2026-09-18T13:54:05.593Z"
+          }
+        ],
+        "fingerprint": "57931cd82b43e85ea6da2ab6a8b8b82cb50dc30b3603352f1bcff7bb1ded0f31",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T13:54:05.593Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-18T13:54:05.593Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
