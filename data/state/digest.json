@@ -221190,6 +221190,162 @@
         "model"
       ],
       "detectedAt": "2026-09-18T00:37:27.416Z"
+    },
+    {
+      "id": "803d4008d0d8988fc0caf15a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "jev::jev-latest",
+        "family": "jev",
+        "modelId": "jev-latest",
+        "slug": "jev-latest",
+        "slugAliases": [
+          "jev-latest"
+        ],
+        "displayName": "Jev",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.042,
+          "output $/M": 0
+        },
+        "availability": [
+          "OpenCode Zen"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-09-18T05:09:39.049Z"
+          }
+        ],
+        "fingerprint": "b0e795bea113082ca2dc9f4ebeb3bfc56fc3c21781bb8693fa39e0a490c9a78c",
+        "firstSeen": "2026-09-18T05:09:39.049Z",
+        "lastChanged": "2026-09-18T05:09:39.049Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T05:09:39.049Z"
+    },
+    {
+      "id": "a45ca674d7d8f7e0c3ee4ca1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flashx",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-flashx",
+        "slug": "glm-5.3-flashx",
+        "slugAliases": [
+          "glm-5.3-flashx"
+        ],
+        "displayName": "glm-5.3-flashx",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-18T05:09:39.049Z"
+          }
+        ],
+        "fingerprint": "5ca8b9e7d1ead9520802b91d2a0cba09c083480d90d640c30bf7c0307b8a8067",
+        "firstSeen": "2026-09-18T05:09:39.049Z",
+        "lastChanged": "2026-09-18T05:09:39.049Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T05:09:39.049Z"
+    },
+    {
+      "id": "e2c99c3650e6cf90e5e597c7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cari-4d-commercial::cari4d-commercial",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "cari-4d-commercial",
+        "modelId": "cari4d_commercial",
+        "slug": "cari4d_commercial",
+        "slugAliases": [
+          "cari4d_commercial"
+        ],
+        "displayName": "cari4d_commercial",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/cari4d_commercial",
+            "observedAt": "2026-09-18T05:09:39.049Z"
+          }
+        ],
+        "fingerprint": "fba6a09d815c5083f74d31749946fd9947de23ceb2cc64ad8a0252886b5812e2",
+        "firstSeen": "2026-09-18T05:09:39.049Z",
+        "lastChanged": "2026-09-18T05:09:39.049Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T05:09:39.049Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
