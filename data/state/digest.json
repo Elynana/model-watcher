@@ -224647,6 +224647,162 @@
         "availability"
       ],
       "detectedAt": "2026-09-18T13:54:05.593Z"
+    },
+    {
+      "id": "8b0ecaa99683a77f2ee58580",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "realtime::realtime-venus",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "realtime",
+        "modelId": "Realtime-Venus",
+        "slug": "Realtime-Venus",
+        "slugAliases": [
+          "Realtime-Venus"
+        ],
+        "displayName": "Realtime-Venus",
+        "modalities": [
+          "audio",
+          "speech",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Realtime-Venus",
+            "observedAt": "2026-09-18T17:25:51.600Z"
+          }
+        ],
+        "fingerprint": "639d11c84cc269fab4906502ea3affd9e637fd28da1dbe6253823fb90d476c17",
+        "firstSeen": "2026-09-18T17:25:51.600Z",
+        "lastChanged": "2026-09-18T17:25:51.600Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T17:25:51.600Z"
+    },
+    {
+      "id": "ec746dcc1539ecdb6452f201",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-4-voice-of-reason-stitch-9b",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-4-voice-of-reason-stitch-9b",
+        "slug": "glm-4-voice-of-reason-stitch-9b",
+        "slugAliases": [
+          "glm-4-voice-of-reason-stitch-9b"
+        ],
+        "displayName": "glm-4-voice-of-reason-stitch-9b",
+        "modalities": [
+          "embedding",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/glm-4-voice-of-reason-stitch-9b",
+            "observedAt": "2026-09-18T17:25:51.600Z"
+          }
+        ],
+        "fingerprint": "7de44fbc4fb682521bb3b16dce811ccc120bc0cc56f8487454aeb6e68ba6d9d6",
+        "firstSeen": "2026-09-18T17:25:51.600Z",
+        "lastChanged": "2026-09-18T17:25:51.600Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T17:25:51.600Z"
+    },
+    {
+      "id": "2390b65d40ed71107d3c965a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-4-voice-of-reason-9b",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-4-voice-of-reason-9b",
+        "slug": "glm-4-voice-of-reason-9b",
+        "slugAliases": [
+          "glm-4-voice-of-reason-9b"
+        ],
+        "displayName": "glm-4-voice-of-reason-9b",
+        "modalities": [
+          "embedding",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/glm-4-voice-of-reason-9b",
+            "observedAt": "2026-09-18T17:25:51.600Z"
+          }
+        ],
+        "fingerprint": "9b917dd342a536458e8442d44c5c2ebeb252c8a6b370640d50ddc9e7585a9482",
+        "firstSeen": "2026-09-18T17:25:51.600Z",
+        "lastChanged": "2026-09-18T17:25:51.600Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-18T17:25:51.600Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
