@@ -225434,6 +225434,468 @@
         "model"
       ],
       "detectedAt": "2026-09-19T15:50:33.008Z"
+    },
+    {
+      "id": "e6f89c63aff250cb19a7f379",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "minimax::minimax-m2-5-highspeed",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.5-highspeed",
+        "slug": "MiniMax-M2.5-highspeed",
+        "slugAliases": [
+          "MiniMax-M2.5-highspeed",
+          "minimax-m2.5-highspeed"
+        ],
+        "displayName": "MiniMax M2.5 Highspeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131100
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4,
+          "cache_read $/M": 0.06,
+          "cache_write $/M": 0.375
+        },
+        "availability": [
+          "MiniMax (minimaxi.com)",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "novita"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimaxi.com/docs/guides/quickstart",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/pricing",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          }
+        ],
+        "fingerprint": "575caee0113c0700d8053acd87c267b72ca611cc71d3f4c9f95b4ebb22f2ddb9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "minimax::minimax-m2-5-highspeed",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.5-highspeed",
+        "slug": "MiniMax-M2.5-highspeed",
+        "slugAliases": [
+          "MiniMax-M2.5-highspeed",
+          "minimax-m2.5-highspeed"
+        ],
+        "displayName": "MiniMax M2.5 Highspeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131100
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4,
+          "cache_read $/M": 0.06,
+          "cache_write $/M": 0.375
+        },
+        "availability": [
+          "MiniMax (minimax.cn)",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "novita"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimaxi.com/docs/guides/quickstart",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/pricing",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          }
+        ],
+        "fingerprint": "9cff824c3597552b15c4f8a8c0d4e1d731ad0b99a2144bc4063bf27e6563f5e6",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-19T18:14:28.923Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-19T18:14:28.923Z"
+    },
+    {
+      "id": "20fa5669c050e5e602d2831f",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "minimax::minimax-m2-7-highspeed",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.7-highspeed",
+        "slug": "MiniMax-M2.7-highspeed",
+        "slugAliases": [
+          "MiniMax-M2.7-highspeed",
+          "minimax-m2.7-highspeed"
+        ],
+        "displayName": "MiniMax M2.7-highspeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4,
+          "cache_read $/M": 0.06,
+          "cache_write $/M": 0.375
+        },
+        "availability": [
+          "MiniMax (minimaxi.com)",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "novita"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimaxi.com/docs/guides/quickstart",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          }
+        ],
+        "fingerprint": "ef227807df95c759b7d8174fa05a42b64bd2f65c70b5eaea2b17cd0db52a38c4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-04T13:35:05.546Z"
+      },
+      "after": {
+        "key": "minimax::minimax-m2-7-highspeed",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M2.7-highspeed",
+        "slug": "MiniMax-M2.7-highspeed",
+        "slugAliases": [
+          "MiniMax-M2.7-highspeed",
+          "minimax-m2.7-highspeed"
+        ],
+        "displayName": "MiniMax M2.7-highspeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "m2",
+        "capabilities": {
+          "tier": "m2",
+          "version": "2",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 204800,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4,
+          "cache_read $/M": 0.06,
+          "cache_write $/M": 0.375
+        },
+        "availability": [
+          "MiniMax (minimax.cn)",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "novita"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-18",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.minimaxi.com/docs/guides/quickstart",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          }
+        ],
+        "fingerprint": "b3b602c72549aeebf1edd142dc6e76e2238079a798aa5b3ab983cbb09faa8ad0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-19T18:14:28.923Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-19T18:14:28.923Z"
+    },
+    {
+      "id": "8ddf36fa18beb59ce937fa13",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-voice-stt-1-0",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-voice-stt-1.0",
+        "slug": "grok-voice-stt-1.0",
+        "slugAliases": [
+          "grok-voice-stt-1.0"
+        ],
+        "displayName": "Grok Voice STT 1.0",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.0",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio",
+          "version": "1.0"
+        },
+        "limits": {
+          "contextTokens": 15000,
+          "maxOutputTokens": 15000
+        },
+        "availability": [
+          "ZenMux"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.zenmux.ai",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          }
+        ],
+        "fingerprint": "de9bc6e1f1260c3671ee8c9e828e17b4a2d5f3588b3d79a205ee42a9e24872ef",
+        "firstSeen": "2026-09-19T18:14:28.923Z",
+        "lastChanged": "2026-09-19T18:14:28.923Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-19T18:14:28.923Z"
+    },
+    {
+      "id": "9377aa41a5c56f815cc3ce1f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-voice-tts-1-0",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-voice-tts-1.0",
+        "slug": "grok-voice-tts-1.0",
+        "slugAliases": [
+          "grok-voice-tts-1.0"
+        ],
+        "displayName": "Grok Voice TTS 1.0",
+        "modalities": [
+          "audio"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.0",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "1.0"
+        },
+        "limits": {
+          "contextTokens": 15000,
+          "maxOutputTokens": 15000
+        },
+        "availability": [
+          "ZenMux"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.zenmux.ai",
+            "observedAt": "2026-09-19T18:14:28.923Z"
+          }
+        ],
+        "fingerprint": "4a5f09e3372a9b1dc88689f7b33338f8f04ce204b5eabae440b049037b04bbd9",
+        "firstSeen": "2026-09-19T18:14:28.923Z",
+        "lastChanged": "2026-09-19T18:14:28.923Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-19T18:14:28.923Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
