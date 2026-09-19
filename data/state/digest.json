@@ -225237,6 +225237,203 @@
         "model"
       ],
       "detectedAt": "2026-09-19T07:33:45.681Z"
+    },
+    {
+      "id": "a8dec26c87d545f762e1d520",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-cybersecurity",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-cybersecurity",
+        "slug": "qwen3.8-27b-cybersecurity",
+        "slugAliases": [
+          "qwen3.8-27b-cybersecurity"
+        ],
+        "displayName": "Qwen 3.8 27B Cybersecurity",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          }
+        ],
+        "fingerprint": "803cbe6123f340c6752d3149fec44e2c52e56d7d19ac460174aebe3926f0a0a6",
+        "firstSeen": "2026-09-19T15:50:33.008Z",
+        "lastChanged": "2026-09-19T15:50:33.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-19T15:50:33.008Z"
+    },
+    {
+      "id": "0f7cd4ad8e60c27ae00f335b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-26b-a4b-it-cybersecurity",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-26b-a4b-it-cybersecurity",
+        "slug": "gemma-4-26b-a4b-it-cybersecurity",
+        "slugAliases": [
+          "gemma-4-26b-a4b-it-cybersecurity"
+        ],
+        "displayName": "Gemma 4 26B A4B Cybersecurity",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "26B",
+          "activeParameters": "4B active",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1056,
+          "output $/M": 0.3344,
+          "cache_read $/M": 0.0528
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          }
+        ],
+        "fingerprint": "da8d5ee5f3151a60751808c123f867f1618f736b9375282bdac0c4c94f03771b",
+        "firstSeen": "2026-09-19T15:50:33.008Z",
+        "lastChanged": "2026-09-19T15:50:33.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-19T15:50:33.008Z"
+    },
+    {
+      "id": "24d3a39c86e61586304f003f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-flash-cybersecurity",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-flash-cybersecurity",
+        "slug": "glm-5.3-flash-cybersecurity",
+        "slugAliases": [
+          "glm-5.3-flash-cybersecurity"
+        ],
+        "displayName": "GLM 5.3 Flash Cybersecurity",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-19T15:50:33.008Z"
+          }
+        ],
+        "fingerprint": "281506f0310c2e39f9b9fee805feee9737ca28817d0873d8c13349e4aee6e466",
+        "firstSeen": "2026-09-19T15:50:33.008Z",
+        "lastChanged": "2026-09-19T15:50:33.008Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-19T15:50:33.008Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
