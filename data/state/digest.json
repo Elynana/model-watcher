@@ -232739,6 +232739,547 @@
         "model"
       ],
       "detectedAt": "2026-09-21T19:12:18.497Z"
+    },
+    {
+      "id": "94efc27222fd61f30ad45c06",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-pro",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-pro",
+        "slug": "mimo-v2.6-pro",
+        "slugAliases": [
+          "mimo-v2.6-pro"
+        ],
+        "displayName": "MiMo-V2.6-Pro",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-09-22",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "OpenCode Go",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/go",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          }
+        ],
+        "fingerprint": "8890c5670d462b4e58047cc37b41ae1dc67eb6aa930ecbe56f2e08cf52043e7e",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-21T22:37:16.182Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T22:37:16.182Z"
+    },
+    {
+      "id": "cd41701e841d7e0df61a5095",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-flash",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-flash",
+        "slug": "mimo-v2.6-flash",
+        "slugAliases": [
+          "mimo-v2.6-flash"
+        ],
+        "displayName": "MiMo-V2.6-Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-09-22",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "OpenCode Go",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/go",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          }
+        ],
+        "fingerprint": "f11b618227dd4f95c07fc022c24d376f24bf172928e157c189e69442a9d53fe9",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-21T22:37:16.182Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T22:37:16.182Z"
+    },
+    {
+      "id": "5e7fadc8a4b6a2f2e30ebb06",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-pro-ultraspeed",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-pro-ultraspeed",
+        "slug": "mimo-v2.6-pro-ultraspeed",
+        "slugAliases": [
+          "mimo-v2.6-pro-ultraspeed"
+        ],
+        "displayName": "MiMo-V2.6-Pro-UltraSpeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 4.35,
+          "output $/M": 8.7,
+          "cache_read $/M": 0.036
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          }
+        ],
+        "fingerprint": "949468fe34614324514bb51ecdc47c4ef4ae06da5dbd592aa0501a37efad9dd9",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-21T22:37:16.182Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T22:37:16.182Z"
+    },
+    {
+      "id": "9691ed941feded699ae7c6e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-flash-free",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-flash-free",
+        "slug": "mimo-v2.6-flash-free",
+        "slugAliases": [
+          "mimo-v2.6-flash-free"
+        ],
+        "displayName": "MiMo-V2.6-Flash Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-09-22",
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "OpenCode Zen"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          }
+        ],
+        "fingerprint": "8f30844e3f806b61c1009d4534272be131b97c99ac62c51b6ceebc5d393e6408",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-21T22:37:16.182Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T22:37:16.182Z"
+    },
+    {
+      "id": "c95c95a77994d7213f0ae9b1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-anthropic-claude::bedrock-mantle-anthropic-claude-haiku-4-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "bedrock_mantle/anthropic.claude-haiku-4-5",
+        "slug": "bedrock_mantle/anthropic.claude-haiku-4-5",
+        "slugAliases": [
+          "bedrock_mantle/anthropic.claude-haiku-4-5"
+        ],
+        "displayName": "bedrock_mantle/anthropic.claude-haiku-4-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "haiku",
+          "version": "4.5"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/claude-4-5-haiku-anthropic-amazon-bedrock",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          }
+        ],
+        "fingerprint": "c594e3b9c14d866de459b4b907ff440dcb2622dd35eada5a59a2a4a4e219546b",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-21T22:37:16.182Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T22:37:16.182Z"
+    },
+    {
+      "id": "9843f5b308895407f810f448",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-distill-qwen-9b",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "MiMo-V2.6-Distill-Qwen-9B",
+        "slug": "MiMo-V2.6-Distill-Qwen-9B",
+        "slugAliases": [
+          "MiMo-V2.6-Distill-Qwen-9B"
+        ],
+        "displayName": "MiMo-V2.6-Distill-Qwen-9B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B",
+          "version": "2.6"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:xiaomi:xiaomimimo",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          }
+        ],
+        "fingerprint": "4b40650b77aeedb4bc83af2fb1b6c5ac6346377476ee0a3504e2f9d96fd8b01e",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-21T22:37:16.182Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T22:37:16.182Z"
+    },
+    {
+      "id": "8dcf0baf22bcc5dcdaf2106e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-flash-rl",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "MiMo-V2.6-Flash-RL",
+        "slug": "MiMo-V2.6-Flash-RL",
+        "slugAliases": [
+          "MiMo-V2.6-Flash-RL"
+        ],
+        "displayName": "MiMo-V2.6-Flash-RL",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "flash",
+          "version": "2.6"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:xiaomi:xiaomimimo",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          }
+        ],
+        "fingerprint": "845bf834c2d248c2deb736bb0a3e47580b7d8c58fcdaa6b65486782332c18d03",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-21T22:37:16.182Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T22:37:16.182Z"
+    },
+    {
+      "id": "79b69f49dc60f28e31ebd057",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-pro-rl",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "MiMo-V2.6-Pro-RL",
+        "slug": "MiMo-V2.6-Pro-RL",
+        "slugAliases": [
+          "MiMo-V2.6-Pro-RL"
+        ],
+        "displayName": "MiMo-V2.6-Pro-RL",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "pro",
+          "version": "2.6"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:xiaomi:xiaomimimo",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+            "observedAt": "2026-09-21T22:37:16.182Z"
+          }
+        ],
+        "fingerprint": "871a47f7b2dcbb8bd2bde2de2ab2a669d6653deed9f0f0af15a300d703569897",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-21T22:37:16.182Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T22:37:16.182Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
