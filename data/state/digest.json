@@ -226258,6 +226258,233 @@
         "model"
       ],
       "detectedAt": "2026-09-21T07:05:46.620Z"
+    },
+    {
+      "id": "24e985a47f652a29497f8a44",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-hemmingway",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-hemmingway",
+        "slug": "qwen3.8-27b-hemmingway",
+        "slugAliases": [
+          "qwen3.8-27b-hemmingway"
+        ],
+        "displayName": "Qwen 3.8 27B Hemingway",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-21T14:00:22.234Z"
+          }
+        ],
+        "fingerprint": "2b4694870e620220877f5028afa405b0b625dc49f86f587a54d4c57182f2edeb",
+        "firstSeen": "2026-09-21T14:00:22.234Z",
+        "lastChanged": "2026-09-21T14:00:22.234Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T14:00:22.234Z"
+    },
+    {
+      "id": "b3579f8a760cf90b5c2cf117",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance-2-5-us-image-to-video",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance-2.5/us/image-to-video",
+        "slug": "seedance-2.5/us/image-to-video",
+        "slugAliases": [
+          "seedance-2.5/us/image-to-video"
+        ],
+        "displayName": "Seedance 2.5 US Image to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.5676
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/bytedance/seedance-2.5/us/image-to-video",
+            "observedAt": "2026-09-21T14:00:22.234Z"
+          }
+        ],
+        "fingerprint": "b2514d59fcc88fef4036a9852897a9050060ae8c604043bf16f6e32cb7151061",
+        "firstSeen": "2026-09-21T14:00:22.234Z",
+        "lastChanged": "2026-09-21T14:00:22.234Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T14:00:22.234Z"
+    },
+    {
+      "id": "2d7d95c31aa0a9a556327e60",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance-2-5-us-text-to-video",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance-2.5/us/text-to-video",
+        "slug": "seedance-2.5/us/text-to-video",
+        "slugAliases": [
+          "seedance-2.5/us/text-to-video"
+        ],
+        "displayName": "Seedance 2.5 US Text to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "endpoint": "text-to-video",
+          "license": "commercial",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.5676
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-19",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/bytedance/seedance-2.5/us/text-to-video",
+            "observedAt": "2026-09-21T14:00:22.234Z"
+          }
+        ],
+        "fingerprint": "2a9a41c7483b73a62af105449ecae126fcee7a43c0dbfba982dcf65f0e64afda",
+        "firstSeen": "2026-09-21T14:00:22.234Z",
+        "lastChanged": "2026-09-21T14:00:22.234Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T14:00:22.234Z"
+    },
+    {
+      "id": "e87b9595e860fc0b5ac135c6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-omni-flash-realtime",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-omni-flash-realtime",
+        "slug": "qwen3.8-omni-flash-realtime",
+        "slugAliases": [
+          "qwen3.8-omni-flash-realtime"
+        ],
+        "displayName": "qwen3.8-omni-flash-realtime",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "omni",
+        "capabilities": {
+          "tier": "omni",
+          "version": "3.8"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-09-21T14:00:22.234Z"
+          }
+        ],
+        "fingerprint": "cbfa408ec052bb72a8c81769c06e446b5eb7c0b41986c9cea04ee2b40e5e2156",
+        "firstSeen": "2026-09-21T14:00:22.234Z",
+        "lastChanged": "2026-09-21T14:00:22.234Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-21T14:00:22.234Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
