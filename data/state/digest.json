@@ -234710,6 +234710,171 @@
         "announcement"
       ],
       "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "52090a86540fea7c07e123ac",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mimo::mimo-v2-6-pro",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-pro",
+        "slug": "mimo-v2.6-pro",
+        "slugAliases": [
+          "mimo-v2.6-pro"
+        ],
+        "displayName": "MiMo-V2.6-Pro",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-09-22",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "OpenCode Go",
+          "Vercel AI Gateway",
+          "xiaomi_mimo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/go",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.xiaomimimo.com/static/docs/price/pay-as-you-go.md",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "562653e3892e2e1531d6fee974241d9c6939f8da197ee17bd2d9a908ee72e78d",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-22T01:08:07.494Z"
+      },
+      "after": {
+        "key": "mimo::mimo-v2-6-pro",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-pro",
+        "slug": "mimo-v2.6-pro",
+        "slugAliases": [
+          "MiMo-V2.6-Pro",
+          "mimo-v2.6-pro"
+        ],
+        "displayName": "MiMo-V2.6-Pro",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-09-22",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.435,
+          "output $/M": 0.87,
+          "cache_read $/M": 0.003625
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenCode Go",
+          "Vercel AI Gateway",
+          "xiaomi_mimo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/go",
+            "observedAt": "2026-09-22T11:31:42.380Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.xiaomimimo.com/static/docs/price/pay-as-you-go.md",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T11:31:42.380Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-22T11:31:42.380Z"
+          }
+        ],
+        "fingerprint": "34f13400c60beffa79caf8d40de5eb548da81b09a38594e15fa200d816f871b2",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-22T11:31:42.380Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-22T11:31:42.380Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
