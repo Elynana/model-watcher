@@ -233399,6 +233399,1317 @@
         "lifecycle"
       ],
       "detectedAt": "2026-09-22T01:08:07.494Z"
+    },
+    {
+      "id": "e5edb804d428a692607d4ea3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mimo::mimo-v2-6-flash",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-flash",
+        "slug": "mimo-v2.6-flash",
+        "slugAliases": [
+          "mimo-v2.6-flash"
+        ],
+        "displayName": "MiMo-V2.6-Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-09-22",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "OpenCode Go",
+          "Vercel AI Gateway",
+          "xiaomi_mimo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/go",
+            "observedAt": "2026-09-22T01:08:07.494Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.xiaomimimo.com/static/docs/price/pay-as-you-go.md",
+            "observedAt": "2026-09-22T01:08:07.494Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T01:08:07.494Z"
+          }
+        ],
+        "fingerprint": "d38fd21b08a2efeb89f732c189086ba954b66737d5459abacc40688cd09348d0",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-22T01:08:07.494Z"
+      },
+      "after": {
+        "key": "mimo::mimo-v2-6-flash",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-flash",
+        "slug": "mimo-v2.6-flash",
+        "slugAliases": [
+          "MiMo-V2.6-Flash",
+          "mimo-v2.6-flash"
+        ],
+        "displayName": "MiMo-V2.6-Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-09-22",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenCode Go",
+          "Vercel AI Gateway",
+          "xiaomi_mimo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/go",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.xiaomimimo.com/static/docs/price/pay-as-you-go.md",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "72a97c479db3560739389f5a2f9f71e1f011bd2530c57d6d299dc99add5b4c20",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "ef8e5aa3e80b3f26a11083a7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-0309",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309",
+        "slug": "grok-4.20-0309",
+        "slugAliases": [
+          "grok-4.20-0309"
+        ],
+        "displayName": "grok-4.20-0309",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "54766fca27b1b804596d276095286bbe65fb3c9b9e3cae146a1fb2c5fbf4fbcc",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "1e5b8c0cc16394e0803d4da2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-beta-0309",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-beta-0309",
+        "slug": "grok-4.20-beta-0309",
+        "slugAliases": [
+          "grok-4.20-beta-0309"
+        ],
+        "displayName": "grok-4.20-beta-0309",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "695c35630efc107d45523d65aee67f6ba85db30892b4b497bc339cd7336923f1",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "90e95d89297e395c250d1fa1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-beta-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-beta-latest",
+        "slug": "grok-4.20-beta-latest",
+        "slugAliases": [
+          "grok-4.20-beta-latest"
+        ],
+        "displayName": "grok-4.20-beta-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "55d4583af36bc5f5675b20738df6be9b85571e63ef63ec2f30af7e77f890358c",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "61f73f40e1acf702be88c17d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-beta-latest-non-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-beta-latest-non-reasoning",
+        "slug": "grok-4.20-beta-latest-non-reasoning",
+        "slugAliases": [
+          "grok-4.20-beta-latest-non-reasoning"
+        ],
+        "displayName": "grok-4.20-beta-latest-non-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "4f9e1d661c93f6a67a8b54b33391d4aa8ad72178142abc1eca6c1324e8253f50",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "a4659d0e200ca0ccd20daf56",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-beta-latest-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-beta-latest-reasoning",
+        "slug": "grok-4.20-beta-latest-reasoning",
+        "slugAliases": [
+          "grok-4.20-beta-latest-reasoning"
+        ],
+        "displayName": "grok-4.20-beta-latest-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "9a9b7e30bb9661ad89a6ef793ea4a7fdaca152fc20c7b7ed43fb98f8153cf0ac",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "9b7fac4c93eef8ba244a639b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-beta-non-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-beta-non-reasoning",
+        "slug": "grok-4.20-beta-non-reasoning",
+        "slugAliases": [
+          "grok-4.20-beta-non-reasoning"
+        ],
+        "displayName": "grok-4.20-beta-non-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "6b77e0eb6aa105dbb1d5abcaee38fef3c9da4e81adf270ba276f85a35d3bdb7f",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "98b76b12a05a5db3a047e3a3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-beta-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-beta-reasoning",
+        "slug": "grok-4.20-beta-reasoning",
+        "slugAliases": [
+          "grok-4.20-beta-reasoning"
+        ],
+        "displayName": "grok-4.20-beta-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "3d5da2377e1e5b28016e0d3bf6aaf7865f81729f9a6b04a6c44d3bf0b6282d7e",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "7610f8b0a7f9bc6d5fd5d858",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-experimental-beta-0304",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-experimental-beta-0304",
+        "slug": "grok-4.20-experimental-beta-0304",
+        "slugAliases": [
+          "grok-4.20-experimental-beta-0304"
+        ],
+        "displayName": "grok-4.20-experimental-beta-0304",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "f2d1d8a9cdfa3907a0831ae3d73e32c3652b71eed06aa58761208c92b403dc14",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "0e87ec46ed10e4719f645e81",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-experimental-beta-0304-non-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-experimental-beta-0304-non-reasoning",
+        "slug": "grok-4.20-experimental-beta-0304-non-reasoning",
+        "slugAliases": [
+          "grok-4.20-experimental-beta-0304-non-reasoning"
+        ],
+        "displayName": "grok-4.20-experimental-beta-0304-non-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "8ba318bed2292f2312f9ea2c71cd0deec19e0895207f7636489b80965dacb861",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "0cc11c0297d4fafe1b374de6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-experimental-beta-0304-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-experimental-beta-0304-reasoning",
+        "slug": "grok-4.20-experimental-beta-0304-reasoning",
+        "slugAliases": [
+          "grok-4.20-experimental-beta-0304-reasoning"
+        ],
+        "displayName": "grok-4.20-experimental-beta-0304-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "a1136102eb014b48d1ed70f30423f511ce042e2ad855069850bb1334f77a351b",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "2432d25e5ecad34f17613fb9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-experimental-beta-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-experimental-beta-latest",
+        "slug": "grok-4.20-experimental-beta-latest",
+        "slugAliases": [
+          "grok-4.20-experimental-beta-latest"
+        ],
+        "displayName": "grok-4.20-experimental-beta-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "fd1c640da23578edec6228b67b29fe2d134314379d086b7528a9711429fde8cf",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "1a61b2aa850cec44d905009c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-experimental-beta-non-reasoning-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-experimental-beta-non-reasoning-latest",
+        "slug": "grok-4.20-experimental-beta-non-reasoning-latest",
+        "slugAliases": [
+          "grok-4.20-experimental-beta-non-reasoning-latest"
+        ],
+        "displayName": "grok-4.20-experimental-beta-non-reasoning-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "2384be3c7c772087e9d329277e777c0f6ca159c952eba754ead4237069979f8d",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "b0f493aa207034ce40211713",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-experimental-beta-reasoning-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-experimental-beta-reasoning-latest",
+        "slug": "grok-4.20-experimental-beta-reasoning-latest",
+        "slugAliases": [
+          "grok-4.20-experimental-beta-reasoning-latest"
+        ],
+        "displayName": "grok-4.20-experimental-beta-reasoning-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "10e9aeb1a2c311a85c33e1e9635d6b637b4b1f8d613f086847c9b4782b4fac69",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "e7e3f962f56b6ccbdfbe515f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-multi-agent-beta-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-multi-agent-beta-latest",
+        "slug": "grok-4.20-multi-agent-beta-latest",
+        "slugAliases": [
+          "grok-4.20-multi-agent-beta-latest"
+        ],
+        "displayName": "grok-4.20-multi-agent-beta-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": false,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "ae918c0043ed0395c3c11f6649d019f989774d172240edc452ce9522d156bf5b",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "d3186a43af43dbd8cd89dcdd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-multi-agent-experimental-beta-0304",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-multi-agent-experimental-beta-0304",
+        "slug": "grok-4.20-multi-agent-experimental-beta-0304",
+        "slugAliases": [
+          "grok-4.20-multi-agent-experimental-beta-0304"
+        ],
+        "displayName": "grok-4.20-multi-agent-experimental-beta-0304",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": false,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "78c205d1678c51caee7f298aa87217fb677f1b1308dfaa0dcca24d8ba182e980",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "a8f20d377c6e1f04c45b4a20",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-multi-agent-experimental-beta-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-multi-agent-experimental-beta-latest",
+        "slug": "grok-4.20-multi-agent-experimental-beta-latest",
+        "slugAliases": [
+          "grok-4.20-multi-agent-experimental-beta-latest"
+        ],
+        "displayName": "grok-4.20-multi-agent-experimental-beta-latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "alias",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": false,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "d5551c79200e4ed5ddaf3f2b9d96441ca9257ac9109f55711e209b014cb833a7",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "6b0f309311b1c716de9f98a2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-non-reasoning-gv2",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-non-reasoning-gv2",
+        "slug": "grok-4.20-non-reasoning-gv2",
+        "slugAliases": [
+          "grok-4.20-non-reasoning-gv2"
+        ],
+        "displayName": "grok-4.20-non-reasoning-gv2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "ed6baedec5bb2d574b04cd91dc8433b6dfc60eb39393b2208d4444a75b2fae80",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "00c80270bcf840d91c508b07",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-reasoning-gv2",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-reasoning-gv2",
+        "slug": "grok-4.20-reasoning-gv2",
+        "slugAliases": [
+          "grok-4.20-reasoning-gv2"
+        ],
+        "displayName": "grok-4.20-reasoning-gv2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "954be6e64e4efb0c62825a39e09ab934706ac4f1106361933ef246922ccd077f",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
+    },
+    {
+      "id": "e797a6c2ee21bfbabba8e75a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "solar::solar-mini-4",
+        "owner": "Upstage",
+        "vendorId": "upstage",
+        "family": "Solar",
+        "familyId": "solar",
+        "modelId": "Solar Mini 4",
+        "slug": "Solar Mini 4",
+        "slugAliases": [
+          "Solar Mini 4"
+        ],
+        "displayName": "Solar Mini 4",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "mini",
+        "capabilities": {
+          "tier": "mini",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:upstage",
+            "sourceKind": "official-page",
+            "url": "https://console.upstage.ai/docs/capabilities/chat",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "63a0bcb6c4b7d6ba13b7a658143bb86cdda88316cb177dbd0c6beec245eb7f2a",
+        "firstSeen": "2026-09-22T06:09:27.019Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-22T06:09:27.019Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
