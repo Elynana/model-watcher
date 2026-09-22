@@ -235159,6 +235159,1309 @@
         "announcement"
       ],
       "detectedAt": "2026-09-22T15:40:30.312Z"
+    },
+    {
+      "id": "b2c7c91a224cd6c4c0f21732",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "kwaipilot-kat::kwaipilot-kat-coder-pro-v2-20260327",
+        "family": "kwaipilot-kat",
+        "modelId": "kwaipilot/kat-coder-pro-v2-20260327",
+        "slug": "kwaipilot/kat-coder-pro-v2-20260327",
+        "slugAliases": [
+          "kwaipilot/kat-coder-pro-v2-20260327"
+        ],
+        "displayName": "Kwaipilot: KAT-Coder-Pro V2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "pro",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 144000
+        },
+        "pricing": {
+          "prompt $/M": 0.3,
+          "completion $/M": 1.2,
+          "input_cache_read $/M": 0.06
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-27",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/kwaipilot/kat-coder-pro-v2",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "d1427713de445944e678b755256898230860d3c3ee4a41f066209b9cd5b603d1",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "after": {
+        "key": "kwaipilot-kat::kwaipilot-kat-coder-pro-v2-20260327",
+        "family": "kwaipilot-kat",
+        "modelId": "kwaipilot/kat-coder-pro-v2-20260327",
+        "slug": "kwaipilot/kat-coder-pro-v2-20260327",
+        "slugAliases": [
+          "kwaipilot/kat-coder-pro-v2-20260327"
+        ],
+        "displayName": "Kwaipilot: KAT-Coder-Pro V2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "pro",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 144000
+        },
+        "pricing": {
+          "prompt $/M": 0.3,
+          "completion $/M": 1.2,
+          "input_cache_read $/M": 0.06
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-03-27",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/kwaipilot/kat-coder-pro-v2",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          }
+        ],
+        "fingerprint": "9642ed9ad920c56a3f369e95e8c879a18addb65ebbde9ff1e93d3316bbf5cc1e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "0b7e5fd512cd2e7a9aa9e906",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-7",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.7",
+        "slug": "grok-4.7",
+        "slugAliases": [
+          "Grok 4.7",
+          "grok-4.7"
+        ],
+        "displayName": "Grok 4.7",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "version": "4.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 450000
+        },
+        "pricing": {
+          "input $/M": 1.6,
+          "output $/M": 4.8,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 3.2,
+              "output": 9.6,
+              "cache_read": 0.8,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 3.2,
+            "output": 9.6,
+            "cache_read": 0.8
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "Vercel AI Gateway",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-09-22T15:40:30.312Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-22T15:40:30.312Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-22T06:09:27.019Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T15:40:30.312Z"
+          }
+        ],
+        "fingerprint": "7e768d8d7e79e27cc4930f4e0cd7dcddb574216ec6208de4bdfe64e04e687630",
+        "firstSeen": "2026-09-21T19:12:18.497Z",
+        "lastChanged": "2026-09-22T06:09:27.019Z"
+      },
+      "after": {
+        "key": "grok::grok-4-7",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.7",
+        "slug": "grok-4.7",
+        "slugAliases": [
+          "Grok 4.7",
+          "grok-4.7"
+        ],
+        "displayName": "Grok 4.7",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "version": "4.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 450000
+        },
+        "pricing": {
+          "input $/M": 1.6,
+          "output $/M": 4.8,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 3.2,
+              "output": 9.6,
+              "cache_read": 0.8,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 3.2,
+            "output": 9.6,
+            "cache_read": 0.8
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "86bbfd6c7f325c8970cd5c80d08bda2637bce2776314a64a53eeb182942815bd",
+        "firstSeen": "2026-09-21T19:12:18.497Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "56f23b5a328a51ccfad4b4aa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5-5",
+        "slug": "claude-opus-5-5",
+        "slugAliases": [
+          "Claude Opus 5.5",
+          "claude-opus-5-5",
+          "claude-opus-5.5"
+        ],
+        "displayName": "Claude Opus 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 5
+        },
+        "availability": [
+          "Ofox",
+          "Vercel AI Gateway",
+          "anthropic",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ofox.ai/docs",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "15bb6301343ba66c7423594475df9184c26cf0bc6e3e571e9f42ae2f99aee404",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "d51dbc0b8d3d0313caaa4321",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-5-default",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5-5@default",
+        "slug": "claude-opus-5-5@default",
+        "slugAliases": [
+          "claude-opus-5-5@default"
+        ],
+        "displayName": "Claude Opus 5.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "5.5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 5
+        },
+        "availability": [
+          "Vertex (Anthropic)"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "78db08ae6bf0198f154ae5fff445bbf19954eb182891d51620d24db98d3a7a3e",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "520259bbd69fb4db85f16f29",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5-5@eu",
+        "slug": "claude-opus-5-5@eu",
+        "slugAliases": [
+          "claude-opus-5-5@eu"
+        ],
+        "displayName": "Claude Opus 5.5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 27.5,
+          "cache_read $/M": 0.55,
+          "cache_write $/M": 6.875
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "4bf49496fe743b14c331bf1e297a18cf4ffc57be186a0811cbd085da3c63c2b8",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "57324d1d16f0296da16e3f84",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-5-fast",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5.5-fast",
+        "slug": "claude-opus-5.5-fast",
+        "slugAliases": [
+          "claude-opus-5.5-fast"
+        ],
+        "displayName": "Claude Opus 5.5 (Fast)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 8,
+          "output $/M": 40,
+          "cache_read $/M": 0.4,
+          "cache_write $/M": 10
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "7db2d5ca8f2b324c3a49c5f1aea1421f3bfa2931e1811e0f6d9eef764e87dbaa",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "48a8f9a14bbd56c5ea719c05",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-sol",
+        "slug": "gpt-6-sol",
+        "slugAliases": [
+          "gpt-6-sol"
+        ],
+        "displayName": "GPT-6 Sol",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "b4055b505b8fc14cd040f1cee41cebcf238389902c3bed7510d6958bdabdd176",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "76aaceb30ad0a10dd4e30aa1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-luna-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-luna-pro",
+        "slug": "gpt-6-luna-pro",
+        "slugAliases": [
+          "gpt-6-luna-pro"
+        ],
+        "displayName": "GPT-6 Luna Pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "pro",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 0.2,
+              "output": 0.75,
+              "cache_read": 0.02,
+              "cache_write": 0.25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.2,
+            "output": 0.75,
+            "cache_read": 0.02,
+            "cache_write": 0.25
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "0626e8b554d2bad1d644f643b3b0682dff1d74308ad984f6f44d7aff80029724",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "f8bf8a1e3c3f31c37f76911e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-sol-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-sol-pro",
+        "slug": "gpt-6-sol-pro",
+        "slugAliases": [
+          "gpt-6-sol-pro"
+        ],
+        "displayName": "GPT-6 Sol Pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "pro",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "066996e840946c71909a72997bd9ed37167ef4d6f7f53f3fbbc9687f3cfd9576",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "6b2800abd5323f5b28510f0a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-luna",
+        "slug": "gpt-6-luna",
+        "slugAliases": [
+          "gpt-6-luna"
+        ],
+        "displayName": "GPT-6 Luna",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 0.2,
+              "output": 0.75,
+              "cache_read": 0.02,
+              "cache_write": 0.25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.2,
+            "output": 0.75,
+            "cache_read": 0.02,
+            "cache_write": 0.25
+          }
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "af292f91ad91074b9fcfded9565935bcf743b3719ee924b480d9645f476c4b3b",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "0f747826caf4cb2ab8af66b6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-luna-fast",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-luna-fast",
+        "slug": "gpt-6-luna-fast",
+        "slugAliases": [
+          "gpt-6-luna-fast"
+        ],
+        "displayName": "gpt-6-luna-fast",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "tier": "fast",
+        "capabilities": {
+          "tier": "fast",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "cc7c5a9aa50da8f534638e1a4978c124885f008faadb83165190a0dd3d9b289e",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "1b9211e4b5b2cedf7a5d6655",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-sol-fast",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-sol-fast",
+        "slug": "gpt-6-sol-fast",
+        "slugAliases": [
+          "gpt-6-sol-fast"
+        ],
+        "displayName": "gpt-6-sol-fast",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "tier": "fast",
+        "capabilities": {
+          "tier": "fast",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "afcf78b9c84b3e6e474514d46ab3f57a0fb878174d85f74c86cf8abaf4c821a8",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "0595343bd33a8fe585a4e822",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "rho-roboeval::rho-roboeval",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "rho-roboeval",
+        "modelId": "rho-roboeval",
+        "slug": "rho-roboeval",
+        "slugAliases": [
+          "rho-roboeval"
+        ],
+        "displayName": "rho-roboeval",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/rho-roboeval",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "c5ade143b5ef40dd80fc1494fe1131f3685980d2c28b6cb84592268a0728cc0a",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "15891579fbebf744ca721cbf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "perplexity-ai-pii-tracer-vllm::perplexity-ai-pii-tracer-vllm",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "perplexity-ai-pii-tracer-vllm",
+        "modelId": "perplexity-ai/PII-Tracer-vLLM",
+        "slug": "perplexity-ai/PII-Tracer-vLLM",
+        "slugAliases": [
+          "perplexity-ai/PII-Tracer-vLLM"
+        ],
+        "displayName": "PII-Tracer-vLLM",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/PII-Tracer-vLLM",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "d01028f5dad0a1e37798fb53387fec943f75fd556d9b03592c702d6163834ca7",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "1dca5e2fe83b286060c7fa06",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "perplexity-ai-pii-tracer::perplexity-ai-pii-tracer",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "perplexity-ai-pii-tracer",
+        "modelId": "perplexity-ai/PII-Tracer",
+        "slug": "perplexity-ai/PII-Tracer",
+        "slugAliases": [
+          "perplexity-ai/PII-Tracer"
+        ],
+        "displayName": "PII-Tracer",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/PII-Tracer",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "48080c2c17190cf2be35b28078c9edb8aaee38290e4d9b4960e2245208702627",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
+    },
+    {
+      "id": "5dff1168aa09af59b62882fa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-max-1658",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-max 1658",
+        "slug": "kimi-k3-max 1658",
+        "slugAliases": [
+          "kimi-k3-max 1658"
+        ],
+        "displayName": "kimi-k3-max 1658",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-22T19:10:13.863Z"
+          }
+        ],
+        "fingerprint": "a0fc38de41f2c5e1575f45d45c25b46203ac00deaa7040740edbd91af1041d98",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-22T19:10:13.863Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-22T19:10:13.863Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
