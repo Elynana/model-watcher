@@ -233280,6 +233280,125 @@
         "model"
       ],
       "detectedAt": "2026-09-21T22:37:16.182Z"
+    },
+    {
+      "id": "23cf53953e858c96c680c32e",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-4-opus-20250522",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-4-opus-20250522",
+        "slug": "claude-4-opus-20250522",
+        "slugAliases": [
+          "claude-4-opus-20250522"
+        ],
+        "displayName": "Anthropic: Claude Opus 4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4",
+        "tier": "opus",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "prompt $/M": 15,
+          "completion $/M": 75,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 1.5,
+          "input_cache_write $/M": 18.75,
+          "input_cache_write_1h $/M": 30
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-22",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/anthropic/claude-opus-4",
+            "observedAt": "2026-09-21T14:00:22.234Z"
+          }
+        ],
+        "fingerprint": "9803b94a837208e7a72b8274c0423e700220fda557d3ac8dd0ea42ed0ec11bd7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "claude::claude-4-opus-20250522",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-4-opus-20250522",
+        "slug": "claude-4-opus-20250522",
+        "slugAliases": [
+          "claude-4-opus-20250522"
+        ],
+        "displayName": "Anthropic: Claude Opus 4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4",
+        "tier": "opus",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "prompt $/M": 15,
+          "completion $/M": 75,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 1.5,
+          "input_cache_write $/M": 18.75,
+          "input_cache_write_1h $/M": 30
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2025-05-22",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/anthropic/claude-opus-4",
+            "observedAt": "2026-09-21T14:00:22.234Z"
+          }
+        ],
+        "fingerprint": "a184580f3eb97cee629067f8f9c90a2bf9fa17c3493595324d4690ee24f6ebaf",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-22T01:08:07.494Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-09-22T01:08:07.494Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
