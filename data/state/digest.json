@@ -263402,6 +263402,1202 @@
         "displayName"
       ],
       "detectedAt": "2026-09-23T14:28:41.513Z"
+    },
+    {
+      "id": "72c74d3e70b8fd35f7e81c3d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "space-bunny-free::space-bunny-free",
+        "family": "space-bunny-free",
+        "modelId": "space-bunny-free",
+        "slug": "space-bunny-free",
+        "slugAliases": [
+          "space-bunny-free"
+        ],
+        "displayName": "Space Bunny Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 524288
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "OpenCode Zen"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          }
+        ],
+        "fingerprint": "a781a9adf6dfedf63402bedde507cce6b4b95c5d0ffaceaa3fab165b8d13abc7",
+        "firstSeen": "2026-09-23T14:28:41.513Z",
+        "lastChanged": "2026-09-23T14:28:41.513Z"
+      },
+      "after": {
+        "key": "space-bunny-free::space-bunny-free",
+        "family": "space-bunny-free",
+        "modelId": "space-bunny-free",
+        "slug": "space-bunny-free",
+        "slugAliases": [
+          "space-bunny-free"
+        ],
+        "displayName": "Space Bunny Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 524288
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "OpenCode Go"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/go",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "60ef2951af38fa4773da806144940c3b2ddc1155ca0d9fde82fc37741a2cd89b",
+        "firstSeen": "2026-09-23T14:28:41.513Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "12cb90998acdd940d5258a9d",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-4-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1",
+        "slug": "gpt-4.1",
+        "slugAliases": [
+          "gpt-4.1"
+        ],
+        "displayName": "OpenAI GPT-4.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "4.1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 300000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 8,
+          "cache_read $/M": 0.5
+        },
+        "availability": [
+          "DigitalOcean",
+          "GitHub Models",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "snowflake"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/openai/gpt-4.1",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          }
+        ],
+        "fingerprint": "1730801dd6ec9fa012a82d4347ef283a4a12fb7062c65addd821a143e3cba824",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-23T14:28:41.513Z"
+      },
+      "after": {
+        "key": "gpt::gpt-4-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-4.1",
+        "slug": "GPT-4.1",
+        "slugAliases": [
+          "GPT-4.1",
+          "gpt-4.1"
+        ],
+        "displayName": "GPT-4.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "4.1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 300000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 8,
+          "cache_read $/M": 0.5
+        },
+        "availability": [
+          "Eden AI",
+          "GitHub Models",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "announced",
+          "snowflake"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/ringg",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/openai/gpt-4.1",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "1ee87f7d0039dfcae0fad6e32e8a579b6077113c180a3c561f8c77ed5937c0d9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "bf3b7cebdd5088fe1e0ab7c1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-8-flash-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-tts",
+        "slug": "gemini-3.8-flash-tts",
+        "slugAliases": [
+          "Gemini 3.8 Flash TTS",
+          "gemini-3.8-flash-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 9,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "a7ee2f0e90bca8e12ab93a380919b7b1af6b3b733c3cc03aa90f71aba10ac63a",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "48193dc2a0acc7bb29aea24e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-8-flash-lite-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-lite-tts",
+        "slug": "gemini-3.8-flash-lite-tts",
+        "slugAliases": [
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash-Lite TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "8b5a67f4ce25e8af2d40c38b50083cdaf4be1f62a96a9e56cf1327e77f1a80b7",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "5ee829806831eb90e76700c9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-luna-2026-09-22",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-luna-2026-09-22",
+        "slug": "gpt-6-luna-2026-09-22",
+        "slugAliases": [
+          "gpt-6-luna-2026-09-22"
+        ],
+        "displayName": "gpt-6-luna-2026-09-22",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "b16d4bbe9633b65d26bfd5d9bc3a87ec63eb2de8eeaa93393b8daadc4d344434",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "172c163678425933cf17c7aa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-sol-2026-09-22",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-sol-2026-09-22",
+        "slug": "gpt-6-sol-2026-09-22",
+        "slugAliases": [
+          "gpt-6-sol-2026-09-22"
+        ],
+        "displayName": "gpt-6-sol-2026-09-22",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "52cd6814b3beeb7da1a1633995543d565c565d8223f9f8d1ee8c2e95a2ca1959",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "98acd2f7a8d760fc47bfa819",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-6-luna",
+        "slug": "azure/us/gpt-6-luna",
+        "slugAliases": [
+          "azure/us/gpt-6-luna"
+        ],
+        "displayName": "azure/us/gpt-6-luna",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.11,
+          "output $/M": 0.55
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "c7d4e1f8516c685c72a923d2c7608b4f8cbc676e6a38bed735de6747aa77d094",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "9c3ea6bef355983e763fae64",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-6-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-6-sol",
+        "slug": "azure/us/gpt-6-sol",
+        "slugAliases": [
+          "azure/us/gpt-6-sol"
+        ],
+        "displayName": "azure/us/gpt-6-sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "a1cb5b7934231b63faa6e9fa03b6cc1a063a70b5e7a006f75838c1775616e473",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "47730a511c3d86d6cbe5dc3a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-openai-gpt::bedrock-mantle-openai-gpt-6-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/openai.gpt-6-sol",
+        "slug": "bedrock_mantle/openai.gpt-6-sol",
+        "slugAliases": [
+          "bedrock_mantle/openai.gpt-6-sol"
+        ],
+        "displayName": "bedrock_mantle/openai.gpt-6-sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "ddc8330e529fd4553804e629e7750df2c86e000328925086bbbefad1788c35c9",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "f0319ec51c218e4300cae3b6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-openai-gpt::bedrock-mantle-openai-gpt-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/openai.gpt-6-luna",
+        "slug": "bedrock_mantle/openai.gpt-6-luna",
+        "slugAliases": [
+          "bedrock_mantle/openai.gpt-6-luna"
+        ],
+        "displayName": "bedrock_mantle/openai.gpt-6-luna",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.11,
+          "output $/M": 0.55
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "b21f533c5d342755ae034005b2c8ccd2081d3ded7d9be19d84ed8ff3c479704b",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "38927b0da61760f8425a1c88",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-6-luna",
+        "slug": "azure/eu/gpt-6-luna",
+        "slugAliases": [
+          "azure/eu/gpt-6-luna"
+        ],
+        "displayName": "azure/eu/gpt-6-luna",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.12,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "fba66962151f0b537157fb79aee7f645ae9b1ef4ddca3b64c8212bc87dbd9b6c",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "c2bc422455a254206efab6ff",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-6-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-6-sol",
+        "slug": "azure/eu/gpt-6-sol",
+        "slugAliases": [
+          "azure/eu/gpt-6-sol"
+        ],
+        "displayName": "azure/eu/gpt-6-sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "3d3858f69f40b5cf188a003fefb1c555a8b77117883477aedd5ed1ec49469c0c",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "4554aae345a653b1f04863df",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5.5:batch",
+        "slug": "claude-opus-5.5:batch",
+        "slugAliases": [
+          "claude-opus-5.5:batch"
+        ],
+        "displayName": "claude-opus-5.5:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "tier": "opus",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "88bb6c3236b0ece06dae23bd5242ef6487113f284b2a46d51ded63bc42f3636e",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "8b532fc8b192e5833008f761",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-batch",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash:batch",
+        "slug": "deepseek-v4.1-flash:batch",
+        "slugAliases": [
+          "deepseek-v4.1-flash:batch"
+        ],
+        "displayName": "deepseek-v4.1-flash:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": false,
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.112,
+          "output $/M": 0.336
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "675d0528077e40fcfd3001a303edf2b5a632c0b046de117627b278a65db1c130",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "3dc1ca186f753decb22f2d6f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-diarization",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3-Diarization",
+        "slug": "Nemotron-3-Diarization",
+        "slugAliases": [
+          "Nemotron-3-Diarization"
+        ],
+        "displayName": "Nemotron-3-Diarization",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "137a9754504327980b701faf42a1b7ee36231a8a80384db12fdf6e5ee1525103",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "ff84b70ada36b8b66124aa3b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-max-1659",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-max 1659",
+        "slug": "kimi-k3-max 1659",
+        "slugAliases": [
+          "kimi-k3-max 1659"
+        ],
+        "displayName": "kimi-k3-max 1659",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "e4bc23f00c1a48b24d83156e11ba5b72662657ef38e480b41aabdeea4bc8ea8e",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-23T18:37:55.314Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
