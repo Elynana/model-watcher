@@ -264598,6 +264598,534 @@
         "announcement"
       ],
       "detectedAt": "2026-09-23T18:37:55.314Z"
+    },
+    {
+      "id": "302440a32c23e3374fe9a822",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "space-bunny-free::space-bunny-free",
+        "family": "space-bunny-free",
+        "modelId": "space-bunny-free",
+        "slug": "space-bunny-free",
+        "slugAliases": [
+          "space-bunny-free"
+        ],
+        "displayName": "Space Bunny Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 524288
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "OpenCode Go"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/go",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "60ef2951af38fa4773da806144940c3b2ddc1155ca0d9fde82fc37741a2cd89b",
+        "firstSeen": "2026-09-23T14:28:41.513Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "after": {
+        "key": "space-bunny-free::space-bunny-free",
+        "family": "space-bunny-free",
+        "modelId": "space-bunny-free",
+        "slug": "space-bunny-free",
+        "slugAliases": [
+          "space-bunny-free"
+        ],
+        "displayName": "Space Bunny Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 524288
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "OpenCode Zen"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/docs/zen",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          }
+        ],
+        "fingerprint": "a781a9adf6dfedf63402bedde507cce6b4b95c5d0ffaceaa3fab165b8d13abc7",
+        "firstSeen": "2026-09-23T14:28:41.513Z",
+        "lastChanged": "2026-09-23T21:45:28.886Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-23T21:45:28.886Z"
+    },
+    {
+      "id": "6a51e2cc04a8bb899410cee5",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-8-flash-lite-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-lite-tts",
+        "slug": "gemini-3.8-flash-lite-tts",
+        "slugAliases": [
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash-Lite TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "8b5a67f4ce25e8af2d40c38b50083cdaf4be1f62a96a9e56cf1327e77f1a80b7",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-8-flash-lite-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-lite-tts",
+        "slug": "gemini-3.8-flash-lite-tts",
+        "slugAliases": [
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash-Lite TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          }
+        ],
+        "fingerprint": "1703547b3296e1b9dc5bc5d1e3aa4d00fef5b293f56665c25e1ccc9ab4e3a82c",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T21:45:28.886Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-09-23T21:45:28.886Z"
+    },
+    {
+      "id": "aef4b0822f66b99a15a6037c",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-8-flash-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-tts",
+        "slug": "gemini-3.8-flash-tts",
+        "slugAliases": [
+          "Gemini 3.8 Flash TTS",
+          "gemini-3.8-flash-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 9,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-23T18:37:55.314Z"
+          }
+        ],
+        "fingerprint": "a7ee2f0e90bca8e12ab93a380919b7b1af6b3b733c3cc03aa90f71aba10ac63a",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T18:37:55.314Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-8-flash-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-tts",
+        "slug": "gemini-3.8-flash-tts",
+        "slugAliases": [
+          "Gemini 3.8 Flash TTS",
+          "gemini-3.8-flash-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 9,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          }
+        ],
+        "fingerprint": "e81c7d1f4092f5b00b353f0b98ea38496a53940b074ceaee3532dc56cfd67cf1",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T21:45:28.886Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-09-23T21:45:28.886Z"
+    },
+    {
+      "id": "8de9e5b73117d724f94c71e1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-max-prime",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-max-prime",
+        "slug": "qwen3.8-max-prime",
+        "slugAliases": [
+          "qwen3.8-max-prime"
+        ],
+        "displayName": "Qwen3.8 Max Prime",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "max",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "tier": "max",
+          "version": "3.8",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 12,
+          "cache_read $/M": 0.5
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-23T21:45:28.886Z"
+          }
+        ],
+        "fingerprint": "ffb7e87822277160bc7b00f4b50d3a83680e753a2bec256d44028bbb8b6ca75c",
+        "firstSeen": "2026-09-23T21:45:28.886Z",
+        "lastChanged": "2026-09-23T21:45:28.886Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-23T21:45:28.886Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
