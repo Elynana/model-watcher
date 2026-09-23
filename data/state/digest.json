@@ -262821,6 +262821,587 @@
         "availability"
       ],
       "detectedAt": "2026-09-23T09:46:59.209Z"
+    },
+    {
+      "id": "d6f9ac03733be42a451af96e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-opus-5-5-default",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5-5@default",
+        "slug": "claude-opus-5-5@default",
+        "slugAliases": [
+          "claude-opus-5-5@default"
+        ],
+        "displayName": "Claude Opus 5.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "5.5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "5.5",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 5
+        },
+        "availability": [
+          "Vertex (Anthropic)",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          }
+        ],
+        "fingerprint": "447d7826762e2919e550a6aa39d56165fee0b9f37f8827b8d92d9b9e50a9fbde",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-23T04:58:22.267Z"
+      },
+      "after": {
+        "key": "claude::claude-opus-5-5-default",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5-5@default",
+        "slug": "claude-opus-5-5@default",
+        "slugAliases": [
+          "claude-opus-5-5@default"
+        ],
+        "displayName": "Claude Opus 5.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "5.5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "5.5",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 5
+        },
+        "availability": [
+          "Vertex",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          }
+        ],
+        "fingerprint": "acfe79c1c3a65f048de0532b5ce8a9d9163d906843bcd53d690813b7d90c01f2",
+        "firstSeen": "2026-09-22T19:10:13.863Z",
+        "lastChanged": "2026-09-23T14:28:41.513Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-23T14:28:41.513Z"
+    },
+    {
+      "id": "2bfbad683646db08685f460f",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "llama::llama-guard-3-8b",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-Guard-3-8B",
+        "slug": "Llama-Guard-3-8B",
+        "slugAliases": [
+          "Llama-Guard-3-8B"
+        ],
+        "displayName": "Llama-Guard-3-8B (Deep Infra)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12",
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.02,
+          "output $/M": 0.06
+        },
+        "availability": [
+          "Eden AI",
+          "nebius",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:meta:meta-llama",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/meta-llama/Llama-Guard-3-8B",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://nebius.com/prices",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          }
+        ],
+        "fingerprint": "c2d1ce9ff1b7e2582f3e580ae76011196cc12dc87df4b1d9224454e494b12006",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-23T04:58:22.267Z"
+      },
+      "after": {
+        "key": "llama::llama-guard-3-8b",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-Guard-3-8B",
+        "slug": "Llama-Guard-3-8B",
+        "slugAliases": [
+          "@cf/meta/llama-guard-3-8b",
+          "Llama-Guard-3-8B"
+        ],
+        "displayName": "Llama-Guard-3-8B (Cloudflare)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12",
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.02,
+          "output $/M": 0.06
+        },
+        "availability": [
+          "Eden AI",
+          "nebius",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:meta:meta-llama",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/meta-llama/Llama-Guard-3-8B",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://nebius.com/prices",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          }
+        ],
+        "fingerprint": "1ab4a611fffaf1d54c3f554195bf95beb08a4da6527cd30ba7c5bb2b7654757d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-23T14:28:41.513Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-23T14:28:41.513Z"
+    },
+    {
+      "id": "40d4abdab368598ef13dee2b",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM 5.3 Flash",
+          "GLM-5.3-Flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM-5.3-Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "5.3",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "baseten",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://inference.baseten.co/v1/models",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.3-flash",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-21T19:12:18.497Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          }
+        ],
+        "fingerprint": "6858e733afb4ef6d9fb2451f2740178f4063ff78ab48ba8883facae855ea64f3",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-09-23T04:58:22.267Z"
+      },
+      "after": {
+        "key": "glm::glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "GLM-5.3-Flash",
+        "slug": "GLM-5.3-Flash",
+        "slugAliases": [
+          "GLM 5.3 Flash",
+          "GLM-5.3-Flash",
+          "glm-5.3-flash"
+        ],
+        "displayName": "GLM5.3 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "5.3",
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "NanoGPT",
+          "Novita AI",
+          "Ollama",
+          "Vercel AI Gateway",
+          "baseten",
+          "benchmark listing",
+          "documented",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:zai",
+            "sourceKind": "official-page",
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://inference.baseten.co/v1/models",
+            "observedAt": "2026-09-23T09:46:59.209Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/glm-5.3-flash",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-21T19:12:18.497Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-23T14:28:41.513Z"
+          }
+        ],
+        "fingerprint": "c5e8eda7a32d4b569634241201a7b241f495fbb44bbcea471e6e0a9a458120d8",
+        "firstSeen": "2026-08-26T14:25:48.029Z",
+        "lastChanged": "2026-09-23T14:28:41.513Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-09-23T14:28:41.513Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
