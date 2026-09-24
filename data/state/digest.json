@@ -265200,6 +265200,481 @@
         "model"
       ],
       "detectedAt": "2026-09-24T00:00:25.751Z"
+    },
+    {
+      "id": "4bdad7e0e30222de6ead8409",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-fable-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5",
+        "slug": "claude-fable-5",
+        "slugAliases": [
+          "Claude Fable 5",
+          "claude-fable-5"
+        ],
+        "displayName": "Anthropic Claude Fable 5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "fable",
+        "capabilities": {
+          "tier": "fable",
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 11,
+          "output $/M": 55,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-09-01T14:58:24.031Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-09-24T00:00:25.751Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-09-24T00:00:25.751Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-24T00:00:25.751Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-24T00:00:25.751Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-24T00:00:25.751Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-01T18:12:45.729Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T00:00:25.751Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-24T00:00:25.751Z"
+          }
+        ],
+        "fingerprint": "0c085fc255e6af642eded422742be96f5400aaafc944cdf28b692eca4382fcff",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-23T21:45:28.886Z"
+      },
+      "after": {
+        "key": "claude::claude-fable-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5",
+        "slug": "claude-fable-5",
+        "slugAliases": [
+          "Claude Fable 5",
+          "claude-fable-5"
+        ],
+        "displayName": "Anthropic Claude Fable 5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "fable",
+        "capabilities": {
+          "tier": "fable",
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 11,
+          "output $/M": 55,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "bedrock_converse",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-09-01T14:58:24.031Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-01T18:12:45.729Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          }
+        ],
+        "fingerprint": "73dbf032eea386664de283312b1c86d50519f97a9be412f386253cc9dabf72a1",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T04:13:10.398Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-24T04:13:10.398Z"
+    },
+    {
+      "id": "a477d0ec37dd592d1de29095",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::duo-chat-gpt-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "duo-chat-gpt-6-luna",
+        "slug": "duo-chat-gpt-6-luna",
+        "slugAliases": [
+          "duo-chat-gpt-6-luna"
+        ],
+        "displayName": "Agentic Chat (GPT-6 Luna)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05-18",
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "GitLab Duo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.gitlab.com/user/duo_agent_platform/",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          }
+        ],
+        "fingerprint": "328723cc87b75f905a02bad790059f313a56cbb6294ca628a1b024cfa12286ec",
+        "firstSeen": "2026-09-24T04:13:10.398Z",
+        "lastChanged": "2026-09-24T04:13:10.398Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-24T04:13:10.398Z"
+    },
+    {
+      "id": "17ac5c6df890339da2b63996",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::duo-chat-gpt-6-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "duo-chat-gpt-6-sol",
+        "slug": "duo-chat-gpt-6-sol",
+        "slugAliases": [
+          "duo-chat-gpt-6-sol"
+        ],
+        "displayName": "Agentic Chat (GPT-6 Sol)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-20",
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "GitLab Duo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.gitlab.com/user/duo_agent_platform/",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          }
+        ],
+        "fingerprint": "66e8f25472a5bbdf15fd31b0cebeed895bb0659c678c93a7639af5a1803a6315",
+        "firstSeen": "2026-09-24T04:13:10.398Z",
+        "lastChanged": "2026-09-24T04:13:10.398Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-24T04:13:10.398Z"
+    },
+    {
+      "id": "7e5f005c63a9658ad4556ba7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-5-max",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5.5-max",
+        "slug": "claude-opus-5.5-max",
+        "slugAliases": [
+          "claude-opus-5.5-max"
+        ],
+        "displayName": "claude-opus-5.5-max",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "5.5"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          }
+        ],
+        "fingerprint": "f24da382bb395394b127d79e8628b3d70cc659252c81d7eb497078bab81b2aa1",
+        "firstSeen": "2026-09-24T04:13:10.398Z",
+        "lastChanged": "2026-09-24T04:13:10.398Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-24T04:13:10.398Z"
+    },
+    {
+      "id": "956db2df3dde568d16f69fc3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k3-max-1660",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k3-max 1660",
+        "slug": "kimi-k3-max 1660",
+        "slugAliases": [
+          "kimi-k3-max 1660"
+        ],
+        "displayName": "kimi-k3-max 1660",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T04:13:10.398Z"
+          }
+        ],
+        "fingerprint": "211ce1336a3d9f0cbd8fe2aa571d7b5b0ca72b48ec93948e714d2f9665941e3a",
+        "firstSeen": "2026-09-24T04:13:10.398Z",
+        "lastChanged": "2026-09-24T04:13:10.398Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-24T04:13:10.398Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
