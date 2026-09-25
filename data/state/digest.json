@@ -269817,6 +269817,231 @@
         "announcement"
       ],
       "detectedAt": "2026-09-25T04:49:16.011Z"
+    },
+    {
+      "id": "159e3cdb670eb012f444b49b",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-7-max",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-max",
+        "slug": "qwen3.7-max",
+        "slugAliases": [
+          "Qwen3.7-Max",
+          "qwen3.7-max"
+        ],
+        "displayName": "Qwen3.7 Max",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "max",
+        "capabilities": {
+          "tier": "max",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.475,
+          "output $/M": 4.425,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 3.125
+        },
+        "availability": [
+          "Alibaba (China)",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          }
+        ],
+        "fingerprint": "f822b3c606d73ab9a5ea2a2623ea0658a5e89e95301569fdcfb419f031643a25",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-7-max",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.7-max",
+        "slug": "qwen3.7-max",
+        "slugAliases": [
+          "Qwen3.7 Max",
+          "Qwen3.7-Max",
+          "qwen3.7-max"
+        ],
+        "displayName": "Qwen3.7 Max",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.7",
+        "tier": "max",
+        "capabilities": {
+          "tier": "max",
+          "version": "3.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.475,
+          "output $/M": 4.425,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 3.125
+        },
+        "availability": [
+          "Alibaba (China)",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-08-20T21:46:39.943Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-09-25T14:56:10.949Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-25T14:56:10.949Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-25T14:56:10.949Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-25T14:56:10.949Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-25T14:56:10.949Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-25T14:56:10.949Z"
+          }
+        ],
+        "fingerprint": "914efaa35f83a09b1992ea40babe7f161b1b45614a51ef56935982e78841469a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-25T14:56:10.949Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-25T14:56:10.949Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
