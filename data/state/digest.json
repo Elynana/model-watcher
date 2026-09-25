@@ -270542,6 +270542,452 @@
         "announcement"
       ],
       "detectedAt": "2026-09-25T19:05:59.988Z"
+    },
+    {
+      "id": "feaa62a46ecd1903432aa7cb",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hy::hy4-preview",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy",
+        "modelId": "Hy4-preview",
+        "slug": "Hy4-preview",
+        "slugAliases": [
+          "Hy4-preview",
+          "hy4-preview"
+        ],
+        "displayName": "Hy4 preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.834,
+          "output $/M": 2.501,
+          "cache_read $/M": 0.048,
+          "cache_write $/M": 0.96
+        },
+        "availability": [
+          "CrossModel",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy4-preview",
+            "observedAt": "2026-09-25T19:05:59.988Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.crossmodel.ai/docs",
+            "observedAt": "2026-09-25T19:05:59.988Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-25T19:05:59.988Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-25T19:05:59.988Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-25T19:05:59.988Z"
+          }
+        ],
+        "fingerprint": "b23d8cceb5499055d8765519944fa078799c205e2ab12641c8462993a51ff321",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "hy::hy4-preview",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy",
+        "modelId": "Hy4-preview",
+        "slug": "Hy4-preview",
+        "slugAliases": [
+          "Hy4-preview",
+          "hy4-preview"
+        ],
+        "displayName": "Hy4 preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.834,
+          "output $/M": 2.501,
+          "cache_read $/M": 0.048,
+          "cache_write $/M": 0.96
+        },
+        "availability": [
+          "CrossModel",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-08-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy4-preview",
+            "observedAt": "2026-09-25T22:15:49.327Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.crossmodel.ai/docs",
+            "observedAt": "2026-09-25T22:15:49.327Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-25T22:15:49.327Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-25T22:15:49.327Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-25T22:15:49.327Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-25T22:15:49.327Z"
+          }
+        ],
+        "fingerprint": "ee4aef8c46e5f609ba146a7d8cfaa62a331376073fc9e5ea7ef44940260361c9",
+        "firstSeen": "2026-08-28T16:34:42.377Z",
+        "lastChanged": "2026-09-25T22:15:49.327Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-25T22:15:49.327Z"
+    },
+    {
+      "id": "88e1c86af9e325d8ddbfb295",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-5-mini-20260908",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2.5-mini-20260908",
+        "slug": "nex-agi/nex-n2.5-mini-20260908",
+        "slugAliases": [
+          "nex-agi/nex-n2.5-mini-20260908"
+        ],
+        "displayName": "Nex AGI: Nex-N2.5-Mini (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2.5-mini:free",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          }
+        ],
+        "fingerprint": "a0e5a2d64ae90d62c5991d63dcf61208e3e10855dd76676c3d31e65b1ec01070",
+        "firstSeen": "2026-09-08T20:05:36.008Z",
+        "lastChanged": "2026-09-09T17:35:39.069Z"
+      },
+      "after": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-5-mini-20260908",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2.5-mini-20260908",
+        "slug": "nex-agi/nex-n2.5-mini-20260908",
+        "slugAliases": [
+          "nex-agi/nex-n2.5-mini-20260908"
+        ],
+        "displayName": "Nex AGI: Nex-N2.5-Mini (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-09-08",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2.5-mini:free",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          }
+        ],
+        "fingerprint": "877840bfb7534d78f5a23387a589afdc275f36cb707aca24e1e60e3bae8fb9e4",
+        "firstSeen": "2026-09-08T20:05:36.008Z",
+        "lastChanged": "2026-09-25T22:15:49.327Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-09-25T22:15:49.327Z"
+    },
+    {
+      "id": "af8249b938139d5c603251f1",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-5-pro-20260907",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2.5-pro-20260907",
+        "slug": "nex-agi/nex-n2.5-pro-20260907",
+        "slugAliases": [
+          "nex-agi/nex-n2.5-pro-20260907"
+        ],
+        "displayName": "Nex AGI: Nex-N2.5-Pro (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-08",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2.5-pro:free",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          }
+        ],
+        "fingerprint": "8923d9cdc65349bf5ed5972ebd1601d32ed110fe4bba0f2b38a0394f5eebf925",
+        "firstSeen": "2026-09-08T20:05:36.008Z",
+        "lastChanged": "2026-09-08T20:05:36.008Z"
+      },
+      "after": {
+        "key": "nex-agi-nex::nex-agi-nex-n2-5-pro-20260907",
+        "family": "nex-agi-nex",
+        "modelId": "nex-agi/nex-n2.5-pro-20260907",
+        "slug": "nex-agi/nex-n2.5-pro-20260907",
+        "slugAliases": [
+          "nex-agi/nex-n2.5-pro-20260907"
+        ],
+        "displayName": "Nex AGI: Nex-N2.5-Pro (free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2",
+        "tier": "n2",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "n2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-09-08",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nex-agi/nex-n2.5-pro:free",
+            "observedAt": "2026-09-25T09:52:03.740Z"
+          }
+        ],
+        "fingerprint": "eade47812b0b3a7d3ad3eaaf35fffd77fbd66eba154d9295f90f91a3607bad04",
+        "firstSeen": "2026-09-08T20:05:36.008Z",
+        "lastChanged": "2026-09-25T22:15:49.327Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-09-25T22:15:49.327Z"
+    },
+    {
+      "id": "d0780d101745447ea7375bda",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "step::step-5",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "Step 5",
+        "slug": "Step 5",
+        "slugAliases": [
+          "Step 5"
+        ],
+        "displayName": "Step 5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-25T22:15:49.327Z"
+          }
+        ],
+        "fingerprint": "94dbc30b53eb80bfbfe911bccd46db5644d9c0556cd5ef9afe8ae99aae0e558a",
+        "firstSeen": "2026-09-25T22:15:49.327Z",
+        "lastChanged": "2026-09-25T22:15:49.327Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-25T22:15:49.327Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
