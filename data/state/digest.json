@@ -270988,6 +270988,177 @@
         "announcement"
       ],
       "detectedAt": "2026-09-25T22:15:49.327Z"
+    },
+    {
+      "id": "29f92b2bb724e059b232af73",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::v3-1",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek.v3.1",
+        "slug": "v3.1",
+        "slugAliases": [
+          "deepseek.v3.1"
+        ],
+        "displayName": "deepseek.v3.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "version": "3.1"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8000
+        },
+        "pricing": {
+          "input $/M": 0.58,
+          "output $/M": 1.68
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-1.html",
+            "observedAt": "2026-09-26T05:28:20.392Z"
+          }
+        ],
+        "fingerprint": "a9ccfe695d540e6ea3a36520e1fd8985a972ab4a60310f713da34fb8eb7313a7",
+        "firstSeen": "2026-09-26T05:28:20.392Z",
+        "lastChanged": "2026-09-26T05:28:20.392Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T05:28:20.392Z"
+    },
+    {
+      "id": "ce0cdd9a984c5a34023c57ea",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-moonshotai-kimi::bedrock-mantle-moonshotai-kimi-k2-thinking",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "bedrock_mantle/moonshotai.kimi-k2-thinking",
+        "slug": "bedrock_mantle/moonshotai.kimi-k2-thinking",
+        "slugAliases": [
+          "bedrock_mantle/moonshotai.kimi-k2-thinking"
+        ],
+        "displayName": "bedrock_mantle/moonshotai.kimi-k2-thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 16000
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-thinking.html",
+            "observedAt": "2026-09-26T05:28:20.392Z"
+          }
+        ],
+        "fingerprint": "1dc2a6324d5a29c07dd65458ba6bad61e97d003244d4e0c35246df5f69a5270b",
+        "firstSeen": "2026-09-26T05:28:20.392Z",
+        "lastChanged": "2026-09-26T05:28:20.392Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T05:28:20.392Z"
+    },
+    {
+      "id": "41342706725813fded4416fd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-max",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-max",
+        "slug": "deepseek-v4.1-flash-max",
+        "slugAliases": [
+          "deepseek-v4.1-flash-max"
+        ],
+        "displayName": "deepseek-v4.1-flash-max",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-26T05:28:20.392Z"
+          }
+        ],
+        "fingerprint": "eabccd6e0dbc79ba422e6c57c30221b2199322186fcb62676271802f84d32cba",
+        "firstSeen": "2026-09-26T05:28:20.392Z",
+        "lastChanged": "2026-09-26T05:28:20.392Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T05:28:20.392Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
