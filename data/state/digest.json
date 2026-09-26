@@ -271489,6 +271489,436 @@
         "model"
       ],
       "detectedAt": "2026-09-26T10:05:21.913Z"
+    },
+    {
+      "id": "f8300a26ed7e05f1c478cd6f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-flash-uncensored-thinking",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-flash-uncensored:thinking",
+        "slug": "mimo-v2.6-flash-uncensored:thinking",
+        "slugAliases": [
+          "mimo-v2.6-flash-uncensored:thinking"
+        ],
+        "displayName": "MiMo V2.6 Flash Uncensored Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "tier": "flash",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.00903
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-26T20:32:51.310Z"
+          }
+        ],
+        "fingerprint": "d2c1613a357e4667136a010420277c2748b620e3ee52864783a27049d7e4f36d",
+        "firstSeen": "2026-09-26T20:32:51.310Z",
+        "lastChanged": "2026-09-26T20:32:51.310Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T20:32:51.310Z"
+    },
+    {
+      "id": "f7d6834ddab17c06335af401",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "sail-moonshotai-kimi::sail-moonshotai-kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "sail/moonshotai/Kimi-K3",
+        "slug": "sail/moonshotai/Kimi-K3",
+        "slugAliases": [
+          "sail/moonshotai/Kimi-K3"
+        ],
+        "displayName": "sail/moonshotai/Kimi-K3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 12.5
+        },
+        "availability": [
+          "sail"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.sailresearch.com/models",
+            "observedAt": "2026-09-26T20:32:51.310Z"
+          }
+        ],
+        "fingerprint": "2307a98eff21fcb4b7cdd94c87c5efe4fadbda396d9beb33fda9373f8d247043",
+        "firstSeen": "2026-09-26T20:32:51.310Z",
+        "lastChanged": "2026-09-26T20:32:51.310Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T20:32:51.310Z"
+    },
+    {
+      "id": "b17fcb2581f8094b0f7f0413",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "sail-zai-org-glm::sail-zai-org-glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "sail/zai-org/GLM-5.3",
+        "slug": "sail/zai-org/GLM-5.3",
+        "slugAliases": [
+          "sail/zai-org/GLM-5.3"
+        ],
+        "displayName": "sail/zai-org/GLM-5.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.98,
+          "output $/M": 3.08
+        },
+        "availability": [
+          "sail"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.sailresearch.com/models",
+            "observedAt": "2026-09-26T20:32:51.310Z"
+          }
+        ],
+        "fingerprint": "f7e4561559c6d40aa702ee9023d8f56a0023ca786a803b36a377f4010c0bf11a",
+        "firstSeen": "2026-09-26T20:32:51.310Z",
+        "lastChanged": "2026-09-26T20:32:51.310Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T20:32:51.310Z"
+    },
+    {
+      "id": "966cf82aaf2060e1fbc72ba3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "sail-zai-org-glm::sail-zai-org-glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "sail/zai-org/GLM-5.3-Flash",
+        "slug": "sail/zai-org/GLM-5.3-Flash",
+        "slugAliases": [
+          "sail/zai-org/GLM-5.3-Flash"
+        ],
+        "displayName": "sail/zai-org/GLM-5.3-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.11,
+          "output $/M": 0.35
+        },
+        "availability": [
+          "sail"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.sailresearch.com/models",
+            "observedAt": "2026-09-26T20:32:51.310Z"
+          }
+        ],
+        "fingerprint": "352dc0e259b5a4be5aa585f03a1ba0caaddde9822f3998f0f902082844ca97b9",
+        "firstSeen": "2026-09-26T20:32:51.310Z",
+        "lastChanged": "2026-09-26T20:32:51.310Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T20:32:51.310Z"
+    },
+    {
+      "id": "fcc53139f108451275ee059a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "sail-moonshotai-kimi::sail-moonshotai-kimi-k2-6",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "sail/moonshotai/Kimi-K2.6",
+        "slug": "sail/moonshotai/Kimi-K2.6",
+        "slugAliases": [
+          "sail/moonshotai/Kimi-K2.6"
+        ],
+        "displayName": "sail/moonshotai/Kimi-K2.6",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 4
+        },
+        "availability": [
+          "sail"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.sailresearch.com/models",
+            "observedAt": "2026-09-26T20:32:51.310Z"
+          }
+        ],
+        "fingerprint": "a47b6806137bac35e8292b89192c1c2bc94eae2ec2de564f74ff33cb83c21c2e",
+        "firstSeen": "2026-09-26T20:32:51.310Z",
+        "lastChanged": "2026-09-26T20:32:51.310Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T20:32:51.310Z"
+    },
+    {
+      "id": "728ce14c1b9819e08e81ba7a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "sail-google-gemma::sail-google-gemma-4-31b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "sail/google/gemma-4-31B-it",
+        "slug": "sail/google/gemma-4-31B-it",
+        "slugAliases": [
+          "sail/google/gemma-4-31B-it"
+        ],
+        "displayName": "sail/google/gemma-4-31B-it",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "sail"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.sailresearch.com/models",
+            "observedAt": "2026-09-26T20:32:51.310Z"
+          }
+        ],
+        "fingerprint": "e73c1759758626422d833803581df64576f5e1af95396602dff72ee39c2c362f",
+        "firstSeen": "2026-09-26T20:32:51.310Z",
+        "lastChanged": "2026-09-26T20:32:51.310Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T20:32:51.310Z"
+    },
+    {
+      "id": "45eba8371b107e31a8d10f8c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "sail-google-gemma::sail-google-gemma-4-12b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "sail/google/gemma-4-12B-it",
+        "slug": "sail/google/gemma-4-12B-it",
+        "slugAliases": [
+          "sail/google/gemma-4-12B-it"
+        ],
+        "displayName": "sail/google/gemma-4-12B-it",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "12B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 16384,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2
+        },
+        "availability": [
+          "sail"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.sailresearch.com/models",
+            "observedAt": "2026-09-26T20:32:51.310Z"
+          }
+        ],
+        "fingerprint": "17d03f414dc8dc07079256c5582d3faca505524e1c741b36709b641ddb4aac69",
+        "firstSeen": "2026-09-26T20:32:51.310Z",
+        "lastChanged": "2026-09-26T20:32:51.310Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T20:32:51.310Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
