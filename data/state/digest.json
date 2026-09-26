@@ -271159,6 +271159,336 @@
         "model"
       ],
       "detectedAt": "2026-09-26T05:28:20.392Z"
+    },
+    {
+      "id": "bedced4672b9b8844b47304c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-8-flash-lite-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-lite-tts",
+        "slug": "gemini-3.8-flash-lite-tts",
+        "slugAliases": [
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash-Lite TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-26T05:28:20.392Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-26T05:28:20.392Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-26T05:28:20.392Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-26T05:28:20.392Z"
+          }
+        ],
+        "fingerprint": "1703547b3296e1b9dc5bc5d1e3aa4d00fef5b293f56665c25e1ccc9ab4e3a82c",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-23T21:45:28.886Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-8-flash-lite-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-lite-tts",
+        "slug": "gemini-3.8-flash-lite-tts",
+        "slugAliases": [
+          "Gemini 3.8 Flash-Lite TTS",
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash-Lite TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-26T10:05:21.913Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-26T10:05:21.913Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-26T10:05:21.913Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-26T10:05:21.913Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-26T10:05:21.913Z"
+          }
+        ],
+        "fingerprint": "74af9f7463d2c5a24a265ea1688a9af8e62fd58b0601ccc905d1287af4f89d9e",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-26T10:05:21.913Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-26T10:05:21.913Z"
+    },
+    {
+      "id": "84a9716b487b6f4b827d76ba",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-dst",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-dst",
+        "slug": "deepseek-v4.1-flash-dst",
+        "slugAliases": [
+          "deepseek-v4.1-flash-dst"
+        ],
+        "displayName": "DeepSeek V4.1 Flash DST",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "Novita AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-26T10:05:21.913Z"
+          }
+        ],
+        "fingerprint": "e5ada577a88c59e4352d51f0fc2bc2fab796e8af5572fa213dc3fac1810fdd66",
+        "firstSeen": "2026-09-26T10:05:21.913Z",
+        "lastChanged": "2026-09-26T10:05:21.913Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T10:05:21.913Z"
+    },
+    {
+      "id": "8e62af3c4c3279aa6b331b74",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "intern-decision::intern-decision-4b",
+        "owner": "Shanghai AI Laboratory",
+        "vendorId": "shanghai-ai-lab",
+        "family": "intern-decision",
+        "modelId": "Intern-Decision-4B",
+        "slug": "Intern-Decision-4B",
+        "slugAliases": [
+          "Intern-Decision-4B"
+        ],
+        "displayName": "Intern-Decision-4B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:shanghai-ai-lab:internlm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/internlm/Intern-Decision-4B",
+            "observedAt": "2026-09-26T10:05:21.913Z"
+          }
+        ],
+        "fingerprint": "53a2ba134b73a4dde81db1a198608f4e9fa62de42e1d45dee594325cb2b7a974",
+        "firstSeen": "2026-09-26T10:05:21.913Z",
+        "lastChanged": "2026-09-26T10:05:21.913Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T10:05:21.913Z"
+    },
+    {
+      "id": "899ae0e557829bd09350be4d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "intern-decision::intern-decision-2b",
+        "owner": "Shanghai AI Laboratory",
+        "vendorId": "shanghai-ai-lab",
+        "family": "intern-decision",
+        "modelId": "Intern-Decision-2B",
+        "slug": "Intern-Decision-2B",
+        "slugAliases": [
+          "Intern-Decision-2B"
+        ],
+        "displayName": "Intern-Decision-2B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:shanghai-ai-lab:internlm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/internlm/Intern-Decision-2B",
+            "observedAt": "2026-09-26T10:05:21.913Z"
+          }
+        ],
+        "fingerprint": "2d2b2c95ad7355cb9e744d670a779441c05c8ccb8978146700a1b3b92d732cc9",
+        "firstSeen": "2026-09-26T10:05:21.913Z",
+        "lastChanged": "2026-09-26T10:05:21.913Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-26T10:05:21.913Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
