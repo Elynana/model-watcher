@@ -272079,6 +272079,227 @@
         "model"
       ],
       "detectedAt": "2026-09-27T12:31:22.065Z"
+    },
+    {
+      "id": "af9435548f9ec628c477de4f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mai::mai-cyber-1-flash",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "MAI",
+        "familyId": "mai",
+        "modelId": "MAI-Cyber-1-Flash",
+        "slug": "MAI-Cyber-1-Flash",
+        "slugAliases": [
+          "MAI-Cyber-1-Flash"
+        ],
+        "displayName": "MAI-Cyber-1-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 3.5
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/microsoft/",
+            "observedAt": "2026-09-27T17:15:54.708Z"
+          }
+        ],
+        "fingerprint": "edaddd537e419ec85424a560f2b60865f1024380bdba7b00f5c7403f27baeec0",
+        "firstSeen": "2026-09-27T17:15:54.708Z",
+        "lastChanged": "2026-09-27T17:15:54.708Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-27T17:15:54.708Z"
+    },
+    {
+      "id": "87eff085a7cc37ba2ee02c32",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minimax::minimax-m3-1-flash-preview",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "MiniMax-M3.1-Flash-Preview",
+        "slug": "MiniMax-M3.1-Flash-Preview",
+        "slugAliases": [
+          "MiniMax-M3.1-Flash-Preview"
+        ],
+        "displayName": "MiniMax-M3.1-Flash-Preview",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "m3",
+        "capabilities": {
+          "tier": "m3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:minimax",
+            "sourceKind": "official-page",
+            "url": "https://platform.minimax.io/docs/guides/text-generation",
+            "observedAt": "2026-09-27T17:15:54.708Z"
+          }
+        ],
+        "fingerprint": "7dd1699b99ba7099c4760dfa3326e0173a3f7ed65e2a16c2a50903b063efa2bf",
+        "firstSeen": "2026-09-27T17:15:54.708Z",
+        "lastChanged": "2026-09-27T17:15:54.708Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-27T17:15:54.708Z"
+    },
+    {
+      "id": "134d1b702682aa5bc769a411",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-flash-mopd",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "MiMo-V2.6-Flash-MOPD",
+        "slug": "MiMo-V2.6-Flash-MOPD",
+        "slugAliases": [
+          "MiMo-V2.6-Flash-MOPD"
+        ],
+        "displayName": "MiMo-V2.6-Flash-MOPD",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "flash",
+          "version": "2.6"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:xiaomi:xiaomimimo",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
+            "observedAt": "2026-09-27T17:15:54.708Z"
+          }
+        ],
+        "fingerprint": "13bc5a689200a810b5c441ace0160e93ec72c1d15f0b0e8e2c91e83acaccaa54",
+        "firstSeen": "2026-09-27T17:15:54.708Z",
+        "lastChanged": "2026-09-27T17:15:54.708Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-27T17:15:54.708Z"
+    },
+    {
+      "id": "bf678acbf479e238c4877d20",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-pro-mopd",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "MiMo-V2.6-Pro-MOPD",
+        "slug": "MiMo-V2.6-Pro-MOPD",
+        "slugAliases": [
+          "MiMo-V2.6-Pro-MOPD"
+        ],
+        "displayName": "MiMo-V2.6-Pro-MOPD",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "pro",
+          "version": "2.6"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:xiaomi:xiaomimimo",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-MOPD",
+            "observedAt": "2026-09-27T17:15:54.708Z"
+          }
+        ],
+        "fingerprint": "e2fe408c4c05171d4d8edd70dca27c95d48a7e0c2c0371936b09aeaa3aa79182",
+        "firstSeen": "2026-09-27T17:15:54.708Z",
+        "lastChanged": "2026-09-27T17:15:54.708Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-27T17:15:54.708Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
