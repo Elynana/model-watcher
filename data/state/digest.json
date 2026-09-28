@@ -273081,6 +273081,368 @@
         "model"
       ],
       "detectedAt": "2026-09-28T07:35:08.305Z"
+    },
+    {
+      "id": "198eb245ad6f1833dcb99580",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-nano-omni",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3-nano-omni",
+        "slug": "nemotron-3-nano-omni",
+        "slugAliases": [
+          "Nemotron 3 Nano Omni",
+          "Nemotron-3-Nano-Omni",
+          "nemotron-3-nano-omni"
+        ],
+        "displayName": "Nemotron 3 Nano Omni",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "nano",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "nano",
+          "version": "3",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.24
+        },
+        "availability": [
+          "DigitalOcean",
+          "announced",
+          "nebius"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+            "observedAt": "2026-09-24T14:18:49.472Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-09-28T07:35:08.305Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://tokenfactory.nebius.com/models/catalog/text2text/nvidia%2FNemotron-3-Nano-Omni",
+            "observedAt": "2026-09-28T07:35:08.305Z"
+          }
+        ],
+        "fingerprint": "9044555bbfaaf81173aea1e5f97d785d5deb8a3ec4f6f5d24438f71652793fe8",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-nano-omni",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3-nano-omni",
+        "slug": "nemotron-3-nano-omni",
+        "slugAliases": [
+          "Nemotron 3 Nano Omni",
+          "Nemotron-3-Nano-Omni",
+          "nemotron-3-nano-omni"
+        ],
+        "displayName": "Nemotron 3 Nano Omni",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "3",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.24
+        },
+        "availability": [
+          "DigitalOcean",
+          "announced",
+          "benchmark listing",
+          "nebius"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+            "observedAt": "2026-09-24T14:18:49.472Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-09-28T15:54:56.892Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://tokenfactory.nebius.com/models/catalog/text2text/nvidia%2FNemotron-3-Nano-Omni",
+            "observedAt": "2026-09-28T07:35:08.305Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-28T15:54:56.892Z"
+          }
+        ],
+        "fingerprint": "a2ffb22564cdd3f6db605597f3dffd83cb43465971a85665134cae220748b178",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-28T15:54:56.892Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-28T15:54:56.892Z"
+    },
+    {
+      "id": "e2ec7c10fb562bed8d96e0e7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "eleven::eleven-v4-10",
+        "owner": "ElevenLabs",
+        "vendorId": "elevenlabs",
+        "family": "ElevenLabs",
+        "familyId": "eleven",
+        "modelId": "eleven_v4 10",
+        "slug": "eleven_v4 10",
+        "slugAliases": [
+          "eleven_v4 10"
+        ],
+        "displayName": "eleven_v4 10",
+        "modalities": [
+          "audio",
+          "music",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.10",
+        "capabilities": {
+          "version": "4.10"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:elevenlabs",
+            "sourceKind": "official-page",
+            "url": "https://elevenlabs.io/docs/models",
+            "observedAt": "2026-09-28T15:54:56.892Z"
+          }
+        ],
+        "fingerprint": "f347b5394eb1195117ff80762cf71940457c55eab397228d9279413c42928ae8",
+        "firstSeen": "2026-09-28T15:54:56.892Z",
+        "lastChanged": "2026-09-28T15:54:56.892Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-28T15:54:56.892Z"
+    },
+    {
+      "id": "5a3d0791885accc5d2ad876b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kumo-tabular::kumo-tabular",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "kumo-tabular",
+        "modelId": "Kumo-Tabular",
+        "slug": "Kumo-Tabular",
+        "slugAliases": [
+          "Kumo-Tabular"
+        ],
+        "displayName": "Kumo-Tabular",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Kumo-Tabular",
+            "observedAt": "2026-09-28T15:54:56.892Z"
+          }
+        ],
+        "fingerprint": "55948fe37401a45d6aa4fefad7234b61387f0342dd03c1ee8f5ae2655b9a4ead",
+        "firstSeen": "2026-09-28T15:54:56.892Z",
+        "lastChanged": "2026-09-28T15:54:56.892Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-28T15:54:56.892Z"
+    },
+    {
+      "id": "fa92ad04e93ecf3286b5d125",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kumo-relational::kumo-relational",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "kumo-relational",
+        "modelId": "Kumo-Relational",
+        "slug": "Kumo-Relational",
+        "slugAliases": [
+          "Kumo-Relational"
+        ],
+        "displayName": "Kumo-Relational",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Kumo-Relational",
+            "observedAt": "2026-09-28T15:54:56.892Z"
+          }
+        ],
+        "fingerprint": "8193c202116cd76ed2f1a130aa9712fc0a0658db56b9c88fc78d5ea9d9d76374",
+        "firstSeen": "2026-09-28T15:54:56.892Z",
+        "lastChanged": "2026-09-28T15:54:56.892Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-28T15:54:56.892Z"
+    },
+    {
+      "id": "c306583de09bdc4ca071ef1e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "eleven::eleven-v4-pro",
+        "owner": "ElevenLabs",
+        "vendorId": "elevenlabs",
+        "family": "ElevenLabs",
+        "familyId": "eleven",
+        "modelId": "Eleven v4 pro",
+        "slug": "Eleven v4 pro",
+        "slugAliases": [
+          "Eleven v4 pro"
+        ],
+        "displayName": "Eleven v4 pro",
+        "modalities": [
+          "audio",
+          "music",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-28T15:54:56.892Z"
+          }
+        ],
+        "fingerprint": "25402ed1cac9fef03a8631888f758128d33890a3901aaf3c481fde17e061aa07",
+        "firstSeen": "2026-09-28T15:54:56.892Z",
+        "lastChanged": "2026-09-28T15:54:56.892Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-28T15:54:56.892Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
