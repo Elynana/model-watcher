@@ -273443,6 +273443,486 @@
         "announcement"
       ],
       "detectedAt": "2026-09-28T15:54:56.892Z"
+    },
+    {
+      "id": "86a62c11ed4618b6cafaed3f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-5-5-thinking",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5.5:thinking",
+        "slug": "claude-sonnet-5.5:thinking",
+        "slugAliases": [
+          "claude-sonnet-5.5:thinking"
+        ],
+        "displayName": "Claude Sonnet 5.5 Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          }
+        ],
+        "fingerprint": "4cd9bec145f16cd77299d881c8e60d603b1fa7b937f2e70ba218cc20d0a6e139",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-28T21:32:00.537Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-28T21:32:00.537Z"
+    },
+    {
+      "id": "e119f9db965bf286d7376f4d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5-5",
+        "slug": "claude-sonnet-5-5",
+        "slugAliases": [
+          "Claude Sonnet 5.5",
+          "claude-sonnet-5-5",
+          "claude-sonnet-5.5"
+        ],
+        "displayName": "Claude Sonnet 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "tier": "sonnet",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "DevPass (LLM Gateway)",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          }
+        ],
+        "fingerprint": "9385e4ff7581321f90476504edb68dcdf95738febcc0d0c7f03d01b13efe48e0",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-28T21:32:00.537Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-28T21:32:00.537Z"
+    },
+    {
+      "id": "96374b9a536552ce39705cc1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-5-5-default",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5-5@default",
+        "slug": "claude-sonnet-5-5@default",
+        "slugAliases": [
+          "claude-sonnet-5-5@default"
+        ],
+        "displayName": "Claude Sonnet 5.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "5.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "5.5",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "Vertex",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          }
+        ],
+        "fingerprint": "3e17c180b8ef15a63631d04f10b5eefab76a112a9661f4970ea3ddbdfb9a1083",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-28T21:32:00.537Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-28T21:32:00.537Z"
+    },
+    {
+      "id": "70d0b9e1f0f98564e583c41f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-east::us-gov-east-1-anthropic-claude-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov-east-1/anthropic.claude-sonnet-5-5",
+        "slug": "us-gov-east-1/anthropic.claude-sonnet-5-5",
+        "slugAliases": [
+          "us-gov-east-1/anthropic.claude-sonnet-5-5"
+        ],
+        "displayName": "us-gov-east-1/anthropic.claude-sonnet-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "sonnet",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          }
+        ],
+        "fingerprint": "60a9940f8d185648d4a6ffd9187be3818886f8e07eafee2af5acb13b55715516",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-28T21:32:00.537Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-28T21:32:00.537Z"
+    },
+    {
+      "id": "e740b85ef457ea0954ea4150",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-west::us-gov-west-1-anthropic-claude-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov-west-1/anthropic.claude-sonnet-5-5",
+        "slug": "us-gov-west-1/anthropic.claude-sonnet-5-5",
+        "slugAliases": [
+          "us-gov-west-1/anthropic.claude-sonnet-5-5"
+        ],
+        "displayName": "us-gov-west-1/anthropic.claude-sonnet-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "sonnet",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          }
+        ],
+        "fingerprint": "5a3414dc8f99a8150ad9d7bb070f5720e574890d0c1e1f6c48a77a678ec0233c",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-28T21:32:00.537Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-28T21:32:00.537Z"
+    },
+    {
+      "id": "5e64be4104840107e9a058db",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-anthropic-claude::us-gov-anthropic-claude-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov.anthropic.claude-sonnet-5-5",
+        "slug": "us-gov.anthropic.claude-sonnet-5-5",
+        "slugAliases": [
+          "us-gov.anthropic.claude-sonnet-5-5"
+        ],
+        "displayName": "us-gov.anthropic.claude-sonnet-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "sonnet",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "bedrock_converse"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aws.amazon.com/bedrock/pricing/",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          }
+        ],
+        "fingerprint": "21e9ed365edbb3fb1e4de45c3516dc65dcb07d9dd801a9e3bb671a48c6029687",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-28T21:32:00.537Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-28T21:32:00.537Z"
+    },
+    {
+      "id": "03b22d289ea5e0fba4890987",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "sonar::sonar-0-25",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "Sonar",
+        "familyId": "sonar",
+        "modelId": "sonar 0.25",
+        "slug": "sonar 0.25",
+        "slugAliases": [
+          "sonar 0.25"
+        ],
+        "displayName": "sonar 0.25",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "0.25",
+        "capabilities": {
+          "version": "0.25"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:perplexity",
+            "sourceKind": "official-page",
+            "url": "https://docs.perplexity.ai/getting-started/models",
+            "observedAt": "2026-09-28T21:32:00.537Z"
+          }
+        ],
+        "fingerprint": "b850131c1d1b5ee52e98c536052c1a2d13d41ca101e9ffb736a497c34c63a842",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-28T21:32:00.537Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-09-28T21:32:00.537Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
