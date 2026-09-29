@@ -274559,6 +274559,931 @@
         "model"
       ],
       "detectedAt": "2026-09-29T13:51:16.116Z"
+    },
+    {
+      "id": "3e59eadf4bb3b7a0e81dc4ea",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "allam::allam-2-7b",
+        "family": "allam",
+        "modelId": "allam-2-7b",
+        "slug": "allam-2-7b",
+        "slugAliases": [
+          "allam-2-7b"
+        ],
+        "displayName": "ALLaM-2-7b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "7B",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 4096,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Groq"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-01-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://console.groq.com/docs/models",
+            "observedAt": "2026-09-29T13:51:16.116Z"
+          }
+        ],
+        "fingerprint": "5762d024256c6bd0b009ebe5c4d5328dd362916470095b17c98896a72a3da376",
+        "firstSeen": "2026-08-04T19:06:29.284Z",
+        "lastChanged": "2026-08-04T19:06:29.284Z"
+      },
+      "after": {
+        "key": "allam::allam-2-7b",
+        "family": "allam",
+        "modelId": "allam-2-7b",
+        "slug": "allam-2-7b",
+        "slugAliases": [
+          "allam-2-7b"
+        ],
+        "displayName": "ALLaM-2-7b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "7B",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 4096,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Tempr"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-01-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "baef9782091294867b45bb1cd8d02104f64f09af2ba3b075542f230f7597d742",
+        "firstSeen": "2026-08-04T19:06:29.284Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "211c3ccf76e74eaf6a19dc11",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::fireworks-ai-accounts-fireworks-models-gpt-oss-120b",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
+        "slug": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/gpt-oss-120b"
+        ],
+        "displayName": "GPT OSS 120B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "120B"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.015
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-03T09:46:31.082Z"
+          }
+        ],
+        "fingerprint": "8ff7858a7cc24d21f2e134566199cb172f527791029f3cb30721b34443538dd4",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "after": {
+        "key": "gpt::fireworks-ai-accounts-fireworks-models-gpt-oss-120b",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
+        "slug": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/gpt-oss-120b"
+        ],
+        "displayName": "GPT OSS 120B (Fireworks AI)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "120B"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.015
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "86aef1afb684e969ab76493b16dbf0b110e071fe6700b3839413fbae3c88b9c3",
+        "firstSeen": "2026-08-14T23:33:30.887Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "c79a2e74daf0bb7223317dbc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-1-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6.1-sol",
+        "slug": "gpt-6.1-sol",
+        "slugAliases": [
+          "gpt-6.1-sol"
+        ],
+        "displayName": "GPT-6.1 Sol",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "version": "6.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.1,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.2,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.2,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenAI",
+          "Vercel AI Gateway",
+          "openai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "17cae3faef5fb0d3c20f4cc8700e17ec81041a2c132accd92ac355ec11968db8",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "f21dafa525c489ce04fdf99e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-1-sol-pro",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6.1-sol-pro",
+        "slug": "gpt-6.1-sol-pro",
+        "slugAliases": [
+          "gpt-6.1-sol-pro"
+        ],
+        "displayName": "GPT-6.1 Sol Pro",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "pro",
+          "version": "6.1",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.1,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.2,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.2,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "4f151654915ae8ea2c36fa663de38541fa7ecb08a2586038f98a807a62d15040",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "96af5e662021a6bc33312821",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-61-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-61-sol",
+        "slug": "gpt-61-sol",
+        "slugAliases": [
+          "gpt-61-sol"
+        ],
+        "displayName": "GPT-6.1 Sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "61",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text",
+          "version": "61"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 12.5,
+          "cache_read $/M": 0.125,
+          "cache_write $/M": 3.125,
+          "tiers $/M": [
+            {
+              "input": 5,
+              "output": 18.75,
+              "cache_read": 0.25,
+              "cache_write": 6.25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 5,
+            "output": 18.75,
+            "cache_read": 0.25,
+            "cache_write": 6.25
+          }
+        },
+        "availability": [
+          "Venice AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "996fb3b38d814284a20081f642ae23dd59658d001cff228801d4f894a3ac4267",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "4691956e99bbba4e080ef0a9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-1-sol-fast",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6.1-sol-fast",
+        "slug": "gpt-6.1-sol-fast",
+        "slugAliases": [
+          "gpt-6.1-sol-fast"
+        ],
+        "displayName": "GPT-6.1 Sol (Fast)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "tier": "fast",
+        "capabilities": {
+          "tier": "fast",
+          "version": "6.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 5,
+          "tiers $/M": [
+            {
+              "input": 8,
+              "output": 30,
+              "cache_read": 0.4,
+              "cache_write": 10,
+              "tier": {
+                "type": "context",
+                "size": 272001
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 8,
+            "output": 30,
+            "cache_read": 0.4,
+            "cache_write": 10
+          }
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "82d9d30cfd78fb8960fba280cfb6b434fd70c23f207dc58d4a6e6f4b86d66b95",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "c46600c5f28ecd37b3cf36ad",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-1-sol-eu",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6.1-sol@eu",
+        "slug": "gpt-6.1-sol@eu",
+        "slugAliases": [
+          "gpt-6.1-sol@eu"
+        ],
+        "displayName": "GPT-6.1 Sol (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text",
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12,
+          "cache_read $/M": 0.12,
+          "tiers $/M": [
+            {
+              "input": 4.8,
+              "output": 18,
+              "cache_read": 0.24,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4.8,
+            "output": 18,
+            "cache_read": 0.24
+          }
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "4b3c3080efb03d82829f177fe818b7a009b021da2d666497e07b4d61c2f57b56",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "432cfcafc6121a62e8bfaca5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-1-sol-2026-09-29",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6.1-sol-2026-09-29",
+        "slug": "gpt-6.1-sol-2026-09-29",
+        "slugAliases": [
+          "gpt-6.1-sol-2026-09-29"
+        ],
+        "displayName": "gpt-6.1-sol-2026-09-29",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "6.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "76deb72afdfce93dab9f24b014080fe96b4cfc6787a2e5b9ec93ea1ecd2e4b0a",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "a5ed6b5c82f77c22b7acffb5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-1-sol-pro-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6.1-sol-pro:batch",
+        "slug": "gpt-6.1-sol-pro:batch",
+        "slugAliases": [
+          "gpt-6.1-sol-pro:batch"
+        ],
+        "displayName": "gpt-6.1-sol-pro:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "ee222b582fd0b341e1d5836e524f0357be325f82677bb59f6c4b3067e4e28e4b",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "de61c6630593aad9336b8d9b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-1-sol-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6.1-sol:batch",
+        "slug": "gpt-6.1-sol:batch",
+        "slugAliases": [
+          "gpt-6.1-sol:batch"
+        ],
+        "displayName": "gpt-6.1-sol:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "3d0c4eaf42bd4d4f6d706a0bc042ea7ef2e17a5ed3898be29dbe1d270ea4d46e",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "f09dc028af20bf201711625d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-6.1",
+        "slug": "GPT-6.1",
+        "slugAliases": [
+          "GPT-6.1"
+        ],
+        "displayName": "GPT-6.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "version": "6.1"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "d06aecde8f4b163a7c1a5f7a452396dba32f1863e147c18555c8b8c93eb7dbf9",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T19:05:13.765Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
