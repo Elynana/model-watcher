@@ -275484,6 +275484,1287 @@
         "model"
       ],
       "detectedAt": "2026-09-29T19:05:13.765Z"
+    },
+    {
+      "id": "b19f7bb50634a654320fcb36",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "allam::allam-2-7b",
+        "family": "allam",
+        "modelId": "allam-2-7b",
+        "slug": "allam-2-7b",
+        "slugAliases": [
+          "allam-2-7b"
+        ],
+        "displayName": "ALLaM-2-7b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "7B",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 4096,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Tempr"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-01-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "baef9782091294867b45bb1cd8d02104f64f09af2ba3b075542f230f7597d742",
+        "firstSeen": "2026-08-04T19:06:29.284Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "after": {
+        "key": "allam::allam-2-7b",
+        "family": "allam",
+        "modelId": "allam-2-7b",
+        "slug": "allam-2-7b",
+        "slugAliases": [
+          "allam-2-7b"
+        ],
+        "displayName": "ALLaM-2-7b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "7B",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 4096,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Tempr Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-01-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "608a256680ffa18d90fbe3f91bb661a3ba3c20379b8dedc22a7f2be19cb8b798",
+        "firstSeen": "2026-08-04T19:06:29.284Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "870c80d355977977c9ba29a9",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mimo::mimo-v2-6-pro-ultraspeed",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-pro-ultraspeed",
+        "slug": "mimo-v2.6-pro-ultraspeed",
+        "slugAliases": [
+          "mimo-v2.6-pro-ultraspeed"
+        ],
+        "displayName": "MiMo-V2.6-Pro-UltraSpeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 4.35,
+          "output $/M": 8.7,
+          "cache_read $/M": 0.036
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "Xiaomi",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.xiaomimimo.com/#/docs",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "b3877c9993a441bc3928289a2cff24163f5aa8e673c8aab2dbad0810d5493bfb",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "mimo::mimo-v2-6-pro-ultraspeed",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-pro-ultraspeed",
+        "slug": "mimo-v2.6-pro-ultraspeed",
+        "slugAliases": [
+          "mimo-v2.6-pro-ultraspeed"
+        ],
+        "displayName": "MiMo-V2.6-Pro-UltraSpeed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "2.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 4.35,
+          "output $/M": 8.7,
+          "cache_read $/M": 0.036
+        },
+        "availability": [
+          "Tempr Gateway",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "27b1366d0d33d83012e487b527cfce9c22badb902eac76e2c7de7740bd52aeae",
+        "firstSeen": "2026-09-21T22:37:16.182Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "89c28a859143af7a490d3a5d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-20-0309-non-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-non-reasoning",
+        "slug": "grok-4.20-0309-non-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-non-reasoning"
+        ],
+        "displayName": "Grok 4.20 (Non-Reasoning)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "4b78af112c7d9b1be925d4a74fc3230c1459e431852cd62c30804b36e51e633b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "after": {
+        "key": "grok::grok-4-20-0309-non-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-non-reasoning",
+        "slug": "grok-4.20-0309-non-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-non-reasoning"
+        ],
+        "displayName": "Grok 4.20 (Non-Reasoning)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Tempr Gateway",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "06650fead016a19bf34ae317dc5895a4d3d1af79afb8b5197f5bc163577e9875",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "a731f9473e8de06290acb1e1",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-reasoning",
+        "slug": "grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-reasoning"
+        ],
+        "displayName": "Grok 4.20 (Reasoning)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Eden AI",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "0fb50d9fd8f0cb2933099da3a0c347467f6d7ab3d59eeea89d3aa0793f032e4d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-14T23:33:30.887Z"
+      },
+      "after": {
+        "key": "grok::grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-0309-reasoning",
+        "slug": "grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "grok-4.20-0309-reasoning"
+        ],
+        "displayName": "Grok 4.20 (Reasoning)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "4.20",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 2.5,
+              "output": 5,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 2.5,
+            "output": 5,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Tempr Gateway",
+          "xai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.x.ai/v1/language-models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "8f20f622acf2be4afb4716038361b8060bf86fd93d208c60154e224fc2f39528",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "768dbff3c9f2b180f1f02555",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen-3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-3.8-27b",
+        "slug": "qwen-3.8-27b",
+        "slugAliases": [
+          "qwen-3.8-27b"
+        ],
+        "displayName": "Qwen3.8 27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.99,
+          "output $/M": 1.49
+        },
+        "availability": [
+          "Tempr",
+          "cerebras"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.cerebras.ai/public/v1/models/qwen-3.8-27b",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "ef99dd7c89eaeeed77217807e827d0b1c10bdde1fce464cc36edb6a6afe9f854",
+        "firstSeen": "2026-08-18T03:12:10.319Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "after": {
+        "key": "qwen::qwen-3-8-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen-3.8-27b",
+        "slug": "qwen-3.8-27b",
+        "slugAliases": [
+          "qwen-3.8-27b"
+        ],
+        "displayName": "Qwen3.8 27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.99,
+          "output $/M": 1.49
+        },
+        "availability": [
+          "Tempr Gateway",
+          "cerebras"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.cerebras.ai/public/v1/models/qwen-3.8-27b",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "c135e4537ba794d690aa971823d6aced64d844adf4b11689465f8e52872e27d3",
+        "firstSeen": "2026-08-18T03:12:10.319Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "e074bd7200a591f22edf22d8",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-embedding-001",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-embedding-001",
+        "slug": "gemini-embedding-001",
+        "slugAliases": [
+          "gemini-embedding-001"
+        ],
+        "displayName": "Gemini Embedding 001",
+        "modalities": [
+          "audio",
+          "code",
+          "embedding",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "001",
+        "capabilities": {
+          "version": "001",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "mode": "embedding"
+        },
+        "limits": {
+          "contextTokens": 2048,
+          "maxOutputTokens": 2048
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0
+        },
+        "availability": [
+          "Tempr",
+          "Vercel AI Gateway",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/embeddings#model-versions",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "661aa5ce9c497f07a6ebea1ae6946a03b16e24e94103bf0db69d6495da99cd8a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "gemini::gemini-embedding-001",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-embedding-001",
+        "slug": "gemini-embedding-001",
+        "slugAliases": [
+          "gemini-embedding-001"
+        ],
+        "displayName": "Gemini Embedding 001",
+        "modalities": [
+          "audio",
+          "code",
+          "embedding",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "001",
+        "capabilities": {
+          "version": "001",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "mode": "embedding"
+        },
+        "limits": {
+          "contextTokens": 2048,
+          "maxOutputTokens": 2048
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0
+        },
+        "availability": [
+          "Tempr Gateway",
+          "Vercel AI Gateway",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/embeddings#model-versions",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "27be1e9a5c14a8af7147157d7f4dbf223370752a4db7714223c012a2b8d3e7f5",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "2763cffbe6ced3007ee8ce86",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-embedding-2",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-embedding-2",
+        "slug": "gemini-embedding-2",
+        "slugAliases": [
+          "Gemini Embedding 2",
+          "gemini-embedding-2"
+        ],
+        "displayName": "Gemini Embedding 2",
+        "modalities": [
+          "audio",
+          "code",
+          "embedding",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-11",
+          "accepts": "text",
+          "mode": "embedding",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0
+        },
+        "availability": [
+          "Tempr",
+          "Vercel AI Gateway",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-29T13:51:16.116Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-29T19:05:13.765Z"
+          }
+        ],
+        "fingerprint": "f943368c9a89c3554c9b0cf303b912a33bad47cf51373364deff5b3d2ffedc65",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "gemini::gemini-embedding-2",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-embedding-2",
+        "slug": "gemini-embedding-2",
+        "slugAliases": [
+          "Gemini Embedding 2",
+          "gemini-embedding-2"
+        ],
+        "displayName": "Gemini Embedding 2",
+        "modalities": [
+          "audio",
+          "code",
+          "embedding",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-11",
+          "accepts": "text",
+          "mode": "embedding",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0
+        },
+        "availability": [
+          "Tempr Gateway",
+          "Vercel AI Gateway",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "e62045e06aa046c5273a772960d3aac6c7afac4dfe18d197cdc3e9ed15c34a56",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "be4df2ad325bee5076d4e1b6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-5-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5-5@eu",
+        "slug": "claude-sonnet-5-5@eu",
+        "slugAliases": [
+          "claude-sonnet-5-5@eu"
+        ],
+        "displayName": "Claude Sonnet 5.5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11,
+          "cache_read $/M": 0.22,
+          "cache_write $/M": 2.75
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "97e2cf7a3c426726302a339175a88eb3a9b5d36be07b7b7e164699e7c05ecaaf",
+        "firstSeen": "2026-09-29T22:56:42.501Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "05fbb6ea4b4fde01e0a77c22",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-5-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5.5:batch",
+        "slug": "claude-sonnet-5.5:batch",
+        "slugAliases": [
+          "claude-sonnet-5.5:batch"
+        ],
+        "displayName": "claude-sonnet-5.5:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "tier": "sonnet",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "185c490a46fb8a1791518d4f00657b0f9bf8de40031f222181998c6c2f435122",
+        "firstSeen": "2026-09-29T22:56:42.501Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
+    },
+    {
+      "id": "018806aa62b7c10c34de8fbf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-openai-gpt::bedrock-mantle-openai-gpt-6-1-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "bedrock_mantle/openai.gpt-6.1-sol",
+        "slug": "bedrock_mantle/openai.gpt-6.1-sol",
+        "slugAliases": [
+          "bedrock_mantle/openai.gpt-6.1-sol"
+        ],
+        "displayName": "bedrock_mantle/openai.gpt-6.1-sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "mode": "responses",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text",
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+            "observedAt": "2026-09-29T22:56:42.501Z"
+          }
+        ],
+        "fingerprint": "43ebb8c85f91d89fb4f2bb0ff39bd1879b0fd0ce0329c5a782db8f8d639dd776",
+        "firstSeen": "2026-09-29T22:56:42.501Z",
+        "lastChanged": "2026-09-29T22:56:42.501Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T22:56:42.501Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
