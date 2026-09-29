@@ -274363,6 +274363,202 @@
         "model"
       ],
       "detectedAt": "2026-09-29T06:59:10.863Z"
+    },
+    {
+      "id": "af0edb3609f196b99b66b29a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "eleven::eleven-v4",
+        "owner": "ElevenLabs",
+        "vendorId": "elevenlabs",
+        "family": "ElevenLabs",
+        "familyId": "eleven",
+        "modelId": "eleven-v4",
+        "slug": "eleven-v4",
+        "slugAliases": [
+          "eleven-v4"
+        ],
+        "displayName": "Eleven v4",
+        "modalities": [
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "endpoint": "text-to-speech",
+          "license": "commercial",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/elevenlabs/tts/eleven-v4",
+            "observedAt": "2026-09-29T13:51:16.116Z"
+          }
+        ],
+        "fingerprint": "9e6fbd4e4c8c5320910098607ca80fc519324a2fcf840fe6960a11dbd12ab0eb",
+        "firstSeen": "2026-09-29T13:51:16.116Z",
+        "lastChanged": "2026-09-29T13:51:16.116Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T13:51:16.116Z"
+    },
+    {
+      "id": "fe0138b2d8849ecd0c588346",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "advancedmathbench-autoverifier::advancedmathbench-autoverifier",
+        "owner": "Shanghai AI Laboratory",
+        "vendorId": "shanghai-ai-lab",
+        "family": "advancedmathbench-autoverifier",
+        "modelId": "AdvancedMathBench-AutoVerifier",
+        "slug": "AdvancedMathBench-AutoVerifier",
+        "slugAliases": [
+          "AdvancedMathBench-AutoVerifier"
+        ],
+        "displayName": "AdvancedMathBench-AutoVerifier",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:shanghai-ai-lab:internlm",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/internlm/AdvancedMathBench-AutoVerifier",
+            "observedAt": "2026-09-29T13:51:16.116Z"
+          }
+        ],
+        "fingerprint": "0509bd81e266c62595c5f3eca7237a38275b5a7966b85c2686b970e8e89072e6",
+        "firstSeen": "2026-09-29T13:51:16.116Z",
+        "lastChanged": "2026-09-29T13:51:16.116Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T13:51:16.116Z"
+    },
+    {
+      "id": "6dbdc03587e8793e3b3b1d9f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ovie-ft-dl3dv::ovie-ft-dl3dv",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "ovie-ft-dl3dv",
+        "modelId": "ovie-ft-dl3dv",
+        "slug": "ovie-ft-dl3dv",
+        "slugAliases": [
+          "ovie-ft-dl3dv"
+        ],
+        "displayName": "ovie-ft-dl3dv",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/ovie-ft-dl3dv",
+            "observedAt": "2026-09-29T13:51:16.116Z"
+          }
+        ],
+        "fingerprint": "ea2ab61464516b9698f4e5c281e02410e242629bab15529a6cf4502dd9bd8bf3",
+        "firstSeen": "2026-09-29T13:51:16.116Z",
+        "lastChanged": "2026-09-29T13:51:16.116Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T13:51:16.116Z"
+    },
+    {
+      "id": "85617f36c9330906da87afb7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ovie-ft-re10k::ovie-ft-re10k",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "ovie-ft-re10k",
+        "modelId": "ovie-ft-re10k",
+        "slug": "ovie-ft-re10k",
+        "slugAliases": [
+          "ovie-ft-re10k"
+        ],
+        "displayName": "ovie-ft-re10k",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/ovie-ft-re10k",
+            "observedAt": "2026-09-29T13:51:16.116Z"
+          }
+        ],
+        "fingerprint": "e6d500d568afbdcbbc44b8de1192434bbdf4094e839c8cf0c9900882bfeb55f1",
+        "firstSeen": "2026-09-29T13:51:16.116Z",
+        "lastChanged": "2026-09-29T13:51:16.116Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T13:51:16.116Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
