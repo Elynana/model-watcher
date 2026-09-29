@@ -274115,6 +274115,254 @@
         "displayName"
       ],
       "detectedAt": "2026-09-29T01:14:42.456Z"
+    },
+    {
+      "id": "65063894990cc8956855ade3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-anthropic-claude::bedrock-mantle-anthropic-claude-opus-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "bedrock_mantle/anthropic.claude-opus-5-5",
+        "slug": "bedrock_mantle/anthropic.claude-opus-5-5",
+        "slugAliases": [
+          "bedrock_mantle/anthropic.claude-opus-5-5"
+        ],
+        "displayName": "bedrock_mantle/anthropic.claude-opus-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "opus",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4.4,
+          "output $/M": 22
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html",
+            "observedAt": "2026-09-29T06:59:10.863Z"
+          }
+        ],
+        "fingerprint": "4698470a9152c014f45b9660185695720dcc4487571d43f190d80794e103d2fa",
+        "firstSeen": "2026-09-29T06:59:10.863Z",
+        "lastChanged": "2026-09-29T06:59:10.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T06:59:10.863Z"
+    },
+    {
+      "id": "f7696dbf615678a88a91598d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-anthropic-claude::bedrock-mantle-anthropic-claude-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "bedrock_mantle/anthropic.claude-sonnet-5-5",
+        "slug": "bedrock_mantle/anthropic.claude-sonnet-5-5",
+        "slugAliases": [
+          "bedrock_mantle/anthropic.claude-sonnet-5-5"
+        ],
+        "displayName": "bedrock_mantle/anthropic.claude-sonnet-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "sonnet",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html",
+            "observedAt": "2026-09-29T06:59:10.863Z"
+          }
+        ],
+        "fingerprint": "92fe40f31f401814307b0a069776fcf8d02f8b8e73fce2a8ab57959e9b89919f",
+        "firstSeen": "2026-09-29T06:59:10.863Z",
+        "lastChanged": "2026-09-29T06:59:10.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T06:59:10.863Z"
+    },
+    {
+      "id": "2ba94fbd7659ed9063a78e11",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-us-gov-west::bedrock-mantle-us-gov-west-1-anthropic-claude-opus-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "bedrock_mantle/us-gov-west-1/anthropic.claude-opus-5-5",
+        "slug": "bedrock_mantle/us-gov-west-1/anthropic.claude-opus-5-5",
+        "slugAliases": [
+          "bedrock_mantle/us-gov-west-1/anthropic.claude-opus-5-5"
+        ],
+        "displayName": "bedrock_mantle/us-gov-west-1/anthropic.claude-opus-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "opus",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "opus",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4.8,
+          "output $/M": 24
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html",
+            "observedAt": "2026-09-29T06:59:10.863Z"
+          }
+        ],
+        "fingerprint": "7170ebd5bb1702a33c9fbedad3d521bf7b15309c216cbcb50b10d58f43393e15",
+        "firstSeen": "2026-09-29T06:59:10.863Z",
+        "lastChanged": "2026-09-29T06:59:10.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T06:59:10.863Z"
+    },
+    {
+      "id": "5ff1b6f2d5810cd01f1f0ee4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-us-gov-west::bedrock-mantle-us-gov-west-1-anthropic-claude-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "bedrock_mantle/us-gov-west-1/anthropic.claude-sonnet-5-5",
+        "slug": "bedrock_mantle/us-gov-west-1/anthropic.claude-sonnet-5-5",
+        "slugAliases": [
+          "bedrock_mantle/us-gov-west-1/anthropic.claude-sonnet-5-5"
+        ],
+        "displayName": "bedrock_mantle/us-gov-west-1/anthropic.claude-sonnet-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "sonnet",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "sonnet",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html",
+            "observedAt": "2026-09-29T06:59:10.863Z"
+          }
+        ],
+        "fingerprint": "584821b18faa1f501c67ba8884af0bb3d8f112d31d11a87eda63d529aedda389",
+        "firstSeen": "2026-09-29T06:59:10.863Z",
+        "lastChanged": "2026-09-29T06:59:10.863Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-29T06:59:10.863Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
