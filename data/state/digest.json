@@ -276917,6 +276917,954 @@
         "confidence"
       ],
       "detectedAt": "2026-09-30T14:13:28.195Z"
+    },
+    {
+      "id": "026132e8c293fd8247a92957",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "runway-gen::gen-4-turbo",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "gen-4-turbo",
+        "slug": "gen-4-turbo",
+        "slugAliases": [
+          "gen-4-turbo"
+        ],
+        "displayName": "Runway-Gen-4-Turbo",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "turbo",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "turbo",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 256
+        },
+        "availability": [
+          "Poe"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          }
+        ],
+        "fingerprint": "f63289256366ed53829b72bd228785fcbb4f4d6fbe611e2becbac350d950d404",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "runway-gen::gen-4-turbo",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "gen-4-turbo",
+        "slug": "gen-4-turbo",
+        "slugAliases": [
+          "Gen-4 Turbo",
+          "gen-4-turbo"
+        ],
+        "displayName": "Runway-Gen-4-Turbo",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "turbo",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "turbo",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 256
+        },
+        "availability": [
+          "Poe",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          }
+        ],
+        "fingerprint": "f69234316207608b3ffb6b4e69c06e18e352b60f3ac181285e95cc3ad1019b72",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-30T19:25:50.856Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-09-30T19:25:50.856Z"
+    },
+    {
+      "id": "b8620927d39317aaae74b512",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5-5",
+        "slug": "claude-sonnet-5-5",
+        "slugAliases": [
+          "Claude Sonnet 5.5",
+          "claude-sonnet-5-5",
+          "claude-sonnet-5.5"
+        ],
+        "displayName": "Anthropic Claude Sonnet 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "tier": "sonnet",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "DigitalOcean",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-30T07:32:08.234Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          }
+        ],
+        "fingerprint": "cd69b691a4d22545152b98a905f1937eef1a7707c7fada2464f1b1643a57d5fb",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-29T01:14:42.456Z"
+      },
+      "after": {
+        "key": "claude::claude-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5-5",
+        "slug": "claude-sonnet-5-5",
+        "slugAliases": [
+          "Claude Sonnet 5.5",
+          "claude-sonnet-5-5",
+          "claude-sonnet-5.5"
+        ],
+        "displayName": "Anthropic Claude Sonnet 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "tier": "sonnet",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          }
+        ],
+        "fingerprint": "8c641b51b051a932041672d03bb3be16a97506fb78a0987b106cda5ec7ea3cc6",
+        "firstSeen": "2026-09-28T21:32:00.537Z",
+        "lastChanged": "2026-09-30T19:25:50.856Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-30T19:25:50.856Z"
+    },
+    {
+      "id": "9ec1e412e8b683e4398c475d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-8-flash-lite-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-lite-tts",
+        "slug": "gemini-3.8-flash-lite-tts",
+        "slugAliases": [
+          "Gemini 3.8 Flash-Lite TTS",
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash-Lite TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-30T07:32:08.234Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-28T07:35:08.305Z"
+          }
+        ],
+        "fingerprint": "74af9f7463d2c5a24a265ea1688a9af8e62fd58b0601ccc905d1287af4f89d9e",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-26T10:05:21.913Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-8-flash-lite-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-lite-tts",
+        "slug": "gemini-3.8-flash-lite-tts",
+        "slugAliases": [
+          "Gemini 3.8 Flash-Lite TTS",
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash-Lite TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 6,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-28T07:35:08.305Z"
+          }
+        ],
+        "fingerprint": "51e47ed0e2883e25040543998ff10df86455f5a227eadff9e03e81f4a18dfc27",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-30T19:25:50.856Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-30T19:25:50.856Z"
+    },
+    {
+      "id": "b84e548e06d26c904d7808f2",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-8-flash-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-tts",
+        "slug": "gemini-3.8-flash-tts",
+        "slugAliases": [
+          "Gemini 3.8 Flash TTS",
+          "gemini-3.8-flash-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "endpoint": "text-to-speech",
+          "license": "commercial",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 9,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "fal.ai",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-09-30T07:32:08.234Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/google/gemini-3.8-flash-tts",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          }
+        ],
+        "fingerprint": "1b6989cccabd844e08f962dd1db24e8735166667030dc95334153a9c2d1247e9",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-27T12:31:22.065Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-8-flash-tts",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.8-flash-tts",
+        "slug": "gemini-3.8-flash-tts",
+        "slugAliases": [
+          "Gemini 3.8 Flash TTS",
+          "gemini-3.8-flash-tts"
+        ],
+        "displayName": "Gemini 3.8 Flash TTS",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.8",
+          "endpoint": "text-to-speech",
+          "license": "commercial",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "audio_speech"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 9,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "fal.ai",
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/google/gemini-3.8-flash-tts",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          }
+        ],
+        "fingerprint": "f184eaf38bdf9219c4a75167250cd0c9163459d84e2ab9ce9f65242371e776f6",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-09-30T19:25:50.856Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-30T19:25:50.856Z"
+    },
+    {
+      "id": "6c1dbc844b477e57d0b9ab12",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-6-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-6.1",
+        "slug": "GPT-6.1",
+        "slugAliases": [
+          "GPT-6.1"
+        ],
+        "displayName": "GPT-6.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "version": "6.1"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          }
+        ],
+        "fingerprint": "d06aecde8f4b163a7c1a5f7a452396dba32f1863e147c18555c8b8c93eb7dbf9",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-29T19:05:13.765Z"
+      },
+      "after": {
+        "key": "gpt::gpt-6-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "GPT-6.1",
+        "slug": "GPT-6.1",
+        "slugAliases": [
+          "GPT-6.1"
+        ],
+        "displayName": "GPT-6.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "version": "6.1"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:openai",
+            "sourceKind": "official-page",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "official:feed:openai-news",
+            "sourceKind": "official-feed",
+            "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          }
+        ],
+        "fingerprint": "c68014dea577be993ab8673fb0b2c57eed7acb3cb85b960f9918a6370eff0e3e",
+        "firstSeen": "2026-09-29T19:05:13.765Z",
+        "lastChanged": "2026-09-30T19:25:50.856Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-09-30T19:25:50.856Z"
+    },
+    {
+      "id": "02f1100e78e2ed82b4022ecf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-x-menthol",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.x-menthol",
+        "slug": "glm-5.x-menthol",
+        "slugAliases": [
+          "glm-5.x-menthol"
+        ],
+        "displayName": "GLM-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 202752,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 1.75
+        },
+        "availability": [
+          "Vultr"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-12",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://api.vultrinference.com/",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          }
+        ],
+        "fingerprint": "91966a27f00a40daacaeb4c84e69e620d92e02a30abce3eae1e1040f68e2dd73",
+        "firstSeen": "2026-09-30T19:25:50.856Z",
+        "lastChanged": "2026-09-30T19:25:50.856Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-30T19:25:50.856Z"
+    },
+    {
+      "id": "0c4e45dc951f746dfcc587dd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cohere-embed::perplexity-ai-pplx-embed-v2-context-9b-preview",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "Cohere Embed / Rerank",
+        "familyId": "cohere-embed",
+        "modelId": "perplexity-ai/pplx-embed-v2-context-9b-preview",
+        "slug": "perplexity-ai/pplx-embed-v2-context-9b-preview",
+        "slugAliases": [
+          "perplexity-ai/pplx-embed-v2-context-9b-preview"
+        ],
+        "displayName": "pplx-embed-v2-context-9b-preview",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-25",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pplx-embed-v2-context-9b-preview",
+            "observedAt": "2026-09-30T19:25:50.856Z"
+          }
+        ],
+        "fingerprint": "6303b38f70591da1f7aa501ba249416af817ce8ef8a8efd3cfb77c43d1a08a9d",
+        "firstSeen": "2026-09-30T19:25:50.856Z",
+        "lastChanged": "2026-09-30T19:25:50.856Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-30T19:25:50.856Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
