@@ -277865,6 +277865,73 @@
         "model"
       ],
       "detectedAt": "2026-09-30T19:25:50.856Z"
+    },
+    {
+      "id": "18088b89ca556f48218a5f61",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-4",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4",
+        "slug": "gemini-4",
+        "slugAliases": [
+          "Gemini 4",
+          "gemini-4"
+        ],
+        "displayName": "Gemini 4",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+            "observedAt": "2026-09-30T23:07:47.907Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-30T23:07:47.907Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-09-30T23:07:47.907Z"
+          }
+        ],
+        "fingerprint": "a04fe6b9d90097c3615f2f8aa3af55f359888f1428a956922ee862cab71ce377",
+        "firstSeen": "2026-09-30T23:07:47.907Z",
+        "lastChanged": "2026-09-30T23:07:47.907Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-09-30T23:07:47.907Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
