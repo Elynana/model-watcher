@@ -276818,6 +276818,105 @@
         "model"
       ],
       "detectedAt": "2026-09-30T07:32:08.234Z"
+    },
+    {
+      "id": "79cf4c4da437ff5b4b96c473",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-ocr-4-0",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-ocr-4-0",
+        "slug": "mistral-ocr-4-0",
+        "slugAliases": [
+          "mistral-ocr-4-0"
+        ],
+        "displayName": "mistral-ocr-4-0",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.0",
+        "capabilities": {
+          "mode": "ocr",
+          "version": "4.0"
+        },
+        "limits": {},
+        "availability": [
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://mistral.ai/pricing#api-pricing",
+            "observedAt": "2026-09-30T07:32:08.234Z"
+          }
+        ],
+        "fingerprint": "a4a361c251b5dc436268140136afcd246c999fa72a51b5a3fa604da6c7ac44ce",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "mistral::mistral-ocr-4-0",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-ocr-4-0",
+        "slug": "mistral-ocr-4-0",
+        "slugAliases": [
+          "mistral-ocr-4-0"
+        ],
+        "displayName": "mistral-ocr-4-0",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.0",
+        "capabilities": {
+          "mode": "ocr",
+          "version": "4.0"
+        },
+        "limits": {},
+        "availability": [
+          "documented",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-09-30T14:13:28.195Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://mistral.ai/pricing#api-pricing",
+            "observedAt": "2026-09-30T07:32:08.234Z"
+          }
+        ],
+        "fingerprint": "450f405eca40333b63aaa9632b6485200a3712ab137e7b9472a5181dac12d187",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-30T14:13:28.195Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-09-30T14:13:28.195Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
