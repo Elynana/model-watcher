@@ -277932,6 +277932,139 @@
         "model"
       ],
       "detectedAt": "2026-09-30T23:07:47.907Z"
+    },
+    {
+      "id": "89d986145f8e44e1adf08e12",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::duo-chat-gpt-6-1-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "duo-chat-gpt-6-1-sol",
+        "slug": "duo-chat-gpt-6-1-sol",
+        "slugAliases": [
+          "duo-chat-gpt-6-1-sol"
+        ],
+        "displayName": "Agentic Chat (GPT-6.1 Sol)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text",
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "GitLab Duo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.gitlab.com/user/duo_agent_platform/",
+            "observedAt": "2026-10-01T02:04:57.339Z"
+          }
+        ],
+        "fingerprint": "b2725957609565630705a652969e1f38814797afab708cbdfad088b5638e7703",
+        "firstSeen": "2026-10-01T02:04:57.339Z",
+        "lastChanged": "2026-10-01T02:04:57.339Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-01T02:04:57.339Z"
+    },
+    {
+      "id": "ad20b2338c7f1450355de41c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::duo-chat-sonnet-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "duo-chat-sonnet-5-5",
+        "slug": "duo-chat-sonnet-5-5",
+        "slugAliases": [
+          "duo-chat-sonnet-5-5"
+        ],
+        "displayName": "Agentic Chat (Claude Sonnet 5.5)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0,
+          "cache_write $/M": 0
+        },
+        "availability": [
+          "GitLab Duo"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.gitlab.com/user/duo_agent_platform/",
+            "observedAt": "2026-10-01T02:04:57.339Z"
+          }
+        ],
+        "fingerprint": "ccf875a3982784c2e89cede699a07e97f75216a6974f298f2ad4b64e6a99d297",
+        "firstSeen": "2026-10-01T02:04:57.339Z",
+        "lastChanged": "2026-10-01T02:04:57.339Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-01T02:04:57.339Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
