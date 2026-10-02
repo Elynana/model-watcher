@@ -278837,6 +278837,103 @@
         "model"
       ],
       "detectedAt": "2026-10-02T05:32:00.990Z"
+    },
+    {
+      "id": "8f2dbc77c13fc8e34694ab31",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "reka::reka-inverse-dynamics-model",
+        "owner": "Reka AI",
+        "vendorId": "reka",
+        "family": "Reka",
+        "familyId": "reka",
+        "modelId": "Reka-Inverse-Dynamics-Model",
+        "slug": "Reka-Inverse-Dynamics-Model",
+        "slugAliases": [
+          "Reka-Inverse-Dynamics-Model"
+        ],
+        "displayName": "Reka-Inverse-Dynamics-Model",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:reka:rekaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/RekaAI/Reka-Inverse-Dynamics-Model",
+            "observedAt": "2026-10-02T16:42:42.011Z"
+          }
+        ],
+        "fingerprint": "bd69f2f76c19284c49c08cac4eef71fad22cfa472cd75c26a0926199cc16753a",
+        "firstSeen": "2026-10-02T16:42:42.011Z",
+        "lastChanged": "2026-10-02T16:42:42.011Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-02T16:42:42.011Z"
+    },
+    {
+      "id": "1e45a952d308c413c3b10951",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ai-forever-frida-decisions::ai-forever-frida-decisions",
+        "owner": "Sber",
+        "vendorId": "sber",
+        "family": "ai-forever-frida-decisions",
+        "modelId": "ai-forever/FRIDA-Decisions",
+        "slug": "ai-forever/FRIDA-Decisions",
+        "slugAliases": [
+          "ai-forever/FRIDA-Decisions"
+        ],
+        "displayName": "FRIDA-Decisions",
+        "modalities": [
+          "rerank"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:sber:ai-forever",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ai-forever/FRIDA-Decisions",
+            "observedAt": "2026-10-02T16:42:42.011Z"
+          }
+        ],
+        "fingerprint": "b25331f4780a744ccf084a6ee00945defd871f960ed00634effb1b31a453f749",
+        "firstSeen": "2026-10-02T16:42:42.011Z",
+        "lastChanged": "2026-10-02T16:42:42.011Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-02T16:42:42.011Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
