@@ -278934,6 +278934,352 @@
         "model"
       ],
       "detectedAt": "2026-10-02T16:42:42.011Z"
+    },
+    {
+      "id": "eb59af0bd487c6ff3e938c7c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "step::step-5-preview",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "step-5-preview",
+        "slug": "step-5-preview",
+        "slugAliases": [
+          "step-5-preview"
+        ],
+        "displayName": "Step 5 Preview",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.959,
+          "output $/M": 2.741,
+          "cache_read $/M": 0.048
+        },
+        "availability": [
+          "StepFun (China)",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.stepfun.com/docs/zh/overview/concept",
+            "observedAt": "2026-10-02T16:42:42.011Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-02T16:42:42.011Z"
+          }
+        ],
+        "fingerprint": "a560c2098c0f04777b074bd91d8b08252248e5fba31e20c13e1692c181d99d79",
+        "firstSeen": "2026-09-20T05:08:37.360Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "step::step-5-preview",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "step-5-preview",
+        "slug": "step-5-preview",
+        "slugAliases": [
+          "Step 5 Preview",
+          "step-5-preview"
+        ],
+        "displayName": "Step 5 Preview",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.959,
+          "output $/M": 2.741,
+          "cache_read $/M": 0.048
+        },
+        "availability": [
+          "StepFun (China)",
+          "Vercel AI Gateway",
+          "benchmark listing"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.stepfun.com/docs/zh/overview/concept",
+            "observedAt": "2026-10-02T21:03:06.723Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-02T21:03:06.723Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-02T21:03:06.723Z"
+          }
+        ],
+        "fingerprint": "67dcde3791bcef6b9703d9906ab96990112cc585423def1da96594afe0e3530a",
+        "firstSeen": "2026-09-20T05:08:37.360Z",
+        "lastChanged": "2026-10-02T21:03:06.723Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-02T21:03:06.723Z"
+    },
+    {
+      "id": "6d4e022a38b1d0608079b751",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::in-anthropic-claude-opus-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "in.anthropic.claude-opus-5",
+        "slug": "in.anthropic.claude-opus-5",
+        "slugAliases": [
+          "in.anthropic.claude-opus-5"
+        ],
+        "displayName": "Claude Opus 5 (India)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "tier": "opus",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5.5,
+          "output $/M": 27.5,
+          "cache_read $/M": 0.55,
+          "cache_write $/M": 6.875
+        },
+        "availability": [
+          "Amazon Bedrock"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+            "observedAt": "2026-10-02T21:03:06.723Z"
+          }
+        ],
+        "fingerprint": "3f1a5e7a21a8d9bc7ba20b5030a1d208c652a02c23adced9cb1e0305050d56b5",
+        "firstSeen": "2026-10-02T21:03:06.723Z",
+        "lastChanged": "2026-10-02T21:03:06.723Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-02T21:03:06.723Z"
+    },
+    {
+      "id": "c050f2f67bdfb2a3059c1ba4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::in-anthropic-claude-sonnet-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "in.anthropic.claude-sonnet-5",
+        "slug": "in.anthropic.claude-sonnet-5",
+        "slugAliases": [
+          "in.anthropic.claude-sonnet-5"
+        ],
+        "displayName": "Claude Sonnet 5 (India)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "sonnet",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-01-31",
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11,
+          "cache_read $/M": 0.22,
+          "cache_write $/M": 2.75
+        },
+        "availability": [
+          "Amazon Bedrock"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+            "observedAt": "2026-10-02T21:03:06.723Z"
+          }
+        ],
+        "fingerprint": "fe54ff3f16420311ecde3c7f1f8b35a2650e5c2bf0e7c0cc2c0247ea7e0480e5",
+        "firstSeen": "2026-10-02T21:03:06.723Z",
+        "lastChanged": "2026-10-02T21:03:06.723Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-02T21:03:06.723Z"
+    },
+    {
+      "id": "406d71ce06ca42239b6d585b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::in-anthropic-claude-haiku-4-5-20251001",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "in.anthropic.claude-haiku-4-5-20251001",
+        "slug": "in.anthropic.claude-haiku-4-5-20251001",
+        "slugAliases": [
+          "in.anthropic.claude-haiku-4-5-20251001"
+        ],
+        "displayName": "Claude Haiku 4.5 (India)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4.5",
+        "tier": "haiku",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-02-28",
+          "accepts": "image, text",
+          "tier": "haiku",
+          "version": "4.5"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1.1,
+          "output $/M": 5.5,
+          "cache_read $/M": 0.11,
+          "cache_write $/M": 1.375
+        },
+        "availability": [
+          "Amazon Bedrock"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+            "observedAt": "2026-10-02T21:03:06.723Z"
+          }
+        ],
+        "fingerprint": "ac8e35841b08c1490f8742a55e0ac163f8a2b808f4ecf6571ceb9033a10948a9",
+        "firstSeen": "2026-10-02T21:03:06.723Z",
+        "lastChanged": "2026-10-02T21:03:06.723Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-02T21:03:06.723Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
