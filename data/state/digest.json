@@ -278618,6 +278618,120 @@
         "model"
       ],
       "detectedAt": "2026-10-01T20:34:52.402Z"
+    },
+    {
+      "id": "3989e4f5dc6f21001a527f51",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-video-1-5-lite",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-video-1.5-lite",
+        "slug": "grok-imagine-video-1.5-lite",
+        "slugAliases": [
+          "grok-imagine-video-1.5-lite"
+        ],
+        "displayName": "Grok Imagine Video 1.5 Lite",
+        "modalities": [
+          "code",
+          "image",
+          "text",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.5",
+        "tier": "lite",
+        "capabilities": {
+          "tier": "lite",
+          "version": "1.5",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {},
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-02T00:10:18.200Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-02T00:10:18.200Z"
+          }
+        ],
+        "fingerprint": "7ed6dee708c2a2fe5cc2041d496ab97ba1e7918a2c65ce8bd5aec899e9b362eb",
+        "firstSeen": "2026-10-02T00:10:18.200Z",
+        "lastChanged": "2026-10-02T00:10:18.200Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-02T00:10:18.200Z"
+    },
+    {
+      "id": "cf6fd1676af98d0e7be674b5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "pixelumm::pixelumm",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "pixelumm",
+        "modelId": "PixelUMM",
+        "slug": "PixelUMM",
+        "slugAliases": [
+          "PixelUMM"
+        ],
+        "displayName": "PixelUMM",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/PixelUMM",
+            "observedAt": "2026-10-02T00:10:18.200Z"
+          }
+        ],
+        "fingerprint": "75ebccbb1381c707fba0a7f212eb33fb060e3e9368d0cfb93b80f16ce9a0be0d",
+        "firstSeen": "2026-10-02T00:10:18.200Z",
+        "lastChanged": "2026-10-02T00:10:18.200Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-02T00:10:18.200Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
