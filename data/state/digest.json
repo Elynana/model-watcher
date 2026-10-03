@@ -279677,6 +279677,58 @@
         "model"
       ],
       "detectedAt": "2026-10-03T10:35:52.947Z"
+    },
+    {
+      "id": "af4fd5f5c5af9ed08e7f55e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-350m-diffusion-exp",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-350M-Diffusion-Exp",
+        "slug": "LFM2.5-350M-Diffusion-Exp",
+        "slugAliases": [
+          "LFM2.5-350M-Diffusion-Exp"
+        ],
+        "displayName": "LFM2.5-350M-Diffusion-Exp",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "350M",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-10-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-350M-Diffusion-Exp",
+            "observedAt": "2026-10-03T21:42:19.791Z"
+          }
+        ],
+        "fingerprint": "289734b9bae31185426c9720925b00934b773acdb84e210caecf593f39fe1bfa",
+        "firstSeen": "2026-10-03T21:42:19.791Z",
+        "lastChanged": "2026-10-03T21:42:19.791Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-03T21:42:19.791Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
