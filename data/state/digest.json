@@ -279333,6 +279333,51 @@
         "model"
       ],
       "detectedAt": "2026-10-03T00:25:47.634Z"
+    },
+    {
+      "id": "dabca11259cae82eb2d03535",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bespoke-nimble::bespoke-nimble-latest",
+        "family": "bespoke-nimble",
+        "modelId": "bespoke/nimble-latest",
+        "slug": "bespoke/nimble-latest",
+        "slugAliases": [
+          "bespoke/nimble-latest"
+        ],
+        "displayName": "bespoke/nimble-latest",
+        "modalities": [],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "evaluation"
+        },
+        "limits": {
+          "contextTokens": 8192
+        },
+        "availability": [
+          "bespoke"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://github.com/bespokelabsai/nimble",
+            "observedAt": "2026-10-03T05:33:41.840Z"
+          }
+        ],
+        "fingerprint": "f93dbdfb049f15f8632bde2ebb9a586a914d29372a4e36147acdd9abfce029ac",
+        "firstSeen": "2026-10-03T05:33:41.840Z",
+        "lastChanged": "2026-10-03T05:33:41.840Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-03T05:33:41.840Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
