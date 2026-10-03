@@ -279280,6 +279280,59 @@
         "model"
       ],
       "detectedAt": "2026-10-02T21:03:06.723Z"
+    },
+    {
+      "id": "95d23284c191bbaa957d5e0a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-turbo",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4.1-Flash-Turbo",
+        "slug": "DeepSeek-V4.1-Flash-Turbo",
+        "slugAliases": [
+          "DeepSeek-V4.1-Flash-Turbo"
+        ],
+        "displayName": "DeepSeek-V4.1-Flash-Turbo",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "DeepInfra"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "1970-01-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-03T00:25:47.634Z"
+          }
+        ],
+        "fingerprint": "025a099d246e0e3c39d8c5951e347079af7a90957d2a29e012d51f1019e7bad8",
+        "firstSeen": "2026-10-03T00:25:47.634Z",
+        "lastChanged": "2026-10-03T00:25:47.634Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-03T00:25:47.634Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
