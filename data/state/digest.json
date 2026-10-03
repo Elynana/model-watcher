@@ -279378,6 +279378,305 @@
         "model"
       ],
       "detectedAt": "2026-10-03T05:33:41.840Z"
+    },
+    {
+      "id": "2e81e5c4246cd47464491b08",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "clef::clef",
+        "family": "clef",
+        "modelId": "clef",
+        "slug": "clef",
+        "slugAliases": [
+          "clef"
+        ],
+        "displayName": "Clef",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.24,
+          "output $/M": 0
+        },
+        "availability": [
+          "Cloudflare Workers AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-01T20:34:52.402Z"
+          }
+        ],
+        "fingerprint": "ca7cdf9a59d2ffae6314f5c1abb476ac9ffeaebd57b8a3f0ab379199120336a5",
+        "firstSeen": "2026-10-01T20:34:52.402Z",
+        "lastChanged": "2026-10-01T20:34:52.402Z"
+      },
+      "after": {
+        "key": "clef::clef",
+        "family": "clef",
+        "modelId": "clef",
+        "slug": "clef",
+        "slugAliases": [
+          "clef"
+        ],
+        "displayName": "Clef",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.24,
+          "output $/M": 0
+        },
+        "availability": [
+          "Cloudflare Workers AI",
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-01T20:34:52.402Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-03T10:35:52.947Z"
+          }
+        ],
+        "fingerprint": "5fe00d197c373268b5dc997eceadce0593a6e04d6a5d8dcea6711066d9010195",
+        "firstSeen": "2026-10-01T20:34:52.402Z",
+        "lastChanged": "2026-10-03T10:35:52.947Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-03T10:35:52.947Z"
+    },
+    {
+      "id": "de1cdbb3b508b8b12a7c80a6",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "d::d1",
+        "owner": "Liquid AI",
+        "family": "d",
+        "modelId": "d1",
+        "slug": "d1",
+        "slugAliases": [
+          "d1"
+        ],
+        "displayName": "Liquid d1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "version": "1",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-01T20:34:52.402Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-03T05:33:41.840Z"
+          }
+        ],
+        "fingerprint": "c4af3feeab7d7a287dbbbd3c0f8e8512b82d9b38607bfc991d687c9c9047b695",
+        "firstSeen": "2026-09-29T22:56:42.501Z",
+        "lastChanged": "2026-10-01T08:48:38.553Z"
+      },
+      "after": {
+        "key": "d::d1",
+        "owner": "Liquid AI",
+        "family": "d",
+        "modelId": "d1",
+        "slug": "d1",
+        "slugAliases": [
+          "d1"
+        ],
+        "displayName": "Liquid d1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "version": "1",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0
+        },
+        "availability": [
+          "NanoGPT",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-01T20:34:52.402Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-03T10:35:52.947Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-03T10:35:52.947Z"
+          }
+        ],
+        "fingerprint": "58f97eeab645d17222ea63cb79946ec90f1dbc48feba37336e5bc8efa927d9b9",
+        "firstSeen": "2026-09-29T22:56:42.501Z",
+        "lastChanged": "2026-10-03T10:35:52.947Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-03T10:35:52.947Z"
+    },
+    {
+      "id": "c06e3c7f016d322e71a93b8b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-imagine-video-v1-5-lite-image-to-video",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-imagine-video/v1.5/lite/image-to-video",
+        "slug": "grok-imagine-video/v1.5/lite/image-to-video",
+        "slugAliases": [
+          "grok-imagine-video/v1.5/lite/image-to-video"
+        ],
+        "displayName": "Grok Imagine Video 1.5 Lite Image to Video",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.5",
+        "tier": "lite",
+        "capabilities": {
+          "endpoint": "image-to-video",
+          "license": "commercial",
+          "tier": "lite",
+          "version": "1.5"
+        },
+        "limits": {},
+        "pricing": {
+          "fal $/unit": 0.02
+        },
+        "availability": [
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/xai/grok-imagine-video/v1.5/lite/image-to-video",
+            "observedAt": "2026-10-03T10:35:52.947Z"
+          }
+        ],
+        "fingerprint": "2a5d472b21b2e13d6467f25fb6a081fc46948bf21981a9bd119b1471cf95206c",
+        "firstSeen": "2026-10-03T10:35:52.947Z",
+        "lastChanged": "2026-10-03T10:35:52.947Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-03T10:35:52.947Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
