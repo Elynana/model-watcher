@@ -279845,6 +279845,189 @@
         "model"
       ],
       "detectedAt": "2026-10-04T15:52:17.026Z"
+    },
+    {
+      "id": "d608772b7bdedada3bc669ae",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-marathon",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-marathon",
+        "slug": "deepseek-v4.1-flash-marathon",
+        "slugAliases": [
+          "deepseek-v4.1-flash-marathon"
+        ],
+        "displayName": "DeepSeek V4.1 Flash Marathon",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 5000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.14,
+          "output $/M": 0.28,
+          "cache_read $/M": 0.0028
+        },
+        "availability": [
+          "Subconscious"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.subconscious.dev",
+            "observedAt": "2026-10-04T22:12:42.896Z"
+          }
+        ],
+        "fingerprint": "af74c796593cf40b3cc05e76480d30f7cb2b96a86c68e13e686c7e950d54e5d9",
+        "firstSeen": "2026-10-04T22:12:42.896Z",
+        "lastChanged": "2026-10-04T22:12:42.896Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-04T22:12:42.896Z"
+    },
+    {
+      "id": "bbd7e51fd6bf177947e3ab93",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::glm-5-3-marathon",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "glm-5.3-marathon",
+        "slug": "glm-5.3-marathon",
+        "slugAliases": [
+          "glm-5.3-marathon"
+        ],
+        "displayName": "GLM-5.3 Marathon",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 5000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "Subconscious"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.subconscious.dev",
+            "observedAt": "2026-10-04T22:12:42.896Z"
+          }
+        ],
+        "fingerprint": "39fcd67a9926face43b70472e1a9cba5afb2a7395dc246e862a7be254345a49f",
+        "firstSeen": "2026-10-04T22:12:42.896Z",
+        "lastChanged": "2026-10-04T22:12:42.896Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-04T22:12:42.896Z"
+    },
+    {
+      "id": "e7dcffe80bd5b21a96d2b0e9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-5-0-8b-reverse-text-rl",
+        "owner": "Prime Intellect",
+        "vendorId": "prime-intellect",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.5-0.8B-Reverse-Text-RL",
+        "slug": "Qwen3.5-0.8B-Reverse-Text-RL",
+        "slugAliases": [
+          "Qwen3.5-0.8B-Reverse-Text-RL"
+        ],
+        "displayName": "Qwen3.5-0.8B-Reverse-Text-RL",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5.0",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3.5.0"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:prime-intellect:primeintellect",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-RL",
+            "observedAt": "2026-10-04T22:12:42.896Z"
+          }
+        ],
+        "fingerprint": "60974a324f2478a5c304700d8e444802fbff046f8197542b7c5162bcc67230b1",
+        "firstSeen": "2026-10-04T22:12:42.896Z",
+        "lastChanged": "2026-10-04T22:12:42.896Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-04T22:12:42.896Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
