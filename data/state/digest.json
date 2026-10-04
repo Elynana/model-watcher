@@ -279729,6 +279729,70 @@
         "model"
       ],
       "detectedAt": "2026-10-03T21:42:19.791Z"
+    },
+    {
+      "id": "203abcfea4da95452c33a1eb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::umans-glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "umans-glm-5.3",
+        "slug": "umans-glm-5.3",
+        "slugAliases": [
+          "umans-glm-5.3"
+        ],
+        "displayName": "GLM 5.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131071
+        },
+        "pricing": {
+          "input $/M": 1.4,
+          "output $/M": 4.4,
+          "cache_read $/M": 0.26
+        },
+        "availability": [
+          "Umans AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://app.umans.ai/offers/code/docs/orgs",
+            "observedAt": "2026-10-04T05:44:39.904Z"
+          }
+        ],
+        "fingerprint": "c964af3ee8068502d9aac27e6515313bdd57c2c06d4b14507c61336367e5c55a",
+        "firstSeen": "2026-10-04T05:44:39.904Z",
+        "lastChanged": "2026-10-04T05:44:39.904Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-04T05:44:39.904Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
