@@ -284200,6 +284200,1245 @@
         "model"
       ],
       "detectedAt": "2026-10-05T15:19:38.253Z"
+    },
+    {
+      "id": "c455dab6dc1002309f09bba6",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "eleven::eleven-v4-turbo",
+        "owner": "ElevenLabs",
+        "vendorId": "elevenlabs",
+        "family": "ElevenLabs",
+        "familyId": "eleven",
+        "modelId": "eleven_v4_turbo",
+        "slug": "eleven_v4_turbo",
+        "slugAliases": [
+          "eleven-v4-turbo",
+          "eleven_v4_turbo"
+        ],
+        "displayName": "Eleven v4 Turbo",
+        "modalities": [
+          "audio",
+          "music",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "turbo",
+        "capabilities": {
+          "endpoint": "text-to-speech",
+          "license": "commercial",
+          "tier": "turbo",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "documented",
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:elevenlabs",
+            "sourceKind": "official-page",
+            "url": "https://elevenlabs.io/docs/models",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          },
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/elevenlabs/tts/eleven-v4-turbo",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          }
+        ],
+        "fingerprint": "9e98ec28a4f40bc657c19e0037b162929978602fb97d73012b30984e0b7c2b31",
+        "firstSeen": "2026-09-28T15:54:56.892Z",
+        "lastChanged": "2026-09-30T14:13:28.195Z"
+      },
+      "after": {
+        "key": "eleven::eleven-v4-turbo",
+        "owner": "ElevenLabs",
+        "vendorId": "elevenlabs",
+        "family": "ElevenLabs",
+        "familyId": "eleven",
+        "modelId": "eleven_v4_turbo",
+        "slug": "eleven_v4_turbo",
+        "slugAliases": [
+          "Eleven v4 Turbo",
+          "eleven-v4-turbo",
+          "eleven_v4_turbo"
+        ],
+        "displayName": "Eleven v4 Turbo",
+        "modalities": [
+          "audio",
+          "music",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "turbo",
+        "capabilities": {
+          "tier": "turbo",
+          "version": "4",
+          "endpoint": "text-to-speech",
+          "license": "commercial"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing",
+          "documented",
+          "fal.ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:elevenlabs",
+            "sourceKind": "official-page",
+            "url": "https://elevenlabs.io/docs/models",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "platform:fal",
+            "sourceKind": "platform",
+            "url": "https://fal.ai/models/elevenlabs/tts/eleven-v4-turbo",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "977ba9fa530e9a05efdcefdc1120fbdb053688f62d88089d493b7a9948fdfe4d",
+        "firstSeen": "2026-09-28T15:54:56.892Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "4f2fca67ad08ca5d4ddce0d3",
+      "type": "verified",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-opus-4-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4.5",
+        "slug": "claude-opus-4.5",
+        "slugAliases": [
+          "claude-opus-4-5",
+          "claude-opus-4.5"
+        ],
+        "displayName": "Anthropic Claude Opus 4.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "4.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-03-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 25,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 6.25
+        },
+        "availability": [
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          }
+        ],
+        "fingerprint": "cb0f9a244bb21c4b2474c9e39406e357b214e40f6167d1ed8b06fe696cc4a722",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "claude::claude-opus-4-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4.5",
+        "slug": "claude-opus-4.5",
+        "slugAliases": [
+          "Claude Opus 4.5",
+          "claude-opus-4-5",
+          "claude-opus-4.5"
+        ],
+        "displayName": "Anthropic Claude Opus 4.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "4.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-03-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 25,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 6.25
+        },
+        "availability": [
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-11-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "458dceb54c0aab7bad04d16d4b5413f01696f06badedc839932f1f9e5c78caff",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "confidence"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "3b5fb57a18a8c433dd4f16a1",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-opus-4-6",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4-6",
+        "slug": "claude-opus-4-6",
+        "slugAliases": [
+          "claude-opus-4-6",
+          "claude-opus-4.6"
+        ],
+        "displayName": "Anthropic Claude Opus 4.6",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "4.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-05-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 25,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 6.25,
+          "tiers $/M": [
+            {
+              "input": 10,
+              "output": 37.5,
+              "cache_read": 1,
+              "cache_write": 12.5,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 10,
+            "output": 37.5,
+            "cache_read": 1,
+            "cache_write": 12.5
+          }
+        },
+        "availability": [
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-08-24T20:39:18.219Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          }
+        ],
+        "fingerprint": "84af573886db8b3800baf8cc589403b121b714694cdc40f4396f580405a9d48e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "claude::claude-opus-4-6",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-4.6",
+        "slug": "claude-opus-4.6",
+        "slugAliases": [
+          "Claude Opus 4.6",
+          "claude-opus-4-6",
+          "claude-opus-4.6"
+        ],
+        "displayName": "Anthropic Claude Opus 4.6",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "4.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-05-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 25,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 6.25,
+          "tiers $/M": [
+            {
+              "input": 10,
+              "output": 37.5,
+              "cache_read": 1,
+              "cache_write": 12.5,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 10,
+            "output": 37.5,
+            "cache_read": 1,
+            "cache_write": 12.5
+          }
+        },
+        "availability": [
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "0822a9c97fe669e600a326fb92eac9e1e929016603781dfcf4d5f63e58136c4f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "f8a29335203c34df3ab8725e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-kiwen",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-kiwen",
+        "slug": "qwen3.8-27b-kiwen",
+        "slugAliases": [
+          "qwen3.8-27b-kiwen"
+        ],
+        "displayName": "Qwen 3.8 27B Kiwen",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "4e7dbab89b940a19c65468a65d6357828768c2295164a5065efb268ee666e25f",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "c899e501116146d08cbf790c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-swift",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-swift",
+        "slug": "qwen3.8-27b-swift",
+        "slugAliases": [
+          "qwen3.8-27b-swift"
+        ],
+        "displayName": "Qwen 3.8 27B Swift",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "61cf822bf3b11e55a2317fb74b85ccb14256bb902e868bfbec93cab1b01f77f4",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "6b69a52d64afa60ffc626c2e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-fimi",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-fimi",
+        "slug": "qwen3.8-27b-fimi",
+        "slugAliases": [
+          "qwen3.8-27b-fimi"
+        ],
+        "displayName": "Qwen 3.8 27B Fimi",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "82b7d4c7cf1db7fa7348343748ae236665be316fde33ef2ea3866bf37f247b49",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "a70140e6d76db23187b81939",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-kimiko",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-kimiko",
+        "slug": "qwen3.8-27b-kimiko",
+        "slugAliases": [
+          "qwen3.8-27b-kimiko"
+        ],
+        "displayName": "Qwen 3.8 27B Kimiko",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "cba2837e81cb5a6df756aead957ca125c88d92ca9404c3857c1bebbe9fb5c1ca",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "f139057ab0c75a1d2ff5a4e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-antislop",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-antislop",
+        "slug": "qwen3.8-27b-antislop",
+        "slugAliases": [
+          "qwen3.8-27b-antislop"
+        ],
+        "displayName": "Qwen 3.8 27B Antislop",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "8513975bce003e6e8a211fa98b19ddb6e3067e58711d379d139683d62eb42aa8",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "70f83c65c189a7652e14c676",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-darkidol",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-darkidol",
+        "slug": "qwen3.8-27b-darkidol",
+        "slugAliases": [
+          "qwen3.8-27b-darkidol"
+        ],
+        "displayName": "Qwen 3.8 27B DarkIdol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "d185fd93f53afb4b29456427a1aacaf5116f0c7b467ecbae7080e12483882fac",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "9634b24596cae6e90877931d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-novelist",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-novelist",
+        "slug": "qwen3.8-27b-novelist",
+        "slugAliases": [
+          "qwen3.8-27b-novelist"
+        ],
+        "displayName": "Qwen 3.8 27B Novelist",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "ebe6fec386931635fdd7e4ca1a90c9ba19598cd93dc3ff0092d89c994fb16e05",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "1444d40589f02e9a15f251b9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8-27b-synthia",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-27b-synthia",
+        "slug": "qwen3.8-27b-synthia",
+        "slugAliases": [
+          "qwen3.8-27b-synthia"
+        ],
+        "displayName": "Qwen 3.8 27B Synthia",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "27B",
+          "version": "3.8"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "b7cfd6aeb07e3b4851909672acc4439c193262fc8e0863d49ac699bea567a5e8",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "af542911b9556e990b4d6057",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-timeseries-ensemble-r1",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-timeseries-ensemble-r1",
+        "slug": "granite-timeseries-ensemble-r1",
+        "slugAliases": [
+          "granite-timeseries-ensemble-r1"
+        ],
+        "displayName": "granite-timeseries-ensemble-r1",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "r1",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "r1",
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-23",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-timeseries-ensemble-r1",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "cf88f15892fdbcf341ad1c4e843a38b816e957f647d0296cad2a832482e5cb56",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "31a973f3b6d942de474eea68",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "briaai-fibo-scene-analyzer::briaai-fibo-scene-analyzer",
+        "owner": "Bria AI",
+        "vendorId": "bria",
+        "family": "briaai-fibo-scene-analyzer",
+        "modelId": "briaai/fibo-scene-analyzer",
+        "slug": "briaai/fibo-scene-analyzer",
+        "slugAliases": [
+          "briaai/fibo-scene-analyzer"
+        ],
+        "displayName": "fibo-scene-analyzer",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:bria:briaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/briaai/fibo-scene-analyzer",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "c23531cca007c80bc0f8574ab6184d2dcb9339bcc0fa27c111c7a8c24a8b1096",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "90c5480acbe982152de33a3d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "eleven::eleven-v4-turbo-pro",
+        "owner": "ElevenLabs",
+        "vendorId": "elevenlabs",
+        "family": "ElevenLabs",
+        "familyId": "eleven",
+        "modelId": "Eleven v4 Turbo pro",
+        "slug": "Eleven v4 Turbo pro",
+        "slugAliases": [
+          "Eleven v4 Turbo pro"
+        ],
+        "displayName": "Eleven v4 Turbo pro",
+        "modalities": [
+          "audio",
+          "music",
+          "speech"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "turbo",
+        "capabilities": {
+          "tier": "turbo",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:artificial-analysis-speech",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/text-to-speech",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          }
+        ],
+        "fingerprint": "571450499803a59181d6b08c8a0307ad33b9f2b7062529424276ecf1d0f78958",
+        "firstSeen": "2026-10-05T22:04:45.489Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-05T22:04:45.489Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
