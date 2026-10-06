@@ -285805,6 +285805,513 @@
         "model"
       ],
       "detectedAt": "2026-10-06T09:03:36.369Z"
+    },
+    {
+      "id": "7947c7199546b0ad6bddb515",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-large-4-0",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4-0",
+        "slug": "mistral-large-4-0",
+        "slugAliases": [
+          "mistral-large-4-0"
+        ],
+        "displayName": "Mistral Large 4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.0",
+        "tier": "large",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "large",
+          "version": "4.0"
+        },
+        "limits": {
+          "contextTokens": 524288,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.68,
+          "output $/M": 2.09,
+          "cache_read $/M": 0.07
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "cb977c83497ca75c932787f54a080aa10336d1bae757eaac7ac4fa02e74157b3",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T15:53:36.875Z"
+    },
+    {
+      "id": "c59fad4d2e9b0b5de55dcf2c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-large-4",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4",
+        "slug": "mistral-large-4",
+        "slugAliases": [
+          "Mistral Large 4",
+          "mistral-large-4"
+        ],
+        "displayName": "Mistral Large 4",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "tier": "large",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 524288,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.68,
+          "output $/M": 2.09,
+          "cache_read $/M": 0.07
+        },
+        "availability": [
+          "Mistral",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/getting-started/models/",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "3d8dbafd60e80e481406a9a011767a59ce67f704a03d7a69f81ac132eaed8baf",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T15:53:36.875Z"
+    },
+    {
+      "id": "0ece83c35b886b000a4b120c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::mistral-large-4-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4@eu",
+        "slug": "mistral-large-4@eu",
+        "slugAliases": [
+          "mistral-large-4@eu"
+        ],
+        "displayName": "mistral-large-4@eu",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "large",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 0.68,
+          "output $/M": 2.09,
+          "cache_read $/M": 0.07
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "6d9672a5bd889803b0ef1620baf9d19140e677cb21bd3ebb2ec023c8c88d42c3",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T15:53:36.875Z"
+    },
+    {
+      "id": "2bea6739a2056dcf5390c2fd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-us-gpt::azure-us-gpt-6-1-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/us/gpt-6.1-sol",
+        "slug": "azure/us/gpt-6.1-sol",
+        "slugAliases": [
+          "azure/us/gpt-6.1-sol"
+        ],
+        "displayName": "azure/us/gpt-6.1-sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "7fcd97636ddf83f8a5875cc24281d4d8b793202104a8e059e2f943cc84b49a76",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T15:53:36.875Z"
+    },
+    {
+      "id": "46017834ca1ef704b56c0079",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-eu-gpt::azure-eu-gpt-6-1-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/eu/gpt-6.1-sol",
+        "slug": "azure/eu/gpt-6.1-sol",
+        "slugAliases": [
+          "azure/eu/gpt-6.1-sol"
+        ],
+        "displayName": "azure/eu/gpt-6.1-sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "c9e8c0be916cc16276f35ccde4e6583eec82753ce173d71966c7774f9cdd359d",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T15:53:36.875Z"
+    },
+    {
+      "id": "d997843c05d159071167433e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "azure-apac-gpt::azure-apac-gpt-6-1-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "azure/apac/gpt-6.1-sol",
+        "slug": "azure/apac/gpt-6.1-sol",
+        "slugAliases": [
+          "azure/apac/gpt-6.1-sol"
+        ],
+        "displayName": "azure/apac/gpt-6.1-sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "image, text",
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 922000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.4,
+          "output $/M": 12
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "a42225ac25fa2af73f0207aa2a2e890b0ac59c871c5646e9c07a84ae3399c290",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T15:53:36.875Z"
+    },
+    {
+      "id": "17af5a2730b45cef4924427a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-large",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron 3 Large",
+        "slug": "Nemotron 3 Large",
+        "slugAliases": [
+          "Nemotron 3 Large"
+        ],
+        "displayName": "Nemotron 3 Large",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "large",
+        "capabilities": {
+          "tier": "large",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "announced"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "09e09ada9bda747908338db54e9717b73f8027f1e7a31fa13014c98866fc4a5e",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-06T15:53:36.875Z"
+    },
+    {
+      "id": "b4f480051016e0d20ab71b13",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini-embedding::embeddinggemma-2",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini Embedding",
+        "familyId": "gemini-embedding",
+        "modelId": "embeddinggemma-2",
+        "slug": "embeddinggemma-2",
+        "slugAliases": [
+          "embeddinggemma-2"
+        ],
+        "displayName": "embeddinggemma-2",
+        "modalities": [
+          "audio",
+          "embedding",
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "openWeights": true,
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:google:google",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/google/embeddinggemma-2",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "d23d1c713cd239aa0ee19abb87893a054cf3864d90095e96a3a60142678123f5",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T15:53:36.875Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
