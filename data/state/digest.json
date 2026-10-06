@@ -285606,6 +285606,205 @@
         "announcement"
       ],
       "detectedAt": "2026-10-06T02:14:24.658Z"
+    },
+    {
+      "id": "7d7e983908af3c76ec5ca4d7",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "stealth-space-bunny::stealth-space-bunny-alpha",
+        "family": "stealth-space-bunny",
+        "modelId": "stealth/space-bunny-alpha",
+        "slug": "stealth/space-bunny-alpha",
+        "slugAliases": [
+          "stealth/space-bunny-alpha"
+        ],
+        "displayName": "Space Bunny Alpha",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "image, text, video",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 524288
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.15
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-06T02:14:24.658Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-06T02:14:24.658Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-06T02:14:24.658Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/stealth/space-bunny-alpha",
+            "observedAt": "2026-10-05T15:19:38.253Z"
+          }
+        ],
+        "fingerprint": "0fdf32bc0ca88839a6e4b6ab170dd12ed48337ac818d4a072e774159eac4e461",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-10-05T22:04:45.489Z"
+      },
+      "after": {
+        "key": "stealth-space-bunny::stealth-space-bunny-alpha",
+        "family": "stealth-space-bunny",
+        "modelId": "stealth/space-bunny-alpha",
+        "slug": "stealth/space-bunny-alpha",
+        "slugAliases": [
+          "stealth/space-bunny-alpha"
+        ],
+        "displayName": "Space Bunny Alpha",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 524288
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.15
+        },
+        "availability": [
+          "NanoGPT",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-23",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-06T09:03:36.369Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-06T09:03:36.369Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-06T09:03:36.369Z"
+          }
+        ],
+        "fingerprint": "7dbc62ea35d7abce70a81529bd96831f4823c87aef3ccfb72acf40bf946895e9",
+        "firstSeen": "2026-09-23T18:37:55.314Z",
+        "lastChanged": "2026-10-06T09:03:36.369Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-06T09:03:36.369Z"
+    },
+    {
+      "id": "fd8ca24cec3c0dd9783e9729",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nova::nova-2-5-sonic",
+        "owner": "Deepgram",
+        "vendorId": "deepgram",
+        "family": "Deepgram Nova / Aura",
+        "familyId": "deepgram-nova",
+        "modelId": "nova-2-5-sonic",
+        "slug": "nova-2-5-sonic",
+        "slugAliases": [
+          "nova-2-5-sonic"
+        ],
+        "displayName": "nova-2-5-sonic",
+        "modalities": [
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "realtime",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 0.33,
+          "output $/M": 2.75
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json",
+            "observedAt": "2026-10-06T09:03:36.369Z"
+          }
+        ],
+        "fingerprint": "c2c00c10fff34789fcd87298a659506a26d4085fc2cb9bfad35270a37e460210",
+        "firstSeen": "2026-10-06T09:03:36.369Z",
+        "lastChanged": "2026-10-06T09:03:36.369Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T09:03:36.369Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
