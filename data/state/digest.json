@@ -286312,6 +286312,341 @@
         "model"
       ],
       "detectedAt": "2026-10-06T15:53:36.875Z"
+    },
+    {
+      "id": "4d7892739343bfc660e592bd",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-large-4-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4@eu",
+        "slug": "mistral-large-4@eu",
+        "slugAliases": [
+          "mistral-large-4@eu"
+        ],
+        "displayName": "mistral-large-4@eu",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "large",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 0.68,
+          "output $/M": 2.09,
+          "cache_read $/M": 0.07
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-06T15:53:36.875Z"
+          }
+        ],
+        "fingerprint": "6d9672a5bd889803b0ef1620baf9d19140e677cb21bd3ebb2ec023c8c88d42c3",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T15:53:36.875Z"
+      },
+      "after": {
+        "key": "mistral::mistral-large-4-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4@eu",
+        "slug": "mistral-large-4@eu",
+        "slugAliases": [
+          "mistral-large-4@eu"
+        ],
+        "displayName": "Mistral Large 4 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "large",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 0.68,
+          "output $/M": 2.09,
+          "cache_read $/M": 0.07
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          }
+        ],
+        "fingerprint": "a1719064d2162ff57aeaadecceb70628b15531581e49b195acf0677de7784107",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T20:44:38.944Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-10-06T20:44:38.944Z"
+    },
+    {
+      "id": "3eebb87bb89a631c30f9a128",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bytedance::bytedance-pro-latest",
+        "family": "bytedance",
+        "modelId": "bytedance-pro-latest",
+        "slug": "bytedance-pro-latest",
+        "slugAliases": [
+          "bytedance-pro-latest"
+        ],
+        "displayName": "ByteDance Pro Latest",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "tier": "pro"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "availability": [
+          "The Grid AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-06",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://thegrid.ai/docs",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          }
+        ],
+        "fingerprint": "d0eb54e4b731930fed311dbd730ad857cdb79f63bc61e38b5c661f67a5074d84",
+        "firstSeen": "2026-10-06T20:44:38.944Z",
+        "lastChanged": "2026-10-06T20:44:38.944Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T20:44:38.944Z"
+    },
+    {
+      "id": "8881e46052d9552f86971caf",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nano-banana::nano-banana-2-1-nano",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Nano Banana",
+        "familyId": "nano-banana",
+        "modelId": "nano-banana-2.1 Nano",
+        "slug": "nano-banana-2.1 Nano",
+        "slugAliases": [
+          "nano-banana-2.1 Nano"
+        ],
+        "displayName": "nano-banana-2.1 Nano",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "2.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          }
+        ],
+        "fingerprint": "1121611ab19eb600da8946250ea4be0edef6692ed61886335701658443b51138",
+        "firstSeen": "2026-10-06T20:44:38.944Z",
+        "lastChanged": "2026-10-06T20:44:38.944Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-06T20:44:38.944Z"
+    },
+    {
+      "id": "5e8b1ee536119ad7ee360012",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nano-banana::nano-banana-2-1-mini",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Nano Banana",
+        "familyId": "nano-banana",
+        "modelId": "Nano Banana 2.1 mini",
+        "slug": "Nano Banana 2.1 mini",
+        "slugAliases": [
+          "Nano Banana 2.1 mini"
+        ],
+        "displayName": "Nano Banana 2.1 mini",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "2.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          }
+        ],
+        "fingerprint": "62598fb6a6125f7b54961d922b325f2f06216628f6be2d7e295d52c024ec39ca",
+        "firstSeen": "2026-10-06T20:44:38.944Z",
+        "lastChanged": "2026-10-06T20:44:38.944Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-06T20:44:38.944Z"
+    },
+    {
+      "id": "ae71e266c58162a87baa10f6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "minicpm::minicpm-v-4-7-35b-a3b",
+        "owner": "OpenBMB / ModelBest",
+        "vendorId": "openbmb",
+        "family": "MiniCPM",
+        "familyId": "minicpm",
+        "modelId": "MiniCPM-V-4.7-35B-A3B",
+        "slug": "MiniCPM-V-4.7-35B-A3B",
+        "slugAliases": [
+          "MiniCPM-V-4.7-35B-A3B"
+        ],
+        "displayName": "MiniCPM-V-4.7-35B-A3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "35B",
+          "activeParameters": "3B active",
+          "version": "4.7"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:openbmb:openbmb",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          }
+        ],
+        "fingerprint": "e71c121f7822b375921c056a8a847ec0eac9dfbd63015d9654fb4dc8de653c15",
+        "firstSeen": "2026-10-06T20:44:38.944Z",
+        "lastChanged": "2026-10-06T20:44:38.944Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T20:44:38.944Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
