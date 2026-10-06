@@ -285439,6 +285439,173 @@
         "announcement"
       ],
       "detectedAt": "2026-10-05T22:04:45.489Z"
+    },
+    {
+      "id": "6ebe68eafd9938838c8fc7c4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-552b",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-552b",
+        "slug": "deepseek-v4.1-flash-552b",
+        "slugAliases": [
+          "deepseek-v4.1-flash-552b"
+        ],
+        "displayName": "DeepSeek V4.1 Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "parameters": "552B",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 81920
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1,
+          "cache_read $/M": 0.1
+        },
+        "availability": [
+          "AKI.IO"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://aki.io/docs/",
+            "observedAt": "2026-10-06T02:14:24.658Z"
+          }
+        ],
+        "fingerprint": "bd4f9febd793e6546db25495f007f78b0647ff6eaf5b14964c91bfc8010939b8",
+        "firstSeen": "2026-10-06T02:14:24.658Z",
+        "lastChanged": "2026-10-06T02:14:24.658Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T02:14:24.658Z"
+    },
+    {
+      "id": "a138b231a0354d46ea20e253",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "alodlm::alodlm-8b",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "alodlm",
+        "modelId": "ALoDLM-8B",
+        "slug": "ALoDLM-8B",
+        "slugAliases": [
+          "ALoDLM-8B"
+        ],
+        "displayName": "ALoDLM-8B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-02",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:amazon:amazon",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/amazon/ALoDLM-8B",
+            "observedAt": "2026-10-06T02:14:24.658Z"
+          }
+        ],
+        "fingerprint": "fc628a40b3e984db1f0cc6675ec244a3b6ec6618725936ec600b4e86ce42f8ae",
+        "firstSeen": "2026-10-06T02:14:24.658Z",
+        "lastChanged": "2026-10-06T02:14:24.658Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-06T02:14:24.658Z"
+    },
+    {
+      "id": "ce1c5d536236c6cf810fc479",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ideogram::ideogram-4-5",
+        "owner": "Ideogram",
+        "vendorId": "ideogram",
+        "family": "Ideogram",
+        "familyId": "ideogram",
+        "modelId": "Ideogram 4.5",
+        "slug": "Ideogram 4.5",
+        "slugAliases": [
+          "Ideogram 4.5"
+        ],
+        "displayName": "Ideogram 4.5",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "capabilities": {
+          "version": "4.5"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-06T02:14:24.658Z"
+          }
+        ],
+        "fingerprint": "4421b100e447547214739d540878278392da53bf89dc24c1358a1b60c236f364",
+        "firstSeen": "2026-10-06T02:14:24.658Z",
+        "lastChanged": "2026-10-06T02:14:24.658Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-06T02:14:24.658Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
