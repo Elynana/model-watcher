@@ -287263,6 +287263,1248 @@
         "announcement"
       ],
       "detectedAt": "2026-10-07T13:13:43.191Z"
+    },
+    {
+      "id": "b6ceffc035edf2600997b29e",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "kwaipilot-kat::kwaipilot-kat-coder-pro-v2-5-20260710",
+        "family": "kwaipilot-kat",
+        "modelId": "kwaipilot/kat-coder-pro-v2.5-20260710",
+        "slug": "kwaipilot/kat-coder-pro-v2.5-20260710",
+        "slugAliases": [
+          "kwaipilot/kat-coder-pro-v2.5-20260710"
+        ],
+        "displayName": "Kwaipilot: KAT-Coder-Pro V2.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "pro",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "prompt $/M": 0.74,
+          "completion $/M": 2.96,
+          "input_cache_read $/M": 0.15
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-10",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/kwaipilot/kat-coder-pro-v2.5",
+            "observedAt": "2026-10-07T00:11:29.107Z"
+          }
+        ],
+        "fingerprint": "69d98c242d45192a0a5c895cf0746cdff48f714715942229ca567558cca281b8",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-08-31T15:25:46.486Z"
+      },
+      "after": {
+        "key": "kwaipilot-kat::kwaipilot-kat-coder-pro-v2-5-20260710",
+        "family": "kwaipilot-kat",
+        "modelId": "kwaipilot/kat-coder-pro-v2.5-20260710",
+        "slug": "kwaipilot/kat-coder-pro-v2.5-20260710",
+        "slugAliases": [
+          "kwaipilot/kat-coder-pro-v2.5-20260710"
+        ],
+        "displayName": "Kwaipilot: KAT-Coder-Pro V2.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "2.5",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "pro",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 235929
+        },
+        "pricing": {
+          "prompt $/M": 0.74,
+          "completion $/M": 2.96,
+          "input_cache_read $/M": 0.15
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-07-10",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/kwaipilot/kat-coder-pro-v2.5",
+            "observedAt": "2026-10-07T00:11:29.107Z"
+          }
+        ],
+        "fingerprint": "e50d10a1ee734b4064585cdff817530ddafe43c88cf2695679ee740d329f49b0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "d78f7d53f1fd42a89be46ded",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-haiku-4-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-4-5",
+        "slug": "claude-haiku-4-5",
+        "slugAliases": [
+          "claude-haiku-4-5",
+          "claude-haiku-4.5"
+        ],
+        "displayName": "Anthropic Claude Haiku 4.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "tier": "haiku",
+        "capabilities": {
+          "tier": "haiku",
+          "version": "4.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-02-28",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1.1,
+          "output $/M": 5.5,
+          "cache_read $/M": 0.1,
+          "cache_write $/M": 1.25
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          }
+        ],
+        "fingerprint": "5ecf06a3d00751a54fba07ddd0e8d3f8b731d410646cf422b2a4bad330fba651",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "claude::claude-haiku-4-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-4.5",
+        "slug": "claude-haiku-4.5",
+        "slugAliases": [
+          "Claude Haiku 4.5",
+          "claude-haiku-4-5",
+          "claude-haiku-4.5"
+        ],
+        "displayName": "Anthropic Claude Haiku 4.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.5",
+        "tier": "haiku",
+        "capabilities": {
+          "tier": "haiku",
+          "version": "4.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-02-28",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1.1,
+          "output $/M": 5.5,
+          "cache_read $/M": 0.1,
+          "cache_write $/M": 1.25
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "9b3cb680a09651425aea4690a720ccb7c9e3b8eb6c0ec65af215a2321b3d53d4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "042af40af2ae7cefdd82bab6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5-5",
+        "slug": "claude-haiku-5-5",
+        "slugAliases": [
+          "claude-haiku-5-5",
+          "claude-haiku-5.5"
+        ],
+        "displayName": "Claude Haiku 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "tier": "haiku",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 0.5,
+              "output": 2.5,
+              "cache_read": 0.05,
+              "cache_write": 0.625,
+              "tier": {
+                "type": "context",
+                "size": 100001
+              }
+            }
+          ]
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "8feca237fbaf8711248a7b57c9af9eeddb9cd23ca7884b18770f8d33ebc92e50",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "7d97e11d6c7532c1ea74bc7a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-anthropic-claude::bedrock-mantle-anthropic-claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "bedrock_mantle/anthropic.claude-haiku-5-5",
+        "slug": "bedrock_mantle/anthropic.claude-haiku-5-5",
+        "slugAliases": [
+          "bedrock_mantle/anthropic.claude-haiku-5-5"
+        ],
+        "displayName": "bedrock_mantle/anthropic.claude-haiku-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "haiku",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.11,
+          "output $/M": 0.55
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "ab0a54731ab3f1f4ee9958a648271640ffa44d0f2868141375de470541ae4b55",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "56ddfdd8f82b610e2b65493b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bedrock-mantle-us-gov-west::bedrock-mantle-us-gov-west-1-anthropic-claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "bedrock_mantle/us-gov-west-1/anthropic.claude-haiku-5-5",
+        "slug": "bedrock_mantle/us-gov-west-1/anthropic.claude-haiku-5-5",
+        "slugAliases": [
+          "bedrock_mantle/us-gov-west-1/anthropic.claude-haiku-5-5"
+        ],
+        "displayName": "bedrock_mantle/us-gov-west-1/anthropic.claude-haiku-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "haiku",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.12,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "bedrock_mantle"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "14035fccf2b844de9c150847b4f619d4a165ffa7a2ddd2d357255a88d34e1ff9",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "6510b9b6fade02bfa8161c59",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-east::us-gov-east-1-anthropic-claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov-east-1/anthropic.claude-haiku-5-5",
+        "slug": "us-gov-east-1/anthropic.claude-haiku-5-5",
+        "slugAliases": [
+          "us-gov-east-1/anthropic.claude-haiku-5-5"
+        ],
+        "displayName": "us-gov-east-1/anthropic.claude-haiku-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "haiku",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.12,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "5f045d9c785f2755cb6f81cabf7df3f6e667af36c4b78ffbb2eda813ddbc3118",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "1b7d9529dcae3b83ffcae5ea",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-west::us-gov-west-1-anthropic-claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov-west-1/anthropic.claude-haiku-5-5",
+        "slug": "us-gov-west-1/anthropic.claude-haiku-5-5",
+        "slugAliases": [
+          "us-gov-west-1/anthropic.claude-haiku-5-5"
+        ],
+        "displayName": "us-gov-west-1/anthropic.claude-haiku-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "haiku",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.12,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "bedrock"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "0a55259528f721666fefdae152936bf0e142a036bfe69d5e3b125a1ed404f8e9",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "d6a5d66618cb5f33ed6c4cb9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "us-gov-anthropic-claude::us-gov-anthropic-claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "us-gov.anthropic.claude-haiku-5-5",
+        "slug": "us-gov.anthropic.claude-haiku-5-5",
+        "slugAliases": [
+          "us-gov.anthropic.claude-haiku-5-5"
+        ],
+        "displayName": "us-gov.anthropic.claude-haiku-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "haiku",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.12,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "bedrock_converse"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aws.amazon.com/bedrock/pricing/",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "7ff22b82099818d10501e90593c4c1bf77978171b7fbe558db974b3d749a64c1",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "0deeb7c53f2ff2c81297c672",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-haiku-5-5-default",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5-5@default",
+        "slug": "claude-haiku-5-5@default",
+        "slugAliases": [
+          "claude-haiku-5-5@default"
+        ],
+        "displayName": "claude-haiku-5-5@default",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "haiku",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "4ee0db9bd8ed7dbb7296967bcba418108070c99ca0abdabda357973bc7248eaa",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "a29688048f4f8131939e337d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-haiku-5-5-micro",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5-5 Micro",
+        "slug": "claude-haiku-5-5 Micro",
+        "slugAliases": [
+          "claude-haiku-5-5 Micro"
+        ],
+        "displayName": "claude-haiku-5-5 Micro",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "tier": "haiku",
+          "version": "5.5"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "a275f83eb1d124c7e9d8c6847d8e6c8eb15536b7bc889f6b910f24bfd39c239a",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "eb4cae7ae82939fa9205244e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cohere-embed::perplexity-ai-pplx-embed-v2-late-0-6b",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "Cohere Embed / Rerank",
+        "familyId": "cohere-embed",
+        "modelId": "perplexity-ai/pplx-embed-v2-late-0.6b",
+        "slug": "perplexity-ai/pplx-embed-v2-late-0.6b",
+        "slugAliases": [
+          "perplexity-ai/pplx-embed-v2-late-0.6b"
+        ],
+        "displayName": "pplx-embed-v2-late-0.6b",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "6B",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pplx-embed-v2-late-0.6b",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "f15f2fe51ea7a139e5d71804ed8e7ed75456b5d1b16df8e5708b5ccdaa9631b2",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "86b6b6d3192534b3001fe1ad",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cohere-embed::perplexity-ai-pplx-embed-v2-late-9b",
+        "owner": "Perplexity",
+        "vendorId": "perplexity",
+        "family": "Cohere Embed / Rerank",
+        "familyId": "cohere-embed",
+        "modelId": "perplexity-ai/pplx-embed-v2-late-9b",
+        "slug": "perplexity-ai/pplx-embed-v2-late-9b",
+        "slugAliases": [
+          "perplexity-ai/pplx-embed-v2-late-9b"
+        ],
+        "displayName": "pplx-embed-v2-late-9b",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B",
+          "version": "2"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:perplexity:perplexity-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/perplexity-ai/pplx-embed-v2-late-9b",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "33366b826785b520d56e8d06343072dcc6785164ee6a50a5a4cb471e8947dc2c",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "711e8bbab7a8620ac5a83dbb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::llama-3-blama-8b",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-3-Blama-8B",
+        "slug": "Llama-3-Blama-8B",
+        "slugAliases": [
+          "Llama-3-Blama-8B"
+        ],
+        "displayName": "Llama-3-Blama-8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:allenai:allenai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/allenai/Llama-3-Blama-8B",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "b36423c55991100cfeaa3845ce2a50446e6fccb2cd8f0c1a4b6057b5576b0c28",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "b4d4674ed7f8837fb068e87c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "llama::llama-3-blama-8b-stage1",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-3-Blama-8B-Stage1",
+        "slug": "Llama-3-Blama-8B-Stage1",
+        "slugAliases": [
+          "Llama-3-Blama-8B-Stage1"
+        ],
+        "displayName": "Llama-3-Blama-8B-Stage1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:allenai:allenai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/allenai/Llama-3-Blama-8B-Stage1",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "fbd41b075514b641da41ce63103c315421ad34b02cf7850fcef8da192d06e661",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "0083659c4df2683b975fe6cb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bwen::bwen-8b",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "bwen",
+        "modelId": "Bwen-8B",
+        "slug": "Bwen-8B",
+        "slugAliases": [
+          "Bwen-8B"
+        ],
+        "displayName": "Bwen-8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:allenai:allenai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/allenai/Bwen-8B",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "91a231378b2997883a459224186686e9d14b9f3ef8f0f73e397dd732e6f86b7f",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "bde217e8eac4b15823715104",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bwen::bwen-8b-stage1",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "bwen",
+        "modelId": "Bwen-8B-Stage1",
+        "slug": "Bwen-8B-Stage1",
+        "slugAliases": [
+          "Bwen-8B-Stage1"
+        ],
+        "displayName": "Bwen-8B-Stage1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:allenai:allenai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/allenai/Bwen-8B-Stage1",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "3cb9a85a24de3464fd57d2bebc224bcca16aed8b5209a2fabefe3b71caa27c69",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "3f4fbb864dfaf2e86c938d11",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bolmo::bolmo-1b-stage1",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "bolmo",
+        "modelId": "Bolmo-1B-Stage1",
+        "slug": "Bolmo-1B-Stage1",
+        "slugAliases": [
+          "Bolmo-1B-Stage1"
+        ],
+        "displayName": "Bolmo-1B-Stage1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "1B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:allenai:allenai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/allenai/Bolmo-1B-Stage1",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "fa4b7b3293d3d317f7b60c6d3ba45f4405441a2332db9dc3ee08180f673f93f9",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
+    },
+    {
+      "id": "fc52f59852adfb8bf9bc7a8d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "bolmo::bolmo-7b-stage1",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "bolmo",
+        "modelId": "Bolmo-7B-Stage1",
+        "slug": "Bolmo-7B-Stage1",
+        "slugAliases": [
+          "Bolmo-7B-Stage1"
+        ],
+        "displayName": "Bolmo-7B-Stage1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "7B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:allenai:allenai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/allenai/Bolmo-7B-Stage1",
+            "observedAt": "2026-10-07T19:23:11.431Z"
+          }
+        ],
+        "fingerprint": "239336942314d26491b1cc0b7509af860057d3e76f6029ab917df6eb41f7ef85",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-07T19:23:11.431Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T19:23:11.431Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
