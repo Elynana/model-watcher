@@ -286809,6 +286809,229 @@
         "availability"
       ],
       "detectedAt": "2026-10-07T00:11:29.107Z"
+    },
+    {
+      "id": "44c8754defba9b10ac3adce7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "in-moonshotai-kimi::in-moonshotai-kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "in.moonshotai.kimi-k3",
+        "slug": "in.moonshotai.kimi-k3",
+        "slugAliases": [
+          "in.moonshotai.kimi-k3"
+        ],
+        "displayName": "in.moonshotai.kimi-k3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 3.3,
+          "output $/M": 16.5
+        },
+        "availability": [
+          "bedrock_converse"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3.md",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          }
+        ],
+        "fingerprint": "578536c2bc3aab626e3d7baf7234ae5e28244725f36297bc41e54fc8c04c4af6",
+        "firstSeen": "2026-10-07T06:06:37.777Z",
+        "lastChanged": "2026-10-07T06:06:37.777Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T06:06:37.777Z"
+    },
+    {
+      "id": "09995645a07abaca7d9d2811",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-luna-decisions",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-luna-decisions",
+        "slug": "gpt-6-luna-decisions",
+        "slugAliases": [
+          "gpt-6-luna-decisions"
+        ],
+        "displayName": "gpt-6-luna-decisions",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          }
+        ],
+        "fingerprint": "da527fa574978af86466cd3752e0ea7cd94bb61b95f72fc5443564f92baf716f",
+        "firstSeen": "2026-10-07T06:06:37.777Z",
+        "lastChanged": "2026-10-07T06:06:37.777Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-07T06:06:37.777Z"
+    },
+    {
+      "id": "df9d219e9958ec4f4ced1788",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-flash-mini",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "Gemini 3.1 Flash mini",
+        "slug": "Gemini 3.1 Flash mini",
+        "slugAliases": [
+          "Gemini 3.1 Flash mini"
+        ],
+        "displayName": "Gemini 3.1 Flash mini",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          }
+        ],
+        "fingerprint": "3ec4f2a23b825d7be8df623517a75ba27ff9be0dc9b94c7cf1ef000b77786370",
+        "firstSeen": "2026-10-07T06:06:37.777Z",
+        "lastChanged": "2026-10-07T06:06:37.777Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-07T06:06:37.777Z"
+    },
+    {
+      "id": "3ff0b4057f20a009e072ebbe",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite-mini",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "Gemini 3.1 Flash Lite mini",
+        "slug": "Gemini 3.1 Flash Lite mini",
+        "slugAliases": [
+          "Gemini 3.1 Flash Lite mini"
+        ],
+        "displayName": "Gemini 3.1 Flash Lite mini",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          }
+        ],
+        "fingerprint": "057659e0fa90006e3a3345780a81ef5bd80f15493bc47c507e3213c6dff7527f",
+        "firstSeen": "2026-10-07T06:06:37.777Z",
+        "lastChanged": "2026-10-07T06:06:37.777Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-07T06:06:37.777Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
