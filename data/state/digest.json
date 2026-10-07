@@ -287032,6 +287032,237 @@
         "announcement"
       ],
       "detectedAt": "2026-10-07T06:06:37.777Z"
+    },
+    {
+      "id": "ab899deb849ad121e54ee0ea",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-3-1-flash",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-3.1-flash",
+        "slug": "ling-3.1-flash",
+        "slugAliases": [
+          "ling-3.1-flash"
+        ],
+        "displayName": "Ling 3.1 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-07T06:06:37.777Z"
+          }
+        ],
+        "fingerprint": "052d45b8e5adf20421e5a14916af9ef6bfb34797575446c8400653fcf738e884",
+        "firstSeen": "2026-09-29T06:59:10.863Z",
+        "lastChanged": "2026-10-05T15:19:38.253Z"
+      },
+      "after": {
+        "key": "ling::ling-3-1-flash",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "ling-3.1-flash",
+        "slug": "ling-3.1-flash",
+        "slugAliases": [
+          "ling-3.1-flash"
+        ],
+        "displayName": "Ling 3.1 Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "DevPass (LLM Gateway)",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          }
+        ],
+        "fingerprint": "6e6fea761b391084d83b016f455cad0927f5b3692922f10fa485cb99b6d16aaa",
+        "firstSeen": "2026-09-29T06:59:10.863Z",
+        "lastChanged": "2026-10-07T13:13:43.191Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-07T13:13:43.191Z"
+    },
+    {
+      "id": "e9bbbd1675989d4e187b786e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nano-banana::nano-banana-nano",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Nano Banana",
+        "familyId": "nano-banana",
+        "modelId": "Nano Banana Nano",
+        "slug": "Nano Banana Nano",
+        "slugAliases": [
+          "Nano Banana Nano"
+        ],
+        "displayName": "Nano Banana Nano",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-07T13:13:43.191Z"
+          }
+        ],
+        "fingerprint": "af0996e0df8468625dadb78678ded73d6436d46176cf65fa15460baeb6592f4e",
+        "firstSeen": "2026-10-07T13:13:43.191Z",
+        "lastChanged": "2026-10-07T13:13:43.191Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-07T13:13:43.191Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
