@@ -286647,6 +286647,168 @@
         "model"
       ],
       "detectedAt": "2026-10-06T20:44:38.944Z"
+    },
+    {
+      "id": "64fef532ce4ddb9bf461e919",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-large-4",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4",
+        "slug": "mistral-large-4",
+        "slugAliases": [
+          "Mistral Large 4",
+          "mistral-large-4"
+        ],
+        "displayName": "Mistral Large 4",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "tier": "large",
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.36,
+          "output $/M": 4.18,
+          "cache_read $/M": 0.14
+        },
+        "availability": [
+          "DevPass (LLM Gateway)",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          }
+        ],
+        "fingerprint": "6552d4d92dc3c37b316d28394315b3f42f65b8aee56ed309a5316c77df0c16fa",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-06T20:44:38.944Z"
+      },
+      "after": {
+        "key": "mistral::mistral-large-4",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4",
+        "slug": "mistral-large-4",
+        "slugAliases": [
+          "Mistral Large 4",
+          "mistral-large-4"
+        ],
+        "displayName": "Mistral Large 4",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "tier": "large",
+          "version": "4",
+          "openWeights": false,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.36,
+          "output $/M": 4.18,
+          "cache_read $/M": 0.14
+        },
+        "availability": [
+          "DevPass (LLM Gateway)",
+          "Ollama",
+          "Vercel AI Gateway",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-06T20:44:38.944Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-10-07T00:11:29.107Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-07T00:11:29.107Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/mistral-large-4",
+            "observedAt": "2026-10-07T00:11:29.107Z"
+          }
+        ],
+        "fingerprint": "95fae3ea73c5456af6ce6b3e53b5033b8ac865a177733c7bec10d0bbb1155ef7",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-07T00:11:29.107Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-07T00:11:29.107Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
