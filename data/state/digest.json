@@ -289181,6 +289181,241 @@
         "model"
       ],
       "detectedAt": "2026-10-08T17:00:18.540Z"
+    },
+    {
+      "id": "ec63052757ba83117f8a193b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k2-5-eu",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k2.5@eu",
+        "slug": "kimi-k2.5@eu",
+        "slugAliases": [
+          "kimi-k2.5@eu"
+        ],
+        "displayName": "Kimi K2.5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video",
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16000
+        },
+        "pricing": {
+          "input $/M": 0.72,
+          "output $/M": 3.6,
+          "cache_read $/M": 0.72,
+          "cache_write $/M": 0.72
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-08T21:56:23.839Z"
+          }
+        ],
+        "fingerprint": "e273a87600cfbfab27ef836bbc554496ba69602b43a36e047fc2846081e532b7",
+        "firstSeen": "2026-10-08T21:56:23.839Z",
+        "lastChanged": "2026-10-08T21:56:23.839Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-08T21:56:23.839Z"
+    },
+    {
+      "id": "77817a965b1e7797e58bb8d4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-haiku-5-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5.5:batch",
+        "slug": "claude-haiku-5.5:batch",
+        "slugAliases": [
+          "claude-haiku-5.5:batch"
+        ],
+        "displayName": "claude-haiku-5.5:batch",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "haiku",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "tier": "haiku",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-08T21:56:23.839Z"
+          }
+        ],
+        "fingerprint": "2d2861bbe7563965263e3c3c217780c813b3833ec4684db33fe813907f7a1a0a",
+        "firstSeen": "2026-10-08T21:56:23.839Z",
+        "lastChanged": "2026-10-08T21:56:23.839Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-08T21:56:23.839Z"
+    },
+    {
+      "id": "ea9cb3ad8f867853e8ce7419",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cosmos::cosmos3-nano-exp",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Cosmos",
+        "familyId": "cosmos",
+        "modelId": "Cosmos3-Nano exp",
+        "slug": "Cosmos3-Nano exp",
+        "slugAliases": [
+          "Cosmos3-Nano exp"
+        ],
+        "displayName": "Cosmos3-Nano exp",
+        "modalities": [
+          "video",
+          "world"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "announced"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-10-08",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:nvidia-blog",
+            "sourceKind": "official-feed",
+            "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+            "observedAt": "2026-10-08T21:56:23.839Z"
+          }
+        ],
+        "fingerprint": "ec997254ae452263fd9fb34c519a13ec920160e31a8f8c6ee677abe333a7e7c5",
+        "firstSeen": "2026-10-08T21:56:23.839Z",
+        "lastChanged": "2026-10-08T21:56:23.839Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-08T21:56:23.839Z"
+    },
+    {
+      "id": "8abbbd9291e5433bce35ee1a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nano-banana::nano-banana-2-1-pro",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Nano Banana",
+        "familyId": "nano-banana",
+        "modelId": "Nano Banana 2.1 Pro",
+        "slug": "Nano Banana 2.1 Pro",
+        "slugAliases": [
+          "Nano Banana 2.1 Pro"
+        ],
+        "displayName": "Nano Banana 2.1 Pro",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.1",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "2.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-08T21:56:23.839Z"
+          }
+        ],
+        "fingerprint": "c1a9241be1759eba84dc4816fc5d73ddaa4bc688d4d987df6b428b53430fe9d9",
+        "firstSeen": "2026-10-08T21:56:23.839Z",
+        "lastChanged": "2026-10-08T21:56:23.839Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-08T21:56:23.839Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
