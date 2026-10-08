@@ -288715,6 +288715,86 @@
         "availability"
       ],
       "detectedAt": "2026-10-07T23:40:26.093Z"
+    },
+    {
+      "id": "bdb065e3d8a2235d4f189f0b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-haiku-5-5-eu",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5-5@eu",
+        "slug": "claude-haiku-5-5@eu",
+        "slugAliases": [
+          "claude-haiku-5-5@eu"
+        ],
+        "displayName": "Claude Haiku 5.5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "haiku",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.11,
+          "output $/M": 0.55,
+          "cache_read $/M": 0.02,
+          "cache_write $/M": 0.14,
+          "tiers $/M": [
+            {
+              "input": 0.55,
+              "output": 2.75,
+              "cache_read": 0.06,
+              "cache_write": 0.69,
+              "tier": {
+                "type": "context",
+                "size": 100000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-08T09:50:24.036Z"
+          }
+        ],
+        "fingerprint": "d68261d4c93e144c9cc4bbc4ca893235e662edd31b4ed719f86329294d07c272",
+        "firstSeen": "2026-10-08T09:50:24.036Z",
+        "lastChanged": "2026-10-08T09:50:24.036Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-08T09:50:24.036Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
