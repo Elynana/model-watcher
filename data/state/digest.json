@@ -289586,6 +289586,1152 @@
         "model"
       ],
       "detectedAt": "2026-10-09T15:12:23.639Z"
+    },
+    {
+      "id": "0f42da98ca70e9a1a9333551",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-r1-0528-qwen3-8b",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-R1-0528-Qwen3-8B",
+        "slug": "DeepSeek-R1-0528-Qwen3-8B",
+        "slugAliases": [
+          "DeepSeek-R1-0528-Qwen3-8B",
+          "deepseek-r1-0528-qwen3-8b"
+        ],
+        "displayName": "DeepSeek R1 0528 Qwen3 8B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "r1",
+        "capabilities": {
+          "parameters": "8B",
+          "tier": "r1",
+          "version": "1",
+          "reasoning": true,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.09
+        },
+        "availability": [
+          "Novita AI",
+          "NovitaAI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/docs/guides/introduction",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "ef087ac63afae37f993f79c8e20d54c32f09ef46be898cdd5a60f49710027b94",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-r1-0528-qwen3-8b",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-R1-0528-Qwen3-8B",
+        "slug": "DeepSeek-R1-0528-Qwen3-8B",
+        "slugAliases": [
+          "DeepSeek-R1-0528-Qwen3-8B",
+          "deepseek-r1-0528-qwen3-8b"
+        ],
+        "displayName": "DeepSeek R1 0528 Qwen3 8B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "r1",
+        "capabilities": {
+          "parameters": "8B",
+          "tier": "r1",
+          "version": "1",
+          "reasoning": true,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.06,
+          "output $/M": 0.09
+        },
+        "availability": [
+          "Novita AI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/docs/guides/introduction",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "f32a605d2af9531456030fef2bf81e2a3cf6b6541733f5eb17ad4a9409b3587d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "5adee905a8b44df1ef55042b",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "zai-org-autoglm-phone::zai-org-autoglm-phone-9b-multilingual",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "zai-org-autoglm-phone",
+        "modelId": "zai-org/AutoGLM-Phone-9B-Multilingual",
+        "slug": "zai-org/AutoGLM-Phone-9B-Multilingual",
+        "slugAliases": [
+          "zai-org/AutoGLM-Phone-9B-Multilingual",
+          "zai-org/autoglm-phone-9b-multilingual"
+        ],
+        "displayName": "AutoGLM-Phone-9B-Multilingual",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "parameters": "9B",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.035,
+          "output $/M": 0.138
+        },
+        "availability": [
+          "Novita AI",
+          "NovitaAI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/AutoGLM-Phone-9B-Multilingual",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/docs/guides/introduction",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "d79271e746c0793263c65f3bfb96c4bfcda6b45856ff20d0d80a30ff20879abc",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "zai-org-autoglm-phone::zai-org-autoglm-phone-9b-multilingual",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "zai-org-autoglm-phone",
+        "modelId": "zai-org/AutoGLM-Phone-9B-Multilingual",
+        "slug": "zai-org/AutoGLM-Phone-9B-Multilingual",
+        "slugAliases": [
+          "zai-org/AutoGLM-Phone-9B-Multilingual",
+          "zai-org/autoglm-phone-9b-multilingual"
+        ],
+        "displayName": "AutoGLM-Phone-9B-Multilingual",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "parameters": "9B",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.035,
+          "output $/M": 0.138
+        },
+        "availability": [
+          "Hugging Face",
+          "Novita AI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:zai:zai-org",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/zai-org/AutoGLM-Phone-9B-Multilingual",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://huggingface.co/docs/inference-providers",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "ccc4f5902e7995e4dca3c22d5f8452449959a44d2b803f5d3f9f3f27bc1d4889",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "61cd024c4be4799d0cc6901f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::auto-mistralai-ministral-8b-2512",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "auto/mistralai/ministral-8b-2512",
+        "slug": "auto/mistralai/ministral-8b-2512",
+        "slugAliases": [
+          "auto/mistralai/ministral-8b-2512"
+        ],
+        "displayName": "Ministral 3 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2512",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "8B",
+          "version": "2512"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.1569,
+          "output $/M": 0.1569,
+          "cache_read $/M": 0.0157
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "8673fa0b933055fc898d1a16a4b70f6fb64b89b71a355b351dbe146a2a51e6c3",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "ef00923411928d8458d211c8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::auto-mistralai-mistral-large-4",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "auto/mistralai/mistral-large-4",
+        "slug": "auto/mistralai/mistral-large-4",
+        "slugAliases": [
+          "auto/mistralai/mistral-large-4"
+        ],
+        "displayName": "Mistral Large 4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "large",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 524288,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.7112,
+          "output $/M": 2.1859,
+          "cache_read $/M": 0.0732
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "d01892970a3bc9ae1271112fbed467a25d0414e939d201c2e9da56f1833c2d40",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "171e250d76c6f875cae131b2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::auto-mistralai-mistral-medium-3-5",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "auto/mistralai/mistral-medium-3.5",
+        "slug": "auto/mistralai/mistral-medium-3.5",
+        "slugAliases": [
+          "auto/mistralai/mistral-medium-3.5"
+        ],
+        "displayName": "Mistral Medium 3.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "medium",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.5688,
+          "output $/M": 7.8442,
+          "cache_read $/M": 0.1569
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "388af1530e15f7814fc3c9bdf713ff06ba4607ddccda9bcda12cbb309ef0bd33",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "6983d9a1e9fe415b6c8742ff",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::auto-mistralai-mistral-small-2603",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "auto/mistralai/mistral-small-2603",
+        "slug": "auto/mistralai/mistral-small-2603",
+        "slugAliases": [
+          "auto/mistralai/mistral-small-2603"
+        ],
+        "displayName": "Mistral Small 4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2603",
+        "tier": "small",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-06",
+          "accepts": "image, text",
+          "tier": "small",
+          "version": "2603"
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 256000
+        },
+        "pricing": {
+          "input $/M": 0.1569,
+          "output $/M": 0.6275,
+          "cache_read $/M": 0.0157
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "d831b6f51d6d754158bef910e8982cd55b2e002f84745f145d43633efaa44fc4",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "9c0023eb75165f888056264b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::auto-mistralai-mistral-large-2512",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "auto/mistralai/mistral-large-2512",
+        "slug": "auto/mistralai/mistral-large-2512",
+        "slugAliases": [
+          "auto/mistralai/mistral-large-2512"
+        ],
+        "displayName": "Mistral Large 3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2512",
+        "tier": "large",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-11",
+          "accepts": "image, text",
+          "tier": "large",
+          "version": "2512"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.5229,
+          "output $/M": 1.5688,
+          "cache_read $/M": 0.0523
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "52f2f3862023e020ab1186f4fcd4e41f8ec3b67713870baed9a17530c81ccae4",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "05261091ff4dda09309fd54c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::auto-mistralai-ministral-14b-2512",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "auto/mistralai/ministral-14b-2512",
+        "slug": "auto/mistralai/ministral-14b-2512",
+        "slugAliases": [
+          "auto/mistralai/ministral-14b-2512"
+        ],
+        "displayName": "Ministral 3 14B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2512",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "14B",
+          "version": "2512"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.2092,
+          "output $/M": 0.2092,
+          "cache_read $/M": 0.0209
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "58f2dd43b87f66ba447d444153d81f6f5d673aa58a8764d6f7d355a0df695837",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "65f74cd75b5f62eb4aa37703",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::auto-mistralai-ministral-3b-2512",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "auto/mistralai/ministral-3b-2512",
+        "slug": "auto/mistralai/ministral-3b-2512",
+        "slugAliases": [
+          "auto/mistralai/ministral-3b-2512"
+        ],
+        "displayName": "Ministral 3 3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2512",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "3B",
+          "version": "2512"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.1046,
+          "output $/M": 0.1046,
+          "cache_read $/M": 0.0105
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-02",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "34cdcee0facbb5cabf3c89dfbe8cd0b83c2df0f66e0d9ed45479efb7a8a4ae74",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "6f2324cddd26bb4e4d19911e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::auto-mistralai-codestral-2508",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "auto/mistralai/codestral-2508",
+        "slug": "auto/mistralai/codestral-2508",
+        "slugAliases": [
+          "auto/mistralai/codestral-2508"
+        ],
+        "displayName": "Codestral 25.08",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2508",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "version": "2508"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.3138,
+          "output $/M": 0.9413,
+          "cache_read $/M": 0.0314
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-07-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "bc0d01da9d6afff1dca4779cc465f42f91c001611b9b5ecee36afb734a8a1f87",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "312c48c6689cf0a24f853468",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::coding-glm-5-3-free",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "coding-glm-5.3-free",
+        "slug": "coding-glm-5.3-free",
+        "slugAliases": [
+          "coding-glm-5.3-free"
+        ],
+        "displayName": "GLM-5.3 (Coding, free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "AIHubMix"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aihubmix.com",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "7b7413f6d78229f9dfd574019f8bddd21b4a9a22f351fe37e14564150a08c77e",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "db9ce108af956074361eb324",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "glm::coding-glm-5-3-flash-free",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "coding-glm-5.3-flash-free",
+        "slug": "coding-glm-5.3-flash-free",
+        "slugAliases": [
+          "coding-glm-5.3-flash-free"
+        ],
+        "displayName": "GLM-5.3-Flash (Coding, free)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "AIHubMix"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-26",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aihubmix.com",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "b7236b2b6a2537671418b86ffcef00842e2ef5597ecf7a25e30199beb26b2749",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "230864aecee5fb64ebbb2f22",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-5-5-haiku",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-5.5-haiku",
+        "slug": "claude-5.5-haiku",
+        "slugAliases": [
+          "claude-5.5-haiku"
+        ],
+        "displayName": "Anthropic Claude 5.5 Haiku",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "tier": "haiku",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125
+        },
+        "availability": [
+          "DigitalOcean"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "efbbdd1bf38b0380b144cbe684b18064287a33e63ae44008086124a83cf8c907",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "e0d5ad147d571d8b8a96c425",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lidstral-arabic::lidstral-arabic",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "lidstral-arabic",
+        "modelId": "LIDstral-Arabic",
+        "slug": "LIDstral-Arabic",
+        "slugAliases": [
+          "LIDstral-Arabic"
+        ],
+        "displayName": "LIDstral-Arabic",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mistral:mistralai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mistralai/LIDstral-Arabic",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "06ef6996473d169760802449b2333949ef0bd033f1268f81d2d3c84d1b7a563e",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "6f3b9a1a5622330b27adc0e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mistral::voxtral-mini-4b-realtime-arabic",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "Voxtral-Mini-4B-Realtime-Arabic",
+        "slug": "Voxtral-Mini-4B-Realtime-Arabic",
+        "slugAliases": [
+          "Voxtral-Mini-4B-Realtime-Arabic"
+        ],
+        "displayName": "Voxtral-Mini-4B-Realtime-Arabic",
+        "modalities": [
+          "audio",
+          "speech",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "mini",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B",
+          "tier": "mini"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mistral:mistralai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-Arabic",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "bd4c3fc59df862e1567b0d2cb78494bf296762f0ec25b115b8c479e5730a1d37",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-09T20:08:56.464Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T20:08:56.464Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
