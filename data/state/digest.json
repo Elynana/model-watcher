@@ -289416,6 +289416,123 @@
         "announcement"
       ],
       "detectedAt": "2026-10-08T21:56:23.839Z"
+    },
+    {
+      "id": "0c088d26c252de28dabc218c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mimo::mimo-v2-6-pro-flex",
+        "owner": "Xiaomi",
+        "vendorId": "xiaomi",
+        "family": "MiMo",
+        "familyId": "mimo",
+        "modelId": "mimo-v2.6-pro-flex",
+        "slug": "mimo-v2.6-pro-flex",
+        "slugAliases": [
+          "mimo-v2.6-pro-flex"
+        ],
+        "displayName": "MiMo-V2.6-Pro Flex",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.6",
+        "tier": "pro",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "audio, image, text",
+          "tier": "pro",
+          "version": "2.6"
+        },
+        "limits": {
+          "contextTokens": 1048560,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.5655,
+          "output $/M": 1.131,
+          "cache_read $/M": 0.0234
+        },
+        "availability": [
+          "Neuralwatt"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://portal.neuralwatt.com/docs",
+            "observedAt": "2026-10-09T08:01:08.415Z"
+          }
+        ],
+        "fingerprint": "c8f0accef0a6bdc7541e93cfa45da68f6bdfff4cd05f98a41fec718c301af308",
+        "firstSeen": "2026-10-09T08:01:08.415Z",
+        "lastChanged": "2026-10-09T08:01:08.415Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T08:01:08.415Z"
+    },
+    {
+      "id": "8c4308cff08361265bd159c4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "youtu-parsing::youtu-parsing-omni",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "youtu-parsing",
+        "modelId": "Youtu-Parsing-Omni",
+        "slug": "Youtu-Parsing-Omni",
+        "slugAliases": [
+          "Youtu-Parsing-Omni"
+        ],
+        "displayName": "Youtu-Parsing-Omni",
+        "modalities": [
+          "audio",
+          "text",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "omni",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "omni"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Youtu-Parsing-Omni",
+            "observedAt": "2026-10-09T08:01:08.415Z"
+          }
+        ],
+        "fingerprint": "7a875b242917e4c6409b9f36852e036068a263afc1a7396fca8526cfb8590ce7",
+        "firstSeen": "2026-10-09T08:01:08.415Z",
+        "lastChanged": "2026-10-09T08:01:08.415Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-09T08:01:08.415Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
