@@ -292309,6 +292309,74 @@
         "availability"
       ],
       "detectedAt": "2026-10-10T16:19:10.289Z"
+    },
+    {
+      "id": "aead40bfce71beaef78639df",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-next-80b-a3b-instruct-eu",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-next-80b-a3b-instruct@eu",
+        "slug": "qwen3-next-80b-a3b-instruct@eu",
+        "slugAliases": [
+          "qwen3-next-80b-a3b-instruct@eu"
+        ],
+        "displayName": "Qwen3-Next 80B-A3B Instruct (Databricks, EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-04",
+          "accepts": "text",
+          "parameters": "80B",
+          "activeParameters": "3B active",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.15001,
+          "output $/M": 1.20001,
+          "cache_read $/M": 0.015001,
+          "cache_write $/M": 0.15001
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-10-10T23:32:03.249Z"
+          }
+        ],
+        "fingerprint": "d233082fcd189ee0cb28865b34c9a6703d773d7ada4ae7db060afe5ea1398e63",
+        "firstSeen": "2026-10-10T23:32:03.249Z",
+        "lastChanged": "2026-10-10T23:32:03.249Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-10T23:32:03.249Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
