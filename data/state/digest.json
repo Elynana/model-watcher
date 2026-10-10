@@ -291731,6 +291731,584 @@
         "model"
       ],
       "detectedAt": "2026-10-10T11:21:42.410Z"
+    },
+    {
+      "id": "c6373de9ffdbacb524dd5513",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "clef::clef-flash",
+        "family": "clef",
+        "modelId": "clef-flash",
+        "slug": "clef-flash",
+        "slugAliases": [
+          "clef-flash"
+        ],
+        "displayName": "Clef Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "flash",
+          "mode": "evaluation"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.09,
+          "output $/M": 0
+        },
+        "availability": [
+          "Cloudflare Workers AI",
+          "cloudflare"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-01T20:34:52.402Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          }
+        ],
+        "fingerprint": "8dc021ecc9be3d574fc593b9199e79eb0c1e66f081f85350972767c35175dcd5",
+        "firstSeen": "2026-10-01T20:34:52.402Z",
+        "lastChanged": "2026-10-03T18:30:28.087Z"
+      },
+      "after": {
+        "key": "clef::clef-flash",
+        "family": "clef",
+        "modelId": "clef-flash",
+        "slug": "clef-flash",
+        "slugAliases": [
+          "clef-flash"
+        ],
+        "displayName": "Clef Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "evaluation"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.09,
+          "output $/M": 0
+        },
+        "availability": [
+          "Cloudflare Workers AI",
+          "NanoGPT",
+          "cloudflare"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-01T20:34:52.402Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          }
+        ],
+        "fingerprint": "8aa86e5e50d5c64a789d9c542772367b384f5c0177c1e08fb3bc95bc84608b95",
+        "firstSeen": "2026-10-01T20:34:52.402Z",
+        "lastChanged": "2026-10-10T16:19:10.289Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-10T16:19:10.289Z"
+    },
+    {
+      "id": "d94f1084298de96ee161ba88",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5-5",
+        "slug": "claude-haiku-5-5",
+        "slugAliases": [
+          "Claude Haiku 5.5",
+          "claude-haiku-5-5",
+          "claude-haiku-5.5"
+        ],
+        "displayName": "Claude Haiku 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "tier": "haiku",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 0.5,
+              "output": 2.5,
+              "cache_read": 0.05,
+              "cache_write": 0.625,
+              "tier": {
+                "type": "context",
+                "size": 100000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "CrossModel",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.crossmodel.ai/docs",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          }
+        ],
+        "fingerprint": "b09578514de7b0a736f0255831d2efdad72a64e13bc0b90b63f55a70f44509f5",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-08T17:00:18.540Z"
+      },
+      "after": {
+        "key": "claude::claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5-5",
+        "slug": "claude-haiku-5-5",
+        "slugAliases": [
+          "Claude Haiku 5.5",
+          "claude-haiku-5-5",
+          "claude-haiku-5.5"
+        ],
+        "displayName": "Claude Haiku 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "tier": "haiku",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 0.5,
+              "output": 2.5,
+              "cache_read": 0.05,
+              "cache_write": 0.625,
+              "tier": {
+                "type": "context",
+                "size": 100000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "CrossModel",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.crossmodel.ai/docs",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          }
+        ],
+        "fingerprint": "584dd435e28c4fe76cdc33e4ca4ac8cf32a70330b63e06a6dfc573371d3b5b99",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-10T16:19:10.289Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-10T16:19:10.289Z"
+    },
+    {
+      "id": "06fd9d903b7e9275c2a2003e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-large-4",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4",
+        "slug": "mistral-large-4",
+        "slugAliases": [
+          "Mistral Large 4",
+          "mistral-large-4"
+        ],
+        "displayName": "Mistral Large 4",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "tier": "large",
+          "version": "4",
+          "openWeights": false,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.68,
+          "output $/M": 2.09,
+          "cache_read $/M": 0.14
+        },
+        "availability": [
+          "DevPass (LLM Gateway)",
+          "Ollama",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/mistral-large-4",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/mistral-large-4",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          }
+        ],
+        "fingerprint": "9ef5c87e986ee2c87fa711c827b8c30a00e5de827dd706e7873e785212841da4",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-08T21:56:23.839Z"
+      },
+      "after": {
+        "key": "mistral::mistral-large-4",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-4",
+        "slug": "mistral-large-4",
+        "slugAliases": [
+          "Mistral Large 4",
+          "mistral-large-4"
+        ],
+        "displayName": "Mistral Large 4",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "large",
+        "capabilities": {
+          "tier": "large",
+          "version": "4",
+          "openWeights": false,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.68,
+          "output $/M": 2.09,
+          "cache_read $/M": 0.14
+        },
+        "availability": [
+          "DevPass (LLM Gateway)",
+          "NanoGPT",
+          "Ollama",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/mistral-large-4",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/mistral-large-4",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-10T16:19:10.289Z"
+          }
+        ],
+        "fingerprint": "a6eebb8f3ae1c1692f3d47b8dfb981e15f9ed8544a9fcebc332ed3e7b8bb5784",
+        "firstSeen": "2026-10-06T15:53:36.875Z",
+        "lastChanged": "2026-10-10T16:19:10.289Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-10T16:19:10.289Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
