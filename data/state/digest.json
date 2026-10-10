@@ -290732,6 +290732,478 @@
         "model"
       ],
       "detectedAt": "2026-10-09T20:08:56.464Z"
+    },
+    {
+      "id": "306fe137879e82c8808f916a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-flash-latest",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-flash-latest",
+        "slug": "gemini-flash-latest",
+        "slugAliases": [
+          "gemini-flash-latest"
+        ],
+        "displayName": "Gemini Flash Latest",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.75,
+          "completion $/M": 3.75,
+          "image $/M": 0.75,
+          "audio $/M": 0.75,
+          "input_audio_cache $/M": 0.075,
+          "web_search $/M": 14000,
+          "internal_reasoning $/M": 3.75,
+          "input_cache_read $/M": 0.075,
+          "input_cache_write $/M": 0.0417,
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "cache_read $/M": 0.075,
+          "input_audio $/M": 0.75
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Tempr Gateway",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-26T01:12:14.497Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~google/gemini-flash-latest",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "3c5add357619dae3dc73f5fe5b9f5c42c1430b702b8bab70586509b870ab0440",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-09T01:41:05.205Z"
+      },
+      "after": {
+        "key": "gemini::gemini-flash-latest",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-flash-latest",
+        "slug": "gemini-flash-latest",
+        "slugAliases": [
+          "gemini-flash-latest"
+        ],
+        "displayName": "Gemini Flash Latest",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "audio, image, text, video",
+          "tier": "flash",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.75,
+          "completion $/M": 3.75,
+          "image $/M": 0.75,
+          "audio $/M": 0.75,
+          "input_audio_cache $/M": 0.075,
+          "web_search $/M": 14000,
+          "internal_reasoning $/M": 3.75,
+          "input_cache_read $/M": 0.075,
+          "input_cache_write $/M": 0.0417,
+          "input $/M": 0.75,
+          "output $/M": 3.75,
+          "cache_read $/M": 0.075,
+          "input_audio $/M": 0.75
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Tempr Gateway",
+          "documented",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-26T01:12:14.497Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/~google/gemini-flash-latest",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          }
+        ],
+        "fingerprint": "98d67010b4c98ad86326a26406bc80ae860cb3ccd3823a97a7b923d43b70f92a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-10T00:01:08.562Z"
+    },
+    {
+      "id": "aaaf51f65215e2dde7746283",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::strands-decider-2b-qwen3-5-v1-2610",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "strands-decider-2B-qwen3.5-v1-2610",
+        "slug": "strands-decider-2B-qwen3.5-v1-2610",
+        "slugAliases": [
+          "strands-decider-2B-qwen3.5-v1-2610"
+        ],
+        "displayName": "strands-decider-2B-qwen3.5-v1-2610",
+        "modalities": [
+          "code"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B",
+          "version": "5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:amazon:amazon",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/amazon/strands-decider-2B-qwen3.5-v1-2610",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          }
+        ],
+        "fingerprint": "ca4cf95b8503912390dc8ce5a3d856f70c38fe0bdc67069385e9038b83bfd377",
+        "firstSeen": "2026-10-10T00:01:08.562Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-10T00:01:08.562Z"
+    },
+    {
+      "id": "52be337ec9a210a6c9b6876a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::strands-decider-26b-a4b-gemma4-v1-2610",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "strands-decider-26B-A4B-gemma4-v1-2610",
+        "slug": "strands-decider-26B-A4B-gemma4-v1-2610",
+        "slugAliases": [
+          "strands-decider-26B-A4B-gemma4-v1-2610"
+        ],
+        "displayName": "strands-decider-26B-A4B-gemma4-v1-2610",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "26B",
+          "activeParameters": "4B active",
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:amazon:amazon",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/amazon/strands-decider-26B-A4B-gemma4-v1-2610",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          }
+        ],
+        "fingerprint": "b20e9d4f86d4ace190529a842334c9a8b336526407a0d01350fcb702ec6b05cb",
+        "firstSeen": "2026-10-10T00:01:08.562Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-10T00:01:08.562Z"
+    },
+    {
+      "id": "2b3f34c83a0bc641a5893fec",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::strands-decider-12b-gemma4-v1-2610",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "strands-decider-12B-gemma4-v1-2610",
+        "slug": "strands-decider-12B-gemma4-v1-2610",
+        "slugAliases": [
+          "strands-decider-12B-gemma4-v1-2610"
+        ],
+        "displayName": "strands-decider-12B-gemma4-v1-2610",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "12B",
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:amazon:amazon",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/amazon/strands-decider-12B-gemma4-v1-2610",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          }
+        ],
+        "fingerprint": "e41a7cf83846ed775650dc015f7887cf0beed60bd4c9ae667a378a8653005de0",
+        "firstSeen": "2026-10-10T00:01:08.562Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-10T00:01:08.562Z"
+    },
+    {
+      "id": "820d907eae6e0cbd052a58cd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::strands-decider-e4b-gemma4-v1-2610",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "strands-decider-E4B-gemma4-v1-2610",
+        "slug": "strands-decider-E4B-gemma4-v1-2610",
+        "slugAliases": [
+          "strands-decider-E4B-gemma4-v1-2610"
+        ],
+        "displayName": "strands-decider-E4B-gemma4-v1-2610",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "openWeights": true,
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:amazon:amazon",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/amazon/strands-decider-E4B-gemma4-v1-2610",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          }
+        ],
+        "fingerprint": "027aff595b8fb4ffae7b90c94ad7e5ce17fea2504cbfc0e5292723039e394030",
+        "firstSeen": "2026-10-10T00:01:08.562Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-10T00:01:08.562Z"
+    },
+    {
+      "id": "8033b53a0952bd153ccc2379",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::strands-decider-e2b-gemma4-v1-2610",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "strands-decider-E2B-gemma4-v1-2610",
+        "slug": "strands-decider-E2B-gemma4-v1-2610",
+        "slugAliases": [
+          "strands-decider-E2B-gemma4-v1-2610"
+        ],
+        "displayName": "strands-decider-E2B-gemma4-v1-2610",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "openWeights": true,
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:amazon:amazon",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/amazon/strands-decider-E2B-gemma4-v1-2610",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          }
+        ],
+        "fingerprint": "5c56444059ffda27f6d03beaf50d52bb0c10917786e29633afc8345c02832561",
+        "firstSeen": "2026-10-10T00:01:08.562Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-10T00:01:08.562Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
