@@ -291204,6 +291204,450 @@
         "model"
       ],
       "detectedAt": "2026-10-10T00:01:08.562Z"
+    },
+    {
+      "id": "e2bad893c925b80a67d63f29",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-235b-a22b-04-28",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-235b-a22b-04-28",
+        "slug": "qwen3-235b-a22b-04-28",
+        "slugAliases": [
+          "qwen3-235b-a22b-04-28"
+        ],
+        "displayName": "Qwen: Qwen3 235B A22B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "235B",
+          "activeParameters": "22B active",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "prompt $/M": 0.455,
+          "completion $/M": 1.82
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-28",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3-235b-a22b",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "ec59239efb048e3b219726e9ed08707be8b1a5cc093e3052484bd9858b003803",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-28T21:18:50.146Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-235b-a22b-04-28",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-235b-a22b-04-28",
+        "slug": "qwen3-235b-a22b-04-28",
+        "slugAliases": [
+          "qwen3-235b-a22b-04-28"
+        ],
+        "displayName": "Qwen: Qwen3 235B A22B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "235B",
+          "activeParameters": "22B active",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "prompt $/M": 0.455,
+          "completion $/M": 1.82
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2025-04-28",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3-235b-a22b",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "b1a729113eb025673647bfdc150c9f0ef145080f774246a5bb7402f489ce493c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T05:34:49.359Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-10-10T05:34:49.359Z"
+    },
+    {
+      "id": "bda6a054c6f2610d43830ca2",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-6-max-preview-20260420",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.6-max-preview-20260420",
+        "slug": "qwen3.6-max-preview-20260420",
+        "slugAliases": [
+          "qwen3.6-max-preview-20260420"
+        ],
+        "displayName": "Qwen: Qwen3.6 Max Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "snapshot",
+        "version": "3.6",
+        "tier": "max",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "max",
+          "version": "3.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 1.027,
+          "completion $/M": 6.162,
+          "input_cache_write $/M": 1.2837
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-04-27",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3.6-max-preview",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "ac2f0464386d90e87b1699f5fa7216b332949d904f2ef51441db5572af1ce443",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-29T07:15:59.709Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-6-max-preview-20260420",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.6-max-preview-20260420",
+        "slug": "qwen3.6-max-preview-20260420",
+        "slugAliases": [
+          "qwen3.6-max-preview-20260420"
+        ],
+        "displayName": "Qwen: Qwen3.6 Max Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "snapshot",
+        "version": "3.6",
+        "tier": "max",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "max",
+          "version": "3.6"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 1.027,
+          "completion $/M": 6.162,
+          "input_cache_write $/M": 1.2837
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-04-27",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3.6-max-preview",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "e291ee3c868655c26f3e08079d0398abea1c51e740d60834786361f1e958a9f8",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T05:34:49.359Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-10-10T05:34:49.359Z"
+    },
+    {
+      "id": "04f647a47668aa120b6066da",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8b-04-28",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-8b-04-28",
+        "slug": "qwen3-8b-04-28",
+        "slugAliases": [
+          "qwen3-8b-04-28"
+        ],
+        "displayName": "Qwen: Qwen3 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "prompt $/M": 0.117,
+          "completion $/M": 0.455
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-28",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3-8b",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "aeba181cbe080c7205b22783c8290851acf0746b3b76e3f4e250505b4f5de7e2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-28T21:18:50.146Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8b-04-28",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-8b-04-28",
+        "slug": "qwen3-8b-04-28",
+        "slugAliases": [
+          "qwen3-8b-04-28"
+        ],
+        "displayName": "Qwen: Qwen3 8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "prompt $/M": 0.117,
+          "completion $/M": 0.455
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2025-04-28",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3-8b",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "3f02ec980cd653bdbdae7a97ca62a435bec0c2a35ea47f10210245c53bf20be7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T05:34:49.359Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-10-10T05:34:49.359Z"
+    },
+    {
+      "id": "cc96aab82ccc97a269367178",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-max-thinking-20260123",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-max-thinking-20260123",
+        "slug": "qwen3-max-thinking-20260123",
+        "slugAliases": [
+          "qwen3-max-thinking-20260123"
+        ],
+        "displayName": "Qwen: Qwen3 Max Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3",
+        "tier": "max",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "max",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.78,
+          "completion $/M": 3.9
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-02-09",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3-max-thinking",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "a027444e8e7502c38c963e068adbc8c18bc261bed4c6b5469e331eceb94fd60b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-28T21:18:50.146Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-max-thinking-20260123",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3-max-thinking-20260123",
+        "slug": "qwen3-max-thinking-20260123",
+        "slugAliases": [
+          "qwen3-max-thinking-20260123"
+        ],
+        "displayName": "Qwen: Qwen3 Max Thinking",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "3",
+        "tier": "max",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "max",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "prompt $/M": 0.78,
+          "completion $/M": 3.9
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-02-09",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3-max-thinking",
+            "observedAt": "2026-10-09T15:12:23.639Z"
+          }
+        ],
+        "fingerprint": "1f71885495626a1345fce6f65fb12d90c696f1c50cd142bc515bcbd3a32d078e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T05:34:49.359Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-10-10T05:34:49.359Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
