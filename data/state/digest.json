@@ -291648,6 +291648,89 @@
         "lifecycle"
       ],
       "detectedAt": "2026-10-10T05:34:49.359Z"
+    },
+    {
+      "id": "ea45670cd5e4d7a12b9bf6d4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-61-sol-ultrafast",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-61-sol-ultrafast",
+        "slug": "gpt-61-sol-ultrafast",
+        "slugAliases": [
+          "gpt-61-sol-ultrafast"
+        ],
+        "displayName": "GPT-6.1 Sol Ultrafast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "61",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "61"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 15,
+          "output $/M": 75,
+          "cache_read $/M": 0.75,
+          "cache_write $/M": 18.75,
+          "tiers $/M": [
+            {
+              "input": 30,
+              "output": 112.5,
+              "cache_read": 1.5,
+              "cache_write": 37.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 30,
+            "output": 112.5,
+            "cache_read": 1.5,
+            "cache_write": 37.5
+          }
+        },
+        "availability": [
+          "Venice AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-08",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.venice.ai",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          }
+        ],
+        "fingerprint": "1ee2a4f8e4094fd7dad881aab69c1620855ed3928aa9e0d8ceda384007d106fe",
+        "firstSeen": "2026-10-10T11:21:42.410Z",
+        "lastChanged": "2026-10-10T11:21:42.410Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-10T11:21:42.410Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
