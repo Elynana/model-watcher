@@ -292581,6 +292581,154 @@
         "model"
       ],
       "detectedAt": "2026-10-11T15:07:43.403Z"
+    },
+    {
+      "id": "7cc7e6697c07f2ee139e3828",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-1-mini",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "Gemini 3.1 mini",
+        "slug": "Gemini 3.1 mini",
+        "slugAliases": [
+          "Gemini 3.1 mini"
+        ],
+        "displayName": "Gemini 3.1 mini",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "mini",
+        "capabilities": {
+          "tier": "mini",
+          "version": "3.1"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-11T19:31:43.847Z"
+          }
+        ],
+        "fingerprint": "2b63e1c57c49429d97617dd52d41401f4ef118e28273bcb99b92650e71fb476f",
+        "firstSeen": "2026-10-11T19:31:43.847Z",
+        "lastChanged": "2026-10-11T19:31:43.847Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-11T19:31:43.847Z"
+    },
+    {
+      "id": "94ae4d42fc2f9425440445c4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "hybridagent::hybridagent-14b-agentic",
+        "owner": "Together AI",
+        "vendorId": "together",
+        "family": "hybridagent",
+        "modelId": "HybridAgent-14B-Agentic",
+        "slug": "HybridAgent-14B-Agentic",
+        "slugAliases": [
+          "HybridAgent-14B-Agentic"
+        ],
+        "displayName": "HybridAgent-14B-Agentic",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "14B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:together:togethercomputer",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/togethercomputer/HybridAgent-14B-Agentic",
+            "observedAt": "2026-10-11T19:31:43.847Z"
+          }
+        ],
+        "fingerprint": "267f398d20d89429d984064d9e2c137a4b25b42295998420fe150631e40eb7f2",
+        "firstSeen": "2026-10-11T19:31:43.847Z",
+        "lastChanged": "2026-10-11T19:31:43.847Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-11T19:31:43.847Z"
+    },
+    {
+      "id": "37c31fb50766a89060161e66",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "hybridagent::hybridagent-8b-agentic",
+        "owner": "Together AI",
+        "vendorId": "together",
+        "family": "hybridagent",
+        "modelId": "HybridAgent-8B-Agentic",
+        "slug": "HybridAgent-8B-Agentic",
+        "slugAliases": [
+          "HybridAgent-8B-Agentic"
+        ],
+        "displayName": "HybridAgent-8B-Agentic",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:together:togethercomputer",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/togethercomputer/HybridAgent-8B-Agentic",
+            "observedAt": "2026-10-11T19:31:43.847Z"
+          }
+        ],
+        "fingerprint": "2d45a3dc893eb7053f4eb7f0b4f4c6c951ccc35537eeffa260cd688b46bf7c84",
+        "firstSeen": "2026-10-11T19:31:43.847Z",
+        "lastChanged": "2026-10-11T19:31:43.847Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-11T19:31:43.847Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
