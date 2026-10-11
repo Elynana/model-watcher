@@ -292377,6 +292377,106 @@
         "model"
       ],
       "detectedAt": "2026-10-10T23:32:03.249Z"
+    },
+    {
+      "id": "1f5e3e9213b5202c2db16f45",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "aescode::aescode-32b",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "aescode",
+        "modelId": "AesCode-32B",
+        "slug": "AesCode-32B",
+        "slugAliases": [
+          "AesCode-32B"
+        ],
+        "displayName": "AesCode-32B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "32B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/AesCode-32B",
+            "observedAt": "2026-10-11T08:45:07.697Z"
+          }
+        ],
+        "fingerprint": "1075f557eeb948a8d9136c897d53d7d158c3d9a347eab331c369f3c154a9de8e",
+        "firstSeen": "2026-10-11T08:45:07.697Z",
+        "lastChanged": "2026-10-11T08:45:07.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-11T08:45:07.697Z"
+    },
+    {
+      "id": "edeb1c85d397b9cb4109e86c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "aescode::aescode-8b",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "aescode",
+        "modelId": "AesCode-8B",
+        "slug": "AesCode-8B",
+        "slugAliases": [
+          "AesCode-8B"
+        ],
+        "displayName": "AesCode-8B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/AesCode-8B",
+            "observedAt": "2026-10-11T08:45:07.697Z"
+          }
+        ],
+        "fingerprint": "8c157db4b17dde56e135ce73bb2cd431cb919bb047be5454ae49cd2d0bd1a58d",
+        "firstSeen": "2026-10-11T08:45:07.697Z",
+        "lastChanged": "2026-10-11T08:45:07.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-11T08:45:07.697Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
