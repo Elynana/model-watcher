@@ -300094,6 +300094,3089 @@
         "model"
       ],
       "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "ea67bf2b9972e3c6c6e30394",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hermes::hermes-3-llama-3-1-405b",
+        "owner": "Nous Research",
+        "vendorId": "nous",
+        "family": "Hermes",
+        "familyId": "hermes",
+        "modelId": "Hermes-3-Llama-3.1-405B",
+        "slug": "Hermes-3-Llama-3.1-405B",
+        "slugAliases": [
+          "Hermes-3-Llama-3.1-405B",
+          "hermes-3-llama-3.1-405b"
+        ],
+        "displayName": "Hermes 3 405B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "405B",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 1,
+          "completion $/M": 1,
+          "input $/M": 1,
+          "output $/M": 3
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenRouter",
+          "nebius",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nous:nousresearch",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://nebius.com/prices",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "57b7c20a3df30463fe012e666c6283cc30fd69a72cd4a907289bbe58d7de6f73",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "after": {
+        "key": "hermes::hermes-3-llama-3-1-405b",
+        "owner": "Nous Research",
+        "vendorId": "nous",
+        "family": "Hermes",
+        "familyId": "hermes",
+        "modelId": "Hermes-3-Llama-3.1-405B",
+        "slug": "Hermes-3-Llama-3.1-405B",
+        "slugAliases": [
+          "Hermes-3-Llama-3.1-405B",
+          "hermes-3-llama-3.1-405b"
+        ],
+        "displayName": "Hermes 3 405B Instruct (Deep Infra)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "405B",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 1,
+          "completion $/M": 1,
+          "input $/M": 1,
+          "output $/M": 3
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "OpenRouter",
+          "nebius",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nous:nousresearch",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://nebius.com/prices",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "6f77d761bb82c9810907faa8cd865ea6d76c635e35d007b3947a1bd4986617ce",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "d8a44949cb0cb10e7e07d38c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hermes::hermes-3-llama-3-1-70b",
+        "owner": "Nous Research",
+        "vendorId": "nous",
+        "family": "Hermes",
+        "familyId": "hermes",
+        "modelId": "Hermes-3-Llama-3.1-70B",
+        "slug": "Hermes-3-Llama-3.1-70B",
+        "slugAliases": [
+          "Hermes-3-Llama-3.1-70B",
+          "hermes-3-llama-3.1-70b"
+        ],
+        "displayName": "Hermes 3 70B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "70B",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.7,
+          "completion $/M": 0.7,
+          "input $/M": 0.7,
+          "output $/M": 0.7
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nous:nousresearch",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-70b",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "a16d5b38a56be2599c5c0548d0e66e2d899ab1d27cbba7abb1a32bfb717f9790",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "after": {
+        "key": "hermes::hermes-3-llama-3-1-70b",
+        "owner": "Nous Research",
+        "vendorId": "nous",
+        "family": "Hermes",
+        "familyId": "hermes",
+        "modelId": "Hermes-3-Llama-3.1-70B",
+        "slug": "Hermes-3-Llama-3.1-70B",
+        "slugAliases": [
+          "Hermes-3-Llama-3.1-70B",
+          "hermes-3-llama-3.1-70b"
+        ],
+        "displayName": "Hermes 3 70B Instruct (Deep Infra)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "70B",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.7,
+          "completion $/M": 0.7,
+          "input $/M": 0.7,
+          "output $/M": 0.7
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "OpenRouter",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nous:nousresearch",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-70b",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "f0e5b6a88416f268ecc4b6466bb778cfbeafa9bccd2709fc3bf9e085245bc48d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "22647489a34b59a48bbc8397",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "reka::reka-edge",
+        "owner": "Reka AI",
+        "vendorId": "reka",
+        "family": "Reka",
+        "familyId": "reka",
+        "modelId": "reka-edge",
+        "slug": "reka-edge",
+        "slugAliases": [
+          "Reka Edge",
+          "reka-edge"
+        ],
+        "displayName": "Reka Edge",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 16384,
+          "maxOutputTokens": 14745
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.1
+        },
+        "availability": [
+          "OpenRouter",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:reka",
+            "sourceKind": "official-page",
+            "url": "https://www.reka.ai/news",
+            "observedAt": "2026-07-25T04:30:52.615Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "ab6510a29f528e68420815c5847ac9a9c9378c298e01f32fbf66362e65d1e19c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "reka::reka-edge",
+        "owner": "Reka AI",
+        "vendorId": "reka",
+        "family": "Reka",
+        "familyId": "reka",
+        "modelId": "reka-edge",
+        "slug": "reka-edge",
+        "slugAliases": [
+          "Reka Edge",
+          "reka-edge"
+        ],
+        "displayName": "Reka Edge",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 16384,
+          "maxOutputTokens": 14745
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.1
+        },
+        "availability": [
+          "AI/ML API",
+          "documented",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-20",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:reka",
+            "sourceKind": "official-page",
+            "url": "https://www.reka.ai/news",
+            "observedAt": "2026-07-25T04:30:52.615Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "9c5c3f7e2bac8d8487b6e2aa5681f61a9692533befd6e60cbfdb12b5149331e2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "5d206540ef70163782c32942",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "aion-labs-aion-rp-llama::aion-labs-aion-rp-llama-3-1-8b",
+        "family": "aion-labs-aion-rp-llama",
+        "modelId": "aion-labs/aion-rp-llama-3.1-8b",
+        "slug": "aion-labs/aion-rp-llama-3.1-8b",
+        "slugAliases": [
+          "aion-labs/aion-rp-llama-3.1-8b"
+        ],
+        "displayName": "Aion-RP 1.0 (8B)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3.1",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 29491
+        },
+        "pricing": {
+          "prompt $/M": 0.8,
+          "completion $/M": 1.6,
+          "input $/M": 0.8,
+          "output $/M": 1.6
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-02-04",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/aion-labs/aion-rp-llama-3.1-8b",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "9b2fb15461bb87285f809e6f0b124eab62b6a2f072a29ece3baa62acceb72120",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "aion-labs-aion-rp-llama::aion-labs-aion-rp-llama-3-1-8b",
+        "family": "aion-labs-aion-rp-llama",
+        "modelId": "aion-labs/aion-rp-llama-3.1-8b",
+        "slug": "aion-labs/aion-rp-llama-3.1-8b",
+        "slugAliases": [
+          "aion-labs/aion-rp-llama-3.1-8b"
+        ],
+        "displayName": "Aion-RP 1.0 (8B)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "3.1",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 29491
+        },
+        "pricing": {
+          "prompt $/M": 0.8,
+          "completion $/M": 1.6,
+          "input $/M": 0.8,
+          "output $/M": 1.6
+        },
+        "availability": [
+          "AI/ML API",
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-02-04",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/aion-labs/aion-rp-llama-3.1-8b",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "2ff2f529264acc97b3d1c1b1fdc5586be434251a26fa5ef2bee8df51bb343c84",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "2c6fafe8c44a33ba7738dfe1",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "anthracite-org-magnum::anthracite-org-magnum-v4-72b",
+        "family": "anthracite-org-magnum",
+        "modelId": "anthracite-org/magnum-v4-72b",
+        "slug": "anthracite-org/magnum-v4-72b",
+        "slugAliases": [
+          "anthracite-org/magnum-v4-72b"
+        ],
+        "displayName": "Magnum v4 72B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "72B",
+          "version": "4",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-06-30",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 5,
+          "input $/M": 2.5,
+          "output $/M": 5
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-10-22",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/anthracite-org/magnum-v4-72b",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "ae34c7fd8801f2acaedaa2b2796bd45890ec500497bda59f40a1c7ce67cce71a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "anthracite-org-magnum::anthracite-org-magnum-v4-72b",
+        "family": "anthracite-org-magnum",
+        "modelId": "anthracite-org/magnum-v4-72b",
+        "slug": "anthracite-org/magnum-v4-72b",
+        "slugAliases": [
+          "anthracite-org/magnum-v4-72b"
+        ],
+        "displayName": "Magnum v4 72B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "72B",
+          "version": "4",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-06-30",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 5,
+          "input $/M": 2.5,
+          "output $/M": 5
+        },
+        "availability": [
+          "AI/ML API",
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-10-22",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/anthracite-org/magnum-v4-72b",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "83e917a245a771248e22c4edd972de14512a6f333cdd5bb4fc39c2145ac9bf44",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "d438e1b511a2992ba12f052c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "cognitivecomputations-dolphin-mistral::cognitivecomputations-dolphin-mistral-24b-venice-edition",
+        "family": "cognitivecomputations-dolphin-mistral",
+        "modelId": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "slug": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "slugAliases": [
+          "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+        ],
+        "displayName": "Uncensored",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-04-30",
+          "accepts": "text",
+          "parameters": "24B",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.9
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-07-09",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "8f719bde7d48e7926837ebe0c162c847de0513ab8a05bf8cc582a6bf8b7fe88a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "cognitivecomputations-dolphin-mistral::cognitivecomputations-dolphin-mistral-24b-venice-edition",
+        "family": "cognitivecomputations-dolphin-mistral",
+        "modelId": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "slug": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "slugAliases": [
+          "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+        ],
+        "displayName": "Venice Uncensored",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-04-30",
+          "accepts": "text",
+          "parameters": "24B",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.9
+        },
+        "availability": [
+          "AI/ML API",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-07-09",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "f7f41812f8728dab93746a78566320d5a0e1a5c28eae566cc4c6946047b8c6f9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "2292b4844fab96e7f39ea52d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mancer-weaver::mancer-weaver",
+        "family": "mancer-weaver",
+        "modelId": "mancer/weaver",
+        "slug": "mancer/weaver",
+        "slugAliases": [
+          "mancer/weaver"
+        ],
+        "displayName": "Weaver (alpha)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-06-30",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 8000,
+          "maxOutputTokens": 6000
+        },
+        "pricing": {
+          "prompt $/M": 0.4,
+          "completion $/M": 0.75,
+          "input $/M": 0.4,
+          "output $/M": 0.75
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2023-08-02",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/mancer/weaver",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "bc9b2b7c5ac49d90867e4b6031ecd6982097e24493f4b7c4f8ae57c060bff1a2",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "mancer-weaver::mancer-weaver",
+        "family": "mancer-weaver",
+        "modelId": "mancer/weaver",
+        "slug": "mancer/weaver",
+        "slugAliases": [
+          "mancer/weaver"
+        ],
+        "displayName": "Weaver (alpha)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2023-06-30",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 8000,
+          "maxOutputTokens": 6000
+        },
+        "pricing": {
+          "prompt $/M": 0.4,
+          "completion $/M": 0.75,
+          "input $/M": 0.4,
+          "output $/M": 0.75
+        },
+        "availability": [
+          "AI/ML API",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2023-08-02",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/mancer/weaver",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "d30fa32760e70c9220341b762a4b91891a223fcba65df0cd0c13bba164e23873",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "73c7d6c85dd2990feab3b226",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hy-mt2::hy-mt2-1-8b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy-mt2",
+        "modelId": "Hy-MT2-1.8B",
+        "slug": "Hy-MT2-1.8B",
+        "slugAliases": [
+          "Hy-MT2-1.8B",
+          "hy-mt2-1.8b"
+        ],
+        "displayName": "Hy-MT2-1.8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "1",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.044,
+          "output $/M": 0.177
+        },
+        "availability": [
+          "OpenRouter",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "071cf2be4f0b8c593f95930236e1682a091fffa9c924f406fdbe2f6d1388f93a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "hy-mt2::hy-mt2-1-8b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy-mt2",
+        "modelId": "Hy-MT2-1.8B",
+        "slug": "Hy-MT2-1.8B",
+        "slugAliases": [
+          "Hy-MT2-1.8B",
+          "hy-mt2-1.8b"
+        ],
+        "displayName": "Hy-MT2-1.8B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "8B",
+          "version": "1",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.044,
+          "output $/M": 0.177
+        },
+        "availability": [
+          "AI/ML API",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "cb4ff539dba52e585dd91906334c9002a7d666cae2e9c78b56f6f65f7f32f725",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "3a0af520311b5673b3adbbc4",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hy-mt2::hy-mt2-30b-a3b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy-mt2",
+        "modelId": "Hy-MT2-30B-A3B",
+        "slug": "Hy-MT2-30B-A3B",
+        "slugAliases": [
+          "Hy-MT2-30B-A3B",
+          "hy-mt2-30b-a3b"
+        ],
+        "displayName": "Hy-MT2-30B-A3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.074,
+          "output $/M": 0.295
+        },
+        "availability": [
+          "OpenRouter",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "109ff3941b56b9bd52ca3cbb0d0e21432ac25ebd5d208b95975c49255e55d4b6",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "hy-mt2::hy-mt2-30b-a3b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy-mt2",
+        "modelId": "Hy-MT2-30B-A3B",
+        "slug": "Hy-MT2-30B-A3B",
+        "slugAliases": [
+          "Hy-MT2-30B-A3B",
+          "hy-mt2-30b-a3b"
+        ],
+        "displayName": "Hy-MT2-30B-A3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.074,
+          "output $/M": 0.295
+        },
+        "availability": [
+          "AI/ML API",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "3dfa2dafe0c8c010d07b57cea5da91e20cf8d90c90c13be070874f2cfedc97f3",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "7e9547f9714d9f5d334ab7ea",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hy-mt2::hy-mt2-7b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy-mt2",
+        "modelId": "Hy-MT2-7B",
+        "slug": "Hy-MT2-7B",
+        "slugAliases": [
+          "Hy-MT2-7B",
+          "hy-mt2-7b"
+        ],
+        "displayName": "Hy-MT2-7B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "7B",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.074,
+          "output $/M": 0.295
+        },
+        "availability": [
+          "OpenRouter",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy-MT2-7B",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "903fb26e95b66a3bcad74ccb3a6c358a663f1ea4b85a5463412c1af8c9e62c7c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "hy-mt2::hy-mt2-7b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy-mt2",
+        "modelId": "Hy-MT2-7B",
+        "slug": "Hy-MT2-7B",
+        "slugAliases": [
+          "Hy-MT2-7B",
+          "hy-mt2-7b"
+        ],
+        "displayName": "Hy-MT2-7B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "7B",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.074,
+          "output $/M": 0.295
+        },
+        "availability": [
+          "AI/ML API",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy-MT2-7B",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "a6bedbc2e51ab379866b06d0f6025247342e7e0eb5c53bafa77a1c8de2aabf72",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "2620bbe43780768744777d08",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "thedrummer-unslopnemo::thedrummer-unslopnemo-12b",
+        "family": "thedrummer-unslopnemo",
+        "modelId": "thedrummer/unslopnemo-12b",
+        "slug": "thedrummer/unslopnemo-12b",
+        "slugAliases": [
+          "thedrummer/unslopnemo-12b"
+        ],
+        "displayName": "UnslopNemo 12B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "12B",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-04-30",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1024000,
+          "maxOutputTokens": 819200
+        },
+        "pricing": {
+          "prompt $/M": 0.4,
+          "completion $/M": 0.4,
+          "input $/M": 0.4,
+          "output $/M": 0.4
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-08",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/thedrummer/unslopnemo-12b",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "2d9d9e9c90f607fadd07caa444c22f6845c66dc69f30009a1ecad71efeeb4801",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "thedrummer-unslopnemo::thedrummer-unslopnemo-12b",
+        "family": "thedrummer-unslopnemo",
+        "modelId": "thedrummer/unslopnemo-12b",
+        "slug": "thedrummer/unslopnemo-12b",
+        "slugAliases": [
+          "thedrummer/unslopnemo-12b"
+        ],
+        "displayName": "UnslopNemo 12B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "12B",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-04-30",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1024000,
+          "maxOutputTokens": 819200
+        },
+        "pricing": {
+          "prompt $/M": 0.4,
+          "completion $/M": 0.4,
+          "input $/M": 0.4,
+          "output $/M": 0.4
+        },
+        "availability": [
+          "AI/ML API",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-08",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/thedrummer/unslopnemo-12b",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "c00b67af1ab639c0792ed9e5e3898e167bc2213b6de98c0749b1054c1b4039b7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "faf75988576b67e674a0e9c3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "relace-relace-apply::relace-relace-apply-3",
+        "family": "relace-relace-apply",
+        "modelId": "relace/relace-apply-3",
+        "slug": "relace/relace-apply-3",
+        "slugAliases": [
+          "relace/relace-apply-3"
+        ],
+        "displayName": "Relace Apply 3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 0.85,
+          "completion $/M": 1.25,
+          "input $/M": 0.85,
+          "output $/M": 1.25
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09-26",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/relace/relace-apply-3",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "c3ea14b35a29af963b0abc1804fec972875ddce594ed78600b9f333b09918b53",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "relace-relace-apply::relace-relace-apply-3",
+        "family": "relace-relace-apply",
+        "modelId": "relace/relace-apply-3",
+        "slug": "relace/relace-apply-3",
+        "slugAliases": [
+          "relace/relace-apply-3"
+        ],
+        "displayName": "Apply 3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 0.85,
+          "completion $/M": 1.25,
+          "input $/M": 0.85,
+          "output $/M": 1.25
+        },
+        "availability": [
+          "AI/ML API",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-09-26",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/relace/relace-apply-3",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "6f68ae9c448342ebfaedd734c0a566cfddfa922ec47513543faa3337a6945a15",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "6cbf365ffc3ee8b9f81ae5bb",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "relace-relace::relace-relace-search",
+        "family": "relace-relace",
+        "modelId": "relace/relace-search",
+        "slug": "relace/relace-search",
+        "slugAliases": [
+          "relace/relace-search"
+        ],
+        "displayName": "Relace Search",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 3
+        },
+        "availability": [
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-08",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "a65b9a28700229bf4c6c3a2fcecf040c95b1bfa9a68c2ab48178c4259bfac099",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "relace-relace::relace-relace-search",
+        "family": "relace-relace",
+        "modelId": "relace/relace-search",
+        "slug": "relace/relace-search",
+        "slugAliases": [
+          "relace/relace-search"
+        ],
+        "displayName": "Search",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 3
+        },
+        "availability": [
+          "AI/ML API",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-08",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          }
+        ],
+        "fingerprint": "749a863f15c5c0f9299ff221b7d2c9b395657de51017c02b01828dcf3e978fed",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "b7d726a6a9378a100f6ea684",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-large-2407",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-2407",
+        "slug": "mistral-large-2407",
+        "slugAliases": [
+          "mistral-large-2407",
+          "mistral-large@2407"
+        ],
+        "displayName": "Mistral Large 2407",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2407",
+        "tier": "large",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "large",
+          "version": "2407",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-03-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8191
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 6,
+          "input_cache_read $/M": 0.2,
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "OpenRouter",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-mistral_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-19",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/mistralai/mistral-large-2407",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "cc4479cbfbb1c4e8d9edbaa9afb30a13bc8cafae942b5bafaebab91271263ff1",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "after": {
+        "key": "mistral::mistral-large-2407",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-large-2407",
+        "slug": "mistral-large-2407",
+        "slugAliases": [
+          "mistral-large-2407",
+          "mistral-large@2407"
+        ],
+        "displayName": "Mistral Large 2407",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2407",
+        "tier": "large",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "large",
+          "version": "2407",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-03-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8191
+        },
+        "pricing": {
+          "prompt $/M": 2,
+          "completion $/M": 6,
+          "input_cache_read $/M": 0.2,
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "Eden AI",
+          "OpenRouter",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-mistral_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-11-19",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/mistralai/mistral-large-2407",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "fad8c088164d206634a622e40926c51cd8619625bb96ce89f93c8c1b14c0e234",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "ab0e67655ee42f1c9ad5185d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-small-24b-instruct-2501",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "Mistral-Small-24B-Instruct-2501",
+        "slug": "Mistral-Small-24B-Instruct-2501",
+        "slugAliases": [
+          "Mistral-Small-24B-Instruct-2501",
+          "mistral-small-24b-instruct-2501"
+        ],
+        "displayName": "Mistral Small 3",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2501",
+        "tier": "small",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "24B",
+          "tier": "small",
+          "version": "2501",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.05,
+          "completion $/M": 0.08,
+          "input $/M": 0.05,
+          "output $/M": 0.08
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-01-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mistral:mistralai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/mistralai/mistral-small-24b-instruct-2501",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "69bd7fbf80b616f0d7a305fb3942b679f5d9cd6ea893d2849b81ba44acf1295a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "after": {
+        "key": "mistral::mistral-small-24b-instruct-2501",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "Mistral-Small-24B-Instruct-2501",
+        "slug": "Mistral-Small-24B-Instruct-2501",
+        "slugAliases": [
+          "Mistral-Small-24B-Instruct-2501",
+          "mistral-small-24b-instruct-2501"
+        ],
+        "displayName": "Mistral Small 3 (Deep Infra)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2501",
+        "tier": "small",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "24B",
+          "tier": "small",
+          "version": "2501",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.05,
+          "completion $/M": 0.08,
+          "input $/M": 0.05,
+          "output $/M": 0.08
+        },
+        "availability": [
+          "DeepInfra",
+          "Eden AI",
+          "NanoGPT",
+          "OpenRouter",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-01-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mistral:mistralai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/mistralai/mistral-small-24b-instruct-2501",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "9ae4f72bac5ba6c3e91dbf5ca43d569df2910f5fc2151895d5141889c3cbf664",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "d117594c5a96ed46809386c0",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-small-3-1-24b-instruct",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-small-3.1-24b-instruct",
+        "slug": "mistral-small-3.1-24b-instruct",
+        "slugAliases": [
+          "mistral-small-3.1-24b-instruct"
+        ],
+        "displayName": "Mistral Small 3.1 24B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "small",
+        "capabilities": {
+          "parameters": "24B",
+          "tier": "small",
+          "version": "3.1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 102400
+        },
+        "pricing": {
+          "input $/M": 0.351,
+          "output $/M": 0.555
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "2efba85080cc1e31fdddbb37c2598870699c5765c55a7c05dd8926445976d77d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-04T15:52:17.026Z"
+      },
+      "after": {
+        "key": "mistral::mistral-small-3-1-24b-instruct",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "slug": "mistral-small-3.1-24b-instruct",
+        "slugAliases": [
+          "@cf/mistralai/mistral-small-3.1-24b-instruct",
+          "mistral-small-3.1-24b-instruct"
+        ],
+        "displayName": "Mistral Small 3.1 24B (Cloudflare)",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "small",
+        "capabilities": {
+          "parameters": "24B",
+          "tier": "small",
+          "version": "3.1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 102400
+        },
+        "pricing": {
+          "input $/M": 0.351,
+          "output $/M": 0.555
+        },
+        "availability": [
+          "Eden AI",
+          "NanoGPT",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "2226863b38798fd455c9e5a41dd7aedbd51b18159a656279c946bf2302ba3d50",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName",
+        "modelId"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "79cf451bddb7de42fa5ea3cf",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-small-3-2-24b-instruct",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-small-3.2-24b-instruct",
+        "slug": "mistral-small-3.2-24b-instruct",
+        "slugAliases": [
+          "mistral-small-3.2-24b-instruct"
+        ],
+        "displayName": "Mistral Small 3.2 24B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.2",
+        "tier": "small",
+        "capabilities": {
+          "parameters": "24B",
+          "tier": "small",
+          "version": "3.2",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.0938,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-20",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "1247d1c4c025daa5006b350a899c299324e9800a3de2dfa0ae6a0e5fb79d73b0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "mistral::mistral-small-3-2-24b-instruct",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-small-3.2-24b-instruct",
+        "slug": "mistral-small-3.2-24b-instruct",
+        "slugAliases": [
+          "mistral-small-3.2-24b-instruct"
+        ],
+        "displayName": "Small 3.2 24B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.2",
+        "tier": "small",
+        "capabilities": {
+          "parameters": "24B",
+          "tier": "small",
+          "version": "3.2",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.0938,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "AI/ML API",
+          "NanoGPT",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-20",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "c3c04e1fa9eebc42e928e473e4005a832d13fb88e3f2ffdd5ba1184fef4cd9fa",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "a064e3838065867578fdcc5d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-robotics-er-2-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-robotics-er-2-preview",
+        "slug": "gemini-robotics-er-2-preview",
+        "slugAliases": [
+          "gemini-robotics-er-2-preview"
+        ],
+        "displayName": "gemini-robotics-er-2-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "audio, image, text, video",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "gemini"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "d9cc7a02222703b275c8b8a18209f9ae8bbfd158a2d3df3722928cd50461b242",
+        "firstSeen": "2026-08-04T22:57:47.345Z",
+        "lastChanged": "2026-09-16T17:44:06.143Z"
+      },
+      "after": {
+        "key": "gemini::gemini-robotics-er-2-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-robotics-er-2-preview",
+        "slug": "gemini-robotics-er-2-preview",
+        "slugAliases": [
+          "gemini-robotics-er-2-preview"
+        ],
+        "displayName": "gemini-robotics-er-2-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "audio, image, text, video",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 5
+        },
+        "availability": [
+          "vertex_ai-language-models"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "093c12bf22e0e66064289bbf491180cd1c5b6ff1bda21eb27b718e889bb5d38f",
+        "firstSeen": "2026-08-04T22:57:47.345Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "b81a478abf688e58a6117e40",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemma::gemma-2-27b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-2-27b-it",
+        "slug": "gemma-2-27b-it",
+        "slugAliases": [
+          "gemma-2-27b-it"
+        ],
+        "displayName": "Gemma 2 27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "27B",
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-06-30",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "prompt $/M": 0.65,
+          "completion $/M": 0.65,
+          "input $/M": 0.35,
+          "output $/M": 1.05
+        },
+        "availability": [
+          "OpenRouter",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/google/gemma-2-27b-it",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "8c49549798d53c04c2e3a877c5bb2452120bb678108339073c0bbec54f92cdbe",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "after": {
+        "key": "gemma::gemma-2-27b-it",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-2-27b-it",
+        "slug": "gemma-2-27b-it",
+        "slugAliases": [
+          "gemma-2-27b-it"
+        ],
+        "displayName": "Gemma 2 27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "27B",
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-06-30",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "prompt $/M": 0.65,
+          "completion $/M": 0.65,
+          "input $/M": 0.35,
+          "output $/M": 1.05
+        },
+        "availability": [
+          "AI/ML API",
+          "OpenRouter",
+          "gemini"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/google/gemma-2-27b-it",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "7a91e00e09b24fbab4919e784a8b2bda0622c6e698bfc1fe3103f6d4b6da43ae",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "9fad7fd9a346481ce688f69a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-nano-9",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron Nano 9",
+        "slug": "Nemotron Nano 9",
+        "slugAliases": [
+          "Nemotron Nano 9"
+        ],
+        "displayName": "Nemotron Nano 9",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "9",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "9"
+        },
+        "limits": {},
+        "availability": [
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          }
+        ],
+        "fingerprint": "95044aa62660569dbd29b2d2f82caeb14124bd2db416c84e3f9f47753e967733",
+        "firstSeen": "2026-10-13T07:59:50.787Z",
+        "lastChanged": "2026-10-13T07:59:50.787Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-13T07:59:50.787Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
