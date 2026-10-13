@@ -303704,6 +303704,1147 @@
         "model"
       ],
       "detectedAt": "2026-10-13T15:44:32.155Z"
+    },
+    {
+      "id": "5f55353a5041dbedefdb437e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "muse-wonder::muse-wonder",
+        "owner": "Meta AI",
+        "family": "muse-wonder",
+        "modelId": "muse-wonder",
+        "slug": "muse-wonder",
+        "slugAliases": [
+          "muse-wonder"
+        ],
+        "displayName": "Muse Wonder",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          }
+        ],
+        "fingerprint": "6d6426b4187dda9ae0edd1714c9c030b21d93bb2ba8c901e3134b795d65a0838",
+        "firstSeen": "2026-10-12T19:12:36.614Z",
+        "lastChanged": "2026-10-12T19:12:36.614Z"
+      },
+      "after": {
+        "key": "muse-wonder::muse-wonder",
+        "owner": "Meta AI",
+        "family": "muse-wonder",
+        "modelId": "muse-wonder",
+        "slug": "muse-wonder",
+        "slugAliases": [
+          "muse-wonder"
+        ],
+        "displayName": "Muse Wonder",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.2
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-12",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "1075d9953e79ffee1d0998da6566ffdbff5ad78dd753eb0c49c8123c351877fe",
+        "firstSeen": "2026-10-12T19:12:36.614Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "b3f060ef5a22aeb28bf66ad4",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-medium-3-5-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-3-5@eu",
+        "slug": "mistral-medium-3-5@eu",
+        "slugAliases": [
+          "mistral-medium-3-5@eu"
+        ],
+        "displayName": "mistral-medium-3-5@eu",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "medium",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.65,
+          "output $/M": 8.25,
+          "cache_read $/M": 1.65
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          }
+        ],
+        "fingerprint": "d8b4fff5f76a86b44d421bb74b9ea123ca4808c138962f186bca5fc7fd499176",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-08-28T04:06:10.660Z"
+      },
+      "after": {
+        "key": "mistral::mistral-medium-3-5-eu",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-3-5@eu",
+        "slug": "mistral-medium-3-5@eu",
+        "slugAliases": [
+          "mistral-medium-3-5@eu"
+        ],
+        "displayName": "Mistral Medium 3.5 (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "medium",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "medium",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 1.65,
+          "output $/M": 8.25,
+          "cache_read $/M": 1.65
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "ca3eba68703555de9d321fb9149db5fd48e925337a74ba35bc5e0f3591e1294f",
+        "firstSeen": "2026-08-19T02:17:02.030Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "212cafd028fc8731754c9929",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-4",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4",
+        "slug": "gemini-4",
+        "slugAliases": [
+          "Gemini 4",
+          "gemini-4"
+        ],
+        "displayName": "Gemini 4",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "a04fe6b9d90097c3615f2f8aa3af55f359888f1428a956922ee862cab71ce377",
+        "firstSeen": "2026-09-30T23:07:47.907Z",
+        "lastChanged": "2026-09-30T23:07:47.907Z"
+      },
+      "after": {
+        "key": "gemini::gemini-4",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4",
+        "slug": "gemini-4",
+        "slugAliases": [
+          "Gemini 4",
+          "gemini-4"
+        ],
+        "displayName": "gemini-4",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "official:page:google-veo",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/video",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "official:feed:google-ai",
+            "sourceKind": "official-feed",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "92d6c8a4522af7627d108becfa2bfbb673a96db09dead41d067f62f239ab7c2c",
+        "firstSeen": "2026-09-30T23:07:47.907Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "d86df8b4e40d1fe52fc6e002",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-4-argon",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon",
+        "slug": "gemini-4-argon",
+        "slugAliases": [
+          "gemini-4-argon"
+        ],
+        "displayName": "Gemini 4 Argon",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.1,
+          "input_audio $/M": 2
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "Vertex",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "bc8d9a6f64593909034d985295aeef716d3ac59ec6cc4a90dad422abdad8e3b4",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "de91e7952f73398c4dc94903",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm-2-5-24b-a2b",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "lfm-2.5-24b-a2b",
+        "slug": "lfm-2.5-24b-a2b",
+        "slugAliases": [
+          "lfm-2.5-24b-a2b"
+        ],
+        "displayName": "LFM2.5-24B-A2B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "24B",
+          "activeParameters": "2B active",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.7,
+          "cache_read $/M": 0.025
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "1eaf13c433701c59b29e0fcb8fd5381eda4f9209b2d6e8ff105cb1ac829c982b",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "2e1532161b37c46f8e8d8a6f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-24b-a2b",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-24B-A2B",
+        "slug": "LFM2.5-24B-A2B",
+        "slugAliases": [
+          "LFM2.5-24B-A2B",
+          "lfm2.5-24b-a2b"
+        ],
+        "displayName": "LFM2.5-24B-A2B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "parameters": "24B",
+          "activeParameters": "2B active",
+          "version": "2.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8200
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 1,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "50c1bd7c7ed54c4dab2d18ab8dfe0b0c7718050c15fb4c0dcc27d106613f4ce1",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "c3704ca34bf16c122f78dc1f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-4-argon-us",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon@us",
+        "slug": "gemini-4-argon@us",
+        "slugAliases": [
+          "gemini-4-argon@us"
+        ],
+        "displayName": "Gemini 4 Argon (Vertex AI, US)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "reasoning $/M": 20,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 0.375,
+          "input_audio $/M": 4
+        },
+        "availability": [
+          "Eden AI"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.edenai.co",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "90a9974f5f95ccf424e18143bba326d92c057412c5b73677f963c8c5f4d5e1f4",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "35b292d6a7daf7c39576ef67",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-4-argon-eu",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon@eu",
+        "slug": "gemini-4-argon@eu",
+        "slugAliases": [
+          "gemini-4-argon@eu"
+        ],
+        "displayName": "Gemini 4 Argon (EU)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2.2,
+          "output $/M": 11,
+          "cache_read $/M": 0.11
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "a0deca73c20b3acb978025f92b30c822efd577a57305d0942b5e1e5297e54c98",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "942924700d71a532ac4c97ac",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "kimi::kimi-k2-8-preview",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "kimi-k2.8-preview",
+        "slug": "kimi-k2.8-preview",
+        "slugAliases": [
+          "kimi-k2.8-preview"
+        ],
+        "displayName": "kimi-k2.8-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 4
+        },
+        "availability": [
+          "tencent"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.tencentcloud.com/document/product/1300/78937",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "f80422e3d26d54cc9825b6085022360f5fc912950daaac1cdd843dd027c26734",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "e9e31b44d90d4dc1efecd3b2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-4-argon-cyber-permissive",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon-cyber-permissive",
+        "slug": "gemini-4-argon-cyber-permissive",
+        "slugAliases": [
+          "gemini-4-argon-cyber-permissive"
+        ],
+        "displayName": "gemini-4-argon-cyber-permissive",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "webSearch": true,
+          "accepts": "audio, image, text, video",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20
+        },
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "76cd475fe244a6dcc37a908f92d6888657ca44a7c5721797c25762dc39942531",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "4b482487635a4e9eff4f3478",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-24",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-24",
+        "slug": "LFM2.5-24",
+        "slugAliases": [
+          "LFM2.5-24"
+        ],
+        "displayName": "LFM2.5-24",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5.24",
+        "capabilities": {
+          "version": "2.5.24"
+        },
+        "limits": {},
+        "availability": [
+          "announced",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:liquid",
+            "sourceKind": "official-page",
+            "url": "https://www.liquid.ai/models",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "official:feed:huggingface-blog",
+            "sourceKind": "official-feed",
+            "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "776f8dae0d467ee8300641606286d265e4cd7d4c221c70f37e30912b6068d550",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "fdbe53773abe1b5d66e64911",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "groot::gr00t-n1-7-appletoplate-cosine40k-checkpoint-15000",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "GR00T",
+        "familyId": "groot",
+        "modelId": "GR00T-N1.7-AppleToPlate-cosine40k-checkpoint-15000",
+        "slug": "GR00T-N1.7-AppleToPlate-cosine40k-checkpoint-15000",
+        "slugAliases": [
+          "GR00T-N1.7-AppleToPlate-cosine40k-checkpoint-15000"
+        ],
+        "displayName": "GR00T-N1.7-AppleToPlate-cosine40k-checkpoint-15000",
+        "modalities": [
+          "world"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "n1",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "n1",
+          "version": "1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/GR00T-N1.7-AppleToPlate-cosine40k-checkpoint-15000",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "9f9bb22451a03c19936198257709db72bf0dcb1b281ccb1a38e7dedcdc505504",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "fbc252df8c443990e9f7c8b8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "interp-dit-crps-era5::interp-dit-crps-era5",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "interp-dit-crps-era5",
+        "modelId": "interp-dit-crps-era5",
+        "slug": "interp-dit-crps-era5",
+        "slugAliases": [
+          "interp-dit-crps-era5"
+        ],
+        "displayName": "interp-dit-crps-era5",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/interp-dit-crps-era5",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "0bccef0956385e2c0cd1d0dd34027cc19c9e479215b52ee7b2637ab0f3af3a8f",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "abcd0d10b565c4eb4f57f49a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-24b-a2b-base",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-24B-A2B-Base",
+        "slug": "LFM2.5-24B-A2B-Base",
+        "slugAliases": [
+          "LFM2.5-24B-A2B-Base"
+        ],
+        "displayName": "LFM2.5-24B-A2B-Base",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "24B",
+          "activeParameters": "2B active",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-Base",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "f6b20b1b69e99cf3388b00a18bf7e2bfb0cf2463279a6bee3a12b27ed0ab3215",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
+    },
+    {
+      "id": "0e11806ed591a43c4b34783e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lfm::lfm2-5-24b-a2b-onnx",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "LFM2.5-24B-A2B-ONNX",
+        "slug": "LFM2.5-24B-A2B-ONNX",
+        "slugAliases": [
+          "LFM2.5-24B-A2B-ONNX"
+        ],
+        "displayName": "LFM2.5-24B-A2B-ONNX",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "24B",
+          "activeParameters": "2B active",
+          "version": "2.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:liquid:liquidai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-ONNX",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          }
+        ],
+        "fingerprint": "6a66223ecd79028c17582177a3d9cf78da87771b4bf1581ddbdbfbd610e3e584",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T20:50:44.253Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
