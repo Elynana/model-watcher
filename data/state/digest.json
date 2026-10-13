@@ -298691,6 +298691,1409 @@
         "model"
       ],
       "detectedAt": "2026-10-12T19:12:36.614Z"
+    },
+    {
+      "id": "1b83021c14d0a7e4b1f8fc7f",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-4-1-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1-mini",
+        "slug": "gpt-4.1-mini",
+        "slugAliases": [
+          "gpt-4.1-mini"
+        ],
+        "displayName": "GPT-4.1 mini",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "mini",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "mini",
+          "version": "4.1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 1.6,
+          "cache_read $/M": 0.1
+        },
+        "availability": [
+          "Aixy",
+          "GitHub Models",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "replicate"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aixy-gateway.com/integrations/overview",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/openai/gpt-4.1-mini",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "a284cf12337987e72e9ed4eb28a4f65bb7c37fb96e3fb0a1fea7d0b5c9caffc0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "gpt::gpt-4-1-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-4.1-mini",
+        "slug": "gpt-4.1-mini",
+        "slugAliases": [
+          "gpt-4.1-mini"
+        ],
+        "displayName": "GPT-4.1 mini",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "mini",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "mini",
+          "version": "4.1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 1.6,
+          "cache_read $/M": 0.1
+        },
+        "availability": [
+          "GitHub Models",
+          "NanoGPT",
+          "OpenAI",
+          "Vercel AI Gateway",
+          "replicate"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.openai.com/docs/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/openai/gpt-4.1-mini",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "632a8fdd20f168cb969afbb1daca9321b7d365494c9f9d7743604ffe0eb06dd4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "c9757213d79f51737d4e585a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-audio-mini-2025-10-06",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-audio-mini-2025-10-06",
+        "slug": "gpt-audio-mini-2025-10-06",
+        "slugAliases": [
+          "gpt-audio-mini-2025-10-06"
+        ],
+        "displayName": "gpt-audio-mini-2025-10-06",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": false,
+          "accepts": "audio, text",
+          "tier": "mini"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4
+        },
+        "availability": [
+          "azure"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "d3f201f2260e7a803a1c83961e49c4fc7b790aa447d73bcb64e70a98aef82931",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-22T22:06:15.971Z"
+      },
+      "after": {
+        "key": "gpt::gpt-audio-mini-2025-10-06",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-audio-mini-2025-10-06",
+        "slug": "gpt-audio-mini-2025-10-06",
+        "slugAliases": [
+          "gpt-audio-mini-2025-10-06"
+        ],
+        "displayName": "gpt-audio-mini-2025-10-06",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": false,
+          "accepts": "audio, text",
+          "tier": "mini"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/models/gpt-audio-mini",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "fae26fb0836ecc156fc4ee20a783a03647213efd14f572c5e534b0b2239e4ba4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "f89a4f7dea4208919e8500b4",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "computer-use::computer-use-preview-2025-03-11",
+        "family": "computer-use",
+        "modelId": "computer-use-preview-2025-03-11",
+        "slug": "computer-use-preview-2025-03-11",
+        "slugAliases": [
+          "computer-use-preview-2025-03-11"
+        ],
+        "displayName": "computer-use-preview-2025-03-11",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "snapshot",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 1024
+        },
+        "pricing": {
+          "input $/M": 3,
+          "output $/M": 12
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/models/computer-use-preview",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "86ad0c900c81f838aa1a0612bbce1d63fd7eb96f712b61bfecdcd075216fc0a2",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "c4c57944c86a184614bae249",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "semantic-ranker::semantic-ranker-default",
+        "owner": "Google DeepMind",
+        "family": "semantic-ranker",
+        "modelId": "semantic-ranker-default",
+        "slug": "semantic-ranker-default",
+        "slugAliases": [
+          "semantic-ranker-default"
+        ],
+        "displayName": "semantic-ranker-default",
+        "modalities": [
+          "rerank"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "rerank"
+        },
+        "limits": {},
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/generative-ai-app-builder/pricing",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "0d20f4e358fc96c37af0ccf4952a81503dc24e445fcac1e7ac4f6b9126552a5e",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "ee5a49c58451c28e55b43b3c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "semantic-ranker::semantic-ranker-default-002",
+        "owner": "Google DeepMind",
+        "family": "semantic-ranker",
+        "modelId": "semantic-ranker-default-002",
+        "slug": "semantic-ranker-default-002",
+        "slugAliases": [
+          "semantic-ranker-default-002"
+        ],
+        "displayName": "semantic-ranker-default-002",
+        "modalities": [
+          "rerank"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "002",
+        "capabilities": {
+          "mode": "rerank",
+          "version": "002"
+        },
+        "limits": {},
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/generative-ai-app-builder/pricing",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "06705f5db31008a26b557ef90c54a50fbcbfb992d3cb7001b1ca5c7b637a18cd",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "c896fb4542aa29101713906b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "semantic-ranker::semantic-ranker-default-003",
+        "owner": "Google DeepMind",
+        "family": "semantic-ranker",
+        "modelId": "semantic-ranker-default-003",
+        "slug": "semantic-ranker-default-003",
+        "slugAliases": [
+          "semantic-ranker-default-003"
+        ],
+        "displayName": "semantic-ranker-default-003",
+        "modalities": [
+          "rerank"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "003",
+        "capabilities": {
+          "mode": "rerank",
+          "version": "003"
+        },
+        "limits": {},
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/generative-ai-app-builder/pricing",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "14a37d250e93a74a3d7a4a70939bb2dd37a41cccbb880be14b539ce104ee9305",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "6d28ad27fd3a734a34472247",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "semantic-ranker::semantic-ranker-default-004",
+        "owner": "Google DeepMind",
+        "family": "semantic-ranker",
+        "modelId": "semantic-ranker-default-004",
+        "slug": "semantic-ranker-default-004",
+        "slugAliases": [
+          "semantic-ranker-default-004"
+        ],
+        "displayName": "semantic-ranker-default-004",
+        "modalities": [
+          "rerank"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "version": "004",
+        "capabilities": {
+          "mode": "rerank",
+          "version": "004"
+        },
+        "limits": {},
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/generative-ai-app-builder/pricing",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "90bee749e829160bc6eb766384141f3a5b00cfb88dae4c75c16926c6abe34f52",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "674ae6b5bddde8602dce608b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "semantic-ranker::semantic-ranker-default-latest",
+        "owner": "Google DeepMind",
+        "family": "semantic-ranker",
+        "modelId": "semantic-ranker-default@latest",
+        "slug": "semantic-ranker-default@latest",
+        "slugAliases": [
+          "semantic-ranker-default@latest"
+        ],
+        "displayName": "semantic-ranker-default@latest",
+        "modalities": [
+          "rerank"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "rerank"
+        },
+        "limits": {},
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/generative-ai-app-builder/pricing",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "34d83a718821a495acb550cd0bda4d462cbda2e1d3248460512ac99c2922b63d",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "27fb1bb393eeadd58159b395",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "semantic-ranker::semantic-ranker-fast-latest",
+        "owner": "Google DeepMind",
+        "family": "semantic-ranker",
+        "modelId": "semantic-ranker-fast@latest",
+        "slug": "semantic-ranker-fast@latest",
+        "slugAliases": [
+          "semantic-ranker-fast@latest"
+        ],
+        "displayName": "semantic-ranker-fast@latest",
+        "modalities": [
+          "rerank"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "rerank",
+          "tier": "fast"
+        },
+        "limits": {},
+        "availability": [
+          "vertex_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/generative-ai-app-builder/pricing",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "58050cde1cae51927d7c56cb947a5827b82d35ce6181524edc919bbd45bed1cf",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "2956a28d7e3e500733f4fdf3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-fable-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5-batch",
+        "slug": "claude-fable-5-batch",
+        "slugAliases": [
+          "claude-fable-5-batch"
+        ],
+        "displayName": "claude-fable-5-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "fable",
+        "capabilities": {
+          "tier": "fable",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "a982a1cf6c84e856940251b7cbdb33505db80dd0a7765cd3e29ec993b65e6c7f",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "b4ae87d63c307646ad8460cb",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-opus-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-opus-5-batch",
+        "slug": "claude-opus-5-batch",
+        "slugAliases": [
+          "claude-opus-5-batch"
+        ],
+        "displayName": "claude-opus-5-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "opus",
+        "capabilities": {
+          "tier": "opus",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "e00829d101c9a33bee38b24bb38b45ed886c5e6ff70cdfa978560d38007ae589",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "8c2d5ad7fe59d4a86d5a776d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-sonnet-5-batch",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-sonnet-5-batch",
+        "slug": "claude-sonnet-5-batch",
+        "slugAliases": [
+          "claude-sonnet-5-batch"
+        ],
+        "displayName": "claude-sonnet-5-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "sonnet",
+        "capabilities": {
+          "tier": "sonnet",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "d2691b8b961f6b32176e71544e1d7840fce9c0ba350d208e02599857c54f66b4",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "c26401cb47a14fd93123de42",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-3-flash-batch",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3-flash-batch",
+        "slug": "gemini-3-flash-batch",
+        "slugAliases": [
+          "gemini-3-flash-batch"
+        ],
+        "displayName": "gemini-3-flash-batch",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "61db57fd9b6e10aa4b14bcbe172855e24f503925fbe4313cdd9d643a35d86df2",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "28a35b70c3a942a82cb9b8e7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5-batch",
+        "slug": "gpt-5-batch",
+        "slugAliases": [
+          "gpt-5-batch"
+        ],
+        "displayName": "gpt-5-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "59e334277049bab2ac4449964eca6eec9bfc51b1c48c7d75a6a558a7ea189170",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "e65bce3deb943aae4fccba54",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-mini-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5-mini-batch",
+        "slug": "gpt-5-mini-batch",
+        "slugAliases": [
+          "gpt-5-mini-batch"
+        ],
+        "displayName": "gpt-5-mini-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "mini",
+        "capabilities": {
+          "tier": "mini",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "d156972f2b97cd6209c439d6e7eb8aa0749ddcb706b85487080b95d97cf1e10f",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "733086f9bf8fd43b15546114",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-nano-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5-nano-batch",
+        "slug": "gpt-5-nano-batch",
+        "slugAliases": [
+          "gpt-5-nano-batch"
+        ],
+        "displayName": "gpt-5-nano-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "bd95c2c87a88b6565867636a952269b02928c0edace999d4b8d03a7bf045d648",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "c2e09d900095ee52153dff01",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-pro-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5-pro-batch",
+        "slug": "gpt-5-pro-batch",
+        "slugAliases": [
+          "gpt-5-pro-batch"
+        ],
+        "displayName": "gpt-5-pro-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "8b0cc6a1c78113665a347bb9f253806fccc733bb88b9309646a3a05c47965be7",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "fe0dd2cc5bb2e4a05456701b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-astra-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-astra-batch",
+        "slug": "gpt-6-astra-batch",
+        "slugAliases": [
+          "gpt-6-astra-batch"
+        ],
+        "displayName": "gpt-6-astra-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "9340d0a2daef8eb39bf0c205fb8e29a45111861b07823c72d3af6aa1217fc08b",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "b92b257eeb2eacb31aeee49d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-luna-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-luna-batch",
+        "slug": "gpt-6-luna-batch",
+        "slugAliases": [
+          "gpt-6-luna-batch"
+        ],
+        "displayName": "gpt-6-luna-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "a76505f456997f4bc4e73cb3e6fee1060fda3df2c2405da166461fbb95f3bef1",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "37c7048bfb8d1007678cad44",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-6-sol-batch",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-6-sol-batch",
+        "slug": "gpt-6-sol-batch",
+        "slugAliases": [
+          "gpt-6-sol-batch"
+        ],
+        "displayName": "gpt-6-sol-batch",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "2c637d6781e72ac737701df7b0f2b2eeb65761f24618bf0cca981da7141186fe",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "002ec0b742ce5c5ec4c36709",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-multi-agent-batch",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-multi-agent-batch",
+        "slug": "grok-4.20-multi-agent-batch",
+        "slugAliases": [
+          "grok-4.20-multi-agent-batch"
+        ],
+        "displayName": "grok-4.20-multi-agent-batch",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 2000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "13da913ee2746ad3a6158c2d607d199ee64b02344651c8f087dcf4f968d7d5fa",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "725face199ec588c5df75ded",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-non-reasoning-batch",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-non-reasoning-batch",
+        "slug": "grok-4.20-non-reasoning-batch",
+        "slugAliases": [
+          "grok-4.20-non-reasoning-batch"
+        ],
+        "displayName": "grok-4.20-non-reasoning-batch",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 2000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "863a3ceaa4e44556add31a5c193235aa6e73d62283b7f474eecbff04300f4759",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
+    },
+    {
+      "id": "5f62fcc5e58bbae157fa72d0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-4-20-reasoning-batch",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.20-reasoning-batch",
+        "slug": "grok-4.20-reasoning-batch",
+        "slugAliases": [
+          "grok-4.20-reasoning-batch"
+        ],
+        "displayName": "grok-4.20-reasoning-batch",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 2000000
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-21",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T01:24:35.697Z"
+          }
+        ],
+        "fingerprint": "6f37f7e426f1fc035e5a24af222caefa94411f95a5f976a5533c38bcf09a4b55",
+        "firstSeen": "2026-10-13T01:24:35.697Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T01:24:35.697Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
