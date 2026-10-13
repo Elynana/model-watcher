@@ -303177,6 +303177,533 @@
         "announcement"
       ],
       "detectedAt": "2026-10-13T07:59:50.787Z"
+    },
+    {
+      "id": "670a590bd5c1e73923ca1610",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "step::step-5-preview",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "step-5-preview",
+        "slug": "step-5-preview",
+        "slugAliases": [
+          "Step 5 Preview",
+          "step-5-preview"
+        ],
+        "displayName": "Step 5 Preview",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 2.7,
+          "cache_read $/M": 0.048
+        },
+        "availability": [
+          "NanoGPT",
+          "StepFun (China)",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.stepfun.com/docs/zh/overview/concept",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T07:59:50.787Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          }
+        ],
+        "fingerprint": "0066d0268d048400c8db0569a536692d65a3850fd59019e6271d225a61e0e4b7",
+        "firstSeen": "2026-09-20T05:08:37.360Z",
+        "lastChanged": "2026-10-09T01:41:05.205Z"
+      },
+      "after": {
+        "key": "step::step-5-preview",
+        "owner": "StepFun",
+        "vendorId": "stepfun",
+        "family": "Step",
+        "familyId": "step",
+        "modelId": "step-5-preview",
+        "slug": "step-5-preview",
+        "slugAliases": [
+          "Step 5 Preview",
+          "step-5-preview"
+        ],
+        "displayName": "Step 5 Preview",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "version": "5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "input $/M": 1,
+          "output $/M": 2.7,
+          "cache_read $/M": 0.048
+        },
+        "availability": [
+          "NanoGPT",
+          "Novita AI",
+          "StepFun (China)",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-09-16",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://platform.stepfun.com/docs/zh/overview/concept",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-10T11:21:42.410Z"
+          }
+        ],
+        "fingerprint": "9c889987ceb22eeded27fa787c98033ef9978cc5b7f2caf7a236ee92e7ec84a6",
+        "firstSeen": "2026-09-20T05:08:37.360Z",
+        "lastChanged": "2026-10-13T15:44:32.155Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-13T15:44:32.155Z"
+    },
+    {
+      "id": "5f667f3f4e3d5de8eb44f6b2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma4-gutenberg-31b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma4-gutenberg-31b",
+        "slug": "gemma4-gutenberg-31b",
+        "slugAliases": [
+          "gemma4-gutenberg-31b"
+        ],
+        "displayName": "Gemma 4 Gutenberg 31B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.45,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          }
+        ],
+        "fingerprint": "28c9b3b7bab03e77d393b744a0c2f2b8b0a2290890a5047ec049e154757add2f",
+        "firstSeen": "2026-10-13T15:44:32.155Z",
+        "lastChanged": "2026-10-13T15:44:32.155Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T15:44:32.155Z"
+    },
+    {
+      "id": "12d4fdd5a5377a1ac8123856",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-vision-exp-cybersecurity",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-vision-exp-cybersecurity",
+        "slug": "deepseek-v4-flash-vision-exp-cybersecurity",
+        "slugAliases": [
+          "deepseek-v4-flash-vision-exp-cybersecurity"
+        ],
+        "displayName": "DeepSeek V4 Flash Vision Exp Cybersecurity",
+        "modalities": [
+          "text"
+        ],
+        "channel": "experimental",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          }
+        ],
+        "fingerprint": "73396e73838c0209dd90db5f6964bedbc997fec284a80cec0c82e217d499d1d4",
+        "firstSeen": "2026-10-13T15:44:32.155Z",
+        "lastChanged": "2026-10-13T15:44:32.155Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T15:44:32.155Z"
+    },
+    {
+      "id": "defed0dd2715f48f9dfc0389",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-giftige-blume-31b-v2",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-giftige-blume-31b-v2",
+        "slug": "gemma-4-giftige-blume-31b-v2",
+        "slugAliases": [
+          "gemma-4-giftige-blume-31b-v2"
+        ],
+        "displayName": "Gemma 4 Giftige-Blume V2 31B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.45,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          }
+        ],
+        "fingerprint": "b18d625cb3ec57789be8cb10d40d91aa0b25a770f89860412309029a5188737f",
+        "firstSeen": "2026-10-13T15:44:32.155Z",
+        "lastChanged": "2026-10-13T15:44:32.155Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T15:44:32.155Z"
+    },
+    {
+      "id": "92436e8f3ae69eaffc1d985b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-dark-thoughts-v2-31b",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-dark-thoughts-v2-31b",
+        "slug": "gemma-4-dark-thoughts-v2-31b",
+        "slugAliases": [
+          "gemma-4-dark-thoughts-v2-31b"
+        ],
+        "displayName": "Gemma 4 Dark Thoughts V2 31B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "31B",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.45,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          }
+        ],
+        "fingerprint": "ed5d7ce46d9751834e5f3613f71d1090711fe1cd54c8be1bbda6e70e7706e0bc",
+        "firstSeen": "2026-10-13T15:44:32.155Z",
+        "lastChanged": "2026-10-13T15:44:32.155Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T15:44:32.155Z"
+    },
+    {
+      "id": "33ce2b1fa1b5ffe7c3c4500a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "claude::claude-fable-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-fable-5-5",
+        "slug": "claude-fable-5-5",
+        "slugAliases": [
+          "claude-fable-5-5"
+        ],
+        "displayName": "claude-fable-5-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "fable",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "fable",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50
+        },
+        "availability": [
+          "azure_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://management.azure.com/subscriptions/c873328e-b572-4770-8dff-aaeb6f1f0e79/providers/Microsoft.CognitiveServices/locations/eastus2/models?api-version=2024-10-01",
+            "observedAt": "2026-10-13T15:44:32.155Z"
+          }
+        ],
+        "fingerprint": "86270b1e607b516c51d06e43ffbce8b676f9c8f25ab969aa22e755d785b29d45",
+        "firstSeen": "2026-10-13T15:44:32.155Z",
+        "lastChanged": "2026-10-13T15:44:32.155Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-13T15:44:32.155Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
