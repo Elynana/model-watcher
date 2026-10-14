@@ -305464,6 +305464,569 @@
         "model"
       ],
       "detectedAt": "2026-10-14T09:28:46.352Z"
+    },
+    {
+      "id": "05f45cf39419f46a7f92d116",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "lfm::lfm-2-5-24b-a2b",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "lfm-2.5-24b-a2b",
+        "slug": "lfm-2.5-24b-a2b",
+        "slugAliases": [
+          "lfm-2.5-24b-a2b"
+        ],
+        "displayName": "LFM2.5-24B-A2B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "parameters": "24B",
+          "activeParameters": "2B active",
+          "version": "2.5"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.7,
+          "cache_read $/M": 0.025
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-14T09:28:46.352Z"
+          }
+        ],
+        "fingerprint": "1eaf13c433701c59b29e0fcb8fd5381eda4f9209b2d6e8ff105cb1ac829c982b",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "after": {
+        "key": "lfm::lfm-2-5-24b-a2b",
+        "owner": "Liquid AI",
+        "vendorId": "liquid",
+        "family": "Liquid Foundation Models",
+        "familyId": "lfm",
+        "modelId": "lfm-2.5-24b-a2b",
+        "slug": "lfm-2.5-24b-a2b",
+        "slugAliases": [
+          "lfm-2.5-24b-a2b"
+        ],
+        "displayName": "LFM2.5-24B-A2B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "parameters": "24B",
+          "activeParameters": "2B active",
+          "version": "2.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.7,
+          "cache_read $/M": 0.025
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          }
+        ],
+        "fingerprint": "592ff56968e68c8f1bd2da020652f4bb3cb39860d155ad7c86d7bff14f8174e8",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-14T14:37:08.690Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-14T14:37:08.690Z"
+    },
+    {
+      "id": "6b6a8ea9f28d1ce604e7bfd8",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "unbiased-pareto::unbiased-pareto-20260917",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-20260917",
+        "slug": "unbiased/pareto-20260917",
+        "slugAliases": [
+          "unbiased/pareto-20260917"
+        ],
+        "displayName": "Pareto",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "capabilities": {
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 7.5,
+          "input_cache_read $/M": 0.25
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-17",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/unbiased/pareto",
+            "observedAt": "2026-10-13T23:59:11.548Z"
+          }
+        ],
+        "fingerprint": "77c2f03bd367aabcda125238b8ecf765a1dece1e851e923d7ed7fd535397c569",
+        "firstSeen": "2026-09-18T00:37:27.416Z",
+        "lastChanged": "2026-09-18T00:37:27.416Z"
+      },
+      "after": {
+        "key": "unbiased-pareto::unbiased-pareto-20260917",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-20260917",
+        "slug": "unbiased/pareto-20260917",
+        "slugAliases": [
+          "unbiased/pareto-20260917"
+        ],
+        "displayName": "Pareto",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "capabilities": {
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 2.5,
+          "completion $/M": 7.5,
+          "input_cache_read $/M": 0.25
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-09-17",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/unbiased/pareto",
+            "observedAt": "2026-10-13T23:59:11.548Z"
+          }
+        ],
+        "fingerprint": "c732a81c0330eaaf431d6e7f80bc270973ed145d7cf1750de969ace3783c8021",
+        "firstSeen": "2026-09-18T00:37:27.416Z",
+        "lastChanged": "2026-10-14T14:37:08.690Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-10-14T14:37:08.690Z"
+    },
+    {
+      "id": "e10a6c361c21db4e007f8644",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "unbiased-pareto::unbiased-pareto-26-9",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-26.9",
+        "slug": "unbiased/pareto-26.9",
+        "slugAliases": [
+          "unbiased/pareto-26.9"
+        ],
+        "displayName": "Pareto 26.9",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "26.9",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "26.9"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 7.5,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-14T09:28:46.352Z"
+          }
+        ],
+        "fingerprint": "77c268d8c75be71c1264cadd1d4fbffe1eed94a82309f3e864af3b1acad59dfe",
+        "firstSeen": "2026-10-13T23:59:11.548Z",
+        "lastChanged": "2026-10-13T23:59:11.548Z"
+      },
+      "after": {
+        "key": "unbiased-pareto::unbiased-pareto-26-9",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-26.9",
+        "slug": "unbiased/pareto-26.9",
+        "slugAliases": [
+          "unbiased/pareto-26.9"
+        ],
+        "displayName": "Pareto 26.9",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "26.9",
+        "capabilities": {
+          "version": "26.9",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 7.5,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          }
+        ],
+        "fingerprint": "a4ec3b7bac5eea4a0082b9f2ae0d8d43460d87dc559b11081c98148a51bd6d14",
+        "firstSeen": "2026-10-13T23:59:11.548Z",
+        "lastChanged": "2026-10-14T14:37:08.690Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-14T14:37:08.690Z"
+    },
+    {
+      "id": "dae4680e7c6da487b2c0e7f0",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-4-argon",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon",
+        "slug": "gemini-4-argon",
+        "slugAliases": [
+          "gemini-4-argon"
+        ],
+        "displayName": "Gemini 4 Argon",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.1,
+          "input_audio $/M": 2
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "Vertex",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+            "observedAt": "2026-10-14T09:28:46.352Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-13T20:50:44.253Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-14T09:28:46.352Z"
+          }
+        ],
+        "fingerprint": "bc8d9a6f64593909034d985295aeef716d3ac59ec6cc4a90dad422abdad8e3b4",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-13T20:50:44.253Z"
+      },
+      "after": {
+        "key": "gemini::gemini-4-argon",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon",
+        "slug": "gemini-4-argon",
+        "slugAliases": [
+          "gemini-4-argon"
+        ],
+        "displayName": "Gemini 4 Argon",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.1,
+          "input_audio $/M": 2
+        },
+        "availability": [
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "Vertex",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          }
+        ],
+        "fingerprint": "aba906e2cb9e28c48c079857b30a0c3be2e3fe21ff96ce50f765241d05405243",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-14T14:37:08.690Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-14T14:37:08.690Z"
+    },
+    {
+      "id": "699c5a1d309d2417ef47d1ed",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "hiro-acev2::hiro-acev2",
+        "owner": "Allen Institute for AI",
+        "vendorId": "allenai",
+        "family": "hiro-acev2",
+        "modelId": "HiRO-ACEv2",
+        "slug": "HiRO-ACEv2",
+        "slugAliases": [
+          "HiRO-ACEv2"
+        ],
+        "displayName": "HiRO-ACEv2",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:allenai:allenai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/allenai/HiRO-ACEv2",
+            "observedAt": "2026-10-14T14:37:08.690Z"
+          }
+        ],
+        "fingerprint": "74b0f91fc386cbca6f72a3c300401ffb4a0fee3c3ad6819fd1079e01631dfc3e",
+        "firstSeen": "2026-10-14T14:37:08.690Z",
+        "lastChanged": "2026-10-14T14:37:08.690Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-14T14:37:08.690Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
