@@ -306567,6 +306567,168 @@
         "model"
       ],
       "detectedAt": "2026-10-14T18:52:02.689Z"
+    },
+    {
+      "id": "24e2efbc3b17deaf36db03db",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-super-vl-120b-a12b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-super-vl-120b-a12b",
+        "slug": "nemotron-3.5-super-vl-120b-a12b",
+        "slugAliases": [
+          "nemotron-3.5-super-vl-120b-a12b"
+        ],
+        "displayName": "Nemotron 3.5 Super VL 120B A12B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text, video",
+          "parameters": "120B",
+          "activeParameters": "12B active",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "Nvidia"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-10-14T22:00:57.363Z"
+          }
+        ],
+        "fingerprint": "9408e8b972395162ee98e7697d63b76e5d19998f4d2fe8c88fd7705c33c277de",
+        "firstSeen": "2026-10-14T22:00:57.363Z",
+        "lastChanged": "2026-10-14T22:00:57.363Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-14T22:00:57.363Z"
+    },
+    {
+      "id": "89a2b7e892b7568d298258a8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ideogram::ideogram-3",
+        "owner": "Ideogram",
+        "vendorId": "ideogram",
+        "family": "Ideogram",
+        "familyId": "ideogram",
+        "modelId": "ideogram-3",
+        "slug": "ideogram-3",
+        "slugAliases": [
+          "ideogram-3"
+        ],
+        "displayName": "ideogram-3",
+        "modalities": [
+          "image"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:ideogram",
+            "sourceKind": "official-page",
+            "url": "https://developer.ideogram.ai/api-reference/api-reference/generate-v3",
+            "observedAt": "2026-10-14T22:00:57.363Z"
+          }
+        ],
+        "fingerprint": "92b3c4ca06fb6128b749db83691124742f6e345f0afc0badb737b609e709023b",
+        "firstSeen": "2026-10-14T22:00:57.363Z",
+        "lastChanged": "2026-10-14T22:00:57.363Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-14T22:00:57.363Z"
+    },
+    {
+      "id": "bd3a808d3662d453aa80726d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "userrepgen::userrepgen-4b",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "userrepgen",
+        "modelId": "UserRepGen-4B",
+        "slug": "UserRepGen-4B",
+        "slugAliases": [
+          "UserRepGen-4B"
+        ],
+        "displayName": "UserRepGen-4B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "4B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/UserRepGen-4B",
+            "observedAt": "2026-10-14T22:00:57.363Z"
+          }
+        ],
+        "fingerprint": "26f5e73553fc320d6a6069308b445e3af605dd30789d66833ce6c088a4e55a3e",
+        "firstSeen": "2026-10-14T22:00:57.363Z",
+        "lastChanged": "2026-10-14T22:00:57.363Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-14T22:00:57.363Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
