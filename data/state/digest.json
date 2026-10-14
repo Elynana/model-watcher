@@ -305398,6 +305398,72 @@
         "model"
       ],
       "detectedAt": "2026-10-14T04:01:57.643Z"
+    },
+    {
+      "id": "46a3d230ac96fbb9903ba3d5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemini::gemini-4-argon-contributor",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon-contributor",
+        "slug": "gemini-4-argon-contributor",
+        "slugAliases": [
+          "gemini-4-argon-contributor"
+        ],
+        "displayName": "Gemini 4 Argon Contributor",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.2,
+          "input_audio $/M": 4
+        },
+        "availability": [
+          "OpenCode Go"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/v2/docs/console/go/",
+            "observedAt": "2026-10-14T09:28:46.352Z"
+          }
+        ],
+        "fingerprint": "d379a9e2e143a5986d85a19e0177274ad8db64ad44a3a9fa0e01b227f26f63c8",
+        "firstSeen": "2026-10-14T09:28:46.352Z",
+        "lastChanged": "2026-10-14T09:28:46.352Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-14T09:28:46.352Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
