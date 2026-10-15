@@ -310724,6 +310724,493 @@
         "model"
       ],
       "detectedAt": "2026-10-15T21:39:01.211Z"
+    },
+    {
+      "id": "5551182d9e34c5fb46f736cc",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "unbiased-pareto::unbiased-pareto-26-10-preview-20260929",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-26.10-preview-20260929",
+        "slug": "unbiased/pareto-26.10-preview-20260929",
+        "slugAliases": [
+          "unbiased/pareto-26.10-preview-20260929"
+        ],
+        "displayName": "Pareto 26.10 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "snapshot",
+        "version": "26.10",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "26.10"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.8,
+          "completion $/M": 3.2,
+          "input_cache_read $/M": 0.03
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-10-01",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/unbiased/pareto-26.10-preview",
+            "observedAt": "2026-10-15T14:25:19.284Z"
+          }
+        ],
+        "fingerprint": "bbef434834a9f0a5a8bd5abbc1866e9b1b313f96db649fc7706b2a63c335a475",
+        "firstSeen": "2026-10-01T15:45:56.488Z",
+        "lastChanged": "2026-10-01T15:45:56.488Z"
+      },
+      "after": {
+        "key": "unbiased-pareto::unbiased-pareto-26-10-preview-20260929",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-26.10-preview-20260929",
+        "slug": "unbiased/pareto-26.10-preview-20260929",
+        "slugAliases": [
+          "unbiased/pareto-26.10-preview-20260929"
+        ],
+        "displayName": "Pareto 26.10 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "snapshot",
+        "version": "26.10",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "26.10"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.8,
+          "completion $/M": 3.2,
+          "input_cache_read $/M": 0.03
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2026-10-01",
+        "confidence": "candidate",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/unbiased/pareto-26.10-preview",
+            "observedAt": "2026-10-15T14:25:19.284Z"
+          }
+        ],
+        "fingerprint": "d9d507390998661f3cc5720228d27ebab6f95efc47467fa69c93aa7d5424e1a2",
+        "firstSeen": "2026-10-01T15:45:56.488Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-10-15T23:51:12.590Z"
+    },
+    {
+      "id": "73395148aaccdd085fd0f56a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "oci-xai-grok::oci-xai-grok-4-20-0309-non-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "oci/xai.grok-4.20-0309-non-reasoning",
+        "slug": "oci/xai.grok-4.20-0309-non-reasoning",
+        "slugAliases": [
+          "oci/xai.grok-4.20-0309-non-reasoning"
+        ],
+        "displayName": "oci/xai.grok-4.20-0309-non-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "oci"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing",
+            "observedAt": "2026-10-15T23:51:12.590Z"
+          }
+        ],
+        "fingerprint": "fa4a41d338402aec47f9522c7b45b908e5643820c9abe01b2ae8e486cc42c6b9",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T23:51:12.590Z"
+    },
+    {
+      "id": "b87e7495fb40b99436b6530a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "oci-xai-grok::oci-xai-grok-4-20-0309-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "oci/xai.grok-4.20-0309-reasoning",
+        "slug": "oci/xai.grok-4.20-0309-reasoning",
+        "slugAliases": [
+          "oci/xai.grok-4.20-0309-reasoning"
+        ],
+        "displayName": "oci/xai.grok-4.20-0309-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "oci"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing",
+            "observedAt": "2026-10-15T23:51:12.590Z"
+          }
+        ],
+        "fingerprint": "76392cd32e0998c20279f2ae60e333d9f7106327746d78a2e34a783836d2b60c",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T23:51:12.590Z"
+    },
+    {
+      "id": "32bade5be4592a6b10ea1bc9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "oci-xai-grok::oci-xai-grok-4-20-non-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "oci/xai.grok-4.20-non-reasoning",
+        "slug": "oci/xai.grok-4.20-non-reasoning",
+        "slugAliases": [
+          "oci/xai.grok-4.20-non-reasoning"
+        ],
+        "displayName": "oci/xai.grok-4.20-non-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "oci"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing",
+            "observedAt": "2026-10-15T23:51:12.590Z"
+          }
+        ],
+        "fingerprint": "df3d391c363be1fe60ad4d2db974a0ac7116ccbf2acdffd793ef8020346ef454",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T23:51:12.590Z"
+    },
+    {
+      "id": "0d3b9da08d4e63c2dca453f7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "oci-xai-grok::oci-xai-grok-4-20-reasoning",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "oci/xai.grok-4.20-reasoning",
+        "slug": "oci/xai.grok-4.20-reasoning",
+        "slugAliases": [
+          "oci/xai.grok-4.20-reasoning"
+        ],
+        "displayName": "oci/xai.grok-4.20-reasoning",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.20",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "4.20"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 1000000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "oci"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing",
+            "observedAt": "2026-10-15T23:51:12.590Z"
+          }
+        ],
+        "fingerprint": "79315b0b0a05dd61f1166b0c1d955985412b807cfd912ce217b1ad99ef839dae",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T23:51:12.590Z"
+    },
+    {
+      "id": "3cf24c9401812321df537e0d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "scfm-dataselection::scfm-dataselection",
+        "owner": "Microsoft",
+        "vendorId": "microsoft",
+        "family": "scfm-dataselection",
+        "modelId": "scFM-dataselection",
+        "slug": "scFM-dataselection",
+        "slugAliases": [
+          "scFM-dataselection"
+        ],
+        "displayName": "scFM-dataselection",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:microsoft:microsoft",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/microsoft/scFM-dataselection",
+            "observedAt": "2026-10-15T23:51:12.590Z"
+          }
+        ],
+        "fingerprint": "c72ad8a78084b60608b509e9d65309714e68eab527a93605f9e77acdbc6ad2a1",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T23:51:12.590Z"
+    },
+    {
+      "id": "9cb130694a95ac88957cd802",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-embed-8b-bf16",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Embed-8B-BF16",
+        "slug": "Nemotron-3.5-Embed-8B-BF16",
+        "slugAliases": [
+          "Nemotron-3.5-Embed-8B-BF16"
+        ],
+        "displayName": "Nemotron-3.5-Embed-8B-BF16",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-8B-BF16",
+            "observedAt": "2026-10-15T23:51:12.590Z"
+          }
+        ],
+        "fingerprint": "7558b483bc31c4fa6fd5e1ddae441720cbe96f24c2df391c8b96a215e8729939",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T23:51:12.590Z"
+    },
+    {
+      "id": "3f289e475db93b89eb3e5241",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-embed-1b-bf16",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Embed-1B-BF16",
+        "slug": "Nemotron-3.5-Embed-1B-BF16",
+        "slugAliases": [
+          "Nemotron-3.5-Embed-1B-BF16"
+        ],
+        "displayName": "Nemotron-3.5-Embed-1B-BF16",
+        "modalities": [
+          "embedding"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "1B",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-1B-BF16",
+            "observedAt": "2026-10-15T23:51:12.590Z"
+          }
+        ],
+        "fingerprint": "d047decdd15647b0380d8de4039aede07d5fbf1ad4e3f61725dfca584df894df",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T23:51:12.590Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
