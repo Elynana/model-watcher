@@ -308472,6 +308472,466 @@
         "model"
       ],
       "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "b806c97cd08014df6007f6d9",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "clef::clef-omni",
+        "family": "clef",
+        "modelId": "clef-omni",
+        "slug": "clef-omni",
+        "slugAliases": [
+          "clef-omni"
+        ],
+        "displayName": "Clef Omni",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "omni",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "tier": "omni",
+          "mode": "evaluation",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 64000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0
+        },
+        "availability": [
+          "Cloudflare Workers AI",
+          "cloudflare"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-11T02:09:47.270Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/clef-omni/",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "5c62f90211bf6a41424cd1c0df16c098ce0290e4124728574a2b656b58f85f5c",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-14T14:37:08.690Z"
+      },
+      "after": {
+        "key": "clef::clef-omni",
+        "family": "clef",
+        "modelId": "clef-omni",
+        "slug": "clef-omni",
+        "slugAliases": [
+          "clef-omni"
+        ],
+        "displayName": "Clef Omni",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "omni",
+        "capabilities": {
+          "tier": "omni",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "evaluation",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 64000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0
+        },
+        "availability": [
+          "Cloudflare Workers AI",
+          "NanoGPT",
+          "cloudflare"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-11T02:09:47.270Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/clef-omni/",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "fadb3ae2dca229c246a8badd9de686fa1fa80ba66cd3f93f29612316523c8507",
+        "firstSeen": "2026-10-09T20:08:56.464Z",
+        "lastChanged": "2026-10-15T09:40:24.402Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-15T09:40:24.402Z"
+    },
+    {
+      "id": "96cf07f6136229061603e5dd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-free",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-free",
+        "slug": "deepseek-v4.1-flash-free",
+        "slugAliases": [
+          "deepseek-v4.1-flash-free"
+        ],
+        "displayName": "DeepSeek V4.1 Flash Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "OpenCode"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-10",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/v2/docs/console/models/",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "fc6c458a53a1ef9d155cfdff052d16cb81582497ac010cb16d1aeb9496a6f9a2",
+        "firstSeen": "2026-10-15T09:40:24.402Z",
+        "lastChanged": "2026-10-15T09:40:24.402Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T09:40:24.402Z"
+    },
+    {
+      "id": "76a7875bbf58b681e12bf5b9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-voice-3-0",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-voice-3.0",
+        "slug": "grok-voice-3.0",
+        "slugAliases": [
+          "grok-voice-3.0"
+        ],
+        "displayName": "grok-voice-3.0",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "mode": "realtime",
+          "toolCalling": true,
+          "accepts": "audio, text",
+          "version": "3.0"
+        },
+        "limits": {},
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/developers/pricing",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "309366cce4ae127f88ae7133f23e692f7c3f9c87dcd96c022b1e2fce212d73b0",
+        "firstSeen": "2026-10-15T09:40:24.402Z",
+        "lastChanged": "2026-10-15T09:40:24.402Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T09:40:24.402Z"
+    },
+    {
+      "id": "7d40f0ae28f6f0d2dc91b229",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-voice-latest",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-voice-latest",
+        "slug": "grok-voice-latest",
+        "slugAliases": [
+          "grok-voice-latest"
+        ],
+        "displayName": "grok-voice-latest",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "realtime",
+          "toolCalling": true,
+          "accepts": "audio, text"
+        },
+        "limits": {},
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/developers/pricing",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "32433017958a3ce20c95811134cf5733c4146fd6f55199160673d8c5f733d7a6",
+        "firstSeen": "2026-10-15T09:40:24.402Z",
+        "lastChanged": "2026-10-15T09:40:24.402Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T09:40:24.402Z"
+    },
+    {
+      "id": "297451dc18a3f8f1374e61a5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "grok::grok-voice-2-0",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-voice-2.0",
+        "slug": "grok-voice-2.0",
+        "slugAliases": [
+          "grok-voice-2.0"
+        ],
+        "displayName": "grok-voice-2.0",
+        "modalities": [
+          "audio",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "mode": "realtime",
+          "toolCalling": true,
+          "accepts": "audio, text",
+          "version": "2.0"
+        },
+        "limits": {},
+        "availability": [
+          "xai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.x.ai/developers/pricing",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "cb5c0a2d4bfd9f1a162bfc4a759925c719152198e0cc7c2cde5c411a8bb46e72",
+        "firstSeen": "2026-10-15T09:40:24.402Z",
+        "lastChanged": "2026-10-15T09:40:24.402Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T09:40:24.402Z"
+    },
+    {
+      "id": "656835a1f2d54d066de9ca47",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gemma::gemma-4-12b-it-starry-ocean",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemma",
+        "familyId": "gemma",
+        "modelId": "gemma-4-12b-it-starry-ocean",
+        "slug": "gemma-4-12b-it-starry-ocean",
+        "slugAliases": [
+          "gemma-4-12b-it-starry-ocean"
+        ],
+        "displayName": "gemma-4-12b-it-starry-ocean",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "parameters": "12B",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "d1d93444670cf54c5b088197c946e4f83574ca4a145a55483a860a6585e1d849",
+        "firstSeen": "2026-10-15T09:40:24.402Z",
+        "lastChanged": "2026-10-15T09:40:24.402Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T09:40:24.402Z"
+    },
+    {
+      "id": "8db61ce39a192aba0ebd00b0",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "mixedbread-ai-tmp::mixedbread-ai-tmp-fast-transfer",
+        "owner": "Mixedbread",
+        "vendorId": "mixedbread",
+        "family": "mixedbread-ai-tmp",
+        "modelId": "mixedbread-ai/tmp-fast-transfer",
+        "slug": "mixedbread-ai/tmp-fast-transfer",
+        "slugAliases": [
+          "mixedbread-ai/tmp-fast-transfer"
+        ],
+        "displayName": "tmp-fast-transfer",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "fast",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "fast"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mixedbread:mixedbread-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mixedbread-ai/tmp-fast-transfer",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "7f15fac177f699c729ffaedba6cf6d9360424fbd51f51ffda951ab2bbd0598a6",
+        "firstSeen": "2026-10-15T09:40:24.402Z",
+        "lastChanged": "2026-10-15T09:40:24.402Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T09:40:24.402Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
