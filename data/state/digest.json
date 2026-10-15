@@ -306847,6 +306847,1631 @@
         "availability"
       ],
       "detectedAt": "2026-10-15T00:24:42.586Z"
+    },
+    {
+      "id": "de4ae234e1bb0c8455479bc0",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5-5",
+        "slug": "claude-haiku-5-5",
+        "slugAliases": [
+          "Claude Haiku 5.5",
+          "claude-haiku-5-5",
+          "claude-haiku-5.5"
+        ],
+        "displayName": "Claude Haiku 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "tier": "haiku",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 0.5,
+              "output": 2.5,
+              "cache_read": 0.05,
+              "cache_write": 0.625,
+              "tier": {
+                "type": "context",
+                "size": 100000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "CrossModel",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-15T00:24:42.586Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.crossmodel.ai/docs",
+            "observedAt": "2026-10-15T00:24:42.586Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+            "observedAt": "2026-10-15T00:24:42.586Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-15T00:24:42.586Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T00:24:42.586Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "584dd435e28c4fe76cdc33e4ca4ac8cf32a70330b63e06a6dfc573371d3b5b99",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-10T16:19:10.289Z"
+      },
+      "after": {
+        "key": "claude::claude-haiku-5-5",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-haiku-5-5",
+        "slug": "claude-haiku-5-5",
+        "slugAliases": [
+          "Claude Haiku 5.5",
+          "claude-haiku-5-5",
+          "claude-haiku-5.5"
+        ],
+        "displayName": "Claude Haiku 5.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "tier": "haiku",
+        "capabilities": {
+          "tier": "haiku",
+          "version": "5.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-06",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 0.5,
+              "output": 2.5,
+              "cache_read": 0.05,
+              "cache_write": 0.625,
+              "tier": {
+                "type": "context",
+                "size": 100000
+              }
+            }
+          ]
+        },
+        "availability": [
+          "Aixy",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "vertex_ai-anthropic_models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:anthropic",
+            "sourceKind": "official-page",
+            "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aixy-gateway.com/integrations/overview",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "5ffe3961fdf1a38845cf6036cf964f6091bb3aeb8b9255ae94d646c09d36db19",
+        "firstSeen": "2026-10-07T19:23:11.431Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "8f671a339fff519e3a45577e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-4",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5.4",
+        "slug": "auto/openai/gpt-5.4",
+        "slugAliases": [
+          "auto/openai/gpt-5.4"
+        ],
+        "displayName": "GPT-5.4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "version": "5.4"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2.5,
+          "output $/M": 15,
+          "cache_read $/M": 0.25,
+          "tiers $/M": [
+            {
+              "input": 5,
+              "output": 22.5,
+              "cache_read": 0.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 5,
+            "output": 22.5,
+            "cache_read": 0.5
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "6b19cf45b1064c5d29ad49e147732bd737629c0572e50f1d7f8ba6624dbfff01",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "f9730a7e28b186de8dc5beba",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5-mini",
+        "slug": "auto/openai/gpt-5-mini",
+        "slugAliases": [
+          "auto/openai/gpt-5-mini"
+        ],
+        "displayName": "GPT-5 Mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-05-30",
+          "accepts": "image, text",
+          "tier": "mini",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 2,
+          "cache_read $/M": 0.025
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "eb33b2dda1da68e845251bc3be62fbd55b14afe641c09a80e40eeefd5e86aa35",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "22e76c75ab56aa3961153b7d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5-nano",
+        "slug": "auto/openai/gpt-5-nano",
+        "slugAliases": [
+          "auto/openai/gpt-5-nano"
+        ],
+        "displayName": "GPT-5 Nano",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "tier": "nano",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-05-30",
+          "accepts": "image, text",
+          "tier": "nano",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.05,
+          "output $/M": 0.4,
+          "cache_read $/M": 0.005
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "e158b7cb9c7d3ebfbfc1beaa9e092f6981ce969466435fba674bb64556451f50",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "8c0aeb0554dec16d06d7e08a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-6-1-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-6.1-sol",
+        "slug": "auto/openai/gpt-6.1-sol",
+        "slugAliases": [
+          "auto/openai/gpt-6.1-sol"
+        ],
+        "displayName": "GPT-6.1 Sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6.1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text",
+          "version": "6.1"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.1,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.2,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.2,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "98df07bef986d989ebff08d2a66c42232a3e34cd8206d5f1448977fe907d8732",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "471c55c1e82779fe98a7d520",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-6-astra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-6-astra",
+        "slug": "auto/openai/gpt-6-astra",
+        "slugAliases": [
+          "auto/openai/gpt-6-astra"
+        ],
+        "displayName": "GPT-6 Astra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-30",
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 10,
+          "output $/M": 50,
+          "cache_read $/M": 1,
+          "cache_write $/M": 12.5,
+          "tiers $/M": [
+            {
+              "input": 20,
+              "output": 75,
+              "cache_read": 2,
+              "cache_write": 25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 20,
+            "output": 75,
+            "cache_read": 2,
+            "cache_write": 25
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "eaebbedc396e24e1935636fac19a216ddf0f8489e81b4366c7b0aceebe178886",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "9ea4c9f83520d8a801224752",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-4-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5.4-mini",
+        "slug": "auto/openai/gpt-5.4-mini",
+        "slugAliases": [
+          "auto/openai/gpt-5.4-mini"
+        ],
+        "displayName": "GPT-5.4 mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "tier": "mini",
+          "version": "5.4"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 4.5,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "ce86197ecf360a70798f768a8e0000bfe1ce34cccd560e4fb5f63c28602ae9af",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "fa3d2f73729552a1fe3c7c77",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5.6-luna",
+        "slug": "auto/openai/gpt-5.6-luna",
+        "slugAliases": [
+          "auto/openai/gpt-5.6-luna"
+        ],
+        "displayName": "GPT-5.6 Luna",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1.2,
+          "cache_read $/M": 0.02,
+          "cache_write $/M": 0.25,
+          "tiers $/M": [
+            {
+              "input": 0.4,
+              "output": 1.8,
+              "cache_read": 0.04,
+              "cache_write": 0.5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.4,
+            "output": 1.8,
+            "cache_read": 0.04,
+            "cache_write": 0.5
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "e67fe28c2ae8fe44deb75e0678d88b2ddbc2807d0a7b231695f0cd16d18e20c7",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "ed525da763904c4ddc90ba76",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-2",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5.2",
+        "slug": "auto/openai/gpt-5.2",
+        "slugAliases": [
+          "auto/openai/gpt-5.2"
+        ],
+        "displayName": "GPT-5.2",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.2",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "version": "5.2"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.75,
+          "output $/M": 14,
+          "cache_read $/M": 0.175
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-12-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "2859ba9be3fdf27a303fc02b600786ef615e1dfe33d7ed5cf43737087d1afcbe",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "be60b7a8f28b061542f2fde3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-5",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5.5",
+        "slug": "auto/openai/gpt-5.5",
+        "slugAliases": [
+          "auto/openai/gpt-5.5"
+        ],
+        "displayName": "GPT-5.5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-12-01",
+          "accepts": "image, text",
+          "version": "5.5"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 30,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 10,
+              "output": 45,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 10,
+            "output": 45,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-23",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "c09baf1380246ef919d86b2cbcca9cd431f8d197c002c2aec074b8ed0dc4a757",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "d37f4bf97ca2575e18b1464a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-4-1",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-4.1",
+        "slug": "auto/openai/gpt-4.1",
+        "slugAliases": [
+          "auto/openai/gpt-4.1"
+        ],
+        "displayName": "GPT-4.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "accepts": "image, text",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 8,
+          "cache_read $/M": 0.5
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "f3795dd651db914d876d7a137e9355d03065f3781f5fe095d48d2cb0c353ffee",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "1acd5116c8d5f0e17b28305e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-4-1-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-4.1-mini",
+        "slug": "auto/openai/gpt-4.1-mini",
+        "slugAliases": [
+          "auto/openai/gpt-4.1-mini"
+        ],
+        "displayName": "GPT-4.1 mini",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "mini",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-04",
+          "accepts": "image, text",
+          "tier": "mini",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1047576,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.4,
+          "output $/M": 1.6,
+          "cache_read $/M": 0.1
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-04-14",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "e8bda074a75c09878896541c4a0a5f3d312d93cf6b3f73d44fab421001b40cbc",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "130553718fd680c44a82045b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-6-luna",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-6-luna",
+        "slug": "auto/openai/gpt-6-luna",
+        "slugAliases": [
+          "auto/openai/gpt-6-luna"
+        ],
+        "displayName": "GPT-6 Luna",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05-18",
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.5,
+          "cache_read $/M": 0.01,
+          "cache_write $/M": 0.125,
+          "tiers $/M": [
+            {
+              "input": 0.2,
+              "output": 0.75,
+              "cache_read": 0.02,
+              "cache_write": 0.25,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 0.2,
+            "output": 0.75,
+            "cache_read": 0.02,
+            "cache_write": 0.25
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "cc88465ed451c069bbe8334eda231dc6b38fb56e8f34325102620fdd7416be36",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "377c4847fa9f6801dc1059a1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-6-terra",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5.6-terra",
+        "slug": "auto/openai/gpt-5.6-terra",
+        "slugAliases": [
+          "auto/openai/gpt-5.6-terra"
+        ],
+        "displayName": "GPT-5.6 Terra",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 18,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 18,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "3026f36734fd24e91fda2ae4cd2dd92edf97f0458ae879fa526e681f4f60762b",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "130d6331568862855ac7d0cd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5",
+        "slug": "auto/openai/gpt-5",
+        "slugAliases": [
+          "auto/openai/gpt-5"
+        ],
+        "displayName": "GPT-5",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-09-30",
+          "accepts": "image, text",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 10,
+          "cache_read $/M": 0.125
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-07",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "484ddded9b3a5b9701bea6cf520353e139596b9d46baeda5553147a2f1590122",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "cedcfe9d119760fa79647992",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-5-6-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-5.6-sol",
+        "slug": "auto/openai/gpt-5.6-sol",
+        "slugAliases": [
+          "auto/openai/gpt-5.6-sol"
+        ],
+        "displayName": "GPT-5.6 Sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-16",
+          "accepts": "image, text",
+          "version": "5.6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 4,
+          "output $/M": 20,
+          "cache_read $/M": 0.4,
+          "cache_write $/M": 5,
+          "tiers $/M": [
+            {
+              "input": 8,
+              "output": 30,
+              "cache_read": 0.8,
+              "cache_write": 10,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 8,
+            "output": 30,
+            "cache_read": 0.8,
+            "cache_write": 10
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-09",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "0f180317338e48e87211815e9596d916fa9fd60ee9b471e3b0d89e75407ede6f",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "4b200fc6dac947d869237c85",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::auto-openai-gpt-6-sol",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "auto/openai/gpt-6-sol",
+        "slug": "auto/openai/gpt-6-sol",
+        "slugAliases": [
+          "auto/openai/gpt-6-sol"
+        ],
+        "displayName": "GPT-6 Sol",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "6",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-04-20",
+          "accepts": "image, text",
+          "version": "6"
+        },
+        "limits": {
+          "contextTokens": 1050000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.2,
+          "cache_write $/M": 2.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 15,
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "tier": {
+                "type": "context",
+                "size": 272000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 15,
+            "cache_read": 0.4,
+            "cache_write": 5
+          }
+        },
+        "availability": [
+          "LowRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://lowrouter.ai/docs/models/available",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "7d76c30c8bbb19312ff234fb09a33b352d89597ab9ac5ddc46153a266ed346fc",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "53e8415eff2a7993f4c7697d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron3-super",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron3-super",
+        "slug": "nemotron3-super",
+        "slugAliases": [
+          "nemotron3-super"
+        ],
+        "displayName": "Nemotron 3 Super 120B A12B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.12,
+          "output $/M": 0.52,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "Boundless"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://inference.boundless.network/models",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "07ab69f2de9193d871f5f99fc0e7eed10ab1100a2ad9c417767c0b28712998af",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "84105bd5d8103a4bb1e9088b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::dsv4",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "dsv4",
+        "slug": "dsv4",
+        "slugAliases": [
+          "dsv4"
+        ],
+        "displayName": "DeepSeek V4 Flash 0731",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0.21,
+          "cache_read $/M": 0.02
+        },
+        "availability": [
+          "Boundless"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-31",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://inference.boundless.network/models",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "b38ef9f3762c8333923db84ddd0e31ad8a9f96401f848be46bbb0ddc55bef9b4",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
+    },
+    {
+      "id": "7655b50fabaeb0118fea0fed",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-bf16",
+        "owner": "Prime Intellect",
+        "vendorId": "prime-intellect",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4.1-Flash-bf16",
+        "slug": "DeepSeek-V4.1-Flash-bf16",
+        "slugAliases": [
+          "DeepSeek-V4.1-Flash-bf16"
+        ],
+        "displayName": "DeepSeek-V4.1-Flash-bf16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:prime-intellect:primeintellect",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/PrimeIntellect/DeepSeek-V4.1-Flash-bf16",
+            "observedAt": "2026-10-15T04:59:03.687Z"
+          }
+        ],
+        "fingerprint": "48b563d6bdcb7054cdc81af0d2818b6bacd3ffd815ff95d8b1a68a90de0ba91f",
+        "firstSeen": "2026-10-15T04:59:03.687Z",
+        "lastChanged": "2026-10-15T04:59:03.687Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T04:59:03.687Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
