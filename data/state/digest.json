@@ -310150,6 +310150,580 @@
         "model"
       ],
       "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "1e42d5c332bc2c84158d30ea",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "clef::clef",
+        "family": "clef",
+        "modelId": "clef",
+        "slug": "clef",
+        "slugAliases": [
+          "clef"
+        ],
+        "displayName": "Clef",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "evaluation",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.24,
+          "output $/M": 0
+        },
+        "availability": [
+          "Cloudflare Workers AI",
+          "NanoGPT",
+          "cloudflare"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-01T20:34:52.402Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "16e924f403a22f88af59cca02c4b4e68b06cd2c07d8cac2a8de997afc5858807",
+        "firstSeen": "2026-10-01T20:34:52.402Z",
+        "lastChanged": "2026-10-14T14:37:08.690Z"
+      },
+      "after": {
+        "key": "clef::clef",
+        "family": "clef",
+        "modelId": "clef",
+        "slug": "clef",
+        "slugAliases": [
+          "clef"
+        ],
+        "displayName": "Clef",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": true,
+          "accepts": "image, text",
+          "mode": "evaluation",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.24,
+          "output $/M": 0
+        },
+        "availability": [
+          "Cloudflare Workers AI",
+          "NanoGPT",
+          "Ollama",
+          "cloudflare"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-29",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-01T20:34:52.402Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/clef",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          }
+        ],
+        "fingerprint": "a09c27daa004d4c34c55f47f5ac969dd338a9f7fba6a66ad6ba3d578dd1be1de",
+        "firstSeen": "2026-10-01T20:34:52.402Z",
+        "lastChanged": "2026-10-15T21:39:01.211Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-15T21:39:01.211Z"
+    },
+    {
+      "id": "60634df248187b5df2d09921",
+      "type": "removed",
+      "importance": "minor",
+      "before": {
+        "key": "claude::claude-4-sonnet-20250522",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-4-sonnet-20250522",
+        "slug": "claude-4-sonnet-20250522",
+        "slugAliases": [
+          "claude-4-sonnet-20250522"
+        ],
+        "displayName": "Anthropic: Claude Sonnet 4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4",
+        "tier": "sonnet",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "prompt $/M": 3,
+          "completion $/M": 15,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.3,
+          "input_cache_write $/M": 3.75,
+          "input_cache_write_1h $/M": 6
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-05-22",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/anthropic/claude-sonnet-4",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "d03bb70236883611829f4a4d2e8de13e0c4f203956ef104bcad8729578d673f3",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-21T19:12:18.497Z"
+      },
+      "after": {
+        "key": "claude::claude-4-sonnet-20250522",
+        "owner": "Anthropic",
+        "vendorId": "anthropic",
+        "family": "Claude",
+        "familyId": "claude",
+        "modelId": "claude-4-sonnet-20250522",
+        "slug": "claude-4-sonnet-20250522",
+        "slugAliases": [
+          "claude-4-sonnet-20250522"
+        ],
+        "displayName": "Anthropic: Claude Sonnet 4",
+        "modalities": [
+          "text"
+        ],
+        "channel": "snapshot",
+        "slugClass": "snapshot",
+        "version": "4",
+        "tier": "sonnet",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "sonnet",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 64000
+        },
+        "pricing": {
+          "prompt $/M": 3,
+          "completion $/M": 15,
+          "web_search $/M": 10000,
+          "input_cache_read $/M": 0.3,
+          "input_cache_write $/M": 3.75,
+          "input_cache_write_1h $/M": 6
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "removed",
+        "releaseDate": "2025-05-22",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/anthropic/claude-sonnet-4",
+            "observedAt": "2026-10-15T09:40:24.402Z"
+          }
+        ],
+        "fingerprint": "b2f290a43bb3873ee62e0427fc21d65a3764df93fea61814a2dae8a08db68e48",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-15T21:39:01.211Z"
+      },
+      "changedFields": [
+        "lifecycle"
+      ],
+      "detectedAt": "2026-10-15T21:39:01.211Z"
+    },
+    {
+      "id": "22ac1de3b64d4368bc60a43c",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "gpt::gpt-5-5-cyber-preview",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.5-cyber-preview",
+        "slug": "gpt-5.5-cyber-preview",
+        "slugAliases": [
+          "gpt-5.5-cyber-preview"
+        ],
+        "displayName": "gpt-5.5-cyber-preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "5.5",
+        "capabilities": {
+          "mode": "chat",
+          "reasoning": true,
+          "version": "5.5"
+        },
+        "limits": {},
+        "pricing": {
+          "input $/M": 12.5,
+          "output $/M": 75
+        },
+        "availability": [
+          "openai"
+        ],
+        "lifecycle": "preview",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://developers.openai.com/api/docs/pricing",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          }
+        ],
+        "fingerprint": "175a5bf96e0d19bddc07199add81884c4ccf218eece24c9422fef58c4c14c712",
+        "firstSeen": "2026-10-15T21:39:01.211Z",
+        "lastChanged": "2026-10-15T21:39:01.211Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T21:39:01.211Z"
+    },
+    {
+      "id": "5da060334900e96f87b8abad",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-maas",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-maas",
+        "slug": "deepseek-v4.1-flash-maas",
+        "slugAliases": [
+          "deepseek-v4.1-flash-maas"
+        ],
+        "displayName": "deepseek-v4.1-flash-maas",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "availability": [
+          "vertex_ai-deepseek_models"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          }
+        ],
+        "fingerprint": "4cc2bb65f526e833415e513bc141f9219db08c5944898742e9667791cb2e0a79",
+        "firstSeen": "2026-10-15T21:39:01.211Z",
+        "lastChanged": "2026-10-15T21:39:01.211Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T21:39:01.211Z"
+    },
+    {
+      "id": "6935abb23e8e4a92040f00c2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ardy-soma-rp-30fps-kimodorep-horizon60::ardy-soma-rp-30fps-kimodorep-horizon60",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "ardy-soma-rp-30fps-kimodorep-horizon60",
+        "modelId": "ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60",
+        "slug": "ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60",
+        "slugAliases": [
+          "ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60"
+        ],
+        "displayName": "ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          }
+        ],
+        "fingerprint": "4c3b6075233c94bd8620c45cdd3220fbffa977bbd7ac9bd233362c73c59bfa20",
+        "firstSeen": "2026-10-15T21:39:01.211Z",
+        "lastChanged": "2026-10-15T21:39:01.211Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T21:39:01.211Z"
+    },
+    {
+      "id": "e1f88ac4559c3ed5d5e478ac",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "ardy-soma-rp-30fps-horizon60::ardy-soma-rp-30fps-horizon60",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "ardy-soma-rp-30fps-horizon60",
+        "modelId": "ARDY-SOMA-RP-30FPS-Horizon60",
+        "slug": "ARDY-SOMA-RP-30FPS-Horizon60",
+        "slugAliases": [
+          "ARDY-SOMA-RP-30FPS-Horizon60"
+        ],
+        "displayName": "ARDY-SOMA-RP-30FPS-Horizon60",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/ARDY-SOMA-RP-30FPS-Horizon60",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          }
+        ],
+        "fingerprint": "98bbfaadf2bbfc7df5b223ae6ec601c64936719669fa463376ecc91c9d9272bc",
+        "firstSeen": "2026-10-15T21:39:01.211Z",
+        "lastChanged": "2026-10-15T21:39:01.211Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T21:39:01.211Z"
+    },
+    {
+      "id": "ee9d12f0b3456fcb3450a518",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-switch-4-1-8b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-switch-4.1-8b",
+        "slug": "granite-switch-4.1-8b",
+        "slugAliases": [
+          "granite-switch-4.1-8b"
+        ],
+        "displayName": "granite-switch-4.1-8b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          }
+        ],
+        "fingerprint": "8b155433817c69d53bbce12ab887be29c9935622e2a449e27a0bcc5e08c7fdd4",
+        "firstSeen": "2026-10-15T21:39:01.211Z",
+        "lastChanged": "2026-10-15T21:39:01.211Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T21:39:01.211Z"
+    },
+    {
+      "id": "e653f2610cdfaef7dc6ed350",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "granite::granite-switch-4-1-30b",
+        "owner": "IBM",
+        "vendorId": "ibm",
+        "family": "Granite",
+        "familyId": "granite",
+        "modelId": "granite-switch-4.1-30b",
+        "slug": "granite-switch-4.1-30b",
+        "slugAliases": [
+          "granite-switch-4.1-30b"
+        ],
+        "displayName": "granite-switch-4.1-30b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "30B",
+          "version": "4.1"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ibm:ibm-granite",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b",
+            "observedAt": "2026-10-15T21:39:01.211Z"
+          }
+        ],
+        "fingerprint": "bfaa133505c896fa8302cce1a0a643efa78d8ef10b05617f971e4033779b875d",
+        "firstSeen": "2026-10-15T21:39:01.211Z",
+        "lastChanged": "2026-10-15T21:39:01.211Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T21:39:01.211Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
