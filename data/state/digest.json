@@ -306729,6 +306729,124 @@
         "model"
       ],
       "detectedAt": "2026-10-14T22:00:57.363Z"
+    },
+    {
+      "id": "7547f5167676059f65b24bce",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "pplx-decider::pplx-decider-v1-1-27b",
+        "owner": "Perplexity",
+        "family": "pplx-decider",
+        "modelId": "pplx-decider-v1.1-27b",
+        "slug": "pplx-decider-v1.1-27b",
+        "slugAliases": [
+          "pplx-decider-v1.1-27b"
+        ],
+        "displayName": "pplx-decider-v1.1-27b",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.1",
+        "capabilities": {
+          "parameters": "27B",
+          "version": "1.1",
+          "mode": "evaluation"
+        },
+        "limits": {
+          "contextTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.02
+        },
+        "availability": [
+          "NanoGPT",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-08",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+            "observedAt": "2026-10-14T22:00:57.363Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-14T22:00:57.363Z"
+          }
+        ],
+        "fingerprint": "8d804cffbc0390b0c4152f97f012ae5f8bcb824fbf79016397e4e12ef60c4606",
+        "firstSeen": "2026-10-10T16:19:10.289Z",
+        "lastChanged": "2026-10-13T01:24:35.697Z"
+      },
+      "after": {
+        "key": "pplx-decider::pplx-decider-v1-1-27b",
+        "owner": "Perplexity",
+        "family": "pplx-decider",
+        "modelId": "pplx-decider-v1.1-27b",
+        "slug": "pplx-decider-v1.1-27b",
+        "slugAliases": [
+          "pplx-decider-v1.1-27b"
+        ],
+        "displayName": "pplx-decider-v1.1-27b",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1.1",
+        "capabilities": {
+          "parameters": "27B",
+          "version": "1.1",
+          "mode": "evaluation"
+        },
+        "limits": {
+          "contextTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.02
+        },
+        "availability": [
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-08",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+            "observedAt": "2026-10-15T00:24:42.586Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T00:24:42.586Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-15T00:24:42.586Z"
+          }
+        ],
+        "fingerprint": "63d5dc9ad82478dd3c590d17fcf218b84fde97765a85b7a92afd3f8c18fd77a6",
+        "firstSeen": "2026-10-10T16:19:10.289Z",
+        "lastChanged": "2026-10-15T00:24:42.586Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-15T00:24:42.586Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
