@@ -308932,6 +308932,1224 @@
         "model"
       ],
       "detectedAt": "2026-10-15T09:40:24.402Z"
+    },
+    {
+      "id": "19e6d2d4a6655df89a865d4c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "unbiased-pareto::unbiased-pareto-26-10-preview",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-26.10-preview",
+        "slug": "unbiased/pareto-26.10-preview",
+        "slugAliases": [
+          "unbiased/pareto-26.10-preview"
+        ],
+        "displayName": "Pareto 26.10 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "26.10",
+        "capabilities": {
+          "version": "26.10",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.8,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-10-01",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-15T14:25:19.284Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T14:25:19.284Z"
+          }
+        ],
+        "fingerprint": "6ce52adc9408046eab919f65f2fb1bcd6db50a58cbbbccd6b12ac5c5d3c16410",
+        "firstSeen": "2026-10-01T15:45:56.488Z",
+        "lastChanged": "2026-10-05T15:19:38.253Z"
+      },
+      "after": {
+        "key": "unbiased-pareto::unbiased-pareto-26-10-preview",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-26.10-preview",
+        "slug": "unbiased/pareto-26.10-preview",
+        "slugAliases": [
+          "unbiased/pareto-26.10-preview"
+        ],
+        "displayName": "Pareto 26.10 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "26.10",
+        "capabilities": {
+          "version": "26.10",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.8,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "NanoGPT",
+          "openrouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-10-01",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "c2d0034b51244a39b2d4f0bcd8763783a6c751d163ebf6030a14a14de4f113fe",
+        "firstSeen": "2026-10-01T15:45:56.488Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "378ffc9cc00283d24cb044e2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-super-vl-free",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-super-vl-free",
+        "slug": "nemotron-3.5-super-vl-free",
+        "slugAliases": [
+          "nemotron-3.5-super-vl-free"
+        ],
+        "displayName": "Nemotron 3.5 Super VL Free",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0,
+          "cache_read $/M": 0
+        },
+        "availability": [
+          "OpenCode"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/v2/docs/console/models/",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "e9a23135b0f1f640bb6909136ecca43802ff8a62aa35e8216006a7aae0af17c9",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "8aa4e30075ee1addb6cd6bb5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-super-vl",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-super-vl",
+        "slug": "nemotron-3.5-super-vl",
+        "slugAliases": [
+          "Nemotron-3.5-Super-VL",
+          "nemotron-3.5-super-vl"
+        ],
+        "displayName": "NVIDIA Nemotron 3.5 Super VL",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 0.65,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "4871a271a83d283d233386cd2c2e5b07b266d687fa87d5e105740ad3b5ec0a0f",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "c5aa3aa7365ecc4780c3b976",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "inferenceapis-minimaxai-minimax::inferenceapis-minimaxai-minimax-m3",
+        "owner": "MiniMax",
+        "vendorId": "minimax",
+        "family": "MiniMax",
+        "familyId": "minimax",
+        "modelId": "inferenceapis/MiniMaxAI/MiniMax-M3",
+        "slug": "inferenceapis/MiniMaxAI/MiniMax-M3",
+        "slugAliases": [
+          "inferenceapis/MiniMaxAI/MiniMax-M3"
+        ],
+        "displayName": "inferenceapis/MiniMaxAI/MiniMax-M3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "m3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "m3",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 524288,
+          "maxOutputTokens": 524288
+        },
+        "pricing": {
+          "input $/M": 0.39,
+          "output $/M": 1.56
+        },
+        "availability": [
+          "inferenceapis"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://inferenceapis.com/pricing",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "4abbc99a78a0052edd92a90b13fdb288017e3f4c8a194166d8330dae358140ba",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "5da9285ce6307449e4a9e99f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "inferenceapis-moonshotai-kimi::inferenceapis-moonshotai-kimi-k2-7-code",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "inferenceapis/moonshotai/Kimi-K2.7-Code",
+        "slug": "inferenceapis/moonshotai/Kimi-K2.7-Code",
+        "slugAliases": [
+          "inferenceapis/moonshotai/Kimi-K2.7-Code"
+        ],
+        "displayName": "inferenceapis/moonshotai/Kimi-K2.7-Code",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "tier": "k2",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "k2",
+          "version": "2"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.89,
+          "output $/M": 4.42
+        },
+        "availability": [
+          "inferenceapis"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://inferenceapis.com/pricing",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "d8c4a68a0fc7255e258cbe61b94440e7ba761d32c2c1f93e9cb8ed077d137361",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "ca3939a59956effba44d36b1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen-vl::qwen3-vl",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-VL",
+        "familyId": "qwen-vl",
+        "modelId": "qwen3-vl",
+        "slug": "qwen3-vl",
+        "slugAliases": [
+          "qwen3-vl"
+        ],
+        "displayName": "qwen3-vl",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": false,
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.26,
+          "output $/M": 1.15
+        },
+        "availability": [
+          "inferenceapis"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://inferenceapis.com/pricing",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "1b6ae41e0284bb8fe252640d36266f6401658c6653dc293a34c3d880c474997b",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "d0369b5f0fad95cc05390192",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen-vl::qwen3-vl-235b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-VL",
+        "familyId": "qwen-vl",
+        "modelId": "qwen3-vl-235b",
+        "slug": "qwen3-vl-235b",
+        "slugAliases": [
+          "qwen3-vl-235b"
+        ],
+        "displayName": "qwen3-vl-235b",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": false,
+          "parameters": "235B",
+          "version": "3"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.26,
+          "output $/M": 1.15
+        },
+        "availability": [
+          "inferenceapis"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://inferenceapis.com/pricing",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "4f247990788e61d0b125aea939bc2413dd683412f00c130b790f63e132f2d0b4",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "3a30f0ff54133f346535fae5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "inferenceapis-zai-org-glm::inferenceapis-zai-org-glm-5-3",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "inferenceapis/zai-org/GLM-5.3",
+        "slug": "inferenceapis/zai-org/GLM-5.3",
+        "slugAliases": [
+          "inferenceapis/zai-org/GLM-5.3"
+        ],
+        "displayName": "inferenceapis/zai-org/GLM-5.3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048575,
+          "maxOutputTokens": 1048575
+        },
+        "pricing": {
+          "input $/M": 1.82,
+          "output $/M": 5.72
+        },
+        "availability": [
+          "inferenceapis"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://inferenceapis.com/pricing",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "a4c22046d1e658f434c271427b5563fa7485cc1e317aad649b90f2491ae956d8",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "f90728d0f589841e98b9d432",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "inferenceapis-zai-org-glm::inferenceapis-zai-org-glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "inferenceapis/zai-org/GLM-5.3-Flash",
+        "slug": "inferenceapis/zai-org/GLM-5.3-Flash",
+        "slugAliases": [
+          "inferenceapis/zai-org/GLM-5.3-Flash"
+        ],
+        "displayName": "inferenceapis/zai-org/GLM-5.3-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": false,
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 1048575,
+          "maxOutputTokens": 1048575
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.66
+        },
+        "availability": [
+          "inferenceapis"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://inferenceapis.com/pricing",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "cb8b5fea172461aa4707edea2c7301e263241e1bb9b3b92e797ae79f26b85778",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "0f197536322f18dca57c3602",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "together-ai-nvidia-nvidia-nemotron::together-ai-nvidia-nvidia-nemotron-3-5-super-vl",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+        "slug": "together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+        "slugAliases": [
+          "together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL"
+        ],
+        "displayName": "together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.5
+        },
+        "availability": [
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "0889402cee36f2c5d96c9b23c56c4d9ad289098bac0768cb29313f2d13a9391d",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "2e78356e2103dfa850145a96",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timestral::timestral-123m",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "timestral",
+        "modelId": "Timestral-123M",
+        "slug": "Timestral-123M",
+        "slugAliases": [
+          "Timestral-123M"
+        ],
+        "displayName": "Timestral-123M",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "123M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mistral:mistralai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mistralai/Timestral-123M",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "5ea0467f3b41001ec458c5b5a14eaaca007e422b804d6006e16739678f00e2b0",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "86533dda3abff5436ec6f5fa",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timestral::timestral-28m",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "timestral",
+        "modelId": "Timestral-28M",
+        "slug": "Timestral-28M",
+        "slugAliases": [
+          "Timestral-28M"
+        ],
+        "displayName": "Timestral-28M",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "28M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mistral:mistralai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mistralai/Timestral-28M",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "547df3d427afbfaa9039160247c0e72bc31402921e4ddf26f6821fca7ff65e89",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "6d529c91d3baa8cc32bafc52",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timestral::timestral-5m",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "timestral",
+        "modelId": "Timestral-5M",
+        "slug": "Timestral-5M",
+        "slugAliases": [
+          "Timestral-5M"
+        ],
+        "displayName": "Timestral-5M",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "5M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mistral:mistralai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mistralai/Timestral-5M",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "5633ea54dccb57d6dc62e1d62406a684ea6b67fb7ec4da64cb1691b41c329c68",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "9a5aa39aeb9318136a2796a7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "timestral::timestral-209m",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "timestral",
+        "modelId": "Timestral-209M",
+        "slug": "Timestral-209M",
+        "slugAliases": [
+          "Timestral-209M"
+        ],
+        "displayName": "Timestral-209M",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "209M"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:mistral:mistralai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/mistralai/Timestral-209M",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "8a7ae1e2ca127925faf5695366a6efd6631f32b45c9dd073e12155ebd86a38d5",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "708b6e2be869e03aa721f4b1",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-rerank-8b-bf16",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Rerank-8B-BF16",
+        "slug": "Nemotron-3.5-Rerank-8B-BF16",
+        "slugAliases": [
+          "Nemotron-3.5-Rerank-8B-BF16"
+        ],
+        "displayName": "Nemotron-3.5-Rerank-8B-BF16",
+        "modalities": [
+          "rerank"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-8B-BF16",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "2f60c4c35b4afced2221ff11e3038023a3845bb3e631eeeacc41a43ff31e7d26",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "e787591bc14c3ee62a107455",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-super-vl-120b-a12b-bf16",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Super-VL-120B-A12B-BF16",
+        "slug": "Nemotron-3.5-Super-VL-120B-A12B-BF16",
+        "slugAliases": [
+          "Nemotron-3.5-Super-VL-120B-A12B-BF16"
+        ],
+        "displayName": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "120B",
+          "activeParameters": "12B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "0e42591670924105202f23a00460ad8b5c227a9dfb5fbae3a868a8b14fde328f",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "139fd5aae91d9a230e53d50a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-super-vl-120b-a12b-base-bf16",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+        "slug": "Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+        "slugAliases": [
+          "Nemotron-3.5-Super-VL-120B-A12B-Base-BF16"
+        ],
+        "displayName": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "120B",
+          "activeParameters": "12B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "4314cf96a18ead88b7dc83c59b0720ffa2d5cd54ca17552bf7bd6db72644ff1b",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "31bfac0bb249f37a0f536fda",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-bolt-74b-a9b-24gb-lilicorr",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+        "slug": "Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+        "slugAliases": [
+          "Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr"
+        ],
+        "displayName": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "74B",
+          "activeParameters": "9B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "91e1da698bd3b07f5ee91f03d7cc4e6befff693e770818f96823c85991324df4",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "7a024c436e858c6a3d872179",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-bolt-74b-a9b-bf16",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Bolt-74B-A9B-BF16",
+        "slug": "Nemotron-3.5-Bolt-74B-A9B-BF16",
+        "slugAliases": [
+          "Nemotron-3.5-Bolt-74B-A9B-BF16"
+        ],
+        "displayName": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "74B",
+          "activeParameters": "9B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-09",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "5721837a26010adbc2f33d3e88330ada4c6ca6a4860d883b214cb0fdbc510978",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
+    },
+    {
+      "id": "32b99bba03ee1730ab9cc25a",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-bolt-74b-a9b-24gb",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Bolt-74B-A9B-24GB",
+        "slug": "Nemotron-3.5-Bolt-74B-A9B-24GB",
+        "slugAliases": [
+          "Nemotron-3.5-Bolt-74B-A9B-24GB"
+        ],
+        "displayName": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "74B",
+          "activeParameters": "9B active",
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-07",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+            "observedAt": "2026-10-15T18:28:54.574Z"
+          }
+        ],
+        "fingerprint": "4e9aa88d8437dbe08272afd37c0b75744bd3b09b6bc8a3cced6d0ee2a3f80827",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-15T18:28:54.574Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
