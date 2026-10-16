@@ -312993,6 +312993,342 @@
         "model"
       ],
       "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "e349bdb9b9c7401a5fb111f3",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "ling::ling-3-0-tiny",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-3.0-tiny",
+        "slug": "Ling-3.0-tiny",
+        "slugAliases": [
+          "Ling-3.0-tiny",
+          "ling-3.0-tiny"
+        ],
+        "displayName": "Ling 3.0 Tiny",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "tiny",
+        "capabilities": {
+          "tier": "tiny",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "NanoGPT",
+          "Novita AI",
+          "Requesty",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-tiny",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-15T13:40:33.277Z"
+          }
+        ],
+        "fingerprint": "e3718dbd2144e43efca35a703b9c240ea1b107af243e5cbad22dad7731c584b9",
+        "firstSeen": "2026-08-07T00:03:31.110Z",
+        "lastChanged": "2026-08-19T02:17:02.030Z"
+      },
+      "after": {
+        "key": "ling::ling-3-0-tiny",
+        "owner": "Ant Group",
+        "vendorId": "ant",
+        "family": "Ling / Ring / Bailing",
+        "familyId": "ling",
+        "modelId": "Ling-3.0-tiny",
+        "slug": "Ling-3.0-tiny",
+        "slugAliases": [
+          "Ling 3.0 Tiny",
+          "Ling-3.0-tiny",
+          "ling-3.0-tiny"
+        ],
+        "displayName": "Ling 3.0 Tiny",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "tier": "tiny",
+        "capabilities": {
+          "tier": "tiny",
+          "version": "3.0",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0,
+          "output $/M": 0
+        },
+        "availability": [
+          "NanoGPT",
+          "Novita AI",
+          "Requesty",
+          "benchmark listing",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-10",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:ant:inclusionai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-tiny",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-08-15T13:40:33.277Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          }
+        ],
+        "fingerprint": "0df6ebe73ea336533efa6342049c5b3e72134d3dbade7c58c372362773b1a0a8",
+        "firstSeen": "2026-08-07T00:03:31.110Z",
+        "lastChanged": "2026-10-16T19:00:31.022Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-16T19:00:31.022Z"
+    },
+    {
+      "id": "981c1d85a7ccb4d8dd771ddd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-flash-fast",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4-flash-fast",
+        "slug": "deepseek-v4-flash-fast",
+        "slugAliases": [
+          "deepseek-v4-flash-fast"
+        ],
+        "displayName": "DeepSeek V4 Flash Fast",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "text",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 384000
+        },
+        "pricing": {
+          "input $/M": 0.28,
+          "output $/M": 0.56,
+          "cache_read $/M": 0.07
+        },
+        "availability": [
+          "CommandCode"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-24",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://commandcode.ai/docs/provider",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          }
+        ],
+        "fingerprint": "3bed72b1d7d371eebbef2c47902724cba749ccdb83f78d1366fe8b39c23f7104",
+        "firstSeen": "2026-10-16T19:00:31.022Z",
+        "lastChanged": "2026-10-16T19:00:31.022Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T19:00:31.022Z"
+    },
+    {
+      "id": "c48e5b7ae6727bbcef0dbb6e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lar::lar-27b",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "lar",
+        "modelId": "LAR-27B",
+        "slug": "LAR-27B",
+        "slugAliases": [
+          "LAR-27B"
+        ],
+        "displayName": "LAR-27B",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "27B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:amazon:amazon",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/amazon/LAR-27B",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          }
+        ],
+        "fingerprint": "c8aeb4574828682fd7b2fe33e1958eaee2d50034efe453d53c8e8ab2bd9663a9",
+        "firstSeen": "2026-10-16T19:00:31.022Z",
+        "lastChanged": "2026-10-16T19:00:31.022Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T19:00:31.022Z"
+    },
+    {
+      "id": "f344542dc77e58f782ee1e03",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lar::lar-9b",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "lar",
+        "modelId": "LAR-9B",
+        "slug": "LAR-9B",
+        "slugAliases": [
+          "LAR-9B"
+        ],
+        "displayName": "LAR-9B",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "9B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-14",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:amazon:amazon",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/amazon/LAR-9B",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          }
+        ],
+        "fingerprint": "27981a0ed2acbd493f97d48db25e9e916f12fce0f50d9423bd136b6aec6db3e9",
+        "firstSeen": "2026-10-16T19:00:31.022Z",
+        "lastChanged": "2026-10-16T19:00:31.022Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T19:00:31.022Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
