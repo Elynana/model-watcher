@@ -311211,6 +311211,68 @@
         "model"
       ],
       "detectedAt": "2026-10-15T23:51:12.590Z"
+    },
+    {
+      "id": "448e1897a6da80dc2077e5e7",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "wandb-nvidia-nvidia-nemotron::wandb-nvidia-nvidia-nemotron-3-5-super-vl-120b-a12b",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+        "slug": "wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+        "slugAliases": [
+          "wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B"
+        ],
+        "displayName": "wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "120B",
+          "activeParameters": "12B active",
+          "version": "3.5"
+        },
+        "limits": {
+          "contextTokens": 1049000,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.75
+        },
+        "availability": [
+          "wandb"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models/nvidia/nemotron-3.5-super-vl/endpoints",
+            "observedAt": "2026-10-16T01:45:04.012Z"
+          }
+        ],
+        "fingerprint": "78a1d30f81708dac94b90145d01ac3c2c35292b6c35f8683ad99f802a2255f50",
+        "firstSeen": "2026-10-16T01:45:04.012Z",
+        "lastChanged": "2026-10-16T01:45:04.012Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T01:45:04.012Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
