@@ -312101,6 +312101,898 @@
         "model"
       ],
       "detectedAt": "2026-10-16T11:46:01.923Z"
+    },
+    {
+      "id": "f08a6ecf59ccf638e97ef5e1",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "moondream-moondream3::moondream-moondream3-1-9b-a2b",
+        "family": "moondream-moondream3",
+        "modelId": "moondream/moondream3.1-9b-a2b",
+        "slug": "moondream/moondream3.1-9b-a2b",
+        "slugAliases": [
+          "moondream/moondream3.1-9b-a2b"
+        ],
+        "displayName": "Moondream 3.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "parameters": "9B",
+          "activeParameters": "2B active",
+          "version": "1"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "bfe9e0088028753d93c063e85fe0d8116c303016ae810f1c726a0c4565298c49",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "after": {
+        "key": "moondream-moondream3::moondream-moondream3-1-9b-a2b",
+        "family": "moondream-moondream3",
+        "modelId": "moondream/moondream3.1-9b-a2b",
+        "slug": "moondream/moondream3.1-9b-a2b",
+        "slugAliases": [
+          "moondream/moondream3.1-9b-a2b"
+        ],
+        "displayName": "Moondream 3.1",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "capabilities": {
+          "parameters": "9B",
+          "activeParameters": "2B active",
+          "version": "1",
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "531c07ef98473e35abc446e5ee1973d89f276e835c23991618b90068c62c2d2c",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "e3e1829e4f3657b390ce3a36",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "moondream-moondream3::moondream-moondream3-preview",
+        "family": "moondream-moondream3",
+        "modelId": "moondream/moondream3-preview",
+        "slug": "moondream/moondream3-preview",
+        "slugAliases": [
+          "moondream/moondream3-preview"
+        ],
+        "displayName": "Moondream 3 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "c73f02f392f3d745bfe99db10bcfe22a81d4784caff8072af46c6c9e7ed29346",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-15T23:51:12.590Z"
+      },
+      "after": {
+        "key": "moondream-moondream3::moondream-moondream3-preview",
+        "family": "moondream-moondream3",
+        "modelId": "moondream/moondream3-preview",
+        "slug": "moondream/moondream3-preview",
+        "slugAliases": [
+          "moondream/moondream3-preview"
+        ],
+        "displayName": "Moondream 3 Preview",
+        "modalities": [
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "6a563145887bfb9a4ba09eed6e3425d9686780986f2ef4d18bb36f2f1dd088df",
+        "firstSeen": "2026-10-15T23:51:12.590Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "22ec07486e01d8d533436a3d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "muse-spark-open::muse-spark-open",
+        "owner": "Meta AI",
+        "family": "muse-spark-open",
+        "modelId": "muse-spark-open",
+        "slug": "muse-spark-open",
+        "slugAliases": [
+          "muse-spark-open"
+        ],
+        "displayName": "Muse Spark Open",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "knowledgeCutoff": "2026-01-04",
+          "accepts": "audio, image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25
+        },
+        "availability": [
+          "Ollama",
+          "Prime Inference",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.primeintellect.ai/inference/overview",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/muse-spark-open",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "c4e06461821d92c5e3425d62d56a8a4c100d04a1a7a803b8a0f7106220748537",
+        "firstSeen": "2026-10-15T21:39:01.211Z",
+        "lastChanged": "2026-10-16T06:27:25.814Z"
+      },
+      "after": {
+        "key": "muse-spark-open::muse-spark-open",
+        "owner": "Meta AI",
+        "family": "muse-spark-open",
+        "modelId": "muse-spark-open",
+        "slug": "muse-spark-open",
+        "slugAliases": [
+          "muse-spark-open"
+        ],
+        "displayName": "Muse Spark Open",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "knowledgeCutoff": "2026-01-04",
+          "accepts": "audio, image, text, video"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 943718
+        },
+        "pricing": {
+          "input $/M": 1.25,
+          "output $/M": 4.25
+        },
+        "availability": [
+          "NanoGPT",
+          "Ollama",
+          "Prime Inference",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.primeintellect.ai/inference/overview",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          },
+          {
+            "sourceId": "platform:ollama",
+            "sourceKind": "platform",
+            "url": "https://ollama.com/library/muse-spark-open",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "b1548a28c789ec1f2297ead3b4d1e5c2e0ed738c911a490cb1d913bfd4a50343",
+        "firstSeen": "2026-10-15T21:39:01.211Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "7a09abe085e7d9be99410d6d",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance-2-5-260628",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance-2-5-260628",
+        "slug": "seedance-2-5-260628",
+        "slugAliases": [
+          "seedance-2-5-260628"
+        ],
+        "displayName": "seedance-2-5-260628",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.5",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "audio, image, text, video",
+          "version": "2.5"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.216
+        },
+        "availability": [
+          "volcengine"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1544106",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "60e65787c134996c08bc3647891ab05417f5b372a01223403b0204ac918a359b",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "2a49aea3649d1876b772ee24",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance-2-0-260128",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance-2-0-260128",
+        "slug": "seedance-2-0-260128",
+        "slugAliases": [
+          "seedance-2-0-260128"
+        ],
+        "displayName": "seedance-2-0-260128",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "audio, image, text, video",
+          "version": "2.0"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.141942857
+        },
+        "availability": [
+          "volcengine"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1544106",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "1a5c49f05c53d57a103e30904d8ee1de1c6c0b8f492e73dc7437b8001e855689",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "2fd2bd2312c995053442c9d2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance-2-0-fast-260128",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance-2-0-fast-260128",
+        "slug": "seedance-2-0-fast-260128",
+        "slugAliases": [
+          "seedance-2-0-fast-260128"
+        ],
+        "displayName": "seedance-2-0-fast-260128",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "tier": "fast",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "audio, image, text, video",
+          "tier": "fast",
+          "version": "2.0"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.114171429
+        },
+        "availability": [
+          "volcengine"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1544106",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "e91c05855ec45ccd7602aa67216c064053a2ccf061b3d374280cb715f38aedbe",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "6e1ed77affa222a1effd4f24",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "seedance::seedance-2-0-mini-260615",
+        "owner": "ByteDance Seed",
+        "vendorId": "bytedance",
+        "family": "Seedance",
+        "familyId": "seedance",
+        "modelId": "seedance-2-0-mini-260615",
+        "slug": "seedance-2-0-mini-260615",
+        "slugAliases": [
+          "seedance-2-0-mini-260615"
+        ],
+        "displayName": "seedance-2-0-mini-260615",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2.0",
+        "tier": "mini",
+        "capabilities": {
+          "mode": "video_generation",
+          "accepts": "image, text",
+          "tier": "mini",
+          "version": "2.0"
+        },
+        "limits": {},
+        "pricing": {
+          "$/second": 0.070971429
+        },
+        "availability": [
+          "volcengine"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.volcengine.com/docs/82379/1544106",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "14c2fbfd5f4b59223a8612c4153b6371ffbee913d17ab312d42f3f091c4b92c2",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "c47341fc368ea2d378eb29f9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen3-8b-dspine-b16",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3-8B-DSpine-b16",
+        "slug": "Qwen3-8B-DSpine-b16",
+        "slugAliases": [
+          "Qwen3-8B-DSpine-b16"
+        ],
+        "displayName": "Qwen3-8B-DSpine-b16",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "b16",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "8B",
+          "tier": "b16",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-16",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Qwen3-8B-DSpine-b16",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "0ecfda41d0ebbdfa127a99575a6e9187268737077336151c1c34270721e42752",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "63eaab021de9acb91b1d884b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "reki::reki-2b-robocasa365",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "reki",
+        "modelId": "reki-2b-robocasa365",
+        "slug": "reki-2b-robocasa365",
+        "slugAliases": [
+          "reki-2b-robocasa365"
+        ],
+        "displayName": "reki-2b-robocasa365",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/reki-2b-robocasa365",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "2df6d3e8e71c52e4e5138c9b1229414c53ea53c3978124ca2674a6a5f9314ba4",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "2cd296c510e6407b9fece9e6",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "reki::reki-2b-robotwin-cleanrand",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "reki",
+        "modelId": "reki-2b-robotwin-cleanrand",
+        "slug": "reki-2b-robotwin-cleanrand",
+        "slugAliases": [
+          "reki-2b-robotwin-cleanrand"
+        ],
+        "displayName": "reki-2b-robotwin-cleanrand",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/reki-2b-robotwin-cleanrand",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "81417cda82af7ec53b4a835fa34e51d042bfb4f92b60230f69b136ae59ec6ac7",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "c8bc219db38fc3b82d41a3fc",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "reki::reki-2b-robotwin-clean",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "reki",
+        "modelId": "reki-2b-robotwin-clean",
+        "slug": "reki-2b-robotwin-clean",
+        "slugAliases": [
+          "reki-2b-robotwin-clean"
+        ],
+        "displayName": "reki-2b-robotwin-clean",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/reki-2b-robotwin-clean",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "ad74c39246b3318f5324b2fa6aab7ec51c47d520bffc87a2c460df3f35a13f5e",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "437d8905ba94797f708e1455",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "reki::reki-2b-libero",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "reki",
+        "modelId": "reki-2b-libero",
+        "slug": "reki-2b-libero",
+        "slugAliases": [
+          "reki-2b-libero"
+        ],
+        "displayName": "reki-2b-libero",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/reki-2b-libero",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "8d433708caad7c7f6eeb1b760bae77a416af54409ebe9e0ed1d3e96f5528ed85",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
+    },
+    {
+      "id": "d4c914d3f940196a40d4abbd",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "reki::reki-2b",
+        "owner": "Kyutai",
+        "vendorId": "kyutai",
+        "family": "reki",
+        "modelId": "reki-2b",
+        "slug": "reki-2b",
+        "slugAliases": [
+          "reki-2b"
+        ],
+        "displayName": "reki-2b",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "2B"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-05",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:kyutai:kyutai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/kyutai/reki-2b",
+            "observedAt": "2026-10-16T15:35:45.146Z"
+          }
+        ],
+        "fingerprint": "c2f1b8ccf6a3fc94f6ee35cdde1c02c000fae1d81e82dbfa8a9f1b03c9901ec8",
+        "firstSeen": "2026-10-16T15:35:45.146Z",
+        "lastChanged": "2026-10-16T15:35:45.146Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T15:35:45.146Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
