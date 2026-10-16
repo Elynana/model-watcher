@@ -311323,6 +311323,784 @@
         "model"
       ],
       "detectedAt": "2026-10-16T06:27:25.814Z"
+    },
+    {
+      "id": "cdb4cbd44aef91730e72c9db",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "reka::reka-edge-2603",
+        "owner": "Reka AI",
+        "vendorId": "reka",
+        "family": "Reka",
+        "familyId": "reka",
+        "modelId": "reka-edge-2603",
+        "slug": "reka-edge-2603",
+        "slugAliases": [
+          "reka-edge-2603"
+        ],
+        "displayName": "Reka Edge 2603",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2603",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "2603",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true
+        },
+        "limits": {
+          "contextTokens": 16384,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 0.1,
+          "completion $/M": 0.1,
+          "input $/M": 0.1,
+          "output $/M": 0.1
+        },
+        "availability": [
+          "DevPass (LLM Gateway)",
+          "OpenRouter",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:reka:rekaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/RekaAI/reka-edge-2603",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/rekaai/reka-edge",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          }
+        ],
+        "fingerprint": "0caa63ffb3179dc37f58867c872fa404812da1d71e0b5b68afa602069808a45c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-10T00:01:08.562Z"
+      },
+      "after": {
+        "key": "reka::reka-edge-2603",
+        "owner": "Reka AI",
+        "vendorId": "reka",
+        "family": "Reka",
+        "familyId": "reka",
+        "modelId": "reka-edge-2603",
+        "slug": "reka-edge-2603",
+        "slugAliases": [
+          "reka-edge-2603"
+        ],
+        "displayName": "Reka Edge 2603",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2603",
+        "capabilities": {
+          "accepts": "image, text",
+          "version": "2603",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true
+        },
+        "limits": {
+          "contextTokens": 16384,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "prompt $/M": 0.1,
+          "completion $/M": 0.1,
+          "input $/M": 0.1,
+          "output $/M": 0.1
+        },
+        "availability": [
+          "DevPass (LLM Gateway)",
+          "NanoGPT",
+          "OpenRouter",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:reka:rekaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/RekaAI/reka-edge-2603",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmgateway.io/docs",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/rekaai/reka-edge",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "69532a8b420341a471665b2b3da1cd3a8d24c18adf3f659c9279fc10c9ec7117",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-16T11:46:01.923Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-16T11:46:01.923Z"
+    },
+    {
+      "id": "4cde68654c0782e16250d595",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "reka::reka-flash-3",
+        "owner": "Reka AI",
+        "vendorId": "reka",
+        "family": "Reka",
+        "familyId": "reka",
+        "modelId": "reka-flash-3",
+        "slug": "reka-flash-3",
+        "slugAliases": [
+          "Reka Flash 3",
+          "reka-flash-3"
+        ],
+        "displayName": "Reka Flash 3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "flash",
+          "version": "3",
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01-31",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 58982
+        },
+        "pricing": {
+          "prompt $/M": 0.1,
+          "completion $/M": 0.2,
+          "input $/M": 0.1,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "OpenRouter",
+          "documented",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:reka",
+            "sourceKind": "official-page",
+            "url": "https://www.reka.ai/news",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          },
+          {
+            "sourceId": "official:hf:reka:rekaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/RekaAI/reka-flash-3",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/rekaai/reka-flash-3",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          }
+        ],
+        "fingerprint": "7199e05cf1e2df1760e1dc9235a83781454485b952446e880f7c95bf213f1f57",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-09-18T09:42:58.747Z"
+      },
+      "after": {
+        "key": "reka::reka-flash-3",
+        "owner": "Reka AI",
+        "vendorId": "reka",
+        "family": "Reka",
+        "familyId": "reka",
+        "modelId": "reka-flash-3",
+        "slug": "reka-flash-3",
+        "slugAliases": [
+          "Reka Flash 3",
+          "reka-flash-3"
+        ],
+        "displayName": "Reka Flash 3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "flash",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "flash",
+          "version": "3",
+          "reasoning": true,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-01-31",
+          "mode": "chat",
+          "vision": false,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 58982
+        },
+        "pricing": {
+          "prompt $/M": 0.1,
+          "completion $/M": 0.2,
+          "input $/M": 0.1,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "documented",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-11",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:reka",
+            "sourceKind": "official-page",
+            "url": "https://www.reka.ai/news",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "official:hf:reka:rekaai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/RekaAI/reka-flash-3",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/rekaai/reka-flash-3",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "d1bd077844ab1a7c541a0fcdfc945ddb9cf706c2b8b4979754c3739071d088cb",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-16T11:46:01.923Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-16T11:46:01.923Z"
+    },
+    {
+      "id": "a434441f1c997125b602fa26",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-5-super-vl",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-super-vl",
+        "slug": "nemotron-3.5-super-vl",
+        "slugAliases": [
+          "Nemotron-3.5-Super-VL",
+          "nemotron-3.5-super-vl"
+        ],
+        "displayName": "NVIDIA Nemotron 3.5 Super VL",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 0.65,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          }
+        ],
+        "fingerprint": "4871a271a83d283d233386cd2c2e5b07b266d687fa87d5e105740ad3b5ec0a0f",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-15T18:28:54.574Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-5-super-vl",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "nemotron-3.5-super-vl",
+        "slug": "nemotron-3.5-super-vl",
+        "slugAliases": [
+          "Nemotron-3.5-Super-VL",
+          "nemotron-3.5-super-vl"
+        ],
+        "displayName": "NVIDIA Nemotron 3.5 Super VL",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 1048576
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 0.65,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "DeepInfra",
+          "DigitalOcean",
+          "NanoGPT",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "e204917279d863cdbb198e22aecf8f887ff6c5564205cffbcc3dbf4a2c649018",
+        "firstSeen": "2026-10-15T18:28:54.574Z",
+        "lastChanged": "2026-10-16T11:46:01.923Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-16T11:46:01.923Z"
+    },
+    {
+      "id": "433e8906cbf79232c7036019",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "speakleash-bielik::speakleash-bielik-11b-v3-0-instruct",
+        "family": "speakleash-bielik",
+        "modelId": "speakleash/Bielik-11B-v3.0-Instruct",
+        "slug": "speakleash/Bielik-11B-v3.0-Instruct",
+        "slugAliases": [
+          "speakleash/Bielik-11B-v3.0-Instruct"
+        ],
+        "displayName": "Bielik 11B v3.0 Instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-03",
+          "accepts": "text",
+          "parameters": "11B",
+          "version": "3.0"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.67,
+          "output $/M": 0.67
+        },
+        "availability": [
+          "CloudFerro Sherlock"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-13",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.sherlock.cloudferro.com/",
+            "observedAt": "2026-10-16T06:27:25.814Z"
+          }
+        ],
+        "fingerprint": "c6ccc7cafd543475d3d7ebbdb24933915cc237f065ed79576388d8c656192716",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-07-25T04:30:52.615Z"
+      },
+      "after": {
+        "key": "speakleash-bielik::speakleash-bielik-11b-v3-0-instruct",
+        "family": "speakleash-bielik",
+        "modelId": "speakleash/Bielik-11B-v3.0-Instruct",
+        "slug": "speakleash/Bielik-11B-v3.0-Instruct",
+        "slugAliases": [
+          "speakleash/Bielik-11B-v3.0-Instruct"
+        ],
+        "displayName": "Bielik 11B v3.0 Instruct",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.0",
+        "capabilities": {
+          "parameters": "11B",
+          "version": "3.0",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-03",
+          "accepts": "text"
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.67,
+          "output $/M": 0.67
+        },
+        "availability": [
+          "CloudFerro Sherlock",
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-13",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.sherlock.cloudferro.com/",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "28dbf7f8c08f9b79cc3746a05b861c7b35b4c651db12b4762e6fa922d9da682e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-16T11:46:01.923Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-16T11:46:01.923Z"
+    },
+    {
+      "id": "7c208c179c109e67036e4bd8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "qwen::qwen-sea-lion-v4-32b-it",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen-SEA-LION-v4-32B-IT",
+        "slug": "Qwen-SEA-LION-v4-32B-IT",
+        "slugAliases": [
+          "Qwen-SEA-LION-v4-32B-IT"
+        ],
+        "displayName": "Qwen-SEA-LION-v4-32B-IT",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "parameters": "32B",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "988ec97142885fa8b924516c8a4653e9854cd346c79110fd3935d871affb03d7",
+        "firstSeen": "2026-10-16T11:46:01.923Z",
+        "lastChanged": "2026-10-16T11:46:01.923Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T11:46:01.923Z"
+    },
+    {
+      "id": "ede1577b5488330aec8fb9c5",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "hy-memory::hy-memory-30b-a3b",
+        "owner": "Tencent Hunyuan",
+        "vendorId": "tencent",
+        "family": "hy-memory",
+        "modelId": "Hy-Memory-30B-A3B",
+        "slug": "Hy-Memory-30B-A3B",
+        "slugAliases": [
+          "Hy-Memory-30B-A3B"
+        ],
+        "displayName": "Hy-Memory-30B-A3B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true,
+          "parameters": "30B",
+          "activeParameters": "3B active"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tencent:tencent",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "ba116f5106adc065ff66f4a381eab27683f22ce37639275b89921bda0abd0091",
+        "firstSeen": "2026-10-16T11:46:01.923Z",
+        "lastChanged": "2026-10-16T11:46:01.923Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T11:46:01.923Z"
+    },
+    {
+      "id": "12b60754140bb8d85204cd68",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "lidarverse::lidarverse",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "lidarverse",
+        "modelId": "lidarverse",
+        "slug": "lidarverse",
+        "slugAliases": [
+          "lidarverse"
+        ],
+        "displayName": "lidarverse",
+        "modalities": [],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-06",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/lidarverse",
+            "observedAt": "2026-10-16T11:46:01.923Z"
+          }
+        ],
+        "fingerprint": "c4d1fbe5ec6965f340591a1f8fcfa49a580bc44fc561c5228256afd528d5ef85",
+        "firstSeen": "2026-10-16T11:46:01.923Z",
+        "lastChanged": "2026-10-16T11:46:01.923Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-16T11:46:01.923Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
