@@ -313523,6 +313523,70 @@
         "model"
       ],
       "detectedAt": "2026-10-17T04:34:50.214Z"
+    },
+    {
+      "id": "f0da9cd87cd94bb708992ca3",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-1017",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V4.1-Flash-1017",
+        "slug": "DeepSeek-V4.1-Flash-1017",
+        "slugAliases": [
+          "DeepSeek-V4.1-Flash-1017",
+          "deepseek-v4.1-flash-1017"
+        ],
+        "displayName": "DeepSeek-V4.1-Flash-1017",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1",
+          "openWeights": true
+        },
+        "limits": {
+          "contextTokens": 1000000
+        },
+        "availability": [
+          "Vercel AI Gateway",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+            "observedAt": "2026-10-17T08:47:18.314Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-17T08:47:18.314Z"
+          }
+        ],
+        "fingerprint": "b548a2220604498ac0226c098c3bad86b537574497a6bdf4cc8eaf18a4ed99d0",
+        "firstSeen": "2026-10-17T08:47:18.314Z",
+        "lastChanged": "2026-10-17T08:47:18.314Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-17T08:47:18.314Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
