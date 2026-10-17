@@ -313475,6 +313475,54 @@
         "model"
       ],
       "detectedAt": "2026-10-17T00:12:46.583Z"
+    },
+    {
+      "id": "87df7dc9678da3a5cb442115",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nace-drex::nace-drex-latest",
+        "family": "nace-drex",
+        "modelId": "nace/drex-latest",
+        "slug": "nace/drex-latest",
+        "slugAliases": [
+          "nace/drex-latest"
+        ],
+        "displayName": "nace/drex-latest",
+        "modalities": [],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "evaluation"
+        },
+        "limits": {
+          "contextTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.06
+        },
+        "availability": [
+          "nace"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://console.nace.ai/docs/drex/reference/models",
+            "observedAt": "2026-10-17T04:34:50.214Z"
+          }
+        ],
+        "fingerprint": "86a1d5b6405498adcaab6396f82cfb8641d1e6699b9f80d4b477407a0315f9a6",
+        "firstSeen": "2026-10-17T04:34:50.214Z",
+        "lastChanged": "2026-10-17T04:34:50.214Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-17T04:34:50.214Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
