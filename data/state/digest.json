@@ -313786,6 +313786,172 @@
         "model"
       ],
       "detectedAt": "2026-10-17T12:28:43.037Z"
+    },
+    {
+      "id": "48912c21fbcf191f1eb76470",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-1017-eu",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-1017@eu",
+        "slug": "deepseek-v4.1-flash-1017@eu",
+        "slugAliases": [
+          "deepseek-v4.1-flash-1017@eu"
+        ],
+        "displayName": "deepseek-v4.1-flash-1017@eu",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.5,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.05
+        },
+        "availability": [
+          "Requesty"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://requesty.ai/solution/llm-routing/models",
+            "observedAt": "2026-10-17T20:17:46.237Z"
+          }
+        ],
+        "fingerprint": "f449e754bcd7bec41b239e19a9963fd23c2cf5ba35dca900b890fea0907a7fe5",
+        "firstSeen": "2026-10-17T20:17:46.237Z",
+        "lastChanged": "2026-10-17T20:17:46.237Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-17T20:17:46.237Z"
+    },
+    {
+      "id": "0e8ed048250438f2736e435f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "pplx-decider::pplx-decider-latest",
+        "owner": "Perplexity",
+        "family": "pplx-decider",
+        "modelId": "pplx-decider-latest",
+        "slug": "pplx-decider-latest",
+        "slugAliases": [
+          "pplx-decider-latest"
+        ],
+        "displayName": "pplx-decider-latest",
+        "modalities": [],
+        "channel": "alias",
+        "slugClass": "alias",
+        "capabilities": {
+          "mode": "evaluation"
+        },
+        "limits": {
+          "contextTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.02
+        },
+        "availability": [
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/decisions/quickstart",
+            "observedAt": "2026-10-17T20:17:46.237Z"
+          }
+        ],
+        "fingerprint": "261f4e01d357157fa94ba58240ce7c49ece8c732a823684d7e52392e5086b5a9",
+        "firstSeen": "2026-10-17T20:17:46.237Z",
+        "lastChanged": "2026-10-17T20:17:46.237Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-17T20:17:46.237Z"
+    },
+    {
+      "id": "214dfc668745a3b4182a4e30",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "pplx-decider::pplx-decider-flash-latest",
+        "owner": "Perplexity",
+        "family": "pplx-decider",
+        "modelId": "pplx-decider-flash-latest",
+        "slug": "pplx-decider-flash-latest",
+        "slugAliases": [
+          "pplx-decider-flash-latest"
+        ],
+        "displayName": "pplx-decider-flash-latest",
+        "modalities": [],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "evaluation",
+          "tier": "flash"
+        },
+        "limits": {
+          "contextTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.01
+        },
+        "availability": [
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/decisions/quickstart",
+            "observedAt": "2026-10-17T20:17:46.237Z"
+          }
+        ],
+        "fingerprint": "c651ebc7a01175edf742ed6ac1e0a1440ae06d52be9cfb965a7a7c05e010ec23",
+        "firstSeen": "2026-10-17T20:17:46.237Z",
+        "lastChanged": "2026-10-17T20:17:46.237Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-17T20:17:46.237Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
