@@ -313587,6 +313587,205 @@
         "model"
       ],
       "detectedAt": "2026-10-17T08:47:18.314Z"
+    },
+    {
+      "id": "7062e3f373028a998a68290a",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "elorian-glimpse::elorian-glimpse",
+        "family": "elorian-glimpse",
+        "modelId": "elorian/glimpse",
+        "slug": "elorian/glimpse",
+        "slugAliases": [
+          "elorian/glimpse"
+        ],
+        "displayName": "Glimpse",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 220000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 3,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-16",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-17T08:47:18.314Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-17T08:47:18.314Z"
+          }
+        ],
+        "fingerprint": "04be1a75ca3e3a11b909533f03e958439a4c161d8920063dd3161806f8df4d2c",
+        "firstSeen": "2026-10-17T00:12:46.583Z",
+        "lastChanged": "2026-10-17T04:34:50.214Z"
+      },
+      "after": {
+        "key": "elorian-glimpse::elorian-glimpse",
+        "family": "elorian-glimpse",
+        "modelId": "elorian/glimpse",
+        "slug": "elorian/glimpse",
+        "slugAliases": [
+          "elorian/glimpse"
+        ],
+        "displayName": "Glimpse",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": true,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 220000,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 3,
+          "cache_read $/M": 0.06
+        },
+        "availability": [
+          "NanoGPT",
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-16",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-17T12:28:43.037Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-17T12:28:43.037Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-17T12:28:43.037Z"
+          }
+        ],
+        "fingerprint": "82a70e18c6e46469dabf9b3abad4ecd31e005de64d6241785cad3e25b3de312c",
+        "firstSeen": "2026-10-17T00:12:46.583Z",
+        "lastChanged": "2026-10-17T12:28:43.037Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-17T12:28:43.037Z"
+    },
+    {
+      "id": "3302d077518d95cb513b89c9",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-1017-thinking",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-1017:thinking",
+        "slug": "deepseek-v4.1-flash-1017:thinking",
+        "slugAliases": [
+          "deepseek-v4.1-flash-1017:thinking"
+        ],
+        "displayName": "DeepSeek V4.1 Flash 1017 Thinking",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.6,
+          "cache_read $/M": 0.003
+        },
+        "availability": [
+          "NanoGPT"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.nano-gpt.com",
+            "observedAt": "2026-10-17T12:28:43.037Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-17T12:28:43.037Z"
+          }
+        ],
+        "fingerprint": "6f093bf92616e7d5be27047925c5d281cd4a90ab2c04830c9b7b43021c4bf0e4",
+        "firstSeen": "2026-10-17T12:28:43.037Z",
+        "lastChanged": "2026-10-17T12:28:43.037Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-17T12:28:43.037Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
