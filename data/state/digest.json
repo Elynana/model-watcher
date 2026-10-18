@@ -314362,6 +314362,188 @@
         "model"
       ],
       "detectedAt": "2026-10-18T04:24:44.586Z"
+    },
+    {
+      "id": "c72db9f7836bc8396fa4cd84",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "unbiased-pareto::unbiased-pareto-26-10",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-26.10",
+        "slug": "unbiased/pareto-26.10",
+        "slugAliases": [
+          "unbiased/pareto-26.10"
+        ],
+        "displayName": "Pareto 26.10",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "26.10",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "version": "26.10"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.8,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-18T04:24:44.586Z"
+          }
+        ],
+        "fingerprint": "d8053c2d9041af63fe06b54aee22b0ebd2d2166a6b0ee41778fd63cd3b591ce0",
+        "firstSeen": "2026-10-17T22:25:58.731Z",
+        "lastChanged": "2026-10-17T22:25:58.731Z"
+      },
+      "after": {
+        "key": "unbiased-pareto::unbiased-pareto-26-10",
+        "family": "unbiased-pareto",
+        "modelId": "unbiased/pareto-26.10",
+        "slug": "unbiased/pareto-26.10",
+        "slugAliases": [
+          "unbiased/pareto-26.10"
+        ],
+        "displayName": "Pareto 26.10",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "26.10",
+        "capabilities": {
+          "version": "26.10",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.8,
+          "output $/M": 3.2,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-15",
+        "confidence": "emerging",
+        "attributionVerified": false,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-18T08:59:25.595Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-18T08:59:25.595Z"
+          }
+        ],
+        "fingerprint": "fd1527ad682bdb353bb61a524b1d4e023ec2c1fcf2c80ff9ea602dd4e2b9a3a9",
+        "firstSeen": "2026-10-17T22:25:58.731Z",
+        "lastChanged": "2026-10-18T08:59:25.595Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-18T08:59:25.595Z"
+    },
+    {
+      "id": "2c5b990378e7c63bce51b92f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "fireworks-ai-accounts-fireworks-models-deepseek::fireworks-ai-accounts-fireworks-models-deepseek-v4p1-flash-1017",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017",
+        "slug": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017",
+        "slugAliases": [
+          "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017"
+        ],
+        "displayName": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "vision": true,
+          "toolCalling": false,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "4.1"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 1.2
+        },
+        "availability": [
+          "fireworks_ai"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.fireworks.ai/v1/serverless/models?format=nested",
+            "observedAt": "2026-10-18T08:59:25.595Z"
+          }
+        ],
+        "fingerprint": "fdb4550771797a5b83db1e7ff5f5768dbe966b5a937d5fc4087fd93d19c59dcb",
+        "firstSeen": "2026-10-18T08:59:25.595Z",
+        "lastChanged": "2026-10-18T08:59:25.595Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T08:59:25.595Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
