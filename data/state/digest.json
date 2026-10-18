@@ -314544,6 +314544,305 @@
         "model"
       ],
       "detectedAt": "2026-10-18T08:59:25.595Z"
+    },
+    {
+      "id": "db3aa7bf6c9617b0ef45c785",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-6",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.6",
+        "slug": "grok-4.6",
+        "slugAliases": [
+          "Grok 4.6",
+          "grok-4.6"
+        ],
+        "displayName": "Grok 4.6",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "capabilities": {
+          "version": "4.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-01",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 2,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 1,
+              "cache_write": 4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 1,
+            "cache_write": 4
+          }
+        },
+        "availability": [
+          "CrossModel",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-09-21T14:00:22.234Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.crossmodel.ai/docs",
+            "observedAt": "2026-10-18T08:59:25.595Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-18T08:59:25.595Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-18T08:59:25.595Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-18T08:59:25.595Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-09T08:01:08.415Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "1778db1be23dc212f9623783be077bacf800ca0a640124501e7fa5b9baf42a74",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-09-24T14:18:49.472Z"
+      },
+      "after": {
+        "key": "grok::grok-4-6",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.6",
+        "slug": "grok-4.6",
+        "slugAliases": [
+          "Grok 4.6",
+          "grok-4.6"
+        ],
+        "displayName": "Grok 4.6",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.6",
+        "capabilities": {
+          "version": "4.6",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-02-01",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.5,
+          "cache_write $/M": 2,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 1,
+              "cache_write": 4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 1,
+            "cache_write": 4
+          }
+        },
+        "availability": [
+          "CrossModel",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-09-21T14:00:22.234Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://www.crossmodel.ai/docs",
+            "observedAt": "2026-10-18T13:05:28.236Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-18T13:05:28.236Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-18T13:05:28.236Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-18T13:05:28.236Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-09T08:01:08.415Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "912771c7f612fae976c44c54954844a599f8fa8dd28963701de3b5ad32245c59",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-10-18T13:05:28.236Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-18T13:05:28.236Z"
+    },
+    {
+      "id": "0b986ecf0f858a398428a2f2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "vast-ai-edenlive::vast-ai-edenlive",
+        "owner": "Tripo AI (VAST)",
+        "vendorId": "tripo",
+        "family": "vast-ai-edenlive",
+        "modelId": "VAST-AI/EdenLive",
+        "slug": "VAST-AI/EdenLive",
+        "slugAliases": [
+          "VAST-AI/EdenLive"
+        ],
+        "displayName": "EdenLive",
+        "modalities": [
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "openWeights": true
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-12",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:tripo:vast-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/VAST-AI/EdenLive",
+            "observedAt": "2026-10-18T13:05:28.236Z"
+          }
+        ],
+        "fingerprint": "9a0f083ae8d978409c5838529f26f48cc0639a83f8c66f50277cfd4b04eb1b11",
+        "firstSeen": "2026-10-18T13:05:28.236Z",
+        "lastChanged": "2026-10-18T13:05:28.236Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T13:05:28.236Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
