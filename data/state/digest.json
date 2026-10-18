@@ -313952,6 +313952,187 @@
         "model"
       ],
       "detectedAt": "2026-10-17T20:17:46.237Z"
+    },
+    {
+      "id": "25bbd23c8a902a2d15eefb96",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "openinfer-oi-glm::openinfer-oi-glm-5-3-flash",
+        "owner": "Z.ai (Zhipu AI)",
+        "vendorId": "zai",
+        "family": "GLM",
+        "familyId": "glm",
+        "modelId": "openinfer/@oi/GLM-5.3-Flash",
+        "slug": "openinfer/@oi/GLM-5.3-Flash",
+        "slugAliases": [
+          "openinfer/@oi/GLM-5.3-Flash"
+        ],
+        "displayName": "openinfer/@oi/GLM-5.3-Flash",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.3",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "tier": "flash",
+          "version": "5.3"
+        },
+        "limits": {
+          "contextTokens": 393216,
+          "maxOutputTokens": 393216
+        },
+        "pricing": {
+          "input $/M": 0.195,
+          "output $/M": 1.56
+        },
+        "availability": [
+          "openinfer"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.openinfer.ai/v1/models",
+            "observedAt": "2026-10-18T00:08:51.100Z"
+          }
+        ],
+        "fingerprint": "3cf1a65c2d263734e2f229b7c5f1a470b1c5c17f16f0b72e55fcceae5a65a5ea",
+        "firstSeen": "2026-10-18T00:08:51.100Z",
+        "lastChanged": "2026-10-18T00:08:51.100Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T00:08:51.100Z"
+    },
+    {
+      "id": "b1188cc0fefbcc31deb60b16",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "openinfer-oi-qwen3::openinfer-oi-qwen3-5-27b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "openinfer/@oi/Qwen3.5-27B",
+        "slug": "openinfer/@oi/Qwen3.5-27B",
+        "slugAliases": [
+          "openinfer/@oi/Qwen3.5-27B"
+        ],
+        "displayName": "openinfer/@oi/Qwen3.5-27B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "27B",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.195,
+          "output $/M": 1.56
+        },
+        "availability": [
+          "openinfer"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.openinfer.ai/v1/models",
+            "observedAt": "2026-10-18T00:08:51.100Z"
+          }
+        ],
+        "fingerprint": "eca17a960370e10a0d078eeffe1eafa6fb97af531a4fc534ef6aa5d3b4284ada",
+        "firstSeen": "2026-10-18T00:08:51.100Z",
+        "lastChanged": "2026-10-18T00:08:51.100Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T00:08:51.100Z"
+    },
+    {
+      "id": "5e23477d6488d769e3a72258",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "openinfer-oi-qwen3::openinfer-oi-qwen3-5-9b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "openinfer/@oi/Qwen3.5-9B",
+        "slug": "openinfer/@oi/Qwen3.5-9B",
+        "slugAliases": [
+          "openinfer/@oi/Qwen3.5-9B"
+        ],
+        "displayName": "openinfer/@oi/Qwen3.5-9B",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5",
+        "capabilities": {
+          "mode": "chat",
+          "toolCalling": true,
+          "reasoning": true,
+          "parameters": "9B",
+          "version": "5"
+        },
+        "limits": {
+          "contextTokens": 100000,
+          "maxOutputTokens": 100000
+        },
+        "pricing": {
+          "input $/M": 5,
+          "output $/M": 0.15
+        },
+        "availability": [
+          "openinfer"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.openinfer.ai/v1/models",
+            "observedAt": "2026-10-18T00:08:51.100Z"
+          }
+        ],
+        "fingerprint": "c303907ee68403b1af97babcb39c31c53f32aa6e70420564223be1da085e6914",
+        "firstSeen": "2026-10-18T00:08:51.100Z",
+        "lastChanged": "2026-10-18T00:08:51.100Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T00:08:51.100Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
