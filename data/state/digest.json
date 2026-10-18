@@ -314133,6 +314133,235 @@
         "model"
       ],
       "detectedAt": "2026-10-18T00:08:51.100Z"
+    },
+    {
+      "id": "7cb46d22a6037be6171cae09",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "deepseek::deepseek-v4-1-flash-1017-fast",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "deepseek-v4.1-flash-1017-fast",
+        "slug": "deepseek-v4.1-flash-1017-fast",
+        "slugAliases": [
+          "deepseek-v4.1-flash-1017-fast"
+        ],
+        "displayName": "DeepSeek V4.1 Flash 1017 Fast",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "4.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2025-05",
+          "accepts": "image, text"
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "input $/M": 0.6,
+          "output $/M": 2.4,
+          "cache_read $/M": 0.014
+        },
+        "availability": [
+          "Vercel AI Gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
+            "observedAt": "2026-10-18T04:24:44.586Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-18T04:24:44.586Z"
+          }
+        ],
+        "fingerprint": "765cb2745e373be2a123b17e01e7c7a7b56b536732ddec7e4dc65ac809077361",
+        "firstSeen": "2026-10-18T04:24:44.586Z",
+        "lastChanged": "2026-10-18T04:24:44.586Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T04:24:44.586Z"
+    },
+    {
+      "id": "b1467554d9ea80c5ada34641",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "system-ai-deepseek::system-ai-deepseek-v4-flash-0731",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "system.ai.deepseek-v4-flash-0731",
+        "slug": "system.ai.deepseek-v4-flash-0731",
+        "slugAliases": [
+          "system.ai.deepseek-v4-flash-0731"
+        ],
+        "displayName": "system.ai.deepseek-v4-flash-0731",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "tier": "flash",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "flash",
+          "version": "4"
+        },
+        "limits": {},
+        "availability": [
+          "databricks"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-18T04:24:44.586Z"
+          }
+        ],
+        "fingerprint": "d8223df16b6e0fc37b2a9b51adf948ac60c6a270588cfcd3d8228fdac7c48d48",
+        "firstSeen": "2026-10-18T04:24:44.586Z",
+        "lastChanged": "2026-10-18T04:24:44.586Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T04:24:44.586Z"
+    },
+    {
+      "id": "4bb11053eb9082ecdcc80b08",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "system-ai-kimi::system-ai-kimi-k3",
+        "owner": "Moonshot AI",
+        "vendorId": "moonshot",
+        "family": "Kimi",
+        "familyId": "kimi",
+        "modelId": "system.ai.kimi-k3",
+        "slug": "system.ai.kimi-k3",
+        "slugAliases": [
+          "system.ai.kimi-k3"
+        ],
+        "displayName": "system.ai.kimi-k3",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "tier": "k3",
+        "capabilities": {
+          "mode": "chat",
+          "tier": "k3",
+          "version": "3"
+        },
+        "limits": {},
+        "availability": [
+          "databricks"
+        ],
+        "lifecycle": "available",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-18T04:24:44.586Z"
+          }
+        ],
+        "fingerprint": "e91a59e82cce117aa4b426d5230fcea340e35e6b097076bb0758ceec9e50ade6",
+        "firstSeen": "2026-10-18T04:24:44.586Z",
+        "lastChanged": "2026-10-18T04:24:44.586Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T04:24:44.586Z"
+    },
+    {
+      "id": "e68af91e21d8de0e2b8b65ae",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "nemotron::nemotron-3-5-parse",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Parse",
+        "slug": "Nemotron-3.5-Parse",
+        "slugAliases": [
+          "Nemotron-3.5-Parse"
+        ],
+        "displayName": "Nemotron-3.5-Parse",
+        "modalities": [
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "openWeights": true,
+          "version": "3.5"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse",
+            "observedAt": "2026-10-18T04:24:44.586Z"
+          }
+        ],
+        "fingerprint": "d9682f449a80e138283db19058df34804bddac5f096fdbc8d22cbdc7c047b9fb",
+        "firstSeen": "2026-10-18T04:24:44.586Z",
+        "lastChanged": "2026-10-18T04:24:44.586Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-18T04:24:44.586Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
