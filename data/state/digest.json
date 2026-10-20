@@ -370657,6 +370657,6062 @@
         "model"
       ],
       "detectedAt": "2026-10-19T22:56:00.610Z"
+    },
+    {
+      "id": "dfde9f0d575376a135bd15cd",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nova::nova-lite-v1",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Amazon Nova",
+        "familyId": "nova",
+        "modelId": "nova-lite-v1",
+        "slug": "nova-lite-v1",
+        "slugAliases": [
+          "nova-lite-v1"
+        ],
+        "displayName": "Nova Lite 1.0",
+        "modalities": [
+          "image",
+          "speech",
+          "text",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "lite",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "lite",
+          "version": "1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-10-31",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 300000,
+          "maxOutputTokens": 10000
+        },
+        "pricing": {
+          "prompt $/M": 0.06,
+          "completion $/M": 0.24,
+          "input $/M": 0.06,
+          "output $/M": 0.24
+        },
+        "availability": [
+          "AI/ML API",
+          "NanoGPT",
+          "OpenRouter",
+          "amazon_nova"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/amazon/nova-lite-v1",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "9589a0227ec6424b0df9b1abaa5f233f7359490d63b451e9954c9d95b66bb69d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "nova::nova-lite-v1",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Amazon Nova",
+        "familyId": "nova",
+        "modelId": "nova-lite-v1",
+        "slug": "nova-lite-v1",
+        "slugAliases": [
+          "nova-lite-v1"
+        ],
+        "displayName": "Nova Lite 1.0",
+        "modalities": [
+          "image",
+          "speech",
+          "text",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "lite",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "lite",
+          "version": "1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-10-31",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 300000,
+          "maxOutputTokens": 10000
+        },
+        "pricing": {
+          "prompt $/M": 0.06,
+          "completion $/M": 0.24,
+          "input $/M": 0.06,
+          "output $/M": 0.24
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "amazon_nova"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/amazon/nova-lite-v1",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "6021c19563b39f2112cafcf5eb8e0d8d694de016bcfbfcc6d11017521e51451f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "0dbff30a6d1620b7a68268cc",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nova::nova-micro-v1",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Amazon Nova",
+        "familyId": "nova",
+        "modelId": "nova-micro-v1",
+        "slug": "nova-micro-v1",
+        "slugAliases": [
+          "nova-micro-v1"
+        ],
+        "displayName": "Nova Micro 1.0",
+        "modalities": [
+          "image",
+          "speech",
+          "text",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "micro",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "micro",
+          "version": "1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-10-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 10000
+        },
+        "pricing": {
+          "prompt $/M": 0.035,
+          "completion $/M": 0.14,
+          "input $/M": 0.035,
+          "output $/M": 0.14
+        },
+        "availability": [
+          "AI/ML API",
+          "NanoGPT",
+          "OpenRouter",
+          "amazon_nova"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/amazon/nova-micro-v1",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "6af5f3d289d7e8b4e21b2424f5b08a70e0722273f724df3b9ba86a2dc506fef8",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "nova::nova-micro-v1",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Amazon Nova",
+        "familyId": "nova",
+        "modelId": "nova-micro-v1",
+        "slug": "nova-micro-v1",
+        "slugAliases": [
+          "nova-micro-v1"
+        ],
+        "displayName": "Nova Micro 1.0",
+        "modalities": [
+          "image",
+          "speech",
+          "text",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "micro",
+        "capabilities": {
+          "accepts": "text",
+          "tier": "micro",
+          "version": "1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": false,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-10-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 10000
+        },
+        "pricing": {
+          "prompt $/M": 0.035,
+          "completion $/M": 0.14,
+          "input $/M": 0.035,
+          "output $/M": 0.14
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "amazon_nova"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-04T09:17:36.069Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/amazon/nova-micro-v1",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "0af03e3c8140cc9d25a796bd85a719c5359efdd7352d7402bca850f5568df828",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "39b11f3da68232d5b85310ec",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nova::nova-pro-v1",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Amazon Nova",
+        "familyId": "nova",
+        "modelId": "nova-pro-v1",
+        "slug": "nova-pro-v1",
+        "slugAliases": [
+          "nova-pro-v1"
+        ],
+        "displayName": "Nova Pro 1.0",
+        "modalities": [
+          "image",
+          "speech",
+          "text",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "pro",
+          "version": "1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-10-31",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 300000,
+          "maxOutputTokens": 10000
+        },
+        "pricing": {
+          "prompt $/M": 0.8,
+          "completion $/M": 3.2,
+          "input $/M": 0.8,
+          "output $/M": 3.2
+        },
+        "availability": [
+          "AI/ML API",
+          "NanoGPT",
+          "OpenRouter",
+          "amazon_nova"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/amazon/nova-pro-v1",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "848773885182fe8dc9413482a2d13da405284b7d91fd70175a15d8e03561c3a9",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "nova::nova-pro-v1",
+        "owner": "Amazon",
+        "vendorId": "amazon",
+        "family": "Amazon Nova",
+        "familyId": "nova",
+        "modelId": "nova-pro-v1",
+        "slug": "nova-pro-v1",
+        "slugAliases": [
+          "nova-pro-v1"
+        ],
+        "displayName": "Nova Pro 1.0",
+        "modalities": [
+          "image",
+          "speech",
+          "text",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "1",
+        "tier": "pro",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "pro",
+          "version": "1",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-10-31",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 300000,
+          "maxOutputTokens": 10000
+        },
+        "pricing": {
+          "prompt $/M": 0.8,
+          "completion $/M": 3.2,
+          "input $/M": 0.8,
+          "output $/M": 3.2
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "amazon_nova"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-05",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/amazon/nova-pro-v1",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "a05fb782694ff2072123ec3aa09bc57eebf8a120d80c9cbc179ef53786bff512",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "64c85965916fadfe98bcbec4",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hermes::hermes-3-llama-3-1-405b",
+        "owner": "Nous Research",
+        "vendorId": "nous",
+        "family": "Hermes",
+        "familyId": "hermes",
+        "modelId": "Hermes-3-Llama-3.1-405B",
+        "slug": "Hermes-3-Llama-3.1-405B",
+        "slugAliases": [
+          "Hermes-3-Llama-3.1-405B",
+          "hermes-3-llama-3.1-405b"
+        ],
+        "displayName": "Hermes 3 405B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "405B",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 1,
+          "completion $/M": 1,
+          "input $/M": 1,
+          "output $/M": 3
+        },
+        "availability": [
+          "AI/ML API",
+          "DeepInfra",
+          "OpenRouter",
+          "nebius",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nous:nousresearch",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://nebius.com/prices",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T13:03:37.400Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "5c2e9b95f5988aa43bda717b4e09a956f11a6b91a4121841339e8dbcd0f4e2fc",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "hermes::hermes-3-llama-3-1-405b",
+        "owner": "Nous Research",
+        "vendorId": "nous",
+        "family": "Hermes",
+        "familyId": "hermes",
+        "modelId": "Hermes-3-Llama-3.1-405B",
+        "slug": "Hermes-3-Llama-3.1-405B",
+        "slugAliases": [
+          "Hermes-3-Llama-3.1-405B",
+          "hermes-3-llama-3.1-405b"
+        ],
+        "displayName": "Hermes 3 405B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "405B",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "prompt $/M": 1,
+          "completion $/M": 1,
+          "input $/M": 1,
+          "output $/M": 3
+        },
+        "availability": [
+          "DeepInfra",
+          "OpenRouter",
+          "nebius",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-08-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nous:nousresearch",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://nebius.com/prices",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T13:03:37.400Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "57b7c20a3df30463fe012e666c6283cc30fd69a72cd4a907289bbe58d7de6f73",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "88ebf6535167a864b2de7150",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "hermes::hermes-3-llama-3-1-70b",
+        "owner": "Nous Research",
+        "vendorId": "nous",
+        "family": "Hermes",
+        "familyId": "hermes",
+        "modelId": "Hermes-3-Llama-3.1-70B",
+        "slug": "Hermes-3-Llama-3.1-70B",
+        "slugAliases": [
+          "Hermes-3-Llama-3.1-70B",
+          "hermes-3-llama-3.1-70b"
+        ],
+        "displayName": "Hermes 3 70B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "70B",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.7,
+          "completion $/M": 0.7,
+          "input $/M": 0.7,
+          "output $/M": 0.7
+        },
+        "availability": [
+          "AI/ML API",
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nous:nousresearch",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T13:03:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-70b",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "e3c7ef93f312eae70c8aba345b77a3a5ac1b569ce7b4e1e0162bce3293696dc5",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "hermes::hermes-3-llama-3-1-70b",
+        "owner": "Nous Research",
+        "vendorId": "nous",
+        "family": "Hermes",
+        "familyId": "hermes",
+        "modelId": "Hermes-3-Llama-3.1-70B",
+        "slug": "Hermes-3-Llama-3.1-70B",
+        "slugAliases": [
+          "Hermes-3-Llama-3.1-70B",
+          "hermes-3-llama-3.1-70b"
+        ],
+        "displayName": "Hermes 3 70B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "70B",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12-31",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "prompt $/M": 0.7,
+          "completion $/M": 0.7,
+          "input $/M": 0.7,
+          "output $/M": 0.7
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "OpenRouter",
+          "deepinfra",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-07-29",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nous:nousresearch",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T13:03:37.400Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-70b",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "a16d5b38a56be2599c5c0548d0e66e2d899ab1d27cbba7abb1a32bfb717f9790",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "0778f7e68b97c2544726cbe8",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "grok::grok-4-7",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.7",
+        "slug": "grok-4.7",
+        "slugAliases": [
+          "Grok 4.7",
+          "grok-4.7"
+        ],
+        "displayName": "Grok 4.7",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "version": "4.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "GitHub Copilot",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.github.com/en/copilot",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "b892e81f3f13ee315ad3d81714f44b21aebda17bab9d1c5536e79665377313a6",
+        "firstSeen": "2026-09-21T19:12:18.497Z",
+        "lastChanged": "2026-10-19T19:16:50.229Z"
+      },
+      "after": {
+        "key": "grok::grok-4-7",
+        "owner": "xAI",
+        "vendorId": "xai",
+        "family": "Grok",
+        "familyId": "grok",
+        "modelId": "grok-4.7",
+        "slug": "grok-4.7",
+        "slugAliases": [
+          "Grok 4.7",
+          "grok-4.7"
+        ],
+        "displayName": "Grok 4.7",
+        "modalities": [
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4.7",
+        "capabilities": {
+          "version": "4.7",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-05",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 500000,
+          "maxOutputTokens": 500000
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.5,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 12,
+              "cache_read": 1,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 12,
+            "cache_read": 1
+          }
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenCode",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "documented",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:xai",
+            "sourceKind": "official-page",
+            "url": "https://docs.x.ai/docs/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/v2/docs/console/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "bec91165c701a10618f5fa73c142381f81217599954e04a0f121c0fa97e0e4dd",
+        "firstSeen": "2026-09-21T19:12:18.497Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "16ad99725d1bb712f86decc9",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-ocr-2",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-OCR-2",
+        "slug": "DeepSeek-OCR-2",
+        "slugAliases": [
+          "DeepSeek-OCR-2",
+          "deepseek-ocr-2"
+        ],
+        "displayName": "DeepSeek OCR 2",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.03
+        },
+        "availability": [
+          "Novita AI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/docs/guides/introduction",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/pricing",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "db5d5292390e1f84595d1a89126be088b28ca5a79664a58d680ce9f9306717f4",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T19:16:50.229Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-ocr-2",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-OCR-2",
+        "slug": "DeepSeek-OCR-2",
+        "slugAliases": [
+          "DeepSeek-OCR-2",
+          "deepseek-ocr-2"
+        ],
+        "displayName": "DeepSeek OCR 2",
+        "modalities": [
+          "code",
+          "embedding",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2",
+        "capabilities": {
+          "version": "2",
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 8192,
+          "maxOutputTokens": 8192
+        },
+        "pricing": {
+          "input $/M": 0.03,
+          "output $/M": 0.03
+        },
+        "availability": [
+          "Novita AI",
+          "Regolo AI",
+          "novita",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-01-27",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.regolo.ai/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://novita.ai/pricing",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "c90e470c1a9452d368bdd7e2acd1a4829793d3a821c2b82ecdd0aa765b96ce37",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "afac318d24e9f6f9ae28396e",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "deepseek::deepseek-v3-0324",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V3-0324",
+        "slug": "DeepSeek-V3-0324",
+        "slugAliases": [
+          "DeepSeek-V3-0324",
+          "deepseek-v3-0324"
+        ],
+        "displayName": "DeepSeek V3 0324",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3",
+          "accepts": "text",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 163840,
+          "maxOutputTokens": 163840
+        },
+        "pricing": {
+          "input $/M": 1.14,
+          "output $/M": 4.56
+        },
+        "availability": [
+          "DeepInfra",
+          "GitHub Models",
+          "Hugging Face",
+          "NanoGPT",
+          "Novita AI",
+          "azure_ai",
+          "benchmark listing",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://huggingface.co/docs/inference-providers",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/deepseek/deepseek-v3-0324",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-22T22:06:15.971Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "70f24c56f6a4b6c97826e74565f1ac17960b9583e92190b25115330fddc1911b",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "deepseek::deepseek-v3-0324",
+        "owner": "DeepSeek",
+        "vendorId": "deepseek",
+        "family": "DeepSeek",
+        "familyId": "deepseek",
+        "modelId": "DeepSeek-V3-0324",
+        "slug": "DeepSeek-V3-0324",
+        "slugAliases": [
+          "DeepSeek-V3-0324",
+          "deepseek-v3-0324"
+        ],
+        "displayName": "DeepSeek V3 0324",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "version": "3",
+          "accepts": "text",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 163840,
+          "maxOutputTokens": 163840
+        },
+        "pricing": {
+          "input $/M": 1.14,
+          "output $/M": 4.56
+        },
+        "availability": [
+          "DeepInfra",
+          "GitHub Models",
+          "Jiekou.AI",
+          "NanoGPT",
+          "Novita AI",
+          "azure_ai",
+          "benchmark listing",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-24",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:deepseek:deepseek-ai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/deepseek/deepseek-v3-0324",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-09-22T22:06:15.971Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-09-11T01:30:42.439Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "e7ce092ca589a95712cbd0285962631558b22b45a8f38341aad3685de61db6bc",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "3253c7646c33566b3c4e5c01",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "llama::llama-3-3-70b-instruct-turbo",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-3.3-70B-Instruct-Turbo",
+        "slug": "Llama-3.3-70B-Instruct-Turbo",
+        "slugAliases": [
+          "Llama-3.3-70B-Instruct-Turbo",
+          "llama/Llama-3.3-70B-Instruct-Turbo"
+        ],
+        "displayName": "Llama 3.3 70B Instruct Turbo",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.3",
+        "tier": "turbo",
+        "capabilities": {
+          "parameters": "70B",
+          "tier": "turbo",
+          "version": "3.3",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12",
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.04,
+          "output $/M": 1.04
+        },
+        "availability": [
+          "AI/ML API",
+          "DeepInfra",
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "31823b22f824c2deb676e86edd103d5d0270e587443f3087beab28d1e147353a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "llama::llama-3-3-70b-instruct-turbo",
+        "owner": "Meta AI",
+        "vendorId": "meta",
+        "family": "Llama",
+        "familyId": "llama",
+        "modelId": "Llama-3.3-70B-Instruct-Turbo",
+        "slug": "Llama-3.3-70B-Instruct-Turbo",
+        "slugAliases": [
+          "Llama-3.3-70B-Instruct-Turbo",
+          "llama/Llama-3.3-70B-Instruct-Turbo"
+        ],
+        "displayName": "Llama 3.3 70B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.3",
+        "tier": "turbo",
+        "capabilities": {
+          "parameters": "70B",
+          "tier": "turbo",
+          "version": "3.3",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-12",
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 1.04,
+          "output $/M": 1.04
+        },
+        "availability": [
+          "DeepInfra",
+          "Together AI",
+          "together_ai"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-12-06",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.together.ai/docs/serverless-models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://api.together.ai/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "ce04d5ff925838f0f334da4be7db7aae9854757f4ae306808dcced98fe87632a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "5ce7470cd352982a9f4dcee5",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::ministral-3b",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "ministral-3b",
+        "slug": "ministral-3b",
+        "slugAliases": [
+          "ministral-3b",
+          "mistral/ministral-3b"
+        ],
+        "displayName": "Ministral 3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "3B",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-03",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4000
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0.04
+        },
+        "availability": [
+          "Azure Cognitive Services",
+          "GitHub Models",
+          "Vercel AI Gateway",
+          "vercel_ai_gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-10-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/mistral-ai/ministral-3b",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "d8a14ff0c58e78e0a08c7dd97c2b11671598dbf8fb7fcb98b02560caff1bec21",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T19:16:50.229Z"
+      },
+      "after": {
+        "key": "mistral::ministral-3b",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "ministral-3b",
+        "slug": "ministral-3b",
+        "slugAliases": [
+          "ministral-3b",
+          "mistral/ministral-3b"
+        ],
+        "displayName": "Ministral 3B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "3B",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": false,
+          "openWeights": true,
+          "knowledgeCutoff": "2024-03",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 4000
+        },
+        "pricing": {
+          "input $/M": 0.04,
+          "output $/M": 0.04
+        },
+        "availability": [
+          "Azure",
+          "GitHub Models",
+          "Vercel AI Gateway",
+          "vercel_ai_gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2024-10-22",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/mistral-ai/ministral-3b",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "8e84cbdd7e20c9f0fdfe2e6aadea9331e4a9736e601a6ba687166dda45026328",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "c72d61bf5c4fac26c16477f0",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-embed",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-embed",
+        "slug": "mistral-embed",
+        "slugAliases": [
+          "mistral-embed",
+          "mistral/mistral-embed"
+        ],
+        "displayName": "Mistral Embed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 8000,
+          "maxOutputTokens": 3072
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0
+        },
+        "availability": [
+          "Tempr Gateway",
+          "Vercel AI Gateway",
+          "vercel_ai_gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2023-12-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "78efccfcc3f1860fac5350a11dc905488d0485e02a1852fd3768a3eb23b0fe45",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "mistral::mistral-embed",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-embed",
+        "slug": "mistral-embed",
+        "slugAliases": [
+          "mistral-embed",
+          "mistral/mistral-embed"
+        ],
+        "displayName": "Mistral Embed",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": false,
+          "attachments": false,
+          "openWeights": false,
+          "accepts": "text",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 8000,
+          "maxOutputTokens": 3072
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0
+        },
+        "availability": [
+          "Mistral",
+          "Vercel AI Gateway",
+          "vercel_ai_gateway"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2023-12-11",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/getting-started/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "f4ca19690df2179d98a7731ed68f11ed809232e7199678a68334334dc4d78057",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "d6c1d4366b9a697d59a044aa",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-medium-3-5",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-3-5",
+        "slug": "mistral-medium-3-5",
+        "slugAliases": [
+          "Mistral Medium 3.5",
+          "mistral-medium-3-5",
+          "mistral-medium-3.5"
+        ],
+        "displayName": "Medium 3.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "medium",
+        "capabilities": {
+          "tier": "medium",
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "AI/ML API",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "azure_ai",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "65e012c98c2e0175d297e0bba6fd360e898f37dc0c81c9cf306bf035d17d832e",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "mistral::mistral-medium-3-5",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-medium-3-5",
+        "slug": "mistral-medium-3-5",
+        "slugAliases": [
+          "Mistral Medium 3.5",
+          "mistral-medium-3-5",
+          "mistral-medium-3.5"
+        ],
+        "displayName": "Mistral Medium 3.5",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "medium",
+        "capabilities": {
+          "tier": "medium",
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 128000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 7.5
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "azure_ai",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-04-30",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-10T00:01:08.562Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "1b8daf1b5119a471f0ff9112817a06b6c4da8e721d6b02faa13102e988d6a468",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "d37b161558c62f091e6928a5",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-small-2503",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-small-2503",
+        "slug": "mistral-small-2503",
+        "slugAliases": [
+          "mistral-small-2503"
+        ],
+        "displayName": "Mistral Small 3.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2503",
+        "tier": "small",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "small",
+          "version": "2503",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-09",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "Azure Cognitive Services",
+          "GitHub Models",
+          "documented",
+          "watsonx"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/mistral-ai/mistral-small-2503",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          }
+        ],
+        "fingerprint": "dc9af34c3bbcfc062de76074592dac38d7a727e46f93ef0642776cb20ceb782d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T19:16:50.229Z"
+      },
+      "after": {
+        "key": "mistral::mistral-small-2503",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-small-2503",
+        "slug": "mistral-small-2503",
+        "slugAliases": [
+          "mistral-small-2503"
+        ],
+        "displayName": "Mistral Small 3.1",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2503",
+        "tier": "small",
+        "capabilities": {
+          "accepts": "image, text",
+          "tier": "small",
+          "version": "2503",
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2024-09",
+          "mode": "chat",
+          "vision": false
+        },
+        "limits": {
+          "contextTokens": 32000,
+          "maxOutputTokens": 32000
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.3
+        },
+        "availability": [
+          "Azure",
+          "GitHub Models",
+          "documented",
+          "watsonx"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-03-01",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:mistral",
+            "sourceKind": "official-page",
+            "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+            "observedAt": "2026-10-16T19:00:31.022Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:github-models",
+            "sourceKind": "platform",
+            "url": "https://github.com/marketplace/models/mistral-ai/mistral-small-2503",
+            "observedAt": "2026-07-30T18:19:11.972Z"
+          }
+        ],
+        "fingerprint": "f927727ab1569412053039d716a5f41b39ed67803d478dfc4a2b160125f6bd39",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "e2b46c23e1aa6af50531d924",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::mistral-small-3-2-24b-instruct",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-small-3.2-24b-instruct",
+        "slug": "mistral-small-3.2-24b-instruct",
+        "slugAliases": [
+          "mistral-small-3.2-24b-instruct"
+        ],
+        "displayName": "Small 3.2 24B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.2",
+        "tier": "small",
+        "capabilities": {
+          "parameters": "24B",
+          "tier": "small",
+          "version": "3.2",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.0938,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "AI/ML API",
+          "NanoGPT",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-20",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.aimlapi.com",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "c3c04e1fa9eebc42e928e473e4005a832d13fb88e3f2ffdd5ba1184fef4cd9fa",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "mistral::mistral-small-3-2-24b-instruct",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "mistral-small-3.2-24b-instruct",
+        "slug": "mistral-small-3.2-24b-instruct",
+        "slugAliases": [
+          "mistral-small-3.2-24b-instruct"
+        ],
+        "displayName": "Mistral Small 3.2 24B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.2",
+        "tier": "small",
+        "capabilities": {
+          "parameters": "24B",
+          "tier": "small",
+          "version": "3.2",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "knowledgeCutoff": "2023-10-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 256000,
+          "maxOutputTokens": 16384
+        },
+        "pricing": {
+          "input $/M": 0.0938,
+          "output $/M": 0.25
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-06-20",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "1247d1c4c025daa5006b350a899c299324e9800a3de2dfa0ae6a0e5fb79d73b0",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "ce89a72e6e55006791931a11",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "mistral::voxtral-small-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-small-latest",
+        "slug": "voxtral-small-latest",
+        "slugAliases": [
+          "voxtral-small-latest"
+        ],
+        "displayName": "Voxtral Small (latest)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "small",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "audio, text",
+          "tier": "small",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.4
+        },
+        "availability": [
+          "Tempr Gateway",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-07-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://temprhq.io/docs/gateway-reference.html",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/voxtral-small-25-07",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "f0ad0ec3316d6a22b43e163d63bdcc20f1adc0ba997293df65d002a77599fb3f",
+        "firstSeen": "2026-08-02T16:56:07.301Z",
+        "lastChanged": "2026-10-19T13:03:37.400Z"
+      },
+      "after": {
+        "key": "mistral::voxtral-small-latest",
+        "owner": "Mistral AI",
+        "vendorId": "mistral",
+        "family": "Mistral",
+        "familyId": "mistral",
+        "modelId": "voxtral-small-latest",
+        "slug": "voxtral-small-latest",
+        "slugAliases": [
+          "voxtral-small-latest"
+        ],
+        "displayName": "Voxtral Small (latest)",
+        "modalities": [
+          "text"
+        ],
+        "channel": "alias",
+        "slugClass": "alias",
+        "tier": "small",
+        "capabilities": {
+          "reasoning": false,
+          "toolCalling": true,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "audio, text",
+          "tier": "small",
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 32768,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "input $/M": 0.1,
+          "output $/M": 0.4
+        },
+        "availability": [
+          "LLMTR",
+          "mistral"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-07-15",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://llmtr.com/docs",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.mistral.ai/models/voxtral-small-25-07",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "2679bf96f1a1cd259760f9c8daf8c2546dfd3cb0465f54c2d0a87d272d74c510",
+        "firstSeen": "2026-08-02T16:56:07.301Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "ecdeaedc63898e7e8322a721",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "nemotron::nemotron-3-5-content-safety",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Content-Safety",
+        "slug": "Nemotron-3.5-Content-Safety",
+        "slugAliases": [
+          "Nemotron-3.5-Content-Safety",
+          "nemotron-3.5-content-safety"
+        ],
+        "displayName": "Nemotron 3.5 Content Safety",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 117964
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "NanoGPT",
+          "Nvidia",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Content-Safety",
+            "observedAt": "2026-09-08T20:05:36.008Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.api.nvidia.com/nim/",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "edca0d4ce3acea128bd3afc45495aecf999f95df8d645014d464f6180c8d3f1d",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T19:16:50.229Z"
+      },
+      "after": {
+        "key": "nemotron::nemotron-3-5-content-safety",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Nemotron",
+        "familyId": "nemotron",
+        "modelId": "Nemotron-3.5-Content-Safety",
+        "slug": "Nemotron-3.5-Content-Safety",
+        "slugAliases": [
+          "Nemotron-3.5-Content-Safety",
+          "nemotron-3.5-content-safety"
+        ],
+        "displayName": "Nemotron 3.5 Content Safety",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "capabilities": {
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": false,
+          "attachments": true,
+          "openWeights": true,
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": false
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 117964
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 0.2
+        },
+        "availability": [
+          "NanoGPT",
+          "Vultr",
+          "open weights",
+          "openrouter"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-22",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Content-Safety",
+            "observedAt": "2026-09-08T20:05:36.008Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://api.vultrinference.com/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/api/v1/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "a44f5bc188af9041dcf3b01859b2c84db23cd4b0fcc1e6c45a2873d46dd2de1a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "182b66fc09103823e2ca3db2",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "activeParameters": "95B active",
+          "version": "3.8.2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "Charm Hyper",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://hyper.charm.land",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-13T17:32:09.682Z"
+          }
+        ],
+        "fingerprint": "7bdd0785cb2d7bfa79fe12e2d0f66355d52f05e61d04fc19f8e2f2d973e313fd",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-2-4t-a95b",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "Qwen3.8-2.4T-A95B",
+        "slug": "Qwen3.8-2.4T-A95B",
+        "slugAliases": [
+          "Qwen3.8-2.4T-A95B",
+          "qwen3.8-2.4t-a95b"
+        ],
+        "displayName": "Qwen3.8 2.4T A95B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8.2",
+        "capabilities": {
+          "activeParameters": "95B active",
+          "version": "3.8.2",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "accepts": "text",
+          "mode": "chat",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1000000,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 6,
+          "cache_read $/M": 0.25
+        },
+        "availability": [
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-08-08",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:alibaba:qwen",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-05T22:04:45.489Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-09-13T17:32:09.682Z"
+          }
+        ],
+        "fingerprint": "85bb88810a255358c926305a823bb5e629aa65d33c8b654acc26da124f2037a7",
+        "firstSeen": "2026-08-12T15:41:59.282Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "acf9259632f47d97519be80d",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-8-omni-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-omni-flash",
+        "slug": "qwen3.8-omni-flash",
+        "slugAliases": [
+          "Qwen3.8-Omni-Flash",
+          "qwen3.8-omni-flash"
+        ],
+        "displayName": "Qwen3.8 Omni Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "omni",
+        "capabilities": {
+          "tier": "omni",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 991808,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016
+        },
+        "availability": [
+          "CommandCode",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "documented",
+          "qwen_ai_platform"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://commandcode.ai/docs/provider",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/model-pricing",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "f275d8fe696bcca4459fb60a80ee3864da49c77cfc0f5e20728571f3e7cfbcc1",
+        "firstSeen": "2026-09-17T19:45:28.821Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-8-omni-flash",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen",
+        "familyId": "qwen",
+        "modelId": "qwen3.8-omni-flash",
+        "slug": "qwen3.8-omni-flash",
+        "slugAliases": [
+          "qwen3.8-omni-flash"
+        ],
+        "displayName": "Qwen3.8 Omni Flash",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.8",
+        "tier": "omni",
+        "capabilities": {
+          "tier": "omni",
+          "version": "3.8",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 991808,
+          "maxOutputTokens": 131072
+        },
+        "pricing": {
+          "input $/M": 0.15,
+          "output $/M": 0.47,
+          "cache_read $/M": 0.016
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "documented",
+          "qwen_ai_platform"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-09-17",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:alibaba",
+            "sourceKind": "official-page",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/model-pricing",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "e919b486956e5b1e5c557a633c4937a7e3a69bc8e7c9f2d79aa07809345a54b0",
+        "firstSeen": "2026-09-17T19:45:28.821Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "cd2798179b612adbe014b8ee",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "qwen::qwen3-vl-30b-a3b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-VL",
+        "familyId": "qwen-vl",
+        "modelId": "Qwen3-VL-30B-A3B-Instruct",
+        "slug": "Qwen3-VL-30B-A3B-Instruct",
+        "slugAliases": [
+          "Qwen3-VL-30B-A3B-Instruct",
+          "qwen3-vl-30b-a3b-instruct"
+        ],
+        "displayName": "Qwen3 VL 30B A3B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "image, text",
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "prompt $/M": 0.15,
+          "completion $/M": 0.6,
+          "input $/M": 0.15,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "DeepInfra",
+          "Hugging Face",
+          "Novita AI",
+          "OpenRouter",
+          "deepinfra"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://huggingface.co/docs/inference-providers",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3-vl-30b-a3b-instruct",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "148761eff8bc1df1e63b2e1b3ad59c5289c9c6a8fcca0a92e7dcdf63b70af64a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "qwen::qwen3-vl-30b-a3b-instruct",
+        "owner": "Alibaba Cloud (Qwen)",
+        "vendorId": "alibaba",
+        "family": "Qwen-VL",
+        "familyId": "qwen-vl",
+        "modelId": "qwen3-vl-30b-a3b-instruct",
+        "slug": "qwen3-vl-30b-a3b-instruct",
+        "slugAliases": [
+          "Qwen3-VL-30B-A3B-Instruct",
+          "qwen3-vl-30b-a3b-instruct"
+        ],
+        "displayName": "Qwen3 VL 30B A3B Instruct",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3",
+        "capabilities": {
+          "accepts": "image, text",
+          "parameters": "30B",
+          "activeParameters": "3B active",
+          "version": "3",
+          "reasoning": false,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": true,
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 262144,
+          "maxOutputTokens": 262144
+        },
+        "pricing": {
+          "prompt $/M": 0.15,
+          "completion $/M": 0.6,
+          "input $/M": 0.15,
+          "output $/M": 0.6
+        },
+        "availability": [
+          "DeepInfra",
+          "Novita AI",
+          "OpenRouter",
+          "deepinfra"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-10-04",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://deepinfra.com/pricing",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/qwen/qwen3-vl-30b-a3b-instruct",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "584e9a5ae5e4102db9a8f1c2804c9d8407e4f48dfa04439caabd3fd27c21669a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability",
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "477173244cf432cd03109807",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-1-flash-lite",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite",
+        "slug": "gemini-3.1-flash-lite",
+        "slugAliases": [
+          "Gemini 3.1 Flash-Lite",
+          "gemini-3.1-flash-lite"
+        ],
+        "displayName": "Gemini 3.1 Flash Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.025,
+          "input_audio $/M": 0.5
+        },
+        "availability": [
+          "DeepInfra",
+          "Google",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/agent-api/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-10T21:40:20.799Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-16T09:10:43.741Z"
+          }
+        ],
+        "fingerprint": "4034e4bfe9c3966b636f12aa38daa530aa7a067a0d560a29afd0c3a4f31f41bd",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite",
+        "slug": "gemini-3.1-flash-lite",
+        "slugAliases": [
+          "Gemini 3.1 Flash-Lite",
+          "gemini-3-1-flash-lite",
+          "gemini-3.1-flash-lite"
+        ],
+        "displayName": "Gemini 3.1 Flash Lite Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5,
+          "cache_read $/M": 0.025,
+          "input_audio $/M": 0.5
+        },
+        "availability": [
+          "Databricks",
+          "DeepInfra",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-03",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "official:page:google-imagen",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+            "observedAt": "2026-09-03T13:55:09.419Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/agent-api/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-08-10T21:40:20.799Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-08-16T09:10:43.741Z"
+          }
+        ],
+        "fingerprint": "5481eb31de9f7163337346434202a6cdd593ef0a119f63da8f04d384d466e85a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability",
+        "displayName"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "d7a82b42c264297185f4978c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-1-flash-lite-image",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite-image",
+        "slug": "gemini-3.1-flash-lite-image",
+        "slugAliases": [
+          "gemini-3.1-flash-lite-image"
+        ],
+        "displayName": "Nano Banana 2 Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video",
+          "mode": "image_generation",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5,
+          "$/image": 0.0336
+        },
+        "availability": [
+          "Google",
+          "Vercel AI Gateway",
+          "vertex_ai-language-models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "99664235d32be262557b8ce2e3b9ee158ef4bb3a8dec1727e38abef3c7770947",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-1-flash-lite-image",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-flash-lite-image",
+        "slug": "gemini-3.1-flash-lite-image",
+        "slugAliases": [
+          "gemini-3.1-flash-lite-image"
+        ],
+        "displayName": "Nano Banana 2 Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.1",
+          "reasoning": false,
+          "toolCalling": false,
+          "structuredOutput": false,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "image, text, video",
+          "mode": "image_generation",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 65536,
+          "maxOutputTokens": 4096
+        },
+        "pricing": {
+          "input $/M": 0.25,
+          "output $/M": 1.5,
+          "$/image": 0.0336
+        },
+        "availability": [
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "vertex_ai-language-models"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-06-30",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://openrouter.ai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "a675494267d015e93bdfca24bc07f526f7bf56a2b1c561b39a9aadfe5aba4b18",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "366d96f73c479a2dc103714c",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-1-pro-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-pro-preview",
+        "slug": "gemini-3.1-pro-preview",
+        "slugAliases": [
+          "Gemini 3.1 Pro Preview",
+          "gemini-3.1-pro-preview"
+        ],
+        "displayName": "Gemini 3.1 Pro Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 18,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 18,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Google",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-02-19",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-03T14:53:00.815Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "d2261f60a02d4d7acaaf6850a2e34dfee60885044de8a711bc8b207e7108f347",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-1-pro-preview",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.1-pro-preview",
+        "slug": "gemini-3.1-pro-preview",
+        "slugAliases": [
+          "Gemini 3.1 Pro Preview",
+          "gemini-3.1-pro-preview"
+        ],
+        "displayName": "Gemini 3.1 Pro Preview",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "preview",
+        "slugClass": "model",
+        "version": "3.1",
+        "tier": "pro",
+        "capabilities": {
+          "tier": "pro",
+          "version": "3.1",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 12,
+          "cache_read $/M": 0.2,
+          "tiers $/M": [
+            {
+              "input": 4,
+              "output": 18,
+              "cache_read": 0.4,
+              "tier": {
+                "type": "context",
+                "size": 200000
+              }
+            }
+          ],
+          "context_over_200k $/M": {
+            "input": 4,
+            "output": 18,
+            "cache_read": 0.4
+          }
+        },
+        "availability": [
+          "Impossibl",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "preview",
+        "releaseDate": "2026-02-19",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://impossibl.com/docs/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-10-03T14:53:00.815Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "b0220f2f84b7eba5f0a258935b360aa8ec1b2655fe97c77dcbb177e683c58a60",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "d65eda154893467c0d4dc8fb",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-5-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash",
+        "slug": "gemini-3.5-flash",
+        "slugAliases": [
+          "Gemini 3.5 Flash",
+          "gemini-3.5-flash"
+        ],
+        "displayName": "Gemini 3.5 Flash",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 9,
+          "cache_read $/M": 0.15,
+          "input_audio $/M": 1.5
+        },
+        "availability": [
+          "DeepInfra",
+          "Google",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:google-models",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "official:feed:google-ai",
+            "sourceKind": "official-feed",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+            "observedAt": "2026-07-28T11:34:14.216Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/agent-api/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "025d4fa30a67fbe9b7595aa139d1cd5c12001bbf9917f283cdd8eb7ad424319d",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-5-flash",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash",
+        "slug": "gemini-3.5-flash",
+        "slugAliases": [
+          "Gemini 3.5 Flash",
+          "gemini-3-5-flash",
+          "gemini-3.5-flash"
+        ],
+        "displayName": "Gemini 3.5 Flash",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-01",
+          "accepts": "audio, image, text, video",
+          "mode": "responses",
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 1.5,
+          "output $/M": 9,
+          "cache_read $/M": 0.15,
+          "input_audio $/M": 1.5
+        },
+        "availability": [
+          "Databricks",
+          "DeepInfra",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "announced",
+          "benchmark listing",
+          "documented",
+          "perplexity"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-05-28",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:google-models",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-07-24T22:45:44.137Z"
+          },
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-09T20:08:56.464Z"
+          },
+          {
+            "sourceId": "official:feed:google-ai",
+            "sourceKind": "official-feed",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+            "observedAt": "2026-07-28T11:34:14.216Z"
+          },
+          {
+            "sourceId": "official:feed:google-deepmind",
+            "sourceKind": "official-feed",
+            "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://docs.perplexity.ai/docs/agent-api/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "ec8af9fe8ad9308844c23a0a9f30f308feb4e11dc3410fab8347e2adfb5da2f6",
+        "firstSeen": "2026-07-16T22:53:03.690Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "1f5d5c75277dd06bf769e893",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-3-5-flash-lite",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash-lite",
+        "slug": "gemini-3.5-flash-lite",
+        "slugAliases": [
+          "Gemini 3.5 Flash-Lite",
+          "gemini-3.5-flash-lite"
+        ],
+        "displayName": "Gemini 3.5 Flash Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "Google",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-10-19T06:09:21.996Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "1dd532bc6948878167d63dce9b1d11e25462572d23768be65c41c8e0d3aad717",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gemini::gemini-3-5-flash-lite",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-3.5-flash-lite",
+        "slug": "gemini-3.5-flash-lite",
+        "slugAliases": [
+          "Gemini 3.5 Flash-Lite",
+          "gemini-3.5-flash-lite"
+        ],
+        "displayName": "Gemini 3.5 Flash Lite",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "3.5",
+        "tier": "flash",
+        "capabilities": {
+          "tier": "flash",
+          "version": "3.5",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 1048576,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 0.3,
+          "output $/M": 2.5,
+          "cache_read $/M": 0.03
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenCode",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "benchmark listing",
+          "documented"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-07-21",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:google",
+            "sourceKind": "official-page",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/v2/docs/console/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:artificial-analysis-text",
+            "sourceKind": "benchmark",
+            "url": "https://artificialanalysis.ai/models",
+            "observedAt": "2026-10-19T06:09:21.996Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "f96fcdbec64ea54ef9a81f220296775bb8d5d341391cec391382e4795882d895",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "ae87ecb5cc85a78e69c06c9f",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gemini::gemini-4-argon",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon",
+        "slug": "gemini-4-argon",
+        "slugAliases": [
+          "gemini-4-argon"
+        ],
+        "displayName": "Gemini 4 Argon",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.1,
+          "input_audio $/M": 2
+        },
+        "availability": [
+          "Google",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "3eab44154f3dfc6a4e913378603704acc16f61848645e5bfe014ab55d309c5e2",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gemini::gemini-4-argon",
+        "owner": "Google DeepMind",
+        "vendorId": "google",
+        "family": "Gemini",
+        "familyId": "gemini",
+        "modelId": "gemini-4-argon",
+        "slug": "gemini-4-argon",
+        "slugAliases": [
+          "gemini-4-argon"
+        ],
+        "displayName": "Gemini 4 Argon",
+        "modalities": [
+          "audio",
+          "code",
+          "image",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "4",
+        "capabilities": {
+          "version": "4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2026-03",
+          "accepts": "audio, image, text, video",
+          "mode": "chat",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 200000,
+          "maxOutputTokens": 65536
+        },
+        "pricing": {
+          "input $/M": 2,
+          "output $/M": 10,
+          "cache_read $/M": 0.1,
+          "input_audio $/M": 2
+        },
+        "availability": [
+          "NanoGPT",
+          "OpenCode",
+          "Vercel AI Gateway",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://opencode.ai/v2/docs/console/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "ae9a9896f82a687706151182bed554d309abb0a1cf4641a3d9b0cfc9a03c3567",
+        "firstSeen": "2026-10-13T20:50:44.253Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "3cb4763a717851564abb2e49",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-5-4-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.4-mini",
+        "slug": "gpt-5.4-mini",
+        "slugAliases": [
+          "gpt-5.4-mini"
+        ],
+        "displayName": "GPT-5.4 mini",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "mini",
+        "capabilities": {
+          "tier": "mini",
+          "version": "5.4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 4.5,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "Abacus",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "03fa6a222af2670f4901e13aa715d31e358003e16c38b2b58da30b8ef67e2a3c",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gpt::gpt-5-4-mini",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5-4-mini",
+        "slug": "gpt-5-4-mini",
+        "slugAliases": [
+          "gpt-5-4-mini",
+          "gpt-5.4-mini"
+        ],
+        "displayName": "GPT-5.4 mini",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "mini",
+        "capabilities": {
+          "tier": "mini",
+          "version": "5.4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "mode": "chat",
+          "vision": true,
+          "webSearch": true
+        },
+        "limits": {
+          "contextTokens": 400000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.75,
+          "output $/M": 4.5,
+          "cache_read $/M": 0.075
+        },
+        "availability": [
+          "Databricks",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "aihubmix",
+          "benchmark listing"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://aihubmix.com/api/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "721a109853f505cdea574233d69cef36ed18cfceb255c81b834ee9c0196aad08",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability",
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "fd7593af9b1dfb3d2ffd9c52",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-5-4-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5.4-nano",
+        "slug": "gpt-5.4-nano",
+        "slugAliases": [
+          "gpt-5.4-nano"
+        ],
+        "displayName": "GPT-5.4 nano",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "5.4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "mode": "responses",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 272000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1.25,
+          "cache_read $/M": 0.02
+        },
+        "availability": [
+          "Abacus",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://abacus.ai/help/api",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "8018ff3e1fa078ec9e5a93c4408e1a28b02c4da0dcc1e1f4fc06d9622d9043f7",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gpt::gpt-5-4-nano",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-5-4-nano",
+        "slug": "gpt-5-4-nano",
+        "slugAliases": [
+          "gpt-5-4-nano",
+          "gpt-5.4-nano"
+        ],
+        "displayName": "GPT-5.4 nano",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "5.4",
+        "tier": "nano",
+        "capabilities": {
+          "tier": "nano",
+          "version": "5.4",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": true,
+          "openWeights": false,
+          "knowledgeCutoff": "2025-08-31",
+          "accepts": "image, text",
+          "mode": "responses",
+          "vision": true
+        },
+        "limits": {
+          "contextTokens": 272000,
+          "maxOutputTokens": 128000
+        },
+        "pricing": {
+          "input $/M": 0.2,
+          "output $/M": 1.25,
+          "cache_read $/M": 0.02
+        },
+        "availability": [
+          "Databricks",
+          "NanoGPT",
+          "Vercel AI Gateway",
+          "benchmark listing",
+          "github_copilot"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-03-17",
+        "confidence": "emerging",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "benchmark:arena",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard",
+            "observedAt": "2026-09-24T18:27:59.354Z"
+          },
+          {
+            "sourceId": "benchmark:arena-text",
+            "sourceKind": "benchmark",
+            "url": "https://lmarena.ai/leaderboard/text",
+            "observedAt": "2026-10-12T19:12:36.614Z"
+          }
+        ],
+        "fingerprint": "fb4314636a9f3c97939812341c2d93b2462088896e183b7a7ab83bceacf8fe3f",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability",
+        "modelId",
+        "slug"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "09a20d7b0147fb89ff2fd0b4",
+      "type": "updated",
+      "importance": "minor",
+      "before": {
+        "key": "gpt::gpt-oss-20b",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-oss-20b",
+        "slug": "gpt-oss-20b",
+        "slugAliases": [
+          "gpt-oss-20b"
+        ],
+        "displayName": "GPT OSS 20B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "20B",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.024,
+          "completion $/M": 0.112,
+          "input $/M": 0.0145,
+          "output $/M": 0.07
+        },
+        "availability": [
+          "DeepInfra",
+          "Hugging Face",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "darkbloom",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:openai:openai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/openai/gpt-oss-20b",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://huggingface.co/docs/inference-providers",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.darkbloom.dev/",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-08T09:50:24.036Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-oss-20b:batch",
+            "observedAt": "2026-10-19T22:56:00.610Z"
+          }
+        ],
+        "fingerprint": "87709b7eb8943a4a249972bf7cde6338688d7bc5fedd7b1b6614d3b1b100388a",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-19T22:56:00.610Z"
+      },
+      "after": {
+        "key": "gpt::gpt-oss-20b",
+        "owner": "OpenAI",
+        "vendorId": "openai",
+        "family": "GPT",
+        "familyId": "gpt",
+        "modelId": "gpt-oss-20b",
+        "slug": "gpt-oss-20b",
+        "slugAliases": [
+          "gpt-oss-20b"
+        ],
+        "displayName": "GPT OSS 20B",
+        "modalities": [
+          "code",
+          "text"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "capabilities": {
+          "accepts": "text",
+          "parameters": "20B",
+          "reasoning": true,
+          "toolCalling": true,
+          "structuredOutput": true,
+          "attachments": false,
+          "openWeights": true,
+          "mode": "chat"
+        },
+        "limits": {
+          "contextTokens": 131072,
+          "maxOutputTokens": 32768
+        },
+        "pricing": {
+          "prompt $/M": 0.024,
+          "completion $/M": 0.112,
+          "input $/M": 0.0145,
+          "output $/M": 0.07
+        },
+        "availability": [
+          "Cloudflare Workers AI",
+          "DeepInfra",
+          "NanoGPT",
+          "Novita AI",
+          "OpenRouter",
+          "Vercel AI Gateway",
+          "darkbloom",
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2025-08-04",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:openai:openai",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/openai/gpt-oss-20b",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:models-dev",
+            "sourceKind": "catalog",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "catalog:litellm",
+            "sourceKind": "catalog",
+            "url": "https://www.darkbloom.dev/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:vercel-gateway",
+            "sourceKind": "platform",
+            "url": "https://ai-gateway.vercel.sh/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:deepinfra",
+            "sourceKind": "platform",
+            "url": "https://api.deepinfra.com/v1/openai/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "platform:novita",
+            "sourceKind": "platform",
+            "url": "https://api.novita.ai/v3/openai/models",
+            "observedAt": "2026-10-08T09:50:24.036Z"
+          },
+          {
+            "sourceId": "platform:nano-gpt",
+            "sourceKind": "platform",
+            "url": "https://api.nano-gpt.com/v1/models",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          },
+          {
+            "sourceId": "aggregator:openrouter",
+            "sourceKind": "aggregator",
+            "url": "https://openrouter.ai/openai/gpt-oss-20b:batch",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "f89fce2cdd1a3923bc123ec8c9aaad1a49287def00604afd5ea32d144ed209eb",
+        "firstSeen": "2026-07-25T04:30:52.615Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "availability"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "0b9644067444d2ad978d5366",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2026-06-02",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2026-06-02",
+        "slug": "Runway 2026-06-02",
+        "slugAliases": [
+          "Runway 2026-06-02"
+        ],
+        "displayName": "Runway 2026-06-02",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2026.06",
+        "capabilities": {
+          "version": "2026.06"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "465812c2f4c4c3a1a96dfc7a081aeef3d541d81abc6bb3c1e05469948625daef",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "614e634439c85421ee4270ba",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2026-02-10",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2026-02-10",
+        "slug": "Runway 2026-02-10",
+        "slugAliases": [
+          "Runway 2026-02-10"
+        ],
+        "displayName": "Runway 2026-02-10",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2026.02",
+        "capabilities": {
+          "version": "2026.02"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "3ed2a4062ef20843c911edf4d798f72a8a6c5f95ac8f878e667660ad2cf5e84e",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "084d5917f7bfc4697444ea80",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2025-04-04",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2025-04-04",
+        "slug": "Runway 2025-04-04",
+        "slugAliases": [
+          "Runway 2025-04-04"
+        ],
+        "displayName": "Runway 2025-04-04",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2025.04",
+        "capabilities": {
+          "version": "2025.04"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "146f51915e17804b1a8d8738b89a372fb150eb7e0b9f7db0c0f90b4032e90da8",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "3749bd4083d00ef6ed64bf8b",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2025-07-21",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2025-07-21",
+        "slug": "Runway 2025-07-21",
+        "slugAliases": [
+          "Runway 2025-07-21"
+        ],
+        "displayName": "Runway 2025-07-21",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2025.07",
+        "capabilities": {
+          "version": "2025.07"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "9fb10aae1022fb4ef0d67ed34af38f855ed9d298900b9121afbefe750137f696",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "dbbb72aaf338a8c876c812af",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2025-08-19",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2025-08-19",
+        "slug": "Runway 2025-08-19",
+        "slugAliases": [
+          "Runway 2025-08-19"
+        ],
+        "displayName": "Runway 2025-08-19",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2025.08",
+        "capabilities": {
+          "version": "2025.08"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "51d84a8d961a9cc676f2dc99329866018cd2d0af7de333864c446833ce85c512",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "2dbf6d8fa3e0afd9dac0676e",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2025-05-16",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2025-05-16",
+        "slug": "Runway 2025-05-16",
+        "slugAliases": [
+          "Runway 2025-05-16"
+        ],
+        "displayName": "Runway 2025-05-16",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2025.05",
+        "capabilities": {
+          "version": "2025.05"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "f8d3e7adc26f90c8203585cc7b1421c75330da8d2557b43b03e87a4edb5b4a17",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "e91750cd6bcb940b76d02500",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2026-08-06",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2026-08-06",
+        "slug": "Runway 2026-08-06",
+        "slugAliases": [
+          "Runway 2026-08-06"
+        ],
+        "displayName": "Runway 2026-08-06",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2026.08",
+        "capabilities": {
+          "version": "2026.08"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "0cb1657373d2b3fdaf8ba00f5a17d03b1d97c8c2227e15e76fdafaeadb326363",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "858377227fa1b82f486fcf80",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2026-09-17",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2026-09-17",
+        "slug": "Runway 2026-09-17",
+        "slugAliases": [
+          "Runway 2026-09-17"
+        ],
+        "displayName": "Runway 2026-09-17",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2026.09",
+        "capabilities": {
+          "version": "2026.09"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "faacfa3f5fb80950a40b39fac0f03d2514d7d361f547ea3eb486fa075a0ac872",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "44980f37f2800c7771e00dc2",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "runway-gen::runway-2026-08-20",
+        "owner": "Runway",
+        "vendorId": "runway",
+        "family": "Runway Gen",
+        "familyId": "runway-gen",
+        "modelId": "Runway 2026-08-20",
+        "slug": "Runway 2026-08-20",
+        "slugAliases": [
+          "Runway 2026-08-20"
+        ],
+        "displayName": "Runway 2026-08-20",
+        "modalities": [
+          "image",
+          "video"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "version": "2026.08",
+        "capabilities": {
+          "version": "2026.08"
+        },
+        "limits": {},
+        "availability": [
+          "documented"
+        ],
+        "lifecycle": "available",
+        "confidence": "candidate",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:page:runway",
+            "sourceKind": "official-page",
+            "url": "https://docs.dev.runwayml.com/guides/models/",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "2425722406193a3ca7ad2230bcf355be0f07d922b21d365f7bc0ca698e257035",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "announcement"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "8b2c8d8fd4ed3d6ac9e691e8",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cosmos::cosmos-anomalygen-glass-nano",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Cosmos",
+        "familyId": "cosmos",
+        "modelId": "Cosmos-AnomalyGen-Glass-Nano",
+        "slug": "Cosmos-AnomalyGen-Glass-Nano",
+        "slugAliases": [
+          "Cosmos-AnomalyGen-Glass-Nano"
+        ],
+        "displayName": "Cosmos-AnomalyGen-Glass-Nano",
+        "modalities": [
+          "video",
+          "world"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "nano",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "nano"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Cosmos-AnomalyGen-Glass-Nano",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "de07356af75945b2f6d7c404d4dd34d2f8fe70a53437d75960dd28566070439c",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "f4cad9130c41fb78abbe4d5f",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cosmos::cosmos-anomalygen-metal-nano",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Cosmos",
+        "familyId": "cosmos",
+        "modelId": "Cosmos-AnomalyGen-Metal-Nano",
+        "slug": "Cosmos-AnomalyGen-Metal-Nano",
+        "slugAliases": [
+          "Cosmos-AnomalyGen-Metal-Nano"
+        ],
+        "displayName": "Cosmos-AnomalyGen-Metal-Nano",
+        "modalities": [
+          "video",
+          "world"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "nano",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "nano"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Cosmos-AnomalyGen-Metal-Nano",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "5f1c4eb2f762100d25c5df09e055d285e51c9a95d98c381b516aed464a36c98e",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
+    },
+    {
+      "id": "5bf342a3e354343592e62dca",
+      "type": "added",
+      "importance": "minor",
+      "after": {
+        "key": "cosmos::cosmos-anomalygen-pcb-nano",
+        "owner": "NVIDIA",
+        "vendorId": "nvidia",
+        "family": "Cosmos",
+        "familyId": "cosmos",
+        "modelId": "Cosmos-AnomalyGen-PCB-Nano",
+        "slug": "Cosmos-AnomalyGen-PCB-Nano",
+        "slugAliases": [
+          "Cosmos-AnomalyGen-PCB-Nano"
+        ],
+        "displayName": "Cosmos-AnomalyGen-PCB-Nano",
+        "modalities": [
+          "video",
+          "world"
+        ],
+        "channel": "ga",
+        "slugClass": "model",
+        "tier": "nano",
+        "capabilities": {
+          "openWeights": true,
+          "tier": "nano"
+        },
+        "limits": {},
+        "availability": [
+          "open weights"
+        ],
+        "lifecycle": "available",
+        "releaseDate": "2026-10-13",
+        "confidence": "verified",
+        "attributionVerified": true,
+        "evidence": [
+          {
+            "sourceId": "official:hf:nvidia:nvidia",
+            "sourceKind": "official-repo",
+            "url": "https://huggingface.co/nvidia/Cosmos-AnomalyGen-PCB-Nano",
+            "observedAt": "2026-10-20T01:28:37.426Z"
+          }
+        ],
+        "fingerprint": "8301b875497775a5e6707738933b56cadd649a4108e4b2602e82f2a20df6c0a7",
+        "firstSeen": "2026-10-20T01:28:37.426Z",
+        "lastChanged": "2026-10-20T01:28:37.426Z"
+      },
+      "changedFields": [
+        "model"
+      ],
+      "detectedAt": "2026-10-20T01:28:37.426Z"
     }
   ],
   "lastPostedLocalDate": "2026-07-22"
